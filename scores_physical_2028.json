@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "physical_exposure_2028": 0,
+    "rationale": "Accountants perform financial analysis, tax preparation, and auditing. This is entirely desk-based knowledge work with no physical labor component."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "physical_exposure_2028": 0,
+    "rationale": "Actors perform dramatic roles. Creative human performance that robots cannot meaningfully replicate."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "physical_exposure_2028": 0,
+    "rationale": "Actuaries analyze risk using mathematics and statistics. This is purely computational and analytical knowledge work with no physical component."
+  },
+  {
+    "slug": "administrative-services-managers",
+    "title": "Administrative services and facilities managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Administrative services managers coordinate office operations and facilities. While they oversee physical facilities, their work is managerial with no direct physical labor."
+  },
+  {
+    "slug": "adult-literacy-and-ged-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Advertising sales agents sell ad space through client meetings and presentations. This is interpersonal sales work with no physical labor component."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Marketing managers plan and oversee promotional campaigns. This is entirely strategic and managerial knowledge work."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "physical_exposure_2028": 3,
+    "rationale": "Aerospace technicians install, test, and maintain equipment in structured aerospace facilities. They perform hands-on physical tasks in controlled environments, with some automation potential for testing and calibration."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Aerospace engineers design aircraft and spacecraft using engineering software and analysis. This is knowledge work with no physical labor for robots to automate."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "These technicians work in labs and fields collecting samples and running tests. The lab component is semi-structured but involves varied procedures; field work adds environmental variability. Limited robotic exposure by 2028."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "physical_exposure_2028": 0,
+    "rationale": "Agricultural and food scientists primarily conduct research and analysis. Their work is predominantly knowledge-based with some lab work, but not physical labor that robots would automate."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Agricultural engineers design equipment and systems. Their work is primarily engineering design and analysis - knowledge work that is not exposed to physical robotic automation."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "physical_exposure_2028": 4,
+    "rationale": "Agricultural workers perform physical labor in fields including planting, tending, and harvesting crops. Large-scale operations are piloting robotic harvesting for certain crops, but variable outdoor conditions and crop diversity limit exposure."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "physical_exposure_2028": 0,
+    "rationale": "Air traffic control is primarily a cognitive and communication task performed at computer workstations. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Aircraft mechanics perform highly regulated maintenance in hangar environments. While somewhat structured, the precision requirements and safety-critical nature mean human oversight remains essential by 2028."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "physical_exposure_2028": 1,
+    "rationale": "Commercial aviation already has extensive autopilot systems, but regulatory requirements mandate human pilots in the cockpit. Full autonomous commercial flight is not deployed or permitted by 2028."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "physical_exposure_2028": 1,
+    "rationale": "Animal care involves handling live animals in variable settings, requiring responsiveness to unpredictable animal behavior. The judgment and dexterity needed for animal handling are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "announcers",
+    "title": "Announcers and DJs",
+    "physical_exposure_2028": 0,
+    "rationale": "Announcers present information via broadcast media. Communication work with no physical labor."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "physical_exposure_2028": 1,
+    "rationale": "Archeologists perform some fieldwork involving excavation, but the primary role is research and analysis. Field excavation in unpredictable sites limits robotic exposure."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "physical_exposure_2028": 0,
+    "rationale": "Mediators facilitate dispute resolution through communication. This is entirely interpersonal and cognitive work."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "physical_exposure_2028": 0,
+    "rationale": "Architects design buildings using CAD software and creative judgment. This is entirely knowledge-based design work with no physical labor component."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Engineering managers oversee technical teams and projects. This is managerial and strategic work with no physical labor component."
+  },
+  {
+    "slug": "curators-museum-technicians-and-conservators",
+    "title": "Archivists, curators, and museum workers",
+    "physical_exposure_2028": 1,
+    "rationale": "Museum workers handle, preserve, and display artifacts. While some handling is in controlled settings, the delicate and varied nature of artifacts limits robotic involvement by 2028."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "physical_exposure_2028": 0,
+    "rationale": "Art directors manage visual aspects of creative projects. This is creative knowledge work with no physical labor component."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "physical_exposure_2028": 7,
+    "rationale": "Assemblers work in structured factory environments performing repetitive assembly tasks. Humanoid robots and robotic arms are being commercially deployed for these tasks in automotive and electronics manufacturing by 2028."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "physical_exposure_2028": 0,
+    "rationale": "Athletes compete in physical sports. While physically demanding, this is human performance and competition that robots cannot replace."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "physical_exposure_2028": 1,
+    "rationale": "Athletic trainers provide injury prevention and rehabilitation through physical assessment and treatment. The varied athletic contexts and individualized physical care limit robotic exposure by 2028."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Meteorologists analyze weather data and create forecasts. This is entirely knowledge-based analytical work."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "physical_exposure_2028": 1,
+    "rationale": "Audiologists diagnose hearing disorders and fit devices. While their work involves some physical testing equipment use, it is primarily diagnostic and clinical with minimal physical labor exposure to robotics."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "physical_exposure_2028": 2,
+    "rationale": "Auto body repair involves assessing and fixing unique damage on different vehicles. The variability of each repair job and need for skilled manual work makes robotic replacement impractical by 2028."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "physical_exposure_2028": 2,
+    "rationale": "Auto mechanics diagnose and repair varied vehicle issues requiring skilled dexterity and problem-solving. Each repair is different, and the variable positioning and access requirements limit robotic deployment by 2028."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "physical_exposure_2028": 4,
+    "rationale": "Commercial baking involves repetitive production of standardized products in semi-structured environments. Industrial bakeries use significant automation; smaller operations less so. Moderate robotic exposure by 2028."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "physical_exposure_2028": 2,
+    "rationale": "Hairstyling and barbering require skilled dexterity with varied hair types and customer preferences. The fine motor control and creative adaptation needed are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "physical_exposure_2028": 2,
+    "rationale": "Bartending combines drink preparation with significant social interaction in variable settings. While robotic bartenders exist as novelties, the social and creative aspects of the role limit meaningful exposure by 2028."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "physical_exposure_2028": 0,
+    "rationale": "Bill collectors contact debtors by phone and manage accounts. This is communication and administrative work with no physical labor."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "physical_exposure_2028": 1,
+    "rationale": "Biochemists work primarily in labs conducting experiments. Lab automation handles some routine tasks, but the research-oriented nature of their work is primarily cognitive."
+  },
+  {
+    "slug": "biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Biomedical engineers design medical equipment and devices. This is engineering design knowledge work."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Biological technicians work in labs performing experiments and maintaining equipment. Lab environments are structured and some sample handling is automatable, but varied procedures limit full robotic exposure."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "physical_exposure_2028": 2,
+    "rationale": "Boilermakers fabricate, install, and maintain boilers in industrial settings. While some factory fabrication is automated, field installation and repair in varied environments requires skilled manual work beyond 2028 robotics."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "physical_exposure_2028": 0,
+    "rationale": "Bookkeeping clerks maintain financial records and process transactions. This is entirely desk-based clerical work."
+  },
+  {
+    "slug": "broadcast-and-sound-engineering-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Broadcast technicians set up and operate audio/video equipment. While some tasks involve physical setup, the technical judgment and variable venues limit robotic exposure."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Budget analysts review financial data and prepare budget reports. This is entirely desk-based analytical work."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "physical_exposure_2028": 3,
+    "rationale": "Bus driving requires navigating fixed routes but in complex urban traffic with passenger interactions. Autonomous buses are in limited pilots in controlled settings, but widespread deployment is not yet reached by 2028."
+  },
+  {
+    "slug": "butchers-and-meat-cutters",
+    "title": "Butchers",
+    "physical_exposure_2028": 4,
+    "rationale": "Butchering involves repetitive cutting tasks in structured processing environments. Large meat processing plants are deploying robotic cutting systems, though the variability of animal anatomy limits full automation."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "physical_exposure_2028": 3,
+    "rationale": "Calibration technicians test and adjust precision instruments in structured lab/factory environments. The controlled settings and repetitive testing procedures offer moderate automation potential by 2028."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Cardiovascular techs operate diagnostic equipment and assist with cardiac procedures. The work involves medical equipment operation with patient interaction, but limited physical labor for robots to automate."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "physical_exposure_2028": 2,
+    "rationale": "Carpenters work in highly variable job sites performing skilled manual work with diverse materials. Every project differs, and the unstructured nature of construction sites makes robotic deployment impractical by 2028."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "physical_exposure_2028": 0,
+    "rationale": "Cartographers create maps using geographic data and software. This is knowledge-based technical work."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "physical_exposure_2028": 5,
+    "rationale": "Cashier work in retail involves repetitive scanning and payment processing in structured environments. Self-checkout and automated payment systems are widely deployed, and cashierless stores are expanding by 2028."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "physical_exposure_2028": 2,
+    "rationale": "Chefs create dishes requiring creativity, taste judgment, and varied techniques. Their role emphasizes culinary creativity and management beyond repetitive preparation, limiting robotic exposure."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Chemical engineers design chemical processes and equipment. This is engineering knowledge work with no physical labor component."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Chemical technicians work in labs performing tests and monitoring processes. Lab environments are structured, and some routine testing is automatable, but varied chemical procedures limit full exposure."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "physical_exposure_2028": 1,
+    "rationale": "Chemists conduct research primarily in laboratories. While lab automation handles some routine analysis, the research nature of the work is primarily cognitive."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "physical_exposure_2028": 0,
+    "rationale": "Childcare workers care for children requiring constant attention, empathy, and adaptive responses. The safety-critical nature and need for human nurturing make robotic replacement inappropriate and infeasible."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "physical_exposure_2028": 1,
+    "rationale": "Chiropractors perform manual spinal adjustments requiring precise physical manipulation and patient-specific judgment. The intimate, varied physical techniques are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "civil-engineering-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Civil engineering technicians assist with plans and field measurements. Some field work involves physical tasks, but the role is primarily technical support work."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Civil engineers design infrastructure projects using engineering analysis and software. This is knowledge work with no physical labor component."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "physical_exposure_2028": 0,
+    "rationale": "Claims adjusters review insurance claims and investigate losses. This is primarily analytical and investigative desk work."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "physical_exposure_2028": 4,
+    "rationale": "Lab techs process samples and run tests in structured laboratory environments with standardized procedures. Lab automation and robotic sample handling systems are commercially deployed in large reference laboratories by 2028."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "physical_exposure_2028": 0,
+    "rationale": "Coaches and scouts train athletes and evaluate talent. Their work is interpersonal leadership and observation with no physical labor for robots to automate."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "physical_exposure_2028": 0,
+    "rationale": "Community health workers provide outreach and education in communities. Their work is interpersonal and educational with no physical labor for robots to automate."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Compensation managers oversee pay and benefits programs. This is entirely administrative and strategic knowledge work."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "These specialists analyze compensation data and job descriptions. Entirely desk-based analytical work."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "physical_exposure_2028": 0,
+    "rationale": "Compliance officers ensure regulatory adherence through review and assessment. This is knowledge-based regulatory work."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "physical_exposure_2028": 0,
+    "rationale": "Computer scientists conduct research in computing. Entirely knowledge-based technical work."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "physical_exposure_2028": 0,
+    "rationale": "IT managers oversee technology operations and strategy. Managerial knowledge work with no physical component."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "physical_exposure_2028": 1,
+    "rationale": "Hardware engineers design computer components, with some prototype testing. The work is primarily design-focused knowledge work with minimal physical lab component."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "physical_exposure_2028": 0,
+    "rationale": "Network architects design computer networks. Entirely knowledge-based technical work."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "physical_exposure_2028": 0,
+    "rationale": "Programmers write and test code. Entirely desk-based knowledge work."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "physical_exposure_2028": 1,
+    "rationale": "Some IT support involves physical hardware setup and troubleshooting, but the majority of support is remote/desk-based. Physical component is limited."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Systems analysts study computer systems and design solutions. Entirely knowledge-based analytical work."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "physical_exposure_2028": 0,
+    "rationale": "Concierges provide information and services to guests through interpersonal interaction. This is service-oriented communication work."
+  },
+  {
+    "slug": "conservation-scientists",
+    "title": "Conservation scientists and foresters",
+    "physical_exposure_2028": 0,
+    "rationale": "Conservation scientists conduct research and develop plans for land management. Their work is primarily knowledge-based with some fieldwork, but not physical labor exposed to robotic automation."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "physical_exposure_2028": 1,
+    "rationale": "Building inspectors visit diverse construction sites to evaluate compliance. Their work requires professional judgment in variable environments; drone-based inspection assists but doesn't replace the physical inspection role by 2028."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "physical_exposure_2028": 3,
+    "rationale": "Heavy equipment operation on construction sites involves semi-structured tasks. Autonomous bulldozers and excavators are in pilot programs for grading and excavation, but complex site conditions limit widespread deployment by 2028."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "physical_exposure_2028": 2,
+    "rationale": "Construction laborers perform diverse physical tasks across highly variable and unstructured job sites. While some material handling could theoretically be automated, the chaotic nature of construction limits robotic deployment by 2028."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Construction managers primarily plan, coordinate, and oversee projects. Their work is managerial and cognitive, with site visits but no physical labor component that robots would automate."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "physical_exposure_2028": 4,
+    "rationale": "Cooks prepare food in commercial kitchens, a semi-structured environment. Fast-food chains are piloting robotic food prep for limited menu items by 2028, but full-service cooking with varied recipes remains largely manual."
+  },
+  {
+    "slug": "correctional-officers",
+    "title": "Correctional officers and bailiffs",
+    "physical_exposure_2028": 1,
+    "rationale": "Correctional officers supervise inmates in secure but unpredictable environments requiring human judgment and physical intervention. The security and interpersonal aspects limit robotic deployment by 2028."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "physical_exposure_2028": 0,
+    "rationale": "Cost estimators analyze data to estimate project costs. Desk-based analytical work."
+  },
+  {
+    "slug": "court-reporters",
+    "title": "Court reporters and simultaneous captioners",
+    "physical_exposure_2028": 0,
+    "rationale": "Court reporters transcribe legal proceedings. Desk-based specialized transcription work."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "physical_exposure_2028": 1,
+    "rationale": "Fine artists create artwork using physical materials and techniques. The creative, expressive nature of art-making is beyond robotic capability, though some tools may assist."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "physical_exposure_2028": 0,
+    "rationale": "Credit counselors advise people on financial matters. Interpersonal advisory work with no physical component."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "physical_exposure_2028": 0,
+    "rationale": "Customer service reps handle inquiries by phone and computer. Desk-based communication work."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "physical_exposure_2028": 0,
+    "rationale": "Dancers perform artistic physical movement for entertainment. While physically demanding, this is creative performance art that robots cannot meaningfully replicate."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "physical_exposure_2028": 0,
+    "rationale": "Data scientists analyze data using statistical methods and programming. Entirely desk-based knowledge work."
+  },
+  {
+    "slug": "database-administrators",
+    "title": "Database administrators and architects",
+    "physical_exposure_2028": 0,
+    "rationale": "Database administrators manage and maintain data systems. Entirely desk-based technical work."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driver-sales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "physical_exposure_2028": 4,
+    "rationale": "Delivery driving involves navigating varied urban/suburban routes and physically handling packages at diverse delivery points. Autonomous last-mile delivery is in early pilots but the physical delivery component in unstructured environments limits exposure."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "physical_exposure_2028": 4,
+    "rationale": "Lab technicians fabricate dental appliances and medical devices in structured workshop environments. CAD/CAM and automated milling are increasingly deployed for dental prosthetics by 2028."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "physical_exposure_2028": 1,
+    "rationale": "Dental assistants support dentists with instruments and patient care in variable clinical situations. The role requires quick responsiveness and varied manual tasks that are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "physical_exposure_2028": 2,
+    "rationale": "Dental hygienists perform cleaning and examination procedures requiring skilled dexterity in a patient's mouth. The intimate patient contact and variable oral conditions limit robotic deployment by 2028."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "physical_exposure_2028": 1,
+    "rationale": "Dentists perform precise manual procedures in patients' mouths requiring fine dexterity and clinical judgment. The variable patient anatomy and need for real-time clinical decisions limit robotic replacement by 2028."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "physical_exposure_2028": 0,
+    "rationale": "Desktop publishers format text and graphics for publication. Desk-based design work."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "physical_exposure_2028": 1,
+    "rationale": "Sonographers operate ultrasound equipment requiring skilled probe manipulation adapted to each patient. While AI aids image interpretation, the physical scanning technique requires adaptive human touch."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "physical_exposure_2028": 2,
+    "rationale": "Diesel mechanics maintain and repair large engines and vehicles with varied issues. The diagnostic complexity and variable physical access requirements limit robotic deployment by 2028."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "physical_exposure_2028": 0,
+    "rationale": "Dietitians develop nutrition programs and counsel patients. Their work is knowledge-based and interpersonal with no physical labor component."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "physical_exposure_2028": 0,
+    "rationale": "Drafters create technical drawings using CAD software. Desk-based technical work."
+  },
+  {
+    "slug": "drywall-and-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "physical_exposure_2028": 2,
+    "rationale": "Drywall installation involves physical labor in variable building interiors. Construction robotics for drywall finishing are in very early development; the varied environments make deployment impractical by 2028."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "physical_exposure_2028": 0,
+    "rationale": "Economists study economic data and develop forecasts. Entirely analytical knowledge work."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "physical_exposure_2028": 0,
+    "rationale": "Editors review and revise written content. Desk-based knowledge work."
+  },
+  {
+    "slug": "electrical-and-electronics-engineering-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "EE technicians build, test, and repair electronic equipment in labs and factories. The physical component involves hands-on work in somewhat structured environments, but varied equipment limits automation."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Electrical engineers design electrical systems. Primarily knowledge-based engineering work."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "physical_exposure_2028": 2,
+    "rationale": "Electrical/electronics repair involves troubleshooting and fixing varied equipment in different settings. The diagnostic complexity and variable environments limit robotic replacement by 2028."
+  },
+  {
+    "slug": "line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "physical_exposure_2028": 1,
+    "rationale": "Power-line workers perform dangerous work at heights on utility poles and towers in variable outdoor environments. The hazardous, unpredictable conditions are well beyond current robotic capabilities."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "physical_exposure_2028": 2,
+    "rationale": "Electricians perform skilled wiring and installation in variable residential and commercial buildings. Fine dexterity in unpredictable environments with different building layouts makes robotic replacement infeasible by 2028."
+  },
+  {
+    "slug": "electro-mechanical-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "physical_exposure_2028": 3,
+    "rationale": "Electro-mechanical technicians test and maintain automated equipment in structured industrial environments. Their work involves hands-on calibration and repair in controlled settings with moderate automation potential."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "physical_exposure_2028": 0,
+    "rationale": "Education administrators perform management, planning, and coordination. Their work is entirely administrative and cognitive with no physical labor component."
+  },
+  {
+    "slug": "elevator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "physical_exposure_2028": 1,
+    "rationale": "Elevator installation and repair involves complex mechanical work in confined, variable building shafts. The highly specialized manual tasks in unpredictable environments are beyond robotic capabilities by 2028."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "physical_exposure_2028": 0,
+    "rationale": "Emergency management directors plan and coordinate disaster response. This is managerial and planning work."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "physical_exposure_2028": 1,
+    "rationale": "EMTs and paramedics respond to emergencies in highly unpredictable environments requiring rapid physical intervention. The chaotic, uncontrolled settings are among the most challenging for robotic deployment."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Recreation managers oversee facilities and programs. Managerial work with no physical labor."
+  },
+  {
+    "slug": "environmental-engineering-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Environmental engineering techs collect samples and test in labs and field. Mixed lab/field work with some physical component, but primarily technical support."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Environmental engineers design solutions for environmental problems. Knowledge-based engineering work."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Environmental techs collect field samples and perform lab tests. Some physical fieldwork and lab work, but variable outdoor conditions limit robotic exposure."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Environmental scientists conduct research and analysis. Primarily knowledge-based work with some fieldwork."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Epidemiologists study disease patterns using data analysis. Their work is entirely knowledge-based with no physical labor component."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Exercise physiologists design fitness programs based on clinical assessment. Their work is primarily knowledge-based with patient instruction, not physical labor exposed to robotic automation."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "physical_exposure_2028": 1,
+    "rationale": "Farm managers primarily make business and operational decisions. While they may perform some physical tasks, their role is predominantly managerial and not directly exposed to robotic physical automation."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "physical_exposure_2028": 0,
+    "rationale": "Fashion designers create clothing designs. Creative knowledge work with some physical prototype making, but primarily design-focused."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "physical_exposure_2028": 1,
+    "rationale": "Camera operators handle physical equipment on varied sets, but editing is desk-based. The physical camera work occurs in variable environments limiting robotic exposure."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Financial analysts evaluate investments using data analysis. Entirely desk-based knowledge work."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "physical_exposure_2028": 0,
+    "rationale": "Financial clerks process financial transactions and maintain records. Desk-based clerical work."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "physical_exposure_2028": 0,
+    "rationale": "Financial examiners review financial institutions for compliance. Desk-based regulatory work."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Financial managers oversee financial operations. Managerial knowledge work."
+  },
+  {
+    "slug": "fire-inspectors-and-investigators",
+    "title": "Fire inspectors",
+    "physical_exposure_2028": 1,
+    "rationale": "Fire inspectors examine buildings for compliance, involving site visits to varied structures. The diverse environments and judgment required limit robotic exposure, though drone inspection assists in some cases."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "physical_exposure_2028": 1,
+    "rationale": "Firefighters operate in extremely unpredictable, hazardous environments requiring improvisation and physical strength. The chaotic nature of fire and rescue operations makes robotic replacement infeasible by 2028."
+  },
+  {
+    "slug": "fishers-and-related-fishing-workers",
+    "title": "Fishing and hunting workers",
+    "physical_exposure_2028": 1,
+    "rationale": "Commercial fishing involves physical work in highly unpredictable marine environments. The variable conditions, live animal handling, and hazardous settings make robotic replacement infeasible by 2028."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "physical_exposure_2028": 0,
+    "rationale": "Fitness trainers provide instruction, motivation, and exercise guidance. Their work is primarily interpersonal coaching with no physical labor component that robots would automate."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "physical_exposure_2028": 0,
+    "rationale": "Flight attendants perform safety demonstrations, serve passengers, and handle emergencies in a confined but highly variable human-interaction environment. Robotic replacement is not feasible by 2028."
+  },
+  {
+    "slug": "tile-and-marble-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "physical_exposure_2028": 2,
+    "rationale": "Flooring and tile installation involves skilled manual work in varied interior environments. Tile-laying robots are in very early prototyping; the variable conditions of each job make deployment limited by 2028."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "physical_exposure_2028": 1,
+    "rationale": "Floral designers create arrangements requiring artistic judgment and fine motor handling of delicate materials. The creative and dexterous nature of the work limits robotic replacement by 2028."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Food servers interact with customers in variable restaurant environments, carrying food and navigating crowded dining areas. While robotic delivery is piloted in some restaurants, the social and dexterous aspects limit exposure."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "physical_exposure_2028": 4,
+    "rationale": "Food prep workers perform repetitive tasks like chopping, portioning, and packaging in commercial kitchens. Fast-food and institutional settings are piloting robotic food prep for standardized tasks by 2028."
+  },
+  {
+    "slug": "food-and-tobacco-processing-workers",
+    "title": "Food processing equipment workers",
+    "physical_exposure_2028": 7,
+    "rationale": "Food processing occurs in structured factory environments with repetitive tasks like sorting, packaging, and machine operation. Robotic automation is actively being deployed in large food processing facilities by 2028."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Food service managers oversee operations, staff, and finances. Their role is primarily managerial and not exposed to physical robotic automation."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Forensic technicians collect evidence at crime scenes and analyze it in labs. Crime scenes are unstructured, but lab analysis is more controlled. Mixed physical/analytical role with limited robotic exposure."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "physical_exposure_2028": 1,
+    "rationale": "Forest workers perform physical labor in highly unstructured outdoor environments. The unpredictable terrain and varied tasks make robotic deployment extremely challenging by 2028."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "physical_exposure_2028": 0,
+    "rationale": "Fundraisers organize campaigns and solicit donations. Interpersonal and strategic work."
+  },
+  {
+    "slug": "funeral-service-occupations",
+    "title": "Funeral service workers",
+    "physical_exposure_2028": 1,
+    "rationale": "Funeral workers prepare bodies and manage services. The sensitive nature of the work and varied procedures limit robotic involvement, though some preparation tasks are semi-structured."
+  },
+  {
+    "slug": "gaming-services-occupations",
+    "title": "Gambling services workers",
+    "physical_exposure_2028": 1,
+    "rationale": "Gambling workers operate games and manage equipment in casino settings. While casinos are structured, the interpersonal nature of table games and varied customer interactions limit robotic exposure."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "physical_exposure_2028": 1,
+    "rationale": "General maintenance workers handle diverse, unpredictable repair tasks across buildings and facilities. The extreme variety of tasks and environments makes this one of the hardest roles for robots to automate."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "physical_exposure_2028": 0,
+    "rationale": "Office clerks perform general administrative tasks. Desk-based clerical work."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "physical_exposure_2028": 0,
+    "rationale": "Genetic counselors provide consultation and education to patients about genetic conditions. This is entirely knowledge and interpersonal work."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "physical_exposure_2028": 0,
+    "rationale": "Geographers study Earth's features and human-geographic relationships. Knowledge-based research work."
+  },
+  {
+    "slug": "geological-and-petroleum-technicians",
+    "title": "Geological and hydrologic technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Geological techs collect field samples and perform lab analysis. Some physical fieldwork in variable conditions, but primarily technical support."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "physical_exposure_2028": 0,
+    "rationale": "Geoscientists study Earth's physical aspects. Knowledge-based research with some fieldwork, but primarily analytical."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "physical_exposure_2028": 2,
+    "rationale": "Glaziers install glass in varied building environments requiring precise fitting and handling of fragile materials. The variable work sites and need for careful dexterity limit robotic deployment by 2028."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "physical_exposure_2028": 0,
+    "rationale": "Graphic designers create visual content using design software. Desk-based creative work."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "physical_exposure_2028": 3,
+    "rationale": "Grounds maintenance includes mowing, trimming, and landscaping in semi-structured outdoor environments. Robotic mowers are commercially available and some tasks are automatable, but varied landscaping work limits full exposure."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "physical_exposure_2028": 6,
+    "rationale": "Material movers in warehouses and factories perform repetitive lifting and transport tasks in structured environments. Humanoid robots and AMRs are being commercially deployed for these tasks in large facilities by 2028."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Hazmat workers remove dangerous materials from varied sites. While robots could assist in hazardous environments, the unpredictable conditions and varied sites limit deployment by 2028."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Health and safety engineers design safety systems and procedures. Knowledge-based engineering work."
+  },
+  {
+    "slug": "health-educators",
+    "title": "Health education specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Health education specialists develop programs and materials to promote health. This is knowledge and communication work with no physical labor."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "physical_exposure_2028": 0,
+    "rationale": "Health IT workers manage electronic health records and medical data systems. Their work is purely knowledge-based and computer-oriented with no physical labor for robots to automate."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "physical_exposure_2028": 2,
+    "rationale": "HVAC technicians install and repair systems in varied buildings with different configurations. The unpredictable access conditions and diagnostic requirements make robotic replacement impractical by 2028."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "physical_exposure_2028": 5,
+    "rationale": "Long-haul trucking on interstate corridors is in advanced autonomous commercial pilots by 2028. However, most routes still require human drivers for last-mile, urban segments, and non-highway portions."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Heavy equipment mechanics work on diverse large machines with varied repair needs. The unstructured environments and diagnostic judgment required are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "physical_exposure_2028": 0,
+    "rationale": "Historians research and analyze historical events. Entirely knowledge-based research work."
+  },
+  {
+    "slug": "home-health-aides-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "physical_exposure_2028": 1,
+    "rationale": "Home health aides provide personal care in diverse residential settings with highly variable patient needs. The unstructured home environments and intimate care requirements are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "physical_exposure_2028": 0,
+    "rationale": "HR managers oversee personnel policies and recruiting. Managerial knowledge work."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "HR specialists handle recruiting and employee relations. Administrative and interpersonal work."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Hydrologists study water distribution and flow. Knowledge-based scientific work."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "physical_exposure_2028": 0,
+    "rationale": "Industrial designers develop product concepts and designs. Creative knowledge work."
+  },
+  {
+    "slug": "industrial-engineering-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Industrial engineering techs assist with factory layout and process improvement, involving some physical work in manufacturing environments. The structured factory setting offers moderate physical exposure."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Industrial engineers design efficient production systems. Knowledge-based engineering work."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "physical_exposure_2028": 3,
+    "rationale": "Industrial machinery mechanics work in factory settings (more structured) maintaining complex equipment. While the environment is more controlled than field work, the diagnostic variety limits full automation by 2028."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Production managers oversee manufacturing operations. Managerial work with no direct physical labor."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "physical_exposure_2028": 0,
+    "rationale": "Information clerks provide information to the public. Desk-based or counter-based communication work."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Security analysts protect computer systems from threats. Entirely desk-based technical work."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "physical_exposure_2028": 0,
+    "rationale": "Education administrators perform management, planning, and coordination. Their work is entirely administrative and cognitive with no physical labor component."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Insulation workers install materials in varied building cavities and structures. The unpredictable access spaces and different building configurations limit robotic deployment by 2028."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Insurance agents sell policies through client meetings. Interpersonal sales work."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "physical_exposure_2028": 0,
+    "rationale": "Underwriters evaluate insurance applications. Desk-based analytical work."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "physical_exposure_2028": 0,
+    "rationale": "Interior designers plan interior spaces. Creative knowledge work."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "physical_exposure_2028": 0,
+    "rationale": "Interpreters translate between languages. Cognitive and communication work."
+  },
+  {
+    "slug": "structural-iron-and-steel-workers",
+    "title": "Ironworkers",
+    "physical_exposure_2028": 1,
+    "rationale": "Ironworkers erect steel structures at heights in dynamic, hazardous construction environments. The highly unstructured and dangerous conditions are far beyond current robotic capabilities by 2028."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "physical_exposure_2028": 4,
+    "rationale": "Janitorial work in large commercial buildings involves repetitive cleaning tasks in semi-structured environments. Robotic floor cleaners are widely deployed, and humanoid robots are being piloted for broader cleaning tasks in large facilities."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Jewelers perform fine manual work with precious materials in workshop settings. The extreme precision and varied designs require skilled human dexterity beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "physical_exposure_2028": 0,
+    "rationale": "Judges preside over legal proceedings. Entirely cognitive and judicial work."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Labor relations specialists handle workplace disputes and negotiations. Interpersonal and analytical work."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "physical_exposure_2028": 0,
+    "rationale": "Landscape architects design outdoor spaces. Creative design knowledge work."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "physical_exposure_2028": 0,
+    "rationale": "Lawyers provide legal representation and advice. Entirely knowledge-based professional work."
+  },
+  {
+    "slug": "librarians",
+    "title": "Librarians and library media specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Librarians manage collections, assist patrons, and organize information. Their work is primarily knowledge-based and interpersonal with minimal physical labor."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "physical_exposure_2028": 1,
+    "rationale": "Library assistants shelve books and manage physical materials in organized environments. While book-sorting automation exists, the varied shelving locations and patron assistance aspects limit robotic exposure."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "physical_exposure_2028": 1,
+    "rationale": "LPNs provide direct patient care including wound dressing, monitoring vitals, and assisting patients. The varied patient conditions and need for clinical judgment limit robotic replacement by 2028."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "physical_exposure_2028": 0,
+    "rationale": "Loan officers evaluate and approve loan applications. Desk-based financial work."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Hotel managers oversee lodging operations. Managerial work."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Logging involves operating heavy machinery and physical labor in variable forest environments. While mechanized logging is common, the unpredictable terrain limits further robotic automation by 2028."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "physical_exposure_2028": 0,
+    "rationale": "Logisticians analyze and coordinate supply chains. Knowledge-based analytical work."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "physical_exposure_2028": 5,
+    "rationale": "Machinists operate precision machine tools in structured shop environments. CNC automation handles much of the machining, and robotic loading/unloading is increasing. But skilled setup and custom work remains manual."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Management consultants analyze business operations. Entirely knowledge-based consulting work."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "physical_exposure_2028": 2,
+    "rationale": "Nail technicians perform fine motor work on clients' hands and feet. The precision required on varied client anatomy and the personal service nature limit robotic deployment by 2028."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "physical_exposure_2028": 0,
+    "rationale": "Marine engineers design ships and marine equipment. Knowledge-based engineering work."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Market researchers analyze consumer data and trends. Desk-based analytical work."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "physical_exposure_2028": 0,
+    "rationale": "Therapists provide counseling to individuals and families. Interpersonal therapeutic work."
+  },
+  {
+    "slug": "brickmasons-blockmasons-and-stonemasons",
+    "title": "Masonry workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Masonry involves skilled manual work in variable outdoor and construction environments. Bricklaying robots exist in early forms but are limited to simple walls; most masonry work remains too variable for robots by 2028."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "physical_exposure_2028": 2,
+    "rationale": "Massage therapists perform skilled manual bodywork requiring sensitivity to tissue and patient feedback. While massage chairs and basic robots exist, therapeutic massage requires adaptive human touch beyond 2028 robotics."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "physical_exposure_2028": 6,
+    "rationale": "Operating forklifts and material-moving equipment in warehouses and factories involves structured, repetitive routes. Autonomous mobile robots and automated guided vehicles are commercially deployed in large facilities by 2028."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "physical_exposure_2028": 4,
+    "rationale": "Material recording involves inventory tracking in warehouses, combining physical counting with data entry. Robotic inventory systems (drones, AMRs with scanners) are being piloted in large warehouses, but much work remains clerical."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Materials engineers develop and test materials. Knowledge-based engineering work."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "physical_exposure_2028": 0,
+    "rationale": "Mathematicians and statisticians analyze data and develop models. Entirely computational knowledge work."
+  },
+  {
+    "slug": "mechanical-engineering-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Mechanical engineering techs build prototypes and test equipment in labs and shops. The hands-on work in semi-structured environments has moderate physical exposure, but varied tasks limit automation."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Mechanical engineers design mechanical systems. Knowledge-based engineering work."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Healthcare managers oversee facilities, staff, and operations. Their work is entirely managerial and administrative with no physical labor component exposed to robotic automation."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "physical_exposure_2028": 1,
+    "rationale": "Medical assistants perform varied clinical and administrative tasks in healthcare settings. The mix of patient interaction, clinical procedures, and administrative work in variable situations limits robotic exposure."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "physical_exposure_2028": 0,
+    "rationale": "Medical dosimetrists calculate radiation doses using specialized software. Their work is primarily computational and knowledge-based with no physical labor component for robots to automate."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "physical_exposure_2028": 2,
+    "rationale": "Medical equipment repair involves diagnosing and fixing diverse electronic and mechanical medical devices. The variety of equipment and clinical settings limits robotic deployment by 2028."
+  },
+  {
+    "slug": "medical-records-and-health-information-technicians",
+    "title": "Medical records specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Medical records specialists organize and manage health data. This is entirely desk-based knowledge work with no physical labor component."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "physical_exposure_2028": 1,
+    "rationale": "Medical scientists conduct research in laboratories, which involves some physical lab work. However, their role is primarily research-focused with lab automation handling routine sample processing."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "physical_exposure_2028": 0,
+    "rationale": "Medical transcriptionists convert voice recordings to written reports. This is purely desk-based knowledge work with no physical component for robots to automate."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "physical_exposure_2028": 0,
+    "rationale": "Event planners coordinate meetings and events. Organizational and interpersonal work."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "physical_exposure_2028": 7,
+    "rationale": "Machine operation in metal and plastics manufacturing involves repetitive tasks in controlled factory settings. Robotic loading/unloading and tending of these machines is commercially deployed by 2028."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "physical_exposure_2028": 1,
+    "rationale": "Microbiologists conduct research in laboratories. While lab work involves some physical handling, the role is primarily research-focused knowledge work."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "physical_exposure_2028": 2,
+    "rationale": "Military careers span a huge range from combat to administrative roles. Physical tasks include equipment operation and maintenance in varied conditions. Some logistics automation is advancing, but most military physical tasks remain manual."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Mining engineers design mining operations. Knowledge-based engineering work."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "physical_exposure_2028": 0,
+    "rationale": "Models pose for visual media. This is a physical but creative/performative role that robots cannot meaningfully replace."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "physical_exposure_2028": 0,
+    "rationale": "Music directors lead ensembles and composers create music. Creative artistic work."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "physical_exposure_2028": 0,
+    "rationale": "Musicians perform music requiring artistic expression. Creative performance that robots cannot meaningfully replicate."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Natural sciences managers oversee research teams. Managerial work."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "physical_exposure_2028": 0,
+    "rationale": "Network admins manage computer networks and systems. Desk-based technical work."
+  },
+  {
+    "slug": "reporters-correspondents-and-broadcast-news-analysts",
+    "title": "News analysts, reporters, and journalists",
+    "physical_exposure_2028": 0,
+    "rationale": "Journalists research and report news. Knowledge-based communication work."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Nuclear engineers design nuclear systems. Knowledge-based engineering work."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "physical_exposure_2028": 1,
+    "rationale": "Nuclear medicine techs prepare and administer radioactive drugs and operate imaging equipment. The patient interaction and safety-critical material handling limit robotic replacement by 2028."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "physical_exposure_2028": 3,
+    "rationale": "Nuclear technicians operate and monitor nuclear equipment in controlled plant environments. The structured, regulated environment has some automation potential, but safety-critical operations still require human oversight."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "physical_exposure_2028": 1,
+    "rationale": "Advanced practice nurses perform clinical examinations, procedures, and patient care. The varied patient conditions and clinical judgment required limit robotic replacement by 2028."
+  },
+  {
+    "slug": "nursing-assistants",
+    "title": "Nursing assistants and orderlies",
+    "physical_exposure_2028": 1,
+    "rationale": "Nursing assistants provide direct physical care to patients including bathing, feeding, and mobility assistance. The intimate, varied patient interactions require human empathy and adaptability beyond 2028 robotics."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "physical_exposure_2028": 0,
+    "rationale": "Safety specialists inspect workplaces and enforce regulations. Primarily analytical and inspection-based work with site visits but no physical labor."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "physical_exposure_2028": 1,
+    "rationale": "Occupational therapists help patients develop or recover daily living skills through personalized physical activities. The highly individualized, adaptive nature of therapy limits robotic replacement by 2028."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "physical_exposure_2028": 1,
+    "rationale": "OT assistants help patients with therapeutic activities and exercises. The personalized, adaptive physical interactions with patients are beyond 2028 robotic capabilities."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Oil and gas workers operate drilling equipment in variable outdoor environments. While some automation exists for drilling, the harsh and variable conditions of oilfields limit robotic deployment by 2028."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "physical_exposure_2028": 0,
+    "rationale": "Operations research analysts use mathematical models to solve problems. Entirely desk-based analytical work."
+  },
+  {
+    "slug": "opticians-dispensing",
+    "title": "Opticians",
+    "physical_exposure_2028": 1,
+    "rationale": "Dispensing opticians fit and adjust eyeglasses for customers. The customer interaction and precise adjustment work is primarily service-oriented with minimal physical labor for robots to automate."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "physical_exposure_2028": 1,
+    "rationale": "Optometrists examine eyes and prescribe corrective measures. The work involves clinical examination equipment but is primarily diagnostic, with minimal physical labor component for robots to automate."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "physical_exposure_2028": 2,
+    "rationale": "Orthotists and prosthetists design and fit custom devices for patients. While 3D printing automates some fabrication, the patient fitting and customization require skilled manual work in variable situations."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "physical_exposure_2028": 2,
+    "rationale": "Construction painters work in variable building environments with different surfaces and conditions. Unlike factory spray painting, the unstructured nature of construction sites limits robotic painting deployment by 2028."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "physical_exposure_2028": 7,
+    "rationale": "Industrial painting and coating in manufacturing is performed in controlled environments with repetitive motions. Robotic spray painting is already standard in automotive; by 2028 it extends further into general manufacturing."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "physical_exposure_2028": 0,
+    "rationale": "Paralegals research legal documents and assist lawyers. Desk-based legal support work."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "physical_exposure_2028": 0,
+    "rationale": "Financial advisors provide investment and financial planning advice. Interpersonal advisory work."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Pest control involves visiting diverse residential and commercial environments to identify and treat infestations. The variable settings and diagnostic assessment required limit robotic deployment by 2028."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Petroleum engineers design extraction methods. Knowledge-based engineering work."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "physical_exposure_2028": 2,
+    "rationale": "Pharmacists primarily provide clinical consultation and medication management (knowledge work), but also oversee physical dispensing. Robotic dispensing handles the physical component while pharmacists focus on clinical roles."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "physical_exposure_2028": 5,
+    "rationale": "Pharmacy technicians count, label, and dispense medications in structured pharmacy environments. Automated dispensing systems and robotic pharmacy fulfillment are commercially deployed in hospital and retail pharmacies by 2028."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "physical_exposure_2028": 2,
+    "rationale": "Phlebotomists draw blood requiring precise venipuncture on varied patients. Automated blood-drawing devices are in development, but patient vein variability and the need for patient comfort limit deployment by 2028."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "physical_exposure_2028": 1,
+    "rationale": "Photographers use cameras in varied settings to capture images. While some automated photography exists (photo booths), creative photography in variable environments requires human judgment."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "physical_exposure_2028": 1,
+    "rationale": "PT assistants help patients perform exercises and provide hands-on care under therapist supervision. The varied patient needs and physical interaction requirements limit robotic exposure by 2028."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "physical_exposure_2028": 1,
+    "rationale": "Physical therapists guide patients through exercises and manual therapy requiring clinical judgment and physical interaction. The varied patient conditions and need for adaptive touch limit robotic replacement by 2028."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "physical_exposure_2028": 1,
+    "rationale": "Physician assistants examine patients and perform clinical procedures. The varied patient encounters and clinical judgment required limit physical robotic automation by 2028."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "physical_exposure_2028": 1,
+    "rationale": "Surgeons use robotic surgical systems (da Vinci) as tools, but these augment rather than replace the surgeon. The complex judgment and varied patient situations keep physical automation exposure minimal."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "physical_exposure_2028": 0,
+    "rationale": "Physicists conduct research using theoretical and experimental methods. Knowledge-based scientific work."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "physical_exposure_2028": 1,
+    "rationale": "Plumbers work in highly variable residential and commercial environments where every building presents different configurations. The unpredictable physical environment and fine manual dexterity required are beyond 2028 robotics."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "physical_exposure_2028": 1,
+    "rationale": "Podiatrists diagnose and treat foot conditions with clinical examination and procedures. The varied patient conditions and fine clinical manual work limit robotic replacement by 2028."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "physical_exposure_2028": 1,
+    "rationale": "Police work involves unpredictable physical situations, community interaction, and investigative judgment. The highly variable and socially complex nature of policing makes robotic replacement minimal by 2028."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "physical_exposure_2028": 0,
+    "rationale": "Political scientists study political systems. Entirely knowledge-based research work."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "physical_exposure_2028": 5,
+    "rationale": "Postal workers sort and deliver mail, combining structured sorting facility work with unstructured delivery routes. Sorting automation is well advanced; delivery remains difficult for robots due to variable residential environments."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "physical_exposure_2028": 0,
+    "rationale": "Education administrators perform management, planning, and coordination. Their work is entirely administrative and cognitive with no physical labor component."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "physical_exposure_2028": 3,
+    "rationale": "Power plant operators monitor and control equipment in structured plant environments. Control room operations are increasingly automated, and some physical plant maintenance tasks are in controlled environments."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "physical_exposure_2028": 0,
+    "rationale": "Education administrators perform management, planning, and coordination. Their work is entirely administrative and cognitive with no physical labor component."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "physical_exposure_2028": 0,
+    "rationale": "Private investigators conduct research, surveillance, and interviews. Their work is primarily cognitive and interpersonal with no physical labor component for robots to automate."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Probation officers conduct assessments and supervise offenders through meetings and evaluations. This is interpersonal and administrative work with no physical labor component."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "physical_exposure_2028": 0,
+    "rationale": "Producers and directors oversee film and media production. Creative and managerial work."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Project managers plan and oversee projects. Managerial knowledge work."
+  },
+  {
+    "slug": "appraisers-and-assessors-of-real-estate",
+    "title": "Property appraisers and assessors",
+    "physical_exposure_2028": 0,
+    "rationale": "Property appraisers evaluate real estate values. Analytical work with site visits but no physical labor."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Property managers oversee real estate operations. Managerial work."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "physical_exposure_2028": 1,
+    "rationale": "Psychiatric techs provide care to patients with mental illness, including physical assistance and monitoring. The interpersonal nature and unpredictable patient interactions limit robotic replacement."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Psychologists study behavior and provide therapy. Cognitive and interpersonal work."
+  },
+  {
+    "slug": "public-relations-managers",
+    "title": "Public relations and fundraising managers",
+    "physical_exposure_2028": 0,
+    "rationale": "PR managers oversee public communications. Strategic communication work."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "PR specialists manage public image through communications. Knowledge-based communication work."
+  },
+  {
+    "slug": "police-fire-and-ambulance-dispatchers",
+    "title": "Public safety telecommunicators",
+    "physical_exposure_2028": 0,
+    "rationale": "Dispatchers coordinate emergency responses from communication centers. Desk-based communication work."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Purchasing managers negotiate and procure goods. Desk-based negotiation and analytical work."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "physical_exposure_2028": 6,
+    "rationale": "Quality inspection in manufacturing involves repetitive visual and measurement checks in structured factory environments. Machine vision and robotic inspection systems are being commercially deployed in automotive and electronics by 2028."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "physical_exposure_2028": 2,
+    "rationale": "Radiation therapists position patients precisely for treatment using linear accelerators. Patient positioning is somewhat structured, and automated positioning systems are advancing, but patient variability limits full automation."
+  },
+  {
+    "slug": "radiologic-technologists",
+    "title": "Radiologic and MRI technologists",
+    "physical_exposure_2028": 1,
+    "rationale": "Radiologic techs position patients and operate imaging equipment. Each patient requires different positioning, and the patient interaction component limits physical robotic automation by 2028."
+  },
+  {
+    "slug": "railroad-occupations",
+    "title": "Railroad workers",
+    "physical_exposure_2028": 4,
+    "rationale": "Railroad work includes operating trains on fixed tracks (structured, automatable) and physical tasks like coupling cars and track maintenance. Train automation is advancing on freight corridors, but physical maintenance remains manual."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Real estate agents facilitate property sales through showings and negotiations. Interpersonal sales work."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "physical_exposure_2028": 0,
+    "rationale": "Receptionists greet visitors and manage front desk communications. Communication and administrative work."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "physical_exposure_2028": 0,
+    "rationale": "Recreation workers plan and lead leisure activities. Interpersonal facilitation work."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "physical_exposure_2028": 1,
+    "rationale": "Recreational therapists plan and lead activities for patients. While activities involve some physical demonstration, the work is primarily therapeutic facilitation with minimal robotic exposure."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "physical_exposure_2028": 1,
+    "rationale": "Nurses perform diverse physical care tasks for patients with varied conditions in unpredictable clinical environments. The high variability and need for empathetic human judgment make robotic replacement minimal by 2028."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "physical_exposure_2028": 0,
+    "rationale": "Rehabilitation counselors help people with disabilities. Interpersonal counseling work."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "physical_exposure_2028": 1,
+    "rationale": "Respiratory therapists manage ventilators and provide breathing treatments to patients with varied conditions. The clinical judgment and varied patient situations limit physical robotic exposure."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Retail workers stock shelves and assist customers in store environments. Large chain retailers are piloting robotic shelf stocking, but customer assistance and varied store layouts limit broader replacement by 2028."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "physical_exposure_2028": 1,
+    "rationale": "Roofing involves physically demanding work at heights on varied building structures. The unstructured, hazardous outdoor environment and varied roof configurations make robotic replacement infeasible by 2028."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "physical_exposure_2028": 0,
+    "rationale": "Sales engineers sell complex technical products. Technical sales and consulting work."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Sales managers oversee sales teams and strategies. Managerial work."
+  },
+  {
+    "slug": "school-and-career-counselors",
+    "title": "School and career counselors and advisors",
+    "physical_exposure_2028": 0,
+    "rationale": "School counselors advise students on academic and career paths. Interpersonal advisory work."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "physical_exposure_2028": 0,
+    "rationale": "Administrative assistants provide office support. Desk-based clerical work."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Financial services sales agents sell securities and investments. Desk-based sales and analytical work."
+  },
+  {
+    "slug": "security-guards",
+    "title": "Security guards and gambling surveillance officers",
+    "physical_exposure_2028": 3,
+    "rationale": "Security guards patrol and monitor facilities. Robotic security patrols (like Knightscope) are deployed in some structured environments like malls and campuses, but human guards are still needed for varied situations and interventions."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "physical_exposure_2028": 8,
+    "rationale": "Semiconductor fabrication environments are highly controlled cleanrooms with repetitive wafer handling and processing steps. Much of the physical workflow is already automated, and robotic handling is commercially deployed at scale."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "physical_exposure_2028": 1,
+    "rationale": "Set designers create physical spaces for productions and exhibits. While design is cognitive, construction involves physical work in variable settings, limiting robotic exposure."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "physical_exposure_2028": 3,
+    "rationale": "Sheet metal work spans factory fabrication (more structured) and field installation (variable). Factory-based sheet metal cutting and forming is increasingly automated, but field installation remains manual by 2028."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "physical_exposure_2028": 2,
+    "rationale": "Skincare specialists perform facial treatments and skin analysis on varied clients. The intimate client contact and varied skin conditions require adaptive human touch beyond 2028 robotics."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "physical_exposure_2028": 2,
+    "rationale": "Small engine repair involves diagnosing and fixing varied equipment in workshop settings. While more structured than field work, the variety of equipment and repairs limits robotic deployment by 2028."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Social service managers oversee community programs. Managerial and interpersonal work."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "physical_exposure_2028": 0,
+    "rationale": "Social service assistants help clients access services. Interpersonal support work."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "physical_exposure_2028": 0,
+    "rationale": "Social workers help people cope with challenges. Interpersonal therapeutic and advocacy work."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Sociologists study social behavior. Knowledge-based research work."
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "physical_exposure_2028": 0,
+    "rationale": "Software developers design and write code. Entirely desk-based knowledge work."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "physical_exposure_2028": 2,
+    "rationale": "Solar panel installation involves physical labor on varied rooftops and ground-mount structures. While large utility-scale installations have some automation potential, residential and varied commercial sites limit robotic deployment by 2028."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching is fundamentally interpersonal and cognitive work involving instruction, mentoring, and classroom management. There is no physical labor component for robots to automate."
+  },
+  {
+    "slug": "multimedia-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "physical_exposure_2028": 0,
+    "rationale": "Animators and special effects artists create digital visual content. Desk-based creative technical work."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Speech-language pathologists provide therapy through communication and exercises. Their work is primarily cognitive and interpersonal with no significant physical labor component for robots to automate."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "physical_exposure_2028": 3,
+    "rationale": "Stationary engineers operate and maintain boilers and mechanical systems in buildings and plants. While monitoring is increasingly automated, the physical maintenance and repair work requires skilled judgment in variable conditions."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "physical_exposure_2028": 0,
+    "rationale": "Mental health counselors provide therapy and support. Interpersonal therapeutic work."
+  },
+  {
+    "slug": "surgical-technologists",
+    "title": "Surgical assistants and technologists",
+    "physical_exposure_2028": 2,
+    "rationale": "Surgical technologists prepare operating rooms and assist during procedures in structured but high-stakes environments. While robotic surgery systems are deployed, the technologist's varied support role remains manual."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "physical_exposure_2028": 0,
+    "rationale": "Survey researchers design and conduct surveys. Knowledge-based research work."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Survey techs collect data using field equipment. Some fieldwork with physical equipment, but GPS and drone technology already assist. Variable outdoor conditions limit full robotic exposure."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "physical_exposure_2028": 1,
+    "rationale": "Surveyors measure land using specialized equipment in variable outdoor settings. Drone surveying is advancing, but ground-level work in varied terrain limits full robotic replacement."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Tax examiners review tax returns and collect revenue. Desk-based analytical and administrative work."
+  },
+  {
+    "slug": "taxi-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "physical_exposure_2028": 5,
+    "rationale": "Autonomous ride-hailing (Waymo, Zoox) is commercially operational in 15-20 US cities by 2028 on geo-fenced routes, directly displacing taxi/chauffeur functions in those markets. Significant but not universal coverage."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching assistance and tutoring involve interpersonal instruction and student support. This is cognitive and social work with no physical labor component for robots to automate."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "physical_exposure_2028": 0,
+    "rationale": "Technical writers create documentation. Desk-based knowledge work."
+  },
+  {
+    "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
+    "title": "Telecommunications technicians",
+    "physical_exposure_2028": 2,
+    "rationale": "Telecom technicians install and repair equipment in varied residential and commercial buildings. The diverse environments and need for diagnostic troubleshooting limit robotic deployment by 2028."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "physical_exposure_2028": 1,
+    "rationale": "Bank tellers process transactions at counters. ATMs and digital banking have already automated much of this work; remaining teller work involves customer interaction, not physical labor."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "physical_exposure_2028": 0,
+    "rationale": "Top executives make strategic business decisions. Entirely leadership and knowledge work."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "physical_exposure_2028": 0,
+    "rationale": "Tour guides lead groups and provide commentary. Interpersonal communication work."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Training managers oversee employee development programs. Managerial work."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "physical_exposure_2028": 0,
+    "rationale": "Training specialists design and deliver training programs. Knowledge-based educational work."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "physical_exposure_2028": 0,
+    "rationale": "Distribution managers oversee logistics operations. Managerial work."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "physical_exposure_2028": 0,
+    "rationale": "Travel agents plan trips for clients. Service-oriented desk work."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "physical_exposure_2028": 0,
+    "rationale": "Teaching assistance and tutoring involve interpersonal instruction and student support. This is cognitive and social work with no physical labor component for robots to automate."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "physical_exposure_2028": 0,
+    "rationale": "Sports officials enforce rules during competitions. While technology assists with some calls, officiating requires human judgment in dynamic environments."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "physical_exposure_2028": 0,
+    "rationale": "Urban planners develop land use plans. Knowledge-based analytical and design work."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "physical_exposure_2028": 1,
+    "rationale": "Veterinarians perform examinations and procedures on diverse animal species in unpredictable clinical settings. The variability of animal patients and procedures limits robotic replacement by 2028."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "physical_exposure_2028": 2,
+    "rationale": "Vet assistants and lab animal caretakers feed, clean, and handle animals in somewhat structured settings. Lab animal care is more structured than clinical vet work, but animal handling limits automation."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Vet techs assist with animal procedures requiring handling of unpredictable animals. The variable animal behavior and diverse clinical tasks limit robotic exposure by 2028."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "physical_exposure_2028": 2,
+    "rationale": "Waiters navigate variable dining environments while carrying food and interacting with customers. Some restaurants use delivery robots, but the social interaction and varied environments limit robotic replacement by 2028."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "physical_exposure_2028": 3,
+    "rationale": "Water treatment operators monitor and adjust equipment in structured plant environments. Plant operations are increasingly automated with SCADA systems, and some physical monitoring tasks have robotic potential."
+  },
+  {
+    "slug": "water-transportation-occupations",
+    "title": "Water transportation workers",
+    "physical_exposure_2028": 2,
+    "rationale": "Water transportation workers operate vessels in variable maritime environments with physical tasks like mooring and cargo handling. Autonomous vessels are in early trials but the unpredictable marine environment limits 2028 deployment."
+  },
+  {
+    "slug": "web-developers",
+    "title": "Web developers and digital designers",
+    "physical_exposure_2028": 0,
+    "rationale": "Web developers create websites. Entirely desk-based knowledge work."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "physical_exposure_2028": 7,
+    "rationale": "Welding in manufacturing settings is highly structured and repetitive. Robotic welding is already widespread in automotive; by 2028 humanoid robots extend this to more welding tasks in controlled factory environments."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "physical_exposure_2028": 0,
+    "rationale": "Wholesale sales is primarily relationship-based selling and negotiation. This is knowledge and interpersonal work with no physical labor component for robots to automate."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "physical_exposure_2028": 1,
+    "rationale": "Wind turbine technicians perform maintenance and repair at extreme heights in exposed, variable conditions. The hazardous and unpredictable work environment makes robotic replacement infeasible by 2028."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "physical_exposure_2028": 5,
+    "rationale": "Woodworking in factory settings involves operating machines and handling materials in semi-structured environments. CNC automation handles much cutting, but assembly and finishing still require human dexterity for varied products."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "physical_exposure_2028": 0,
+    "rationale": "Writers create written content. Entirely desk-based creative knowledge work."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "physical_exposure_2028": 0,
+    "rationale": "Zoologists study animal behavior. Knowledge-based scientific work with some fieldwork."
+  }
+]

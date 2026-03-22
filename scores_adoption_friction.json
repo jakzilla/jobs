@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "adoption_friction": 4,
+    "rationale": "Mid-size and large firms dominate (Big 4, regional firms), with clear ROI for AI in audit and tax. Some regulatory oversight from AICPA and state boards, but no direct patient/client safety risk. Fragmented small-practice segment slows universal adoption."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "adoption_friction": 8,
+    "rationale": "Highly individualized creative work with strong union protections (SAG-AFTRA) and deep social attachment to human performance. AI-generated performances face legal, ethical, and audience acceptance barriers. Fragmented employer base of studios, theaters, and independent productions."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "adoption_friction": 3,
+    "rationale": "Large insurance companies and consulting firms are primary employers with strong tech adoption culture. Work is highly quantitative and suited to AI augmentation. Professional credentialing (SOA/CAS exams) creates some friction but employers are motivated by efficiency gains."
+  },
+  {
+    "slug": "administrative-services-managers",
+    "title": "Administrative services and facilities managers",
+    "adoption_friction": 4,
+    "rationale": "Employed across all sectors including large corporations and government. Role involves coordination and judgment that benefits from but isn't easily fully replaced by AI. Moderate institutional inertia in government and education settings."
+  },
+  {
+    "slug": "adult-literacy-and-ged-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "adoption_friction": 7,
+    "rationale": "Education sector has strong institutional inertia and social preference for human teachers, especially for vulnerable adult learners. Fragmented across community colleges, nonprofits, and government programs. Regulatory requirements for teacher certification add friction."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "adoption_friction": 4,
+    "rationale": "Mix of large media companies and small agencies. Relationship-driven sales has moderate social barriers to AI replacement. Digital advertising already heavily automated, reducing friction for further AI adoption in analytics and targeting."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations adopt AI marketing tools readily, but strategic and creative judgment is valued. Moderate employer fragmentation. AI tools for analytics and content generation are already widely adopted, lowering friction for further integration."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "adoption_friction": 5,
+    "rationale": "Heavy regulatory oversight from FAA and defense agencies. Large employers (Boeing, Lockheed Martin, NASA) have resources to adopt but face strict certification requirements. Safety-critical work demands rigorous validation of any AI/robotic systems."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "adoption_friction": 5,
+    "rationale": "Dominated by large defense contractors and aerospace companies with resources to adopt AI. However, FAA and DoD certification requirements for safety-critical systems create significant regulatory friction. ITAR restrictions add complexity."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "adoption_friction": 3,
+    "rationale": "Large agribusiness and food companies are primary employers with resources and motivation to automate. Lab work is increasingly automated. Some regulatory oversight from USDA/FDA but manageable. Labour shortages in agriculture lower friction."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "adoption_friction": 4,
+    "rationale": "Employed by large agribusiness, universities, and government agencies. Research work benefits from AI but requires human judgment for experimental design. Academic institutional inertia and peer review processes create moderate friction."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "adoption_friction": 3,
+    "rationale": "Strong economic incentive from agricultural labour shortages. Large equipment manufacturers and agribusiness drive adoption. Regulatory requirements are moderate. Precision agriculture and automated equipment are already well-established trends."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "adoption_friction": 2,
+    "rationale": "Severe labour shortages create enormous economic pull for automation. Large agricultural operations dominate production. Existing adoption of automated harvesting and planting equipment. Seasonal workforce challenges accelerate adoption despite some regulatory friction around pesticide application."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "adoption_friction": 8,
+    "rationale": "Extremely safety-critical role with FAA oversight, strong union (NATCA), and zero tolerance for error. Public trust and regulatory barriers are immense. Infrastructure modernization (NextGen) is already decades behind schedule, demonstrating institutional inertia."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "adoption_friction": 6,
+    "rationale": "FAA certification requirements are stringent (A&P license). Airlines and MRO facilities are large employers but safety regulations demand human sign-off. Liability framework heavily regulated. Some labour shortages provide adoption pull."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "adoption_friction": 8,
+    "rationale": "Extremely heavy FAA regulation, massive liability exposure, and strong public resistance to pilotless commercial aircraft. Powerful unions (ALPA). While autopilot handles much flight, full automation faces decade-plus regulatory and social barriers."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented employer base of small veterinary clinics, kennels, and pet care businesses. Physical animal handling requires dexterity and judgment. Strong owner preference for human caregivers. Low capital availability among small operators."
+  },
+  {
+    "slug": "announcers",
+    "title": "Announcers and DJs",
+    "adoption_friction": 4,
+    "rationale": "AI voice synthesis is advancing rapidly. Large media companies can adopt quickly, but audience preference for human personalities and local knowledge provides moderate friction. Union protections (AFTRA) in major markets. Small market stations have limited capital."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "adoption_friction": 6,
+    "rationale": "Primarily academic and government employment with strong institutional inertia. Fieldwork requires physical presence and cultural judgment. Small employer base with limited technology budgets. Research methodology has strong traditions resistant to AI substitution."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "adoption_friction": 9,
+    "rationale": "Dispute resolution requires deep human judgment, empathy, and trust from all parties. Legal framework requires human decision-makers. Strong social barriers to accepting AI-mediated outcomes in personal and commercial disputes. Fragmented practice structure."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "adoption_friction": 5,
+    "rationale": "Mix of large firms and small practices. AI design tools are already being adopted, but licensing requirements (NCARB), liability for structural safety, and client relationships create moderate friction. Building codes and zoning require human interpretation."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "adoption_friction": 5,
+    "rationale": "Large firms have resources to adopt AI tools, but management roles require human judgment and leadership. Professional licensing and liability create moderate barriers. Role is more about coordination and decision-making than automatable tasks."
+  },
+  {
+    "slug": "curators-museum-technicians-and-conservators",
+    "title": "Archivists, curators, and museum workers",
+    "adoption_friction": 7,
+    "rationale": "Cultural institutions have limited budgets and strong institutional inertia. Physical conservation work requires specialized manual skills. Curatorial judgment involves subjective cultural expertise. Fragmented across many small museums and institutions."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "adoption_friction": 5,
+    "rationale": "Creative direction involves subjective aesthetic judgment valued by clients. Large agencies and media companies can adopt AI tools, but human creative vision is central to the role. Mix of large and small employers. AI design tools are already augmenting the role."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "adoption_friction": 1,
+    "rationale": "Large manufacturing employers (automotive, electronics) with strong economic incentive and existing automation culture. Acute labour shortages in manufacturing. Robots are already widely deployed in assembly. Clear ROI and minimal regulatory barriers beyond workplace safety."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "adoption_friction": 10,
+    "rationale": "The entire value proposition is human physical achievement and competition. Audiences watch for human drama, skill, and narrative. League governance, cultural tradition, and the fundamental nature of sport make AI/robot substitution essentially impossible."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "adoption_friction": 7,
+    "rationale": "Healthcare-adjacent role requiring hands-on physical assessment and treatment. State licensing requirements and liability concerns. Employed by schools, sports teams, and clinics with varying resources. Strong preference for human touch in injury assessment and rehabilitation."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "adoption_friction": 4,
+    "rationale": "AI/ML is already transforming weather prediction. Government agencies (NOAA, NWS) and media companies are primary employers. Regulatory requirements for public safety forecasting create some friction. Broadcasting role faces moderate social barriers."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "adoption_friction": 7,
+    "rationale": "State licensing, healthcare regulation, and insurance billing requirements create significant friction. Fragmented practice with many small clinics. Patients expect human interaction for hearing assessment and device fitting. Moderate liability concerns."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented industry of small independent shops with limited capital. Physical repair work in varied conditions requires dexterity. Insurance and liability frameworks assume human technicians. Some labour shortages but infrastructure not ready for robotic repair."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "adoption_friction": 6,
+    "rationale": "Fragmented between dealerships (larger) and independent shops (smaller). Diagnostic AI is already used, but physical repair requires manual dexterity in varied conditions. ASE certification and liability create moderate barriers. Labour shortages provide some pull."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "adoption_friction": 3,
+    "rationale": "Large commercial bakeries and food manufacturers are already highly automated. Retail/artisanal bakeries are more fragmented but represent a smaller market share. Food safety regulations are manageable. Labour shortages in food production create adoption pull."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "adoption_friction": 8,
+    "rationale": "Extremely fragmented industry of independent practitioners and small salons. State licensing requirements. Strong social preference for human touch, personal relationships, and aesthetic judgment. Physical manipulation of hair requires exceptional dexterity. Low capital availability."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "adoption_friction": 5,
+    "rationale": "Mix of large chain restaurants/hotels and independent bars. Some automated cocktail systems exist but social/entertainment value of human bartenders is significant. Labour shortages provide moderate pull. Alcohol service regulations require human judgment for ID checks and overservice."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "adoption_friction": 3,
+    "rationale": "Large financial institutions and collection agencies are primary employers with resources to adopt AI. Much work is already automated (auto-dialers, payment systems). FDCPA regulations require some compliance attention but don't prohibit automation. Clear ROI."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "adoption_friction": 5,
+    "rationale": "Large pharmaceutical companies and research universities are primary employers. AI is already transforming drug discovery and protein folding. Lab work still requires physical presence. Academic institutional inertia and peer review create moderate friction."
+  },
+  {
+    "slug": "biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "adoption_friction": 4,
+    "rationale": "Large medical device companies and hospitals are primary employers with resources to adopt. FDA regulatory requirements for medical devices create friction for AI-designed products. But the field itself is technology-forward and already integrating AI tools."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "adoption_friction": 4,
+    "rationale": "Large pharmaceutical, biotech, and research institutions are primary employers. Lab automation is well-established and advancing. Some regulatory requirements for GLP/GMP compliance. Routine lab work is highly amenable to robotic automation."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "adoption_friction": 7,
+    "rationale": "Specialized construction trade with strong union presence (IBB). Work in confined spaces and hazardous conditions makes robotics challenging. Fragmented contractor base. ASME codes and safety regulations require certified human welders. Labour shortages provide some pull."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "adoption_friction": 3,
+    "rationale": "Large organizations already use accounting software extensively. AI-powered bookkeeping tools are widely available. Employers range from large to small, but the work is highly standardized and digital. Regulatory requirements (tax compliance) actually drive automation adoption."
+  },
+  {
+    "slug": "broadcast-and-sound-engineering-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "adoption_friction": 5,
+    "rationale": "Mix of large media companies and small production houses. Technical work is increasingly software-based and amenable to AI. Union presence in major markets (IATSE, IBEW). Equipment operation still requires physical presence for live events."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "adoption_friction": 3,
+    "rationale": "Primarily employed by large organizations and government agencies. Work is highly quantitative and amenable to AI tools. Government institutional inertia provides some friction, but budget pressure creates incentive to adopt. Moderate regulatory requirements."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "adoption_friction": 6,
+    "rationale": "Strong union presence (ATU) and public safety regulations from DOT/FMCSA. Public transit agencies are government entities with institutional inertia. School bus regulations are especially stringent given child safety. Autonomous bus pilots exist but regulatory path is slow. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "butchers-and-meat-cutters",
+    "title": "Butchers",
+    "adoption_friction": 4,
+    "rationale": "Large meatpacking plants (Tyson, JBS) already use significant automation. Retail butcher shops are more fragmented. USDA food safety regulations are manageable. Labour shortages in meatpacking are severe, creating strong adoption pull. Physical dexterity for varied cuts creates moderate technical barriers."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "adoption_friction": 5,
+    "rationale": "Employed by manufacturers, labs, and government agencies. Work requires precision but is increasingly automatable. Regulatory requirements for calibration standards (NIST traceability) create some friction. Moderate employer fragmentation."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "adoption_friction": 6,
+    "rationale": "Healthcare regulation, licensing, and liability create significant friction. Hospital employers are large but healthcare institutional inertia is strong. Patient interaction and clinical judgment requirements. AI-assisted diagnostics are emerging but regulatory approval is slow."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "adoption_friction": 7,
+    "rationale": "Education sector institutional inertia, teacher certification requirements, and strong preference for human instruction, especially for hands-on technical training. Employed primarily by public schools and community colleges with limited technology budgets."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented between large commercial contractors and many independent operators. Physical work in varied, unstructured environments. Union protections in some markets. Building codes require human accountability. Labour shortages provide some pull but jobsite robotics infrastructure is lacking."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "adoption_friction": 3,
+    "rationale": "GIS and remote sensing are already heavily computerized. Government agencies and tech companies (Google, Esri) are primary employers with resources to adopt AI. Satellite imagery analysis is increasingly automated. Moderate regulatory requirements for official maps."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "adoption_friction": 2,
+    "rationale": "Self-checkout and automated payment systems are already widespread in large retail chains. Massive employer consolidation (Walmart, Amazon, Target) drives rapid adoption. Labour shortages and cost pressure accelerate automation. Minimal regulatory barriers."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "adoption_friction": 6,
+    "rationale": "Mix of large restaurant chains (lower friction) and independent restaurants (higher friction). Creative culinary work has social value. Food safety regulations manageable. Labour shortages in food service create pull, but kitchen robotics still face physical dexterity challenges in varied environments."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "adoption_friction": 4,
+    "rationale": "Large chemical, pharmaceutical, and energy companies are primary employers with resources to adopt. Process automation is already well-established. EPA and OSHA regulations create some friction for AI-controlled processes. Safety-critical nature of chemical processes requires human oversight."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "adoption_friction": 4,
+    "rationale": "Large chemical and pharmaceutical companies are primary employers. Lab automation is advancing rapidly. Regulatory requirements (EPA, OSHA, GLP) create moderate friction. Routine analytical work is highly amenable to automation. Some physical lab work remains."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "adoption_friction": 4,
+    "rationale": "Large companies and research institutions are primary employers. AI is already accelerating materials discovery and chemical analysis. Academic institutional inertia in university settings. Lab work still requires physical presence for novel experiments."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "adoption_friction": 9,
+    "rationale": "Extreme social resistance to non-human childcare. Heavy state licensing and safety regulations. Parents strongly prefer human caregivers. Highly fragmented employer base of small daycare centers and home providers. Low wages limit capital for technology investment. Liability concerns are paramount."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "adoption_friction": 8,
+    "rationale": "State licensing and healthcare regulation. Highly fragmented independent practices with limited capital. Hands-on physical manipulation is central to the role. Strong patient preference for human practitioners. Malpractice liability concerns. Scope-of-practice debates add regulatory complexity."
+  },
+  {
+    "slug": "civil-engineering-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "adoption_friction": 4,
+    "rationale": "Large engineering firms and government agencies are primary employers. CAD and GIS work is already heavily computerized. Field inspection work requires physical presence. Moderate regulatory requirements for infrastructure projects. Government institutional inertia provides some friction."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "adoption_friction": 5,
+    "rationale": "Large firms and government agencies have resources to adopt AI tools. Professional licensing (PE) and liability for public safety create significant friction. AI is already used for design optimization but regulatory approval of AI-designed infrastructure is slow. Government project bureaucracy adds inertia."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "adoption_friction": 3,
+    "rationale": "Large insurance companies are primary employers with strong technology adoption culture and clear ROI. Much claims processing is already automated. State insurance regulations create some friction. Physical inspection component for some claims limits full automation."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "adoption_friction": 4,
+    "rationale": "Large hospital systems and reference labs are primary employers. Lab automation is well-established and advancing. CLIA regulations and state licensing create moderate friction. Routine analytical work is highly amenable to robotic automation. Some manual sample handling remains."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "adoption_friction": 8,
+    "rationale": "Sports coaching involves deep human relationship, motivation, and mentorship. Strong cultural attachment to human coaches. Fragmented across youth sports, schools, and professional organizations. AI analytics tools are used for scouting but cannot replace interpersonal coaching dynamics."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "adoption_friction": 8,
+    "rationale": "Role is fundamentally about human connection, cultural competency, and trust-building in underserved communities. Fragmented across nonprofits, clinics, and government programs. Low-resource employers with limited technology budgets. Strong social barriers to AI substitution in community outreach."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers with resources to adopt HR tech. Work is increasingly data-driven and amenable to AI. Moderate regulatory complexity (ERISA, ACA, tax law) but this drives rather than hinders automation. Some judgment required for strategy."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "adoption_friction": 3,
+    "rationale": "Large employers and HR consulting firms dominate. Work is highly data-driven and amenable to AI tools. HRIS systems already automate much of the work. Regulatory compliance requirements (FLSA, ACA) actually drive adoption of automated systems."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations and financial institutions are primary employers. AI is already used for regulatory monitoring and compliance checking. Complex regulatory landscape (SEC, FINRA, HIPAA) creates both friction and incentive for automation. Human judgment still needed for interpretation."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "adoption_friction": 3,
+    "rationale": "Large tech companies and research institutions are primary employers with the most advanced AI capabilities. The field itself drives AI development. Some academic institutional inertia. Cutting-edge research still requires human creativity and insight."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers with strong technology culture. Management role requires human judgment and leadership. AI tools for IT management are already widely adopted. Moderate friction from organizational change management and decision-making complexity."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "adoption_friction": 4,
+    "rationale": "Large tech companies (Intel, AMD, Apple) are primary employers with resources and motivation to use AI in chip design. AI is already used for circuit design optimization. Physical prototyping and testing still require human oversight. Moderate regulatory requirements."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "adoption_friction": 3,
+    "rationale": "Large tech companies, telecom firms, and enterprises are primary employers. Network design and optimization is highly amenable to AI. Existing technology culture facilitates adoption. Security concerns create some regulatory friction but also drive AI adoption for threat detection."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "adoption_friction": 2,
+    "rationale": "Large tech companies and enterprises are primary employers with strong incentive to adopt AI coding tools. AI code generation is already widely used (Copilot, etc.). Clear ROI and existing tech culture. Minimal regulatory barriers. Market competition drives rapid adoption."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "adoption_friction": 3,
+    "rationale": "Large employers with IT help desk operations have clear ROI for AI chatbots and automated support. AI-powered support tools already widely deployed. Moderate employer fragmentation in MSP segment. Technical nature of work suits AI well. Labour shortages provide pull."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "adoption_friction": 3,
+    "rationale": "Large corporations and consulting firms are primary employers with strong technology adoption culture. Work involves analysis and recommendation that AI tools can augment. Existing enterprise AI tool adoption facilitates integration. Moderate complexity of organizational change."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "adoption_friction": 5,
+    "rationale": "Hotels and large venues employ concierges, with some chains already deploying AI concierge services. Strong guest preference for human interaction in luxury segment. Mix of large hotel chains (lower friction) and independent properties (higher friction). Service quality expectations vary by segment."
+  },
+  {
+    "slug": "conservation-scientists",
+    "title": "Conservation scientists and foresters",
+    "adoption_friction": 5,
+    "rationale": "Government agencies (USFS, BLM) and nonprofits are primary employers with limited budgets and institutional inertia. Fieldwork in remote locations requires physical presence. GIS and remote sensing tools are already adopted. Environmental policy requires human judgment and stakeholder engagement."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "adoption_friction": 6,
+    "rationale": "Government-employed inspectors face institutional inertia and union protections. Building code interpretation requires human judgment. Liability for missed violations is significant. Some AI-assisted inspection tools emerging but physical presence in varied conditions is essential. Regulatory framework assumes human inspectors."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "adoption_friction": 3,
+    "rationale": "Large construction companies and mining operations have resources to adopt autonomous equipment. GPS-guided and autonomous heavy equipment already exists (Caterpillar, Komatsu). Labour shortages in construction create strong pull. Union presence provides some friction. OSHA safety requirements are manageable."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "adoption_friction": 4,
+    "rationale": "Large commercial contractors can adopt automation, but work is in highly varied physical environments. Severe labour shortages create strong pull. Union presence in some markets. OSHA regulations manageable. Residential and small contractor segment is more fragmented."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large contractors and small firms. Management role requires human judgment, coordination, and stakeholder management. AI project management tools are emerging. Licensing requirements in some states. Liability concerns for project outcomes create moderate friction."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "adoption_friction": 4,
+    "rationale": "Large fast-food chains (McDonald's, Chipotle) can adopt kitchen automation at scale. Severe labour shortages provide strong pull. Independent restaurants are more fragmented. Food safety regulations manageable. Robotic cooking systems exist but kitchen environment variability creates moderate technical barriers."
+  },
+  {
+    "slug": "correctional-officers",
+    "title": "Correctional officers and bailiffs",
+    "adoption_friction": 8,
+    "rationale": "Government employment with strong union protections (AFSCME, FOP). Public safety and constitutional requirements for humane treatment demand human presence. Liability for use of force and inmate safety. Deep institutional inertia in corrections. Some AI surveillance tools being adopted but officers cannot be replaced."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "adoption_friction": 3,
+    "rationale": "Large construction and manufacturing companies are primary employers. Work is highly quantitative and amenable to AI modeling. Historical data-driven estimation suits machine learning. Moderate employer fragmentation. Some professional judgment still required for complex projects."
+  },
+  {
+    "slug": "court-reporters",
+    "title": "Court reporters and simultaneous captioners",
+    "adoption_friction": 3,
+    "rationale": "AI transcription technology is advancing rapidly and already competitive with human accuracy. Large court systems and deposition firms have resources to adopt. Some state certification requirements and union presence create moderate friction. But economic pressure is strong."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "adoption_friction": 7,
+    "rationale": "Highly individualized creative work where human authorship is central to value. Extremely fragmented self-employed base. Art market values human creativity and provenance. AI art controversy has heightened resistance. No meaningful employer structure to drive adoption."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "adoption_friction": 6,
+    "rationale": "Mix of nonprofit agencies and financial institutions. Role involves empathetic human interaction with financially distressed clients. State licensing in some jurisdictions. Moderate employer fragmentation. Some financial guidance can be automated but emotional support component resists substitution."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "adoption_friction": 2,
+    "rationale": "Large corporations are primary employers with massive economic incentive to automate. AI chatbots and virtual agents already widely deployed. Clear ROI. Minimal regulatory barriers. Some customer preference for humans in complex situations but basic inquiries are rapidly being automated."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "adoption_friction": 9,
+    "rationale": "Performing arts are fundamentally about human physical expression and artistry. Audiences value human performance. Extremely fragmented employment across companies, studios, and freelance work. Union protections (AGMA). No meaningful economic incentive to automate human dance performance."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "adoption_friction": 2,
+    "rationale": "Large tech companies and enterprises are primary employers with the most advanced AI tools. AutoML and AI-assisted analytics are already widely used. Strong technology culture facilitates adoption. Clear ROI. The field is inherently technology-forward with minimal regulatory barriers."
+  },
+  {
+    "slug": "database-administrators",
+    "title": "Database administrators and architects",
+    "adoption_friction": 2,
+    "rationale": "Large enterprises are primary employers with strong incentive to automate database management. Cloud-managed databases and AI-powered administration tools already widely adopted. Clear ROI and existing technology culture. Minimal regulatory barriers beyond data privacy compliance."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driver-sales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "adoption_friction": 4,
+    "rationale": "Large logistics companies (UPS, FedEx, Amazon) have resources for autonomous vehicles. Last-mile delivery faces more complexity than highway driving. DOT regulations will need updating. Labour shortages provide pull. Mix of large fleets (lower friction) and small operators (higher friction)."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "adoption_friction": 5,
+    "rationale": "Mix of large dental labs and small independent operations. CAD/CAM and 3D printing already transforming the field. FDA regulations for medical devices create moderate friction. Physical precision work increasingly automated. Some labour shortages provide pull."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "adoption_friction": 6,
+    "rationale": "State licensing requirements and dental board regulations. Mix of large dental chains and independent practices. Chairside assistance requires physical presence and dexterity. Patient comfort expectations favor human interaction. Moderate liability concerns in healthcare setting."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "adoption_friction": 7,
+    "rationale": "State licensing and scope-of-practice regulations. Most employed by small dental practices with limited capital. Physical oral manipulation requires exceptional dexterity. Patient preference for human touch. Professional associations protect scope. Liability concerns in healthcare."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "adoption_friction": 8,
+    "rationale": "Heavy state licensing and regulation. Majority in small independent or group practices. Physical manipulation inside the oral cavity requires extreme precision and patient trust. Malpractice liability framework assumes human practitioners. Strong professional association resistance. Patient preference for human dentists."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "adoption_friction": 2,
+    "rationale": "Large media and publishing companies are primary employers. AI layout and design tools already widely available. Work is entirely digital and amenable to automation. Clear ROI. Minimal regulatory barriers. Field is already shrinking due to automation and template-based tools."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "adoption_friction": 5,
+    "rationale": "Hospital systems are large employers with resources. AI-assisted ultrasound interpretation is advancing. State licensing and healthcare regulations create moderate friction. Physical scanning requires operator skill and patient interaction. FDA approval needed for AI diagnostic tools."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "adoption_friction": 6,
+    "rationale": "Mix of large fleet maintenance operations and independent shops. Physical repair in varied conditions requires dexterity. ASE certification and EPA emissions regulations. Labour shortages in diesel mechanics provide some pull. Heavy equipment infrastructure not ready for robotic repair."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "adoption_friction": 6,
+    "rationale": "State licensing and healthcare regulation. Mix of hospital employment (larger) and private practice (fragmented). Patient counseling involves empathy and behavioral change support. Insurance billing requirements. AI nutrition tools exist but clinical practice has regulatory requirements."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "adoption_friction": 2,
+    "rationale": "Large engineering and architecture firms are primary employers. CAD work is already heavily computerized and AI-assisted design is advancing rapidly. Clear ROI for automation. Minimal regulatory barriers for the drafting function itself. Generative design tools already in market."
+  },
+  {
+    "slug": "drywall-and-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented between commercial contractors and independent tradespeople. Physical work in varied building interiors. Union presence in some markets. Limited capital among small operators. Construction site conditions challenge robotics. Labour shortages provide moderate pull but infrastructure not ready."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "adoption_friction": 4,
+    "rationale": "Large institutions (government, banks, consulting firms) are primary employers with resources to adopt AI. Economic modeling and data analysis are highly amenable to AI. Academic institutional inertia for university economists. Some judgment and communication skills still valued."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "adoption_friction": 4,
+    "rationale": "Mix of large media companies and freelance/small publisher base. AI editing and proofreading tools already widely used. Content quality judgment still valued. Moderate employer fragmentation. Clear ROI for large publishers. Creative editorial judgment creates moderate social friction."
+  },
+  {
+    "slug": "electrical-and-electronics-engineering-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturers and utilities are primary employers with resources to adopt. Testing and diagnostic work increasingly automated. Moderate regulatory requirements. Physical lab and field work requires some manual presence. Existing technology culture facilitates adoption."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "adoption_friction": 4,
+    "rationale": "Large tech companies and manufacturers are primary employers. AI-assisted circuit design and simulation already widespread. Professional licensing in some roles. Moderate regulatory requirements. Existing technology culture facilitates adoption. Physical prototyping still requires presence."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "adoption_friction": 6,
+    "rationale": "Mix of large utilities and manufacturers (lower friction) and smaller contractors. Physical installation and repair in varied environments. Licensing and safety regulations (NEC, OSHA). Some labour shortages provide pull. Equipment diversity challenges standardized robotic solutions."
+  },
+  {
+    "slug": "line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "adoption_friction": 7,
+    "rationale": "Utility companies are large employers but work involves climbing poles and towers in varied outdoor conditions. Strong union presence (IBEW). Safety regulations are stringent. Physical environment is extremely challenging for robotics. Labour shortages provide some pull but infrastructure not adaptable."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented between commercial (larger contractors) and residential (many independents). NEC code compliance requires human judgment in varied conditions. State licensing requirements. Strong union presence (IBEW). Labour shortages provide pull but physical work environment resists robotics."
+  },
+  {
+    "slug": "electro-mechanical-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "adoption_friction": 4,
+    "rationale": "Manufacturing and industrial employers have resources to adopt. Work bridges electrical and mechanical systems with some automation already. Moderate regulatory requirements. Existing technology culture in manufacturing. Physical repair and assembly work requires manual presence."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "adoption_friction": 8,
+    "rationale": "Government-employed educational administrators with deep institutional inertia. Role requires human leadership, community engagement, and crisis management. Union relationships and school board politics require human navigation. Strong social expectation of human school leadership."
+  },
+  {
+    "slug": "elevator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "adoption_friction": 7,
+    "rationale": "Specialized trade with strong union (IUEC) and strict safety regulations. Work in confined, vertical spaces is challenging for robotics. State licensing requirements. Moderate employer consolidation (major elevator companies) but installation conditions vary greatly. Safety liability is high."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "adoption_friction": 7,
+    "rationale": "Government employment with institutional inertia. Role requires human judgment in crisis situations, public communication, and inter-agency coordination. Political accountability requirements. Moderate adoption of AI for planning and monitoring but decision-making must remain human."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "adoption_friction": 8,
+    "rationale": "Emergency medical care requires split-second human judgment in unpredictable environments. State licensing and medical protocol requirements. Liability for patient outcomes. Strong public trust requirement. Physical patient handling in varied emergency scenes. Labour shortages provide some pull but barriers are formidable."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large entertainment companies and small venues. Management role requires human judgment and customer relations. Moderate employer fragmentation. AI tools for operations already used in large venues. Creative programming and community engagement resist automation."
+  },
+  {
+    "slug": "environmental-engineering-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "adoption_friction": 4,
+    "rationale": "Government agencies and large environmental firms are primary employers. Field sampling and monitoring work has some physical requirements. EPA regulations create compliance framework. Lab analysis increasingly automated. Moderate institutional inertia in government settings."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "adoption_friction": 5,
+    "rationale": "Large engineering firms and government agencies (EPA, state agencies). Environmental regulations create both friction (regulatory complexity) and pull (compliance needs). Professional licensing required. AI tools for modeling and analysis are emerging. Government institutional inertia."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "adoption_friction": 5,
+    "rationale": "Government agencies and environmental firms. Field sampling and monitoring requires physical presence. EPA and state regulations create compliance framework. Lab work increasingly automated. Moderate institutional inertia. Some remote sensing and AI monitoring tools already in use."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "adoption_friction": 5,
+    "rationale": "Government agencies, consulting firms, and nonprofits. Field work and stakeholder engagement require human presence. Regulatory framework (NEPA, EPA) requires human judgment for environmental assessments. Moderate institutional inertia. AI tools for analysis are emerging."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "adoption_friction": 4,
+    "rationale": "Government agencies (CDC, state health departments) and research institutions. AI/ML is already transforming disease surveillance and modeling. Institutional inertia in government slows adoption. Data analysis work is highly amenable to AI. Some human judgment needed for policy recommendations."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "adoption_friction": 6,
+    "rationale": "Mix of hospital/clinical settings and private practice. Healthcare regulations and licensing requirements. Physical assessment and exercise supervision require human presence. Patient relationship is important. Moderate employer fragmentation. Some wearable technology already augmenting the role."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "adoption_friction": 4,
+    "rationale": "Mix of large agribusiness operations (lower friction) and small family farms (higher friction). Severe labour shortages create strong pull for automation. Precision agriculture technology already widely adopted. Management decisions require local knowledge and judgment. USDA regulations manageable."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large fashion houses and many independent designers. AI design tools are emerging but creative vision is highly valued. Industry culture values human creativity and brand identity. Moderate employer fragmentation. Fast fashion segment more amenable to AI-driven design."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "adoption_friction": 5,
+    "rationale": "Mix of large studios and many freelancers. AI editing tools advancing rapidly. Camera operation for controlled settings amenable to automation but live/documentary work requires human judgment. Union protections (IATSE, editors guild). Creative judgment valued by industry."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "adoption_friction": 3,
+    "rationale": "Large financial institutions are primary employers with strong technology adoption culture and clear ROI. Quantitative analysis is highly amenable to AI. Bloomberg, FactSet already integrate AI. CFA credential creates some professional friction but employers drive adoption."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "adoption_friction": 2,
+    "rationale": "Large financial institutions and corporations are primary employers. Work is highly standardized and data-driven. Extensive automation already in place. Clear ROI. Minimal regulatory barriers for clerical functions. Labour market is already contracting due to automation."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "adoption_friction": 5,
+    "rationale": "Government agencies (FDIC, OCC, state regulators) are primary employers with institutional inertia. Regulatory examination requires human judgment and discretion. AI tools for financial analysis are available but regulatory culture is conservative. Moderate adoption in compliance monitoring."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations and financial institutions are primary employers. Strategic financial management requires human judgment. AI tools for analysis and forecasting already widely used. Professional expectations and fiduciary duty create moderate friction. Regulatory requirements (SOX, SEC) are manageable."
+  },
+  {
+    "slug": "fire-inspectors-and-investigators",
+    "title": "Fire inspectors",
+    "adoption_friction": 6,
+    "rationale": "Government employment with institutional inertia. Fire investigation requires physical scene examination and human judgment. Building inspection involves code interpretation in varied conditions. Liability for missed hazards. AI tools for analysis emerging but physical presence essential."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "adoption_friction": 9,
+    "rationale": "Government employment with extremely strong unions (IAFF). Life-safety role with high public trust requirements. Physical rescue in unpredictable, dangerous environments. Enormous liability and public accountability. Deep cultural identity and institutional traditions. Some drone/robot assistance but human firefighters are irreplaceable."
+  },
+  {
+    "slug": "fishers-and-related-fishing-workers",
+    "title": "Fishing and hunting workers",
+    "adoption_friction": 6,
+    "rationale": "Highly fragmented industry of small vessel operators. Work at sea in unpredictable conditions. Maritime regulations (Coast Guard). Limited capital among small operations. Some large commercial fishing operations adopting technology. Environmental and quota regulations add complexity."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "adoption_friction": 6,
+    "rationale": "Extremely fragmented industry of independent trainers, small gyms, and large fitness chains. Strong client preference for human motivation and personal attention. AI fitness apps exist but in-person training valued. Low barrier to entry means many small operators. Some certification requirements."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "adoption_friction": 8,
+    "rationale": "FAA safety regulations require human cabin crew for emergency procedures. Strong union protections (AFA). Airlines are large employers but regulatory requirements for emergency response mandate human presence. Passenger service expectations favor human interaction. Liability for safety compliance."
+  },
+  {
+    "slug": "tile-and-marble-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented trade with many small contractors and independent operators. Physical precision work in varied building conditions. Union presence in some markets. Limited capital for small operators. Each installation is unique, challenging robotic standardization. Labour shortages provide some pull."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "adoption_friction": 6,
+    "rationale": "Extremely fragmented industry of small independent florists. Physical arrangement work requires artistic judgment and dexterity. Some large event companies and grocery chains have more resources. Limited capital among small operators. Consumer preference for artisanal arrangements. Moderate technical barriers."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "adoption_friction": 4,
+    "rationale": "Large restaurant chains can adopt serving robots and ordering kiosks at scale. Severe labour shortages provide strong pull. Hospitality preference for human service in fine dining but fast-casual is automating. Mix of large chains (lower friction) and independent restaurants (higher friction)."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "adoption_friction": 3,
+    "rationale": "Large food service chains and food manufacturing drive adoption. Severe labour shortages create strong pull. Work is repetitive and standardizable in commercial settings. Food safety regulations manageable. Some prep robotics already deployed (chopping, portioning). Independent restaurants more fragmented."
+  },
+  {
+    "slug": "food-and-tobacco-processing-workers",
+    "title": "Food processing equipment workers",
+    "adoption_friction": 2,
+    "rationale": "Large food processing companies (Tyson, Cargill, Nestl\u00e9) are primary employers with strong incentive and resources. Severe labour shortages in food processing. USDA/FDA regulations manageable. Assembly-line work is highly amenable to robotics. Significant automation already deployed."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large restaurant chains (lower friction) and independent restaurants (higher friction). Management requires human judgment, staff supervision, and customer relations. AI tools for scheduling, inventory, and analytics already used. Health inspection compliance requires human accountability."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "adoption_friction": 5,
+    "rationale": "Government crime labs are primary employers with institutional inertia. DNA analysis and digital forensics increasingly automated. Chain of custody and court testimony requirements demand human accountability. Physical evidence collection at crime scenes requires human presence and judgment."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "adoption_friction": 6,
+    "rationale": "Government agencies and logging companies. Physical outdoor work in varied terrain. Limited technology infrastructure in remote forest locations. Moderate employer fragmentation. Environmental regulations require human judgment. Some mechanization already in logging but conservation work requires fieldcraft."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large nonprofits and hospitals (lower friction) and small nonprofits (higher friction). Relationship-driven work with strong donor preference for human connection. AI tools for prospect research and analytics already used. Moderate employer fragmentation. Major gift fundraising is deeply personal."
+  },
+  {
+    "slug": "funeral-service-occupations",
+    "title": "Funeral service workers",
+    "adoption_friction": 9,
+    "rationale": "Extremely high social/emotional barriers to automation. Families expect human empathy and care during bereavement. State licensing requirements. Fragmented industry of independent funeral homes. Strong cultural and religious traditions around death care. Limited economic incentive for automation."
+  },
+  {
+    "slug": "gaming-services-occupations",
+    "title": "Gambling services workers",
+    "adoption_friction": 4,
+    "rationale": "Large casino companies (MGM, Caesars) are primary employers with resources and incentive to adopt technology. Gaming commissions regulate operations. Some positions (dealers) have social/entertainment value. Electronic gaming already dominant. Sports betting increasingly automated."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "adoption_friction": 6,
+    "rationale": "Extremely varied work across many different building systems and conditions. Large property management companies and institutions are major employers but work environments are highly variable. OSHA and building regulations. Labour shortages provide pull but task diversity challenges robotics."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "adoption_friction": 2,
+    "rationale": "Large employers across all sectors. Work is highly standardized and administrative. Extensive automation already in place with office software and RPA. Clear ROI. Minimal regulatory barriers. Role has been declining for decades due to technology adoption."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "adoption_friction": 7,
+    "rationale": "Healthcare regulation and state licensing. Mostly employed by hospital systems and specialty clinics. Role involves complex emotional counseling alongside scientific interpretation. Patient preference for human counselor in sensitive genetic decisions. Growing field with established professional standards."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "adoption_friction": 4,
+    "rationale": "Government agencies and tech companies are primary employers. GIS analysis is highly amenable to AI. Remote sensing and spatial analysis already heavily computerized. Academic institutional inertia for university-based geographers. Moderate employer consolidation. Limited regulatory barriers."
+  },
+  {
+    "slug": "geological-and-petroleum-technicians",
+    "title": "Geological and hydrologic technicians",
+    "adoption_friction": 4,
+    "rationale": "Large oil and gas companies and geological survey agencies are primary employers with resources to adopt. Field sampling requires physical presence. Lab analysis increasingly automated. Moderate regulatory requirements. Industry has existing technology adoption culture."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "adoption_friction": 4,
+    "rationale": "Large energy companies, mining firms, and government agencies are primary employers. AI/ML for geological modeling advancing rapidly. Field work requires physical presence. Professional licensing in some states. Moderate institutional inertia in government settings. Clear ROI for resource exploration."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "adoption_friction": 7,
+    "rationale": "Fragmented construction trade with many small contractors. Physical installation of glass in varied building conditions. Union presence in commercial sector (IUPAT). Limited capital among small operators. Each installation is unique. Labour shortages provide some pull but jobsite conditions challenge robotics."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "adoption_friction": 3,
+    "rationale": "Mix of large agencies and many freelancers. AI design tools (Midjourney, DALL-E, Canva AI) already widely adopted. Clear ROI for corporate clients. Digital workflow facilitates AI integration. Some creative judgment still valued but routine design work rapidly automating. Large employer segment adopts quickly."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "adoption_friction": 3,
+    "rationale": "Large property management companies and municipalities are major employers. Robotic mowing and autonomous equipment already commercial. Severe labour shortages provide strong pull. Minimal regulatory barriers. Landscaping work in structured environments is amenable to automation. Some fragmented residential segment."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "adoption_friction": 1,
+    "rationale": "Large warehouse and logistics companies (Amazon, UPS) are primary employers with massive investment in automation. Acute labour shortages. Clear ROI. Robotic material handling already widely deployed. Minimal regulatory barriers. Repetitive physical work in controlled environments."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "adoption_friction": 5,
+    "rationale": "Safety-critical work with EPA and OSHA regulations. Large environmental remediation firms and government contracts. Hazardous conditions actually favor robotic deployment. Labour shortages and worker safety concerns provide pull. Regulatory frameworks would need updating but economic incentive is clear."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "adoption_friction": 5,
+    "rationale": "Large corporations and government agencies (OSHA) are primary employers. Analysis and compliance work amenable to AI. Professional licensing and liability concerns. Physical site inspection requires human presence. Moderate institutional inertia. Regulatory complexity both drives and hinders automation."
+  },
+  {
+    "slug": "health-educators",
+    "title": "Health education specialists",
+    "adoption_friction": 6,
+    "rationale": "Government agencies, nonprofits, and healthcare systems. Community health education requires human connection and cultural competency. Moderate employer fragmentation. Some digital health education tools already in use. Institutional inertia in public health. Behavioral change work requires human empathy."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "adoption_friction": 3,
+    "rationale": "Large hospital systems and health organizations are primary employers. Work is data-driven and highly amenable to AI and automation. HIPAA regulations create compliance requirements but don't prevent automation. EHR systems already heavily computerized. Clear ROI for AI integration."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented between large HVAC companies and many independent operators. Physical work in varied building conditions. EPA Section 608 certification for refrigerants. Acute labour shortages provide pull but physical installation and repair in confined spaces challenges robotics. State licensing requirements."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "adoption_friction": 3,
+    "rationale": "Large fleet operators (J.B. Hunt, Werner, Schneider) have resources for autonomous trucks. Severe driver shortage creates massive economic pull. Highway driving is most amenable to autonomy. DOT/FMCSA regulations will need updating but industry lobbying is strong. Teamsters union provides some friction."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "adoption_friction": 6,
+    "rationale": "Large fleet operators and equipment dealers are major employers. Physical repair of heavy equipment in varied conditions requires dexterity and judgment. ASE and manufacturer certifications. Labour shortages provide pull. Equipment diversity challenges standardized robotic repair solutions."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "adoption_friction": 7,
+    "rationale": "Government employment with strong unions and deep institutional inertia. State certification requirements. Strong social preference for human teachers, especially for adolescents. Classroom management requires human presence and judgment. Moderate technology adoption in curriculum but teaching role resists replacement."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "adoption_friction": 6,
+    "rationale": "Primarily academic and museum employment with strong institutional inertia. Research involves interpretive judgment and archival work. AI tools for text analysis emerging but humanistic interpretation is central. Fragmented employment across universities and cultural institutions. Limited technology budgets."
+  },
+  {
+    "slug": "home-health-aides-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "adoption_friction": 6,
+    "rationale": "Severe labour shortages create enormous pull for automation. But highly fragmented employer base of small agencies and individual households. Physical caregiving in home environments challenges robotics. State regulations vary. Patients prefer human caregivers. Low wages limit technology investment but demographic crisis accelerates change."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers with HR technology already well-adopted. Strategic HR management requires human judgment. AI tools for analytics, recruitment, and benefits widely used. Moderate regulatory complexity (employment law) but manageable. Some friction from sensitivity of personnel decisions."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "adoption_friction": 3,
+    "rationale": "Large corporations are primary employers with extensive HR tech adoption. Recruiting, onboarding, and benefits administration already heavily automated. AI tools for resume screening and scheduling widespread. Clear ROI. Employment law compliance actually drives automation. Moderate social friction for sensitive interactions."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "adoption_friction": 4,
+    "rationale": "Government agencies and environmental firms are primary employers. Modeling and data analysis amenable to AI. Field work requires physical presence for monitoring. Moderate institutional inertia in government. Environmental regulations require human judgment for assessments. Limited regulatory barriers for AI tools."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "adoption_friction": 4,
+    "rationale": "Mix of large manufacturers and design consultancies. AI-assisted design and generative design tools advancing rapidly. Creative vision still valued but routine design tasks automating. Moderate employer fragmentation. Existing digital workflow facilitates AI integration. Some professional judgment still required."
+  },
+  {
+    "slug": "industrial-engineering-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "adoption_friction": 3,
+    "rationale": "Large manufacturing companies are primary employers with strong automation culture. Process optimization work is highly amenable to AI. Existing technology infrastructure in manufacturing facilitates adoption. Clear ROI. Moderate regulatory requirements. Labour shortages in manufacturing provide pull."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "adoption_friction": 3,
+    "rationale": "Large manufacturers and logistics companies are primary employers with strong incentive to adopt AI for process optimization. The field itself focuses on efficiency, making AI adoption natural. AI tools for simulation and optimization already widely used. Moderate regulatory requirements."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "adoption_friction": 5,
+    "rationale": "Large manufacturing facilities are primary employers. Physical repair of diverse machinery in industrial settings. Acute labour shortages provide strong pull. Predictive maintenance AI already deployed. But physical repair in varied conditions challenges robotics. OSHA safety requirements manageable."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturing companies are primary employers with strong technology adoption culture. Management role requires human judgment and coordination. AI tools for production planning and quality control already widely used. Industry 4.0 initiatives facilitate adoption. Moderate regulatory requirements."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "adoption_friction": 2,
+    "rationale": "Large employers (hospitals, hotels, government) with clear ROI for AI-powered information systems. Kiosks and AI chatbots already widely deployed. Work is highly standardized. Minimal regulatory barriers. Labour shortages provide pull. Role already declining due to digital self-service."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "adoption_friction": 3,
+    "rationale": "Large enterprises are primary employers with strong incentive and resources. AI-powered security tools already essential and widely deployed. Existing technology culture. Clear ROI given rising cyber threats. Moderate regulatory requirements (PCI DSS, HIPAA) actually drive AI adoption. Talent shortages provide pull."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "adoption_friction": 6,
+    "rationale": "Education sector with strong institutional inertia. Government and school district employment. Curriculum development requires pedagogical judgment. Moderate bureaucratic friction. Some AI-powered adaptive learning tools emerging but educational culture resists rapid technology change. State standards compliance requires human judgment."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "adoption_friction": 7,
+    "rationale": "Fragmented construction trade with many small contractors. Physical installation in varied building conditions including confined spaces. Union presence in commercial sector. Limited capital among small operators. Labour shortages provide pull but work conditions challenge robotics. Building code compliance requires human inspection."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "adoption_friction": 4,
+    "rationale": "Large insurance companies can deploy AI for routine policy sales. Online insurance platforms already handle simple policies. But complex commercial and life insurance involves relationship-building. State licensing requirements. Mix of captive agents (lower friction) and independent agents (higher friction)."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "adoption_friction": 2,
+    "rationale": "Large insurance companies are primary employers with strong technology adoption culture and clear ROI. Underwriting is highly data-driven and amenable to AI. Automated underwriting systems already widely deployed. State regulatory requirements manageable. Risk assessment is a natural AI application."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large firms and many independent practitioners. AI design and visualization tools advancing rapidly. Client relationships and aesthetic judgment valued. State licensing in some jurisdictions. Moderate employer fragmentation. Some routine design work automating but custom work retains human value."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "adoption_friction": 4,
+    "rationale": "Mix of large language service providers and many freelancers. AI translation (Google, DeepL) already competitive for many language pairs. Conference interpretation has higher social barriers. Government and legal settings require certification. Creative and cultural nuance still valued for literature and high-stakes contexts."
+  },
+  {
+    "slug": "structural-iron-and-steel-workers",
+    "title": "Ironworkers",
+    "adoption_friction": 7,
+    "rationale": "Specialized construction trade working at heights in dangerous conditions. Strong union presence (Iron Workers). Physical work in varied outdoor conditions at elevation. Strict OSHA safety requirements. Labour shortages provide some pull but work environment is extremely challenging for robotics. State licensing."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "adoption_friction": 3,
+    "rationale": "Large property management companies and institutions are major employers. Robotic cleaning equipment already widely deployed. Severe labour shortages provide strong pull. Minimal regulatory barriers. Clear ROI. Some facility variability but controlled indoor environments suit robotics. Fragmented residential segment is higher friction."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "adoption_friction": 7,
+    "rationale": "Extremely fragmented industry of small independent shops and artisans. Physical precision work requiring artistic judgment. Consumer value placed on handcrafted artisanship. Limited capital among small operators. CAD/CAM tools adopted for some production but custom work resists automation. Moderate regulatory requirements."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "adoption_friction": 10,
+    "rationale": "Constitutional requirements for human judicial decision-making. Enormous public trust and accountability requirements. Legal framework assumes human judges. Deep institutional inertia in the judiciary. Political appointment/election process. Liability and appeals framework built around human judgment. Most friction-resistant occupation."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "adoption_friction": 8,
+    "rationale": "Government employment with strong unions and deep institutional inertia. Young children require human nurturing, social-emotional development, and supervision. State certification requirements. Parents strongly prefer human teachers. Classroom management of young children is irreplaceable by AI. Liability concerns for child safety."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "adoption_friction": 6,
+    "rationale": "Large corporations and government agencies are primary employers. Work involves negotiation, conflict resolution, and legal knowledge. Human judgment essential for union relations and dispute resolution. Moderate regulatory complexity (NLRA). Some analytical work amenable to AI but interpersonal component resists automation."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "adoption_friction": 5,
+    "rationale": "Mix of large firms and small practices. AI design tools advancing. Professional licensing required. Environmental regulations and community engagement require human judgment. Moderate employer fragmentation. Site-specific design requires physical assessment. Some routine design work amenable to AI."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "adoption_friction": 6,
+    "rationale": "Mix of large law firms (lower friction for AI tools) and many small practices (higher friction). Professional licensing (bar admission) and malpractice liability. AI legal research tools already widely used. Court appearances require human advocacy. Legal ethics rules restrict non-human practice. Client trust barriers."
+  },
+  {
+    "slug": "librarians",
+    "title": "Librarians and library media specialists",
+    "adoption_friction": 6,
+    "rationale": "Government and academic institutional inertia. Role is evolving from information retrieval to community engagement and digital literacy. Strong professional association culture. Budget-constrained institutions. AI search tools already transforming information access but community role valued. State certification in some settings."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "adoption_friction": 4,
+    "rationale": "Large library systems have resources to adopt automation. Self-checkout systems widely deployed. Digital cataloging amenable to AI. But community service role valued. Government institutional inertia. Moderate employer consolidation. Some routine tasks already automated. Budget constraints may paradoxically drive automation."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulations. Mix of hospital systems (larger) and nursing homes/home health (fragmented). Physical patient care requires human touch and judgment. Severe labour shortages provide pull but regulatory, liability, and social barriers are high. Patient preference for human nurses is strong."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "adoption_friction": 3,
+    "rationale": "Large banks and mortgage companies are primary employers. AI-driven loan origination and underwriting systems already deployed. Clear ROI. Regulatory requirements (TILA, RESPA, ECOA) manageable and actually drive automation for compliance. Consumer lending increasingly automated. Complex commercial loans retain human element."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large hotel chains (lower friction) and independent properties (higher friction). Management role requires human judgment and guest relations. AI tools for revenue management and operations already used. Hospitality culture values human service. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large timber companies and small independent operators. Physical work in remote, varied terrain. Mechanization already advanced but full automation in forest conditions is challenging. Labour shortages and safety concerns provide pull. Environmental regulations add complexity. Infrastructure in forests is limited."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "adoption_friction": 3,
+    "rationale": "Large corporations and logistics companies are primary employers with strong technology adoption culture. Supply chain optimization is a natural AI application. AI tools already widely deployed. Clear ROI. Moderate regulatory requirements for some industries. Military and defense logistics already AI-augmented."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "adoption_friction": 4,
+    "rationale": "Manufacturing employers with CNC automation already well-established. AI-assisted machining and tool path optimization advancing. Labour shortages provide pull. Skilled work still requires human judgment for complex parts. Moderate regulatory requirements. Apprenticeship traditions create some institutional inertia."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "adoption_friction": 4,
+    "rationale": "Large consulting firms and corporations are primary employers with resources to adopt AI. Analytical work amenable to AI tools. McKinsey, BCG already deploying AI for analysis. But client relationships and strategic judgment valued. Moderate employer fragmentation with many independent consultants."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "adoption_friction": 8,
+    "rationale": "Extremely fragmented industry of small salons and independent operators. Physical manipulation of nails and hands requires fine motor skills. Strong client preference for human touch and personal service. Limited capital among small operators. State licensing requirements. Cultural expectations of personal service."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "adoption_friction": 5,
+    "rationale": "Large shipbuilding companies and naval operations are primary employers. Design work amenable to AI tools. Coast Guard and classification society regulations. Safety-critical maritime systems require human oversight. Moderate employer consolidation. Defense contracts have specific requirements."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "adoption_friction": 3,
+    "rationale": "Large corporations and research firms are primary employers with clear ROI for AI analytics. Data analysis and survey processing highly amenable to AI. AI tools for sentiment analysis and predictive modeling already deployed. Some qualitative research requires human judgment. Minimal regulatory barriers."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "adoption_friction": 9,
+    "rationale": "Extreme social resistance to non-human therapy. State licensing and healthcare regulation. Deeply personal therapeutic relationship is central to treatment. Malpractice liability. Highly fragmented independent practice structure. Professional ethics codes require human practitioners. Insurance billing requires licensed human providers."
+  },
+  {
+    "slug": "brickmasons-blockmasons-and-stonemasons",
+    "title": "Masonry workers",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented trade with many small contractors and independent operators. Physical work in varied outdoor conditions requiring craftsmanship. Union presence in commercial sector. Limited capital among small operators. Each project is unique. Labour shortages provide pull but robotic masonry in field conditions is nascent."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "adoption_friction": 8,
+    "rationale": "State licensing requirements. Extremely fragmented industry of independent practitioners and small practices. Physical touch is the fundamental service. Strong client preference for human touch and therapeutic relationship. Limited capital among solo practitioners. Liability concerns for physical manipulation."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "adoption_friction": 2,
+    "rationale": "Large warehouse, mining, and logistics companies are primary employers. Autonomous forklifts and material handling robots already deployed. Severe labour shortages create strong pull. Clear ROI. Minimal regulatory barriers beyond OSHA workplace safety. Controlled industrial environments suit automation."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "adoption_friction": 2,
+    "rationale": "Large warehouse and logistics companies are primary employers. Work is highly standardized and data-driven. RFID, barcode, and inventory management systems already heavily automated. Clear ROI. Minimal regulatory barriers. Labour shortages in warehousing provide pull."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturers, aerospace, and tech companies are primary employers. AI for materials discovery and testing advancing rapidly. Professional engineering requirements. Moderate regulatory requirements depending on industry. Physical testing and lab work requires presence. Existing technology culture facilitates adoption."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "adoption_friction": 3,
+    "rationale": "Large tech companies, government agencies, and research institutions. Work is highly quantitative and amenable to AI. AI/ML tools already integrated into statistical practice. Academic institutional inertia for university positions. Clear ROI in industry applications. Minimal regulatory barriers."
+  },
+  {
+    "slug": "mechanical-engineering-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturers are primary employers with resources to adopt. Testing and quality control work increasingly automated. Moderate regulatory requirements. Physical lab and shop work requires manual presence. Existing manufacturing technology culture facilitates adoption."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturers and engineering firms are primary employers. AI-assisted design, simulation, and generative design already used. Professional licensing (PE) for some roles. Moderate regulatory requirements. Physical prototyping and testing requires presence. Industry already technology-forward."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "adoption_friction": 5,
+    "rationale": "Large hospital systems are primary employers. Management role requires human judgment and stakeholder coordination. AI tools for healthcare analytics and operations already adopted. Healthcare regulatory complexity (CMS, state regulations) creates moderate friction. Institutional inertia in healthcare."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "adoption_friction": 6,
+    "rationale": "Healthcare regulation and licensing. Large healthcare systems employ many but small practices are fragmented. Physical patient interaction (vitals, blood draws) requires human presence. Patient comfort expectations. EHR systems already automate some documentation. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "adoption_friction": 5,
+    "rationale": "Hospital systems are primary employers. Treatment planning is highly quantitative and amenable to AI. FDA and state radiation regulations. Professional certification requirements. AI-assisted treatment planning already in use. Patient safety demands rigorous validation. Moderate institutional inertia in healthcare."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "adoption_friction": 5,
+    "rationale": "Large hospital systems and medical device companies are primary employers. Physical repair of specialized equipment requires technical skill. FDA regulations for medical devices. Manufacturer training and certification. Diverse equipment types challenge standardized robotic repair. Moderate labour shortages."
+  },
+  {
+    "slug": "medical-records-and-health-information-technicians",
+    "title": "Medical records specialists",
+    "adoption_friction": 3,
+    "rationale": "Large hospital systems are primary employers. Work is data-driven and highly amenable to AI. EHR systems already heavily automated. HIPAA compliance drives but doesn't prevent automation. AI coding and classification tools already deployed. Clear ROI for large healthcare systems."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "adoption_friction": 4,
+    "rationale": "Large pharmaceutical companies and research institutions are primary employers. AI is transforming drug discovery and genomics. FDA regulatory requirements for research. Physical lab work requires presence. Academic institutional inertia for university researchers. Existing technology adoption in pharma facilitates AI integration."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "adoption_friction": 1,
+    "rationale": "AI speech recognition has already largely replaced traditional medical transcription. Large healthcare systems and transcription companies drive adoption. Work is entirely amenable to AI. Clear ROI. HIPAA compliance manageable. Role has been declining rapidly due to existing automation."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "adoption_friction": 5,
+    "rationale": "Mix of large hotel/convention companies and many independent planners. AI tools for logistics and scheduling already used. Client relationships and creative judgment valued. Moderate employer fragmentation. Physical site management requires human presence. Some standardized events more amenable to automation."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "adoption_friction": 2,
+    "rationale": "Large manufacturers are primary employers with strong automation culture. CNC automation already pervasive. Labour shortages in manufacturing provide strong pull. Clear ROI. Minimal regulatory barriers beyond workplace safety. Controlled factory environments suit robotic operation. Industry 4.0 drives further automation."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "adoption_friction": 4,
+    "rationale": "Large pharmaceutical companies, government labs, and research institutions. Lab automation advancing rapidly including automated microbiology systems. FDA/EPA regulatory requirements for testing. Physical lab work requires some presence. Academic institutional inertia. AI for genomics and drug discovery already deployed."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "adoption_friction": 7,
+    "rationale": "Government employment with strong unions and institutional inertia. Adolescent development requires human mentorship, classroom management, and social-emotional support. State certification requirements. Strong parental and societal preference for human teachers. Moderate technology adoption in curriculum delivery."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "adoption_friction": 8,
+    "rationale": "Heavy government institutional inertia with strict chain of command. Enormous regulatory and legal frameworks (UCMJ, Geneva Conventions, laws of armed conflict). Public accountability for use of force. Some rapid technology adoption for support roles but combat and leadership roles face extreme friction. Security clearance requirements."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "adoption_friction": 4,
+    "rationale": "Large mining companies are primary employers with resources and motivation to adopt autonomous equipment. Safety concerns favor robotic deployment in hazardous conditions. MSHA regulations create compliance framework. AI for resource modeling already used. Some remote/harsh environment challenges for robotics."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "adoption_friction": 7,
+    "rationale": "Fashion and advertising industries increasingly using AI-generated models, but strong cultural resistance in high fashion and editorial work. Fragmented employer base of agencies and brands. Human physicality valued for runway shows. Industry unions provide some protection. Legal questions around likeness rights unresolved."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "adoption_friction": 6,
+    "rationale": "Creative work where human artistry is highly valued. Mix of large institutions (orchestras, studios) and many independent composers. AI music generation is advancing but audience and industry preference for human composers is strong. Strong copyright and creative ownership issues. Union protections in media."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "adoption_friction": 7,
+    "rationale": "Live performance is fundamentally about human artistry and connection. Extremely fragmented self-employed base. Audiences value human creativity and performance. AI music generation faces strong cultural resistance and copyright questions. Union protections (AFM). Recorded music faces more AI competition than live."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "adoption_friction": 5,
+    "rationale": "Large research institutions, government agencies, and pharmaceutical companies. Management role requires human judgment and team leadership. AI tools for research management emerging. Institutional inertia in academia and government. Moderate regulatory complexity. Scientific expertise and interpersonal skills valued."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "adoption_friction": 2,
+    "rationale": "Large enterprises are primary employers. Cloud automation and AI-powered network management already pervasive. Clear ROI. Existing technology culture. Automated provisioning, monitoring, and troubleshooting widely deployed. Minimal regulatory barriers. Talent shortages drive further automation."
+  },
+  {
+    "slug": "reporters-correspondents-and-broadcast-news-analysts",
+    "title": "News analysts, reporters, and journalists",
+    "adoption_friction": 5,
+    "rationale": "Mix of large media companies and local outlets. AI-generated news articles already used for routine reporting. But investigative journalism, source cultivation, and on-scene reporting require human judgment. First Amendment and press freedom cultural values. Some union presence. Audience trust in human journalists."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "adoption_friction": 6,
+    "rationale": "NRC regulation is extremely stringent. Large utilities and government contractors are employers with resources. Safety-critical nuclear systems require extensive human oversight and validation. AI tools for monitoring and simulation used but regulatory approval for autonomous nuclear systems faces extreme scrutiny. Security clearance requirements."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "adoption_friction": 6,
+    "rationale": "Healthcare regulation, state licensing, and NRC radiation safety requirements. Hospital systems are primary employers. Physical patient handling and radiotracer administration. FDA-regulated equipment. AI-assisted image interpretation emerging but regulatory path is slow. Patient safety demands rigorous oversight."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "adoption_friction": 6,
+    "rationale": "NRC regulation is stringent. Large utilities and government facilities. Safety-critical work with radiation exposure requires strict protocols. Some tasks amenable to robotic automation for safety reasons. Security clearance requirements. Institutional inertia in nuclear industry. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "adoption_friction": 8,
+    "rationale": "Heavy healthcare regulation, state licensing, and scope-of-practice restrictions. High liability for patient outcomes. Strong patient trust requirements for procedures and prescribing. Professional association protections. Collaborative practice agreements with physicians add regulatory layers. Labour shortages provide some pull but barriers are formidable."
+  },
+  {
+    "slug": "nursing-assistants",
+    "title": "Nursing assistants and orderlies",
+    "adoption_friction": 6,
+    "rationale": "Severe labour shortages in nursing facilities create enormous pull. But highly fragmented across nursing homes and healthcare facilities. Physical patient care (bathing, feeding, moving) requires human presence and empathy. State certification requirements. Patient safety and dignity concerns. Low wages limit employer technology investment."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "adoption_friction": 5,
+    "rationale": "Large employers and government agencies (OSHA). Physical workplace inspection requires human presence and judgment. Regulatory compliance work amenable to AI tools. Moderate institutional inertia. Professional certification requirements. Liability for missed hazards. Some AI monitoring tools already deployed."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Mix of hospital systems and outpatient clinics. Physical rehabilitation requires hands-on human interaction and adaptive judgment. Patient therapeutic relationship is central. Insurance billing requires licensed providers. Moderate employer fragmentation. Liability concerns."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Work under OT supervision in varied therapeutic settings. Physical patient interaction for exercises and daily living activities. Patient preference for human assistance. Moderate employer fragmentation across healthcare settings. Liability concerns."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "adoption_friction": 4,
+    "rationale": "Large oil and gas companies have resources and motivation for automation. Hazardous work conditions favor robotic deployment. Labour shortages provide pull. Some offshore and remote operations already automated. OSHA and environmental regulations manageable. Mix of large operators (lower friction) and small contractors (higher friction)."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "adoption_friction": 3,
+    "rationale": "Large corporations and government agencies are primary employers. Work is highly quantitative and analytical, perfectly suited to AI. Operations research is inherently computational. AI/ML tools already widely integrated. Moderate institutional inertia in government settings. Clear ROI in industry."
+  },
+  {
+    "slug": "opticians-dispensing",
+    "title": "Opticians",
+    "adoption_friction": 5,
+    "rationale": "Mix of large retail optical chains (LensCrafters, Warby Parker) and independent practices. State licensing requirements for dispensing. Physical fitting and adjustment of eyewear. Customer service component. Large chains more amenable to automation. Insurance billing requirements. Moderate employer fragmentation."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Mix of independent practices and retail chains. Clinical examination requires physical interaction and equipment operation. Patient trust in human diagnosis. Insurance billing complexity. Professional association protections. AI diagnostic tools emerging but regulatory approval slow."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Highly specialized physical fitting and customization. Patient relationship for rehabilitation. Small employer base with limited capital. Insurance billing requirements. 3D printing advancing but clinical judgment and fitting require human expertise. Liability for device performance."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "adoption_friction": 6,
+    "rationale": "Fragmented between commercial contractors and many independent painters. Physical work in varied conditions. Painting robotics exist for large flat surfaces but complex residential and detail work is challenging. Labour shortages provide moderate pull. Limited capital among small operators. Union presence in commercial sector."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "adoption_friction": 3,
+    "rationale": "Large manufacturing facilities are primary employers. Industrial painting and coating is already significantly automated (robotic spray painting). Quality control increasingly automated. OSHA and EPA regulations manageable. Controlled factory environments suit robotic coating. Labour shortages provide pull."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "adoption_friction": 4,
+    "rationale": "Large law firms are primary employers with resources and incentive to adopt AI. Legal research and document review already heavily AI-assisted. e-Discovery automation well-established. Moderate regulatory requirements. Some fragmentation in small firm segment. Clear ROI for document-intensive work."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "adoption_friction": 5,
+    "rationale": "Mix of large firms (lower friction, robo-advisors deployed) and many independent advisors (higher friction). Fiduciary duty and SEC/FINRA regulation. Client preference for human relationship in high-net-worth segment. Robo-advisory already disrupting lower-end market. State registration requirements. Trust and liability concerns."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "adoption_friction": 6,
+    "rationale": "Fragmented industry of many small local companies. Physical work in varied residential and commercial environments. State licensing for pesticide application. EPA regulations. Customer interaction and trust important. Labour shortages provide moderate pull. Robotic pest control in development but environment variability is challenging."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "adoption_friction": 4,
+    "rationale": "Large oil and gas companies are primary employers with resources and technology culture. AI for reservoir modeling and drilling optimization already deployed. Professional engineering licensing. Moderate regulatory requirements. Remote/offshore work conditions. Industry has strong incentive for efficiency gains."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "adoption_friction": 5,
+    "rationale": "Large pharmacy chains (CVS, Walgreens) are primary employers with resources to adopt. Robotic dispensing already deployed. State licensing and DEA regulations. Pharmacist clinical judgment for drug interactions valued. Insurance and billing complexity. Patient counseling component has social barriers. Labour shortages provide pull."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "adoption_friction": 4,
+    "rationale": "Large pharmacy chains are primary employers. Automated dispensing systems already widespread. State certification requirements. Work is highly standardized for medication counting and filling. Patient interaction for pickup has some social element. Insurance billing increasingly automated. Labour shortages provide pull."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "adoption_friction": 6,
+    "rationale": "Healthcare regulation and certification. Hospital systems are large employers. Physical blood draw requires manual skill in variable patient anatomy. Patient comfort and anxiety management requires human interaction. Automated blood draw devices emerging but not yet reliable for all patients. Liability concerns."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "adoption_friction": 5,
+    "rationale": "Extremely fragmented industry of independent photographers and small studios. AI image generation advancing but event/portrait photography values human interaction and artistic vision. Some commercial photography amenable to AI. Limited capital among independents. Wedding and portrait market has strong human preference."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Physical rehabilitation exercises require hands-on guidance and patient assessment. Patient therapeutic relationship valued. Mix of hospital/clinic and outpatient settings. Insurance billing requires licensed providers. Moderate employer fragmentation. Liability concerns."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Hands-on physical treatment and patient assessment. Strong patient preference for human therapist. Malpractice liability. Mix of hospital systems and private practices. Insurance billing complexity. AI tools for exercise planning emerging but manual therapy requires human skill."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation with physician supervision requirements. Clinical examination and prescribing authority. High patient trust requirements. Malpractice liability. Employed primarily by healthcare systems. Professional scope-of-practice protections. Labour shortages provide some pull."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "adoption_friction": 8,
+    "rationale": "Heavy state licensing, board certification, and malpractice liability. Strong patient trust requirements. FDA regulatory path for AI diagnostics is slow. Surgery requires extreme precision and judgment. AMA and specialty society protections. Deep healthcare institutional inertia. Some AI diagnostic tools emerging but full practice automation faces decade-plus friction."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "adoption_friction": 4,
+    "rationale": "Large research institutions, government labs (DOE, NASA), and universities. AI/ML already transforming data analysis and simulation. Research requires creative hypothesis generation. Academic institutional inertia. Physical experimental work requires presence. Moderate employer consolidation. Limited regulatory barriers."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented between commercial contractors and many independent operators. Physical work in varied, confined building conditions. Strong union presence (UA). State licensing requirements. Acute labour shortages provide pull but work in existing building infrastructure is extremely challenging for robotics. Code compliance requires judgment."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "adoption_friction": 8,
+    "rationale": "State licensing and healthcare regulation. Mostly in small independent practices with limited capital. Physical examination and treatment of feet. Malpractice liability. Patient preference for human practitioners. Professional association protections. Insurance billing complexity. Small practice structure limits technology investment."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "adoption_friction": 9,
+    "rationale": "Government employment with powerful unions (FOP, PBA). Constitutional requirements for law enforcement. Enormous public trust, accountability, and use-of-force liability. Deep institutional culture and traditions. Community policing requires human presence and judgment. Some AI surveillance tools adopted but officers cannot be replaced."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "adoption_friction": 5,
+    "rationale": "Primarily academic employment with institutional inertia. AI tools for data analysis and polling advancing. Research requires interpretive judgment and cultural understanding. Limited policy impact without human advocacy. Moderate employer fragmentation across universities and think tanks. No significant regulatory barriers."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "adoption_friction": 4,
+    "rationale": "USPS is a single large employer with motivation to automate. Mail sorting already heavily automated. Delivery requires physical presence for last-mile. Strong union protections (NALC, APWU). Government institutional inertia. Some autonomous delivery vehicle pilots. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "adoption_friction": 6,
+    "rationale": "Higher education has deep institutional inertia, shared governance, and complex stakeholder relationships. Large universities have resources but bureaucratic cultures. Accreditation requirements. Some administrative functions amenable to AI but leadership, fundraising, and community roles require human presence."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "adoption_friction": 7,
+    "rationale": "Strong academic institutional inertia and tenure protections. Research and mentorship require human judgment and creativity. Accreditation standards. Some lecture delivery amenable to AI/online but lab teaching, seminars, and advising resist automation. Academic freedom culture resists standardization."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "adoption_friction": 5,
+    "rationale": "Large utilities are primary employers with resources. NERC reliability standards and NRC (nuclear) regulation. Control room automation advancing but human oversight required for safety-critical grid operations. Union presence (IBEW, UWUA). Labour shortages provide moderate pull. Infrastructure modernization is ongoing."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "adoption_friction": 8,
+    "rationale": "State licensing and child safety regulations. Fragmented industry of small centers. Parents expect human leadership for their children's care. Management requires community relationships and crisis response. Low capital availability. Strong social resistance to non-human management of childcare. Liability for child safety."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "adoption_friction": 9,
+    "rationale": "Extreme social resistance to non-human care of very young children. Heavy state licensing and safety regulations. Child development requires human nurturing, social-emotional interaction, and physical supervision. Parents strongly prefer human teachers. Liability concerns paramount. Fragmented employer base of small centers."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "adoption_friction": 5,
+    "rationale": "Fragmented industry of small agencies and independent operators. Surveillance and research amenable to AI tools. Physical investigation requires human presence and judgment. State licensing requirements. Some large corporate investigation firms have more resources. Legal and evidentiary requirements favor human investigators."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "adoption_friction": 8,
+    "rationale": "Government employment with institutional inertia. Constitutional requirements for supervision and due process. Risk assessment involves human judgment about public safety. Strong union protections. Caseload management has some AI tools but direct supervision requires human presence. Liability for supervised individuals' actions."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "adoption_friction": 6,
+    "rationale": "Mix of large studios (lower friction) and many independent productions (higher friction). Creative leadership and vision highly valued. Union protections (DGA, PGA). Management of complex creative teams requires human judgment. AI tools for pre-production and editing emerging but creative authority resists automation."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers with resources. AI project management tools already widely adopted. Coordination and stakeholder management require human judgment. PMP certification creates professional standards. Work is increasingly tool-augmented. Moderate employer fragmentation in consulting."
+  },
+  {
+    "slug": "appraisers-and-assessors-of-real-estate",
+    "title": "Property appraisers and assessors",
+    "adoption_friction": 5,
+    "rationale": "Mix of government assessors and private appraisers. AI valuation models (AVMs) already widely used. State licensing requirements. Fannie Mae/Freddie Mac regulations. Physical property inspection still required for many appraisals. Liability for valuation accuracy. Fragmented independent appraiser base."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large management companies and small firms. Management role requires tenant/owner relationships and physical property oversight. Some AI tools for financial management and maintenance scheduling. State licensing in many jurisdictions. Moderate employer fragmentation. Human relationship component valued."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "adoption_friction": 7,
+    "rationale": "Healthcare regulation and certification. Direct patient contact with psychiatric patients requires human empathy and crisis de-escalation skills. Institutional setting (hospitals, residential facilities) with safety concerns. Patient trust essential. Moderate labour shortages. Physical intervention may be required."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "adoption_friction": 8,
+    "rationale": "State licensing and healthcare regulation. Therapeutic relationship is central to treatment. Strong social resistance to AI therapy for serious conditions. Malpractice liability. Insurance billing requires licensed providers. Mix of hospital systems and many independent practices. Professional ethics codes require human practitioners."
+  },
+  {
+    "slug": "public-relations-managers",
+    "title": "Public relations and fundraising managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers. AI tools for media monitoring and content generation already used. Strategic communication and crisis management require human judgment. Moderate employer size. Relationship management with media and stakeholders valued. Minimal regulatory barriers."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "adoption_friction": 4,
+    "rationale": "Large corporations and PR firms are primary employers. AI tools for content creation, media monitoring, and analytics adopted. Relationship management and strategic messaging require human judgment. Moderate employer fragmentation. Digital PR workflow facilitates AI integration. Minimal regulatory barriers."
+  },
+  {
+    "slug": "police-fire-and-ambulance-dispatchers",
+    "title": "Public safety telecommunicators",
+    "adoption_friction": 5,
+    "rationale": "Government employment with union protections. 911 dispatch requires human judgment in life-threatening situations. AI-assisted dispatch tools already deployed for routing and prioritization. Regulatory requirements for emergency services. Liability for dispatch decisions. Moderate institutional inertia. Labour shortages provide pull."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "adoption_friction": 3,
+    "rationale": "Large corporations are primary employers with resources. Procurement is highly data-driven and amenable to AI. AI-powered sourcing and procurement platforms already deployed. Clear ROI. Moderate regulatory requirements for government purchasing (FAR). Supply chain optimization is a natural AI application."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "adoption_friction": 3,
+    "rationale": "Large manufacturers are primary employers. AI-powered visual inspection and automated testing already widely deployed. Clear ROI. Existing manufacturing technology culture. Moderate regulatory requirements (ISO, FDA for medical). Labour shortages in manufacturing provide pull. Controlled environments suit automated inspection."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "adoption_friction": 6,
+    "rationale": "Healthcare regulation, state licensing, and radiation safety requirements. Hospital systems are primary employers. Patient interaction and positioning requires human skill. AI-assisted treatment planning advancing. Regulatory approval for automated delivery is slow. Patient safety demands rigorous human oversight."
+  },
+  {
+    "slug": "radiologic-technologists",
+    "title": "Radiologic and MRI technologists",
+    "adoption_friction": 5,
+    "rationale": "Healthcare regulation, state licensing. Hospital systems are primary employers. AI-assisted image acquisition and quality control advancing. Physical patient positioning requires human interaction. FDA-regulated equipment. Patient comfort and communication important. Moderate institutional inertia in healthcare."
+  },
+  {
+    "slug": "railroad-occupations",
+    "title": "Railroad workers",
+    "adoption_friction": 5,
+    "rationale": "Large railroad companies (BNSF, UP, CSX, NS) have resources. FRA regulations are extensive. Strong union presence (BLET, SMART-TD). Autonomous train technology advancing but regulatory and union barriers significant. Safety-critical nature demands extensive testing. Class I railroads are motivated by efficiency. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "adoption_friction": 5,
+    "rationale": "Extremely fragmented industry of independent agents and small brokerages. State licensing requirements. AI tools for property valuation and marketing already used. But home buying/selling is emotionally significant with strong preference for human guidance. NAR and MLS structures create institutional inertia. Large brokerages adopting tech faster."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "adoption_friction": 2,
+    "rationale": "Large employers (hospitals, hotels, corporations) with clear ROI for AI and automated systems. Virtual receptionists and kiosk systems already widely deployed. Work is highly standardized. Minimal regulatory barriers. Labour shortages provide pull. Some customer preference for human greeters in certain settings."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "adoption_friction": 6,
+    "rationale": "Government agencies and nonprofits are primary employers with limited budgets. Youth and community programming requires human interaction and supervision. Fragmented across parks departments, camps, and community centers. Moderate institutional inertia. Safety requirements for supervising participants. Limited technology infrastructure."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "adoption_friction": 7,
+    "rationale": "Healthcare regulation and certification. Work with patients who have disabilities or illnesses requires human empathy and adaptive skill. Mix of hospital, rehabilitation, and community settings. Insurance billing requirements. Patient therapeutic relationship valued. Moderate employer fragmentation. Liability concerns."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "adoption_friction": 7,
+    "rationale": "Heavy state licensing (Nurse Practice Acts), healthcare regulation, and liability. Strong patient preference for human nurses. Physical care requires human judgment and touch. Severe labour shortages provide strong pull but regulatory and social barriers are formidable. Large hospital employers have resources but nurse unions (NNU) are powerful."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "adoption_friction": 7,
+    "rationale": "State licensing and certification. Work with disabled individuals requires empathy, advocacy, and adaptive judgment. Government funding creates institutional inertia. Insurance and vocational rehabilitation requirements. Patient therapeutic relationship essential. Moderate employer fragmentation across agencies and clinics."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "adoption_friction": 6,
+    "rationale": "State licensing and healthcare regulation. Hospital systems are primary employers. Direct patient care with ventilators and respiratory equipment requires hands-on skill. Patient assessment and emergency response. AI-assisted monitoring emerging. Labour shortages provide moderate pull. Liability for patient outcomes."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "adoption_friction": 3,
+    "rationale": "Large retail chains are primary employers with massive incentive and resources to automate. Self-checkout, online shopping, and AI customer service already deployed. Severe labour shortages provide strong pull. Minimal regulatory barriers. Some customer preference for human assistance in specialty retail but mass retail automating rapidly."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "adoption_friction": 7,
+    "rationale": "Fragmented construction trade with many small contractors. Physical work at heights in outdoor conditions. OSHA fall protection requirements. Limited capital among small operators. Labour shortages provide pull but rooftop robotic work is extremely challenging. Union presence in commercial sector. Liability for waterproofing failures."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "adoption_friction": 4,
+    "rationale": "Large technology and manufacturing companies are primary employers. Technical expertise combined with sales relationships. AI tools for product configuration and pricing already used. Moderate employer fragmentation. Complex sales cycles require human relationship management. Clear ROI for proposal automation."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers with CRM and AI sales tools already widely adopted. Management role requires human leadership and motivation. AI for forecasting and analytics already integrated. Moderate employer fragmentation in SMB segment. Human relationship management valued. Minimal regulatory barriers."
+  },
+  {
+    "slug": "school-and-career-counselors",
+    "title": "School and career counselors and advisors",
+    "adoption_friction": 7,
+    "rationale": "Education sector with strong institutional inertia. Government employment. Students and families expect human counselors for guidance and emotional support. State certification requirements. Ethical requirements for confidentiality and human judgment. AI tools for career matching exist but counseling relationship resists automation."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "adoption_friction": 2,
+    "rationale": "Large employers across all sectors. Work is highly standardized and administrative. AI assistants and office automation already pervasive. Clear ROI. Minimal regulatory barriers. Role has been declining for decades. Calendar management, document preparation, and communication increasingly automated."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "adoption_friction": 4,
+    "rationale": "Large financial institutions are primary employers. Trading already heavily automated. Wealth management and client relationships require human interaction. FINRA licensing requirements. Fiduciary duty considerations. AI tools for portfolio management and trading already deployed. Robo-advisory disrupting lower-end services."
+  },
+  {
+    "slug": "security-guards",
+    "title": "Security guards and gambling surveillance officers",
+    "adoption_friction": 4,
+    "rationale": "Large security companies (Allied Universal, Securitas) are primary employers. AI surveillance and robotic patrol systems already deployed. Labour shortages provide pull. Licensing requirements vary by state. Liability concerns for security incidents. Some settings require human presence for intervention. Clear ROI for large-scale monitoring."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "adoption_friction": 3,
+    "rationale": "Large semiconductor manufacturers (TSMC, Intel, Samsung) are primary employers with massive technology investment. Fab environments already highly automated and controlled. Labour shortages in semiconductor manufacturing. Clear ROI. Minimal regulatory barriers for process automation. Industry 4.0 culture."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large entertainment companies and many independent designers. AI visualization and design tools advancing. Creative vision valued. Union protections in entertainment (IATSE). Physical construction still requires human oversight. Moderate employer fragmentation. Both film/TV and museum sectors."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "adoption_friction": 6,
+    "rationale": "Mix of large HVAC and manufacturing companies and smaller contractors. Precision fabrication increasingly automated with CNC. Field installation work is more varied and challenging. Union presence (SMART). Labour shortages provide pull. Limited capital among small operators. Building code compliance requires judgment."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "adoption_friction": 7,
+    "rationale": "Extremely fragmented industry of independent practitioners and small spas. State licensing requirements. Physical skin treatment requires manual skill. Strong client preference for human touch and personal service. Limited capital among small operators. Some medical spa settings have more resources. Liability for skin reactions."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "adoption_friction": 7,
+    "rationale": "Highly fragmented industry of small repair shops and independent operators. Varied equipment types challenge standardization. Limited capital for technology investment. Physical repair requires manual dexterity in varied conditions. Moderate regulatory requirements. Some labour shortages but market size doesn't justify major robotic investment."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "adoption_friction": 7,
+    "rationale": "Government agencies and nonprofits with limited budgets and institutional inertia. Managing social services requires human judgment, community relationships, and advocacy. Regulatory compliance for government-funded programs. Fragmented across many small nonprofit organizations. Stakeholder engagement requires human presence."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "adoption_friction": 7,
+    "rationale": "Government agencies and nonprofits with institutional inertia. Direct client interaction requires empathy and cultural competency. Fragmented employer base. Work with vulnerable populations demands human judgment and trust-building. Limited technology budgets. Moderate regulatory requirements for case management."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "adoption_friction": 8,
+    "rationale": "State licensing and ethical requirements. Work with vulnerable populations demands human empathy, advocacy, and crisis intervention. Legal requirements for child welfare investigations and court testimony. Fragmented across agencies and private practice. Deep institutional inertia in child protective services and healthcare."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "adoption_friction": 5,
+    "rationale": "Primarily academic employment with institutional inertia. Research involves interpretive judgment and fieldwork. AI tools for data analysis emerging but qualitative research requires human insight. Limited employer base of universities and research institutes. No significant regulatory barriers but academic culture resists rapid change."
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "adoption_friction": 2,
+    "rationale": "Large tech companies are primary employers with the strongest incentive and capability to adopt AI coding tools. AI code generation (Copilot, Claude) already widely used. Existing technology culture. Clear ROI. Minimal regulatory barriers. Competition drives rapid adoption of productivity tools."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "adoption_friction": 6,
+    "rationale": "Mix of large solar companies (SunPower, Tesla Energy) and many small installers. Physical rooftop installation work. NEC electrical codes and building permits. Growing industry with moderate labour shortages. Regulatory requirements for grid interconnection. Large utility-scale projects more amenable to automation than residential rooftop work."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "adoption_friction": 8,
+    "rationale": "Government employment with strong unions and institutional inertia. Students with disabilities require highly individualized human attention, empathy, and adaptive teaching. IEP legal requirements mandate human professional judgment. IDEA federal regulations. State certification requirements. Parents of special needs children strongly prefer human teachers."
+  },
+  {
+    "slug": "multimedia-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "adoption_friction": 4,
+    "rationale": "Mix of large studios and many freelancers. AI art and animation tools advancing rapidly (Midjourney, Runway, Unreal). Large studios adopt quickly for efficiency. Union protections (IATSE) provide some friction. Creative vision still valued but routine animation and VFX work amenable to AI. Digital workflow facilitates integration."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "adoption_friction": 7,
+    "rationale": "State licensing and healthcare regulation. Treatment requires direct human interaction and therapeutic relationship. Physical assessment and oral-motor therapy require human skill. Insurance billing requires licensed providers. Mix of schools and healthcare settings. Patient (often children) preference for human therapist. Liability concerns."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "adoption_friction": 5,
+    "rationale": "Large facilities (hospitals, universities, factories) are primary employers. Building automation systems already well-established. Licensing requirements for boiler operation. Union presence in some settings. Remote monitoring and AI-assisted operations advancing. Physical equipment maintenance still requires human presence."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "adoption_friction": 8,
+    "rationale": "State licensing and healthcare regulation. Therapeutic relationship is central to addiction and mental health recovery. Strong social resistance to non-human counselors for vulnerable populations. Fragmented across agencies, clinics, and private practice. Insurance billing requires licensed providers. Confidentiality and ethical requirements."
+  },
+  {
+    "slug": "surgical-technologists",
+    "title": "Surgical assistants and technologists",
+    "adoption_friction": 6,
+    "rationale": "Hospital systems are primary employers. Operating room requires sterile technique and human judgment. State regulation varies. Surgical robotics are physician-controlled, not replacing techs. Liability for surgical outcomes. Physical instrument handling and anticipation of surgeon needs. Moderate labour shortages provide some pull."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "adoption_friction": 3,
+    "rationale": "Large research firms, government agencies, and universities. Survey design and analysis highly amenable to AI. Online survey platforms already automated much data collection. Clear ROI. Moderate institutional inertia in academic settings. AI tools for questionnaire design and analysis widely available."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "adoption_friction": 3,
+    "rationale": "Large engineering firms and government agencies. GPS, LiDAR, and drone technology already transforming field work. AI for data processing and mapping advancing. Moderate regulatory requirements. Some fieldwork requires physical presence. Existing technology adoption patterns facilitate further automation."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "adoption_friction": 4,
+    "rationale": "Mix of large engineering firms and independent practitioners. GPS and drone technology already transforming the field. State licensing requirements. Physical fieldwork in varied conditions. AI for boundary analysis and mapping advancing. Moderate employer fragmentation. Legal accountability for boundary determinations."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "adoption_friction": 4,
+    "rationale": "Government employment with institutional inertia. Tax examination is highly data-driven and amenable to AI. IRS and state agencies are large employers. AI audit selection already used. Physical audits and taxpayer interactions require human judgment. Union presence. Some regulatory friction but efficiency pressure is strong."
+  },
+  {
+    "slug": "taxi-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "adoption_friction": 5,
+    "rationale": "Mix of large ride-hailing companies (Uber, Lyft with Waymo/Cruise partnerships) and small operators. Autonomous vehicle technology advancing but regulatory approval city-by-city is slow. Urban driving complexity. Insurance and liability frameworks need updating. Some labour shortages but regulatory path is fragmented."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "adoption_friction": 6,
+    "rationale": "Government employment in schools with institutional inertia. Support for students requires human interaction and patience. Union protections in some districts. State requirements vary. Working with children demands human presence for safety and social-emotional support. Low wages limit technology investment in schools."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "adoption_friction": 3,
+    "rationale": "Large tech companies and enterprises are primary employers. AI text generation is already competitive for technical documentation. Clear ROI. Existing digital workflow. Minimal regulatory barriers. Some judgment needed for complex documentation but routine technical writing is highly amenable to AI. Market already being disrupted."
+  },
+  {
+    "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
+    "title": "Telecommunications technicians",
+    "adoption_friction": 6,
+    "rationale": "Mix of large telecom companies and smaller contractors. Physical installation and repair in varied customer locations. FCC regulations. Some labour shortages provide pull. Each installation environment is different, challenging robotic standardization. Licensing requirements vary. Moderate capital availability in large firms."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "adoption_friction": 1,
+    "rationale": "Large banks are primary employers with massive investment in ATMs, mobile banking, and digital services. Role has been declining for decades. Clear ROI. Minimal regulatory barriers for automated transactions. Customer acceptance of self-service banking is well-established. Branch closures accelerating."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "adoption_friction": 7,
+    "rationale": "C-suite roles require strategic vision, leadership, stakeholder management, and organizational culture stewardship. Board accountability and fiduciary duty. AI tools augment decision-making but cannot replace human leadership. Large companies can adopt AI advisors. Governance structures and shareholder expectations require human executives."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "adoption_friction": 5,
+    "rationale": "Mix of large tour operators and many independent guides. AI audio guides and virtual tours already common. But live guided experiences valued for personal interaction and local expertise. Fragmented employer base. Tourism regulations vary. Cultural experiences and group management require human presence."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "adoption_friction": 5,
+    "rationale": "Large corporations are primary employers. AI-powered learning platforms already widely adopted. Management role requires human judgment for organizational learning strategy. Moderate employer size. Some institutional inertia in training culture. Digital delivery facilitates AI but human facilitation valued for leadership development."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "adoption_friction": 4,
+    "rationale": "Large corporations are primary employers. E-learning and AI-powered training content already widely used. Content development amenable to AI tools. Some human facilitation valued for workshops. Moderate employer fragmentation. Professional certification (ATD) creates mild friction. Digital delivery infrastructure well-established."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "adoption_friction": 3,
+    "rationale": "Large logistics companies are primary employers with strong technology adoption culture. Supply chain management is highly amenable to AI optimization. AI tools for routing, warehousing, and fleet management widely deployed. Clear ROI. Moderate regulatory requirements (DOT). Labour shortages provide pull."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "adoption_friction": 3,
+    "rationale": "Large travel agencies and online platforms (Expedia, Booking.com) have largely automated routine bookings. AI trip planning tools advancing. Fragmented independent agent segment shrinking. Minimal regulatory barriers. Complex luxury/corporate travel retains human value but market share is small. Economic pressure is strong."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "adoption_friction": 5,
+    "rationale": "Extremely fragmented industry of independent tutors. AI tutoring systems (Khan Academy, ChatGPT) already widely used. Some parent/student preference for human tutors. No licensing requirements. Low capital barriers to AI tutoring adoption. Large tutoring companies can adopt AI tools. Online tutoring facilitates AI integration."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "adoption_friction": 7,
+    "rationale": "Strong institutional resistance from sports leagues and governing bodies. Officiating involves split-second human judgment and game management. Technology-assisted review exists (VAR, replay) but full replacement faces enormous cultural resistance. Fragmented across youth, amateur, and professional sports."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "adoption_friction": 5,
+    "rationale": "Government employment with institutional inertia. Planning requires community engagement, political judgment, and public hearings. AI tools for data analysis and visualization emerging. AICP certification. Zoning and environmental decisions require human discretion. Moderate regulatory complexity. Stakeholder engagement is inherently human."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "adoption_friction": 7,
+    "rationale": "State licensing, DEA registration, and veterinary board regulation. Mix of small animal practices (fragmented) and large animal/corporate chains. Physical examination and surgery require hands-on skill. Pet owner emotional bonds require human interaction. Malpractice liability. Labour shortages provide some pull."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "adoption_friction": 6,
+    "rationale": "Mix of large research institutions and small veterinary practices. Physical animal handling requires skill and patience. Regulatory requirements for animal welfare (USDA, IACUC). Moderate employer fragmentation. Some lab animal care in research settings is more standardized. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "adoption_friction": 6,
+    "rationale": "State licensing requirements. Mix of large veterinary hospitals and small practices. Physical animal handling for procedures requires skill. Pet owner expectations for compassionate care. Moderate employer fragmentation. Some diagnostic lab work amenable to automation. Labour shortages provide moderate pull."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "adoption_friction": 5,
+    "rationale": "Large restaurant chains can deploy ordering tablets and serving robots. Severe labour shortages provide strong pull. But fine dining and full-service restaurants value human service as part of experience. Alcohol service requires human judgment. Mix of large chains (lower friction) and independent restaurants (higher friction)."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "adoption_friction": 5,
+    "rationale": "Large municipal utilities are primary employers. SCADA systems and automation already well-established. State licensing requirements for operators. EPA Clean Water Act and Safe Drinking Water Act compliance. Public health safety critical. AI for process optimization emerging. Union presence. Moderate institutional inertia."
+  },
+  {
+    "slug": "water-transportation-occupations",
+    "title": "Water transportation workers",
+    "adoption_friction": 6,
+    "rationale": "Coast Guard regulations and international maritime law. Large shipping companies have resources but maritime safety regulations are stringent. Union presence (maritime unions). Pilotage requirements for ports. Autonomous vessel technology advancing but regulatory approval for commercial shipping is very slow. International coordination required."
+  },
+  {
+    "slug": "web-developers",
+    "title": "Web developers and digital designers",
+    "adoption_friction": 2,
+    "rationale": "Large tech companies and agencies are primary employers. AI code generation tools already widely used for web development. No-code/low-code platforms advancing. Clear ROI. Existing technology culture. Minimal regulatory barriers. Competitive market drives rapid AI tool adoption."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturing employers already use robotic welding extensively. Labour shortages in welding are severe, creating strong pull. Factory welding is highly automated. Field welding in construction and repair is more challenging for robots. AWS certification and OSHA requirements. Mix of factory (lower friction) and field (higher friction) work."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "adoption_friction": 4,
+    "rationale": "Large manufacturers and distributors are primary employers. AI tools for customer analytics, pricing, and order management already used. B2B sales involves relationship management. Some employer fragmentation. Clear ROI for large operations. Minimal regulatory barriers. CRM automation well-established."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "adoption_friction": 6,
+    "rationale": "Large wind energy companies are primary employers with resources. Physical work at extreme heights in remote locations. OSHA safety requirements. Specialized technical skills for varied conditions. Labour shortages in renewable energy provide pull. Some remote monitoring and AI diagnostics deployed but physical maintenance is challenging to automate."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "adoption_friction": 5,
+    "rationale": "Mix of large furniture manufacturers (automated CNC) and many small custom shops. CNC woodworking well-established in manufacturing. Custom and artisanal work valued. Fragmented small shop segment. Labour shortages in manufacturing provide pull. OSHA safety requirements. Large producers already highly automated."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "adoption_friction": 4,
+    "rationale": "AI writing tools (ChatGPT, Claude) already competitive for many writing tasks. Large media and corporate employers adopt quickly. But literary authorship values human voice and creativity. Extremely fragmented freelance market. Some union protections (WGA for screenwriters). Copyright questions around AI writing unresolved."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "adoption_friction": 5,
+    "rationale": "Government agencies and research institutions are primary employers. Fieldwork in remote natural environments requires physical presence. AI tools for species identification and ecological modeling advancing. Academic institutional inertia. Environmental regulations require human judgment. Moderate employer fragmentation."
+  }
+]

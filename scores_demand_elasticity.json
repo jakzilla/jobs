@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "demand_elasticity": -1,
+    "rationale": "Much accounting work (audits, compliance) is fixed in volume\u2014companies need one annual audit regardless of speed. Some expansion in advisory services, but core demand is relatively inelastic. Automation historically reduced bookkeeping roles while shifting accountants toward advisory."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "demand_elasticity": 2,
+    "rationale": "If AI makes production cheaper, far more content gets created (streaming, games, ads), expanding demand for human performers. Historical pattern: cheaper production tech (digital cameras, streaming) massively increased content volume and acting jobs."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "demand_elasticity": 0,
+    "rationale": "The number of insurance products and risk assessments is somewhat fixed by the number of insurers and regulations. AI may enable more granular risk modeling, but the profession is small and demand won't explode. Roughly neutral."
+  },
+  {
+    "slug": "administrative-services-managers",
+    "title": "Administrative services and facilities managers",
+    "demand_elasticity": -1,
+    "rationale": "Facilities and administrative management is tied to the number of physical offices and organizations, which is relatively fixed. AI efficiency gains likely reduce headcount slightly rather than creating new demand for management oversight."
+  },
+  {
+    "slug": "adult-literacy-and-ged-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet need for adult education and ESL instruction globally. If AI tools make each teacher more effective, programs can serve far more learners at lower cost, unlocking significant latent demand among underserved populations."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "demand_elasticity": -2,
+    "rationale": "Programmatic advertising has already reduced the need for human sales agents. AI further automates ad buying and targeting. Demand for advertising grows, but the intermediary sales role shrinks as platforms self-serve."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "demand_elasticity": 2,
+    "rationale": "Every business wants more and better marketing. Lower costs from AI tools enable more campaigns, more personalization, and more channels. Historical pattern: digital marketing expanded the total marketing workforce despite automation of individual tasks."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand is tied to the number of aircraft and spacecraft being built and tested, which grows slowly. AI may speed testing but doesn't dramatically change the volume of physical testing required. Roughly neutral."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "demand_elasticity": 1,
+    "rationale": "Some expansion as AI-assisted design enables more complex projects and faster iteration cycles. Growing space economy and drone markets create new demand. But aerospace programs are capital-constrained, not engineer-constrained."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to agricultural output and food safety testing, which grows slowly with population. AI may improve efficiency but doesn't dramatically expand the volume of lab work needed."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "demand_elasticity": 1,
+    "rationale": "Some latent demand for better crop varieties, sustainable farming methods, and food safety research. AI accelerates research but also opens new research directions in precision agriculture and alternative proteins."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "demand_elasticity": 1,
+    "rationale": "Growing demand for precision agriculture and sustainable farming technology. AI enables new agricultural engineering applications, but the sector is relatively small and capital-constrained."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "demand_elasticity": -1,
+    "rationale": "Physical farm labor demand is tied to acreage and crop volume, which is relatively fixed. Automation and robotics will gradually reduce headcount for routine tasks like harvesting, though some manual work resists automation."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "demand_elasticity": -2,
+    "rationale": "Demand is fixed by the number of flights, which grows slowly. AI and automation can handle more flights per controller, directly reducing headcount needs. Safety regulations may slow adoption but the trajectory is clear."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to fleet size, which grows modestly. AI diagnostics may speed repairs but planes still need physical maintenance. Predictive maintenance could reduce emergency repairs while increasing scheduled maintenance efficiency."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to flight volume, which grows modestly. Automation handles more of the flying task but regulatory and safety requirements keep two pilots in cockpits. Long-term trajectory toward reduced crew sizes."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "demand_elasticity": 1,
+    "rationale": "Pet ownership and spending on pet care continues to grow. AI has limited impact on physical animal care. Some expansion as lower-cost veterinary diagnostics enable more preventive care and pet services become more accessible."
+  },
+  {
+    "slug": "announcers",
+    "title": "Announcers and DJs",
+    "demand_elasticity": 0,
+    "rationale": "AI can generate synthetic voices for routine broadcasting, reducing demand for basic announcing. But podcasting and streaming have expanded opportunities for personality-driven content. Net roughly neutral."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "demand_elasticity": 1,
+    "rationale": "AI tools (satellite imaging, pattern recognition) enable more archaeological discoveries and cultural analysis. Some latent demand for cultural consulting and heritage preservation work that becomes more feasible with AI assistance."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "demand_elasticity": 1,
+    "rationale": "Some latent demand for dispute resolution\u2014many disputes go unresolved due to cost. AI-assisted mediation could make resolution more accessible, expanding the market for alternative dispute resolution services."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "demand_elasticity": 2,
+    "rationale": "Significant latent demand for architectural services. Most buildings are designed without architects due to cost. AI-assisted design tools could make architectural services accessible to smaller projects, renovations, and developing markets."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "demand_elasticity": 0,
+    "rationale": "Management roles scale with the number of projects and teams, not individual productivity. AI may enable managers to oversee more projects, slightly reducing headcount, but growing infrastructure needs offset this."
+  },
+  {
+    "slug": "curators-museum-technicians-and-conservators",
+    "title": "Archivists, curators, and museum workers",
+    "demand_elasticity": 1,
+    "rationale": "AI enables better digitization, cataloging, and preservation of collections. Growing demand for cultural tourism and digital museum experiences could expand roles. Some latent demand for conservation work on deteriorating collections."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "demand_elasticity": 2,
+    "rationale": "AI tools accelerate production but every brand, product, and campaign needs creative direction. The explosion of digital content and channels creates more need for art direction. Latent demand from smaller businesses wanting professional creative work."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "demand_elasticity": -3,
+    "rationale": "Manufacturing assembly is increasingly automated with robotics. Demand is tied to production volume, which is relatively fixed domestically. AI-guided robots directly replace assembly workers in routine tasks."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "demand_elasticity": 1,
+    "rationale": "Entertainment demand grows with population and media. More leagues, more sports content, more global audiences. AI has minimal direct impact on athletic performance demand. Esports creates adjacent demand."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "demand_elasticity": 1,
+    "rationale": "Growing health consciousness and sports participation expand demand. AI diagnostics help trainers serve more athletes and identify injuries earlier, but the hands-on nature of the work limits pure headcount reduction."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "demand_elasticity": 1,
+    "rationale": "Climate change increases demand for weather prediction and climate modeling. AI dramatically improves forecasting capabilities, enabling new applications in agriculture, insurance, and disaster preparedness."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "demand_elasticity": 1,
+    "rationale": "Aging population increases hearing loss prevalence. AI-powered hearing aids may reduce some diagnostic visits, but growing awareness and accessibility of hearing care expands the patient pool."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to accident rates, which may decline with autonomous driving and safety tech. Physical repair work resists automation but the volume of work may decrease over time."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "demand_elasticity": -1,
+    "rationale": "Electric vehicles require less maintenance than ICE vehicles, reducing long-term demand. AI diagnostics speed up troubleshooting but the physical repair work still needs humans. Net slight decline in headcount."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "demand_elasticity": 0,
+    "rationale": "Artisanal baking demand grows with food culture trends, but industrial baking is already highly automated. AI has limited impact on physical baking. Demand is tied to population and food consumption patterns."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "demand_elasticity": 1,
+    "rationale": "Personal grooming is inherently physical and in-person. Growing consumer spending on personal care and appearance. Some latent demand as services become more accessible, though AI has minimal direct impact on the hands-on work."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "demand_elasticity": 0,
+    "rationale": "Hospitality demand grows modestly with population and tourism. The social and experiential nature of bartending resists automation. Demand is somewhat fixed by the number of bars and restaurants."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "demand_elasticity": -4,
+    "rationale": "Highly routine communication work that AI can largely automate. Demand is tied to the volume of delinquent accounts, which is relatively fixed. AI chatbots and automated systems directly replace human collectors for most interactions."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "demand_elasticity": 2,
+    "rationale": "AI dramatically accelerates drug discovery, protein folding analysis, and molecular research. This opens new research directions and makes previously impossible research feasible, expanding the total volume of biochemistry work."
+  },
+  {
+    "slug": "biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "demand_elasticity": 2,
+    "rationale": "AI enables new medical device designs, personalized prosthetics, and diagnostic tools. Growing healthcare spending and aging populations create demand. Significant latent demand for medical technology in developing countries."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "demand_elasticity": 0,
+    "rationale": "Lab work volume tied to research funding and pharmaceutical development. AI may automate some data analysis but physical lab work persists. Research expansion roughly offsets efficiency gains."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to industrial infrastructure construction and maintenance, which is relatively stable. Physical work resists automation but new construction may use alternative technologies reducing boilermaker-specific demand."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "demand_elasticity": -4,
+    "rationale": "Highly routine data entry and record-keeping that AI and automation directly replace. Software like QuickBooks already reduced demand significantly. Remaining demand shrinks further as AI handles more complex reconciliation and categorization."
+  },
+  {
+    "slug": "broadcast-and-sound-engineering-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "demand_elasticity": 1,
+    "rationale": "Explosion of content creation (streaming, podcasting, live events) increases demand for production technicians. AI tools help but the technical setup and management of broadcast equipment remains hands-on."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "demand_elasticity": -2,
+    "rationale": "Budget analysis for a fixed number of organizations and government agencies is relatively inelastic. AI can automate much of the data gathering and projection work, directly reducing the number of analysts needed per organization."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "demand_elasticity": -2,
+    "rationale": "Demand tied to fixed transit routes and ridership. Autonomous vehicle technology directly threatens this role long-term. In the medium term, driver shortages may offset some displacement, but the trajectory is toward fewer human drivers."
+  },
+  {
+    "slug": "butchers-and-meat-cutters",
+    "title": "Butchers",
+    "demand_elasticity": -1,
+    "rationale": "Meat processing is increasingly automated in industrial settings. Demand tied to meat consumption, which is stable or declining in developed countries. Artisanal butchery has a niche but overall headcount trends down."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to the volume of precision instruments and equipment requiring calibration, which grows modestly with manufacturing and healthcare. AI may speed calibration processes but physical work persists."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to patient volume and cardiovascular disease prevalence. AI improves diagnostic accuracy but doesn't change the number of tests needed. Aging population increases demand while AI efficiency offsets."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "demand_elasticity": 1,
+    "rationale": "Growing demand for skilled trades and technical education as these fields expand. AI tools can make teachers more effective, and there's significant unmet demand for vocational training programs."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "demand_elasticity": 0,
+    "rationale": "Physical construction demand tied to building activity. Carpentry resists automation due to the custom, on-site nature of the work. Housing demand is significant but constrained by factors beyond labor cost."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "demand_elasticity": 1,
+    "rationale": "AI and satellite imagery create massive new mapping possibilities\u2014autonomous vehicles, precision agriculture, urban planning, and real-time environmental monitoring all need more and better mapping."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "demand_elasticity": -4,
+    "rationale": "Self-checkout and automated payment systems directly replace cashiers. E-commerce further reduces in-store transaction volume. Demand is purely tied to transaction volume, which doesn't increase with faster checkout."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "demand_elasticity": 1,
+    "rationale": "Growing dining-out culture and food delivery expand demand for culinary creativity. AI has limited impact on creative cooking. Cloud kitchens and delivery platforms create new venues for chef-led food businesses."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "demand_elasticity": 1,
+    "rationale": "AI accelerates process optimization and materials discovery. Growing demand for sustainable energy, new materials, and pharmaceutical manufacturing. Some latent demand for chemical engineering in emerging economies."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "demand_elasticity": 0,
+    "rationale": "Lab work volume tied to industrial and pharmaceutical production. AI may improve analytical efficiency but physical testing and quality control persist. Demand grows modestly with industry."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "demand_elasticity": 2,
+    "rationale": "AI dramatically accelerates materials discovery and chemical research. New materials for batteries, semiconductors, and sustainable products create expanding research frontiers. Historical pattern: computational chemistry expanded the field."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "demand_elasticity": 2,
+    "rationale": "Enormous unmet demand for affordable childcare. If AI tools help childcare workers manage larger groups more effectively or reduce administrative burden, more families could access care. Physical care of children cannot be automated."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "demand_elasticity": 1,
+    "rationale": "Hands-on physical treatment resists automation. Growing interest in alternative and preventive healthcare. Some latent demand as chiropractic becomes more mainstream and accessible."
+  },
+  {
+    "slug": "civil-engineering-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to infrastructure projects, which are growing with government investment. AI assists with calculations and modeling but physical site work and testing persist. Growth in infrastructure roughly offsets efficiency gains."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "demand_elasticity": 1,
+    "rationale": "Massive infrastructure deficit creates latent demand. AI-assisted design enables more projects to be completed. Aging infrastructure, climate adaptation, and urbanization all drive growing demand for civil engineering."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "demand_elasticity": -3,
+    "rationale": "Insurance claims processing is highly automatable with AI image analysis and data processing. Many straightforward claims can be settled without human adjusters. Complex claims persist but represent a smaller share."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to patient volume and testing orders. AI improves diagnostic accuracy and speed but doesn't change the number of samples needing processing. Aging population increases testing demand while automation improves throughput."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "demand_elasticity": 2,
+    "rationale": "Growing sports participation at all levels and expanding professional sports globally. AI analytics enhance coaching but don't replace the motivational and interpersonal aspects. Youth sports and fitness coaching have significant unmet demand."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet need for community health outreach, particularly in underserved populations. AI tools can help workers cover more ground and identify at-risk individuals. The personal connection and trust-building aspects cannot be automated."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "demand_elasticity": -1,
+    "rationale": "Each organization needs limited compensation management regardless of AI speed. AI can automate benchmarking, analysis, and plan administration. The number of managers scales with organizations, not with task volume."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "demand_elasticity": -2,
+    "rationale": "Much of the analytical work (salary surveys, job classification, benefits administration) is highly automatable. Demand tied to the number of organizations, which is fixed. AI directly reduces the number of specialists needed per organization."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "demand_elasticity": 1,
+    "rationale": "Regulatory complexity continues to grow across industries. AI helps with monitoring but also creates new compliance domains (AI ethics, data privacy). Every company needs compliance regardless of size, and smaller firms have unmet compliance needs."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "demand_elasticity": 3,
+    "rationale": "AI research itself is a rapidly expanding field. Every breakthrough opens new research questions and applications. The demand for advancing computing capabilities is virtually unlimited as AI transforms every industry."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "demand_elasticity": 1,
+    "rationale": "Every organization needs IT management, and digital transformation keeps expanding IT's scope. AI creates new management challenges (AI governance, data strategy) even as it automates some operational tasks."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "demand_elasticity": 2,
+    "rationale": "Exploding demand for AI chips, custom silicon, edge computing devices, and IoT hardware. AI design tools enable faster iteration but the demand for new hardware architectures and specialized processors is growing rapidly."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "demand_elasticity": 1,
+    "rationale": "Growing cloud, edge computing, and IoT infrastructure needs. AI helps optimize network design but the proliferation of connected devices and services creates ever-expanding network complexity."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "demand_elasticity": 2,
+    "rationale": "Massive latent demand for custom software. When programming becomes faster and cheaper, every small business, every process, and every device gets custom software. Historical pattern: every productivity gain in programming led to more software being built."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "demand_elasticity": -1,
+    "rationale": "AI chatbots and automated diagnostics handle increasing portions of tier-1 support. The volume of support tickets grows with technology adoption but AI resolves more issues without human intervention."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "demand_elasticity": 1,
+    "rationale": "Every organization needs systems analysis for digital transformation. AI accelerates analysis but also creates new complexity to analyze. Growing demand for integrating AI systems into existing infrastructure."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "demand_elasticity": 0,
+    "rationale": "AI chatbots handle basic concierge queries, reducing demand for routine assistance. But high-end hospitality still values human concierges. Net roughly neutral as automation offsets some growth in travel and hospitality."
+  },
+  {
+    "slug": "conservation-scientists",
+    "title": "Conservation scientists and foresters",
+    "demand_elasticity": 1,
+    "rationale": "Climate change and biodiversity loss increase demand for conservation science. AI tools (satellite monitoring, species identification) enable more comprehensive environmental management. Growing public and regulatory interest in conservation."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to the fixed number of construction projects and buildings requiring inspection. AI-assisted inspection tools (drones, image recognition) may increase inspector throughput, reducing headcount needed for the same inspection volume."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "demand_elasticity": 0,
+    "rationale": "Physical operation of heavy equipment on construction sites resists full automation due to variable terrain and conditions. Demand tied to construction activity. Semi-autonomous equipment may eventually reduce operators but adoption is slow."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "demand_elasticity": 0,
+    "rationale": "Physical labor on construction sites is hard to automate due to unstructured environments. Demand tied to construction activity. Persistent labor shortages suggest demand currently exceeds supply."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "demand_elasticity": 0,
+    "rationale": "Management of physical construction projects requires on-site presence and human judgment. AI tools help with scheduling and logistics but the number of managers scales with projects, not productivity."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "demand_elasticity": 0,
+    "rationale": "Food service demand tied to population and dining habits. Physical cooking resists automation except in fast food. Delivery platforms expand demand modestly. AI has minimal direct impact on cooking labor."
+  },
+  {
+    "slug": "correctional-officers",
+    "title": "Correctional officers and bailiffs",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to incarceration rates, which are policy-driven and have been trending down in some jurisdictions. Technology (surveillance cameras, electronic monitoring) can reduce the number of officers needed per facility."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "demand_elasticity": -1,
+    "rationale": "AI can automate much of the data gathering and calculation in cost estimation. The number of projects requiring estimates is relatively fixed. Historical pattern: spreadsheets and databases reduced estimator headcount."
+  },
+  {
+    "slug": "court-reporters",
+    "title": "Court reporters and simultaneous captioners",
+    "demand_elasticity": -3,
+    "rationale": "AI speech-to-text technology directly replaces much of the transcription function. Real-time captioning is increasingly automated. Legal requirements for certified human reporters are the main barrier to faster displacement."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "demand_elasticity": 2,
+    "rationale": "AI-generated art creates controversy but also expands demand for human-verified authentic art. Growing art market and demand for unique, handcrafted work. Art therapy, custom commissions, and art education have latent demand."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "demand_elasticity": 2,
+    "rationale": "Significant unmet demand for financial counseling among consumers with debt problems. AI tools can help counselors serve more clients and provide better analysis, but the counseling relationship requires human trust and empathy."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "demand_elasticity": -3,
+    "rationale": "AI chatbots and virtual assistants handle increasing volumes of routine customer inquiries. Companies aggressively adopt AI to reduce call center costs. Complex and emotional interactions persist but represent a shrinking share of total volume."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "demand_elasticity": 1,
+    "rationale": "Live performance demand grows with entertainment spending. AI cannot replicate live dance performance. Growing interest in dance fitness, cultural events, and content creation expands opportunities."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "demand_elasticity": 3,
+    "rationale": "Every organization wants to be data-driven. AI tools make data science more productive, enabling analysis of more datasets and more complex questions. The volume of data and potential applications grows faster than efficiency gains reduce headcount."
+  },
+  {
+    "slug": "database-administrators",
+    "title": "Database administrators and architects",
+    "demand_elasticity": -1,
+    "rationale": "Cloud databases and AI-managed infrastructure automate much routine database administration. The number of databases grows but automated management tools reduce the humans needed per database."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driver-sales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "demand_elasticity": -2,
+    "rationale": "Autonomous delivery vehicles and drones threaten this role long-term. E-commerce growth increases delivery demand but automation will eventually reduce driver headcount. Last-mile delivery may resist automation longer."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "demand_elasticity": -1,
+    "rationale": "3D printing and digital manufacturing automate much of the fabrication work. CAD/CAM systems already reduce the labor per unit. Demand for dental/optical devices grows with population but production headcount shrinks."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to dental patient volume. AI may improve scheduling and imaging analysis, but the hands-on chairside assistance role persists. Growing dental care access may offset any efficiency gains."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to patient volume and preventive care visits. The hands-on cleaning and assessment work resists automation. Aging population and growing preventive care focus support stable demand."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "demand_elasticity": 1,
+    "rationale": "Significant unmet dental care need globally. AI diagnostics and robotic assistance could enable dentists to see more patients. Lower-cost dental care unlocks demand from underserved populations."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "demand_elasticity": -4,
+    "rationale": "AI design tools and templates largely automate page layout and desktop publishing. The role has already shrunk significantly as software improved. Remaining work is absorbed by graphic designers and content creators."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to patient volume and imaging orders. AI assists with image interpretation but a human operator must physically perform the scan. Aging population increases imaging demand while AI improves throughput."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "demand_elasticity": 0,
+    "rationale": "Diesel equipment requires ongoing physical maintenance. Transition to electric vehicles is slower for heavy-duty applications. Demand tied to the fleet of diesel vehicles, which remains large in the medium term."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet demand for personalized nutrition counseling. Most people would benefit from dietary guidance but can't afford it. AI tools enable dietitians to create more personalized plans and serve more clients at lower cost."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "demand_elasticity": -2,
+    "rationale": "CAD software and AI-assisted design tools increasingly automate drafting tasks. AI can generate initial drafts from specifications. The role has already contracted as software improved; further AI gains continue this trend."
+  },
+  {
+    "slug": "drywall-and-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "demand_elasticity": 0,
+    "rationale": "Physical installation work on construction sites resists automation. Demand tied to construction activity. Labor shortages suggest current demand exceeds supply. AI has minimal direct impact on this manual trade."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "demand_elasticity": 2,
+    "rationale": "AI tools enable more sophisticated economic modeling and analysis. Growing demand for economic analysis in policy, business strategy, and technology assessment. Every organization could benefit from economic analysis if it were cheaper."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "demand_elasticity": 1,
+    "rationale": "AI generates vastly more content requiring human editorial judgment. While AI automates basic proofreading, the explosion of AI-generated content creates new demand for human editors to ensure quality, accuracy, and voice."
+  },
+  {
+    "slug": "electrical-and-electronics-engineering-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to manufacturing and R&D activity. Physical testing and prototype work persists. The volume of electronic products grows but automation improves throughput per technician."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "demand_elasticity": 2,
+    "rationale": "Exploding demand for electronics in EVs, IoT, renewable energy, and AI hardware. AI design tools enable faster iteration but the applications for electrical engineering keep expanding into new domains."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "demand_elasticity": 0,
+    "rationale": "Physical installation and repair work resists automation. Demand tied to the installed base of electrical equipment, which grows steadily. AI diagnostics help but hands-on work persists."
+  },
+  {
+    "slug": "line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "demand_elasticity": 0,
+    "rationale": "Physical utility line work in varied outdoor environments strongly resists automation. Demand tied to grid expansion and maintenance needs. Growing electrification and renewable energy infrastructure increase demand."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "demand_elasticity": 1,
+    "rationale": "Growing demand from electrification, EV charging infrastructure, solar installations, and smart building technology. Physical wiring work in variable environments resists automation. Persistent labor shortages indicate unmet demand."
+  },
+  {
+    "slug": "electro-mechanical-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to manufacturing and automation equipment maintenance. As factories add more robots and automated systems, there's growing need for technicians to maintain them, roughly offsetting efficiency gains."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "demand_elasticity": 0,
+    "rationale": "School leadership positions scale with the number of schools, which is relatively fixed. AI may help principals with administrative tasks but doesn't change the fundamental need for one leader per school."
+  },
+  {
+    "slug": "elevator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to the number of elevators in buildings, which grows with construction. Physical installation and maintenance work resists automation. Specialized skills and safety requirements maintain stable demand."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "demand_elasticity": 1,
+    "rationale": "Climate change increases frequency and severity of natural disasters, expanding demand for emergency management. AI tools enhance preparedness and response but the coordination and decision-making role requires human leadership."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to emergency call volume, which is relatively stable per capita. AI may assist with triage and diagnostics but the physical emergency response cannot be automated. Aging population may increase demand slightly."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "demand_elasticity": 1,
+    "rationale": "Growing spending on entertainment and experiences. AI tools help manage operations but the demand for diverse entertainment venues and programming continues to expand with disposable income."
+  },
+  {
+    "slug": "environmental-engineering-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "demand_elasticity": 1,
+    "rationale": "Climate change and stricter environmental regulations increase demand for environmental monitoring and remediation. AI tools enable more comprehensive environmental assessment but the physical fieldwork persists."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "demand_elasticity": 2,
+    "rationale": "Climate change, pollution remediation, and sustainability mandates create growing demand. AI-assisted modeling enables tackling more complex environmental problems. Significant latent demand for environmental engineering in developing nations."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "demand_elasticity": 1,
+    "rationale": "Growing environmental monitoring requirements driven by climate change and regulations. AI tools enable more comprehensive data collection and analysis. Physical sampling and fieldwork persist."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "demand_elasticity": 2,
+    "rationale": "Climate change and sustainability drive expanding demand for environmental science. AI enables analysis of larger datasets and more complex environmental systems. Every industry needs environmental assessment."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "demand_elasticity": 2,
+    "rationale": "Post-pandemic awareness dramatically increased demand for disease surveillance. AI tools enable real-time tracking and more sophisticated modeling. Growing public health infrastructure investment worldwide expands roles."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "demand_elasticity": 2,
+    "rationale": "Growing health and fitness consciousness creates latent demand. Most people could benefit from personalized exercise prescription but can't access it. AI tools help physiologists create personalized programs and monitor more clients."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "demand_elasticity": -1,
+    "rationale": "Farm consolidation and precision agriculture technology enable fewer managers to oversee larger operations. AI-powered autonomous equipment reduces the management intensity per acre. Total farm management positions decline gradually."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "demand_elasticity": 2,
+    "rationale": "AI tools accelerate design iteration, but every brand and retailer wants unique fashion. Fast fashion, direct-to-consumer brands, and sustainable fashion create new design opportunities. Latent demand from smaller brands wanting custom design."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "demand_elasticity": 2,
+    "rationale": "Explosive growth in video content for streaming, social media, corporate, and advertising. AI assists with editing tasks but the volume of content needing production grows faster. Every business now needs video content."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "demand_elasticity": 0,
+    "rationale": "AI automates much quantitative financial analysis. But the number of investment decisions and financial assessments is somewhat fixed by the number of companies and transactions. Some expansion in fintech advisory offsets automation."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "demand_elasticity": -4,
+    "rationale": "Highly routine transaction processing and record-keeping that AI and software directly automate. Online banking, automated billing, and digital payments reduce the need for human clerks. Demand tied to transaction volume but automation handles more."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to the number of financial institutions, which is relatively fixed. AI-powered monitoring can flag issues automatically, reducing the number of examiners needed. Regulatory requirements maintain a floor on staffing."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "demand_elasticity": 0,
+    "rationale": "Every organization needs financial management, but AI automates much of the analytical heavy lifting. The number of financial manager positions scales with organizations, not with task volume. Growth in fintech creates some new roles."
+  },
+  {
+    "slug": "fire-inspectors-and-investigators",
+    "title": "Fire inspectors",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to the fixed number of buildings and fires requiring inspection/investigation. AI-assisted inspection tools and sensors may increase throughput per inspector. The volume of inspections is set by regulation."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "demand_elasticity": 0,
+    "rationale": "Emergency response demand tied to fire and disaster frequency, which is relatively stable to increasing (wildfires). The physical, on-scene nature of firefighting resists automation. Climate change may increase wildfire demand."
+  },
+  {
+    "slug": "fishers-and-related-fishing-workers",
+    "title": "Fishing and hunting workers",
+    "demand_elasticity": -1,
+    "rationale": "Fish stocks are limited, and sustainable fishing quotas constrain demand. Technology and larger boats enable fewer fishers to catch the same volume. Aquaculture growth shifts some demand away from wild fishing."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet demand for personalized fitness guidance. Most people would benefit from a trainer but can't afford one. AI tools enable trainers to serve more clients with personalized programs while maintaining the motivational human element."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "demand_elasticity": -1,
+    "rationale": "Demand directly tied to the number of flights and passengers, which grows modestly. Airlines may reduce crew sizes with technology. Safety requirements provide a floor but long-term trajectory favors efficiency."
+  },
+  {
+    "slug": "tile-and-marble-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "demand_elasticity": 0,
+    "rationale": "Physical installation work in variable environments resists automation. Demand tied to construction and renovation activity. Custom tile work is particularly resistant to automation."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to events, gifting, and decoration\u2014modestly growing market. AI has limited impact on physical flower arranging. Online ordering expands access but automated arrangements are limited."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "demand_elasticity": 0,
+    "rationale": "Hospitality demand grows with population and dining trends. The physical and interpersonal nature of serving resists full automation. Some automation (ordering kiosks) reduces headcount but table service persists."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "demand_elasticity": -1,
+    "rationale": "Routine food prep tasks are increasingly automated in fast food and institutional settings. Demand tied to food service volume, which grows modestly. Automation directly replaces repetitive chopping, portioning, and assembly tasks."
+  },
+  {
+    "slug": "food-and-tobacco-processing-workers",
+    "title": "Food processing equipment workers",
+    "demand_elasticity": -2,
+    "rationale": "Factory food processing is heavily automated. AI and robotics continue to automate quality control, sorting, and packaging. Demand tied to food production volume but each worker handles more through automation."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "demand_elasticity": 0,
+    "rationale": "Management roles scale with the number of food service establishments. AI helps with scheduling and inventory but on-site management persists. Restaurant industry grows modestly with population."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "demand_elasticity": 1,
+    "rationale": "AI enhances forensic analysis capabilities (DNA matching, digital forensics, pattern recognition). Growing complexity of crime (cybercrime, digital evidence) creates new forensic specialties. Backlog of unprocessed evidence suggests unmet demand."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical outdoor work resists automation. Demand tied to forestry and conservation programs, which grow modestly with environmental awareness. Climate change increases need for forest management."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "demand_elasticity": 1,
+    "rationale": "AI tools enable more personalized outreach and donor identification, but the relationship-building core of fundraising requires human connection. Nonprofit sector growth and growing charitable giving create expanding demand."
+  },
+  {
+    "slug": "funeral-service-occupations",
+    "title": "Funeral service workers",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to death rate, which is relatively fixed and predictable. Growing preference for simpler services and direct cremation reduces service intensity per death. Limited scope for AI to expand demand."
+  },
+  {
+    "slug": "gaming-services-occupations",
+    "title": "Gambling services workers",
+    "demand_elasticity": 0,
+    "rationale": "Casino and gaming demand grows modestly with entertainment spending. Some roles (dealers) resist automation due to customer interaction, while others (cage operations) face automation pressure. Net roughly neutral."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical repair and maintenance of buildings resists automation. Demand tied to the building stock, which grows slowly. AI diagnostics may improve efficiency but the hands-on work persists across varied tasks."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "demand_elasticity": -3,
+    "rationale": "Routine clerical tasks (filing, data entry, scheduling, copying) are directly automated by AI and office software. The generalist nature of the role means AI can handle most individual tasks. Significant headcount reduction is ongoing."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "demand_elasticity": 4,
+    "rationale": "Enormous unmet demand for genetic counseling as genomic testing becomes cheaper and more common. Most people could benefit from genetic risk assessment but access is limited. AI tools help counselors interpret more complex genetic data and serve more patients."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "demand_elasticity": 1,
+    "rationale": "AI and geospatial analytics expand applications of geographic analysis. Climate change, urban planning, and logistics optimization all need geographic expertise. Growing demand for spatial analysis across industries."
+  },
+  {
+    "slug": "geological-and-petroleum-technicians",
+    "title": "Geological and hydrologic technicians",
+    "demand_elasticity": -1,
+    "rationale": "Petroleum industry faces long-term decline. AI automates much data analysis in geological surveys. Some shift toward renewable energy and environmental monitoring, but net demand for petroleum-specific roles declines."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "demand_elasticity": 0,
+    "rationale": "Petroleum geoscience demand declines while environmental and mineral geoscience grows. AI enables more sophisticated modeling but the field is transitioning. Net roughly neutral as new applications offset declining oil/gas work."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "demand_elasticity": 0,
+    "rationale": "Physical glass installation resists automation. Demand tied to construction activity. Growing demand for energy-efficient windows and smart glass provides modest growth. AI has minimal direct impact."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "demand_elasticity": 3,
+    "rationale": "Massive latent demand for professional design. Every small business, every social media account, every product wants good design. AI tools make designers more productive and enable serving clients who couldn't previously afford design services."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical outdoor maintenance work resists automation in varied environments. Robotic mowers handle some lawn care but landscaping and grounds work requires human judgment. Demand tied to property stock."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "demand_elasticity": -2,
+    "rationale": "Warehouse automation and robotics directly replace material handling tasks. AI-optimized logistics reduces unnecessary movement. Amazon and others invest heavily in automated fulfillment. Physical work persists but headcount declines."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to environmental remediation projects and regulations. Physical hazmat work in dangerous environments resists automation. Volume determined by contamination sites and regulatory requirements."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "demand_elasticity": 1,
+    "rationale": "Growing regulatory complexity and workplace safety requirements. AI enables more comprehensive safety analysis and monitoring. New technologies (AI systems, autonomous vehicles) create new safety engineering domains."
+  },
+  {
+    "slug": "health-educators",
+    "title": "Health education specialists",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet demand for health education, particularly in underserved communities. AI tools help educators create personalized programs and reach more people. Preventive health education reduces downstream healthcare costs."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "demand_elasticity": -1,
+    "rationale": "AI automates much health data coding, classification, and registry management. The volume of health records grows but automated processing reduces headcount per record. Electronic health records continue to automate workflows."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "demand_elasticity": 1,
+    "rationale": "Growing demand from climate change (more AC), heat pump adoption, and building electrification. Physical installation and repair work resists automation. Persistent labor shortages indicate unmet demand."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "demand_elasticity": -2,
+    "rationale": "Autonomous trucking technology threatens long-haul driving. Freight demand grows but autonomous trucks will handle increasing portions of highway miles. Last-mile and local delivery may persist longer for human drivers."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "demand_elasticity": 0,
+    "rationale": "Physical equipment maintenance resists automation. Demand tied to the fleet of heavy vehicles and equipment. Transition to electric equipment may eventually change maintenance needs but the timeline is long."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "demand_elasticity": 1,
+    "rationale": "Class sizes could be reduced if AI makes teachers more productive, improving education quality. Growing population in some areas and persistent teacher shortages indicate unmet demand. AI tutoring supplements but doesn't replace teachers."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "demand_elasticity": 1,
+    "rationale": "AI tools enable analysis of vastly larger historical archives and datasets. Growing demand for historical context in policy debates, cultural preservation, and public education. Digital humanities expand the field's applications."
+  },
+  {
+    "slug": "home-health-aides-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "demand_elasticity": 3,
+    "rationale": "Massive unmet demand driven by aging population. Most elderly who need home care can't afford it. AI monitoring tools can extend the reach of each aide. The physical, compassionate nature of the work resists automation."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "demand_elasticity": 0,
+    "rationale": "Each organization needs HR management, scaling with organization count not individual productivity. AI automates recruitment screening and benefits administration, but strategic HR leadership persists. Roughly neutral."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "demand_elasticity": -1,
+    "rationale": "AI automates resume screening, initial candidate assessment, and benefits enrollment. The transactional portions of HR work shrink. Strategic HR work persists but requires fewer specialists per organization."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "demand_elasticity": 1,
+    "rationale": "Climate change increases demand for water resource analysis and flood prediction. AI enables more sophisticated hydrological modeling. Growing water scarcity concerns drive investment in water management science."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "demand_elasticity": 2,
+    "rationale": "Every product could benefit from better design. AI tools accelerate the design process and enable rapid prototyping. Growing consumer expectations for well-designed products and the maker economy expand demand."
+  },
+  {
+    "slug": "industrial-engineering-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to manufacturing activity. AI improves process optimization but physical plant work persists. Automation creates new systems that need technician support, roughly offsetting efficiency gains."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "demand_elasticity": 1,
+    "rationale": "AI creates massive new optimization opportunities across manufacturing, logistics, and services. Every process could be optimized. Historical pattern: automation increased demand for industrial engineers to design and manage automated systems."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "demand_elasticity": 0,
+    "rationale": "Physical machinery maintenance resists automation. As factories add more complex automated equipment, maintenance needs grow. Demand tied to installed machinery base, which expands with automation."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "demand_elasticity": 0,
+    "rationale": "Management positions scale with the number of production facilities. AI optimizes production but someone must oversee operations. Smart factories may slightly reduce managers needed per facility."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "demand_elasticity": -3,
+    "rationale": "AI chatbots and kiosks directly replace routine information-providing functions. Self-service digital tools handle most informational queries. Demand for human clerks shrinks as automated systems handle more interactions."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "demand_elasticity": 3,
+    "rationale": "AI increases both cyber threats and defense capabilities, creating an arms race that demands more security professionals. Every organization faces growing cyber risks. The attack surface expands with digital transformation. Massive skill shortage persists."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "demand_elasticity": 1,
+    "rationale": "AI in education creates demand for curriculum designers who understand how to integrate AI tools. Growing need for personalized learning pathways and educational technology coordination."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical installation work resists automation. Demand tied to construction and energy retrofit activity. Growing energy efficiency mandates may increase insulation demand."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "demand_elasticity": -2,
+    "rationale": "Online comparison tools and direct digital purchasing reduce need for sales intermediaries. AI-powered recommendation engines replace much of the advisory function. Complex commercial insurance persists but personal lines shift to self-service."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "demand_elasticity": -3,
+    "rationale": "AI risk assessment models directly automate underwriting decisions. Algorithmic underwriting handles standard policies without human review. Complex or novel risks still need human judgment but represent a shrinking share."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "demand_elasticity": 2,
+    "rationale": "Significant latent demand\u2014most people want professional interior design but can't afford it. AI visualization tools and virtual staging make design services more accessible. Every home renovation, office, and commercial space could benefit."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "demand_elasticity": -2,
+    "rationale": "AI translation quality improves rapidly. Routine document translation and basic interpretation are increasingly automated. Specialized and nuanced translation persists but AI handles growing volumes without human involvement."
+  },
+  {
+    "slug": "structural-iron-and-steel-workers",
+    "title": "Ironworkers",
+    "demand_elasticity": 0,
+    "rationale": "Physical structural work at height in variable conditions resists automation. Demand tied to construction activity, particularly large commercial and infrastructure projects. AI has minimal direct impact."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "demand_elasticity": -1,
+    "rationale": "Robotic floor cleaners and automated cleaning systems handle some routine cleaning. Demand tied to building stock but AI/robotics gradually automates repetitive tasks. Detailed and varied cleaning still needs humans."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "demand_elasticity": 0,
+    "rationale": "Artisanal craft work that blends art and technical skill. CAD and 3D printing change production methods but custom jewelry demand persists. Market is relatively niche and stable."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "demand_elasticity": 0,
+    "rationale": "The number of judges scales with caseload and court structure, set by statute. AI may speed case preparation but doesn't change the fundamental requirement for human judicial decision-making. Court reform could alter demand in either direction."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "demand_elasticity": 2,
+    "rationale": "AI tutoring tools can supplement teaching but young children need human attention, socialization, and care. Smaller class sizes improve outcomes\u2014latent demand for more teachers per student. Teacher shortages indicate current unmet demand."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "demand_elasticity": -1,
+    "rationale": "Demand tied to the number of unionized workplaces and labor disputes, both relatively fixed. AI can assist with analysis but the negotiation and relationship aspects persist. Declining union membership reduces overall demand."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "demand_elasticity": 2,
+    "rationale": "Growing demand for sustainable landscape design, urban green spaces, and climate-adaptive landscaping. AI visualization tools make services more accessible. Most commercial and residential projects could benefit from professional landscape design."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "demand_elasticity": 2,
+    "rationale": "Vast unmet legal need among individuals and small businesses. AI makes legal research and document preparation faster and cheaper, potentially making legal services accessible to millions who currently go without. Historical pattern: technology expanded legal services."
+  },
+  {
+    "slug": "librarians",
+    "title": "Librarians and library media specialists",
+    "demand_elasticity": 1,
+    "rationale": "Libraries evolve into community information and technology hubs. AI helps librarians curate and provide access to information more effectively. Growing need for information literacy education and digital access in an AI-driven world."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "demand_elasticity": -2,
+    "rationale": "Routine library tasks (cataloging, circulation, shelving) are increasingly automated. Self-checkout and digital catalogs reduce the need for human assistance. Some community engagement role persists but routine work shrinks."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "demand_elasticity": 1,
+    "rationale": "Aging population and healthcare expansion increase patient care demand. LPNs provide essential hands-on care that resists automation. Shortage of nursing staff indicates significant unmet demand."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "demand_elasticity": -2,
+    "rationale": "Algorithmic lending and automated underwriting reduce the need for human loan officers. Online mortgage and loan applications bypass traditional loan officer roles. Complex commercial lending persists but standard loans are increasingly automated."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "demand_elasticity": 0,
+    "rationale": "Management positions scale with the number of properties. AI helps with pricing and operations but on-site management persists. Growing travel and hospitality demand is offset by technology-enabled efficiency."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "demand_elasticity": -1,
+    "rationale": "Mechanical harvesting equipment reduces the labor intensity of logging. Demand tied to timber markets, which are relatively stable. Environmental restrictions may reduce total logging volume in some areas."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "demand_elasticity": 1,
+    "rationale": "AI optimization of supply chains creates both efficiency and new complexity to manage. Growing global trade and e-commerce expand logistics needs. Every supply chain could be better optimized."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "demand_elasticity": 0,
+    "rationale": "CNC automation and AI-guided machining improve productivity but custom and precision work still needs skilled machinists. Demand tied to manufacturing activity. Reshoring of manufacturing may increase demand."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "demand_elasticity": 1,
+    "rationale": "Every organization could benefit from management consulting. AI tools make analysis faster and more accessible, potentially bringing consulting to smaller organizations that couldn't afford it before."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "demand_elasticity": 1,
+    "rationale": "Personal care service that is inherently physical and in-person. Growing consumer spending on self-care and beauty services. Demand expanding with broader cultural acceptance and more accessible pricing."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "demand_elasticity": 0,
+    "rationale": "Niche field with demand tied to shipbuilding activity. AI assists with design but the volume of new vessels is relatively fixed. Some growth from offshore renewable energy and autonomous vessel design."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "demand_elasticity": 2,
+    "rationale": "Every business decision could benefit from market research. AI tools make analysis faster and cheaper, enabling more decisions to be research-informed. Historical pattern: data analytics tools expanded the research industry."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "demand_elasticity": 4,
+    "rationale": "Enormous unmet demand for relationship and family therapy. Most families could benefit but can't access or afford services. AI tools can help therapists serve more clients, but the therapeutic relationship requires human empathy and connection."
+  },
+  {
+    "slug": "brickmasons-blockmasons-and-stonemasons",
+    "title": "Masonry workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical masonry work in variable conditions resists automation. Demand tied to construction activity. Specialized craft skills maintain demand. Some robotic bricklaying emerges but adoption is limited."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "demand_elasticity": 1,
+    "rationale": "Inherently physical, hands-on work that fully resists automation. Growing wellness and preventive health spending. Significant latent demand as more people seek stress relief and physical therapy."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "demand_elasticity": -2,
+    "rationale": "Autonomous forklifts and material handling robots increasingly automate warehouse and distribution operations. AI-optimized logistics reduces inefficiency. Demand for human operators declines as automation spreads."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "demand_elasticity": -3,
+    "rationale": "Inventory management, shipping records, and material tracking are heavily automated by barcode/RFID systems and AI-powered warehouse management. Routine record-keeping is directly displaced by technology."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "demand_elasticity": 2,
+    "rationale": "AI dramatically accelerates materials discovery for batteries, electronics, aerospace, and sustainable products. Every industry needs better materials. The computational materials science revolution opens vast new research directions."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "demand_elasticity": 2,
+    "rationale": "AI and big data create massive demand for mathematical and statistical expertise. Every industry needs people who understand algorithms, probability, and data. AI itself requires mathematical foundations."
+  },
+  {
+    "slug": "mechanical-engineering-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to manufacturing and R&D activity. Physical prototyping and testing persists. CAD tools improve productivity but new product development maintains demand. Roughly neutral."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "demand_elasticity": 1,
+    "rationale": "Broad field with applications across many industries. AI design tools improve productivity, but robotics, clean energy, and automation create new mechanical engineering challenges. Growing demand for sustainable product design."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "demand_elasticity": 1,
+    "rationale": "Healthcare system complexity grows with technology and regulatory requirements. AI helps with administration but creates new management challenges (AI governance, data management). Aging population drives healthcare facility growth."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "demand_elasticity": 0,
+    "rationale": "Hands-on patient care tasks resist automation. Demand tied to patient volume in physician offices. AI may handle some administrative tasks but clinical assistance persists. Aging population supports demand."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "demand_elasticity": 0,
+    "rationale": "Highly specialized role tied to radiation therapy patient volume. AI improves treatment planning but human oversight is required. Patient volume grows modestly with cancer prevalence and screening."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "demand_elasticity": 0,
+    "rationale": "Physical repair work on complex medical equipment resists automation. Growing installed base of medical devices increases maintenance demand. AI diagnostics help but hands-on repair persists."
+  },
+  {
+    "slug": "medical-records-and-health-information-technicians",
+    "title": "Medical records specialists",
+    "demand_elasticity": -3,
+    "rationale": "AI and electronic health record systems automate coding, classification, and data management. Natural language processing extracts structured data from clinical notes. The routine aspects of medical records work are directly automated."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "demand_elasticity": 2,
+    "rationale": "AI accelerates drug discovery, clinical trial design, and biomedical research. New research directions open faster than efficiency reduces headcount. Growing healthcare spending and pandemic preparedness investment fund more research."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "demand_elasticity": -5,
+    "rationale": "AI speech recognition directly replaces medical transcription. Voice-to-text accuracy now matches or exceeds human transcriptionists. The role has already contracted significantly and the remaining work is rapidly automating."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "demand_elasticity": 1,
+    "rationale": "Events and experiences economy continues to grow. AI helps with logistics and coordination but the creative and interpersonal aspects of event planning persist. Virtual events create new planning demands."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "demand_elasticity": -2,
+    "rationale": "CNC machines and robotics increasingly automate metal and plastic forming operations. AI-guided quality control reduces operator involvement. Demand tied to manufacturing volume but each worker operates more machines."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "demand_elasticity": 1,
+    "rationale": "AI enables more sophisticated microbial analysis and drug development. Growing concern about antibiotic resistance and novel pathogens expands research. Food safety and environmental monitoring applications grow."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "demand_elasticity": 1,
+    "rationale": "Teacher shortages indicate unmet demand. AI tools supplement instruction but young adolescents need human mentorship and social-emotional guidance. Growing emphasis on educational quality supports smaller class sizes."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "demand_elasticity": 0,
+    "rationale": "Military staffing is determined by policy and geopolitical needs, not market forces. AI and autonomous systems may reduce some roles while creating others. Net effect is policy-dependent and uncertain."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to mining activity, which fluctuates with commodity prices. AI optimizes operations but the volume of mining is resource-demand driven. Green energy transition may shift which minerals are mined."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "demand_elasticity": 1,
+    "rationale": "AI-generated images create some displacement, but live fashion shows, product photography, and brand representation still need human models. Growing content demand and diverse representation expand opportunities."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "demand_elasticity": 2,
+    "rationale": "AI music generation is improving but demand for original, emotionally authentic music grows with content creation. Every video, game, ad, and podcast needs music. Live performance and artistic direction remain human domains."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "demand_elasticity": 1,
+    "rationale": "Live performance demand grows with entertainment spending and cannot be automated. AI-generated music creates competition for recorded music but live shows, sessions, and unique artistry maintain human demand."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "demand_elasticity": 0,
+    "rationale": "Management roles scale with the number of research teams and labs. AI helps manage projects but the number of leadership positions is tied to organizational structure, not individual productivity."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "demand_elasticity": -1,
+    "rationale": "Cloud infrastructure and AI-managed systems automate much routine network and system administration. Infrastructure-as-code reduces manual configuration. Complex environments persist but fewer admins are needed per system."
+  },
+  {
+    "slug": "reporters-correspondents-and-broadcast-news-analysts",
+    "title": "News analysts, reporters, and journalists",
+    "demand_elasticity": 0,
+    "rationale": "AI generates routine news articles but investigative journalism and analysis require human judgment. Declining traditional media offset by growing digital and specialized news. Trust in human journalism provides some insulation."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "demand_elasticity": 0,
+    "rationale": "Niche field with demand tied to nuclear energy policy. Renewed interest in nuclear power (SMRs) and nuclear security may increase demand. AI assists with design and simulation but the field remains small."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to nuclear medicine procedure volume, set by patient need and physician orders. AI aids image interpretation but human technologists must handle radioactive materials and operate equipment safely."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to nuclear facilities operations. Safety requirements maintain staffing levels. AI helps with monitoring but physical operations and safety protocols require human presence."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "demand_elasticity": 2,
+    "rationale": "Major push to expand NP scope of practice to address physician shortages. Huge unmet demand for primary care and midwifery services. AI tools help with diagnosis and treatment planning while NPs provide the human care."
+  },
+  {
+    "slug": "nursing-assistants",
+    "title": "Nursing assistants and orderlies",
+    "demand_elasticity": 1,
+    "rationale": "Aging population creates massive demand for direct patient care. Physical caregiving strongly resists automation. Chronic staffing shortages indicate significant unmet demand. AI monitoring may improve care quality."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to the number of workplaces and regulatory requirements. AI enables better monitoring but compliance requirements are set by regulation. New AI workplace safety concerns may expand the domain."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "demand_elasticity": 2,
+    "rationale": "Significant unmet demand for rehabilitation and adaptive services. Aging population and growing awareness of developmental needs expand the patient pool. AI tools help create personalized treatment plans and monitor progress."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "demand_elasticity": 1,
+    "rationale": "Hands-on therapeutic assistance resists automation. Growing demand from aging population and expanded OT services. AI tools may help extend the reach of each assistant."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "demand_elasticity": -2,
+    "rationale": "Long-term energy transition reduces fossil fuel demand. Automation and remote monitoring reduce field worker headcount. AI-optimized operations extract more with fewer workers. Cyclical commodity prices add volatility."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "demand_elasticity": 2,
+    "rationale": "AI creates massive new optimization opportunities. Every logistics, scheduling, and resource allocation problem can benefit from OR techniques. AI tools make OR analysis feasible for more organizations and problems."
+  },
+  {
+    "slug": "opticians-dispensing",
+    "title": "Opticians",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to vision correction needs in the population. Online eyewear sales provide some competition but fitting and adjustment require in-person service. Aging population supports demand."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "demand_elasticity": 1,
+    "rationale": "Aging population increases vision care demand. AI diagnostic tools help optometrists detect disease earlier and more accurately. Some latent demand from people who don't get regular eye exams due to cost."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "demand_elasticity": 2,
+    "rationale": "AI and 3D printing enable more personalized and affordable prosthetics and orthotics. Massive unmet demand globally, especially in developing countries. Technology makes custom devices accessible to more patients."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "demand_elasticity": 0,
+    "rationale": "Physical painting in variable environments resists automation. Demand tied to construction and building maintenance. Some robotic painting emerges for large surfaces but interior and detail work persists."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "demand_elasticity": -1,
+    "rationale": "Industrial painting and coating is increasingly automated with robotic spraying systems. Demand tied to manufacturing volume. AI-guided quality control and robotic application reduce workers per production line."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "demand_elasticity": -1,
+    "rationale": "AI automates much legal research, document review, and contract analysis. But expanding access to legal services (driven by AI efficiency) may create more paralegal work. Net slight reduction as routine tasks automate."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "demand_elasticity": 1,
+    "rationale": "Robo-advisors handle basic investment allocation, but complex financial planning and the trust relationship with clients persists. Growing wealth and retirement planning needs create demand. Middle-market advisory has latent demand."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical pest control in varied environments resists automation. Demand tied to property stock and pest prevalence. AI-powered monitoring may improve targeting but application work needs humans."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "demand_elasticity": -1,
+    "rationale": "Long-term energy transition reduces demand for petroleum engineering. AI optimizes extraction but the industry is structurally declining. Some engineers transition to geothermal and carbon capture roles."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "demand_elasticity": -1,
+    "rationale": "Automated dispensing systems and AI drug interaction checking reduce the need for pharmacist oversight of routine prescriptions. Clinical pharmacy roles expand but retail pharmacy faces automation pressure. Net slight decline."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "demand_elasticity": -2,
+    "rationale": "Automated pill counting, robotic dispensing, and digital prescription management directly reduce pharmacy technician tasks. Mail-order pharmacy further automates. Physical compounding persists but represents a small share."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "demand_elasticity": 0,
+    "rationale": "Physical blood drawing resists automation (though robotic phlebotomy is in development). Demand tied to lab testing volume, which grows with aging population. AI has minimal current impact on the manual skill."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "demand_elasticity": 2,
+    "rationale": "AI image generation threatens stock photography but creates more demand for authentic human photography. Every business, event, and social media presence needs photography. Latent demand from businesses that couldn't afford professional photography."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "demand_elasticity": 1,
+    "rationale": "Hands-on therapeutic exercises resist automation. Aging population and growing PT demand increase needs. AI monitoring may help assistants serve more patients. Physical care cannot be delegated to AI."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "demand_elasticity": 2,
+    "rationale": "Significant unmet demand for physical therapy. Many patients are undertreated due to access and cost. AI tools help therapists create personalized programs and monitor progress remotely, extending reach to more patients."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "demand_elasticity": 2,
+    "rationale": "Massive unmet demand for primary and specialty care. PAs extend physician capacity and AI tools enhance their diagnostic capabilities. Growing scope of practice and acceptance. Healthcare access gaps indicate vast latent demand."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "demand_elasticity": 2,
+    "rationale": "Enormous global unmet demand for medical care. AI diagnostic tools augment physician capabilities rather than replace them. Physicians become more effective with AI, potentially serving more patients and catching more conditions."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "demand_elasticity": 1,
+    "rationale": "AI accelerates simulation and data analysis in physics. New research directions in quantum computing, fusion energy, and astrophysics. Research funding limits expansion more than productivity."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "demand_elasticity": 1,
+    "rationale": "Physical plumbing work in variable environments resists automation. Growing demand from aging infrastructure, water systems, and new construction. Persistent labor shortages indicate unmet demand."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to foot care needs in the population, growing modestly with aging and diabetes prevalence. AI diagnostics may help but the physical examination and treatment aspects persist."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "demand_elasticity": 0,
+    "rationale": "Public safety staffing is policy-driven and relatively stable per capita. AI aids surveillance and investigation but community policing requires human presence. Reform movements may alter staffing models in either direction."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "demand_elasticity": 1,
+    "rationale": "AI enables more sophisticated political analysis and modeling. Growing demand for policy analysis, political risk assessment, and public opinion research. Think tanks and political consulting expand."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "demand_elasticity": -3,
+    "rationale": "Mail volume has been declining for decades as communication goes digital. AI-optimized sorting and autonomous delivery vehicles further reduce postal workforce needs. Package delivery grows but is increasingly automated."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "demand_elasticity": 0,
+    "rationale": "Administrative positions scale with the number of institutions and students. AI may automate some administrative tasks but regulatory compliance and student services persist. Enrollment trends are mixed."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "demand_elasticity": 1,
+    "rationale": "Growing global demand for higher education. AI tools enhance teaching but cannot replace the mentorship, research guidance, and critical thinking development that professors provide. Online education expands access."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "demand_elasticity": -1,
+    "rationale": "AI and automation increasingly manage grid operations and plant monitoring. The transition to distributed renewable energy changes the operator role. Fewer operators needed per unit of generation capacity."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "demand_elasticity": 0,
+    "rationale": "Management positions scale with the number of childcare facilities. AI may help with administration but on-site leadership persists. Growing demand for childcare offsets efficiency gains."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "demand_elasticity": 2,
+    "rationale": "Enormous unmet demand for quality early childhood education. Young children need human interaction and care. AI tools can help with individualized learning plans but cannot replace the teacher-child relationship."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "demand_elasticity": 0,
+    "rationale": "AI tools enhance investigation capabilities (digital forensics, background checks) but also automate some research tasks. Growing cybersecurity and corporate fraud create new investigation demand."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "demand_elasticity": 0,
+    "rationale": "Caseload driven by criminal justice system throughput, which is policy-dependent. AI risk assessment tools may alter supervision models. Reform movements may change demand in either direction."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "demand_elasticity": 2,
+    "rationale": "Explosion of content creation across streaming, social media, gaming, and corporate communications. AI tools assist production but creative vision and project leadership remain human. Every content platform needs more producers."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "demand_elasticity": 1,
+    "rationale": "Every organization runs projects, and AI enables more ambitious projects. AI automates scheduling and tracking but the human coordination and stakeholder management aspects persist. Growing project complexity maintains demand."
+  },
+  {
+    "slug": "appraisers-and-assessors-of-real-estate",
+    "title": "Property appraisers and assessors",
+    "demand_elasticity": -2,
+    "rationale": "AI and automated valuation models (AVMs) increasingly provide property value estimates. Many lenders accept AI-generated appraisals for standard properties. Complex and unique properties still need human assessment but standard appraisals automate."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "demand_elasticity": 0,
+    "rationale": "Management positions scale with the number of properties. AI helps with tenant communications and maintenance scheduling but on-site management and decision-making persist. Property stock grows modestly."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "demand_elasticity": 1,
+    "rationale": "Direct patient care in psychiatric settings resists automation. Growing mental health awareness and treatment access increase patient volume. Staffing shortages indicate unmet demand."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet demand for psychological services. Most people who could benefit from therapy don't receive it due to cost and access. AI tools can help psychologists screen, assess, and monitor more patients while maintaining the human therapeutic relationship."
+  },
+  {
+    "slug": "public-relations-managers",
+    "title": "Public relations and fundraising managers",
+    "demand_elasticity": 1,
+    "rationale": "Every organization needs reputation management, and the complexity of media channels grows. AI assists with monitoring and content creation but strategic communication and crisis management require human judgment."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "demand_elasticity": 1,
+    "rationale": "Growing number of communication channels and stakeholders to manage. AI tools help with content creation and monitoring but relationship building and strategic messaging require human skills. Every organization needs PR."
+  },
+  {
+    "slug": "police-fire-and-ambulance-dispatchers",
+    "title": "Public safety telecommunicators",
+    "demand_elasticity": -2,
+    "rationale": "AI-assisted dispatch systems optimize routing and prioritization, reducing the number of human dispatchers needed. Computer-aided dispatch handles increasing volumes without proportional headcount increases."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "demand_elasticity": -1,
+    "rationale": "AI automates supplier identification, price comparison, and routine procurement. E-procurement platforms reduce the need for purchasing intermediaries. Strategic procurement persists but transactional buying automates."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "demand_elasticity": -2,
+    "rationale": "AI-powered visual inspection and automated testing systems directly replace human quality inspectors on production lines. Machine vision outperforms humans in consistency and speed for many inspection tasks."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to cancer patient volume receiving radiation therapy. AI improves treatment planning but human therapists must position patients and operate equipment. Patient volume grows modestly with cancer screening and aging."
+  },
+  {
+    "slug": "radiologic-technologists",
+    "title": "Radiologic and MRI technologists",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to imaging order volume. AI improves image interpretation but human technologists must position patients and operate equipment. Growing imaging utilization supports demand while AI aids reading."
+  },
+  {
+    "slug": "railroad-occupations",
+    "title": "Railroad workers",
+    "demand_elasticity": -2,
+    "rationale": "Precision train control and automation reduce crew sizes. AI-managed scheduling and maintenance improve efficiency. Freight volume grows modestly but technology reduces workers per train-mile."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "demand_elasticity": -1,
+    "rationale": "Online listings and AI-powered property matching reduce the traditional agent role. iBuyer platforms and self-service tools disintermediate some transactions. Complex transactions still benefit from agents but standard sales shift to technology."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "demand_elasticity": -3,
+    "rationale": "AI virtual receptionists, automated check-in kiosks, and digital scheduling directly replace routine reception tasks. Many offices already use automated phone systems and visitor management. The warm human greeting persists in some settings."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "demand_elasticity": 1,
+    "rationale": "Growing spending on leisure and wellness activities. Physical recreation programming requires human leadership. Community recreation programs have latent demand in underserved areas."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "demand_elasticity": 2,
+    "rationale": "Growing recognition of therapeutic recreation for rehabilitation and mental health. Significant unmet need in aging populations and disability services. AI tools help personalize programs but the therapeutic relationship is human."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "demand_elasticity": 1,
+    "rationale": "Massive nursing shortage indicates enormous unmet demand. Aging population drives growing care needs. AI tools can help nurses manage more patients and catch issues earlier, but direct patient care requires human presence and compassion."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "demand_elasticity": 2,
+    "rationale": "Significant unmet demand for rehabilitation services. Many disabled individuals lack access to counseling. AI tools help counselors assess and monitor clients. Growing disability awareness and workplace accommodation needs expand demand."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "demand_elasticity": 1,
+    "rationale": "Aging population and chronic respiratory disease increase patient volume. AI assists with monitoring and treatment optimization but physical therapy delivery requires human practitioners. Pandemic awareness supports investment."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "demand_elasticity": -2,
+    "rationale": "E-commerce continues to grow, reducing in-store sales positions. Self-checkout and AI-powered recommendation engines displace sales assistance. Experiential retail maintains some roles but overall headcount declines."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "demand_elasticity": 0,
+    "rationale": "Physical roofing work in variable conditions strongly resists automation. Demand tied to construction and re-roofing cycles. Climate change may increase storm damage repairs. Labor shortages indicate current unmet demand."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "demand_elasticity": 0,
+    "rationale": "Technical sales requires deep product knowledge and relationship building. AI helps with technical documentation and proposals but the consultative selling process persists. Demand tied to technical product markets."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "demand_elasticity": 0,
+    "rationale": "Management roles scale with sales organization size. AI optimizes sales processes and provides better analytics but human leadership of sales teams persists. E-commerce growth shifts some sales management online."
+  },
+  {
+    "slug": "school-and-career-counselors",
+    "title": "School and career counselors and advisors",
+    "demand_elasticity": 2,
+    "rationale": "Significant unmet demand for student counseling\u2014most schools have inadequate counselor-to-student ratios. AI tools help counselors serve more students with personalized guidance. Mental health awareness increases demand."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "demand_elasticity": -2,
+    "rationale": "AI scheduling tools, email management, and document preparation directly automate core secretarial tasks. Voice assistants and digital tools reduce the need for human administrative support. The role has been contracting for decades."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "demand_elasticity": -1,
+    "rationale": "Online trading platforms and robo-advisors reduce need for human brokers and agents. Algorithmic trading handles much of the transaction volume. Complex wealth management persists but standard financial product sales automate."
+  },
+  {
+    "slug": "security-guards",
+    "title": "Security guards and gambling surveillance officers",
+    "demand_elasticity": -1,
+    "rationale": "AI surveillance systems, drones, and automated monitoring reduce the need for human guards. Technology handles surveillance while guards respond to incidents. Demand for physical security presence persists but monitoring shifts to AI."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "demand_elasticity": 1,
+    "rationale": "Massive expansion of semiconductor manufacturing (CHIPS Act, AI chip demand) creates growing need for fabrication technicians. AI assists with process monitoring but cleanroom operations need human workers. Supply chain concerns drive domestic expansion."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "demand_elasticity": 1,
+    "rationale": "Growing content production and experiential entertainment create demand. AI visualization tools help but physical design and construction of sets and exhibits requires human creativity and craftsmanship."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "demand_elasticity": 0,
+    "rationale": "Physical metalworking in varied environments resists automation. Demand tied to construction and HVAC activity. Growing demand for HVAC systems and building renovation supports the trade."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "demand_elasticity": 2,
+    "rationale": "Growing consumer spending on skincare and wellness. Inherently physical, in-person service. AI skin analysis tools may expand client base by making consultations more accessible and personalized. Significant latent demand."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "demand_elasticity": 0,
+    "rationale": "Physical repair work resists automation. Demand tied to the installed base of small engines (mowers, generators, etc.). Transition to electric equipment may reduce long-term demand but the timeline is gradual."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "demand_elasticity": 1,
+    "rationale": "Growing investment in social services and community programs. AI helps with administration and program evaluation but community leadership requires human connection. Expanding social safety net programs increase demand."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "demand_elasticity": 2,
+    "rationale": "Significant unmet demand for social services. AI tools help assistants manage larger caseloads and connect clients with resources. The human element of advocacy and support resists automation. Growing social needs increase demand."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet demand for social work services across child welfare, mental health, and community support. AI tools help with assessment and documentation but the therapeutic and advocacy roles require human empathy. Caseloads are chronically high."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "demand_elasticity": 1,
+    "rationale": "AI enables analysis of large social datasets and complex social phenomena. Growing demand for understanding social issues, inequality, and technology's impact on society. Applied sociology in policy and business expands."
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "demand_elasticity": 3,
+    "rationale": "Massive latent demand for custom software. Every business process, every device, and every service could benefit from better software. Historical pattern: every productivity improvement in programming led to more software being built, not fewer programmers."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "demand_elasticity": 1,
+    "rationale": "Growing demand driven by energy transition and declining solar costs. Physical rooftop installation resists automation. Government incentives and climate goals drive expansion. Some efficiency improvements in installation but demand grows faster."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "demand_elasticity": 3,
+    "rationale": "Enormous unmet demand for special education services. Many students with disabilities are underserved. AI tools can help teachers create individualized education plans and adapt instruction. The human relationship is essential for these students."
+  },
+  {
+    "slug": "multimedia-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "demand_elasticity": 2,
+    "rationale": "Explosive demand for animation and visual effects in games, streaming, social media, and advertising. AI tools accelerate production but the creative direction and artistry remain human. Every content creator wants more visual effects."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "demand_elasticity": 3,
+    "rationale": "Significant unmet demand for speech therapy services. Many children and adults who need services can't access them due to cost and availability. AI tools help with practice exercises and monitoring but the therapeutic relationship requires human guidance."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "demand_elasticity": -1,
+    "rationale": "AI and automation improve monitoring and control of building mechanical systems. Smart building technology reduces the need for on-site operators. Demand tied to the number of large facilities with complex mechanical systems."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "demand_elasticity": 4,
+    "rationale": "Massive unmet demand for addiction and mental health counseling. The treatment gap is enormous. AI tools can help with screening, assessment, and between-session monitoring, but the counseling relationship requires human empathy and connection."
+  },
+  {
+    "slug": "surgical-technologists",
+    "title": "Surgical assistants and technologists",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to surgical volume. AI-assisted and robotic surgery changes the tech role but doesn't eliminate it. Surgical volume grows modestly with aging population and advancing surgical capabilities."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "demand_elasticity": -1,
+    "rationale": "AI and automated survey platforms reduce the need for human researchers to design, administer, and analyze surveys. Online surveys and AI analysis handle much of the routine work. Complex research design persists."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "demand_elasticity": -1,
+    "rationale": "Drones, LiDAR, and AI mapping tools automate much surveying data collection. GPS and satellite imagery reduce field time. The volume of surveys is tied to construction and land development."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "demand_elasticity": 0,
+    "rationale": "Licensed surveying requires human oversight for legal boundary determination. AI and drone tools improve productivity but legal requirements maintain human involvement. Demand tied to construction and development activity."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "demand_elasticity": -2,
+    "rationale": "AI automates tax return analysis, fraud detection, and collection processes. The volume of tax returns is fixed by the number of filers. Automated systems handle more returns without proportional headcount."
+  },
+  {
+    "slug": "taxi-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "demand_elasticity": -3,
+    "rationale": "Autonomous vehicle technology directly threatens taxi and ride-hail driving. Rideshare platforms already disrupted traditional taxis. Self-driving vehicles in controlled environments (airports, cities) will reduce driver demand."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "demand_elasticity": 0,
+    "rationale": "Classroom support requires physical presence with students. AI tutoring may reduce some assistant tasks but the supervisory and hands-on help for young students persists. Budget constraints are the main limiting factor."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "demand_elasticity": 1,
+    "rationale": "AI generates draft documentation, but every software product, API, and technical system needs clear documentation. Growing technology complexity creates more to document. Technical writers shift to editing AI output and creating strategic content."
+  },
+  {
+    "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
+    "title": "Telecommunications technicians",
+    "demand_elasticity": 0,
+    "rationale": "Physical installation and repair of telecom equipment resists automation. 5G rollout and fiber expansion create demand. Remote diagnostics help but on-site work persists. Demand cycles with technology deployment."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "demand_elasticity": -5,
+    "rationale": "ATMs, online banking, and mobile banking have already drastically reduced teller positions. AI-powered banking further reduces branch traffic. The remaining in-branch transactions continue to decline as digital banking improves."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "demand_elasticity": 0,
+    "rationale": "Executive positions scale with the number of organizations, not individual productivity. AI provides better decision-support but the leadership, vision, and stakeholder management roles persist. C-suite headcount is relatively fixed."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "demand_elasticity": 1,
+    "rationale": "AI-powered audio guides handle basic information, but the experiential and interpersonal aspects of guided tours resist automation. Growing tourism and experiential travel demand. Local expertise and storytelling maintain human value."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "demand_elasticity": 1,
+    "rationale": "AI creates massive reskilling needs, expanding training demand. Every organization needs workforce development programs. AI tools enhance training delivery but program leadership and strategy require human managers."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "demand_elasticity": 2,
+    "rationale": "AI creates enormous reskilling demand across all industries. Every worker needs continuous learning. AI tools make training more personalized and scalable, enabling specialists to serve more learners and develop more programs."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "demand_elasticity": 0,
+    "rationale": "Management positions scale with the number of facilities and operations. AI optimizes logistics but human oversight of physical operations persists. Growing e-commerce expands warehousing but automation improves efficiency."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "demand_elasticity": -2,
+    "rationale": "Online booking platforms and AI travel assistants handle most routine travel planning. The role has already contracted dramatically since the internet era. Complex and luxury travel persist but standard bookings are self-service."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "demand_elasticity": 5,
+    "rationale": "Maximum latent demand. Every student could benefit from personalized tutoring but almost none can afford it. AI tutoring tools are powerful but human tutors provide motivation, emotional support, and adaptive teaching that AI cannot match. Hybrid human+AI tutoring could serve vastly more students."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to the number of sporting events, which grows modestly. AI-assisted officiating (video review, electronic line calling) changes the role but human officials persist for judgment calls and game management."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "demand_elasticity": 1,
+    "rationale": "Climate adaptation, housing affordability, and sustainable development increase planning needs. AI tools enable better modeling and analysis. Every community needs planning but many lack resources for comprehensive planning."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "demand_elasticity": 2,
+    "rationale": "Growing pet ownership and spending on pet care create expanding demand. AI diagnostic tools help veterinarians treat more animals. Significant unmet demand in rural areas and for exotic/specialty animal care."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "demand_elasticity": 0,
+    "rationale": "Hands-on animal care resists automation. Demand tied to veterinary practice volume and research facilities. Growing pet care spending supports demand."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "demand_elasticity": 1,
+    "rationale": "Growing pet care spending and expanding veterinary services. Hands-on animal care resists automation. AI diagnostics may increase the scope of what vet techs can handle under supervision."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "demand_elasticity": -1,
+    "rationale": "Ordering kiosks and mobile ordering reduce some serving tasks. But table service in restaurants remains a human-interaction-driven experience. Demand tied to dining-out trends, which grow modestly."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "demand_elasticity": 0,
+    "rationale": "Demand tied to the fixed number of water treatment facilities. AI and automation improve monitoring but human operators are required for safety. Growing water infrastructure needs provide modest growth."
+  },
+  {
+    "slug": "water-transportation-occupations",
+    "title": "Water transportation workers",
+    "demand_elasticity": -1,
+    "rationale": "Autonomous vessel technology advancing for commercial shipping. AI navigation and remote monitoring reduce crew needs. Maritime regulations may slow adoption but the trajectory favors smaller crews."
+  },
+  {
+    "slug": "web-developers",
+    "title": "Web developers and digital designers",
+    "demand_elasticity": 3,
+    "rationale": "Every business, organization, and individual could benefit from a better web presence. AI tools make development faster and cheaper, unlocking demand from millions of small businesses. Historical pattern: web development tools always led to more websites, not fewer developers."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "demand_elasticity": -1,
+    "rationale": "Robotic welding handles much production welding. AI-guided systems improve automated welding quality. But field welding, maintenance, and custom work resist automation. Net gradual decline in production welding headcount."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "demand_elasticity": -1,
+    "rationale": "B2B e-commerce platforms and AI-powered procurement reduce the need for sales representatives. Relationship-based selling persists for complex products but commodity sales move to digital channels."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "demand_elasticity": 1,
+    "rationale": "Rapidly growing wind energy sector creates expanding demand. Physical maintenance of turbines at height resists automation. AI predictive maintenance helps prioritize but hands-on work persists. Strong growth trajectory."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "demand_elasticity": 0,
+    "rationale": "CNC machines automate production woodworking but custom and artisanal work persists. Demand tied to construction and furniture markets. The craft aspect maintains a market niche even as mass production automates."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "demand_elasticity": 2,
+    "rationale": "AI generates content but creates more demand for human-quality writing with authentic voice and perspective. Every business needs content. The volume of content needed grows exponentially. Human writers shift to higher-value creative and editorial work."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "demand_elasticity": 1,
+    "rationale": "AI tools (camera traps, satellite tracking, genomics) enable more comprehensive wildlife research. Climate change and biodiversity loss increase urgency. Conservation funding limits expansion more than productivity."
+  }
+]

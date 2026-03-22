@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely knowledge-based office work involving financial analysis, tax preparation, and auditing. No meaningful physical component that robots would automate."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "physical_exposure_2031": 1,
+    "rationale": "Performance is fundamentally human\u2014audiences value human emotional expression and physicality. Some CGI/motion-capture technology exists but live performance and on-camera acting remain human domains requiring constant creative improvisation."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely desk-based analytical work using mathematics, statistics, and financial modeling. No physical component to automate."
+  },
+  {
+    "slug": "administrative-services-managers",
+    "title": "Administrative services and facilities managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Primarily office-based management and coordination work. Some facility oversight involves physical inspection, but the role is fundamentally about planning, directing, and supervising rather than physical labor."
+  },
+  {
+    "slug": "adult-literacy-and-ged-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching adults in classroom settings is entirely interpersonal and knowledge-based. No physical tasks amenable to robotic automation."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Sales work involving client meetings, presentations, and relationship building. Entirely knowledge and interpersonal work with no physical labor component."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Strategic planning, creative direction, and team management. Purely knowledge work with no physical automation potential."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Involves hands-on installation, calibration, and testing of aerospace equipment in controlled but variable environments. Some routine testing and calibration tasks are increasingly automated, but the variety of systems and precision requirements still need human technicians for many tasks."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Design, analysis, and testing oversight work that is primarily computational and knowledge-based. Physical prototyping and testing is done by technicians."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Laboratory and field work involving sample collection, testing, and equipment operation. Routine lab analysis is increasingly automated, but fieldwork and novel experimental setups still require human adaptability."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "physical_exposure_2031": 1,
+    "rationale": "Primarily research, analysis, and oversight work. Some fieldwork but the role is fundamentally about scientific inquiry and knowledge application rather than physical labor."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "physical_exposure_2031": 1,
+    "rationale": "Design and engineering work that is primarily knowledge-based. May visit farms and facilities but the role centers on designing systems rather than physical labor."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "physical_exposure_2031": 5,
+    "rationale": "By 2031, robotic harvesting covers an expanded range of crops on large-scale operations, and automated planting/spraying is widespread. However, many crops still require human dexterity for harvest, and small/medium farms with variable terrain need human workers for exceptions and diverse tasks."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "physical_exposure_2031": 1,
+    "rationale": "Highly cognitive work involving real-time decision-making in safety-critical environments. While the work environment is physical (control towers), the actual task is purely mental coordination and communication. Automation assists but human judgment remains essential."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Skilled hands-on work in variable configurations\u2014each aircraft has unique wear patterns and issues. Diagnostics increasingly automated, but physical repair work in tight spaces with diverse components requires human dexterity and judgment. Safety-critical nature slows automation adoption."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "physical_exposure_2031": 3,
+    "rationale": "Autopilot handles much of routine flight, but pilots remain essential for safety oversight, emergency response, and complex operations. Regulatory and public trust barriers remain high. Autonomous cargo flights may begin but passenger flights still require human pilots."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "physical_exposure_2031": 2,
+    "rationale": "Working with live animals requires constant adaptation to unpredictable behavior. Animals need trust-based relationships with handlers. Environments vary widely from kennels to veterinary offices to outdoor settings. Robots cannot yet manage the variability and emotional sensitivity required."
+  },
+  {
+    "slug": "announcers",
+    "title": "Announcers and DJs",
+    "physical_exposure_2031": 1,
+    "rationale": "On-air broadcasting is primarily verbal and creative. While AI-generated voices exist, live announcing requires real-time improvisation and human personality. The physical component (sitting at a microphone) is minimal."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "physical_exposure_2031": 1,
+    "rationale": "Primarily research and analysis work. Archaeological fieldwork involves physical digging but in highly variable, novel environments where each site is unique. The intellectual interpretation is the core of the work."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely interpersonal and cognitive work involving dispute resolution, negotiation, and legal reasoning. No physical component."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "physical_exposure_2031": 0,
+    "rationale": "Design work that is primarily computational and creative. Site visits occur but the role is fundamentally about design, planning, and client communication."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management and oversight role that is entirely knowledge-based. Involves planning, coordinating, and directing technical projects."
+  },
+  {
+    "slug": "curators-museum-technicians-and-conservators",
+    "title": "Archivists, curators, and museum workers",
+    "physical_exposure_2031": 2,
+    "rationale": "Conservators perform delicate physical work on unique, irreplaceable artifacts requiring extreme care and judgment. Museum technicians handle installation in variable spaces. The uniqueness of each object and environment limits automation potential significantly."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "physical_exposure_2031": 0,
+    "rationale": "Creative management and visual direction work. Entirely knowledge and aesthetic judgment based with no physical automation potential."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "physical_exposure_2031": 8,
+    "rationale": "By 2031, robotic assembly systems handle the large majority of repetitive assembly tasks across manufacturing. Human workers focus on complex assemblies, quality exceptions, and tasks requiring unusual dexterity. Standardized assembly lines are heavily automated."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "physical_exposure_2031": 0,
+    "rationale": "Athletic performance is inherently human\u2014audiences value human competition. While training technology advances, the actual performance is entirely about human physical capability and cannot be replaced by robots."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "physical_exposure_2031": 2,
+    "rationale": "Hands-on physical assessment and treatment of athletes in highly variable situations. Each injury and athlete is different, requiring skilled touch, trust, and real-time judgment. The interpersonal and diagnostic aspects resist automation."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical and computational work involving weather modeling and forecasting. No physical labor component."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "physical_exposure_2031": 2,
+    "rationale": "Clinical work requiring patient interaction, physical examination of ears, and fitting of hearing devices. Each patient presents unique anatomy and needs. Trust and communication are essential components."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "physical_exposure_2031": 4,
+    "rationale": "Each vehicle presents unique damage patterns requiring assessment and custom repair approaches. Some standardized repairs (windshield replacement) are becoming more automated, but body work requires significant human judgment and dexterity for variable damage."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "physical_exposure_2031": 3,
+    "rationale": "Diagnostics increasingly automated, but physical repair work varies enormously by vehicle, problem, and environment. Working in tight engine compartments with diverse fasteners and components requires human dexterity. Shops vary widely in layout and equipment."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "physical_exposure_2031": 6,
+    "rationale": "Commercial/industrial baking is increasingly automated with robotic mixing, shaping, and packaging. Large bakeries and chain operations use extensive automation. Artisanal and custom baking still requires human skill, but the majority of volume production is automatable by 2031."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "physical_exposure_2031": 2,
+    "rationale": "Highly personal service requiring trust, communication, creative judgment, and skilled dexterity on unique human heads. Each client's hair, preferences, and head shape differ. The social and aesthetic aspects are core to the service. Very resistant to robotic automation."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "physical_exposure_2031": 4,
+    "rationale": "Robotic bartending systems exist for standardized drinks in high-volume venues. However, craft cocktail preparation, customer interaction, and the social nature of bartending in most establishments still require humans. The hospitality and improvisation aspects resist full automation."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "physical_exposure_2031": 0,
+    "rationale": "Office-based work involving phone calls, correspondence, and negotiation. Entirely knowledge and communication work with no physical component."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "physical_exposure_2031": 2,
+    "rationale": "Lab work involves some physical manipulation of equipment and samples, with automated lab systems handling routine procedures. However, novel experimental design and non-standard protocols still require human researchers. The core intellectual work is not physical."
+  },
+  {
+    "slug": "biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "physical_exposure_2031": 1,
+    "rationale": "Primarily design and engineering work that is knowledge-based. Some prototype testing involves physical work, but the role centers on design, analysis, and problem-solving."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Laboratory work with increasing automation of routine procedures like sample preparation, testing, and data collection. However, novel experimental setups and troubleshooting still require human technicians. Automated lab systems handle much of the standardized work."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "physical_exposure_2031": 3,
+    "rationale": "Heavy industrial work in variable environments\u2014power plants, refineries, ships. Each installation is different, requiring skilled welding and metalwork in confined spaces. The variability of work sites and need for skilled judgment limits automation, though some routine welding tasks are automated."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely desk-based data entry and record-keeping work. No physical component. Already heavily digitized."
+  },
+  {
+    "slug": "broadcast-and-sound-engineering-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "physical_exposure_2031": 2,
+    "rationale": "Technical work setting up and operating audio/video equipment in variable venues and studios. Each setup is different, requiring troubleshooting and adaptation. Some studio operations are increasingly automated, but live event work requires human adaptability."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical office work involving financial planning and budget review. No physical component."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "physical_exposure_2031": 5,
+    "rationale": "Autonomous vehicle technology covers many fixed routes by 2031, especially dedicated bus lanes and highway segments. However, complex urban environments, passenger assistance, and safety oversight still require human drivers for many routes. School bus drivers face additional trust and regulatory barriers."
+  },
+  {
+    "slug": "butchers-and-meat-cutters",
+    "title": "Butchers",
+    "physical_exposure_2031": 6,
+    "rationale": "Industrial meat processing is heavily automated with robotic cutting, deboning, and packaging systems. Custom retail butchering still requires human skill for variable cuts and customer interaction, but the majority of meat processing volume is increasingly automated."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Routine calibration of standardized equipment is increasingly automated, but technicians still needed for diverse equipment types, field calibration, and troubleshooting. The variety of instruments and environments provides some protection from full automation."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing medical work requiring trust and physical positioning of patients and equipment. Each patient's anatomy varies. Imaging automation assists but human operators needed for patient interaction, positioning, and clinical judgment."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching is fundamentally interpersonal work. While some shop/lab teaching involves physical demonstration, the core is human instruction and mentorship. No significant physical automation potential."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "physical_exposure_2031": 3,
+    "rationale": "Residential and custom carpentry involves highly variable environments\u2014each building, renovation, and design is different. While some prefabrication and CNC work is automated, on-site carpentry requires constant adaptation to existing structures and conditions. Commercial construction has more standardized tasks."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "physical_exposure_2031": 1,
+    "rationale": "Primarily digital/computational work using GIS software and satellite imagery. Some fieldwork for ground-truthing but the role is fundamentally desk-based analysis and map creation."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "physical_exposure_2031": 7,
+    "rationale": "Self-checkout and automated payment systems are widespread by 2031. Many retail and fast-food locations operate with minimal cashier staff. However, some customer-facing roles remain for complex transactions, customer assistance, and stores where human interaction is valued."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "physical_exposure_2031": 3,
+    "rationale": "Executive chefs focus on menu creation, kitchen management, and quality control\u2014largely creative and managerial. While robotic kitchen systems handle some routine cooking in chains, head chefs in restaurants provide creative direction and handle complex preparations that require taste, judgment, and improvisation."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Design and process engineering work that is primarily knowledge-based and computational. Plant visits occur but the role is about design and optimization, not physical labor."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Laboratory work with increasing automation of routine testing and analysis. Automated systems handle standardized procedures, but technicians still needed for sample preparation, equipment maintenance, and non-routine testing."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "physical_exposure_2031": 2,
+    "rationale": "Research work with some physical lab components. Automated lab systems handle routine synthesis and testing, but novel research requires human creativity and adaptation. The core work is intellectual."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "physical_exposure_2031": 1,
+    "rationale": "Caring for young children requires constant human attention, emotional sensitivity, and improvisation. Each child's needs differ moment to moment. Parents require deep trust in caregivers. Among the most resistant occupations to physical automation."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "physical_exposure_2031": 2,
+    "rationale": "Hands-on therapeutic work requiring skilled touch, patient communication, and real-time judgment based on each patient's unique physiology. Trust between practitioner and patient is essential. Very resistant to robotic automation."
+  },
+  {
+    "slug": "civil-engineering-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "physical_exposure_2031": 2,
+    "rationale": "Mix of office-based design work and field testing/inspection. Field work involves variable sites and conditions. Some testing is automated but site inspection and field measurement in diverse environments requires human adaptability."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Primarily design, analysis, and project management work. Site visits occur but the role is fundamentally about engineering design and oversight."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "physical_exposure_2031": 1,
+    "rationale": "Mostly office-based analytical work. Some field inspection of damage sites, but the core work is reviewing claims and making determinations. Physical inspection increasingly supplemented by drones and photographic evidence."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "physical_exposure_2031": 6,
+    "rationale": "Clinical lab work is increasingly automated with robotic sample handling, automated analyzers, and AI-assisted diagnostics. High-volume standardized tests are largely automated. Technologists focus on complex tests, quality control, and troubleshooting automated systems."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "physical_exposure_2031": 1,
+    "rationale": "Coaching involves interpersonal leadership, motivation, strategy, and real-time decision-making during competitions. While analytics and video technology assist, the human connection and leadership aspects are core. Minimal physical automation potential."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "physical_exposure_2031": 0,
+    "rationale": "Interpersonal outreach and health education work in community settings. Entirely about human connection, trust-building, and communication. No physical automation potential."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Office-based management work involving policy development and administration. Purely knowledge work."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Analytical office work involving job analysis and compensation planning. No physical component."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "physical_exposure_2031": 0,
+    "rationale": "Regulatory review and oversight work that is entirely knowledge-based. Some facility inspections but the core is analytical."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely knowledge work involving research, algorithm development, and computational analysis. No physical component."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "physical_exposure_2031": 0,
+    "rationale": "IT management and strategic planning. Purely knowledge and management work."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "physical_exposure_2031": 1,
+    "rationale": "Design work that is primarily knowledge-based. Some prototype testing and lab work, but the core role is design and analysis."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "physical_exposure_2031": 0,
+    "rationale": "Network design and planning work that is entirely knowledge-based and digital."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital work involving writing and testing code. No physical component."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "physical_exposure_2031": 1,
+    "rationale": "Mostly remote/desk-based troubleshooting. Some physical hardware setup and repair, but increasingly handled remotely. The physical component is minor."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Analytical work designing and improving IT systems. Purely knowledge work."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "physical_exposure_2031": 2,
+    "rationale": "Customer-facing service role requiring interpersonal skills, local knowledge, and problem-solving. Some tasks (information lookup, reservations) are digitized, but the personal service and human interaction aspects are central. Minimal physical labor."
+  },
+  {
+    "slug": "conservation-scientists",
+    "title": "Conservation scientists and foresters",
+    "physical_exposure_2031": 1,
+    "rationale": "Research and management work primarily involving analysis and planning. Some fieldwork in natural environments, but the role is about scientific assessment and policy rather than physical labor."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "physical_exposure_2031": 2,
+    "rationale": "Field inspection work in variable construction environments. Each site and building is unique. While drones and sensors assist, physical access to inspect structural elements, electrical systems, and plumbing in diverse configurations still requires human presence and judgment."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "physical_exposure_2031": 6,
+    "rationale": "Large-scale earthmoving and grading increasingly automated with GPS-guided autonomous equipment on structured sites. Excavation and routine operations on large commercial projects use autonomous or semi-autonomous machines. Complex operations in tight spaces or variable terrain still need human operators."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "physical_exposure_2031": 6,
+    "rationale": "Repetitive tasks on structured construction sites (material handling, site cleanup, concrete work) increasingly automated. However, the variety of tasks, changing environments, and need to work alongside human tradespeople in variable conditions means humans still needed for many tasks."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Management and coordination role. While overseeing increasingly automated job sites, the role itself is about planning, scheduling, problem-solving, and human coordination. Minimal physical labor."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "physical_exposure_2031": 5,
+    "rationale": "Chain restaurant and institutional cooking increasingly automated with robotic kitchen systems handling standardized recipes. Fast-food preparation is highly automatable. However, varied menu items, special orders, and non-chain restaurants still require human cooks for adaptation and quality."
+  },
+  {
+    "slug": "correctional-officers",
+    "title": "Correctional officers and bailiffs",
+    "physical_exposure_2031": 2,
+    "rationale": "Security and supervision of inmates requires constant human judgment, de-escalation skills, and physical presence in unpredictable environments. Surveillance technology assists but the interpersonal and safety aspects require human officers. Trust and authority dynamics are inherently human."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "physical_exposure_2031": 0,
+    "rationale": "Analytical work involving project cost analysis and estimation. Primarily desk-based knowledge work. Some site visits but the core work is analytical."
+  },
+  {
+    "slug": "court-reporters",
+    "title": "Court reporters and simultaneous captioners",
+    "physical_exposure_2031": 0,
+    "rationale": "Transcription work that is increasingly digital. While physically present in courtrooms, the work is capturing spoken words, not physical labor."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "physical_exposure_2031": 1,
+    "rationale": "Artisanal creation involving unique creative vision and skilled handwork with novel materials and techniques. Each piece is unique. The creative and improvisational aspects are core. Audiences value human-made art. Very resistant to physical automation."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "physical_exposure_2031": 0,
+    "rationale": "Advisory and counseling work that is entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "physical_exposure_2031": 0,
+    "rationale": "Office/call-center work involving communication and problem-solving. While increasingly handled by AI chatbots, the remaining human roles are entirely interpersonal, not physical."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "physical_exposure_2031": 0,
+    "rationale": "Performance art that is fundamentally about human physical expression and creativity. Audiences value human performers. While motion-capture exists, live dance is inherently human."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely digital analytical work involving data analysis, modeling, and programming. No physical component."
+  },
+  {
+    "slug": "database-administrators",
+    "title": "Database administrators and architects",
+    "physical_exposure_2031": 0,
+    "rationale": "Digital work managing and maintaining database systems. No physical component beyond occasional hardware interaction."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driver-sales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "physical_exposure_2031": 6,
+    "rationale": "Autonomous delivery vehicles operational on many urban and highway routes by 2031. Last-mile delivery robots handling some residential deliveries. However, complex delivery scenarios (inside buildings, rural areas, customer interaction) still require human drivers. Driver-sales roles have an interpersonal component that resists automation."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "physical_exposure_2031": 6,
+    "rationale": "Dental and ophthalmic lab work increasingly automated with CAD/CAM systems, 3D printing, and robotic milling for standardized prosthetics and lenses. Custom and complex cases still need human technicians, but the majority of standard production is highly automated."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing work requiring trust, communication, and assisting dentists in variable clinical situations. Each patient's mouth is different. Chairside assistance requires real-time adaptation. Some sterilization and prep tasks automatable but direct patient care resists automation."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "physical_exposure_2031": 3,
+    "rationale": "Hands-on clinical work in patients' mouths requiring skilled dexterity, patient communication, and real-time adaptation. Each patient's oral anatomy differs. Trust and comfort are essential. While some cleaning tools become more automated, the core work requires human touch and judgment."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "physical_exposure_2031": 3,
+    "rationale": "Complex clinical procedures in highly variable oral environments. Each patient presents unique anatomy and pathology. Robotic dental systems emerging for some standardized procedures, but the diagnostic judgment, patient communication, and procedural adaptation still require human dentists."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital design and layout work. No physical component."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing imaging work requiring physical manipulation of transducers on patients. Each scan requires real-time adaptation to patient anatomy and pathology. AI assists interpretation but the physical scanning and patient positioning still need human operators who can communicate with patients."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "physical_exposure_2031": 3,
+    "rationale": "Heavy equipment and truck repair in variable conditions. Each vehicle and problem is different. Working on large diesel engines requires significant physical effort and skilled diagnosis. While some diagnostic tools are automated, the physical repair work in diverse configurations resists automation."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "physical_exposure_2031": 0,
+    "rationale": "Advisory and counseling work about nutrition and diet. Entirely knowledge and interpersonal work with no physical component."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital design work using CAD software. No physical component."
+  },
+  {
+    "slug": "drywall-and-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "physical_exposure_2031": 4,
+    "rationale": "Some large commercial drywall installation is becoming automated for uniform walls and ceilings. However, residential work, custom installations, corners, and finishing/taping require human skill and adaptation to each building's unique characteristics."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical and research work. No physical component."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "physical_exposure_2031": 0,
+    "rationale": "Knowledge work involving reviewing and improving written content. Entirely digital/desk-based."
+  },
+  {
+    "slug": "electrical-and-electronics-engineering-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Hands-on testing and repair of electrical/electronic systems in variable configurations. Each system and problem differs. While automated testing equipment handles routine checks, troubleshooting and repair in diverse environments requires human technicians."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Design and engineering work that is primarily knowledge-based and computational."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "physical_exposure_2031": 4,
+    "rationale": "Installation and repair of electrical equipment in commercial/industrial settings. Some standardized installations are becoming more automated, but the variety of equipment, settings, and fault conditions requires human adaptability. More structured than residential work."
+  },
+  {
+    "slug": "line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "physical_exposure_2031": 3,
+    "rationale": "Outdoor work on utility lines in highly variable environments\u2014poles, trenches, weather conditions. Each installation and repair scenario is different. Working at heights and in adverse conditions requires human judgment and dexterity. Drones assist inspection but physical line work remains human."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "physical_exposure_2031": 3,
+    "rationale": "Residential and commercial electrical work in highly variable environments. Each building has unique wiring configurations and challenges. Troubleshooting requires creative problem-solving. While some standardized commercial installations see automation, the variety of work resists full automation."
+  },
+  {
+    "slug": "electro-mechanical-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "physical_exposure_2031": 5,
+    "rationale": "Testing and maintenance of electromechanical equipment. Routine testing and calibration increasingly automated. However, troubleshooting and repair of diverse systems in various settings still requires human technicians. A mix of automated and human work."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "physical_exposure_2031": 0,
+    "rationale": "School leadership and management work that is entirely administrative, interpersonal, and knowledge-based. No physical component."
+  },
+  {
+    "slug": "elevator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "physical_exposure_2031": 3,
+    "rationale": "Specialized installation and repair in confined, variable environments. Each building and elevator system presents unique challenges. Safety-critical work requiring skilled mechanical and electrical expertise. The variability of installations and safety requirements limit automation."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "physical_exposure_2031": 0,
+    "rationale": "Planning, coordination, and leadership during emergencies. Entirely managerial and knowledge-based work."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "physical_exposure_2031": 1,
+    "rationale": "Emergency medical response in highly unpredictable, novel environments. Each emergency is unique\u2014accident scenes, homes, public spaces. Requires rapid human judgment, physical improvisation, and patient trust. Among the most resistant occupations to physical automation."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management and business oversight work. Purely administrative and interpersonal."
+  },
+  {
+    "slug": "environmental-engineering-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Field testing and monitoring work in variable environments. Each site has unique conditions. While automated monitoring equipment handles routine data collection, field sampling and site assessment in diverse environments requires human adaptability."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Design and engineering work that is primarily knowledge-based. Some field visits but the role centers on analysis and design."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Field sampling and monitoring in variable natural environments. Each site is unique. Automated sensors handle routine monitoring, but field collection, site assessment, and equipment deployment in diverse conditions requires human adaptability."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "physical_exposure_2031": 1,
+    "rationale": "Research and analysis work with some fieldwork. The role is primarily about scientific assessment and policy recommendation rather than physical labor."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical research work involving disease pattern analysis. No physical component."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "physical_exposure_2031": 2,
+    "rationale": "Hands-on patient assessment and exercise program supervision. Each patient has unique physical conditions and needs. Requires trust, communication, and real-time adaptation to patient responses. The interpersonal and clinical judgment aspects resist automation."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "physical_exposure_2031": 3,
+    "rationale": "Management role overseeing increasingly automated farm operations. While farm equipment is increasingly autonomous, farmers still make critical decisions about planting, livestock management, and operations in variable conditions. The management and judgment aspects are more important than physical labor."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "physical_exposure_2031": 0,
+    "rationale": "Creative design work that is primarily conceptual and digital. While garment production is physical, design itself is knowledge and creativity based."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "physical_exposure_2031": 1,
+    "rationale": "Camera operation involves physical equipment handling in variable environments, but editing is entirely digital. Automated cameras handle some standardized shots, but creative cinematography requires human artistic vision. Editing is purely digital knowledge work."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical desk-based work involving financial modeling and analysis. No physical component."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "physical_exposure_2031": 0,
+    "rationale": "Office-based clerical work involving financial record processing. No physical component."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "physical_exposure_2031": 0,
+    "rationale": "Regulatory review and analysis work. Entirely knowledge-based with occasional site visits."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management of financial operations. Purely knowledge and leadership work."
+  },
+  {
+    "slug": "fire-inspectors-and-investigators",
+    "title": "Fire inspectors",
+    "physical_exposure_2031": 2,
+    "rationale": "Field inspection and investigation in variable buildings and fire scenes. Each scene is unique. While some monitoring technology assists, physical inspection of diverse structures and investigation of fire causes requires human judgment and adaptability."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "physical_exposure_2031": 1,
+    "rationale": "Emergency response in highly unpredictable, dangerous, novel environments. Each fire and rescue scenario is unique. Requires constant physical improvisation, teamwork, and split-second human judgment. Robotic assistance for specific tasks (hazmat, reconnaissance drones) but human firefighters essential."
+  },
+  {
+    "slug": "fishers-and-related-fishing-workers",
+    "title": "Fishing and hunting workers",
+    "physical_exposure_2031": 3,
+    "rationale": "Work on water in highly variable natural conditions. Each fishing trip involves different weather, seas, and catch conditions. Commercial fishing operations see some automation of processing, but actual fishing in open water with variable conditions requires human judgment and physical adaptability."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "physical_exposure_2031": 1,
+    "rationale": "Interpersonal work motivating and guiding exercise. Requires personal connection, real-time form assessment, and adaptation to individual clients. While fitness apps and AI coaching exist, in-person training is about human motivation and physical guidance."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "physical_exposure_2031": 2,
+    "rationale": "Safety-critical role requiring passenger interaction, emergency response, and service in the confined, variable environment of aircraft cabins. Trust and human presence are essential for passenger safety and comfort. Regulatory requirements mandate human crew."
+  },
+  {
+    "slug": "tile-and-marble-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "physical_exposure_2031": 3,
+    "rationale": "Skilled installation work in variable residential and commercial spaces. Each floor, wall, and layout is different. Requires precise dexterity and adaptation to existing structures. Some large commercial flooring projects see limited automation, but custom tile work remains human."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "physical_exposure_2031": 2,
+    "rationale": "Creative arrangement of natural materials that vary in shape, size, and condition. Each arrangement is custom. While simple bouquet assembly could be partially automated, creative floral design requires artistic judgment and handling of fragile, variable natural materials."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Robotic serving systems operational in some chain restaurants and high-volume venues. Automated drink dispensing and food runners in standardized environments. However, full-service restaurant work requiring customer interaction, carrying multiple plates through crowded spaces, and personalized service still needs humans."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "physical_exposure_2031": 6,
+    "rationale": "Routine food prep tasks (chopping, mixing, portioning) increasingly automated in chain restaurants and institutional kitchens. Robotic prep systems handle standardized ingredients. Human workers focus on quality control and non-standard preparations. High-volume operations are substantially automated."
+  },
+  {
+    "slug": "food-and-tobacco-processing-workers",
+    "title": "Food processing equipment workers",
+    "physical_exposure_2031": 7,
+    "rationale": "Factory-based food processing is highly automated with robotic systems handling sorting, cutting, packaging, and quality inspection. Standardized processing lines operate with minimal human intervention. Humans supervise and handle exceptions. Tobacco processing similarly automated."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Management role overseeing increasingly automated kitchen and service operations. The role itself is about planning, staffing, quality control, and customer relations rather than physical labor."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Crime scene work in highly variable environments\u2014each scene is unique. Lab analysis is increasingly automated, but scene investigation, evidence collection, and documentation in diverse locations requires human judgment and careful physical work."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "physical_exposure_2031": 3,
+    "rationale": "Outdoor work in highly variable natural environments. Tasks include planting, trail maintenance, and fire management in forests with diverse terrain. Some planting operations automated on cleared land, but most forest work requires human adaptability to unpredictable natural conditions."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "physical_exposure_2031": 0,
+    "rationale": "Interpersonal and strategic work involving donor relations and campaign planning. Entirely knowledge and relationship based."
+  },
+  {
+    "slug": "funeral-service-occupations",
+    "title": "Funeral service workers",
+    "physical_exposure_2031": 1,
+    "rationale": "Sensitive service work requiring extreme interpersonal care and trust. Physical tasks include preparation and ceremony management, but the human sensitivity and trust required makes this highly resistant to automation. Each service is unique and emotionally charged."
+  },
+  {
+    "slug": "gaming-services-occupations",
+    "title": "Gambling services workers",
+    "physical_exposure_2031": 3,
+    "rationale": "Casino floor work involving equipment operation and customer interaction. Some gaming operations (slot machine monitoring) increasingly automated. Table game dealers require dexterity and customer engagement. The entertainment and hospitality aspects resist full automation."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Variable work across many building systems\u2014plumbing, electrical, HVAC, painting. Each repair is different. Some routine maintenance tasks (cleaning, basic checks) automated, but the variety of problems and environments encountered by general maintenance workers requires human adaptability."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "physical_exposure_2031": 0,
+    "rationale": "Office-based administrative work that is entirely knowledge-based. Filing, data entry, and correspondence. No physical component beyond basic office activities."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "physical_exposure_2031": 0,
+    "rationale": "Patient-facing counseling work that is entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "physical_exposure_2031": 0,
+    "rationale": "Research and analysis work. Primarily desk-based knowledge work using GIS and data analysis."
+  },
+  {
+    "slug": "geological-and-petroleum-technicians",
+    "title": "Geological and hydrologic technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Field work collecting samples and operating equipment in variable geological environments. Each site has unique conditions. While automated sensors and drilling equipment handle some routine operations, field work in diverse terrain requires human adaptability."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "physical_exposure_2031": 1,
+    "rationale": "Research work with some fieldwork. The role is primarily about scientific analysis and interpretation rather than physical labor."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "physical_exposure_2031": 3,
+    "rationale": "Installation of glass in variable buildings and structures. Each installation is different. Working with fragile materials at heights and in diverse configurations requires human dexterity and judgment. Some large commercial installations see limited automation for standard windows."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital creative work. No physical component."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "physical_exposure_2031": 6,
+    "rationale": "Commercial lawn mowing and landscape maintenance increasingly automated with robotic mowers and autonomous equipment for large, uniform areas. However, complex landscaping, garden maintenance, and work on varied residential properties still requires human workers. Large commercial grounds substantially automated."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "physical_exposure_2031": 7,
+    "rationale": "Warehouse and logistics material handling heavily automated with robotic systems. Palletizing, sorting, and transport within facilities largely robotic. Human workers handle exceptions, irregularly shaped items, and tasks in non-standardized environments. High-volume facilities operate with minimal human labor."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Removal work in variable and dangerous environments. Each hazmat site is unique. Robotic systems handle some hazmat cleanup (especially radiation), but many situations require human judgment and dexterity in complex, confined spaces. Safety regulations evolving to allow more robotic intervention."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Engineering design and analysis work focused on workplace safety. Primarily knowledge-based with some facility inspections."
+  },
+  {
+    "slug": "health-educators",
+    "title": "Health education specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Educational and outreach work that is entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "physical_exposure_2031": 0,
+    "rationale": "Office-based health data management work. Entirely digital and knowledge-based."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "physical_exposure_2031": 3,
+    "rationale": "Installation and repair in variable buildings and environments. Each system and building presents unique challenges. Working in tight spaces (attics, crawlspaces) with diverse equipment configurations requires human dexterity and problem-solving. Some standardized commercial installations see limited automation."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "physical_exposure_2031": 6,
+    "rationale": "Autonomous trucks operational on most interstate routes by 2031. Highway driving largely automated. However, complex urban delivery, loading/unloading, and last-mile navigation still require human drivers for many scenarios. Human role shifting toward complex route segments and customer interaction."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Repair and maintenance of large, diverse equipment in variable settings\u2014construction sites, mines, farms. Each machine and problem is different. Working on heavy equipment requires significant physical effort and skilled diagnosis in variable environments."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching is fundamentally interpersonal work. Classroom instruction, mentoring, and student engagement require human presence and judgment. No significant physical automation potential."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "physical_exposure_2031": 0,
+    "rationale": "Research and analysis work that is entirely knowledge-based. No physical component."
+  },
+  {
+    "slug": "home-health-aides-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "physical_exposure_2031": 4,
+    "rationale": "Routine physical support tasks (lifting, transfers, mobility assistance) see some robotic assistance. However, working in diverse home environments with unique patient needs and the trust required for intimate personal care limits automation. Robotic assistive devices supplement but don't replace human aides."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management and strategic planning work that is entirely knowledge and interpersonal based. No physical component."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Administrative and interpersonal work involving recruitment, employee relations, and compliance. No physical component."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "physical_exposure_2031": 0,
+    "rationale": "Scientific research and analysis work. Primarily desk-based with some fieldwork, but the role centers on data analysis and modeling."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "physical_exposure_2031": 1,
+    "rationale": "Creative design work with some physical prototyping. The core work is conceptual design using digital tools. 3D printing and automated prototyping reduce physical work, but design ideation remains human."
+  },
+  {
+    "slug": "industrial-engineering-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Technical work in manufacturing environments involving process testing and optimization. Some routine testing automated, but troubleshooting and process improvement in diverse industrial settings requires human analysis and physical presence."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "physical_exposure_2031": 1,
+    "rationale": "Design and optimization of industrial processes. Primarily analytical work with some facility observation. The role is about system design rather than physical labor."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "physical_exposure_2031": 4,
+    "rationale": "Maintenance and repair of industrial machinery in factory settings. Some predictive maintenance and routine servicing automated, but troubleshooting breakdowns of diverse equipment requires human skill and judgment. Each machine and failure mode is different."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Management of manufacturing operations. Overseeing increasingly automated production, but the role is about planning, coordination, and decision-making rather than physical work."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "physical_exposure_2031": 1,
+    "rationale": "Customer-facing information roles (reception, hotel front desk). Kiosks and digital interfaces handle many routine information requests. Remaining human roles focus on complex queries and hospitality. Minimal physical labor."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital work involving cybersecurity analysis and protection. No physical component."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "physical_exposure_2031": 0,
+    "rationale": "Educational planning and curriculum development work. Entirely knowledge-based."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Installation of insulation in buildings. Some large commercial projects with uniform spaces see automated insulation installation. However, residential and variable commercial work in tight spaces (attics, walls, pipes) requires human dexterity and adaptation. Each installation site is different."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Sales and advisory work that is entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "physical_exposure_2031": 0,
+    "rationale": "Risk assessment and policy pricing work. Entirely analytical and knowledge-based."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "physical_exposure_2031": 0,
+    "rationale": "Creative design work that is primarily conceptual and uses digital tools. Site visits occur but the role is about aesthetic design and client communication."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "physical_exposure_2031": 0,
+    "rationale": "Language work that is entirely cognitive. While AI translation improves, the remaining human roles focus on nuance and cultural context. No physical component."
+  },
+  {
+    "slug": "structural-iron-and-steel-workers",
+    "title": "Ironworkers",
+    "physical_exposure_2031": 4,
+    "rationale": "Assembly and installation of structural steel in construction. Some standardized steel erection tasks on large commercial projects becoming more automated with robotic welding and placement. However, working at heights in variable configurations requires human judgment and coordination. Each structure is unique."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "physical_exposure_2031": 6,
+    "rationale": "Commercial cleaning of standardized spaces (offices, malls, airports) heavily automated with robotic floor cleaners and automated systems. However, detailed cleaning, restroom maintenance, and work in variable spaces still requires human workers. Large commercial facilities substantially automated."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "physical_exposure_2031": 2,
+    "rationale": "Highly skilled artisanal work with precious materials. Each piece requires unique design and precision handwork. Custom jewelry creation and repair involves creative dexterity with variable materials. While some mass production uses automation, craft jewelry work resists automation."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "physical_exposure_2031": 0,
+    "rationale": "Legal decision-making work that is entirely cognitive and interpersonal. No physical component."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching young children requires human presence, emotional sensitivity, and constant improvisation. Each child needs individual attention and care. Among the most interpersonal occupations. No physical automation potential."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Negotiation and mediation work that is entirely interpersonal and knowledge-based."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "physical_exposure_2031": 0,
+    "rationale": "Design work primarily using digital tools and creative vision. Site visits occur but the role is about design and planning."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "physical_exposure_2031": 0,
+    "rationale": "Legal analysis, argumentation, and client representation. Entirely knowledge and interpersonal work."
+  },
+  {
+    "slug": "librarians",
+    "title": "Librarians and library media specialists",
+    "physical_exposure_2031": 1,
+    "rationale": "Information management and community service work. While automated book handling systems exist, the role is primarily about knowledge curation, community programs, and patron assistance. Minimal physical component."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "physical_exposure_2031": 4,
+    "rationale": "Book handling, shelving, and circulation management. Automated shelving and retrieval systems operational in some large libraries. Self-checkout widespread. However, many libraries still require human staff for physical collection management, especially in older facilities."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient care requiring trust, communication, and physical assistance in variable clinical settings. Each patient has unique needs. Bedside care, medication administration, and wound care require human judgment and dexterity. Robotic assistance supplements but doesn't replace LPNs."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "physical_exposure_2031": 0,
+    "rationale": "Financial analysis and client advisory work. Entirely knowledge-based with some client interaction."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Hotel management involving coordination and customer service. While hotel operations increasingly automated (check-in kiosks, robotic room service), the management role focuses on staff supervision, guest relations, and operational decisions."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Mechanized logging uses increasingly automated equipment. Some harvesting operations use autonomous or semi-autonomous machines on managed timber lands. However, variable terrain, diverse tree species, and environmental conditions require human operators for many situations."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "physical_exposure_2031": 0,
+    "rationale": "Supply chain planning and optimization work. Primarily analytical and knowledge-based. While overseeing automated logistics systems, the role is about planning and coordination."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "physical_exposure_2031": 6,
+    "rationale": "CNC machines handle most routine machining with high precision. Automated tool changers and robotic loading widespread. Human machinists focus on complex setups, custom work, and quality control. Tool and die making for unique molds requires more human skill, but standard machining is heavily automated."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Consulting and advisory work that is entirely knowledge-based. No physical component."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "physical_exposure_2031": 2,
+    "rationale": "Intimate personal service requiring dexterity, customer interaction, and trust. Each client's nails and preferences differ. The social and personal nature of the service, combined with detailed work on human hands and feet, strongly resists automation."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "physical_exposure_2031": 0,
+    "rationale": "Design and engineering work that is primarily knowledge-based and computational."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Analytical work involving data collection and analysis. Entirely knowledge-based."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "physical_exposure_2031": 0,
+    "rationale": "Therapeutic counseling work that is entirely interpersonal. No physical component."
+  },
+  {
+    "slug": "brickmasons-blockmasons-and-stonemasons",
+    "title": "Masonry workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Some large commercial bricklaying projects use robotic bricklaying systems for uniform walls. However, residential work, custom patterns, stone masonry, and repair/restoration require human skill and adaptation. The variety of materials and configurations limits full automation."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "physical_exposure_2031": 2,
+    "rationale": "Highly personal hands-on therapy requiring skilled touch, real-time assessment of muscle tension and patient response, and trust. Each client's body is different. The therapeutic relationship and tactile sensitivity are core. Very resistant to robotic automation."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "physical_exposure_2031": 7,
+    "rationale": "Warehouse and facility material moving heavily automated with autonomous forklifts, AGVs, and robotic palletizers. Large distribution centers and factories use automated material handling systems extensively. Human operators focus on non-standard loads and complex environments."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "physical_exposure_2031": 5,
+    "rationale": "Inventory tracking and warehouse administration increasingly automated with RFID, automated scanning, and warehouse management systems. Physical inventory counts supplemented by drones and automated systems. However, receiving, inspecting, and handling exceptions still requires human workers."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Research and design work that is primarily knowledge-based. Lab work is secondary to analysis and design."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical work involving mathematical modeling and statistical analysis. No physical component."
+  },
+  {
+    "slug": "mechanical-engineering-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Hands-on testing and fabrication of mechanical systems. Some routine testing automated, but prototyping, troubleshooting, and testing in variable configurations requires human technicians."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Design and engineering work that is primarily knowledge-based and computational."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Healthcare management and administration. Entirely knowledge and leadership work."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing clinical and administrative work. Each patient interaction differs. Taking vitals, assisting with examinations, and patient communication require human presence and trust. Some routine tasks automated but direct patient care resists automation."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "physical_exposure_2031": 1,
+    "rationale": "Highly specialized calculation and planning work for radiation therapy. Primarily computational with some physical treatment planning setup. The core work is analytical."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "physical_exposure_2031": 3,
+    "rationale": "Repair and maintenance of diverse medical equipment in hospital settings. Each device and problem is different. Diagnostic tools improving, but physical repair of complex medical devices in clinical environments requires human skill and judgment."
+  },
+  {
+    "slug": "medical-records-and-health-information-technicians",
+    "title": "Medical records specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Data management work that is entirely digital. No physical component."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "physical_exposure_2031": 2,
+    "rationale": "Research work with significant lab components. Automated lab systems handle routine procedures, but novel research design and experimental work requires human creativity. The core work is intellectual inquiry."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "physical_exposure_2031": 0,
+    "rationale": "Audio-to-text work that is entirely digital. No physical component. Largely automated by speech recognition."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "physical_exposure_2031": 1,
+    "rationale": "Planning and coordination work with some physical setup oversight. The role is primarily about planning, vendor management, and logistics rather than physical labor."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "physical_exposure_2031": 7,
+    "rationale": "CNC machines and robotic systems handle most routine metal and plastic machining, stamping, and molding. Automated loading, operation, and quality inspection widespread in manufacturing. Human workers monitor equipment, handle setups, and address exceptions."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "physical_exposure_2031": 2,
+    "rationale": "Lab-based research with automated systems handling many routine procedures. Novel experimental work still requires human researchers. The core work is scientific analysis and interpretation."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching is fundamentally interpersonal. No significant physical automation potential."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "physical_exposure_2031": 3,
+    "rationale": "Extremely diverse roles from combat to logistics to administration. Some military logistics and support functions see robotic systems. Autonomous vehicles and drones expand. But combat, peacekeeping, and many field operations require human judgment in unpredictable environments. Average across all military roles."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "physical_exposure_2031": 1,
+    "rationale": "Engineering design and planning work. Primarily knowledge-based with some site visits. The role is about mine design and optimization rather than physical extraction."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "physical_exposure_2031": 1,
+    "rationale": "Physical appearance-based work. While AI-generated models exist for some digital applications, live modeling for fashion shows, commercial shoots, and fitting sessions requires human presence. The industry values authentic human presentation."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "physical_exposure_2031": 0,
+    "rationale": "Creative and leadership work in music. Composition is knowledge-based, and conducting requires human artistic interpretation and leadership."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "physical_exposure_2031": 0,
+    "rationale": "Performance art requiring human creativity and expression. Live music is valued for its human element. No physical automation potential for live performance."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management of scientific research teams. Entirely administrative and knowledge-based."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "physical_exposure_2031": 1,
+    "rationale": "Primarily digital system administration. Some physical server and network hardware management, but increasingly cloud-based and remote. The physical component is minor and decreasing."
+  },
+  {
+    "slug": "reporters-correspondents-and-broadcast-news-analysts",
+    "title": "News analysts, reporters, and journalists",
+    "physical_exposure_2031": 0,
+    "rationale": "Journalism and reporting work that is primarily about investigation, writing, and communication. No significant physical component."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Design and engineering work for nuclear systems. Primarily knowledge-based and computational."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing work administering radioactive materials and operating imaging equipment. Each patient requires individualized care and positioning. Safety-critical handling of radioactive materials requires human oversight. Trust and patient communication essential."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Operation and monitoring of nuclear facilities. Some routine monitoring automated, but physical maintenance and inspection of nuclear systems requires human technicians with specialized training. Safety regulations mandate human oversight."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "physical_exposure_2031": 2,
+    "rationale": "Advanced clinical practice requiring patient assessment, treatment decisions, and hands-on care. Each patient is unique. Trust and clinical judgment are paramount. Nurse midwives assist births in highly variable situations. Very resistant to physical automation."
+  },
+  {
+    "slug": "nursing-assistants",
+    "title": "Nursing assistants and orderlies",
+    "physical_exposure_2031": 4,
+    "rationale": "Routine physical patient care (bathing, feeding, mobility assistance) sees some robotic assistance. Robotic lift systems and mobility aids operational. However, the intimate nature of personal care, working in diverse settings, and need for human empathy and trust means human aides remain essential for many tasks."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "physical_exposure_2031": 1,
+    "rationale": "Inspection and assessment work primarily involving observation, analysis, and compliance checking. Some automated monitoring assists, but the role is primarily analytical with physical site visits."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "physical_exposure_2031": 2,
+    "rationale": "Therapeutic work requiring hands-on patient assessment and treatment in variable settings\u2014homes, hospitals, schools. Each patient has unique functional limitations. Trust, creativity in adapting activities, and interpersonal skills are core. Very resistant to automation."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "physical_exposure_2031": 3,
+    "rationale": "Hands-on patient support under OT supervision. Physical assistance with exercises and daily activities in variable settings. Each patient's needs differ. Some therapeutic equipment automated, but personal assistance and motivation require human presence."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "physical_exposure_2031": 5,
+    "rationale": "Extraction operations increasingly automated with automated drilling, monitoring, and some maintenance robots. Large-scale operations use significant automation. However, variable field conditions, equipment troubleshooting, and wellsite work in diverse environments still require human workers."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "physical_exposure_2031": 0,
+    "rationale": "Purely analytical work involving mathematical optimization and modeling. No physical component."
+  },
+  {
+    "slug": "opticians-dispensing",
+    "title": "Opticians",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing work fitting eyeglasses and contact lenses. Automated lens cutting and frame adjustment tools improve, but each patient's face and prescription is unique. The fitting, adjustment, and customer service aspects require human dexterity and interpersonal skills."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "physical_exposure_2031": 2,
+    "rationale": "Clinical eye examinations requiring patient interaction, skilled use of diagnostic equipment, and clinical judgment. Each patient presents unique conditions. Trust and communication essential. While automated screening tools assist, comprehensive eye care requires human practitioners."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "physical_exposure_2031": 3,
+    "rationale": "Custom fabrication and fitting of orthotic and prosthetic devices for individual patients. Each device is customized to unique anatomy. 3D scanning and printing assist fabrication, but fitting, adjustment, and patient interaction require human skill and empathy."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "physical_exposure_2031": 5,
+    "rationale": "Large commercial surfaces (warehouses, apartment buildings) increasingly painted by robotic systems. Spray-painting of uniform surfaces highly automatable. However, residential interior painting, detail work, prep work on variable surfaces, and custom finishes still require human painters."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "physical_exposure_2031": 7,
+    "rationale": "Industrial painting and coating\u2014automotive, furniture, appliances\u2014heavily automated with robotic spray systems. Standardized production lines use automated coating extensively. Powder coating and e-coating fully automated. Human workers handle custom work and quality oversight."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "physical_exposure_2031": 0,
+    "rationale": "Legal research and document preparation work that is entirely knowledge-based. No physical component."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "physical_exposure_2031": 0,
+    "rationale": "Advisory and client management work that is entirely interpersonal and knowledge-based."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "physical_exposure_2031": 3,
+    "rationale": "Work in diverse residential and commercial environments. Each infestation and building is different. Some automated monitoring and treatment systems exist, but inspecting variable structures, identifying pest entry points, and applying treatments in diverse settings requires human judgment and adaptability."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Engineering design and analysis work. Primarily knowledge-based and computational."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "physical_exposure_2031": 5,
+    "rationale": "Automated dispensing systems handle majority of routine prescription filling. Robotic pharmacy systems operational in many hospitals and large retail pharmacies. Pharmacists shift to clinical consulting, patient counseling, and medication therapy management. The physical dispensing is largely automated."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "physical_exposure_2031": 6,
+    "rationale": "Routine prescription filling, counting, and packaging heavily automated. Robotic pharmacy systems handle standardized dispensing. Human technicians focus on special preparations, insurance issues, and tasks automated systems cannot handle. High-volume pharmacies substantially automated."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "physical_exposure_2031": 3,
+    "rationale": "Blood drawing requires patient interaction, vein identification in variable anatomy, and skilled needle insertion. Each patient's veins and anxiety levels differ. Trust and patient comfort essential. Automated blood-draw devices exist for some settings but patient variability limits adoption."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "physical_exposure_2031": 1,
+    "rationale": "Creative visual work requiring artistic vision and adaptation to variable subjects and conditions. While automated camera technology improves, professional photography is about creative interpretation, client interaction, and artistic judgment."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "physical_exposure_2031": 3,
+    "rationale": "Hands-on patient care guiding exercises and providing physical support. Each patient's condition and progress differs. Trust and motivation essential. Some robotic exercise equipment assists, but personal guidance and manual therapy techniques require human touch and judgment."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "physical_exposure_2031": 2,
+    "rationale": "Clinical assessment and hands-on treatment requiring skilled touch, patient communication, and real-time adaptation to patient responses. Each patient presents unique conditions. Trust and therapeutic relationship essential. Very resistant to physical automation."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "physical_exposure_2031": 2,
+    "rationale": "Clinical practice involving patient examination, diagnosis, and treatment. Each patient is unique. Requires trust, communication, and hands-on clinical skills. While diagnostic tools improve, the physical examination and patient interaction remain human."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "physical_exposure_2031": 2,
+    "rationale": "Complex clinical practice and surgery. Robotic surgical systems assist with standardized procedures, but surgeons still direct and oversee. Diagnosis requires nuanced physical examination and patient interaction. Each patient is unique. Trust is paramount."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "physical_exposure_2031": 1,
+    "rationale": "Research work with some experimental/observational components. The core work is theoretical and analytical. Lab/observatory work involves some physical equipment but is secondary."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "physical_exposure_2031": 3,
+    "rationale": "Work in highly variable residential and commercial environments. Each building has unique plumbing configurations and challenges. Troubleshooting leaks, working in tight spaces, and adapting to existing infrastructure requires human dexterity and judgment."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "physical_exposure_2031": 2,
+    "rationale": "Clinical foot and ankle care requiring patient examination, diagnosis, and treatment. Each patient presents unique conditions. Surgical procedures require skilled dexterity. Trust and communication essential."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "physical_exposure_2031": 1,
+    "rationale": "Law enforcement in unpredictable environments requiring split-second human judgment, de-escalation, investigation, and community interaction. Each situation is unique. Public trust and authority dynamics are inherently human. Surveillance technology assists but officers remain essential."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "physical_exposure_2031": 0,
+    "rationale": "Research and analysis work that is entirely knowledge-based. No physical component."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "physical_exposure_2031": 6,
+    "rationale": "Mail sorting heavily automated with robotic systems. Delivery routes increasingly use autonomous vehicles for some segments. Counter service declining. However, residential last-mile delivery in diverse neighborhoods and buildings still requires human carriers for many routes."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "physical_exposure_2031": 0,
+    "rationale": "Administrative and management work in higher education. Entirely knowledge-based."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching and research at colleges and universities. Fundamentally interpersonal and knowledge-based. No physical automation potential."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "physical_exposure_2031": 5,
+    "rationale": "Power plant operations increasingly automated with remote monitoring and automated control systems. Routine operations handled by automated systems. Human operators focus on anomaly response, maintenance coordination, and complex decisions. Some plants approach lights-out operation."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "physical_exposure_2031": 0,
+    "rationale": "Management and educational leadership work. Entirely administrative and interpersonal."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching very young children requires extreme human sensitivity, improvisation, and emotional care. Each child needs individual attention. Among the most interpersonal occupations. No automation potential."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "physical_exposure_2031": 1,
+    "rationale": "Investigation work in highly variable environments. Each case is unique. While surveillance technology assists, physical investigation, interviews, and undercover work require human adaptability and judgment."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Supervision and counseling work that is entirely interpersonal. Requires trust, human judgment, and communication. No physical component."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "physical_exposure_2031": 0,
+    "rationale": "Creative management and artistic direction. Entirely knowledge-based leadership work."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Planning, coordination, and management work. Entirely knowledge and interpersonal work."
+  },
+  {
+    "slug": "appraisers-and-assessors-of-real-estate",
+    "title": "Property appraisers and assessors",
+    "physical_exposure_2031": 1,
+    "rationale": "Property inspection and valuation work. Each property is unique. While automated valuation models assist, physical inspection of diverse properties in variable conditions still requires human judgment. The inspection component is secondary to analytical work."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Management work overseeing properties. Some maintenance coordination involves physical oversight, but the role is primarily administrative and interpersonal."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "physical_exposure_2031": 2,
+    "rationale": "Patient care in psychiatric facilities requiring trust, de-escalation, and interpersonal skills. Each patient's needs and episodes are unpredictable. Physical assistance needed in variable situations. Human presence and judgment essential for safety and therapeutic relationships."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "physical_exposure_2031": 0,
+    "rationale": "Assessment and therapy work that is entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "public-relations-managers",
+    "title": "Public relations and fundraising managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Communication strategy and management work. Entirely knowledge-based."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Media relations and communication work. Entirely knowledge-based."
+  },
+  {
+    "slug": "police-fire-and-ambulance-dispatchers",
+    "title": "Public safety telecommunicators",
+    "physical_exposure_2031": 0,
+    "rationale": "Communication and coordination work from dispatch centers. While technology-intensive, the role involves no physical labor\u2014it's real-time decision-making and communication."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Procurement and negotiation work that is entirely knowledge-based. No physical component."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "physical_exposure_2031": 6,
+    "rationale": "Automated visual inspection and sensor-based quality control widespread in manufacturing. Machine vision systems handle most routine inspection tasks. Human inspectors focus on complex assessments, final acceptance, and non-standard products. High-volume production inspection substantially automated."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing work positioning patients and operating radiation equipment. Each patient requires careful positioning and monitoring. Trust and communication essential. Robotic positioning assists but human oversight and patient interaction remain critical for safety."
+  },
+  {
+    "slug": "radiologic-technologists",
+    "title": "Radiologic and MRI technologists",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient-facing imaging work requiring positioning patients and operating equipment. Each patient's anatomy and condition varies. Trust and communication needed. AI assists image interpretation but physical patient handling and positioning requires human operators."
+  },
+  {
+    "slug": "railroad-occupations",
+    "title": "Railroad workers",
+    "physical_exposure_2031": 5,
+    "rationale": "Rail operations increasingly automated with autonomous train systems operational on many freight routes. However, maintenance, switching, and yard operations in variable conditions still require human workers. Crew requirements declining but not eliminated."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Sales and advisory work that is entirely interpersonal. Virtual tours exist but the core work is client relationships and negotiation."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "physical_exposure_2031": 3,
+    "rationale": "Front desk roles increasingly replaced by digital kiosks and automated check-in systems. However, many organizations still value human receptionists for visitor management, complex inquiries, and hospitality. The physical component (greeting, directing) is moderate."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "physical_exposure_2031": 1,
+    "rationale": "Leading recreational activities and programs for diverse groups. Requires human engagement, creativity, and adaptation to participants' needs. Each session and group is different. The interpersonal and improvisational aspects resist automation."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "physical_exposure_2031": 2,
+    "rationale": "Therapeutic work using recreational activities for patient rehabilitation. Each patient has unique needs. Requires trust, creativity, and adaptation. The interpersonal and therapeutic aspects are core."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "physical_exposure_2031": 3,
+    "rationale": "Direct patient care requiring trust, communication, clinical assessment, and hands-on nursing skills. Each patient is unique. Robotic assistance for some tasks (medication dispensing, vital sign monitoring), but bedside nursing care, patient advocacy, and clinical judgment remain human. Emotional support is core."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "physical_exposure_2031": 0,
+    "rationale": "Counseling work that is entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "physical_exposure_2031": 3,
+    "rationale": "Patient care involving operation of respiratory equipment and patient assessment. Each patient's respiratory needs differ. Trust and communication essential. Some monitoring automated, but therapeutic interventions and patient interaction require human operators."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Self-service and automated checkout expanding. Some inventory management automated. However, customer assistance, product knowledge, and sales interaction remain human in many retail settings. High-end and specialty retail values human service. Lower-end retail sees more automation."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "physical_exposure_2031": 3,
+    "rationale": "Work at heights on variable rooftops. Each roof has unique pitch, material, and condition. Weather-exposed outdoor work. Some commercial flat-roof applications see limited automation, but the variety of residential roofing and the physical environment strongly resist robotic automation."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "physical_exposure_2031": 0,
+    "rationale": "Technical sales combining engineering knowledge with client relationships. Entirely knowledge and interpersonal work."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Sales leadership and strategy work. Entirely management and interpersonal."
+  },
+  {
+    "slug": "school-and-career-counselors",
+    "title": "School and career counselors and advisors",
+    "physical_exposure_2031": 0,
+    "rationale": "Counseling work that is entirely interpersonal and knowledge-based."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "physical_exposure_2031": 0,
+    "rationale": "Office administrative work that is entirely desk-based. No physical component beyond basic office activities."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Financial sales and advisory work. Entirely knowledge and interpersonal based."
+  },
+  {
+    "slug": "security-guards",
+    "title": "Security guards and gambling surveillance officers",
+    "physical_exposure_2031": 5,
+    "rationale": "Patrol robots and automated surveillance systems handle routine monitoring of commercial facilities. However, human guards still needed for response, de-escalation, access control with judgment, and work in variable environments. Large facilities use robotic patrol as supplement."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "physical_exposure_2031": 8,
+    "rationale": "Semiconductor fabrication highly automated in cleanroom environments. Robotic wafer handling, automated processing equipment, and precise environmental controls dominate. Human technicians monitor, maintain, and troubleshoot but the actual processing is overwhelmingly automated."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "physical_exposure_2031": 1,
+    "rationale": "Creative design work for unique sets and exhibits. Each project is custom. Physical construction may be involved but the role is primarily about creative design and direction. The uniqueness of each project resists automation."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "physical_exposure_2031": 5,
+    "rationale": "Factory-based sheet metal fabrication (cutting, bending, forming) highly automated with CNC equipment and robotic handling. However, on-site installation in HVAC systems, ductwork in variable buildings, and custom work requires human skill. Split between automated fabrication and manual installation."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "physical_exposure_2031": 2,
+    "rationale": "Personal service requiring client trust, touch sensitivity, and adaptation to individual skin conditions. Each client's skin is unique. The spa/wellness experience is interpersonal. While some automated facial devices exist, the personal care and assessment aspects resist automation."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "physical_exposure_2031": 3,
+    "rationale": "Repair of diverse small engines (lawn mowers, chainsaws, boats) with each problem unique. Variable working conditions. While diagnostic tools improve, the physical repair work on many different equipment types in small shop environments requires human dexterity and problem-solving."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management and program development work. Entirely administrative and interpersonal."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "physical_exposure_2031": 0,
+    "rationale": "Client-facing social service work that is entirely interpersonal. Helping people navigate social services requires human empathy and judgment."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "physical_exposure_2031": 0,
+    "rationale": "Client-facing counseling and advocacy work. Entirely interpersonal and knowledge-based. No physical component."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "physical_exposure_2031": 0,
+    "rationale": "Research and analysis work. Entirely knowledge-based."
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital work writing code and designing software systems. No physical component."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "physical_exposure_2031": 4,
+    "rationale": "Rooftop installation in variable environments. Each roof and installation is different. Some large-scale ground-mount solar farms see automated installation of panels in uniform arrays. But residential rooftop work at heights with variable roof conditions requires human installers."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "physical_exposure_2031": 0,
+    "rationale": "Teaching students with disabilities requires extreme human sensitivity, patience, and individualized attention. Each student has unique needs. Fundamentally interpersonal with no automation potential."
+  },
+  {
+    "slug": "multimedia-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital creative work using software tools. No physical component."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "physical_exposure_2031": 1,
+    "rationale": "Therapeutic work requiring patient assessment, trust, and personalized treatment. Each patient has unique speech and language challenges. The interpersonal and clinical assessment aspects are core. Some digital therapy tools assist but human therapists essential."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "physical_exposure_2031": 5,
+    "rationale": "Operation and maintenance of building systems (boilers, HVAC, power). Routine monitoring increasingly automated. However, physical maintenance, troubleshooting, and emergency response in diverse building systems still requires human operators. Some facilities approach lights-out for routine operations."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "physical_exposure_2031": 0,
+    "rationale": "Counseling work that is entirely interpersonal. Requires human empathy, trust, and therapeutic relationship."
+  },
+  {
+    "slug": "surgical-technologists",
+    "title": "Surgical assistants and technologists",
+    "physical_exposure_2031": 4,
+    "rationale": "Operating room assistance involving instrument handling and sterile technique. Robotic surgical systems handle some instrument positioning. However, the variety of surgical procedures, emergency situations, and need for real-time adaptation means human technologists remain essential for most surgeries."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "physical_exposure_2031": 0,
+    "rationale": "Research design and analysis work. Entirely knowledge-based."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "physical_exposure_2031": 4,
+    "rationale": "Fieldwork increasingly supplemented by drones, GPS, and automated survey equipment. Routine topographic surveys in open areas can be partially automated. However, complex site surveys in variable terrain, urban environments, and detailed boundary work still require human technicians."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "physical_exposure_2031": 3,
+    "rationale": "Professional surveying in variable field conditions. While technology (GPS, drones, LiDAR) automates data collection, interpretation of boundary disputes, complex property surveys, and work in variable terrain requires human judgment and professional licensure."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Desk-based analytical work reviewing tax returns and records. Entirely knowledge-based with some field visits."
+  },
+  {
+    "slug": "taxi-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "physical_exposure_2031": 6,
+    "rationale": "Autonomous ride-hailing vehicles operational in many urban areas by 2031. Major cities have significant autonomous taxi fleets. However, complex urban environments, adverse weather, and luxury/personal chauffeur services still employ human drivers. The transition is well underway."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "physical_exposure_2031": 0,
+    "rationale": "Supporting teachers in classroom settings. Interpersonal work with students requiring patience and adaptation. The role is about human interaction and student support."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "physical_exposure_2031": 0,
+    "rationale": "Writing and documentation work that is entirely knowledge-based and digital."
+  },
+  {
+    "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
+    "title": "Telecommunications technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Installation and repair of telecom equipment in variable buildings and facilities. Each site presents unique wiring and equipment configurations. While some standardized installations see limited automation, troubleshooting and repair in diverse environments requires human skill."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "physical_exposure_2031": 7,
+    "rationale": "ATMs and digital banking handle the vast majority of routine transactions. Many bank branches reduced or eliminated teller positions. Remaining tellers focus on complex transactions and customer service. The trend toward automation is well-established."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "physical_exposure_2031": 0,
+    "rationale": "Leadership and strategic decision-making. Entirely about human judgment, vision, and organizational management."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "physical_exposure_2031": 1,
+    "rationale": "Interpersonal work providing guided experiences. Each tour involves unique group dynamics and real-time adaptation. While audio guides and virtual tours exist, live human guides are valued for personality, knowledge, and interaction."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "physical_exposure_2031": 0,
+    "rationale": "Management of training programs. Entirely administrative and strategic."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "physical_exposure_2031": 0,
+    "rationale": "Designing and delivering training programs. Interpersonal and knowledge-based work."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "physical_exposure_2031": 1,
+    "rationale": "Management of logistics operations. Overseeing increasingly automated warehouses and transport, but the role is about planning, optimization, and human coordination."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "physical_exposure_2031": 0,
+    "rationale": "Advisory and booking service work. Entirely interpersonal and knowledge-based."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "physical_exposure_2031": 0,
+    "rationale": "One-on-one educational work requiring personalization and human connection. Each student has unique learning needs and styles."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "physical_exposure_2031": 2,
+    "rationale": "Officiating requires real-time human judgment in dynamic physical environments. While technology assists (instant replay, electronic line calling), human referees remain essential for game management, player interaction, and judgment calls in complex situations. Sports value the human element."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "physical_exposure_2031": 0,
+    "rationale": "Planning and analysis work that is entirely knowledge-based. No physical component."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "physical_exposure_2031": 2,
+    "rationale": "Clinical care of diverse animal species in variable settings. Each animal and condition is unique. Surgery and examination require skilled dexterity with patients who can't communicate. Trust of pet owners essential. The variety of species and unpredictable animal behavior resists automation."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "physical_exposure_2031": 3,
+    "rationale": "Animal care involving feeding, cleaning, restraining, and assisting with procedures. Animals are unpredictable. Each animal's needs differ. Some routine feeding and cleaning in lab settings automated, but handling live animals requires human adaptability and care."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Clinical support for veterinarians including restraining animals, administering treatments, and lab work. Each animal is unpredictable. Requires trust and skilled handling. Some lab procedures automated but direct animal care resists automation."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "physical_exposure_2031": 4,
+    "rationale": "Robotic serving systems in some chain restaurants. However, full-service dining emphasizes human interaction, knowledge of menu, and hospitality. Carrying plates through variable dining rooms and providing personalized service requires human servers in most restaurants. Fast-casual sees more automation."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "physical_exposure_2031": 5,
+    "rationale": "Treatment plant operations increasingly automated with SCADA systems and remote monitoring. Routine operations handled automatically. Human operators focus on monitoring, troubleshooting, regulatory compliance, and responding to anomalies. Some plants approach near-autonomous operation."
+  },
+  {
+    "slug": "water-transportation-occupations",
+    "title": "Water transportation workers",
+    "physical_exposure_2031": 4,
+    "rationale": "Some cargo vessel operations see increased automation (autonomous container ships on fixed routes). However, variable waterway conditions, port operations, and passenger vessel work require human judgment. Inland waterway work in diverse conditions particularly resistant to automation."
+  },
+  {
+    "slug": "web-developers",
+    "title": "Web developers and digital designers",
+    "physical_exposure_2031": 0,
+    "rationale": "Entirely digital work designing and coding websites. No physical component."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "physical_exposure_2031": 7,
+    "rationale": "Robotic welding dominant in manufacturing and production environments\u2014automotive, structural steel, pipe fabrication. Automated welding systems handle most standardized joints. Human welders focus on field welding in variable positions, repair work, and custom fabrication. Production welding largely automated."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "physical_exposure_2031": 0,
+    "rationale": "Sales work involving client relationships and product knowledge. Entirely interpersonal and knowledge-based."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "physical_exposure_2031": 3,
+    "rationale": "Maintenance and repair at extreme heights in variable weather conditions. Each turbine and failure mode is different. Working in confined nacelles requires human dexterity. Drone inspection assists but physical repair at height in wind remains challenging for robots."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "physical_exposure_2031": 6,
+    "rationale": "CNC routers and automated equipment handle most production woodworking\u2014furniture manufacturing, cabinet production, millwork. Robotic finishing and assembly expanding. Custom and artisanal woodworking still requires human skill, but production volume is heavily automated."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "physical_exposure_2031": 0,
+    "rationale": "Creative writing work that is entirely knowledge-based. While AI writing tools assist, the creative and intellectual aspects are core. No physical component."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "physical_exposure_2031": 1,
+    "rationale": "Research work with some fieldwork in natural environments. The role is primarily about scientific observation and analysis. Fieldwork involves variable environments but is secondary to analytical work."
+  }
+]

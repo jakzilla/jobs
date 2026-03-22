@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "digital_exposure_2031": 7,
+    "rationale": "Core duties\u2014examining financial statements, computing taxes, analyzing records\u2014are heavily digital and largely automatable by 2031 AI agents. Human role shifts to advisory, client relationships, and complex judgment on risk; team sizes shrink significantly."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "digital_exposure_2031": 2,
+    "rationale": "Acting is fundamentally a physical, embodied performance art requiring human presence, emotion, and creativity. AI may assist with script analysis or generate synthetic voiceovers, but live and filmed human performances remain the core product."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "digital_exposure_2031": 8,
+    "rationale": "Statistical modeling, risk probability calculation, and report generation are highly digital tasks that AI agents can largely automate by 2031. Senior actuaries remain for novel product design and strategic judgment, but routine actuarial work is heavily displaced."
+  },
+  {
+    "slug": "administrative-services-managers",
+    "title": "Administrative services and facilities managers",
+    "digital_exposure_2031": 6,
+    "rationale": "Administrative coordination, recordkeeping, and supply management are significantly automatable. However, facilities oversight requires physical presence and human judgment on maintenance, safety, and staff supervision, moderating overall exposure."
+  },
+  {
+    "slug": "adult-literacy-and-ged-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "digital_exposure_2031": 5,
+    "rationale": "AI tutoring systems handle much of content delivery and basic skills instruction by 2031. However, these teachers work with vulnerable adult populations requiring strong interpersonal support, motivation, and assessment of learning disabilities."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "digital_exposure_2031": 8,
+    "rationale": "Client prospecting, proposal preparation, media kit creation, and contract processing are highly digital and automatable. AI agents can match advertisers to inventory and generate personalized pitches; remaining human roles focus on high-value relationship selling."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "digital_exposure_2031": 7,
+    "rationale": "AI agents autonomously handle campaign analytics, market research synthesis, content generation, and media buying optimization. Managers shift to strategic vision, brand stewardship, and client relationships, but teams are significantly smaller."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Core duties involve physical installation, calibration, and testing of aircraft systems and equipment. While data recording and simulation tasks benefit from AI, hands-on hardware work in safety-critical aerospace environments limits digital exposure."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates and optimizes designs, runs simulations, and produces engineering analyses autonomously by 2031. Engineers shift to validating AI-generated designs, handling novel problems, and managing safety-critical decisions, but productivity per engineer increases dramatically."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Most work involves physical laboratory procedures, field sample collection, and equipment operation. AI assists with data analysis and reporting, but the hands-on experimental and field work remains human-driven."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "digital_exposure_2031": 5,
+    "rationale": "Research design, data analysis, and literature synthesis are significantly aided by AI agents. However, laboratory experiments, fieldwork, and the creative aspects of developing new food products or farming methods require human judgment and physical presence."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Design and analysis work is heavily digital\u2014AI generates equipment designs and optimizes systems. However, field testing, site-specific problem solving, and integration with physical agricultural operations moderate the exposure compared to pure software roles."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Farm labor\u2014planting, harvesting, tending livestock, operating equipment in variable outdoor conditions\u2014is overwhelmingly physical. AI has minimal direct impact on manual agricultural tasks at the 2031 horizon."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "digital_exposure_2031": 5,
+    "rationale": "AI systems increasingly assist with traffic sequencing and conflict detection, but the safety-critical, real-time nature of air traffic control and strict regulatory requirements keep humans firmly in the loop for authorization and emergency decisions."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "digital_exposure_2031": 2,
+    "rationale": "Core work is hands-on inspection, repair, and maintenance of aircraft systems. AI aids diagnostics and parts ordering, but physical mechanical work on safety-critical aircraft components remains firmly human."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "digital_exposure_2031": 3,
+    "rationale": "While autopilot and AI systems handle much routine flight, pilots remain essential for safety-critical decision-making, regulatory compliance, and emergency response. Digital tasks like flight planning benefit from AI, but the physical cockpit role persists."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Feeding, grooming, exercising, and monitoring animals are hands-on physical tasks. Record-keeping benefits minimally from AI, but the core caregiving duties have negligible digital AI exposure."
+  },
+  {
+    "slug": "announcers",
+    "title": "Announcers and DJs",
+    "digital_exposure_2031": 7,
+    "rationale": "AI can generate playlists, produce scripted announcements, and even create synthetic voices for routine broadcasting. Live event hosting and personality-driven content retain human value, but many routine announcing roles are displaced."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "digital_exposure_2031": 5,
+    "rationale": "Research synthesis, data analysis, and report writing benefit substantially from AI agents. However, fieldwork, excavation, cultural interpretation, and ethnographic research requiring deep contextual human understanding limit full automation."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "digital_exposure_2031": 5,
+    "rationale": "AI handles case research, document analysis, and precedent review efficiently. However, the core function\u2014facilitating human negotiation, reading interpersonal dynamics, and rendering judgment in disputes\u2014requires deep human skills."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates design options, produces construction documents, performs code compliance checks, and creates renderings autonomously. Architects focus on client relationships, creative vision, and complex site-specific judgment, but team sizes shrink notably."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "digital_exposure_2031": 6,
+    "rationale": "Project coordination, scheduling, budgeting, and reporting are highly automatable. Managers retain value in strategic decision-making, client relationships, and team leadership, but AI agents handle most routine management information processing."
+  },
+  {
+    "slug": "curators-museum-technicians-and-conservators",
+    "title": "Archivists, curators, and museum workers",
+    "digital_exposure_2031": 5,
+    "rationale": "Cataloging, research, and digital collection management are significantly aided by AI. However, physical conservation, exhibition design, and contextual interpretation of cultural artifacts require human expertise and presence."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates visual concepts, layouts, and design variations at scale by 2031. Art directors shift to creative vision, brand coherence, and client communication, but the production workforce under them shrinks dramatically."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "digital_exposure_2031": 1,
+    "rationale": "Assembly work is predominantly physical\u2014fitting parts, soldering, wiring, and operating tools on production lines. AI has minimal impact on these manual dexterity tasks at the 2031 horizon."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "digital_exposure_2031": 1,
+    "rationale": "Athletic performance is entirely physical and embodied. AI assists with training analytics and game strategy, but competing in sports is inherently a human physical activity with no digital substitution."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "digital_exposure_2031": 3,
+    "rationale": "Core duties involve hands-on injury assessment, rehabilitation exercises, and taping/bracing. AI aids with treatment planning and injury risk analysis, but physical patient care and real-time clinical judgment during sporting events remain human."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "digital_exposure_2031": 7,
+    "rationale": "Weather modeling, data analysis, and forecast generation are heavily digital tasks where AI agents excel. Remaining human roles focus on interpreting novel weather patterns, communicating forecasts, and research into climate phenomena."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "digital_exposure_2031": 3,
+    "rationale": "Audiologists perform physical hearing tests, fit devices, and provide in-person patient counseling. AI assists with diagnostic interpretation and hearing aid programming, but the clinical, hands-on patient care limits digital exposure."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "digital_exposure_2031": 1,
+    "rationale": "This is hands-on physical repair work\u2014straightening frames, replacing glass, painting vehicles. AI has negligible impact on these manual skilled trade tasks."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "digital_exposure_2031": 2,
+    "rationale": "Core work is physical diagnosis and repair of vehicle systems. AI-enhanced diagnostics help identify issues faster, but the mechanical repair work itself remains manual and requires physical skill."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "digital_exposure_2031": 1,
+    "rationale": "Baking involves physical preparation\u2014mixing, shaping, decorating, and operating ovens. AI has minimal relevance to these hands-on food production tasks."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "digital_exposure_2031": 1,
+    "rationale": "Hair cutting, styling, coloring, and skin treatments are entirely hands-on personal services. AI might assist with appointment scheduling or style visualization, but core service delivery is physical."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "digital_exposure_2031": 1,
+    "rationale": "Mixing drinks, serving customers, and managing a bar are physical and interpersonal tasks. AI has negligible impact on the core bartending role."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "digital_exposure_2031": 9,
+    "rationale": "Account tracking, payment reminder generation, debtor communication scripting, and collections workflow management are heavily digital and highly automatable. AI agents can handle most outreach autonomously; only complex negotiation cases require humans."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI accelerates literature review, data analysis, molecular modeling, and experiment design. However, wet-lab work, novel hypothesis generation, and interpreting unexpected results in biological systems require human scientists."
+  },
+  {
+    "slug": "biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Design simulation, data analysis, and regulatory documentation are heavily aided by AI. However, hands-on device prototyping, clinical testing, and navigating complex medical-regulatory environments require human expertise."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Laboratory procedures\u2014preparing samples, operating equipment, conducting experiments\u2014are primarily physical. AI helps with data recording and analysis, but bench work remains human-driven."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "digital_exposure_2031": 1,
+    "rationale": "Installing, maintaining, and repairing boilers and pressure vessels is physically demanding skilled trade work. AI has minimal impact on these hands-on construction and maintenance tasks."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "digital_exposure_2031": 9,
+    "rationale": "Recording transactions, reconciling accounts, and producing financial reports are routine digital tasks that AI agents automate almost entirely by 2031. Only exception handling and complex reconciliations may require human review."
+  },
+  {
+    "slug": "broadcast-and-sound-engineering-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "digital_exposure_2031": 5,
+    "rationale": "AI automates much of video editing, sound mixing, and broadcast switching. However, live production, physical equipment setup, and troubleshooting hardware in real-time performance settings retain significant human involvement."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "digital_exposure_2031": 8,
+    "rationale": "Budget preparation, variance analysis, forecasting, and report generation are highly digital tasks that AI agents handle autonomously. Human budget analysts shift to strategic recommendations and stakeholder communication, but routine analysis is automated."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "digital_exposure_2031": 1,
+    "rationale": "Driving buses on fixed or variable routes, managing passengers, and ensuring safety are physical tasks. While autonomous vehicle technology advances, widespread deployment for public transit remains limited at the 2031 horizon."
+  },
+  {
+    "slug": "butchers-and-meat-cutters",
+    "title": "Butchers",
+    "digital_exposure_2031": 1,
+    "rationale": "Cutting, trimming, and preparing meat are manual physical tasks requiring skilled knife work. AI has no meaningful impact on this hands-on production role."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Physical calibration of instruments and equipment is hands-on work. AI assists with documentation and scheduling, but the core task of adjusting and verifying precision equipment requires human manual skill."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Operating cardiac monitoring equipment involves physical patient interaction and device manipulation. AI significantly aids image interpretation and report generation, but hands-on patient procedures and equipment operation remain human tasks."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "digital_exposure_2031": 5,
+    "rationale": "AI handles content delivery, lesson planning, and assessment grading. However, CTE teachers provide hands-on skills training, mentoring, and workplace readiness coaching that require human presence and expertise."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "digital_exposure_2031": 1,
+    "rationale": "Measuring, cutting, and assembling building materials on construction sites is entirely physical skilled trade work. AI has negligible impact on carpentry tasks."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "digital_exposure_2031": 8,
+    "rationale": "Map production, spatial data processing, aerial image analysis, and GIS operations are heavily digital tasks that AI agents can largely automate. Human cartographers focus on novel analysis, quality validation, and complex spatial interpretation."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "digital_exposure_2031": 4,
+    "rationale": "Self-checkout and automated payment systems reduce cashier demand, but the role is primarily physical (handling goods, assisting customers in person). Digital AI exposure is moderate\u2014it displaces through automation of the transaction process rather than digital workflow."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "digital_exposure_2031": 2,
+    "rationale": "Cooking is fundamentally physical\u2014preparing ingredients, managing kitchen operations, and creating dishes. AI assists with menu planning, inventory management, and recipe development, but hands-on culinary execution remains human."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Process simulation, data analysis, and documentation are significantly aided by AI. However, plant operations, hands-on process troubleshooting, and safety-critical decision-making in physical chemical environments moderate overall exposure."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Laboratory procedures\u2014mixing chemicals, operating equipment, collecting samples\u2014are primarily physical. AI assists with data recording and analysis, but bench work remains hands-on."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI accelerates molecular modeling, literature review, data analysis, and experiment design. However, wet-lab experimentation, synthesizing novel compounds, and interpreting unexpected physical results require human scientists."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Caring for children\u2014feeding, supervising play, ensuring safety, and providing emotional support\u2014is entirely physical and interpersonal. AI has negligible impact on direct childcare duties."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "digital_exposure_2031": 3,
+    "rationale": "Spinal adjustments and musculoskeletal treatments are hands-on physical procedures. AI assists with diagnostic imaging interpretation and treatment planning, but the core manual therapy remains human."
+  },
+  {
+    "slug": "civil-engineering-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "digital_exposure_2031": 5,
+    "rationale": "Drafting, CAD work, and calculations are increasingly automated by AI. However, site inspections, material testing, and physical survey work keep a significant portion of duties grounded in the physical world."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI generates structural designs, performs analysis, and produces documentation. Engineers shift to site-specific judgment, stakeholder management, and overseeing safety-critical infrastructure decisions, but design productivity increases dramatically."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "digital_exposure_2031": 8,
+    "rationale": "Document review, damage assessment from photos, policy analysis, and claims processing are heavily digital tasks AI agents handle autonomously. Complex fraud investigations and disputed claims still need human judgment, but routine claims work is largely automated."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Operating lab equipment, preparing specimens, and conducting tests are physical tasks. AI significantly aids result interpretation and quality control analysis, but hands-on specimen processing remains human-driven."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "digital_exposure_2031": 3,
+    "rationale": "Coaching requires physical presence, interpersonal motivation, and real-time tactical decisions during competition. AI enhances performance analytics and scouting reports, but the human relationship and in-person leadership are central."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "digital_exposure_2031": 3,
+    "rationale": "Connecting community members with health resources, providing education, and offering emotional support are deeply interpersonal duties. AI assists with resource databases and health information, but in-person community engagement is the core function."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "digital_exposure_2031": 7,
+    "rationale": "Compensation analysis, benefits benchmarking, compliance tracking, and report generation are heavily digital and automatable. Managers retain strategic decision-making and employee relations roles, but analytical workload shrinks dramatically."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "digital_exposure_2031": 8,
+    "rationale": "Job analysis, salary surveys, benefits administration, and classification work are routine digital tasks AI agents handle autonomously. Remaining human roles focus on complex policy interpretation and employee counseling."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "digital_exposure_2031": 7,
+    "rationale": "Regulatory monitoring, document review, audit preparation, and compliance reporting are heavily digital. AI agents track regulations and flag issues autonomously. Human compliance officers focus on judgment calls, investigations, and organizational culture."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "digital_exposure_2031": 7,
+    "rationale": "AI agents assist with literature review, code generation, and experiment execution. However, novel research directions, theoretical breakthroughs, and creative problem formulation remain human. Productivity per researcher increases enormously."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "digital_exposure_2031": 7,
+    "rationale": "Project planning, system monitoring, vendor management documentation, and reporting are heavily aided by AI. Managers shift to strategic technology decisions, stakeholder management, and organizational change leadership."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Circuit design, simulation, and testing documentation benefit from AI automation. However, physical prototyping, lab testing, and novel hardware architecture decisions require human expertise and hands-on work."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "digital_exposure_2031": 8,
+    "rationale": "Network design, capacity planning, protocol configuration, and documentation are highly digital tasks AI agents handle effectively. Human architects focus on novel architectures, security strategy, and complex integration decisions."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents write, test, and debug well-specified code autonomously. Junior programming roles are largely automated. Remaining human programmers handle complex system integration, legacy codebases, and novel algorithmic challenges."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "digital_exposure_2031": 8,
+    "rationale": "Troubleshooting, ticket resolution, system configuration, and documentation are heavily digital tasks AI agents handle autonomously. Complex escalations and physical hardware issues still need humans, but routine IT support is largely automated."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "digital_exposure_2031": 8,
+    "rationale": "Requirements gathering documentation, system evaluation, workflow analysis, and implementation planning are highly digital and automatable. Human analysts focus on complex organizational needs assessment and stakeholder management."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "digital_exposure_2031": 6,
+    "rationale": "Information lookup, reservation making, and recommendation generation are tasks AI handles well. However, in-person hospitality, reading guest needs, and handling complex or unusual requests retain human value, especially in luxury settings."
+  },
+  {
+    "slug": "conservation-scientists",
+    "title": "Conservation scientists and foresters",
+    "digital_exposure_2031": 4,
+    "rationale": "Fieldwork\u2014assessing forests, managing land, and monitoring ecosystems\u2014is physical. AI assists with data analysis, GIS mapping, and report generation, but outdoor site work and stakeholder engagement require human presence."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "digital_exposure_2031": 3,
+    "rationale": "Physical site visits to inspect structures, verify code compliance, and assess safety are the core duties. AI helps with documentation, code lookup, and report generation, but on-site inspection remains hands-on."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "digital_exposure_2031": 1,
+    "rationale": "Operating excavators, cranes, and bulldozers on construction sites is entirely physical skilled work. AI-assisted equipment exists but full autonomy in varied construction environments is not achieved by 2031."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "digital_exposure_2031": 0,
+    "rationale": "Manual labor\u2014carrying materials, digging, cleaning sites, and assisting tradespeople\u2014is entirely physical with no meaningful digital component. AI has essentially zero impact on these tasks."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "digital_exposure_2031": 5,
+    "rationale": "Scheduling, budgeting, and documentation are aided by AI. However, on-site supervision, subcontractor coordination, safety management, and real-time problem solving on physical job sites require substantial human presence and judgment."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "digital_exposure_2031": 1,
+    "rationale": "Preparing food, operating kitchen equipment, and maintaining cleanliness are entirely physical tasks. AI has negligible direct impact on cooking duties."
+  },
+  {
+    "slug": "correctional-officers",
+    "title": "Correctional officers and bailiffs",
+    "digital_exposure_2031": 2,
+    "rationale": "Supervising inmates, maintaining order, and ensuring facility security are physical and interpersonal duties. AI assists with surveillance monitoring and record-keeping but cannot replace human presence in correctional environments."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "digital_exposure_2031": 8,
+    "rationale": "Analyzing blueprints, calculating material/labor costs, and preparing bid documents are heavily digital tasks AI agents can automate. Human estimators handle complex project-specific variables and client negotiations, but routine estimation is largely automated."
+  },
+  {
+    "slug": "court-reporters",
+    "title": "Court reporters and simultaneous captioners",
+    "digital_exposure_2031": 9,
+    "rationale": "Real-time transcription and captioning are tasks where AI speech-to-text systems reach near-human accuracy by 2031. Court reporters remain for high-stakes legal proceedings requiring certified accuracy, but demand shrinks dramatically."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "digital_exposure_2031": 3,
+    "rationale": "Creating physical artworks\u2014sculpture, painting, ceramics\u2014is hands-on creative work. AI generates digital art but cannot replicate the physical craftsmanship and unique human expression valued in fine arts markets."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "digital_exposure_2031": 7,
+    "rationale": "Financial analysis, debt management planning, and resource referrals are digital tasks AI handles well. However, counseling clients through financial distress requires empathy, motivational interviewing, and interpersonal trust that retain human value."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "digital_exposure_2031": 9,
+    "rationale": "Routine inquiries, account lookups, complaint processing, and information provision are overwhelmingly digital and automated by AI agents by 2031. Only complex escalations and emotionally sensitive situations require human representatives."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "digital_exposure_2031": 2,
+    "rationale": "Dance performance is entirely physical and embodied. AI may assist choreographers with movement visualization or music selection, but creating and performing dance remains a human art form."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "digital_exposure_2031": 8,
+    "rationale": "Data cleaning, feature engineering, model training, and report generation are heavily automated by AI agents. Senior data scientists focus on problem framing, novel methodology, and translating insights to business strategy, but junior analytical roles are largely displaced."
+  },
+  {
+    "slug": "database-administrators",
+    "title": "Database administrators and architects",
+    "digital_exposure_2031": 8,
+    "rationale": "Database monitoring, query optimization, backup management, and routine administration are highly automatable by AI agents. Human DBAs focus on complex architecture decisions, security strategy, and migration planning."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driver-sales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Driving delivery vehicles, loading/unloading packages, and interacting with customers are physical tasks. Autonomous delivery vehicles remain limited in scope by 2031; most last-mile delivery still requires human drivers."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Fabricating dental prosthetics, eyeglass lenses, and medical devices involves precision manual work. AI aids with CAD/CAM design, but hands-on fabrication, finishing, and quality inspection remain human tasks."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "digital_exposure_2031": 2,
+    "rationale": "Chairside assistance during dental procedures, sterilizing instruments, and preparing patients are hands-on clinical tasks. AI helps with scheduling and records, but physical patient care is the core function."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "digital_exposure_2031": 2,
+    "rationale": "Cleaning teeth, taking X-rays, and providing oral health education are hands-on clinical duties. AI assists with patient records and diagnostic imaging interpretation, but the physical clinical work limits digital exposure."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "digital_exposure_2031": 3,
+    "rationale": "Dental procedures\u2014fillings, extractions, examinations\u2014are hands-on clinical work. AI aids with diagnostic imaging, treatment planning, and records, but the physical practice of dentistry and patient interaction remain firmly human."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "digital_exposure_2031": 9,
+    "rationale": "Layout design, formatting, and document production are entirely digital tasks that AI handles with high quality by 2031. Remaining human roles focus on creative direction and complex brand-specific formatting requirements."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "digital_exposure_2031": 4,
+    "rationale": "Operating ultrasound equipment requires physical patient interaction and transducer manipulation. AI significantly aids image interpretation and reporting, but the hands-on scanning process and patient communication remain human tasks."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "digital_exposure_2031": 2,
+    "rationale": "Diagnosing and repairing diesel engines and heavy equipment is hands-on mechanical work. AI aids with diagnostic codes and parts identification, but physical repair remains entirely human."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "digital_exposure_2031": 5,
+    "rationale": "Meal planning, nutritional analysis, and dietary recommendations are tasks AI handles well. However, patient counseling, motivational interviewing, and adapting plans to complex medical conditions require human judgment and interpersonal skills."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "digital_exposure_2031": 8,
+    "rationale": "Technical drawing, CAD operations, and specification documentation are heavily digital tasks AI agents automate by 2031. AI generates construction drawings from design parameters; human drafters handle complex revisions and quality review."
+  },
+  {
+    "slug": "drywall-and-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "digital_exposure_2031": 0,
+    "rationale": "Installing drywall, applying tape and compound, and finishing surfaces are entirely physical construction tasks with no meaningful digital component."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "digital_exposure_2031": 7,
+    "rationale": "Data analysis, econometric modeling, literature synthesis, and report writing are heavily digital and aided by AI agents. Economists retain value in novel theoretical frameworks, policy interpretation, and strategic advisory, but research productivity increases dramatically."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "digital_exposure_2031": 8,
+    "rationale": "Reviewing, revising, and planning content are entirely digital tasks. AI agents produce polished drafts, perform copyediting, and check facts autonomously by 2031. Senior editors retain creative vision and editorial judgment roles, but team sizes shrink dramatically."
+  },
+  {
+    "slug": "electrical-and-electronics-engineering-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Building, testing, and repairing electrical components involves significant hands-on work. AI assists with circuit simulation and documentation, but physical assembly, testing, and troubleshooting of hardware remain human tasks."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "digital_exposure_2031": 7,
+    "rationale": "Circuit design, simulation, analysis, and documentation are heavily digital tasks where AI generates designs and optimizes parameters. Engineers focus on novel architectures, safety-critical validation, and physical prototyping oversight."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "digital_exposure_2031": 2,
+    "rationale": "Installing and repairing electrical equipment is hands-on physical work. AI aids diagnostics, but the manual installation, wiring, and repair tasks remain firmly human."
+  },
+  {
+    "slug": "line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "digital_exposure_2031": 1,
+    "rationale": "Climbing poles, stringing lines, and repairing electrical infrastructure in outdoor environments is dangerous physical work with essentially no digital AI substitution."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "digital_exposure_2031": 2,
+    "rationale": "Wiring buildings, installing fixtures, and troubleshooting electrical systems are hands-on skilled trades. AI assists with code lookup and project planning, but physical electrical work remains human."
+  },
+  {
+    "slug": "electro-mechanical-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating, testing, and maintaining electro-mechanical equipment involves hands-on work with physical systems. AI aids with diagnostics and documentation, but manual technical work predominates."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "digital_exposure_2031": 6,
+    "rationale": "Administrative tasks\u2014scheduling, budgeting, compliance reporting, data analysis\u2014are heavily automated by AI. Principals retain essential roles in school culture, community relations, staff leadership, and complex disciplinary decisions."
+  },
+  {
+    "slug": "elevator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "digital_exposure_2031": 1,
+    "rationale": "Installing and maintaining elevators and escalators is skilled physical work in building shafts and mechanical rooms. AI has minimal impact on these hands-on tasks."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "digital_exposure_2031": 5,
+    "rationale": "AI assists with risk modeling, communication coordination, and resource planning. However, real-time crisis leadership, inter-agency coordination, and high-stakes judgment during emergencies require human decision-making and presence."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "digital_exposure_2031": 2,
+    "rationale": "Providing emergency medical care, transporting patients, and performing life-saving procedures in the field are entirely physical and interpersonal. AI aids with diagnostics and protocol guidance, but hands-on emergency care remains human."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "digital_exposure_2031": 5,
+    "rationale": "Scheduling, budgeting, marketing, and reporting benefit from AI automation. However, managing staff, creating guest experiences, and handling on-site operations require physical presence and interpersonal leadership."
+  },
+  {
+    "slug": "environmental-engineering-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Field sampling, equipment operation, and site inspections are physical tasks. AI aids with data analysis, report generation, and regulatory compliance checking, creating a moderate blend of digital and physical duties."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Modeling, analysis, report writing, and regulatory documentation are digital tasks increasingly handled by AI. Field assessment, stakeholder engagement, and novel remediation design require human expertise."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Field sampling, laboratory testing, and site inspections are predominantly physical. AI helps with data analysis and compliance documentation, but fieldwork remains the core duty."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "digital_exposure_2031": 6,
+    "rationale": "Data analysis, modeling, literature review, and report production are digital tasks AI handles well. Fieldwork, regulatory negotiation, and complex site-specific environmental judgment retain strong human involvement."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "digital_exposure_2031": 7,
+    "rationale": "Statistical analysis, disease surveillance data processing, literature synthesis, and report generation are heavily digital tasks AI agents automate. Human epidemiologists focus on novel outbreak investigation, study design, and public health policy interpretation."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "digital_exposure_2031": 3,
+    "rationale": "Administering fitness tests, designing exercise programs, and working directly with patients are hands-on clinical duties. AI assists with data tracking and program optimization, but physical patient interaction is central."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "digital_exposure_2031": 3,
+    "rationale": "Farm management involves significant physical oversight of land, livestock, and equipment. AI aids with crop planning, market analysis, and precision agriculture data, but hands-on management of agricultural operations limits digital exposure."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI generates design variations, creates technical drawings, and handles trend analysis. However, creative vision, fabric selection, fitting garments on bodies, and understanding cultural aesthetics retain strong human components."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "digital_exposure_2031": 7,
+    "rationale": "AI automates rough cuts, color grading, sound mixing, and effects compositing. Camera operation remains physical, but editing workflows are heavily digitized. Senior editors retain creative storytelling roles, but production teams shrink."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "digital_exposure_2031": 8,
+    "rationale": "Financial modeling, data analysis, report generation, and market research are heavily digital tasks AI agents handle autonomously. Human analysts focus on client relationships, novel strategic insights, and complex deal evaluation."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "digital_exposure_2031": 9,
+    "rationale": "Processing financial transactions, maintaining records, and handling routine financial paperwork are digital tasks AI automates almost entirely. Only exception handling and complex reconciliations require human intervention."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "digital_exposure_2031": 8,
+    "rationale": "Reviewing financial records, analyzing compliance, and assessing risk are heavily digital tasks AI agents handle efficiently. Human examiners focus on complex investigations, regulatory judgment calls, and enforcement decisions."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "digital_exposure_2031": 7,
+    "rationale": "Financial reporting, forecasting, and analysis are heavily automated. Managers retain strategic planning, stakeholder communication, risk governance, and organizational leadership roles, but analytical teams shrink significantly."
+  },
+  {
+    "slug": "fire-inspectors-and-investigators",
+    "title": "Fire inspectors",
+    "digital_exposure_2031": 3,
+    "rationale": "Physical building inspections, arson investigation at fire scenes, and code enforcement require on-site presence. AI assists with report writing and code compliance checking, but fieldwork dominates."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "digital_exposure_2031": 2,
+    "rationale": "Fighting fires, performing rescues, and providing emergency medical care are entirely physical, high-risk duties. AI aids with dispatch optimization and hazard identification, but frontline firefighting is firmly human."
+  },
+  {
+    "slug": "fishers-and-related-fishing-workers",
+    "title": "Fishing and hunting workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Catching fish, operating boats, and maintaining nets and equipment are physical outdoor tasks. AI has minimal impact on these manual labor duties."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "digital_exposure_2031": 3,
+    "rationale": "Leading exercise sessions, demonstrating movements, and motivating clients are physical and interpersonal duties. AI generates workout plans and tracks metrics, but in-person coaching and physical demonstration remain central."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "digital_exposure_2031": 2,
+    "rationale": "Ensuring passenger safety, serving food and beverages, and managing cabin operations are physical and interpersonal duties performed in aircraft. AI has minimal impact on these in-person service roles."
+  },
+  {
+    "slug": "tile-and-marble-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "digital_exposure_2031": 0,
+    "rationale": "Measuring, cutting, and installing flooring, tile, and stone are entirely physical construction tasks with no meaningful digital component."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "digital_exposure_2031": 2,
+    "rationale": "Selecting flowers, creating arrangements, and setting up displays are hands-on creative tasks. AI might assist with design inspiration or inventory management, but physical floral work remains human."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Serving food, clearing tables, and interacting with customers in restaurants are entirely physical and interpersonal tasks. AI ordering systems exist, but human servers remain for the service experience."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Washing, cutting, measuring, and preparing food ingredients are manual physical tasks with no meaningful digital AI component."
+  },
+  {
+    "slug": "food-and-tobacco-processing-workers",
+    "title": "Food processing equipment workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Operating food processing machinery, monitoring production lines, and handling materials are physical production tasks. AI assists with quality monitoring but does not replace manual equipment operation."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "digital_exposure_2031": 4,
+    "rationale": "Inventory management, scheduling, and financial reporting benefit from AI. However, on-site staff supervision, customer interaction, food quality oversight, and managing the physical restaurant environment require human presence."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Crime scene evidence collection is physical work. However, laboratory analysis, database searches, and report writing are digital tasks aided by AI. The blend of field and lab work creates moderate overall exposure."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Planting trees, fighting wildfires, maintaining trails, and monitoring forest health are physical outdoor tasks. AI has minimal impact on this hands-on conservation work."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "digital_exposure_2031": 7,
+    "rationale": "Donor research, campaign analytics, communication drafting, and database management are digital tasks AI handles well. Human fundraisers focus on major donor relationships, event hosting, and strategic campaign direction, but routine outreach is automated."
+  },
+  {
+    "slug": "funeral-service-occupations",
+    "title": "Funeral service workers",
+    "digital_exposure_2031": 2,
+    "rationale": "Preparing bodies, coordinating ceremonies, and supporting grieving families are physical and deeply interpersonal duties. AI assists with administrative tasks and scheduling, but the core service is human-centered."
+  },
+  {
+    "slug": "gaming-services-occupations",
+    "title": "Gambling services workers",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating gaming tables, managing slot machines, and interacting with patrons are primarily physical and interpersonal. AI aids with surveillance and analytics, but floor operations remain human-staffed."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Fixing plumbing, electrical, HVAC, and other building systems is hands-on physical work. AI assists with scheduling and diagnostics, but manual repair remains entirely human."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "digital_exposure_2031": 9,
+    "rationale": "Filing, data entry, correspondence, scheduling, and record-keeping are routine digital tasks that AI agents automate almost entirely by 2031. Only tasks requiring physical office presence or complex judgment remain."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "digital_exposure_2031": 5,
+    "rationale": "AI assists with genetic data interpretation and risk calculation. However, counseling patients about genetic conditions, emotional support during difficult diagnoses, and helping families make complex decisions require deep human empathy and communication."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "digital_exposure_2031": 7,
+    "rationale": "GIS analysis, spatial data processing, map production, and research synthesis are heavily digital tasks AI agents handle well. Fieldwork and complex place-based analysis retain human value, but analytical productivity increases dramatically."
+  },
+  {
+    "slug": "geological-and-petroleum-technicians",
+    "title": "Geological and hydrologic technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Field sampling and laboratory testing are physical, but data analysis, mapping, and reporting are digital tasks aided by AI. The mixed nature of duties creates moderate exposure."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "digital_exposure_2031": 6,
+    "rationale": "Data analysis, modeling, literature review, and report writing are digital tasks increasingly automated. Fieldwork, site-specific geological interpretation, and stakeholder consultation retain human value."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "digital_exposure_2031": 0,
+    "rationale": "Cutting, fitting, and installing glass in buildings is entirely physical skilled trade work with no meaningful digital component."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "digital_exposure_2031": 8,
+    "rationale": "AI generates logos, layouts, illustrations, and brand materials at high quality by 2031. Senior designers retain creative direction and brand strategy roles, but production design work is largely automated, dramatically reducing team sizes."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "digital_exposure_2031": 0,
+    "rationale": "Mowing lawns, trimming hedges, planting flowers, and maintaining outdoor spaces are entirely physical tasks. AI has essentially zero impact on grounds maintenance labor."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "digital_exposure_2031": 0,
+    "rationale": "Moving materials by hand, loading trucks, and stocking shelves are entirely physical labor tasks. AI has essentially zero impact on these manual duties."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Identifying, removing, and disposing of hazardous materials like asbestos and lead is dangerous physical work requiring protective equipment and manual procedures. AI has negligible impact."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Risk analysis, compliance documentation, and safety system design are digital tasks AI handles well. However, physical site inspections, accident investigations, and implementing safety measures in real environments require human presence."
+  },
+  {
+    "slug": "health-educators",
+    "title": "Health education specialists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI generates health education content, analyzes community health data, and personalizes outreach materials. However, community engagement, workshop facilitation, and culturally sensitive health communication require human presence and interpersonal skills."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "digital_exposure_2031": 9,
+    "rationale": "Coding medical records, managing health databases, ensuring data quality, and processing registrations are routine digital tasks AI agents automate almost entirely. Only complex coding disputes and system implementation require human oversight."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "digital_exposure_2031": 2,
+    "rationale": "Installing and repairing HVAC systems is hands-on skilled trade work. AI aids with diagnostics and system design, but physical installation and repair remain entirely human tasks."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "digital_exposure_2031": 2,
+    "rationale": "Long-haul driving remains primarily human at the 2031 horizon despite autonomous trucking advances. Route planning and logistics benefit from AI, but operating trucks in varied conditions, loading/unloading, and regulatory compliance keep drivers essential."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "digital_exposure_2031": 2,
+    "rationale": "Repairing and maintaining heavy equipment\u2014bulldozers, cranes, farm machinery\u2014is physical skilled work. AI assists with diagnostics, but hands-on mechanical repair remains human."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI tutoring systems handle content delivery, grading, and personalized learning paths. Teachers shift to mentoring, social-emotional development, classroom management, and facilitating higher-order discussions\u2014roles that remain deeply human."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "digital_exposure_2031": 7,
+    "rationale": "Archival research, source analysis, literature synthesis, and writing are heavily digital tasks AI assists with substantially. Historians retain value in interpretive frameworks, original arguments, and contextualizing complex historical narratives."
+  },
+  {
+    "slug": "home-health-aides-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "digital_exposure_2031": 1,
+    "rationale": "Assisting patients with bathing, dressing, meals, and daily activities is entirely physical and interpersonal caregiving. AI has minimal impact on these hands-on personal care duties."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "digital_exposure_2031": 7,
+    "rationale": "Recruitment screening, benefits administration, compliance tracking, and workforce analytics are heavily automated. HR managers retain strategic workforce planning, employee relations, organizational culture, and complex conflict resolution roles."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "digital_exposure_2031": 8,
+    "rationale": "Resume screening, onboarding documentation, benefits processing, and policy administration are routine digital tasks AI agents handle autonomously. Human specialists focus on complex employee relations, investigations, and strategic talent initiatives."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "digital_exposure_2031": 6,
+    "rationale": "Water resource modeling, data analysis, and report writing are digital tasks AI handles well. Fieldwork, site-specific assessment, and stakeholder consultation on water management retain human value."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates product design concepts, 3D models, and renderings rapidly. Designers shift to user research, creative vision, physical prototyping, and brand-specific design judgment, but design production teams shrink significantly."
+  },
+  {
+    "slug": "industrial-engineering-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "digital_exposure_2031": 5,
+    "rationale": "Data collection on production floors is physical, but process analysis, time studies, and documentation are digital tasks AI aids with. The blend of hands-on manufacturing observation and digital analysis creates moderate exposure."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "digital_exposure_2031": 7,
+    "rationale": "Process optimization, workflow analysis, simulation modeling, and efficiency reporting are heavily digital tasks AI agents handle autonomously. Engineers shift to implementing changes on physical production floors and managing complex organizational transitions."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "digital_exposure_2031": 2,
+    "rationale": "Repairing and maintaining industrial machinery is hands-on mechanical work. AI-enhanced predictive maintenance helps scheduling, but physical repair and installation remain human tasks."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "digital_exposure_2031": 5,
+    "rationale": "Production scheduling, quality data analysis, and reporting benefit from AI. However, managing factory floor operations, supervising workers, and making real-time production decisions require physical presence and human leadership."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "digital_exposure_2031": 9,
+    "rationale": "Answering inquiries, maintaining records, processing forms, and providing information are routine digital tasks AI chatbots and agents handle autonomously. Only in-person reception duties and complex problem resolution retain human value."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "digital_exposure_2031": 7,
+    "rationale": "AI agents handle threat detection, vulnerability scanning, log analysis, and incident response automation. Human analysts focus on novel attack investigation, security architecture decisions, and organizational risk strategy."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "digital_exposure_2031": 7,
+    "rationale": "Curriculum development, standards alignment, assessment design, and training material creation are digital tasks AI handles well. Coordinators retain value in teacher coaching, institutional change management, and adapting programs to local contexts."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "digital_exposure_2031": 0,
+    "rationale": "Installing insulation in walls, floors, and ceilings is entirely physical construction work with no meaningful digital component."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "digital_exposure_2031": 7,
+    "rationale": "Quote generation, policy comparison, application processing, and client communication are digital tasks AI handles efficiently. Agents retain value for complex policy advisory, relationship management, and high-value client acquisition."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "digital_exposure_2031": 9,
+    "rationale": "Risk evaluation, policy pricing, application review, and documentation are routine digital tasks AI agents automate with high accuracy. Human underwriters handle only complex, novel, or high-value cases requiring judgment beyond standard risk models."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI generates design concepts, space layouts, and material selections. However, client relationships, understanding lived experiences in spaces, hands-on material selection, and site visits retain strong human components."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "digital_exposure_2031": 9,
+    "rationale": "Machine translation reaches near-professional quality for most language pairs by 2031. AI handles routine document translation and basic interpretation autonomously. Human translators remain for literary, legal, and culturally nuanced work."
+  },
+  {
+    "slug": "structural-iron-and-steel-workers",
+    "title": "Ironworkers",
+    "digital_exposure_2031": 0,
+    "rationale": "Erecting steel frameworks, welding beams, and connecting structural components at height are entirely physical, dangerous construction tasks with no digital AI substitution."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "digital_exposure_2031": 0,
+    "rationale": "Mopping floors, cleaning restrooms, emptying trash, and maintaining building cleanliness are entirely physical tasks. AI has essentially zero impact on janitorial work."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "digital_exposure_2031": 2,
+    "rationale": "Crafting jewelry, setting stones, and repairing pieces are manual precision tasks. AI assists with CAD design, but hands-on metalworking and gemstone work remain human skills."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "digital_exposure_2031": 5,
+    "rationale": "AI assists with legal research, case precedent analysis, and document review. However, judicial decision-making, courtroom management, sentencing, and interpreting law in complex human situations require human authority and judgment."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "digital_exposure_2031": 5,
+    "rationale": "AI handles some content delivery and assessment, but young children require extensive in-person care, social-emotional guidance, and developmental support. The interpersonal and caregiving aspects of elementary teaching strongly limit digital exposure."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "digital_exposure_2031": 6,
+    "rationale": "Contract analysis, compliance tracking, and grievance documentation are digital tasks AI handles well. However, negotiation, mediation, and managing sensitive labor-management relationships require human interpersonal skills and political judgment."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates site designs, produces construction documents, and performs environmental analysis. Architects retain client relationships, creative vision, site visits, and complex regulatory navigation, but design production accelerates dramatically."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "digital_exposure_2031": 7,
+    "rationale": "AI handles legal research, document drafting, contract review, and case analysis autonomously. Lawyers shift to courtroom advocacy, complex negotiation, client counseling, and strategic judgment. Junior associate work is heavily displaced, but regulatory and trust requirements maintain senior roles."
+  },
+  {
+    "slug": "librarians",
+    "title": "Librarians and library media specialists",
+    "digital_exposure_2031": 6,
+    "rationale": "Cataloging, reference queries, and collection management are heavily automated by AI. Librarians retain community programming, information literacy instruction, and serving as trusted community resource navigators."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "digital_exposure_2031": 7,
+    "rationale": "Shelving, cataloging, circulation management, and basic reference are increasingly automated. Human assistants handle physical materials management and patron interaction, but much routine work is AI-handled."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "digital_exposure_2031": 3,
+    "rationale": "Taking vital signs, administering medications, wound care, and direct patient care are hands-on clinical tasks. AI assists with documentation and care coordination, but bedside nursing remains physical and interpersonal."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "digital_exposure_2031": 8,
+    "rationale": "Application processing, credit analysis, risk assessment, and documentation are digital tasks AI agents handle autonomously. Human loan officers focus on complex cases, client relationships, and regulatory compliance decisions."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "digital_exposure_2031": 5,
+    "rationale": "Revenue management, booking optimization, and administrative reporting are automated by AI. However, guest relations, staff management, property maintenance oversight, and handling on-site issues require human presence."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Felling trees, operating logging equipment, and transporting timber are physical outdoor tasks. AI has minimal impact on this hands-on forestry work."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "digital_exposure_2031": 8,
+    "rationale": "Supply chain optimization, inventory management, route planning, and logistics analysis are heavily digital tasks AI agents handle autonomously. Human logisticians focus on strategic supplier relationships, crisis management, and complex multi-party coordination."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating lathes, mills, and grinders to produce precision parts is hands-on skilled work. AI-driven CNC programming aids efficiency, but setting up machines, inspecting parts, and troubleshooting require manual expertise."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "digital_exposure_2031": 8,
+    "rationale": "Data analysis, process mapping, benchmarking, report production, and recommendations are heavily digital tasks AI agents handle autonomously. Human consultants focus on client relationships, organizational politics, and implementing complex change."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "digital_exposure_2031": 1,
+    "rationale": "Nail care, manicures, and pedicures are entirely hands-on personal services. AI has negligible impact on these physical grooming tasks."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "digital_exposure_2031": 6,
+    "rationale": "Ship design, structural analysis, and engineering documentation are digital tasks AI aids substantially. However, vessel inspections, sea trials, and marine-specific engineering judgment in physical environments limit full automation."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "digital_exposure_2031": 8,
+    "rationale": "Survey design, data collection, statistical analysis, trend identification, and report generation are heavily digital tasks AI agents handle autonomously. Human analysts focus on strategic interpretation, client presentation, and novel research design."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "digital_exposure_2031": 3,
+    "rationale": "Therapeutic relationships require deep empathy, real-time emotional attunement, and trust built through human presence. AI assists with intake assessments and session notes, but the core therapeutic process is inherently human."
+  },
+  {
+    "slug": "brickmasons-blockmasons-and-stonemasons",
+    "title": "Masonry workers",
+    "digital_exposure_2031": 0,
+    "rationale": "Laying bricks, blocks, and stone is entirely physical skilled trade work requiring manual dexterity and construction site presence. AI has zero impact on masonry tasks."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "digital_exposure_2031": 1,
+    "rationale": "Providing therapeutic massage is entirely hands-on physical work. AI has negligible impact on manual bodywork techniques and direct patient care."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "digital_exposure_2031": 1,
+    "rationale": "Operating forklifts, conveyors, and cranes to move materials is physical work. Warehouse automation advances, but human operators remain essential for varied environments and complex material handling at the 2031 horizon."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "digital_exposure_2031": 9,
+    "rationale": "Tracking shipments, recording inventory, and processing receiving documents are routine digital tasks AI agents automate almost entirely. Only physical warehouse verification and exception handling retain human involvement."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Materials simulation, property analysis, and documentation are digital tasks AI handles well. However, laboratory testing, physical material characterization, and developing novel materials for specific applications require human expertise."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "digital_exposure_2031": 8,
+    "rationale": "Statistical analysis, model building, data processing, and report generation are heavily automated by AI agents. Human mathematicians focus on novel theoretical problems, research direction, and complex model interpretation."
+  },
+  {
+    "slug": "mechanical-engineering-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "digital_exposure_2031": 4,
+    "rationale": "Building prototypes, testing mechanical devices, and operating lab equipment are physical tasks. AI aids with CAD work and data analysis, but hands-on fabrication and testing remain human-driven."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates mechanical designs, runs simulations, and produces engineering analyses autonomously. Engineers shift to validating designs, physical prototyping, testing, and handling novel engineering challenges. Productivity per engineer increases dramatically."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "digital_exposure_2031": 6,
+    "rationale": "Scheduling, budgeting, compliance tracking, and data analysis are heavily automated. Managers retain staff leadership, patient experience oversight, regulatory navigation, and strategic facility planning roles."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "digital_exposure_2031": 3,
+    "rationale": "Taking vitals, preparing patients, drawing blood, and assisting with procedures are hands-on clinical tasks. AI automates scheduling and records, but physical patient care duties dominate the role."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "digital_exposure_2031": 7,
+    "rationale": "Radiation treatment planning, dose calculations, and treatment simulations are heavily digital tasks AI handles well. Human dosimetrists validate plans and handle complex cases, but routine treatment planning is largely automated."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "digital_exposure_2031": 2,
+    "rationale": "Inspecting, maintaining, and repairing medical devices is hands-on technical work. AI aids with diagnostics and documentation, but physical repair of complex medical equipment remains human."
+  },
+  {
+    "slug": "medical-records-and-health-information-technicians",
+    "title": "Medical records specialists",
+    "digital_exposure_2031": 9,
+    "rationale": "Coding diagnoses, maintaining electronic health records, and processing health information are routine digital tasks AI agents automate almost entirely. Only complex coding disputes and system audits require human oversight."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "digital_exposure_2031": 6,
+    "rationale": "AI accelerates literature review, data analysis, and experiment design. However, clinical research, laboratory experimentation, patient interactions in trials, and novel hypothesis generation require human scientists."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "digital_exposure_2031": 10,
+    "rationale": "AI speech-to-text and clinical documentation systems effectively automate medical transcription by 2031. This role is functionally automated; remaining positions exist in legacy systems or for quality audit purposes only."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "digital_exposure_2031": 6,
+    "rationale": "Vendor research, budget tracking, logistics coordination, and communication are digital tasks AI aids substantially. However, on-site event management, vendor relationship building, and creative event design require human presence and judgment."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "digital_exposure_2031": 2,
+    "rationale": "Operating metal-cutting and plastic-forming machines, loading materials, and inspecting finished parts are physical production tasks. AI-driven CNC programming helps, but manual machine operation remains human."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI assists with genomic analysis, literature review, and experiment design. However, wet-lab work\u2014culturing organisms, preparing slides, conducting experiments\u2014requires physical human presence and scientific creativity."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI tutoring handles content delivery, grading, and personalized learning. Teachers shift to adolescent mentoring, social-emotional development, classroom management, and facilitating collaborative learning\u2014deeply human roles."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "digital_exposure_2031": 3,
+    "rationale": "Military service spans physical combat, training, logistics, and operations. AI aids with intelligence analysis, logistics planning, and communications, but physical duties, leadership, and decision-making under extreme conditions remain human."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Mine design, resource estimation, and safety analysis are digital tasks AI handles well. However, underground inspections, site-specific geological assessment, and managing physical mining operations require human presence."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "digital_exposure_2031": 4,
+    "rationale": "AI-generated imagery increasingly substitutes for human models in digital advertising and e-commerce. However, live fashion shows, physical product fitting, and brand ambassador roles requiring human presence persist."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI generates compositions, arrangements, and production-ready music. However, artistic vision, live performance direction, and creating emotionally resonant original works retain human value. Production music work is heavily displaced."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "digital_exposure_2031": 3,
+    "rationale": "Live musical performance is inherently physical and embodied. AI generates recorded music, but audiences value human performers for concerts, events, and authentic artistic expression."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "digital_exposure_2031": 6,
+    "rationale": "Grant management, research coordination, budgeting, and reporting are aided by AI. Managers retain strategic research direction, team leadership, stakeholder relationships, and scientific judgment roles."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "digital_exposure_2031": 8,
+    "rationale": "System monitoring, configuration management, backup operations, and routine troubleshooting are highly automatable by AI agents. Human admins handle complex infrastructure decisions, security incidents, and novel system integration."
+  },
+  {
+    "slug": "reporters-correspondents-and-broadcast-news-analysts",
+    "title": "News analysts, reporters, and journalists",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates routine news stories, summarizes data, and produces reports. Human journalists focus on investigative reporting, source cultivation, editorial judgment, and on-the-ground coverage\u2014but newsroom staffing shrinks significantly."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Reactor design simulation, safety analysis, and documentation are digital tasks AI handles well. However, physical plant operations, safety-critical oversight, and regulatory compliance in nuclear environments require human expertise and authority."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "digital_exposure_2031": 4,
+    "rationale": "Preparing and administering radioactive materials, operating imaging equipment, and positioning patients are physical tasks. AI aids with image interpretation and dosimetry, but hands-on patient care remains human."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating nuclear test and monitoring equipment, collecting samples, and ensuring radiation safety are physical tasks in controlled environments. AI assists with data analysis, but hands-on technical work predominates."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "digital_exposure_2031": 4,
+    "rationale": "Advanced clinical practice\u2014administering anesthesia, delivering babies, diagnosing conditions\u2014is hands-on patient care. AI assists with clinical decision support and documentation, but physical procedures and patient relationships are central."
+  },
+  {
+    "slug": "nursing-assistants",
+    "title": "Nursing assistants and orderlies",
+    "digital_exposure_2031": 1,
+    "rationale": "Bathing, feeding, repositioning, and transporting patients are entirely physical caregiving tasks. AI has minimal impact on these hands-on nursing duties."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "digital_exposure_2031": 5,
+    "rationale": "Compliance documentation, data analysis, and training material creation benefit from AI. However, physical workplace inspections, incident investigations on-site, and worker safety monitoring require human presence."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "digital_exposure_2031": 3,
+    "rationale": "Hands-on therapeutic interventions, patient assessment through physical interaction, and adapting environments for patients with disabilities are inherently physical. AI assists with treatment planning and documentation."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "digital_exposure_2031": 2,
+    "rationale": "Assisting patients with therapeutic exercises, daily living activities, and rehabilitation tasks is hands-on physical work. AI has minimal impact on these direct patient care duties."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Operating drilling equipment, maintaining wells, and working on oil rigs are physical, hazardous tasks. AI has negligible direct impact on this hands-on extraction work."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "digital_exposure_2031": 8,
+    "rationale": "Mathematical modeling, optimization, simulation, and data analysis are heavily digital tasks AI agents handle autonomously. Human analysts focus on problem framing, interpreting results for stakeholders, and novel methodological approaches."
+  },
+  {
+    "slug": "opticians-dispensing",
+    "title": "Opticians",
+    "digital_exposure_2031": 3,
+    "rationale": "Fitting eyeglasses, adjusting frames, and assisting customers with lens selection are hands-on tasks requiring physical interaction. AI aids with prescription processing and inventory, but face-to-face service dominates."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "digital_exposure_2031": 4,
+    "rationale": "Eye examinations using specialized equipment, prescribing corrective lenses, and diagnosing conditions involve physical patient interaction. AI aids with diagnostic imaging interpretation and records, but clinical practice is hands-on."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "digital_exposure_2031": 4,
+    "rationale": "Designing and fitting orthotic and prosthetic devices involves physical patient assessment, custom fabrication, and adjustment. AI aids with CAD design and biomechanical analysis, but hands-on fitting and patient care are central."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "digital_exposure_2031": 0,
+    "rationale": "Preparing surfaces, applying paint, and finishing walls and structures are entirely physical construction tasks with no digital component."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Operating paint sprayers, dipping equipment, and coating machinery in manufacturing are physical production tasks. AI has minimal impact on these manual finishing processes."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "digital_exposure_2031": 9,
+    "rationale": "Legal research, document drafting, contract review, case file management, and discovery processing are heavily digital tasks AI agents handle autonomously by 2031. Human paralegals focus on complex litigation support and client interaction."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "digital_exposure_2031": 7,
+    "rationale": "Portfolio analysis, financial planning, tax optimization, and report generation are automated by AI. Advisors retain value in client relationships, life-stage guidance, behavioral coaching, and navigating complex financial situations."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Inspecting properties, applying pesticides, and setting traps are physical tasks requiring on-site presence. AI has negligible impact on hands-on pest control work."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "digital_exposure_2031": 6,
+    "rationale": "Reservoir simulation, production optimization, and engineering analysis are digital tasks AI handles well. However, field operations, well site decisions, and managing physical extraction processes require human presence and judgment."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI handles drug interaction checking, prescription processing, and inventory management. Pharmacists retain patient counseling, complex medication management, clinical decision-making, and regulatory compliance roles."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "digital_exposure_2031": 5,
+    "rationale": "Automated dispensing systems handle much routine medication counting and labeling. Technicians retain roles in compounding, patient interaction, insurance processing, and managing physical pharmacy operations."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "digital_exposure_2031": 1,
+    "rationale": "Drawing blood, labeling specimens, and interacting with patients are entirely physical clinical tasks. AI has negligible impact on phlebotomy procedures."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "digital_exposure_2031": 5,
+    "rationale": "AI generates synthetic images and automates post-processing. However, event photography, portrait sessions, and creative commercial shoots requiring human presence, composition judgment, and real-world scene capture persist."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "digital_exposure_2031": 2,
+    "rationale": "Assisting patients with exercises, applying therapeutic treatments, and supporting rehabilitation are hands-on physical tasks. AI has minimal impact on direct patient care duties."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "digital_exposure_2031": 3,
+    "rationale": "Evaluating patients through physical examination, performing manual therapy, and guiding exercises are hands-on clinical duties. AI assists with treatment planning and outcome tracking, but physical patient interaction is central."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "digital_exposure_2031": 4,
+    "rationale": "Clinical examination, procedures, and patient counseling are hands-on duties. AI significantly aids with diagnostic decision support, ordering, and documentation, but direct patient care and clinical judgment remain human."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "digital_exposure_2031": 4,
+    "rationale": "Physical examinations, surgeries, and patient interactions are hands-on clinical work. AI transforms diagnostics, treatment planning, and documentation, but the practice of medicine\u2014especially surgery\u2014requires human skill, judgment, and patient trust."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "digital_exposure_2031": 6,
+    "rationale": "Data analysis, simulation, and literature review are digital tasks AI accelerates substantially. However, designing novel experiments, theoretical breakthroughs, and operating physical instruments require human researchers."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "digital_exposure_2031": 1,
+    "rationale": "Installing and repairing pipes, fixtures, and plumbing systems is hands-on skilled trade work. AI has minimal impact on these physical construction tasks."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "digital_exposure_2031": 3,
+    "rationale": "Examining and treating foot conditions, performing procedures, and fitting orthotics are hands-on clinical duties. AI aids with diagnostics and records, but physical patient care dominates."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "digital_exposure_2031": 4,
+    "rationale": "Patrol, emergency response, and suspect apprehension are physical duties. AI aids detective work through data analysis, surveillance processing, and report generation, but community policing and physical law enforcement remain human."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "digital_exposure_2031": 7,
+    "rationale": "Data analysis, policy research, literature synthesis, and report writing are heavily digital tasks AI agents handle well. Political scientists retain value in interpretive analysis, institutional knowledge, and advisory roles requiring political judgment."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "digital_exposure_2031": 3,
+    "rationale": "Sorting, delivering mail, and operating postal equipment are physical tasks. Automated sorting advances, but last-mile delivery and customer-facing window services require human workers. Digital communication reduces mail volume overall."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "digital_exposure_2031": 6,
+    "rationale": "Enrollment management, financial aid processing, compliance reporting, and data analysis are digital tasks heavily automated by AI. Administrators retain strategic planning, stakeholder relations, and institutional leadership roles."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI tutoring systems handle content delivery, grading, and research assistance. Professors retain value in mentoring, original research, seminar facilitation, and advancing knowledge at the frontier, but course delivery is transformed."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "digital_exposure_2031": 4,
+    "rationale": "AI assists with grid optimization and monitoring, but operating physical plant equipment, managing safety systems, and responding to emergencies require on-site human presence and real-time judgment."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "digital_exposure_2031": 4,
+    "rationale": "Administrative tasks like budgeting and enrollment are aided by AI. However, managing staff caring for young children, ensuring safety, parent relationships, and regulatory compliance require significant human presence and judgment."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "digital_exposure_2031": 2,
+    "rationale": "Teaching young children requires constant physical presence, emotional attunement, and hands-on care. AI has minimal application in early childhood education where human interaction and safety supervision are paramount."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "digital_exposure_2031": 6,
+    "rationale": "Background checks, digital surveillance, and records research are digital tasks AI handles well. However, physical surveillance, witness interviews, and undercover investigations require human presence and judgment."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI assists with risk assessment, case documentation, and compliance monitoring. However, face-to-face supervision, counseling offenders, and making judgment calls about community safety require human interpersonal skills and authority."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "digital_exposure_2031": 6,
+    "rationale": "AI handles script analysis, scheduling, budgeting, and some post-production tasks. However, creative vision, on-set direction of performers, and managing the complex human dynamics of production retain strong human value."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "digital_exposure_2031": 7,
+    "rationale": "Scheduling, tracking, reporting, risk analysis, and documentation are heavily automated by AI agents. Project managers retain stakeholder management, team leadership, complex problem resolution, and strategic decision-making roles."
+  },
+  {
+    "slug": "appraisers-and-assessors-of-real-estate",
+    "title": "Property appraisers and assessors",
+    "digital_exposure_2031": 7,
+    "rationale": "Comparable sales analysis, valuation modeling, and report generation are digital tasks AI handles efficiently. Human appraisers retain physical property inspections and complex valuation judgment, but routine appraisals are largely automated."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "digital_exposure_2031": 5,
+    "rationale": "Financial reporting, tenant communication, and maintenance scheduling are automated by AI. However, physical property inspections, tenant relations, vendor management, and on-site problem resolution require human presence."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "digital_exposure_2031": 2,
+    "rationale": "Monitoring patients, assisting with daily activities, and providing therapeutic support in psychiatric facilities are hands-on, interpersonal duties. AI has minimal impact on direct patient care in mental health settings."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "digital_exposure_2031": 4,
+    "rationale": "AI assists with assessment scoring, research analysis, and treatment documentation. However, therapy sessions, psychological assessment, and clinical judgment about human mental health require deep interpersonal skills and human presence."
+  },
+  {
+    "slug": "public-relations-managers",
+    "title": "Public relations and fundraising managers",
+    "digital_exposure_2031": 7,
+    "rationale": "Media monitoring, content creation, analytics, and communications drafting are heavily automated by AI. Managers retain strategic messaging, crisis management, relationship building, and organizational reputation stewardship."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "digital_exposure_2031": 8,
+    "rationale": "Press release writing, media monitoring, content creation, and campaign analytics are digital tasks AI agents handle autonomously. Human PR specialists focus on media relationships, crisis communication, and strategic messaging."
+  },
+  {
+    "slug": "police-fire-and-ambulance-dispatchers",
+    "title": "Public safety telecommunicators",
+    "digital_exposure_2031": 6,
+    "rationale": "AI handles call routing, location identification, and resource allocation increasingly well. However, managing emergency callers under stress, making split-second priority decisions, and coordinating multi-agency responses retain critical human roles."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "digital_exposure_2031": 7,
+    "rationale": "Supplier research, bid analysis, contract processing, and inventory management are digital tasks AI handles autonomously. Human buyers focus on strategic supplier relationships, complex negotiations, and novel procurement decisions."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "digital_exposure_2031": 3,
+    "rationale": "Physical inspection of products\u2014measuring dimensions, testing materials, examining finishes\u2014requires hands-on work. AI-powered machine vision aids some visual inspection, but manual testing and judgment in varied production environments remain human."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "digital_exposure_2031": 4,
+    "rationale": "Positioning patients, operating radiation equipment, and monitoring treatment sessions are physical clinical tasks. AI aids with treatment planning and dosimetry, but direct patient care and safety monitoring remain human."
+  },
+  {
+    "slug": "radiologic-technologists",
+    "title": "Radiologic and MRI technologists",
+    "digital_exposure_2031": 4,
+    "rationale": "Positioning patients and operating imaging equipment are physical tasks. AI significantly aids image interpretation and quality assessment, but the hands-on operation of radiologic equipment and patient interaction remain human."
+  },
+  {
+    "slug": "railroad-occupations",
+    "title": "Railroad workers",
+    "digital_exposure_2031": 2,
+    "rationale": "Operating trains, maintaining track, and managing railroad equipment are physical tasks. AI assists with scheduling and monitoring, but physical operations in varied outdoor conditions remain human."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "digital_exposure_2031": 6,
+    "rationale": "Property search, market analysis, listing preparation, and contract drafting are digital tasks AI handles well. Agents retain value in showing properties, negotiating deals, and guiding clients through complex transactions."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "digital_exposure_2031": 7,
+    "rationale": "Call routing, scheduling, visitor management, and information provision are digital tasks AI handles efficiently. However, physical front-desk presence and in-person greeting remain valued in many settings, moderating full automation."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "digital_exposure_2031": 2,
+    "rationale": "Leading recreational activities, supervising participants, and organizing events are physical and interpersonal duties. AI assists with scheduling and program planning, but in-person facilitation is the core function."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "digital_exposure_2031": 2,
+    "rationale": "Planning and conducting therapeutic recreation activities with patients is hands-on, interpersonal work. AI assists with treatment documentation, but direct patient engagement through activities remains human."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "digital_exposure_2031": 4,
+    "rationale": "Bedside care, medication administration, patient assessment, and clinical procedures are hands-on duties. AI automates charting, care coordination, and clinical decision support, but physical nursing care and patient relationships remain firmly human."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "digital_exposure_2031": 4,
+    "rationale": "AI assists with assessment tools, resource databases, and documentation. However, counseling individuals with disabilities, developing rehabilitation plans through personal interaction, and advocacy require deep human empathy and judgment."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating ventilators, administering breathing treatments, and monitoring patients with cardiopulmonary disorders are hands-on clinical tasks. AI aids with treatment protocols and documentation, but bedside care is physical."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "digital_exposure_2031": 3,
+    "rationale": "Assisting customers, stocking shelves, and operating registers are physical and interpersonal tasks. E-commerce and AI reduce some retail positions, but in-store sales requiring product demonstration and customer service persist."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "digital_exposure_2031": 0,
+    "rationale": "Installing and repairing roofing materials at height is entirely physical construction work with no digital component. AI has zero impact on roofing tasks."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "digital_exposure_2031": 7,
+    "rationale": "Technical presentations, proposal development, and product configuration are digital tasks AI handles well. However, client relationships, understanding complex technical needs, and on-site demonstrations retain strong human value."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "digital_exposure_2031": 7,
+    "rationale": "Sales analytics, forecasting, territory planning, and CRM management are heavily automated. Managers retain team leadership, strategic account development, complex negotiations, and motivating sales teams."
+  },
+  {
+    "slug": "school-and-career-counselors",
+    "title": "School and career counselors and advisors",
+    "digital_exposure_2031": 5,
+    "rationale": "AI provides career assessments, college matching, and information resources. However, counseling students through personal challenges, crisis intervention, and building trusting relationships with families require human empathy and presence."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "digital_exposure_2031": 9,
+    "rationale": "Scheduling, correspondence, document preparation, filing, and data entry are routine digital tasks AI agents handle autonomously by 2031. Only executive assistants managing complex interpersonal logistics for senior leaders retain significant roles."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "digital_exposure_2031": 7,
+    "rationale": "Market analysis, portfolio construction, and trade execution are heavily automated. Agents retain value in client relationships, complex financial planning, and trust-based advisory, but routine sales and trading roles shrink."
+  },
+  {
+    "slug": "security-guards",
+    "title": "Security guards and gambling surveillance officers",
+    "digital_exposure_2031": 2,
+    "rationale": "Patrolling premises, monitoring access points, and responding to security incidents are physical presence duties. AI-enhanced surveillance helps, but human guards remain essential for physical security and emergency response."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating cleanroom equipment, monitoring semiconductor fabrication processes, and conducting quality checks are physical production tasks. AI aids with process optimization, but hands-on equipment operation remains human."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "digital_exposure_2031": 6,
+    "rationale": "AI generates 3D renderings, design concepts, and technical drawings. However, physical construction oversight, spatial understanding from being on-site, and creative vision for experiential spaces retain human value."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "digital_exposure_2031": 1,
+    "rationale": "Fabricating, installing, and repairing sheet metal products is hands-on skilled trade work. AI has minimal impact on these physical construction and manufacturing tasks."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "digital_exposure_2031": 1,
+    "rationale": "Performing facials, applying treatments, and providing skincare services are entirely hands-on personal care tasks. AI has negligible impact on these physical services."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "digital_exposure_2031": 2,
+    "rationale": "Diagnosing and repairing lawn mowers, chainsaws, and small equipment is hands-on mechanical work. AI aids with diagnostics, but physical repair remains human."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "digital_exposure_2031": 5,
+    "rationale": "Grant writing, program evaluation, reporting, and budgeting are aided by AI. However, community relationships, staff supervision, crisis management, and navigating complex social service systems require human leadership and judgment."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "digital_exposure_2031": 4,
+    "rationale": "AI assists with client intake, resource databases, and case documentation. However, direct client support, home visits, and connecting vulnerable populations with services require human empathy and physical presence."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "digital_exposure_2031": 4,
+    "rationale": "AI aids with case documentation, risk assessment tools, and resource matching. However, crisis intervention, home visits, therapeutic relationships, and navigating complex family dynamics require deep human judgment and interpersonal skills."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "digital_exposure_2031": 7,
+    "rationale": "Data analysis, survey processing, literature synthesis, and report writing are heavily digital tasks AI agents handle well. Sociologists retain value in research design, theoretical interpretation, and understanding complex social phenomena."
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "digital_exposure_2031": 8,
+    "rationale": "AI agents write, test, and deploy code for well-understood domains autonomously by 2031. Senior architects and developers handling novel system design, complex debugging, and strategic technical decisions remain, but junior coding roles are largely automated."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "digital_exposure_2031": 1,
+    "rationale": "Installing solar panels on rooftops\u2014mounting hardware, wiring, and connecting systems\u2014is physical construction work. AI has minimal impact on these hands-on installation tasks."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "digital_exposure_2031": 4,
+    "rationale": "AI assists with IEP documentation and personalized learning content. However, working with students with disabilities requires intensive hands-on support, behavioral management, and deep interpersonal care that remains firmly human."
+  },
+  {
+    "slug": "multimedia-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "digital_exposure_2031": 8,
+    "rationale": "AI generates animations, visual effects, and 3D models at high quality by 2031. Senior artists retain creative direction and novel artistic vision, but production animation and effects work is heavily automated."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "digital_exposure_2031": 3,
+    "rationale": "Evaluating and treating speech, language, and swallowing disorders involves hands-on clinical work with patients. AI aids with assessment tools and therapy exercises, but direct patient interaction and clinical judgment are central."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "digital_exposure_2031": 2,
+    "rationale": "Operating and maintaining boilers, generators, and mechanical systems in buildings is physical work. AI aids monitoring, but hands-on equipment operation and emergency response remain human."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "digital_exposure_2031": 3,
+    "rationale": "Counseling individuals through addiction and mental health crises requires deep empathy, trust, and human connection. AI assists with screening tools and documentation, but the therapeutic relationship is inherently human."
+  },
+  {
+    "slug": "surgical-technologists",
+    "title": "Surgical assistants and technologists",
+    "digital_exposure_2031": 2,
+    "rationale": "Preparing operating rooms, sterilizing instruments, and assisting surgeons during procedures are hands-on clinical tasks. AI has minimal impact on these physical surgical support duties."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "digital_exposure_2031": 8,
+    "rationale": "Survey design, data collection, statistical analysis, and report generation are heavily digital tasks AI agents handle autonomously. Human researchers focus on novel methodology, complex interpretation, and stakeholder communication."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "digital_exposure_2031": 5,
+    "rationale": "Field measurements and equipment operation are physical tasks. However, data processing, map production, and GIS analysis are digital tasks increasingly automated by AI, creating a balanced exposure profile."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "digital_exposure_2031": 4,
+    "rationale": "Field surveying with physical instruments and site visits is core to the role. AI aids with data processing, calculations, and report generation, but on-site measurement and boundary determination require human presence."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "digital_exposure_2031": 8,
+    "rationale": "Tax return review, compliance checking, and assessment calculations are heavily digital tasks AI automates. Human agents focus on complex audits, fraud investigations, and taxpayer disputes requiring judgment."
+  },
+  {
+    "slug": "taxi-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "digital_exposure_2031": 2,
+    "rationale": "Driving passengers in varied urban conditions remains primarily human at the 2031 horizon. Autonomous ride-hailing expands in limited geofenced areas, but most driving contexts still require human operators."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "digital_exposure_2031": 4,
+    "rationale": "AI handles some tutoring, grading, and instructional support. However, teacher assistants provide physical supervision, hands-on student support, and behavioral management that require human presence, especially with younger students."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "digital_exposure_2031": 9,
+    "rationale": "Documentation production, user guides, API references, and technical manuals are heavily digital tasks AI agents produce autonomously by 2031. Human technical writers focus on complex system documentation, editorial oversight, and information architecture."
+  },
+  {
+    "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
+    "title": "Telecommunications technicians",
+    "digital_exposure_2031": 2,
+    "rationale": "Installing and repairing telecommunications equipment\u2014routers, switches, cabling\u2014is hands-on physical work. AI aids with diagnostics and network configuration, but physical installation and repair remain human."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "digital_exposure_2031": 8,
+    "rationale": "Processing deposits, withdrawals, and account inquiries are routine transactions increasingly handled by ATMs and digital banking. Remaining tellers handle complex transactions and in-person customer service, but the role shrinks dramatically."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "digital_exposure_2031": 5,
+    "rationale": "AI provides comprehensive analytics, report generation, and decision support. However, organizational leadership, stakeholder management, strategic vision, board relations, and navigating complex human dynamics are deeply human executive functions."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "digital_exposure_2031": 3,
+    "rationale": "Leading tours, providing live commentary, and managing group logistics in physical locations are interpersonal and embodied duties. AI-powered audio guides substitute in some contexts, but human guides retain value for interactive experiences."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "digital_exposure_2031": 7,
+    "rationale": "AI generates training content, conducts needs assessments, and tracks learning outcomes. Managers retain strategic workforce development planning, organizational change facilitation, and leadership development roles."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "digital_exposure_2031": 7,
+    "rationale": "AI creates training materials, e-learning modules, and assessments autonomously. Human specialists focus on facilitation, executive coaching, and designing programs for complex organizational change."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "digital_exposure_2031": 6,
+    "rationale": "Route optimization, inventory management, and logistics analytics are heavily automated by AI. Managers retain strategic planning, vendor relationships, and managing physical warehouse and transportation operations."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "digital_exposure_2031": 8,
+    "rationale": "Itinerary planning, booking, price comparison, and travel documentation are digital tasks AI handles autonomously. Human agents retain value for complex multi-destination trips, luxury travel consulting, and handling disruptions, but routine bookings are automated."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "digital_exposure_2031": 7,
+    "rationale": "AI tutoring systems deliver personalized instruction, practice problems, and explanations effectively by 2031. Human tutors retain value for motivational coaching, complex conceptual breakthroughs, and test preparation for high-stakes exams."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "digital_exposure_2031": 2,
+    "rationale": "Officiating sporting events requires physical presence, real-time judgment, and game management. AI aids with video review and rule enforcement, but human officials remain essential for live competition."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "digital_exposure_2031": 7,
+    "rationale": "Data analysis, GIS mapping, zoning review, and report writing are digital tasks AI handles well. Planners retain community engagement, public hearing facilitation, and complex policy balancing roles, but analytical productivity increases dramatically."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "digital_exposure_2031": 4,
+    "rationale": "Examining animals, performing surgeries, and administering treatments are hands-on clinical tasks. AI aids with diagnostics, treatment protocols, and records, but physical veterinary medicine requires human skill and judgment."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "digital_exposure_2031": 1,
+    "rationale": "Feeding, cleaning, restraining, and caring for animals are entirely physical tasks. AI has negligible impact on these hands-on animal care duties."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "digital_exposure_2031": 2,
+    "rationale": "Assisting with animal procedures, collecting samples, administering medications, and providing animal care are hands-on clinical tasks. AI assists with records and lab analysis, but physical work dominates."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "digital_exposure_2031": 1,
+    "rationale": "Taking orders, serving food, and attending to diners are physical and interpersonal tasks. AI ordering systems exist, but human table service remains the standard in most restaurants."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "digital_exposure_2031": 3,
+    "rationale": "Operating treatment equipment, monitoring chemical processes, and maintaining physical systems are hands-on tasks. AI aids with process monitoring and optimization, but physical plant operations require human operators."
+  },
+  {
+    "slug": "water-transportation-occupations",
+    "title": "Water transportation workers",
+    "digital_exposure_2031": 2,
+    "rationale": "Operating vessels, managing cargo, and navigating waterways are physical tasks. AI aids with navigation and logistics planning, but hands-on ship operation and safety management remain human."
+  },
+  {
+    "slug": "web-developers",
+    "title": "Web developers and digital designers",
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents build, deploy, and maintain standard websites and web applications autonomously by 2031. Human developers focus on complex interactive applications, novel UX challenges, and system architecture, but routine web development is largely automated."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "digital_exposure_2031": 1,
+    "rationale": "Joining and cutting metals using welding equipment is hands-on skilled trade work. Robotic welding expands in factories, but field welding and custom fabrication remain human tasks."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "digital_exposure_2031": 7,
+    "rationale": "Product information, pricing analysis, order processing, and client communication are digital tasks AI handles efficiently. Human reps retain value in relationship-driven B2B sales, complex negotiations, and key account management."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "digital_exposure_2031": 1,
+    "rationale": "Climbing turbines, inspecting components, and performing repairs at height are physical, hazardous tasks. AI aids with predictive maintenance scheduling, but hands-on repair remains entirely human."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "digital_exposure_2031": 1,
+    "rationale": "Cutting, shaping, and assembling wood products using hand and power tools is physical skilled work. CNC programming aids some production, but manual woodworking remains human."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "digital_exposure_2031": 8,
+    "rationale": "AI generates articles, marketing copy, reports, and even creative fiction by 2031. Human writers retain value for literary voice, investigative journalism, and deeply personal creative work, but commercial content production is heavily automated."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "digital_exposure_2031": 5,
+    "rationale": "AI assists with data analysis, species identification, and literature review. However, fieldwork\u2014observing wildlife, collecting specimens, and conducting ecological surveys in natural habitats\u2014requires physical human presence."
+  }
+]

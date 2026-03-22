@@ -1,0 +1,2054 @@
+[
+  {
+    "slug": "accountants-and-auditors",
+    "title": "Accountants and auditors",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly knowledge work involving financial records, tax preparation, auditing, and advisory \u2014 almost entirely digital. AI copilots by 2028 handle routine analysis, report drafting, and compliance checks, yielding 2-3x productivity gains. However, client advisory, fraud detection, and complex judgment calls still require experienced human professionals."
+  },
+  {
+    "slug": "actors",
+    "title": "Actors",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is physical human performance \u2014 auditions, rehearsals, live and filmed acting \u2014 which AI cannot replicate for most contexts by 2028. However, AI-generated synthetic media is beginning to displace voiceover work, background extras, and some digital character work. BLS itself notes AI may replace actors in certain subfields."
+  },
+  {
+    "slug": "actuaries",
+    "title": "Actuaries",
+    "digital_exposure_2028": 7,
+    "rationale": "Almost entirely digital work: statistical modeling, risk analysis, financial forecasting, and report writing. AI excels at data analysis and pattern recognition in structured datasets. By 2028, AI copilots significantly accelerate routine modeling and analysis, but deep domain expertise, certification requirements, and regulatory judgment provide meaningful insulation for experienced practitioners."
+  },
+  {
+    "slug": "administrative-services-managers",
+    "title": "Administrative services and facilities managers",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of digital knowledge work (records management, procurement, scheduling, reporting) and physical facility oversight (building inspections, maintenance supervision, staff management). AI meaningfully assists administrative and records functions by 2028, but facilities management requires physical presence, interpersonal leadership, and real-time judgment about building operations."
+  },
+  {
+    "slug": "adult-literacy-and-ged-teachers",
+    "title": "Adult basic and secondary education and ESL teachers",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is face-to-face instruction with adult learners from diverse backgrounds, requiring cultural sensitivity, patience, and adaptive teaching methods. AI tutoring tools assist with lesson planning and content delivery by 2028, but the interpersonal relationship, in-person assessment of learning disabilities, and community resource coordination remain fundamentally human tasks."
+  },
+  {
+    "slug": "advertising-sales-agents",
+    "title": "Advertising sales agents",
+    "digital_exposure_2028": 7,
+    "rationale": "Work is predominantly digital: locating clients, making presentations, preparing sales literature, media kits, and processing correspondence. AI assists with prospect research, proposal generation, and ad performance analytics by 2028. However, relationship building and client negotiation remain human-driven."
+  },
+  {
+    "slug": "advertising-promotions-and-marketing-managers",
+    "title": "Advertising, promotions, and marketing managers",
+    "digital_exposure_2028": 7,
+    "rationale": "Core duties\u2014market research analysis, campaign planning, budget management, and creative direction\u2014are heavily digital. AI copilots by 2028 accelerate content creation, audience targeting, and performance analytics. Strategic decision-making, team leadership, and client relationships still require human judgment."
+  },
+  {
+    "slug": "aerospace-engineering-and-operations-technicians",
+    "title": "Aerospace engineering and operations technologists and technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work involves physically building, installing, calibrating, and maintaining test equipment and aircraft systems. While they record data and use computer systems, the hands-on laboratory and manufacturing floor work dominates. AI helps with data recording and simulation but cannot replace physical tasks."
+  },
+  {
+    "slug": "aerospace-engineers",
+    "title": "Aerospace engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Design work using CAD/CAE software, simulation, and analysis is heavily digital. AI copilots assist with design optimization, code generation for simulations, and technical documentation by 2028. However, physical testing, safety-critical judgment, and regulatory compliance require deep human expertise."
+  },
+  {
+    "slug": "agricultural-and-food-science-technicians",
+    "title": "Agricultural and food science technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Core duties involve hands-on lab and field work: collecting samples, operating equipment, examining specimens, and maintaining sterile environments. Report preparation and data compilation benefit from AI, but the physical specimen handling and equipment operation dominate the role."
+  },
+  {
+    "slug": "agricultural-and-food-scientists",
+    "title": "Agricultural and food scientists",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of field research, laboratory work, and knowledge work including data analysis, report writing, and compliance documentation. AI meaningfully assists literature review, data analysis, and report generation by 2028, but field research, physical experiments, and regulatory oversight require human expertise."
+  },
+  {
+    "slug": "agricultural-engineers",
+    "title": "Agricultural engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Design work using computer software, climate modeling, and system optimization is substantially digital. AI assists with design tools, simulation, and technical documentation. However, physical site visits, equipment testing, and direct collaboration with farmers and contractors remain essential."
+  },
+  {
+    "slug": "agricultural-workers",
+    "title": "Agricultural workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical labor: planting, harvesting, irrigating, operating farm machinery, feeding livestock, and cleaning animal enclosures. Minimal digital component beyond basic equipment operation. AI has negligible impact on day-to-day physical farm tasks by 2028."
+  },
+  {
+    "slug": "air-traffic-controllers",
+    "title": "Air traffic controllers",
+    "digital_exposure_2028": 4,
+    "rationale": "Work involves real-time monitoring of radar/computer systems and radio communication with pilots\u2014a mix of digital tools and high-stakes human judgment. AI aids with traffic flow optimization and weather integration, but safety-critical real-time decision-making and direct communication with pilots remain firmly human due to regulatory and safety constraints."
+  },
+  {
+    "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
+    "title": "Aircraft and avionics equipment mechanics and technicians",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on physical work: repairing aircraft components, testing electronic equipment, installing instruments using hand and power tools. Record-keeping and reading technical manuals benefit from AI, but the core physical repair and inspection work under strict FAA regulations is unaffected."
+  },
+  {
+    "slug": "airline-and-commercial-pilots",
+    "title": "Airline and commercial pilots",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is physically operating aircraft, conducting pre-flight inspections, and managing real-time flight decisions. While cockpit instruments are computerized and AI assists with flight planning and navigation, the physical presence, safety responsibility, and real-time judgment in the cockpit cannot be automated by 2028."
+  },
+  {
+    "slug": "animal-care-and-service-workers",
+    "title": "Animal care and service workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: feeding, grooming, exercising, training animals, and cleaning their living spaces. Scheduling appointments and basic record-keeping are minor digital components. AI has minimal impact on the hands-on animal care that defines this role."
+  },
+  {
+    "slug": "announcers",
+    "title": "Announcers and DJs",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of live performance (presenting, interviewing, emceeing events) and digital content work (researching topics, selecting content, operating studio equipment). AI-generated voices and content curation tools are emerging by 2028, affecting pre-recorded and routine broadcast segments, but live personality-driven performance remains human."
+  },
+  {
+    "slug": "anthropologists-and-archeologists",
+    "title": "Anthropologists and archeologists",
+    "digital_exposure_2028": 5,
+    "rationale": "Fieldwork (excavation, observation, interviews) is physical, but substantial knowledge work includes data analysis, report writing, and research planning. AI assists with literature review, data pattern analysis, and report drafting by 2028. The blend of field and desk work places this at moderate exposure."
+  },
+  {
+    "slug": "arbitrators-mediators-and-conciliators",
+    "title": "Arbitrators, mediators, and conciliators",
+    "digital_exposure_2028": 5,
+    "rationale": "Core work is interpersonal: facilitating dialogue, managing conflict, and guiding negotiations between parties. However, legal research, document review, and settlement agreement preparation are digital tasks AI can assist with. The essential human skills of empathy, persuasion, and real-time negotiation limit overall exposure."
+  },
+  {
+    "slug": "architects",
+    "title": "Architects",
+    "digital_exposure_2028": 6,
+    "rationale": "Design work using CAD software, preparing specifications, and contract documents is heavily digital. AI tools by 2028 assist with generative design, code compliance checking, and documentation. However, client meetings, site visits, creative vision, and construction oversight require significant human involvement."
+  },
+  {
+    "slug": "architectural-and-engineering-managers",
+    "title": "Architectural and engineering managers",
+    "digital_exposure_2028": 6,
+    "rationale": "Management duties include project planning, budgeting, staff coordination, and technical oversight\u2014substantially digital. AI assists with project tracking, report generation, and resource planning. However, leadership, hiring decisions, cross-functional collaboration, and technical judgment remain human-driven."
+  },
+  {
+    "slug": "curators-museum-technicians-and-conservators",
+    "title": "Archivists, curators, and museum workers",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of physical work (restoring objects, managing collections, designing exhibits) and digital tasks (cataloging, creating digital records, research). AI helps with cataloging and digital preservation by 2028, but physical conservation, exhibit curation, and public engagement require human expertise and presence."
+  },
+  {
+    "slug": "art-directors",
+    "title": "Art directors",
+    "digital_exposure_2028": 7,
+    "rationale": "Work is predominantly digital: developing visual styles, reviewing designs, coordinating creative teams, and presenting concepts to clients. AI image generation and design tools substantially assist production work by 2028. However, creative vision, team management, and client relationship skills remain essential human contributions."
+  },
+  {
+    "slug": "assemblers-and-fabricators",
+    "title": "Assemblers and fabricators",
+    "digital_exposure_2028": 1,
+    "rationale": "Core work is physical assembly using hand and power tools: positioning parts, connecting components, conducting quality checks, and maintaining equipment. Reading schematics has a minor digital component, but the overwhelmingly manual nature of assembly work means AI has minimal direct impact by 2028."
+  },
+  {
+    "slug": "athletes-and-sports-competitors",
+    "title": "Athletes and sports competitors",
+    "digital_exposure_2028": 1,
+    "rationale": "Core value is entirely physical: practicing, training, exercising, and competing in sporting events. While AI assists with performance analytics and video review, the fundamental work product\u2014athletic performance\u2014is entirely non-digital and cannot be automated."
+  },
+  {
+    "slug": "athletic-trainers",
+    "title": "Athletic trainers",
+    "digital_exposure_2028": 3,
+    "rationale": "Predominantly physical and interpersonal: applying bandages and braces, providing first aid, developing rehabilitation programs, and working directly with athletes. Administrative duties like record-keeping and treatment planning benefit from AI, but hands-on patient care dominates."
+  },
+  {
+    "slug": "atmospheric-scientists-including-meteorologists",
+    "title": "Atmospheric scientists, including meteorologists",
+    "digital_exposure_2028": 7,
+    "rationale": "Heavily digital work: analyzing atmospheric data, running computational weather models, preparing forecasts and reports, and using specialized software. AI significantly enhances weather prediction, data analysis, and forecast generation by 2028. Some fieldwork for instrument deployment remains physical."
+  },
+  {
+    "slug": "audiologists",
+    "title": "Audiologists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is clinical and interpersonal: examining patients, conducting hearing tests, fitting hearing devices, and counseling patients on treatment. While diagnostic equipment is computerized and AI may assist with test interpretation, the direct patient care and physical examination components dominate."
+  },
+  {
+    "slug": "automotive-body-and-glass-repairers",
+    "title": "Automotive body and glass repairers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on physical work: removing dents, replacing panels, refinishing surfaces, and installing windshields. Damage estimation and cost reporting have digital components that AI can assist with, but the core repair work is entirely manual."
+  },
+  {
+    "slug": "automotive-service-technicians-and-mechanics",
+    "title": "Automotive service technicians and mechanics",
+    "digital_exposure_2028": 2,
+    "rationale": "Core duties are physical: inspecting, maintaining, and repairing vehicles using diagnostic equipment and hand tools. While computerized diagnostics are integral, the hands-on repair, parts replacement, and testing work dominates. AI assists with diagnostics and service manual lookup but cannot perform physical repairs."
+  },
+  {
+    "slug": "bakers",
+    "title": "Bakers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical work: measuring ingredients, mixing dough, kneading, shaping, and baking products. Inventory management is a minor digital component. AI has negligible impact on the manual food preparation that defines this role."
+  },
+  {
+    "slug": "barbers-hairstylists-and-cosmetologists",
+    "title": "Barbers, hairstylists, and cosmetologists",
+    "digital_exposure_2028": 1,
+    "rationale": "Core work is entirely physical and interpersonal: cutting, styling, and coloring hair, skin care, and direct client interaction. Appointment scheduling is a minor digital component. AI cannot perform physical grooming services."
+  },
+  {
+    "slug": "bartenders",
+    "title": "Bartenders",
+    "digital_exposure_2028": 1,
+    "rationale": "Core duties are physical and interpersonal: mixing drinks, serving customers, managing bar inventory, and ensuring responsible alcohol service. POS system use is a minor digital component. AI has minimal impact on the in-person service nature of this work."
+  },
+  {
+    "slug": "bill-and-account-collectors",
+    "title": "Bill and account collectors",
+    "digital_exposure_2028": 8,
+    "rationale": "Work is almost entirely screen-based: using databases to find debtors, making phone calls, sending correspondence, negotiating repayment plans, and recording account information. AI chatbots and automated outreach systems can handle routine collection tasks by 2028, with active displacement of entry-level positions."
+  },
+  {
+    "slug": "biochemists-and-biophysicists",
+    "title": "Biochemists and biophysicists",
+    "digital_exposure_2028": 5,
+    "rationale": "A significant blend of physical lab work (conducting experiments, operating equipment) and digital knowledge work (data analysis, modeling, report writing, literature review). AI meaningfully assists with computational biology, protein structure prediction, and manuscript preparation by 2028, but wet-lab experimental work remains human."
+  },
+  {
+    "slug": "biomedical-engineers",
+    "title": "Bioengineers and biomedical engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Core duties include designing medical devices using CAD, developing software for medical systems, and writing technical reports\u2014substantially digital. AI assists with design optimization, simulation, and documentation. Physical prototyping, clinical testing, and regulatory navigation require human expertise."
+  },
+  {
+    "slug": "biological-technicians",
+    "title": "Biological technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily hands-on laboratory work: setting up equipment, collecting samples, conducting experiments, and maintaining sterile environments. Data recording and report preparation have digital components that AI assists with, but the physical laboratory operations dominate day-to-day work."
+  },
+  {
+    "slug": "boilermakers",
+    "title": "Boilermakers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical skilled trade work: reading blueprints, welding, installing boilers, and performing structural repairs using hand and power tools. The work requires physical presence in industrial settings with minimal digital component beyond blueprint reading."
+  },
+  {
+    "slug": "bookkeeping-accounting-and-auditing-clerks",
+    "title": "Bookkeeping, accounting, and auditing clerks",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based work: entering financial data, using bookkeeping software, producing reports, and reconciling records. AI can automate most routine data entry, classification, and report generation by 2028. Active headcount reduction is underway as organizations consolidate these roles."
+  },
+  {
+    "slug": "broadcast-and-sound-engineering-technicians",
+    "title": "Broadcast, sound, and video technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A mix of physical equipment setup and operation with digital editing and monitoring. While AI assists with automated mixing, editing, and quality control for recorded content, live broadcast operation and physical equipment management remain hands-on. The role bridges physical and digital work."
+  },
+  {
+    "slug": "budget-analysts",
+    "title": "Budget analysts",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: analyzing financial data in spreadsheets, preparing budget reports, reviewing spending patterns, and writing recommendations. AI excels at financial modeling, variance analysis, and report drafting by 2028. Routine budget analysis is highly automatable, with experienced analysts focusing on strategic advisory."
+  },
+  {
+    "slug": "bus-drivers",
+    "title": "Bus drivers",
+    "digital_exposure_2028": 1,
+    "rationale": "Core work is entirely physical: operating a large vehicle, managing passenger safety, navigating routes, and performing pre-trip inspections. While GPS and scheduling systems are digital, the fundamental task of safely driving a bus with passengers requires physical presence that AI cannot replace by 2028."
+  },
+  {
+    "slug": "butchers-and-meat-cutters",
+    "title": "Butchers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical work: receiving meat, cutting, deboning, grinding, weighing, and packaging products. Customer interaction and inventory are minor components. AI has negligible impact on the manual meat processing skills that define this trade."
+  },
+  {
+    "slug": "calibration-technologists-and-technicians",
+    "title": "Calibration technologists and technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily hands-on work: inspecting, adjusting, and testing precision measurement devices against standards. While documentation and data comparison have digital aspects that AI assists with, the physical calibration of instruments and equipment requires manual skill and precision."
+  },
+  {
+    "slug": "cardiovascular-technologists-and-technicians",
+    "title": "Cardiovascular technologists and technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work involves hands-on patient care: conducting cardiac tests, assisting in procedures, operating imaging equipment, and monitoring patients. While test results are digitally processed and AI assists with image analysis, the physical patient interaction and equipment operation dominate."
+  },
+  {
+    "slug": "career-and-technical-education-teachers",
+    "title": "Career and technical education teachers",
+    "digital_exposure_2028": 4,
+    "rationale": "Teaching vocational skills (auto repair, cosmetology, culinary arts) involves significant hands-on demonstration and student supervision. Lesson planning, curriculum development, and grading benefit from AI by 2028, but the physical instruction and mentoring in trades remains fundamentally human."
+  },
+  {
+    "slug": "carpenters",
+    "title": "Carpenters",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical work: constructing, installing, and repairing building frameworks using hand and power tools. Reading blueprints is a minor digital component. AI has negligible impact on the manual carpentry skills that define this trade."
+  },
+  {
+    "slug": "cartographers-and-photogrammetrists",
+    "title": "Cartographers and photogrammetrists",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital work: using GIS software, remote sensing data, and computer tools to create and update maps. AI significantly accelerates geospatial data analysis, automated feature extraction, and map generation by 2028. Most output is delivered digitally with minimal fieldwork required."
+  },
+  {
+    "slug": "cashiers",
+    "title": "Cashiers",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is in-person customer interaction: scanning items, processing payments, and providing service. While POS systems are digital, the role requires physical presence and customer-facing engagement. Self-checkout technology displaces some positions, but AI's impact is primarily through automation of the physical checkout process rather than digital AI tools."
+  },
+  {
+    "slug": "chefs-and-head-cooks",
+    "title": "Chefs and head cooks",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical work: food preparation, cooking, kitchen management, and quality control. Menu planning and inventory management have digital components where AI can assist, but the hands-on culinary work and kitchen leadership are entirely non-digital."
+  },
+  {
+    "slug": "chemical-engineers",
+    "title": "Chemical engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work in process design, simulation, data analysis, and technical documentation using specialized software. AI assists with process optimization, safety analysis, and report generation by 2028. However, plant visits, equipment oversight, and safety-critical judgment require physical presence and human expertise."
+  },
+  {
+    "slug": "chemical-technicians",
+    "title": "Chemical technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily hands-on laboratory work: monitoring chemical processes, testing product quality, operating instruments, and maintaining equipment. Data recording and analysis have digital components, but the physical laboratory operations and quality control testing dominate the role."
+  },
+  {
+    "slug": "chemists-and-materials-scientists",
+    "title": "Chemists and materials scientists",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical lab work (carrying out experiments, operating instruments) and digital knowledge work (data analysis, computational modeling, report writing). AI assists with molecular modeling, literature review, and data analysis by 2028, but hands-on experimental work remains essential."
+  },
+  {
+    "slug": "childcare-workers",
+    "title": "Childcare workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: supervising children, organizing activities, preparing meals, and fostering early development. The work requires constant physical presence and human care that AI cannot replace. Record-keeping is a negligible digital component."
+  },
+  {
+    "slug": "chiropractors",
+    "title": "Chiropractors",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is physical patient care: spinal manipulation, musculoskeletal assessment, and hands-on treatment. Patient records, imaging review, and treatment planning have digital components where AI assists, but the essential hands-on therapeutic work and patient interaction dominate."
+  },
+  {
+    "slug": "civil-engineering-technicians",
+    "title": "Civil engineering technologists and technicians",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of field work (site inspections, surveying, materials testing) and digital tasks (drafting using CAD, analyzing data, preparing reports). AI assists with design drafting and data analysis by 2028, but physical site work and hands-on testing remain significant portions of the role."
+  },
+  {
+    "slug": "civil-engineers",
+    "title": "Civil engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work: using CAD and simulation software for design, analyzing data, preparing project specifications, and writing reports. AI assists with design optimization and documentation by 2028. However, site visits, construction supervision, and safety-critical regulatory judgment require human presence and expertise."
+  },
+  {
+    "slug": "claims-adjusters-appraisers-examiners-and-investigators",
+    "title": "Claims adjusters, appraisers, examiners, and investigators",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital work: reviewing claims documentation, analyzing policy coverage, calculating settlements, and preparing reports. AI significantly accelerates claims processing, fraud detection, and damage estimation by 2028. Physical site inspections for complex claims provide some insulation."
+  },
+  {
+    "slug": "clinical-laboratory-technologists-and-technicians",
+    "title": "Clinical laboratory technologists and technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on laboratory testing: preparing specimens, operating complex analytical equipment, and performing quality control. While lab information systems and AI-assisted diagnostics are part of the digital infrastructure, the physical specimen handling and equipment operation dominate daily work."
+  },
+  {
+    "slug": "coaches-and-scouts",
+    "title": "Coaches and scouts",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily physical and interpersonal: conducting practices, teaching techniques, providing motivation, and attending games. Scouting involves video analysis and statistical evaluation where AI helps by 2028, but the core coaching relationship and in-person instruction remain fundamentally human."
+  },
+  {
+    "slug": "community-health-workers",
+    "title": "Community health workers",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is interpersonal and community-based: conducting outreach, providing health education, connecting people with services, and advocating for underserved populations. Record-keeping and resource coordination have digital components, but the face-to-face community engagement dominates."
+  },
+  {
+    "slug": "compensation-and-benefits-managers",
+    "title": "Compensation and benefits managers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital knowledge work: analyzing salary data, designing compensation structures, managing benefits programs, and ensuring regulatory compliance using HRIS systems. AI assists with market benchmarking, plan modeling, and compliance monitoring by 2028. Staff supervision and strategic decision-making remain human."
+  },
+  {
+    "slug": "compensation-benefits-and-job-analysis-specialists",
+    "title": "Compensation, benefits, and job analysis specialists",
+    "digital_exposure_2028": 7,
+    "rationale": "Almost entirely screen-based: analyzing wage data, evaluating job descriptions, administering benefits programs, and preparing reports. AI significantly assists with salary benchmarking, job classification, and benefits analysis by 2028. Routine analytical tasks face meaningful automation pressure."
+  },
+  {
+    "slug": "compliance-officers",
+    "title": "Compliance officers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital knowledge work: reviewing regulations, conducting audits, analyzing organizational practices, and preparing compliance reports. AI excels at monitoring regulatory changes, scanning documents for compliance issues, and generating reports by 2028. However, judgment in ambiguous situations and organizational advisory remain human."
+  },
+  {
+    "slug": "computer-and-information-research-scientists",
+    "title": "Computer and information research scientists",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: designing algorithms, conducting computing research, writing papers, and developing new technologies. AI accelerates experimentation, code writing, and literature review by 2028. However, novel research direction-setting and theoretical breakthroughs still require deep human expertise, providing some insulation at the senior level."
+  },
+  {
+    "slug": "computer-and-information-systems-managers",
+    "title": "Computer and information systems managers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: planning IT strategy, managing technology teams, overseeing system implementations, and coordinating budgets. AI assists with project tracking, capacity planning, and vendor evaluation by 2028. Leadership, cross-functional coordination, and strategic technology decisions remain human-driven."
+  },
+  {
+    "slug": "computer-hardware-engineers",
+    "title": "Computer hardware engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work in circuit design, simulation, and testing using EDA tools, plus technical documentation. AI assists with design optimization and verification by 2028. Physical prototyping, lab testing, and manufacturing oversight provide meaningful non-digital components."
+  },
+  {
+    "slug": "computer-network-architects",
+    "title": "Computer network architects",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: designing network topologies, evaluating hardware/software, analyzing data traffic, and planning implementations. AI assists with network optimization, security analysis, and capacity planning by 2028. However, strategic architecture decisions and cross-organizational coordination remain human-driven."
+  },
+  {
+    "slug": "computer-programmers",
+    "title": "Computer programmers",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: writing, testing, debugging, and maintaining code. AI coding agents by 2028 can autonomously handle routine coding tasks, translating specifications into working code. Active headcount reduction in pure coding roles as AI handles 50-70% of routine programming. Senior architecture and complex problem-solving remain human."
+  },
+  {
+    "slug": "computer-support-specialists",
+    "title": "Computer support specialists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: troubleshooting software/hardware issues, maintaining networks, training users, and managing IT tickets. AI chatbots and diagnostic tools handle routine support queries by 2028. Some physical hardware maintenance provides insulation, but Tier 1 support faces significant automation."
+  },
+  {
+    "slug": "computer-systems-analysts",
+    "title": "Computer systems analysts",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: studying organizational systems, designing IT solutions, preparing specifications, and coordinating implementations. AI assists with requirements analysis, system modeling, and documentation by 2028. Routine systems analysis is highly automatable, with experienced analysts focusing on complex organizational change."
+  },
+  {
+    "slug": "concierges",
+    "title": "Concierges",
+    "digital_exposure_2028": 4,
+    "rationale": "A mix of interpersonal service (greeting guests, handling personal requests) and digital tasks (making reservations, researching information, coordinating services). AI chatbots handle routine information requests by 2028, but the personalized, in-person service experience remains human-driven."
+  },
+  {
+    "slug": "conservation-scientists",
+    "title": "Conservation scientists and foresters",
+    "digital_exposure_2028": 4,
+    "rationale": "Significant fieldwork: inspecting forests, monitoring land quality, and overseeing conservation activities. Data analysis, mapping, and report writing are digital components where AI assists by 2028. The blend of outdoor field work and office-based analysis places this at moderate exposure."
+  },
+  {
+    "slug": "construction-and-building-inspectors",
+    "title": "Construction and building inspectors",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work requires physical site visits to inspect structures, verify code compliance, and assess building conditions. While report writing and code reference have digital components AI assists with, the essential on-site inspection and professional judgment require physical presence."
+  },
+  {
+    "slug": "construction-equipment-operators",
+    "title": "Construction equipment operators",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: operating heavy machinery like bulldozers, cranes, and excavators on construction sites. Equipment maintenance and GPS-guided operation are minor digital components. AI has negligible impact on the hands-on equipment operation that defines this role."
+  },
+  {
+    "slug": "construction-laborers-and-helpers",
+    "title": "Construction laborers and helpers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical labor: cleaning work areas, loading materials, operating hand tools, and assisting skilled tradespeople. This is one of the most purely physical occupations with virtually no digital component that AI could affect by 2028."
+  },
+  {
+    "slug": "construction-managers",
+    "title": "Construction managers",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of digital project management (budgeting, scheduling, contract administration, reporting) and physical site oversight. AI assists with cost estimation, schedule optimization, and document management by 2028. However, on-site supervision, contractor coordination, and safety management require significant physical presence."
+  },
+  {
+    "slug": "cooks",
+    "title": "Cooks",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical work: preparing ingredients, cooking food, plating dishes, and maintaining kitchen cleanliness. POS system interaction is a negligible digital component. AI has minimal impact on the manual culinary tasks that define this role."
+  },
+  {
+    "slug": "correctional-officers",
+    "title": "Correctional officers and bailiffs",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical and interpersonal: supervising inmates, maintaining order, conducting searches, and responding to emergencies. Report writing and record-keeping have digital components, but the core security and supervision work requires constant physical presence."
+  },
+  {
+    "slug": "cost-estimators",
+    "title": "Cost estimators",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital work: analyzing data, calculating material/labor/time costs, using estimation software, and preparing detailed reports. AI significantly enhances cost modeling, historical data analysis, and proposal generation by 2028. Some site visits for complex projects provide partial insulation."
+  },
+  {
+    "slug": "court-reporters",
+    "title": "Court reporters and simultaneous captioners",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely digital output: creating verbatim transcriptions using specialized equipment. AI speech-to-text technology by 2028 can produce highly accurate real-time transcriptions, directly threatening this role. Active displacement is occurring as automated transcription replaces routine proceedings."
+  },
+  {
+    "slug": "craft-and-fine-artists",
+    "title": "Craft and fine artists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is physical creation: painting, sculpting, ceramics, glassblowing, and other hands-on artistic techniques. While AI generates digital art, the physical craft process and unique artistic vision of fine artists remain distinctly human. Marketing and portfolio work have digital components."
+  },
+  {
+    "slug": "credit-counselors",
+    "title": "Credit counselors",
+    "digital_exposure_2028": 6,
+    "rationale": "A blend of interpersonal counseling (advising clients on debt management, budgeting) and digital tasks (analyzing financial data, preparing repayment plans, processing applications). AI assists with financial analysis and plan generation by 2028, but the empathetic client relationship and personalized guidance remain human."
+  },
+  {
+    "slug": "customer-service-representatives",
+    "title": "Customer service representatives",
+    "digital_exposure_2028": 8,
+    "rationale": "Predominantly screen-based: handling phone/chat/email inquiries, processing orders, resolving complaints, and updating account records. AI chatbots and virtual agents handle 50-70% of routine customer interactions by 2028. Active headcount reduction in basic customer service roles is underway."
+  },
+  {
+    "slug": "dancers-and-choreographers",
+    "title": "Dancers and choreographers",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is physical: performing, rehearsing, and creating dance routines through bodily movement. While choreographers may use video tools and AI-assisted composition software, the essential physical performance and creative embodiment cannot be digitized by 2028."
+  },
+  {
+    "slug": "data-scientists",
+    "title": "Data scientists",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: collecting, analyzing, and modeling data using programming languages and statistical tools. AI significantly accelerates data cleaning, exploratory analysis, model building, and visualization by 2028. Routine data science tasks face strong automation, with experienced practitioners focusing on complex problem framing."
+  },
+  {
+    "slug": "database-administrators",
+    "title": "Database administrators and architects",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: designing database systems, managing data storage, ensuring security, optimizing performance, and troubleshooting issues. AI assists with query optimization, capacity planning, and automated monitoring by 2028. Routine database administration faces significant automation pressure."
+  },
+  {
+    "slug": "delivery-truck-drivers-and-driver-sales-workers",
+    "title": "Delivery truck drivers and driver/sales workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Core work is physical: driving delivery vehicles, loading/unloading packages, navigating routes, and interacting with customers. GPS and routing software are digital tools, but the fundamental task of physically driving and delivering packages requires human presence. Autonomous delivery vehicles remain limited by 2028."
+  },
+  {
+    "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
+    "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily hands-on manufacturing work: creating dentures, eyeglasses, prosthetics using specialized tools and materials. CAD/CAM technology and 3D printing are increasingly used, with AI assisting design, but manual craftsmanship and fitting remain essential."
+  },
+  {
+    "slug": "dental-assistants",
+    "title": "Dental assistants",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is clinical and hands-on: preparing patients, handing instruments to dentists, taking X-rays, and sterilizing equipment. Record-keeping and appointment scheduling have digital components, but the chairside clinical work dominates the role."
+  },
+  {
+    "slug": "dental-hygienists",
+    "title": "Dental hygienists",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical patient care: cleaning teeth, examining patients for oral diseases, applying preventive treatments, and educating patients. Digital charting and X-ray systems are tools used, but the core hands-on clinical work cannot be automated by AI."
+  },
+  {
+    "slug": "dentists",
+    "title": "Dentists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is clinical: examining patients, diagnosing conditions, performing procedures, and providing treatment. Digital imaging and AI-assisted diagnostics help with treatment planning, but the hands-on surgical and procedural work, patient communication, and clinical judgment dominate."
+  },
+  {
+    "slug": "desktop-publishers",
+    "title": "Desktop publishers",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: using design software to create page layouts for print and digital media. AI tools by 2028 can automate template-based layout, typography selection, and image placement. This role faces active displacement as AI handles most production-level desktop publishing tasks."
+  },
+  {
+    "slug": "diagnostic-medical-sonographers",
+    "title": "Diagnostic medical sonographers",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on: operating ultrasound equipment on patients, positioning transducers, and acquiring diagnostic images. While AI assists with image interpretation by 2028, the physical patient interaction, equipment manipulation, and real-time image acquisition require skilled human operators."
+  },
+  {
+    "slug": "diesel-service-technicians-and-mechanics",
+    "title": "Diesel service technicians and mechanics",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is hands-on: inspecting, repairing, and overhauling diesel engines using diagnostic equipment and hand tools. Computerized diagnostics aid troubleshooting, but the physical repair, parts replacement, and mechanical work dominate. AI assists with technical manual lookup but cannot perform repairs."
+  },
+  {
+    "slug": "dietitians-and-nutritionists",
+    "title": "Dietitians and nutritionists",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of interpersonal counseling (meeting patients, conducting assessments) and digital knowledge work (meal planning, nutritional analysis, report writing). AI assists with dietary analysis, meal plan generation, and research by 2028, but personalized patient counseling and clinical assessment remain human-driven."
+  },
+  {
+    "slug": "drafters",
+    "title": "Drafters",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: converting designs into technical drawings using CAD software. AI-assisted design tools by 2028 can automate much of routine drafting, including generating standard components and checking compliance. Active headcount pressure in production drafting roles."
+  },
+  {
+    "slug": "drywall-and-ceiling-tile-installers-and-tapers",
+    "title": "Drywall installers, ceiling tile installers, and tapers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: hanging wallboard, installing ceiling tiles, applying tape and joint compound, and sanding surfaces. This is one of the most purely manual trades with no meaningful digital component that AI could affect by 2028."
+  },
+  {
+    "slug": "economists",
+    "title": "Economists",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: conducting statistical analysis, building economic models, writing research reports, and evaluating policy impacts. AI significantly accelerates data analysis, forecasting, and report drafting by 2028. Routine economic analysis faces strong automation, with senior economists focusing on novel research and policy judgment."
+  },
+  {
+    "slug": "editors",
+    "title": "Editors",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: reviewing text, correcting errors, verifying facts, and managing content workflows. AI writing and editing tools by 2028 handle much of routine copyediting and proofreading. Active headcount reduction in editorial departments as AI assists with content review and revision."
+  },
+  {
+    "slug": "electrical-and-electronics-engineering-technicians",
+    "title": "Electrical and electronic engineering technologists and technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of physical work (building prototypes, testing equipment, calibrating instruments) and digital tasks (using CAD, analyzing test data, maintaining records). AI assists with data analysis and design documentation, but hands-on equipment testing and prototyping remain central."
+  },
+  {
+    "slug": "electrical-and-electronics-engineers",
+    "title": "Electrical and electronics engineers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: designing circuits and systems using EDA software, running simulations, analyzing test data, and writing specifications. AI copilots significantly assist with design optimization and documentation by 2028. Physical prototyping and testing provide some non-digital balance."
+  },
+  {
+    "slug": "electrical-and-electronics-installers-and-repairers",
+    "title": "Electrical and electronics installers and repairers",
+    "digital_exposure_2028": 2,
+    "rationale": "Primarily hands-on work: installing, maintaining, and repairing electrical equipment in transportation and industrial settings. Using diagnostic instruments and reading technical manuals have digital components, but the physical installation and repair work dominates."
+  },
+  {
+    "slug": "line-installers-and-repairers",
+    "title": "Electrical power-line installers and repairers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical outdoor work: climbing utility poles, stringing cables, repairing power lines, and erecting transmission towers. This is dangerous physical labor with virtually no digital component that AI could meaningfully affect by 2028."
+  },
+  {
+    "slug": "electricians",
+    "title": "Electricians",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on skilled trade work: installing wiring, outlets, circuit breakers, and maintaining electrical systems. Blueprint reading and code compliance have digital aspects, but the physical electrical work in buildings and factories dominates. AI assists with code lookup but cannot perform installations."
+  },
+  {
+    "slug": "electro-mechanical-technicians",
+    "title": "Electro-mechanical and mechatronics technologists and technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work involves operating, testing, and maintaining automated and robotic equipment\u2014a blend of physical hands-on work and digital monitoring. AI assists with diagnostics and programming, but physical equipment maintenance and troubleshooting remain central."
+  },
+  {
+    "slug": "elementary-middle-and-high-school-principals",
+    "title": "Elementary, middle, and high school principals",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of interpersonal leadership (managing staff, student discipline, parent relations) and digital administrative work (budgeting, scheduling, reporting, curriculum oversight). AI assists with data analysis and administrative tasks by 2028, but the human leadership, community engagement, and judgment calls remain essential."
+  },
+  {
+    "slug": "elevator-installers-and-repairers",
+    "title": "Elevator and escalator installers and repairers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical skilled trade work: installing elevator components, troubleshooting mechanical systems, and performing maintenance in confined spaces. Blueprint reading and diagnostic tools are minor digital components. AI has negligible impact on this hands-on trade."
+  },
+  {
+    "slug": "emergency-management-directors",
+    "title": "Emergency management directors",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of digital planning (developing emergency plans, analyzing risk data, coordinating logistics) and physical/interpersonal response work (leading disaster response, coordinating with officials, conducting community outreach). AI assists with risk modeling and communication planning by 2028."
+  },
+  {
+    "slug": "emts-and-paramedics",
+    "title": "EMTs and paramedics",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is physical emergency response: assessing injuries, providing medical care, transporting patients, and operating emergency vehicles. Electronic patient records and dispatch systems are digital tools, but the hands-on emergency medical care dominates. AI cannot replace physical life-saving interventions."
+  },
+  {
+    "slug": "entertainment-and-recreation-managers",
+    "title": "Entertainment and recreation managers",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of digital management (scheduling, budgeting, marketing, reporting) and interpersonal/physical oversight (facility management, staff supervision, community engagement). AI assists with scheduling optimization and marketing content by 2028, but on-site management and personal leadership remain essential."
+  },
+  {
+    "slug": "environmental-engineering-technicians",
+    "title": "Environmental engineering technologists and technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of physical fieldwork (operating pollution control equipment, collecting samples, site inspections) and digital tasks (maintaining records, analyzing data, preparing reports). AI assists with data analysis and reporting, but hands-on equipment operation and field testing remain significant."
+  },
+  {
+    "slug": "environmental-engineers",
+    "title": "Environmental engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work: designing pollution control systems using engineering software, analyzing environmental data, writing impact reports, and modeling solutions. AI assists with simulation, data analysis, and documentation by 2028. Site investigations and regulatory coordination add non-digital components."
+  },
+  {
+    "slug": "environmental-science-and-protection-technicians",
+    "title": "Environmental science and protection technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of field monitoring (collecting samples, conducting inspections, operating monitoring equipment) and digital tasks (analyzing data, preparing reports, maintaining records). AI assists with data analysis, but physical fieldwork and sample collection remain central."
+  },
+  {
+    "slug": "environmental-scientists-and-specialists",
+    "title": "Environmental scientists and specialists",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of fieldwork (collecting environmental samples, conducting site investigations) and digital knowledge work (analyzing data, writing reports, developing remediation plans). AI meaningfully assists with data analysis, modeling, and report generation by 2028, balanced by essential fieldwork."
+  },
+  {
+    "slug": "epidemiologists",
+    "title": "Epidemiologists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: analyzing disease data, conducting statistical studies, writing research reports, and developing public health policies. AI significantly accelerates data analysis, pattern detection, and literature review by 2028. Community education and fieldwork investigations provide some non-digital balance."
+  },
+  {
+    "slug": "exercise-physiologists",
+    "title": "Exercise physiologists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on and interpersonal: administering fitness assessments, developing exercise programs, and working directly with patients. Some digital analysis of test results and program documentation exists, but the physical patient interaction and exercise supervision dominate."
+  },
+  {
+    "slug": "farmers-ranchers-and-other-agricultural-managers",
+    "title": "Farmers, ranchers, and other agricultural managers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical: overseeing crop production, managing livestock, operating equipment, and maintaining facilities. Financial planning and market analysis have digital components where AI assists, but the hands-on agricultural management and outdoor work dominate."
+  },
+  {
+    "slug": "fashion-designers",
+    "title": "Fashion designers",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: sketching designs using CAD, selecting fabrics and patterns, and creating production specifications. AI image generation tools assist with concept development and trend analysis by 2028. However, physical fabric selection, fitting, and creative artistic vision remain distinctly human."
+  },
+  {
+    "slug": "film-and-video-editors-and-camera-operators",
+    "title": "Film and video editors and camera operators",
+    "digital_exposure_2028": 6,
+    "rationale": "Camera operation is physical, requiring on-location presence and artistic judgment. Video editing is heavily digital and AI-assisted by 2028 with automated editing, color correction, and effects. The blend of physical camera work and digital post-production places this at high-moderate exposure."
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial analysts",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: analyzing financial data, building valuation models, writing research reports, and making investment recommendations. AI significantly accelerates data analysis, modeling, and report generation by 2028. Routine financial analysis faces strong automation pressure."
+  },
+  {
+    "slug": "financial-clerks",
+    "title": "Financial clerks",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: updating financial records, processing transactions, verifying data, and preparing reports. AI automation handles most routine data entry, reconciliation, and processing tasks by 2028. Active headcount reduction in financial clerk positions as organizations automate."
+  },
+  {
+    "slug": "financial-examiners",
+    "title": "Financial examiners",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: reviewing financial records, evaluating compliance, assessing risk levels, and writing examination reports. AI assists with automated compliance checking, risk scoring, and report generation by 2028. Complex regulatory judgment and on-site examinations provide some insulation."
+  },
+  {
+    "slug": "financial-managers",
+    "title": "Financial managers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital knowledge work: creating financial reports, directing investments, analyzing market trends, and developing strategic plans. AI copilots significantly assist with financial modeling and reporting by 2028. Strategic decision-making, stakeholder management, and organizational leadership remain human-driven."
+  },
+  {
+    "slug": "fire-inspectors-and-investigators",
+    "title": "Fire inspectors",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work requires physical inspections: examining buildings for fire hazards, investigating fire scenes, and enforcing fire codes. Report writing and code compliance research have digital components, but the essential on-site inspection and investigation work requires physical presence."
+  },
+  {
+    "slug": "firefighters",
+    "title": "Firefighters",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: responding to emergencies, putting out fires, rescuing people, operating equipment, and maintaining physical fitness. Report writing is a minor digital component. AI has minimal impact on the physically demanding emergency response that defines this role."
+  },
+  {
+    "slug": "fishers-and-related-fishing-workers",
+    "title": "Fishing and hunting workers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical outdoor work: operating boats, catching fish, maintaining nets and equipment, and navigating waterways. This is one of the most physically demanding and non-digital occupations with no meaningful AI exposure by 2028."
+  },
+  {
+    "slug": "fitness-trainers-and-instructors",
+    "title": "Fitness trainers and instructors",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is physical and interpersonal: leading exercise classes, demonstrating techniques, motivating clients, and monitoring form. AI fitness apps provide some competition for basic programming, but the in-person instruction, motivation, and physical correction remain fundamentally human."
+  },
+  {
+    "slug": "flight-attendants",
+    "title": "Flight attendants",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: ensuring passenger safety, serving food and beverages, managing cabin emergencies, and providing customer service in flight. The work requires physical presence aboard aircraft with minimal digital component."
+  },
+  {
+    "slug": "tile-and-marble-setters",
+    "title": "Flooring installers and tile and stone setters",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: removing old flooring, measuring and cutting materials, laying tile, carpet, or hardwood, and finishing surfaces. This is purely manual skilled trade work with no meaningful digital component that AI could affect."
+  },
+  {
+    "slug": "floral-designers",
+    "title": "Floral designers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical and creative: arranging flowers, selecting materials, and interacting with customers. Online ordering and inventory management are minor digital components. AI has limited impact on the hands-on artistic arrangement and customer service that define this role."
+  },
+  {
+    "slug": "food-and-beverage-serving-and-related-workers",
+    "title": "Food and beverage serving and related workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: taking orders, serving food, clearing tables, and providing customer service. POS system use is a minor digital tool. AI has minimal impact on the in-person food service that defines this role."
+  },
+  {
+    "slug": "food-preparation-workers",
+    "title": "Food preparation workers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: slicing meat, cutting vegetables, preparing ingredients, and maintaining kitchen cleanliness. This is among the most purely manual food service roles with no meaningful digital component."
+  },
+  {
+    "slug": "food-and-tobacco-processing-workers",
+    "title": "Food processing equipment workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Predominantly physical: operating food processing machinery, loading equipment, monitoring production lines, and maintaining sanitary conditions. Machine controls may have digital interfaces, but the core work is operating and monitoring physical equipment."
+  },
+  {
+    "slug": "food-service-managers",
+    "title": "Food service managers",
+    "digital_exposure_2028": 3,
+    "rationale": "A blend of physical on-site management (overseeing kitchen operations, ensuring food quality, managing staff) and digital tasks (scheduling, budgeting, inventory management, ordering). AI assists with scheduling and inventory optimization by 2028, but the hands-on restaurant management dominates."
+  },
+  {
+    "slug": "forensic-science-technicians",
+    "title": "Forensic science technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of physical crime scene work (collecting evidence, documenting scenes) and laboratory analysis (testing evidence, analyzing DNA, preparing reports). AI assists with database searches and pattern matching by 2028, but physical evidence collection and expert testimony remain human-dependent."
+  },
+  {
+    "slug": "forest-and-conservation-workers",
+    "title": "Forest and conservation workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical outdoor work: planting trees, fighting fires, maintaining trails, and using forestry equipment. Data recording is a minor digital component. AI has negligible impact on the manual conservation labor that defines this role."
+  },
+  {
+    "slug": "fundraisers",
+    "title": "Fundraisers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: researching donors, writing grant proposals, designing promotional materials, managing donor databases, and coordinating campaigns. AI significantly assists with prospect research, proposal drafting, and campaign analytics by 2028. In-person relationship building provides some insulation."
+  },
+  {
+    "slug": "funeral-service-occupations",
+    "title": "Funeral service workers",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is interpersonal and physical: comforting families, coordinating ceremonies, preparing remains, and managing logistics. Administrative tasks like scheduling and documentation have digital components, but the deeply personal and hands-on nature of funeral service dominates."
+  },
+  {
+    "slug": "gaming-services-occupations",
+    "title": "Gambling services workers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly in-person service: dealing cards, operating gaming equipment, interacting with patrons, and monitoring gaming tables. Surveillance and cash management systems are digital tools, but the physical casino floor presence and customer interaction dominate."
+  },
+  {
+    "slug": "general-maintenance-and-repair-workers",
+    "title": "General maintenance and repair workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: fixing machines, repairing plumbing, painting, maintaining electrical systems, and performing general building upkeep. Work order management is a minor digital component. AI has negligible impact on the hands-on repair work."
+  },
+  {
+    "slug": "general-office-clerks",
+    "title": "General office clerks",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: answering phones, typing documents, filing records, managing correspondence, and data entry. AI automation handles most routine clerical tasks by 2028, including document processing, scheduling, and correspondence. Active displacement occurring in basic office clerk positions."
+  },
+  {
+    "slug": "genetic-counselors",
+    "title": "Genetic counselors",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of interpersonal counseling (supporting families, explaining genetic risks, guiding decisions) and digital analysis (reviewing genetic test results, researching conditions). AI assists with test interpretation and risk assessment by 2028, but the empathetic patient counseling and complex decision support remain human."
+  },
+  {
+    "slug": "geographers",
+    "title": "Geographers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: using GIS tools, analyzing spatial data, writing research reports, and creating maps and visualizations. AI significantly assists with geospatial data analysis and pattern detection by 2028. Some fieldwork provides non-digital balance, but the role is heavily screen-based."
+  },
+  {
+    "slug": "geological-and-petroleum-technicians",
+    "title": "Geological and hydrologic technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of fieldwork (collecting samples, operating monitoring equipment, conducting surveys) and digital tasks (analyzing data, preparing reports, using GIS tools). AI assists with data analysis and mapping, but physical field operations and sample collection remain central."
+  },
+  {
+    "slug": "geoscientists",
+    "title": "Geoscientists",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of field research (collecting rock samples, conducting surveys) and digital knowledge work (analyzing geological data, modeling, writing reports). AI assists with data interpretation and simulation by 2028, balanced by essential fieldwork and physical sample analysis."
+  },
+  {
+    "slug": "glaziers",
+    "title": "Glaziers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical skilled trade work: cutting glass, installing windows, removing old glass, and working at heights. Blueprint reading is a minor reference task. AI has no meaningful impact on this manual construction trade."
+  },
+  {
+    "slug": "graphic-designers",
+    "title": "Graphic designers",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: creating visual concepts using design software, developing layouts for ads, brochures, and digital media. AI image generation and design tools by 2028 handle much of template and production design work. Active restructuring in production-level graphic design roles."
+  },
+  {
+    "slug": "grounds-maintenance-workers",
+    "title": "Grounds maintenance workers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical outdoor work: mowing lawns, pruning shrubs, planting flowers, removing snow, and maintaining landscapes. This is among the most purely physical occupations with no digital component that AI could affect."
+  },
+  {
+    "slug": "hand-laborers-and-material-movers",
+    "title": "Hand laborers and material movers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: moving freight, loading trucks, stacking materials, and cleaning vehicles by hand. This is one of the most purely manual occupations with no meaningful digital component."
+  },
+  {
+    "slug": "hazardous-materials-removal-workers",
+    "title": "Hazardous materials removal workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: identifying and disposing of hazardous substances, using protective equipment, and following strict safety protocols. Documentation and compliance records are minor digital components. The dangerous hands-on work cannot be automated by AI."
+  },
+  {
+    "slug": "health-and-safety-engineers",
+    "title": "Health and safety engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work: analyzing safety data, designing safety systems, writing reports, and evaluating compliance with regulations. AI assists with risk modeling, incident analysis, and compliance monitoring by 2028. Physical site inspections and investigations provide non-digital balance."
+  },
+  {
+    "slug": "health-educators",
+    "title": "Health education specialists",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of interpersonal community work (conducting workshops, training, outreach) and digital tasks (developing educational materials, analyzing health data, writing reports). AI assists with content creation and data analysis by 2028, but face-to-face community engagement remains essential."
+  },
+  {
+    "slug": "health-information-technologists-and-medical-registrars",
+    "title": "Health information technologists and medical registrars",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: managing electronic health records, analyzing clinical data, ensuring coding accuracy, and advising on healthcare IT systems. AI significantly automates data coding, quality checking, and system management by 2028. Active headcount pressure in routine health information roles."
+  },
+  {
+    "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
+    "title": "Heating, air conditioning, and refrigeration mechanics and installers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on: installing, maintaining, and repairing HVAC systems using hand tools and testing equipment. Computerized diagnostics assist with troubleshooting, but the physical installation and repair work in buildings dominates. AI has minimal direct impact."
+  },
+  {
+    "slug": "heavy-and-tractor-trailer-truck-drivers",
+    "title": "Heavy and tractor-trailer truck drivers",
+    "digital_exposure_2028": 1,
+    "rationale": "Core work is physical: operating heavy vehicles, managing cargo, performing pre-trip inspections, and navigating routes. GPS and electronic logging are digital tools, but the fundamental task of driving large vehicles safely requires physical presence. Autonomous trucking remains limited by 2028."
+  },
+  {
+    "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
+    "title": "Heavy vehicle and mobile equipment service technicians",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on: inspecting, maintaining, and repairing heavy construction and farming equipment. Computerized diagnostic tools assist with troubleshooting, but the physical repair and maintenance work dominates. AI cannot perform manual mechanical repairs."
+  },
+  {
+    "slug": "high-school-teachers",
+    "title": "High school teachers",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is interpersonal: classroom instruction, student engagement, maintaining discipline, and parent communication. Lesson planning, grading, and curriculum development benefit from AI tools by 2028, but the face-to-face teaching relationship and classroom management remain fundamentally human."
+  },
+  {
+    "slug": "historians",
+    "title": "Historians",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital knowledge work: researching archives, analyzing historical documents, writing reports and publications, and presenting findings. AI significantly assists with document analysis, literature review, and drafting by 2028. Some physical archival research remains, but the work is heavily text-based."
+  },
+  {
+    "slug": "home-health-aides-and-personal-care-aides",
+    "title": "Home health and personal care aides",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: assisting with daily activities like bathing, dressing, meal preparation, and monitoring patient conditions. Documentation is a minor digital component. AI cannot replace the hands-on personal care that defines this role."
+  },
+  {
+    "slug": "human-resources-managers",
+    "title": "Human resources managers",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly digital knowledge work: overseeing recruitment, managing HRIS systems, developing policies, and analyzing workforce data. AI assists with resume screening, benefits analysis, and compliance monitoring by 2028. Strategic leadership, employee relations, and organizational development remain human-driven."
+  },
+  {
+    "slug": "human-resources-specialists",
+    "title": "Human resources specialists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly screen-based: screening resumes, scheduling interviews, processing benefits, maintaining employee records, and drafting communications. AI significantly automates resume screening, onboarding paperwork, and benefits administration by 2028. In-person interviewing and employee relations provide some insulation."
+  },
+  {
+    "slug": "hydrologists",
+    "title": "Hydrologists",
+    "digital_exposure_2028": 6,
+    "rationale": "A mix of fieldwork (measuring water properties, collecting samples) and heavily digital analysis (modeling water systems, analyzing data, writing reports). AI assists with hydrological modeling and data analysis by 2028, but field research and site-specific judgment remain important."
+  },
+  {
+    "slug": "industrial-designers",
+    "title": "Industrial designers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: using CAD/CAM software, creating 3D renderings, developing product specifications, and preparing presentations. AI generative design tools significantly assist concept development by 2028. Physical prototyping and user research provide some non-digital balance, but the work is heavily screen-based."
+  },
+  {
+    "slug": "industrial-engineering-technicians",
+    "title": "Industrial engineering technologists and technicians",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical production floor work (studying workflows, conducting time studies, inspecting processes) and digital tasks (analyzing data, preparing reports, using statistical software). AI assists with data analysis and process optimization by 2028."
+  },
+  {
+    "slug": "industrial-engineers",
+    "title": "Industrial engineers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: designing production systems, analyzing workflows using simulation software, conducting statistical studies, and writing efficiency reports. AI copilots significantly assist with process optimization and data analysis by 2028. Factory floor observation provides some physical component."
+  },
+  {
+    "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
+    "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on: repairing factory equipment, dismantling machinery, replacing parts, and performing preventive maintenance. Computerized maintenance systems and diagnostics are tools used, but the physical mechanical work in industrial settings dominates."
+  },
+  {
+    "slug": "industrial-production-managers",
+    "title": "Industrial production managers",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of digital management (production planning, scheduling, budgeting, quality reporting) and physical floor oversight (inspecting production lines, supervising workers, ensuring safety). AI assists with production optimization and reporting by 2028, but on-site management remains essential."
+  },
+  {
+    "slug": "information-clerks",
+    "title": "Information clerks",
+    "digital_exposure_2028": 8,
+    "rationale": "Predominantly screen-based: maintaining records, collecting data, processing forms, and providing information to customers via phone/email. AI chatbots and automation handle most routine information requests and data processing by 2028. Active displacement in basic information clerk roles."
+  },
+  {
+    "slug": "information-security-analysts",
+    "title": "Information security analysts",
+    "digital_exposure_2028": 7,
+    "rationale": "Almost entirely digital: monitoring networks, analyzing security threats, implementing protective measures, and writing incident reports. AI significantly enhances threat detection and automated response by 2028. However, novel threat analysis, strategic security architecture, and incident response coordination require experienced human judgment."
+  },
+  {
+    "slug": "instructional-coordinators",
+    "title": "Instructional coordinators",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly digital: developing curricula, analyzing educational data, evaluating teaching methods, and writing reports. AI assists with content development, data analysis, and assessment design by 2028. Teacher training and school-based collaboration provide interpersonal balance."
+  },
+  {
+    "slug": "insulation-workers",
+    "title": "Insulation workers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: installing, replacing, and removing insulation materials in buildings and mechanical systems. Blueprint reading is a minor reference task. AI has no meaningful impact on this manual construction trade."
+  },
+  {
+    "slug": "insurance-sales-agents",
+    "title": "Insurance sales agents",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: researching policies, generating quotes, processing applications, managing client databases, and preparing presentations. AI significantly assists with policy comparison, lead generation, and administrative processing by 2028. Client relationship building provides some interpersonal insulation."
+  },
+  {
+    "slug": "insurance-underwriters",
+    "title": "Insurance underwriters",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: analyzing insurance applications, evaluating risk using data models, determining premiums, and reviewing policy terms. AI excels at automated risk scoring and application processing by 2028. Active headcount reduction in routine underwriting as AI handles standard risk assessments."
+  },
+  {
+    "slug": "interior-designers",
+    "title": "Interior designers",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: creating designs using CAD software, selecting materials digitally, and preparing presentations. AI generative design tools assist with space planning and visualization by 2028. Physical site visits, client meetings, and hands-on material selection provide non-digital balance."
+  },
+  {
+    "slug": "interpreters-and-translators",
+    "title": "Interpreters and translators",
+    "digital_exposure_2028": 9,
+    "rationale": "Translation work is almost entirely digital and highly automatable by AI by 2028. Machine translation handles most routine document translation. Live interpretation faces pressure from real-time AI translation tools. Active displacement in routine translation, with specialized and high-stakes interpretation retaining human value."
+  },
+  {
+    "slug": "structural-iron-and-steel-workers",
+    "title": "Ironworkers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical and dangerous work: installing structural steel, reinforcing iron, welding, and working at heights. Blueprint reading is a minor reference task. AI has no meaningful impact on this demanding construction trade."
+  },
+  {
+    "slug": "janitors-and-building-cleaners",
+    "title": "Janitors and building cleaners",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: sweeping, mopping, vacuuming, cleaning restrooms, emptying trash, and maintaining building cleanliness. This is one of the most purely physical occupations with no digital component that AI could affect."
+  },
+  {
+    "slug": "jewelers-and-precious-stone-and-metal-workers",
+    "title": "Jewelers and precious stone and metal workers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on craft work: designing, constructing, and repairing jewelry using specialized tools and materials. CAD is increasingly used for design, but the manual craftsmanship\u2014cutting, soldering, setting stones\u2014dominates. AI assists with design concepts but cannot perform physical jewelry work."
+  },
+  {
+    "slug": "judges-and-hearing-officers",
+    "title": "Judges and hearing officers",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of courtroom presence (presiding over proceedings, hearing testimony, managing courtroom) and digital knowledge work (researching case law, reviewing evidence, writing opinions). AI assists with legal research and document review by 2028, but judicial discretion, courtroom management, and constitutional authority remain firmly human."
+  },
+  {
+    "slug": "kindergarten-and-elementary-school-teachers",
+    "title": "Kindergarten and elementary school teachers",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is interpersonal: teaching young children, managing classrooms, providing individualized attention, and communicating with parents. AI assists with lesson planning, assessment creation, and progress tracking by 2028, but the nurturing, in-person teaching of young children remains fundamentally human."
+  },
+  {
+    "slug": "labor-relations-specialists",
+    "title": "Labor relations specialists",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly knowledge work: negotiating contracts, researching labor law, mediating disputes, and preparing documentation. AI assists with contract analysis, precedent research, and drafting by 2028. In-person negotiation, relationship management, and advocacy remain human-driven."
+  },
+  {
+    "slug": "landscape-architects",
+    "title": "Landscape architects",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: creating landscape plans using CAD, preparing site analyses, estimating costs, and writing specifications. AI assists with design generation and environmental analysis by 2028. Physical site visits, client meetings, and construction oversight provide meaningful non-digital components."
+  },
+  {
+    "slug": "lawyers",
+    "title": "Lawyers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital knowledge work: legal research, document drafting, contract review, and case analysis. AI significantly accelerates research, document review, and drafting by 2028. However, courtroom advocacy, client counseling, strategic judgment, and complex negotiations remain firmly human-driven."
+  },
+  {
+    "slug": "librarians",
+    "title": "Librarians and library media specialists",
+    "digital_exposure_2028": 6,
+    "rationale": "A substantial digital role: managing digital catalogs, conducting research, evaluating information sources, and developing programs. AI assists with cataloging, research support, and content curation by 2028. In-person community engagement, programming, and reader advisory provide interpersonal balance."
+  },
+  {
+    "slug": "library-technicians-and-assistants",
+    "title": "Library technicians and assistants",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical tasks (shelving materials, maintaining collections) and digital work (cataloging, managing databases, processing checkouts). AI assists with cataloging and patron queries by 2028. The mix of physical and digital tasks places this at moderate exposure."
+  },
+  {
+    "slug": "licensed-practical-and-licensed-vocational-nurses",
+    "title": "Licensed practical and licensed vocational nurses",
+    "digital_exposure_2028": 3,
+    "rationale": "Predominantly hands-on patient care: changing bandages, inserting catheters, measuring vitals, and administering medication. Electronic health records and care documentation have digital components, but the physical bedside nursing care dominates the role."
+  },
+  {
+    "slug": "loan-officers",
+    "title": "Loan officers",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: evaluating loan applications, analyzing financial data, calculating risk, and processing documentation. AI significantly automates credit assessment, document verification, and routine loan processing by 2028. Active headcount pressure in standard loan processing roles."
+  },
+  {
+    "slug": "lodging-managers",
+    "title": "Lodging managers",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of interpersonal management (guest relations, staff supervision, handling complaints) and digital tasks (revenue management, booking systems, financial reporting). AI assists with pricing optimization and operations analytics by 2028, but on-site hospitality management remains human-driven."
+  },
+  {
+    "slug": "logging-workers",
+    "title": "Logging workers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical outdoor work: felling trees, operating chainsaws and heavy logging equipment, and grading timber. This is among the most physically demanding occupations with no meaningful digital component."
+  },
+  {
+    "slug": "logisticians",
+    "title": "Logisticians",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: analyzing supply chain data, coordinating logistics using software systems, negotiating with suppliers, and optimizing distribution. AI significantly enhances supply chain optimization, demand forecasting, and route planning by 2028. Some warehouse visits and supplier meetings provide physical balance."
+  },
+  {
+    "slug": "machinists-and-tool-and-die-makers",
+    "title": "Machinists and tool and die makers",
+    "digital_exposure_2028": 2,
+    "rationale": "Primarily hands-on work: operating CNC machines and manual lathes, measuring precision parts, and using hand tools. CNC programming has a digital component, but the physical machine operation, setup, and quality inspection dominate. AI assists with CNC code generation but not the physical work."
+  },
+  {
+    "slug": "management-analysts",
+    "title": "Management analysts",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital knowledge work: analyzing organizational data, developing recommendations, preparing reports and presentations, and conducting research. AI copilots significantly accelerate analysis, benchmarking, and report drafting by 2028. Routine consulting deliverables face strong automation pressure."
+  },
+  {
+    "slug": "manicurists-and-pedicurists",
+    "title": "Manicurists and pedicurists",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical and interpersonal: cleaning, shaping, and beautifying nails through hands-on manual work. Appointment scheduling is a negligible digital component. AI has no impact on the physical nail care services."
+  },
+  {
+    "slug": "marine-engineers-and-naval-architects",
+    "title": "Marine engineers and naval architects",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work: designing vessels using CAD, running simulations, analyzing performance data, and writing technical specifications. AI assists with design optimization and documentation by 2028. Physical sea trials, shipyard visits, and equipment inspections provide non-digital balance."
+  },
+  {
+    "slug": "market-research-analysts",
+    "title": "Market research analysts",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: designing surveys, analyzing consumer data, building statistical models, and preparing market reports. AI significantly automates data collection, trend analysis, and report generation by 2028. Routine market research faces strong automation pressure."
+  },
+  {
+    "slug": "marriage-and-family-therapists",
+    "title": "Marriage and family therapists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is deeply interpersonal: conducting therapy sessions, assessing clients' emotional states, and facilitating family and couples' communication. Progress notes and treatment planning have digital components, but the therapeutic relationship and clinical judgment are fundamentally human."
+  },
+  {
+    "slug": "brickmasons-blockmasons-and-stonemasons",
+    "title": "Masonry workers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical skilled trade work: laying bricks, blocks, and stone; mixing mortar; and building walls and structures. Blueprint reading is a minor reference task. AI has no meaningful impact on this manual construction trade."
+  },
+  {
+    "slug": "massage-therapists",
+    "title": "Massage therapists",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: applying pressure to manipulate soft tissues and joints. Client communication and scheduling are minor digital components. AI cannot perform hands-on bodywork."
+  },
+  {
+    "slug": "material-moving-machine-operators",
+    "title": "Material moving machine operators",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: operating forklifts, cranes, and other material-moving equipment in warehouses and construction sites. Inventory tracking systems are minor digital tools. The core physical machine operation cannot be replaced by AI by 2028."
+  },
+  {
+    "slug": "material-recording-clerks",
+    "title": "Material recording clerks",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: tracking shipments in databases, managing inventory records, preparing shipping documents, and scheduling deliveries using software systems. AI automates much of routine inventory tracking and order processing by 2028. Physical warehouse verification provides some balance."
+  },
+  {
+    "slug": "materials-engineers",
+    "title": "Materials engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: using simulation software for materials modeling, analyzing test data, and writing technical reports. AI assists with computational materials science and property prediction by 2028. Physical laboratory testing and manufacturing process oversight provide non-digital balance."
+  },
+  {
+    "slug": "mathematicians-and-statisticians",
+    "title": "Mathematicians and statisticians",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: analyzing data, developing mathematical models, applying statistical methods, and writing research papers. AI significantly accelerates data analysis, model building, and computation by 2028. Routine statistical analysis faces strong automation, with theoretical mathematics retaining more human value."
+  },
+  {
+    "slug": "mechanical-engineering-technicians",
+    "title": "Mechanical engineering technologists and technicians",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical work (testing equipment, building prototypes, operating machinery) and digital tasks (making sketches, recording data, preparing reports using CAD). AI assists with data analysis and drafting by 2028, but hands-on testing and prototype work remain significant."
+  },
+  {
+    "slug": "mechanical-engineers",
+    "title": "Mechanical engineers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: designing mechanical systems using CAD, running simulations, analyzing test data, and writing specifications. AI copilots significantly assist with design optimization, thermal analysis, and documentation by 2028. Physical prototyping and testing provide some balance. Calibration anchor occupation."
+  },
+  {
+    "slug": "medical-and-health-services-managers",
+    "title": "Medical and health services managers",
+    "digital_exposure_2028": 6,
+    "rationale": "A blend of digital management (budgeting, regulatory compliance, data analysis, strategic planning) and interpersonal leadership (staff management, interdepartmental coordination, patient advocacy). AI assists with operational analytics and compliance by 2028, but healthcare leadership requires human judgment."
+  },
+  {
+    "slug": "medical-assistants",
+    "title": "Medical assistants",
+    "digital_exposure_2028": 3,
+    "rationale": "A mix of clinical duties (taking vitals, preparing patients, assisting with examinations) and administrative tasks (scheduling, updating records, processing insurance). AI helps with scheduling and records by 2028, but the hands-on clinical support work is substantial."
+  },
+  {
+    "slug": "medical-dosimetrists",
+    "title": "Medical dosimetrists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: using specialized software to calculate radiation doses, design treatment plans, and analyze imaging data. AI significantly enhances automated treatment planning and dose calculation by 2028. Collaboration with physicians and patient-specific clinical judgment provide some insulation."
+  },
+  {
+    "slug": "medical-equipment-repairers",
+    "title": "Medical equipment repairers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on: installing, testing, calibrating, and repairing medical equipment. Diagnostic software and technical documentation are digital tools, but the physical repair work with precision medical instruments dominates."
+  },
+  {
+    "slug": "medical-records-and-health-information-technicians",
+    "title": "Medical records specialists",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: processing and maintaining patient files, coding medical information, verifying records, and managing electronic health record systems. AI automates much of medical coding, data entry, and record verification by 2028. Active displacement in routine medical records roles."
+  },
+  {
+    "slug": "medical-scientists",
+    "title": "Medical scientists",
+    "digital_exposure_2028": 6,
+    "rationale": "A blend of laboratory research (conducting experiments, clinical trials) and digital knowledge work (analyzing data, writing grants and papers, reviewing literature). AI significantly assists with data analysis, literature review, and experiment design by 2028, but hands-on lab work and clinical oversight remain human."
+  },
+  {
+    "slug": "medical-transcriptionists",
+    "title": "Medical transcriptionists",
+    "digital_exposure_2028": 10,
+    "rationale": "Almost entirely digital: converting physician voice recordings into text documents and editing medical records. AI speech-to-text technology by 2028 handles 80%+ of transcription work with high accuracy. This is a calibration anchor for maximum digital exposure, with active displacement well underway."
+  },
+  {
+    "slug": "meeting-convention-and-event-planners",
+    "title": "Meeting, convention, and event planners",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of digital coordination (researching venues, managing budgets, coordinating logistics online) and interpersonal/physical work (site visits, on-site event management, vendor negotiations). AI assists with venue matching, logistics optimization, and communication by 2028."
+  },
+  {
+    "slug": "metal-and-plastic-machine-workers",
+    "title": "Metal and plastic machine workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Predominantly physical: setting up and operating cutting, shaping, and forming machines. CNC programming has a minor digital component, but the hands-on machine operation, material loading, and quality inspection dominate this manufacturing role."
+  },
+  {
+    "slug": "microbiologists",
+    "title": "Microbiologists",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical lab work (culturing organisms, conducting experiments, operating microscopes) and digital knowledge work (analyzing data, writing research papers, reviewing literature). AI assists with data analysis and genomic sequencing interpretation by 2028, balanced by essential wet-lab work."
+  },
+  {
+    "slug": "middle-school-teachers",
+    "title": "Middle school teachers",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is interpersonal classroom instruction, student engagement, and classroom management. AI assists with lesson planning, grading, and differentiated content creation by 2028, but the face-to-face teaching relationship with adolescents remains fundamentally human."
+  },
+  {
+    "slug": "military-careers",
+    "title": "Military careers",
+    "digital_exposure_2028": 3,
+    "rationale": "Military careers span a wide range from combat roles to administrative functions. The overall profile is heavily physical (training, operations, equipment maintenance) with some digital components (communications, intelligence analysis, logistics). AI assists with planning and analysis but cannot replace physical military service."
+  },
+  {
+    "slug": "mining-and-geological-engineers",
+    "title": "Mining and geological engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work: designing mines using engineering software, analyzing geological data, preparing technical reports, and running safety simulations. AI assists with mine planning optimization and data analysis by 2028. Physical site inspections and safety management provide non-digital balance."
+  },
+  {
+    "slug": "models",
+    "title": "Models",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is physical: posing for photographs, walking runways, and fitting clothing. AI-generated models and virtual fashion shows are emerging by 2028, creating moderate digital displacement pressure. However, live modeling for fittings and in-person appearances remains human."
+  },
+  {
+    "slug": "music-directors-and-composers",
+    "title": "Music directors and composers",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of performance (conducting orchestras, leading rehearsals) and digital creative work (composing using software, arranging, producing recordings). AI music generation tools are advancing rapidly by 2028, affecting commercial composition. Live direction and artistic vision remain human."
+  },
+  {
+    "slug": "musicians-and-singers",
+    "title": "Musicians and singers",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is physical performance: playing instruments and singing for live audiences and in studios. AI-generated music affects commercial background music, but live performance, artistic expression, and studio artistry remain distinctly human. Some digital recording and production work exists."
+  },
+  {
+    "slug": "natural-sciences-managers",
+    "title": "Natural sciences managers",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly knowledge work: planning research programs, managing budgets, coordinating teams, and writing reports. AI assists with project tracking, data analysis, and proposal writing by 2028. Strategic research direction, team leadership, and cross-functional coordination remain human."
+  },
+  {
+    "slug": "network-and-computer-systems-administrators",
+    "title": "Network and computer systems administrators",
+    "digital_exposure_2028": 7,
+    "rationale": "Almost entirely digital: installing and configuring network hardware/software, monitoring system performance, ensuring security, and troubleshooting issues. AI significantly automates routine monitoring, patch management, and incident detection by 2028. Complex architecture and incident response retain human value."
+  },
+  {
+    "slug": "reporters-correspondents-and-broadcast-news-analysts",
+    "title": "News analysts, reporters, and journalists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: researching stories, writing articles, conducting interviews, and publishing content. AI assists with drafting, fact-checking, and data journalism by 2028. In-person investigative reporting, source relationships, and editorial judgment provide meaningful human value. Calibration anchor area."
+  },
+  {
+    "slug": "nuclear-engineers",
+    "title": "Nuclear engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: designing reactor systems using simulation software, analyzing safety data, and writing technical reports. AI assists with modeling and safety analysis by 2028. Physical plant inspections, equipment testing, and strict regulatory compliance require human presence and expertise."
+  },
+  {
+    "slug": "nuclear-medicine-technologists",
+    "title": "Nuclear medicine technologists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on clinical: preparing and administering radioactive drugs, operating imaging equipment, and working directly with patients. AI assists with image analysis by 2028, but the physical patient care and equipment operation dominate."
+  },
+  {
+    "slug": "nuclear-technicians",
+    "title": "Nuclear technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "A blend of physical work (operating and maintaining nuclear equipment, monitoring radiation levels) and digital monitoring/data tasks. Safety-critical physical operations in nuclear environments dominate, with AI assisting on data analysis and monitoring."
+  },
+  {
+    "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
+    "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
+    "digital_exposure_2028": 4,
+    "rationale": "Predominantly clinical: examining patients, prescribing medications, performing procedures, and providing primary care. AI assists with diagnostic decision support and documentation by 2028, but hands-on patient care, clinical judgment, and procedures require experienced human practitioners."
+  },
+  {
+    "slug": "nursing-assistants",
+    "title": "Nursing assistants and orderlies",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical care: bathing patients, assisting with mobility, serving meals, and transporting patients. Documentation is a minor digital component. AI cannot replace the hands-on personal care that defines this role."
+  },
+  {
+    "slug": "occupational-health-and-safety-specialists-and-technicians",
+    "title": "Occupational health and safety specialists and technicians",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical inspections (examining workplaces, testing equipment, collecting samples) and digital tasks (analyzing data, writing reports, developing safety programs). AI assists with compliance monitoring and data analysis by 2028, balanced by essential on-site inspection work."
+  },
+  {
+    "slug": "occupational-therapists",
+    "title": "Occupational therapists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on and interpersonal: evaluating patients' abilities, developing treatment plans, and teaching daily living skills through direct interaction. Documentation and treatment planning have digital components, but the physical therapeutic work with patients dominates."
+  },
+  {
+    "slug": "occupational-therapy-assistants-and-aides",
+    "title": "Occupational therapy assistants and aides",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical and interpersonal: helping patients with exercises and activities, preparing treatment rooms, and assisting therapists. Record-keeping is a minor digital component. The hands-on patient care cannot be automated."
+  },
+  {
+    "slug": "oil-and-gas-workers",
+    "title": "Oil and gas workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: operating drilling equipment, maintaining pumps, working on offshore platforms, and managing extraction processes. The demanding outdoor physical work in harsh conditions has minimal digital component that AI could affect."
+  },
+  {
+    "slug": "operations-research-analysts",
+    "title": "Operations research analysts",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: collecting and analyzing data, developing mathematical models, using optimization software, and writing reports. AI significantly enhances modeling, simulation, and pattern detection by 2028. Routine optimization work faces strong automation pressure."
+  },
+  {
+    "slug": "opticians-dispensing",
+    "title": "Opticians",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is hands-on customer service: measuring faces for eyeglasses, adjusting frames, fitting contact lenses, and helping customers select eyewear. Prescription processing is a minor digital component. The physical fitting and interpersonal service dominate."
+  },
+  {
+    "slug": "optometrists",
+    "title": "Optometrists",
+    "digital_exposure_2028": 3,
+    "rationale": "Predominantly clinical: performing eye examinations, using specialized equipment, prescribing corrective lenses, and counseling patients. AI assists with image analysis for disease screening by 2028, but the hands-on examination and patient care remain human-driven."
+  },
+  {
+    "slug": "orthotists-and-prosthetists",
+    "title": "Orthotists and prosthetists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on: measuring patients, designing custom devices, fabricating artificial limbs and braces, and fitting them. CAD and 3D printing assist with design, but the physical measurement, fabrication, and patient fitting require skilled human practitioners."
+  },
+  {
+    "slug": "painters-construction-and-maintenance",
+    "title": "Painters, construction and maintenance",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical work: preparing surfaces, applying paint and coatings, and working on ladders and scaffolding. This is purely manual construction trade work with no digital component that AI could affect."
+  },
+  {
+    "slug": "painting-and-coating-workers",
+    "title": "Painting and coating workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Predominantly physical: operating painting machinery, preparing products for coating, and maintaining equipment. Machine controls have minor digital interfaces, but the physical manufacturing floor work dominates."
+  },
+  {
+    "slug": "paralegals-and-legal-assistants",
+    "title": "Paralegals and legal assistants",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: conducting legal research, drafting documents, organizing case files, and managing correspondence. AI significantly automates legal research, document review, and drafting by 2028. Active restructuring in basic paralegal research roles as AI handles routine legal document work."
+  },
+  {
+    "slug": "personal-financial-advisors",
+    "title": "Personal financial advisors",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: analyzing financial data, developing investment strategies, and preparing financial plans. AI robo-advisors handle routine portfolio management by 2028. However, complex financial planning, client relationship management, and trust-based advisory remain human-driven."
+  },
+  {
+    "slug": "pest-control-workers",
+    "title": "Pest control workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: inspecting buildings, identifying pest infestations, applying treatments, and setting traps. Scheduling and record-keeping are minor digital components. AI has negligible impact on the hands-on pest control work."
+  },
+  {
+    "slug": "petroleum-engineers",
+    "title": "Petroleum engineers",
+    "digital_exposure_2028": 6,
+    "rationale": "Substantial digital work: designing extraction methods using simulation software, analyzing geological data, and writing technical reports. AI assists with reservoir modeling and production optimization by 2028. Physical drilling oversight and site visits provide non-digital balance."
+  },
+  {
+    "slug": "pharmacists",
+    "title": "Pharmacists",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of digital knowledge work (verifying prescriptions, checking drug interactions, managing inventory systems) and interpersonal patient care (counseling patients, collaborating with physicians). AI assists with interaction checking and dispensing automation by 2028, but patient counseling and clinical judgment remain human."
+  },
+  {
+    "slug": "pharmacy-technicians",
+    "title": "Pharmacy technicians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of physical tasks (counting pills, packaging medications, maintaining stock) and digital work (processing prescriptions in systems, managing inventory databases, verifying insurance). AI assists with inventory management and prescription processing by 2028, but physical medication handling remains significant."
+  },
+  {
+    "slug": "phlebotomists",
+    "title": "Phlebotomists",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely hands-on clinical work: drawing blood, labeling specimens, calming patients, and maintaining sterile equipment. Electronic record entry is a minor digital component. AI cannot perform the physical blood draw procedure."
+  },
+  {
+    "slug": "photographers",
+    "title": "Photographers",
+    "digital_exposure_2028": 6,
+    "rationale": "A significant digital component: editing photos using software, managing digital assets, marketing services online, and delivering work digitally. AI image tools affect stock photography and routine editing by 2028. However, live shooting (weddings, events, portraits) requires physical presence and artistic vision."
+  },
+  {
+    "slug": "physical-therapist-assistants-and-aides",
+    "title": "Physical therapist assistants and aides",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on patient care: helping patients with exercises, providing physical support, and preparing treatment areas. Documentation has a minor digital component. The physical therapeutic assistance and patient interaction cannot be automated."
+  },
+  {
+    "slug": "physical-therapists",
+    "title": "Physical therapists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on: evaluating patients' movement, developing treatment plans through physical assessment, and guiding patients through therapeutic exercises. AI assists with treatment planning and outcome tracking by 2028, but the physical examination and manual therapy dominate."
+  },
+  {
+    "slug": "physician-assistants",
+    "title": "Physician assistants",
+    "digital_exposure_2028": 4,
+    "rationale": "Predominantly clinical: examining patients, diagnosing conditions, prescribing medications, and performing procedures. AI diagnostic support tools assist with clinical decision-making by 2028, but hands-on patient examination, procedural work, and clinical judgment remain firmly human."
+  },
+  {
+    "slug": "physicians-and-surgeons",
+    "title": "Physicians and surgeons",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is clinical: examining patients, performing procedures and surgeries, and making complex diagnostic decisions. AI assists with imaging interpretation, treatment recommendations, and documentation by 2028. However, physical examinations, surgical skills, and life-or-death clinical judgment remain fundamentally human."
+  },
+  {
+    "slug": "physicists-and-astronomers",
+    "title": "Physicists and astronomers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: running computational simulations, analyzing large datasets, building theoretical models, and writing research papers. AI significantly assists with data analysis, simulation, and literature review by 2028. Some laboratory experiment work and telescope operation provide physical balance."
+  },
+  {
+    "slug": "plumbers-pipefitters-and-steamfitters",
+    "title": "Plumbers, pipefitters, and steamfitters",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on skilled trade work: installing and repairing piping systems, soldering, cutting pipe, and testing for leaks. Blueprint reading and cost estimation have minor digital components. AI has minimal impact on the physical plumbing work. Calibration anchor occupation."
+  },
+  {
+    "slug": "podiatrists",
+    "title": "Podiatrists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is clinical and procedural: examining feet, diagnosing conditions, prescribing treatments, and performing surgery. Patient records and imaging have digital components, but the hands-on examination and surgical procedures dominate."
+  },
+  {
+    "slug": "police-and-detectives",
+    "title": "Police and detectives",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of physical patrol and enforcement with digital investigative work (analyzing evidence, writing reports, searching databases). AI assists with surveillance analysis, report writing, and crime pattern detection by 2028. Physical patrol, arrests, and community interaction remain firmly human. Calibration anchor area."
+  },
+  {
+    "slug": "political-scientists",
+    "title": "Political scientists",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital knowledge work: researching political systems, analyzing data, writing papers, and evaluating policy. AI significantly accelerates research, data analysis, and literature review by 2028. Routine political analysis faces strong automation, with senior researchers focusing on novel theoretical contributions."
+  },
+  {
+    "slug": "postal-service-workers",
+    "title": "Postal service workers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical: sorting mail, delivering letters and packages, and operating postal vehicles. Automated sorting machines handle some work, but the physical delivery routes and customer interaction dominate. AI has limited additional impact beyond existing automation."
+  },
+  {
+    "slug": "postsecondary-education-administrators",
+    "title": "Postsecondary education administrators",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly digital administrative work: managing student records, overseeing admissions processes, analyzing institutional data, and coordinating programs. AI assists with enrollment management, data analysis, and process automation by 2028. Student and faculty engagement provides interpersonal balance."
+  },
+  {
+    "slug": "postsecondary-teachers",
+    "title": "Postsecondary teachers",
+    "digital_exposure_2028": 6,
+    "rationale": "A blend of in-person teaching (lectures, seminars, office hours) and digital knowledge work (research, writing publications, grading, developing course materials). AI significantly assists with research, grading, and content development by 2028. The teaching relationship and original research remain human-driven."
+  },
+  {
+    "slug": "power-plant-operators-distributors-and-dispatchers",
+    "title": "Power plant operators, distributors, and dispatchers",
+    "digital_exposure_2028": 3,
+    "rationale": "A blend of physical equipment monitoring (operating controls, inspecting equipment) and digital system monitoring (using SCADA systems, monitoring power distribution). AI assists with predictive maintenance and load optimization, but the safety-critical physical plant operation requires human oversight."
+  },
+  {
+    "slug": "preschool-and-childcare-center-directors",
+    "title": "Preschool and childcare center directors",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of interpersonal management (supervising staff, communicating with parents, ensuring child welfare) and digital administration (budgeting, enrollment management, regulatory compliance). AI assists with administrative tasks by 2028, but the in-person leadership and childcare oversight dominate."
+  },
+  {
+    "slug": "preschool-teachers",
+    "title": "Preschool teachers",
+    "digital_exposure_2028": 2,
+    "rationale": "Almost entirely interpersonal and physical: teaching young children through play, supervising activities, assessing developmental progress, and communicating with parents. The nurturing, hands-on care of young children is fundamentally human with minimal digital component."
+  },
+  {
+    "slug": "private-detectives-and-investigators",
+    "title": "Private detectives and investigators",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical fieldwork (surveillance, interviewing witnesses, visiting locations) and digital research (searching databases, analyzing records, preparing reports). AI assists with background checks and data analysis by 2028, but physical surveillance and in-person investigation remain essential."
+  },
+  {
+    "slug": "probation-officers-and-correctional-treatment-specialists",
+    "title": "Probation officers and correctional treatment specialists",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of interpersonal work (interviewing offenders, conducting home visits, counseling) and digital tasks (writing reports, managing case files, analyzing risk assessments). AI assists with report writing and risk scoring by 2028, but the face-to-face supervision and rehabilitation work remain human."
+  },
+  {
+    "slug": "producers-and-directors",
+    "title": "Producers and directors",
+    "digital_exposure_2028": 5,
+    "rationale": "A mix of in-person creative leadership (directing actors, managing productions, attending shoots) and digital work (editing, budgeting, scheduling, reviewing content). AI assists with production scheduling and post-production by 2028, but creative vision and on-set leadership remain human."
+  },
+  {
+    "slug": "project-management-specialists",
+    "title": "Project management specialists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: managing schedules, budgets, and resources using project management software; writing status reports; and coordinating stakeholders. AI copilots significantly assist with scheduling optimization, risk analysis, and reporting by 2028. Cross-functional leadership provides some insulation. Calibration anchor occupation."
+  },
+  {
+    "slug": "appraisers-and-assessors-of-real-estate",
+    "title": "Property appraisers and assessors",
+    "digital_exposure_2028": 6,
+    "rationale": "A blend of physical property inspections and digital analysis (researching comparable sales, analyzing market data, preparing valuation reports). AI assists with automated valuation models and report generation by 2028. Physical property inspections and professional judgment provide meaningful insulation."
+  },
+  {
+    "slug": "property-real-estate-and-community-association-managers",
+    "title": "Property, real estate, and community association managers",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of digital management (financial reporting, lease administration, marketing) and physical on-site work (property inspections, tenant relations, maintenance oversight). AI assists with financial analysis and communication by 2028, but property visits and tenant management remain hands-on."
+  },
+  {
+    "slug": "psychiatric-technicians-and-aides",
+    "title": "Psychiatric technicians and aides",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly interpersonal and physical: monitoring patient behavior, assisting with daily activities, providing therapeutic care, and maintaining safe environments. Documentation has a minor digital component, but the hands-on patient care in psychiatric settings dominates."
+  },
+  {
+    "slug": "psychologists",
+    "title": "Psychologists",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of interpersonal clinical work (conducting therapy, administering assessments, counseling patients) and digital knowledge work (analyzing research data, writing reports, reviewing literature). AI assists with test interpretation and research by 2028, but the therapeutic relationship and clinical judgment remain human."
+  },
+  {
+    "slug": "public-relations-managers",
+    "title": "Public relations and fundraising managers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: developing communication strategies, managing media relations, overseeing content creation, and analyzing public perception data. AI significantly assists with content drafting, media monitoring, and sentiment analysis by 2028. Strategic communication and relationship management remain human."
+  },
+  {
+    "slug": "public-relations-specialists",
+    "title": "Public relations specialists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly screen-based: writing press releases, managing social media, monitoring media coverage, and creating promotional content. AI significantly accelerates content creation, media analysis, and campaign optimization by 2028. Client relationship and crisis communication remain human-driven."
+  },
+  {
+    "slug": "police-fire-and-ambulance-dispatchers",
+    "title": "Public safety telecommunicators",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of interpersonal crisis communication (calming callers, gathering information under pressure) and digital dispatch coordination (using CAD systems, monitoring radio, managing resources). AI assists with call routing and resource optimization by 2028, but the human judgment in emergency triage remains essential."
+  },
+  {
+    "slug": "purchasing-managers-buyers-and-purchasing-agents",
+    "title": "Purchasing managers, buyers, and purchasing agents",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: evaluating suppliers using databases, negotiating contracts, analyzing market data, and managing procurement systems. AI significantly enhances supplier evaluation, price analysis, and purchase order automation by 2028. Relationship negotiation provides some insulation."
+  },
+  {
+    "slug": "quality-control-inspectors",
+    "title": "Quality control inspectors",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily physical: examining products and materials, operating testing equipment, and conducting on-site inspections. While data recording and statistical analysis have digital components, the hands-on inspection, measurement, and testing work dominates."
+  },
+  {
+    "slug": "radiation-therapists",
+    "title": "Radiation therapists",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of clinical patient care (positioning patients, explaining treatments, monitoring during procedures) and digital system operation (operating treatment delivery systems, reviewing treatment plans). AI assists with treatment verification, but patient positioning and care remain hands-on."
+  },
+  {
+    "slug": "radiologic-technologists",
+    "title": "Radiologic and MRI technologists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on: positioning patients, operating imaging equipment, and ensuring patient safety during scans. AI assists with image quality assessment and preliminary analysis by 2028, but the physical patient positioning and equipment operation cannot be automated."
+  },
+  {
+    "slug": "railroad-occupations",
+    "title": "Railroad workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Predominantly physical: operating locomotives, coupling railcars, inspecting equipment, and managing rail yard operations. Signal and dispatch systems have digital components, but the physical railroad operations dominate."
+  },
+  {
+    "slug": "real-estate-brokers-and-sales-agents",
+    "title": "Real estate brokers and sales agents",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: listing properties online, analyzing market data, preparing contracts, and marketing. AI assists with valuation, lead generation, and document preparation by 2028. However, property showings, client relationship building, and negotiation remain interpersonal and physical."
+  },
+  {
+    "slug": "receptionists",
+    "title": "Receptionists",
+    "digital_exposure_2028": 6,
+    "rationale": "A blend of interpersonal service (greeting visitors, managing front desk) and digital tasks (answering phones, managing schedules, processing correspondence). AI chatbots and virtual receptionists handle many phone and scheduling tasks by 2028, but physical front desk presence remains needed in many settings."
+  },
+  {
+    "slug": "recreation-workers",
+    "title": "Recreation workers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical and interpersonal: organizing and leading activities, supervising participants, and managing recreation facilities. Administrative tasks like scheduling have digital components, but the in-person activity leadership and participant engagement dominate."
+  },
+  {
+    "slug": "recreational-therapists",
+    "title": "Recreational therapists",
+    "digital_exposure_2028": 2,
+    "rationale": "Core work is hands-on and interpersonal: planning and directing therapeutic activities, working directly with patients, and assessing treatment progress. Documentation has digital components, but the therapeutic patient interaction and activity facilitation dominate."
+  },
+  {
+    "slug": "registered-nurses",
+    "title": "Registered nurses",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of hands-on patient care (administering medications, monitoring conditions, providing treatments) and digital documentation (updating EHR, reviewing test results, coordinating care). AI assists with clinical decision support and documentation by 2028, but bedside nursing care remains fundamentally human. Calibration anchor."
+  },
+  {
+    "slug": "rehabilitation-counselors",
+    "title": "Rehabilitation counselors",
+    "digital_exposure_2028": 4,
+    "rationale": "Predominantly interpersonal: counseling clients with disabilities, developing rehabilitation plans, and coordinating community resources. Case documentation and research have digital components, but the face-to-face counseling relationship and advocacy work dominate."
+  },
+  {
+    "slug": "respiratory-therapists",
+    "title": "Respiratory therapists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on clinical care: administering breathing treatments, operating ventilators, and monitoring patients with respiratory conditions. AI assists with treatment protocol recommendations by 2028, but the physical patient care and equipment management dominate."
+  },
+  {
+    "slug": "retail-sales-workers",
+    "title": "Retail sales workers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly in-person: greeting customers, demonstrating products, operating registers, and maintaining displays. E-commerce and AI chatbots affect the broader retail sector, but in-store sales work requires physical presence and interpersonal service."
+  },
+  {
+    "slug": "roofers",
+    "title": "Roofers",
+    "digital_exposure_2028": 0,
+    "rationale": "Entirely physical outdoor work: inspecting roofs, installing shingles, applying coatings, and working at heights. This is a calibration anchor for minimal digital exposure\u2014pure manual construction trade with no meaningful AI impact."
+  },
+  {
+    "slug": "sales-engineers",
+    "title": "Sales engineers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: preparing technical presentations, analyzing client needs, writing proposals, and demonstrating complex products. AI assists with proposal generation, product configuration, and client research by 2028. Client relationship management and technical consulting remain human-driven."
+  },
+  {
+    "slug": "sales-managers",
+    "title": "Sales managers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: analyzing sales data, developing strategies, managing CRM systems, and preparing reports. AI significantly assists with forecasting, pipeline analysis, and performance tracking by 2028. Team leadership, client relationship building, and strategic decisions remain human."
+  },
+  {
+    "slug": "school-and-career-counselors",
+    "title": "School and career counselors and advisors",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is interpersonal: counseling students, facilitating career exploration, and supporting social-emotional development. AI assists with career matching, resource recommendations, and data tracking by 2028, but the personal counseling relationship and student advocacy remain fundamentally human."
+  },
+  {
+    "slug": "secretaries-and-administrative-assistants",
+    "title": "Secretaries and administrative assistants",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: scheduling meetings, managing correspondence, preparing documents, and maintaining records. AI significantly automates scheduling, document preparation, and communication management by 2028. Active headcount reduction as AI handles routine administrative tasks."
+  },
+  {
+    "slug": "securities-commodities-and-financial-services-sales-agents",
+    "title": "Securities, commodities, and financial services sales agents",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: analyzing financial markets, executing trades, preparing client recommendations, and managing portfolios. AI significantly assists with market analysis, trade execution, and client reporting by 2028. Client relationship building and complex advisory remain human."
+  },
+  {
+    "slug": "security-guards",
+    "title": "Security guards and gambling surveillance officers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical: patrolling property, monitoring entrances, responding to incidents, and enforcing rules. Surveillance camera monitoring is a digital component where AI assists, but physical security presence and response remain essential."
+  },
+  {
+    "slug": "semiconductor-processing-technicians",
+    "title": "Semiconductor processing technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Primarily physical cleanroom work: operating semiconductor manufacturing equipment, monitoring processes, and conducting quality tests. Process monitoring systems are computerized, but the physical equipment operation and cleanroom procedures dominate."
+  },
+  {
+    "slug": "set-and-exhibit-designers",
+    "title": "Set and exhibit designers",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: creating 3D models, rendering designs, and using CAD software. AI generative design tools assist with concept development and visualization by 2028. Physical construction oversight, material selection, and on-site installation provide non-digital balance."
+  },
+  {
+    "slug": "sheet-metal-workers",
+    "title": "Sheet metal workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Predominantly physical skilled trade: cutting, bending, and installing sheet metal using hand and power tools. Blueprint reading and CNC operation are minor digital components. AI has negligible impact on the hands-on fabrication and installation work."
+  },
+  {
+    "slug": "skincare-specialists",
+    "title": "Skincare specialists",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: performing facials, body treatments, and skin assessments through direct hands-on work. Appointment scheduling is a negligible digital component. AI cannot perform physical skin care treatments."
+  },
+  {
+    "slug": "small-engine-mechanics",
+    "title": "Small engine mechanics",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on: inspecting, servicing, and repairing small engines and motorized equipment using hand tools and diagnostic equipment. Service manual lookup has a minor digital component. AI has minimal impact on the physical repair work."
+  },
+  {
+    "slug": "social-and-community-service-managers",
+    "title": "Social and community service managers",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of interpersonal management (staff supervision, community outreach, client advocacy) and digital administrative work (grant writing, budgeting, program reporting). AI assists with reporting and analysis by 2028, but community leadership and client-facing work remain human."
+  },
+  {
+    "slug": "social-and-human-service-assistants",
+    "title": "Social and human service assistants",
+    "digital_exposure_2028": 4,
+    "rationale": "A mix of interpersonal casework (assisting clients, coordinating services, conducting intakes) and digital tasks (maintaining records, researching resources). AI assists with resource matching and documentation by 2028, but the face-to-face client support and advocacy remain human."
+  },
+  {
+    "slug": "social-workers",
+    "title": "Social workers",
+    "digital_exposure_2028": 4,
+    "rationale": "Predominantly interpersonal: counseling individuals and families, conducting assessments, connecting clients with resources, and advocating for vulnerable populations. Case documentation and research have digital components AI assists with by 2028, but the therapeutic relationship and advocacy work remain fundamentally human."
+  },
+  {
+    "slug": "sociologists",
+    "title": "Sociologists",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital knowledge work: designing research studies, analyzing survey data, building statistical models, and writing papers. AI significantly assists with data analysis, literature review, and report generation by 2028. Fieldwork interviews and community observation provide some non-digital balance."
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software developers, quality assurance analysts, and testers",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: writing code, designing software systems, debugging, and testing applications. AI coding agents handle routine feature implementation and bug fixes autonomously by 2028. Active restructuring in junior developer roles, though architectural decisions and complex problem-solving retain strong human value."
+  },
+  {
+    "slug": "solar-photovoltaic-installers",
+    "title": "Solar photovoltaic installers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical outdoor work: installing solar panels on rooftops, wiring electrical systems, and performing maintenance. System design tools have digital components, but the hands-on installation work at heights dominates. AI has negligible impact."
+  },
+  {
+    "slug": "special-education-teachers",
+    "title": "Special education teachers",
+    "digital_exposure_2028": 4,
+    "rationale": "Core work is deeply interpersonal: adapting instruction for students with disabilities, developing individualized education programs, and providing behavioral support. AI assists with lesson customization and progress tracking by 2028, but the patient, individualized teaching relationship is fundamentally human."
+  },
+  {
+    "slug": "multimedia-artists-and-animators",
+    "title": "Special effects artists and animators",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: creating 2D/3D models, animations, and visual effects using digital tools. AI significantly automates routine animation, texture generation, and effects work by 2028. Active restructuring in production-level VFX and animation roles, though creative direction retains human value."
+  },
+  {
+    "slug": "speech-language-pathologists",
+    "title": "Speech-language pathologists",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is hands-on clinical: assessing and treating speech, language, and swallowing disorders through direct patient interaction. AI assists with assessment scoring and therapy planning by 2028, but the personalized therapeutic interventions and patient rapport remain fundamentally human."
+  },
+  {
+    "slug": "stationary-engineers-and-boiler-operators",
+    "title": "Stationary engineers and boiler operators",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical: operating and maintaining boilers, engines, and mechanical equipment. Computerized monitoring systems assist with controls, but physical equipment operation, inspection, and emergency response require hands-on presence."
+  },
+  {
+    "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
+    "title": "Substance abuse, behavioral disorder, and mental health counselors",
+    "digital_exposure_2028": 3,
+    "rationale": "Core work is deeply interpersonal: conducting therapy sessions, building trust with clients, facilitating group sessions, and providing crisis intervention. Case documentation has digital components, but the therapeutic relationship and emotional support are fundamentally human and cannot be automated."
+  },
+  {
+    "slug": "surgical-technologists",
+    "title": "Surgical assistants and technologists",
+    "digital_exposure_2028": 2,
+    "rationale": "Almost entirely hands-on: preparing operating rooms, sterilizing equipment, passing instruments during surgery, and maintaining the sterile field. Documentation is a minor digital component. The physical surgical environment work cannot be automated by AI."
+  },
+  {
+    "slug": "survey-researchers",
+    "title": "Survey researchers",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely digital: designing surveys, collecting data through digital platforms, analyzing statistical results, and writing reports. AI significantly automates survey design, data collection, and analysis by 2028. Routine survey research faces strong automation pressure."
+  },
+  {
+    "slug": "surveying-and-mapping-technicians",
+    "title": "Surveying and mapping technicians",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical fieldwork (operating surveying equipment, collecting ground measurements) and digital tasks (processing data, creating maps using GIS, preparing reports). AI assists with data processing and automated mapping by 2028, balanced by essential field data collection."
+  },
+  {
+    "slug": "surveyors",
+    "title": "Surveyors",
+    "digital_exposure_2028": 4,
+    "rationale": "Significant fieldwork: operating precision instruments, measuring land boundaries, and collecting on-site data. Digital data processing and map preparation use GPS and GIS tools where AI assists. The essential physical field measurement work provides meaningful insulation."
+  },
+  {
+    "slug": "tax-examiners-and-collectors-and-revenue-agents",
+    "title": "Tax examiners and collectors, and revenue agents",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: reviewing tax returns, conducting audits using software, analyzing financial records, and processing collections. AI significantly automates return review, anomaly detection, and compliance checking by 2028. Routine tax examination faces strong automation."
+  },
+  {
+    "slug": "taxi-drivers-and-chauffeurs",
+    "title": "Taxi drivers, shuttle drivers, and chauffeurs",
+    "digital_exposure_2028": 1,
+    "rationale": "Core work is physical: driving vehicles, navigating routes, and providing passenger service. Ride-hailing apps are digital platforms, but the fundamental task of safely transporting passengers requires physical presence. Autonomous vehicles remain limited by 2028."
+  },
+  {
+    "slug": "teacher-assistants",
+    "title": "Teacher assistants",
+    "digital_exposure_2028": 3,
+    "rationale": "Predominantly interpersonal: working directly with students, reinforcing lessons, supervising activities, and maintaining classroom order. Some administrative and grading tasks have digital components, but the face-to-face student support and classroom assistance dominate."
+  },
+  {
+    "slug": "technical-writers",
+    "title": "Technical writers",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: writing manuals, how-to guides, and documentation using specialized tools. AI writing tools by 2028 can generate much of routine technical documentation from source code and specifications. Active headcount reduction in standard technical writing roles."
+  },
+  {
+    "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
+    "title": "Telecommunications technicians",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly hands-on: installing routers, running cables, configuring equipment, and troubleshooting network issues at customer sites. Diagnostic software assists with troubleshooting, but the physical installation and repair work dominates."
+  },
+  {
+    "slug": "tellers",
+    "title": "Tellers",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly screen-based transaction processing: cashing checks, depositing money, and managing account inquiries using banking software. ATMs and digital banking reduce demand, and AI chatbots handle routine queries. However, in-person customer service and complex transactions provide some continued need."
+  },
+  {
+    "slug": "top-executives",
+    "title": "Top executives",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of digital strategic work (analyzing business data, reviewing reports, financial planning) and interpersonal leadership (managing teams, building stakeholder relationships, making high-stakes decisions). AI assists with data analysis and report generation by 2028, but strategic vision, organizational leadership, and human judgment remain irreplaceable."
+  },
+  {
+    "slug": "tour-and-travel-guides",
+    "title": "Tour and travel guides",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly in-person and interpersonal: leading groups through attractions, providing live commentary, and managing logistics on-site. AI audio guides and virtual tours exist, but the personalized human experience of live guided tours remains valued."
+  },
+  {
+    "slug": "training-and-development-managers",
+    "title": "Training and development managers",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly digital: developing training programs, managing learning management systems, analyzing skills data, and coordinating development initiatives. AI assists with content creation, needs assessment, and program analytics by 2028. Team leadership and strategic talent development remain human."
+  },
+  {
+    "slug": "training-and-development-specialists",
+    "title": "Training and development specialists",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: creating training materials, developing e-learning content, and assessing training effectiveness. AI tools significantly assist with content creation and assessment design by 2028. In-person facilitation and interactive training delivery provide interpersonal balance."
+  },
+  {
+    "slug": "transportation-storage-and-distribution-managers",
+    "title": "Transportation, storage, and distribution managers",
+    "digital_exposure_2028": 6,
+    "rationale": "Predominantly digital management: analyzing logistics data, optimizing routes, managing supply chain systems, and coordinating distribution. AI significantly enhances logistics optimization and demand forecasting by 2028. Physical warehouse oversight and staff management provide some balance."
+  },
+  {
+    "slug": "travel-agents",
+    "title": "Travel agents",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: researching travel options, booking reservations, preparing itineraries, and managing client accounts using online platforms. AI significantly automates trip planning, price comparison, and booking by 2028. Active displacement as AI tools handle routine travel arrangements."
+  },
+  {
+    "slug": "tutors",
+    "title": "Tutors",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of interpersonal teaching (working one-on-one with students, adapting instruction, providing motivation) and digital content delivery. AI tutoring tools provide significant competition for basic subject matter tutoring by 2028, but personalized human tutoring for complex subjects and test preparation retains value."
+  },
+  {
+    "slug": "umpires-referees-and-other-sports-officials",
+    "title": "Umpires, referees, and other sports officials",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical and interpersonal: officiating games, making real-time judgment calls, managing player conduct, and maintaining game flow. Video replay technology assists with some decisions, but the on-field human presence and authority remain essential."
+  },
+  {
+    "slug": "urban-and-regional-planners",
+    "title": "Urban and regional planners",
+    "digital_exposure_2028": 7,
+    "rationale": "Predominantly digital: analyzing demographic data, using GIS tools, developing land use plans, writing reports, and preparing presentations. AI assists with data analysis, impact modeling, and plan drafting by 2028. Community meetings and site assessments provide interpersonal/physical balance."
+  },
+  {
+    "slug": "veterinarians",
+    "title": "Veterinarians",
+    "digital_exposure_2028": 4,
+    "rationale": "A blend of hands-on clinical work (examining animals, performing surgery, administering treatments) and digital tasks (maintaining records, interpreting diagnostics, researching treatments). AI assists with diagnostic imaging and record management by 2028, but the physical examination and treatment of animals remain human. Calibration anchor."
+  },
+  {
+    "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
+    "title": "Veterinary assistants and laboratory animal caretakers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical: feeding and watering animals, cleaning cages, restraining animals for examination, and maintaining facilities. Record-keeping is a minor digital component. AI has negligible impact on hands-on animal care."
+  },
+  {
+    "slug": "veterinary-technologists-and-technicians",
+    "title": "Veterinary technologists and technicians",
+    "digital_exposure_2028": 3,
+    "rationale": "Predominantly hands-on: performing medical tests on animals, assisting in surgery, collecting samples, and administering treatments. Lab results processing and records management have digital components, but the physical animal care and clinical work dominate."
+  },
+  {
+    "slug": "waiters-and-waitresses",
+    "title": "Waiters and waitresses",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical and interpersonal: taking orders, serving food, managing tables, and providing customer service. POS systems are minor digital tools. AI has minimal impact on the in-person dining service that defines this role."
+  },
+  {
+    "slug": "water-and-wastewater-treatment-plant-and-system-operators",
+    "title": "Water and wastewater treatment plant and system operators",
+    "digital_exposure_2028": 3,
+    "rationale": "A blend of physical equipment operation (adjusting controls, collecting samples, maintaining equipment) and computerized system monitoring. AI assists with process optimization and predictive maintenance, but the safety-critical physical plant operations require human oversight and hands-on work."
+  },
+  {
+    "slug": "water-transportation-occupations",
+    "title": "Water transportation workers",
+    "digital_exposure_2028": 1,
+    "rationale": "Predominantly physical: operating vessels, maintaining equipment, managing cargo, and ensuring maritime safety. Navigation systems are digital tools, but the physical operation of ships and boats in variable conditions requires human presence."
+  },
+  {
+    "slug": "web-developers",
+    "title": "Web developers and digital designers",
+    "digital_exposure_2028": 9,
+    "rationale": "Almost entirely screen-based: designing and coding websites, implementing user interfaces, and managing digital content. AI coding and design tools by 2028 handle much of routine web development\u2014generating layouts, writing standard code, and testing. Active headcount reduction in basic web development roles."
+  },
+  {
+    "slug": "welders-cutters-solderers-and-brazers",
+    "title": "Welders, cutters, solderers, and brazers",
+    "digital_exposure_2028": 1,
+    "rationale": "Almost entirely physical skilled trade work: joining metal parts using welding equipment, cutting materials, and inspecting welds. Blueprint reading is a minor digital component. AI has negligible impact on this hands-on manufacturing and construction trade."
+  },
+  {
+    "slug": "wholesale-and-manufacturing-sales-representatives",
+    "title": "Wholesale and manufacturing sales representatives",
+    "digital_exposure_2028": 6,
+    "rationale": "Significant digital work: researching customers, preparing presentations, managing CRM systems, and processing orders. AI assists with lead scoring, proposal generation, and market analysis by 2028. In-person client relationships, product demonstrations, and negotiation provide meaningful interpersonal balance."
+  },
+  {
+    "slug": "wind-turbine-technicians",
+    "title": "Wind turbine technicians",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical: climbing wind turbines, inspecting equipment, performing maintenance and repairs at height, and troubleshooting mechanical/electrical systems. Diagnostic monitoring systems are digital tools, but the dangerous physical fieldwork dominates."
+  },
+  {
+    "slug": "woodworkers",
+    "title": "Woodworkers",
+    "digital_exposure_2028": 2,
+    "rationale": "Predominantly physical: operating saws, planers, and other woodworking machinery, and hand-crafting products. CNC programming has a minor digital component, but the physical cutting, shaping, and finishing of wood products dominates this manufacturing trade."
+  },
+  {
+    "slug": "writers-and-authors",
+    "title": "Writers and authors",
+    "digital_exposure_2028": 8,
+    "rationale": "Almost entirely screen-based: researching topics, drafting content, revising text, and managing publications. AI writing tools by 2028 can generate first drafts, suggest revisions, and handle routine content. Active restructuring in content writing, copywriting, and commercial writing, though distinctive voice and creative literary work retain human value."
+  },
+  {
+    "slug": "zoologists-and-wildlife-biologists",
+    "title": "Zoologists and wildlife biologists",
+    "digital_exposure_2028": 5,
+    "rationale": "A blend of physical fieldwork (observing animals in habitat, collecting specimens, tagging wildlife) and digital knowledge work (analyzing data, writing research papers, using GIS for habitat mapping). AI assists with data analysis and species identification by 2028, balanced by essential outdoor field research."
+  }
+]
