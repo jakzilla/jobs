@@ -1064,215 +1064,153 @@ function resize() { dpr = window.devicePixelRatio || 1; layout(); draw(); }
 
 function updateAnalysis() {
   const panel = document.getElementById("analysisPanel");
-  const yr = Math.round(currentYear);
-
-  // Compute live stats from data
-  function countAbove(key, threshold) {
-    let jobs = 0, count = 0;
-    for (const d of data) {
-      const v = key === "_interpolated" ? getMetricValue(d) : d[key];
-      if (v != null && v >= threshold) { count++; if (d.jobs) jobs += d.jobs; }
-    }
-    return { count, jobs };
-  }
-
-  function topN(key, n, asc) {
-    const scored = data.filter(d => d[key] != null);
-    scored.sort((a, b) => asc ? a[key] - b[key] : b[key] - a[key]);
-    return scored.slice(0, n);
-  }
+  const h = nearestHorizon();
 
   function fmtJ(n) { return n >= 1e6 ? (n/1e6).toFixed(1) + "M" : Math.round(n/1e3) + "K"; }
-  function fmtP(n) { return n ? "$" + n.toLocaleString() : "?"; }
-
-  const h = nearestHorizon();
 
   const content = {
     composite: () => {
-      const high = countAbove("composite_" + h, 7);
-      const vhigh = countAbove("composite_" + h, 9);
-      const durable = data.filter(d => d.composite_2028 != null && d.composite_2028 < 3 && d.composite_2031 != null && d.composite_2031 < 3 && d.composite_2036 != null && d.composite_2036 < 3);
-      const delayed = data.filter(d => d.composite_2028 != null && d.composite_2028 < 3 && d.composite_2036 != null && d.composite_2036 > 7);
+      if (h === "2028") return `
+        <h2>2028: The clerical reckoning is underway, but most of the economy feels safe</h2>
+        <p>In 2028, AI disruption is concentrated in a narrow band of the economy: <b>routine digital clerical work</b>. The 30 occupations scoring 7+ are almost exclusively back-office roles &mdash; medical transcriptionists, financial clerks, general office clerks, bookkeeping clerks, customer service representatives. Together they represent 19.8M jobs and $950B in annual wages, but they are not what most people picture when they think about their own career.</p>
+        <p>The pattern is stark: every single occupation in the top-10 most impacted list is a <b>mid-salary ($37K&ndash;$68K), screen-based, routine information processing</b> role. Not one requires a physical presence. Not one involves significant judgment or client relationships. These are the jobs where AI doesn't need to be perfect &mdash; it just needs to be good enough to handle the volume while a smaller human team oversees edge cases.</p>
+        <p>Meanwhile, <b>149 occupations (58.8M jobs) score below 3</b> &mdash; effectively untouched. This includes the obvious physical trades (roofers, plumbers, electricians) but also the entire care economy: childcare workers, home health aides, therapists, firefighters. Their protection comes not from being low-tech but from the <b>combination of high adoption friction and positive demand elasticity</b>. A childcare worker scores just 1/10 on digital exposure and 0 on physical, but even if those scores were higher, friction of 9 and demand elasticity of +2 would keep the composite near zero.</p>
+        <p>The salary pattern is telling: <b>no occupation earning over $100K scores 7+ in 2028</b>. High-salary knowledge workers are experiencing productivity gains (2&ndash;4x), but their employers are still in "do more with the same team" mode, not cutting headcount. The human cost is concentrated in the $35K&ndash;$75K band, where 24 out of 192 occupations already score 7+.</p>
+        <div class="callout"><b>The story in 2028:</b> If you work on a screen doing routine information processing for a mid-range salary, you're in the blast radius. If you work with your hands, with people, or on genuinely novel problems, you're not. This will change.</div>
+      `;
+      if (h === "2031") return `
+        <h2>2031: Physical AI arrives, and the disruption zone doubles</h2>
+        <p>Between 2028 and 2031, something fundamental shifts: <b>physical AI goes mainstream</b>. Humanoid robots drop below $30K, autonomous vehicles cover most routes, and robotics-as-a-service makes adoption possible for mid-size employers. The result is that the 7+ composite zone expands from 30 occupations (19.8M jobs) to <b>43 occupations (35.3M jobs) &mdash; nearly a quarter of the US workforce</b>.</p>
+        <p>The new entrants to the high-impact zone tell the story. <b>Material recording clerks</b> (1.3M jobs) jump from 8.3 to 10.0 as warehouse automation matures. <b>Tellers</b> (347K) hit 10.0 as branch automation completes. <b>Assemblers and fabricators</b> (1.9M) enter at 8.8 &mdash; these are not knowledge workers; they're factory floor workers being displaced by physical robots, not software.</p>
+        <p>The biggest movers between 2028 and 2031 are revealing: <b>construction laborers</b> jump +3.2 points (1.6 to 4.8), <b>construction equipment operators</b> +2.6 (2.8 to 5.4), and <b>grounds maintenance workers</b> +2.6 (2.5 to 5.1). These are the first wave of physical-labour occupations entering the danger zone, driven by structured outdoor tasks that robots can now handle.</p>
+        <p>The wage tier story shifts too: the $35&ndash;75K band now has 32 occupations scoring 7+ (up from 24), but <b>still only 1 occupation above $100K hits 7+</b>. High earners remain insulated &mdash; not because the technology can't reach them, but because adoption friction in professional services is high and demand elasticity often runs positive.</p>
+        <div class="callout"><b>The story in 2031:</b> The "physical moat" that protected warehouse workers, factory assemblers, and truck drivers is eroding. AI disruption is no longer just a knowledge-work phenomenon. The clerical workers hit in 2028 are now in deep restructuring; the physical workers newly exposed in 2031 are where the clerical workers were three years ago &mdash; beginning to feel pressure but not yet fully reorganised.</div>
+      `;
       return `
-        <h2>Composite Employment Impact</h2>
-        <p>The composite score combines all four axes into a single measure of how much AI will reshape each occupation's employment landscape. It accounts for <b>digital AI exposure</b> (LLMs, coding agents), <b>physical AI exposure</b> (robots, autonomous vehicles), <b>adoption friction</b> (regulation, social trust, employer fragmentation), and <b>demand elasticity</b> (whether productivity gains expand or shrink headcount).</p>
-        <p>The formula takes the higher of digital/physical exposure, adds a compounding bonus when both are high, discounts by adoption friction, then adjusts for demand elasticity. A software developer with high digital exposure (+8) but strong latent demand (+3) has a lower composite than a data entry clerk with similar exposure but fixed demand (-5).</p>
-        <div class="insight-grid">
-          <div class="insight-card">
-            <div class="ic-label">Jobs scoring 7+ (${h})</div>
-            <div class="ic-value">${fmtJ(high.jobs)}</div>
-            <div class="ic-detail">${high.count} occupations, ${(high.jobs / 143066500 * 100).toFixed(0)}% of US workforce</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Genuinely durable</div>
-            <div class="ic-value">${durable.length}</div>
-            <div class="ic-detail">Occupations scoring &lt;3 across all horizons</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Delayed cliff</div>
-            <div class="ic-value">${delayed.length}</div>
-            <div class="ic-detail">Safe in 2028 (&lt;3) but exposed by 2036 (&gt;7)</div>
-          </div>
-        </div>
-        <div class="callout"><b>What to watch for:</b> Drag the slider from 2028 to 2036. Large green rectangles that turn red are occupations experiencing a "delayed cliff" &mdash; they look safe today but face a reckoning as physical AI matures. The durable occupations (childcare, therapy, barbering, firefighting) stay green throughout because their value comes from human presence, trust, and intimacy that no technology replaces.</div>
+        <h2>2036: 59M jobs in the blast zone, and the salary ceiling breaks</h2>
+        <p>By 2036, the number of occupations scoring 7+ has grown to <b>71, covering 59.2M jobs &mdash; 41% of the entire US workforce</b> and $3.02T in annual wages. The disruption is no longer concentrated in any one sector or salary band. It has become pervasive.</p>
+        <p>The new occupations hitting maximum composite scores (10/10) reveal how far both digital and physical AI have reached: <b>cashiers</b> (3.2M jobs) are displaced by autonomous checkout and robotic retail; <b>receptionists</b> (1M) by AI scheduling and visitor management; <b>information clerks</b> (1.3M) by AI-powered customer interaction. These are roles that combine moderate digital work with physical presence in semi-structured environments &mdash; exactly the capability frontier that robots cross between 2031 and 2036.</p>
+        <p>The salary ceiling finally breaks: <b>6 occupations above $100K now score 7+</b>, up from just 1 in 2031. More significantly, the average composite across all salary tiers converges &mdash; <$35K averages 4.9, $35&ndash;75K averages 5.2, $75&ndash;100K averages 5.3, and $100K+ averages 5.3. <b>Salary no longer predicts safety</b>. By 2036, a low-paid warehouse worker and a well-paid financial analyst face comparable composite exposure.</p>
+        <p>The biggest risers from 2028 to 2036 are the "delayed cliff" occupations: <b>retail sales workers</b> (4.2M jobs, +4.5 points), <b>grounds maintenance</b> (1.3M, +4.6), <b>agricultural workers</b> (813K, +4.5), and <b>construction equipment operators</b> (540K, +4.3). These occupations felt entirely safe in 2028 &mdash; their workers would have had no reason to worry. By 2036, they're deep in the restructuring zone.</p>
+        <p>And yet <b>45 occupations remain below 3.0 across all three horizons</b> &mdash; childcare workers, therapists, barbers, firefighters, athletes, preschool teachers, massage therapists, actors, coaches. What unites them is not low technology exposure per se, but the combination of <b>high friction (society demands humans in these roles) and positive demand elasticity (we want more of this work, not less)</b>. A childcare worker's composite rises from 0.0 to just 0.7 across the entire decade. The technology may be capable; the world simply does not want robots raising its children.</p>
+        <div class="callout"><b>The story in 2036:</b> The question is no longer which jobs AI can do &mdash; it's which jobs society insists humans keep doing. The genuinely durable occupations are united not by technological limitations but by a human judgment that these roles require human presence, human intimacy, or human accountability. That judgment may itself evolve, but it is the last line of defence, and it is far sturdier than any technological moat.</div>
       `;
     },
 
     digital: () => {
-      const high = countAbove("digital_" + h, 7);
-      const top3 = topN("digital_" + h, 3, false);
-      const bot3 = topN("digital_" + h, 3, true);
+      if (h === "2028") return `
+        <h2>2028: The copilot era &mdash; everyone gets an assistant, few lose their job</h2>
+        <p>In 2028, digital AI operates overwhelmingly in <b>copilot mode</b>: human-directed, AI-assisted. The 2&ndash;4x productivity gains are real and widely documented, but most organisations are using them to do more with the same team rather than cutting headcount. The average digital exposure across all 342 occupations is 4.3/10 &mdash; the midpoint of "AI helps but doesn't replace."</p>
+        <p>The occupations scoring 8&ndash;10 are telling: <b>medical transcriptionists</b> (10), <b>bookkeeping clerks</b> (9), <b>general office clerks</b> (9), <b>customer service reps</b> (8), <b>secretaries</b> (8). These are roles where the entire work product is digital text, the tasks are well-structured, and the judgment required is routine. AI doesn't need to match a senior partner's strategic insight &mdash; it needs to process invoices, answer FAQs, and file records.</p>
+        <p>At the other end, <b>16 occupations score 0</b> &mdash; roofers, janitors, construction labourers, painters, glaziers. Their work is entirely non-digital. Between them sit the occupations that define the AI frontier in 2028: <b>registered nurses</b> (4), <b>K&ndash;12 teachers</b> (4&ndash;5), <b>police detectives</b> (4). These roles have significant information-processing components that AI can assist with (charting, lesson planning, report writing), but the core value is judgment, presence, and interpersonal trust.</p>
+        <div class="callout"><b>What to notice:</b> The treemap's red zone is concentrated in the <b>office-and-administrative-support</b> and <b>business-and-financial</b> categories. These are the digital-native sectors where AI tools are already standard. The green zones &mdash; construction, installation/maintenance, healthcare support &mdash; are untouched. Hover over individual tiles to see the rationale for each score.</div>
+      `;
+      if (h === "2031") return `
+        <h2>2031: From copilot to autonomous agent &mdash; the knowledge-work restructuring</h2>
+        <p>By 2031, the digital AI story shifts from "AI helps workers" to "AI replaces routine workflows." The average score rises to 4.5, but the real action is at the top: occupations that scored 6&ndash;7 in 2028 are now scoring 7&ndash;8, and the 8&ndash;9 tier is hitting 9&ndash;10. The shift from copilot to autonomous agent means <b>AI doesn't just draft the document &mdash; it researches, writes, reviews, and files it</b>.</p>
+        <p>Only one occupation hits 10 (medical transcription, effectively automated), but 18 occupations score 9 &mdash; including <b>customer service reps</b>, <b>secretaries</b>, <b>web developers</b>, and <b>technical writers</b>. These roles haven't disappeared, but team sizes have shrunk dramatically. A customer service operation that employed 50 people in 2026 might employ 10 in 2031, with AI handling routine inquiries end-to-end.</p>
+        <p>The mid-range (6&ndash;7) is where the most interesting restructuring is happening: <b>accountants</b> (7), <b>lawyers</b> (7), <b>high school teachers</b> (6), <b>mechanical engineers</b> (7). In these occupations, the routine work is automated but the job has been redefined around judgment, client relationships, and exception handling. An accountant in 2031 is fundamentally an advisor, not a preparer.</p>
+        <div class="callout"><b>What to notice:</b> Compare with the 2028 view by toggling the slider. The occupations that were yellow (5&ndash;6) have shifted to orange (6&ndash;7). The ones that were orange are now red. The green base (physical occupations, 0&ndash;2) hasn't moved at all &mdash; digital AI, no matter how capable, doesn't affect roofers. That's why the Physical AI axis exists.</div>
+      `;
       return `
-        <h2>Digital AI Exposure (${h})</h2>
-        <p>This axis measures how much <b>digital AI systems</b> &mdash; large language models, coding agents, analysis tools, image/video generators &mdash; can automate an occupation's core tasks. It captures exposure to software-based AI, not physical robots.</p>
-        <p>${h === "2028" ?
-          "At the 2028 horizon, AI is in <b>copilot mode</b>: human-directed, AI-assisted. Productivity gains of 2&ndash;4x are common in digital roles, but truly autonomous agents remain unreliable for complex work. Most organisations are in the \"do more with the same team\" phase." :
-          h === "2031" ?
-          "By 2031, the shift from <b>copilot to autonomous agent</b> is well underway. AI agents can autonomously manage projects, write and deploy code, produce publication-ready analysis. Productivity gains of 5&ndash;10x are documented. Major workforce restructuring has occurred in digital-heavy sectors." :
-          "By 2036, AI can autonomously execute <b>most digital knowledge work</b> end-to-end. The question is no longer \"can AI do this?\" but \"is there a regulatory, social, or strategic reason to keep a human in the loop?\" Remaining human roles are concentrated in genuinely novel strategy, legally mandated accountability, and work where human authorship IS the product."
-        }</p>
-        <div class="insight-grid">
-          <div class="insight-card">
-            <div class="ic-label">Jobs scoring 7+ (${h})</div>
-            <div class="ic-value">${fmtJ(high.jobs)}</div>
-            <div class="ic-detail">${high.count} occupations</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Most exposed</div>
-            <div class="ic-value">${top3.map(d => d["digital_" + h]).join(", ")}</div>
-            <div class="ic-detail">${top3.map(d => d.title.split(",")[0]).join("; ")}</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Least exposed</div>
-            <div class="ic-value">${bot3.map(d => d["digital_" + h]).join(", ")}</div>
-            <div class="ic-detail">${bot3.map(d => d.title.split(",")[0]).join("; ")}</div>
-          </div>
-        </div>
-        <div class="callout"><b>Key pattern:</b> The largest red rectangles are clerical and administrative roles (secretaries, general office clerks, customer service reps) that employ millions and are almost entirely screen-based. Notice how the red zone expands as you drag the slider forward &mdash; roles that score 6&ndash;7 in 2028 (accountants, lawyers, engineers) shift to 8&ndash;9 by 2036 as autonomous agents take over routine knowledge work.</div>
+        <h2>2036: Digital AI can do nearly everything &mdash; the question is whether it should</h2>
+        <p>By 2036, the average digital exposure has risen to 5.2, and <b>11 occupations score 10/10</b> &mdash; bookkeeping clerks, customer service reps, medical transcriptionists, secretaries, general office clerks, and others. Another 33 score 9. The bottom of the distribution has barely moved: roofers still score 0, janitors 1, electricians 2. Digital AI, even at its most capable, <b>cannot touch work that is not digital</b>.</p>
+        <p>The most dramatic jumps from 2028 to 2036 are in roles that straddle the digital/physical line: <b>receptionists</b> (6 to 9), <b>library technicians</b> (5 to 8), <b>air traffic controllers</b> (4 to 7). These roles were once considered "safe" because they involved some physical presence or specialised systems, but by 2036 the digital components have been fully automated and the remaining physical presence is handled by other systems.</p>
+        <p>The professional knowledge workers &mdash; physicians (6), lawyers (7), teachers (6&ndash;7), engineers (7&ndash;8) &mdash; score high but not maximum. This is because their roles, while heavily digital, have been <b>redefined around the non-automatable residue</b>: the physician's bedside manner and procedural judgment, the lawyer's courtroom advocacy, the teacher's mentoring relationship, the engineer's novel problem-solving. The digital work has been automated; the job has changed rather than disappeared.</p>
+        <div class="callout"><b>What to notice:</b> At 2036, the treemap is bifurcated. The top half (knowledge work categories) is almost entirely orange and red. The bottom half (construction, installation, food service, healthcare support) is still green to yellow. This is why <b>digital exposure alone doesn't tell the whole story</b> &mdash; switch to Physical AI or Composite Impact to see the full picture.</div>
       `;
     },
 
     physical: () => {
-      const high = countAbove("physical_" + h, 5);
+      if (h === "2028") return `
+        <h2>2028: Robots in the factory, nowhere else</h2>
+        <p>In 2028, physical AI is <b>overwhelmingly concentrated in controlled industrial environments</b>. The average physical exposure across all 342 occupations is just 1.0/10. Over half the occupations (180) score exactly 0 &mdash; these are pure knowledge workers for whom physical robots are simply irrelevant. Another 71 score 1.</p>
+        <p>The only occupations scoring above 5 are in structured, repetitive industrial settings: <b>assemblers and fabricators</b> (7), <b>welders</b> (7), <b>food processing workers</b> (7), <b>semiconductor technicians</b> (8), <b>material recording clerks</b> (4), and <b>warehouse material movers</b> (6). These are environments where the layout is controlled, the objects are standardised, and the tasks are repetitive &mdash; exactly where early humanoid robots and automated systems can operate.</p>
+        <p>The sharp boundary is between <b>controlled and uncontrolled environments</b>. A factory assembler (7) works in a space designed for robots. A residential plumber (1) works in a different house every day, crawling under sinks in configurations the robot has never seen. An Amazon warehouse picker (6) handles standardised totes on known shelves. A bartender (2) handles fragile glassware in a social environment where human interaction IS the product.</p>
+        <div class="callout"><b>What to notice:</b> The treemap is almost entirely green. The few orange/red tiles are in manufacturing and production categories. This is the view that Karpathy's original analysis implicitly assumed would persist forever. Drag the slider to 2036 to see why that assumption is wrong.</div>
+      `;
+      if (h === "2031") return `
+        <h2>2031: The robot workforce goes mainstream &mdash; warehouses, farms, highways</h2>
+        <p>Between 2028 and 2031, physical AI undergoes the same transition that digital AI went through years earlier: <b>from pilot deployment to mainstream adoption</b>. The average rises from 1.0 to 1.8, but this average masks dramatic movement in specific sectors. Occupations that scored 3&ndash;4 in 2028 now score 5&ndash;7.</p>
+        <p>The biggest movers tell the story of where robots expand next: <b>warehouse material movers</b> hold at 6&ndash;7 as automation deepens in logistics. <b>Agricultural workers</b> jump to 5 as large-scale harvesting robots handle more crop types. <b>Long-haul truck drivers</b> hit 6 as autonomous trucking covers most interstate corridors. <b>Construction labourers</b> rise to 3&ndash;4 as robots handle repetitive tasks on structured sites.</p>
+        <p>What's striking is the <b>economic desperation driving adoption</b>. Warehousing, agriculture, and long-haul trucking all face severe labour shortages. Employers aren't adopting robots because the technology is perfect &mdash; they're adopting because they can't hire enough humans at any price. This is why these sectors have low adoption friction despite involving physical work: the economic pull overcomes the technical limitations.</p>
+        <p>Meanwhile, <b>137 occupations still score 0</b> &mdash; every knowledge worker, from accountants to software developers to lawyers. Physical AI remains irrelevant to screen-based work. And skilled trades in variable environments &mdash; electricians (3), plumbers (3), barbers (2) &mdash; remain low because robots still can't handle novel physical configurations.</p>
+        <div class="callout"><b>What to notice:</b> The treemap is developing its first significant non-green patches in the production, transportation, and food-service categories. The big new rectangles turning yellow-orange are the ones to watch: 7M hand labourers, 1.5M delivery drivers, 1.3M material recording clerks. These are the physical-labour equivalents of what happened to clerical workers in 2028.</div>
+      `;
       return `
-        <h2>Physical / Embodied AI Exposure (${h})</h2>
-        <p>This axis measures exposure to <b>physical AI</b>: humanoid robots, autonomous vehicles, surgical robots, agricultural automation, and industrial robotics. This is the axis Karpathy's original analysis missed entirely &mdash; it treated all physical jobs as permanently insulated from AI.</p>
-        <p>${h === "2028" ?
-          "In 2028, humanoid robots are in <b>early commercial deployment</b>. Tens of thousands of units operate in Tesla factories and large warehouses. Unit cost is $30&ndash;50K. They reliably handle structured, repetitive tasks in controlled environments but cannot handle unstructured or novel physical settings. Autonomous vehicles operate in 15&ndash;20 US cities on mapped routes." :
-          h === "2031" ?
-          "By 2031, humanoid robots are a <b>mainstream commercial product</b>. Hundreds of thousands deployed at $15&ndash;30K per unit. Robots operate with moderate autonomy in warehouses, factories, retail stockrooms, commercial kitchens, and agriculture. Autonomous delivery is operational in urban centres. Small businesses are adopting via robotics-as-a-service models." :
-          "By 2036, general-purpose humanoid robots are a <b>mature mass-market product</b>. Millions deployed at $10&ndash;20K. They can handle most structured and semi-structured physical tasks, navigate moderately variable environments, and adapt to minor unexpected situations. Autonomous vehicles are ubiquitous. Home-care robots handle routine support tasks."
-        }</p>
-        <div class="insight-grid">
-          <div class="insight-card">
-            <div class="ic-label">Jobs with physical exposure 5+ (${h})</div>
-            <div class="ic-value">${fmtJ(high.jobs)}</div>
-            <div class="ic-detail">${high.count} occupations</div>
-          </div>
-        </div>
-        <div class="callout"><b>Key pattern:</b> Notice that most of the treemap is green (score 0) &mdash; pure knowledge workers have zero physical AI exposure. The red zones are concentrated in manufacturing, warehousing, agriculture, and transportation. Drag from 2028 to 2036 to watch the physical exposure frontier expand outward from factories and warehouses into retail, food service, construction, and commercial cleaning.</div>
+        <h2>2036: The physical moat dissolves &mdash; 67 occupations Karpathy missed</h2>
+        <p>By 2036, the average physical exposure has nearly tripled from 1.0 to 2.9. More importantly, <b>67 occupations that Karpathy's original analysis scored at 3 or below now show physical exposure of 5+</b>. These are the jobs his framework treated as permanently safe because they involve "hands-on work" &mdash; a category that is dissolving as robots mature.</p>
+        <p>The numbers are staggering. <b>Hand labourers and material movers</b> (7M jobs) score 9. <b>Food and beverage servers</b> (5M) score 7. <b>Retail sales workers</b> (4.2M) score 7. <b>Janitors</b> (2.4M) score 8. <b>Cooks</b> (2.8M) score 7. <b>Construction labourers</b> (1.6M) score 7. <b>Grounds maintenance</b> (1.3M) score 8. These are among the largest employment categories in the US economy, and they were invisible in any analysis that only looked at digital AI.</p>
+        <p>The remaining holdouts at 0&ndash;2 share specific characteristics: <b>genuinely unpredictable environments</b> (firefighters at 3, residential plumbers at 4&ndash;5), <b>human intimacy as the product</b> (massage therapists at 2, barbers at 2, midwives at 2), or <b>complex dexterous work in variable conditions</b> (residential electricians at 5, veterinarians at 4). The common thread is not "physical work" in general but work where <b>every task is different in ways the robot hasn't been trained for</b>.</p>
+        <div class="callout"><b>What to notice:</b> Compare this view with the 2028 physical view &mdash; the transformation is dramatic. Categories that were uniformly green (food service, retail, transportation, cleaning) are now orange and red. The occupations that remain green are characterised not by being "physical" but by being <b>unpredictably variable</b> &mdash; every house a plumber enters is different, every fire a firefighter fights is different, every animal a veterinarian examines is different. Predictability, not physicality, is the true moat.</div>
       `;
     },
 
-    friction: () => {
-      const lowFriction = data.filter(d => d.adoption_friction != null && d.adoption_friction <= 2);
-      const highFriction = data.filter(d => d.adoption_friction != null && d.adoption_friction >= 8);
-      return `
-        <h2>Adoption Friction</h2>
-        <p>Even where AI technology is technically capable, <b>real-world barriers</b> slow actual adoption. This axis captures the structural friction: regulatory licensing, safety certification, liability frameworks, union agreements, social trust preferences, employer fragmentation, and institutional inertia. It is scored once (not per horizon) because these barriers are structural, not technological.</p>
-        <p>Crucially, <b>labour shortages reduce friction</b>. Sectors with acute shortages (warehousing, eldercare, agriculture, long-haul trucking) adopt faster because economic desperation overrides social and regulatory resistance.</p>
-        <div class="insight-grid">
-          <div class="insight-card">
-            <div class="ic-label">Near-zero friction (0&ndash;2)</div>
-            <div class="ic-value">${lowFriction.length}</div>
-            <div class="ic-detail">Large employers, clear ROI, minimal regulation</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Very high friction (8&ndash;10)</div>
-            <div class="ic-value">${highFriction.length}</div>
-            <div class="ic-detail">Heavy regulation, liability, social barriers</div>
-          </div>
-        </div>
-        <div class="callout"><b>What this means:</b> The green tiles (low friction) are where AI adoption will happen first &mdash; Amazon warehouses, Tesla factories, large tech companies, commercial cleaning operations. The red tiles (high friction) are where technology may be ready but adoption is blocked for years by regulation, liability, or deep social preference for human workers: surgery, psychotherapy, childcare, policing, clergy. Two occupations with identical technical exposure but different friction scores will have radically different composite trajectories.</div>
-        <ul>
-          <li><b>Green (0&ndash;2):</b> Software, warehousing, manufacturing, logistics &mdash; large employers, existing tech culture, acute labour shortages</li>
-          <li><b>Yellow (4&ndash;5):</b> Fast food chains, commercial construction, routine accounting &mdash; some regulation, mix of employer sizes</li>
-          <li><b>Red (8&ndash;10):</b> Surgery, psychotherapy, childcare, policing, judges, clergy &mdash; heavy regulation, high liability, strong social preference for humans</li>
-        </ul>
-      `;
-    },
+    friction: () => `
+      <h2>Why capable technology doesn't mean immediate disruption</h2>
+      <p>Adoption friction is the gap between "AI can do this" and "AI is actually doing this." It explains why two occupations with identical technical exposure can have radically different real-world outcomes, and why the composite scores for some high-exposure occupations are surprisingly low.</p>
+      <p>The pattern in the data reveals <b>three distinct friction regimes</b>:</p>
+      <p><b>The fast lane (friction 0&ndash;3, 69 occupations):</b> Large corporate employers with existing technology infrastructure, clear ROI, and often acute labour shortages. Software companies, Amazon-scale warehouses, large manufacturers, commercial logistics. These sectors don't wait for regulation to catch up &mdash; they deploy, iterate, and deal with policy later. When a warehouse operator can't fill $18/hour picker positions, a $30K robot with no complaints looks compelling regardless of what unions or regulators think.</p>
+      <p><b>The middle ground (friction 4&ndash;6, 168 occupations):</b> The largest group. These are occupations with moderate regulation, mixed employer sizes, and some social acceptance barriers. Accountants (4), commercial construction (5), fast food (4), routine legal work (5). Adoption happens but takes years of vendor maturation, regulatory adaptation, and employer education. The technology might be ready in 2028 but widespread deployment doesn't happen until 2032.</p>
+      <p><b>The walled garden (friction 7&ndash;10, 105 occupations):</b> Heavy professional licensing, high liability exposure, fragmented small employers, or deep social preference for human workers. Physicians (8), teachers (7), psychotherapists (9), childcare (9), firefighters (9), judges (10). Even where the technology is impressive, these sectors have <b>structural defences</b>: a surgeon can't be replaced until malpractice liability frameworks exist for AI surgery. A teacher can't be replaced until parents accept robot classrooms. A judge can't be replaced until the constitution allows it.</p>
+      <p>The most interesting occupations on this map are the ones where <b>friction is high but technology is advancing fast</b>. Airline pilots (friction 8, physical exposure reaching 7 by 2036), physicians (friction 8, digital reaching 6), postsecondary teachers (friction 7, digital reaching 7). The technology is ready or nearly ready, but institutional barriers will delay adoption by years or decades. These are the occupations where the <b>composite score looks deceptively low</b> &mdash; the technology is there, society just hasn't accepted it yet.</p>
+      <div class="callout"><b>What to notice:</b> Compare this view with the Composite Impact view. The reddest tiles here (highest friction) are the greenest on composite, even when their technical exposure is high. Judges score 6/10 on digital exposure by 2036, but their composite is just 3.0 because friction of 10 means no one is actually replacing judges with AI. The question is whether that friction holds. If it does, these occupations are safe. If social norms shift &mdash; as they have before &mdash; these are the occupations with the furthest to fall.</div>
+    `,
 
-    elasticity: () => {
-      const expanding = data.filter(d => d.demand_elasticity != null && d.demand_elasticity >= 3);
-      const shrinking = data.filter(d => d.demand_elasticity != null && d.demand_elasticity <= -3);
-      return `
-        <h2>Demand Elasticity</h2>
-        <p>This is the most counterintuitive axis. When each worker becomes <b>5&ndash;10x more productive</b>, does the world want 5&ndash;10x more of that work (demand expands, headcount stable or grows), or is demand fixed (headcount shrinks proportionally)?</p>
-        <p>The colour scale runs from <b style="color:#dc3c3c;">red (-5)</b> to <b>white (0)</b> to <b style="color:#1eaa5a;">green (+5)</b>. Red tiles represent occupations where demand is fixed &mdash; a city needs X bank tellers regardless of speed, a company needs one annual audit regardless of how fast it is. Green tiles represent massive latent demand currently constrained by cost &mdash; if therapy, tutoring, or custom software were 80% cheaper, demand would explode.</p>
-        <div class="insight-grid">
-          <div class="insight-card">
-            <div class="ic-label">Strong demand expansion (+3 to +5)</div>
-            <div class="ic-value">${expanding.length}</div>
-            <div class="ic-detail">Tutoring, therapy, software dev, social work, graphic design</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Strong demand shrinkage (-3 to -5)</div>
-            <div class="ic-value">${shrinking.length}</div>
-            <div class="ic-detail">Data entry, tellers, bookkeeping, cashiers, transcription</div>
-          </div>
-        </div>
-        <div class="callout"><b>Why this matters:</b> Demand elasticity is the difference between "AI transforms the job" and "AI eliminates the job." Software developers score 8/10 on digital exposure, but their composite drops significantly because there is enormous latent demand for custom software (+3 elasticity). Every small business wants an app; every team wants better tools. Contrast with medical transcriptionists: same high digital exposure, but demand is fixed and shrinking (-5). When computers automated typesetting, publishing employment grew because latent demand for printed material exploded. When ATMs automated cash dispensing, bank teller employment shrank because nobody wanted more cash transactions.</div>
-      `;
-    },
+    elasticity: () => `
+      <h2>The difference between "AI transforms the job" and "AI eliminates the job"</h2>
+      <p>Demand elasticity is the single most important variable that separates occupations with similar technical exposure into wildly different employment outcomes. It answers a question that most AI-impact analyses ignore: <b>when you make something cheaper and faster, do people want more of it?</b></p>
+      <p><b>The expanding-demand occupations (green tiles, +3 to +5):</b> There are 20 occupations with elasticity of +3 or higher. They represent some of the most important human services in the economy: <b>tutoring</b> (+5, because every child could benefit from a personal tutor but almost none can afford one), <b>mental health therapy</b> (+4, because there is an enormous treatment gap), <b>software development</b> (+3, because every organisation wants custom software), <b>graphic design</b> (+3, because every small business wants professional design), and <b>social work</b> (+3, because caseloads are crushing and unmet need is vast). In these occupations, AI-driven productivity gains don't shrink headcount &mdash; they <b>unlock demand that was always there but cost-constrained</b>. If therapy costs $200/session, most people who need it can't afford it. If AI assistance drops the effective cost to $50, demand might quadruple.</p>
+      <p><b>The fixed-demand occupations (red tiles, -3 to -5):</b> 19 occupations score -3 or below. The pattern is clear: these are roles where demand is <b>determined by the number of transactions, not by cost</b>. A city has X number of bank transactions regardless of how fast each one is. A hospital generates Y medical records regardless of transcription speed. A company needs Z payroll runs per month. Making each unit faster doesn't create more units &mdash; it just means you need fewer people. <b>Medical transcriptionists</b> (-5), <b>tellers</b> (-5), <b>cashiers</b> (-4), <b>bookkeeping clerks</b> (-4), and <b>bill collectors</b> (-4) are the most exposed.</p>
+      <p><b>The neutral middle (white tiles, -1 to +1):</b> 227 occupations sit in the middle, reflecting genuine uncertainty. <b>Registered nurses</b> (0) are the paradigmatic case: AI efficiency gains are offset by an aging population generating more demand, resulting in roughly neutral headcount impact. <b>Firefighters</b> (0), <b>electricians</b> (+1), and <b>police officers</b> (0) are similar &mdash; demand is tied to population and infrastructure, not to how fast each task is performed.</p>
+      <div class="callout"><b>What to notice:</b> Look at how elasticity reshapes the composite impact view. Software developers score 8/10 on digital exposure &mdash; higher than customer service reps (8/10). But software developers' composite (6.3 at 2031) is significantly lower than customer service reps' (9.0) because <b>the world wants vastly more software but doesn't want more customer service calls</b>. Toggle between Demand Elasticity and Composite Impact to see this dynamic directly: the green tiles here pull composite scores down; the red tiles here push them up.</div>
+    `,
 
-    outlook: () => {
-      const declining = data.filter(d => d.outlook != null && d.outlook < 0);
-      const fast = data.filter(d => d.outlook != null && d.outlook >= 10);
-      return `
-        <h2>BLS Employment Outlook (2024&ndash;2034)</h2>
-        <p>This is the <b>official Bureau of Labor Statistics projection</b> for employment change over the decade 2024&ndash;2034. Unlike our AI exposure scores, these are produced by the BLS using established economic modeling &mdash; they reflect broad economic trends, demographic shifts, and historical patterns, not just AI impact.</p>
-        <p>The BLS methodology tends to be conservative about technological disruption. Their projections primarily capture <b>demand-side factors</b> (aging population driving healthcare growth, infrastructure investment driving construction) and <b>historical trends</b> (declining manufacturing, growing services). They generally do not model the impact of AI systems that did not exist when the projections were made.</p>
-        <div class="insight-grid">
-          <div class="insight-card">
-            <div class="ic-label">Declining occupations</div>
-            <div class="ic-value">${declining.length}</div>
-            <div class="ic-detail">Negative BLS growth outlook</div>
-          </div>
-          <div class="insight-card">
-            <div class="ic-label">Fast-growing (10%+)</div>
-            <div class="ic-value">${fast.length}</div>
-            <div class="ic-detail">Much faster than average</div>
-          </div>
-        </div>
-        <div class="callout"><b>Compare with AI scores:</b> Toggle between BLS Outlook and Composite Impact to see where official projections and AI exposure analysis diverge. Many occupations the BLS projects as stable or growing (data analysts, financial advisors, paralegals) score high on digital AI exposure. Conversely, some occupations the BLS projects as declining (secretaries, production workers) are declining for reasons unrelated to AI. The most interesting cases are where BLS projects growth but AI exposure is high &mdash; these occupations may grow in output but not in headcount.</div>
-      `;
-    },
+    outlook: () => `
+      <h2>What the government sees vs. what AI models predict</h2>
+      <p>The BLS Employment Outlook represents the US government's official projection of how each occupation will grow or shrink over 2024&ndash;2034. These projections are methodologically rigorous but structurally conservative: they model <b>demographic trends</b> (aging population driving healthcare demand), <b>macroeconomic shifts</b> (infrastructure investment, trade patterns), and <b>historical technology adoption rates</b>. They do not model discontinuous technological change from AI systems that barely existed when the projections were made.</p>
+      <p>The divergences between BLS projections and AI exposure scores reveal the most consequential blind spots:</p>
+      <p><b>BLS says growing, AI says at risk:</b> Data scientists (BLS: +36%, composite 2031: 6.3), financial managers (BLS: +17%, composite: 5.5), market research analysts (BLS: +8%, composite: 6.8). These occupations may indeed grow in total output &mdash; the world will want more data analysis, more financial management, more market research &mdash; but they may do so with <b>fewer human workers per unit of output</b>. The BLS models demand growth; it doesn't model the possibility that each worker becomes 5x more productive.</p>
+      <p><b>BLS says declining, reasons unrelated to AI:</b> Adult education teachers (BLS: -14%), print binding workers (BLS: -12%), switchboard operators (BLS: -15%). These occupations are declining due to <b>structural shifts in their industries</b> (declining adult education enrolment, print media contraction, telephony modernisation), not primarily because of AI. Their AI composite scores are moderate, not extreme.</p>
+      <p><b>BLS says stable, AI sees a delayed cliff:</b> Retail sales workers (BLS: +2%, composite 2028: 2.8, composite 2036: 7.3) are the most striking example. The BLS projects essentially flat employment over the decade, but the composite score triples as physical AI (autonomous checkout, robotic stocking) matures. This doesn't mean the BLS is wrong about 2024&ndash;2034 &mdash; it means the disruption may <b>hit after their projection window closes</b>.</p>
+      <div class="callout"><b>What to notice:</b> Toggle back and forth between BLS Outlook and Composite Impact. The colour patterns are almost uncorrelated &mdash; tiles that are green on one view are often red on the other. This is not because one analysis is right and the other wrong. It's because they're measuring different things: the BLS measures demand growth within current economic structures; the composite measures how AI might restructure those economic structures themselves.</div>
+    `,
 
     pay: () => {
-      let wS = 0, wC = 0;
-      for (const d of data) { if (d.pay && d.jobs) { wS += d.pay * d.jobs; wC += d.jobs; } }
-      const wAvg = wC > 0 ? wS / wC : 0;
+      // Compute real stats
+      const bands = [
+        { name: "<$35K", lo: 0, hi: 35000 },
+        { name: "$35-75K", lo: 35000, hi: 75000 },
+        { name: "$75-100K", lo: 75000, hi: 100000 },
+        { name: "$100K+", lo: 100000, hi: Infinity },
+      ];
+      const bandStats = bands.map(b => {
+        const group = data.filter(d => d.pay && d.jobs && d.pay >= b.lo && d.pay < b.hi);
+        const c28 = group.filter(d => d.composite_2028 != null);
+        const c36 = group.filter(d => d.composite_2036 != null);
+        const avg28 = c28.length ? c28.reduce((s,d) => s + d.composite_2028, 0) / c28.length : 0;
+        const avg36 = c36.length ? c36.reduce((s,d) => s + d.composite_2036, 0) / c36.length : 0;
+        return { ...b, avg28: avg28.toFixed(1), avg36: avg36.toFixed(1), jobs: group.reduce((s,d) => s + d.jobs, 0) };
+      });
       return `
-        <h2>Median Annual Pay</h2>
-        <p>Median annual wages from the <b>Bureau of Labor Statistics (May 2024)</b>. The median is the wage at which half of workers earn more and half earn less. Rectangle area shows employment (number of jobs), so the treemap reveals the relationship between pay levels and the size of each occupation in the US economy.</p>
-        <p>The job-weighted average across all 342 occupations is <b>${fmtP(Math.round(wAvg))}</b>. The colour scale uses a logarithmic mapping from $25K (green) to $250K (red), which better distinguishes the crowded middle of the pay distribution.</p>
-        <div class="callout"><b>Key pattern:</b> The largest rectangles (retail, food service, healthcare support) tend to be green/yellow (lower pay), while the smallest rectangles (surgeons, airline pilots, executives) tend to be red (higher pay). This reflects the structural reality that the largest employment categories in the US economy are lower-paid service and production roles. Compare with the Composite Impact view to see whether AI is more likely to disrupt high-paying or low-paying work &mdash; the answer changes depending on the time horizon.</div>
+        <h2>Pay and AI exposure: the salary inversion that disappears</h2>
+        <p>One of the most commonly cited findings from Karpathy's original analysis was the <b>salary inversion</b>: higher-paid knowledge workers score higher on AI exposure than lower-paid manual workers. This is true in 2028. It is much less true by 2036, and the convergence tells an important story about how AI disruption evolves.</p>
+        <p>In 2028, the relationship between pay and composite exposure is steep: occupations below $35K average just ${bandStats[0].avg28} composite, while those above $100K average ${bandStats[3].avg28}. Higher pay correlates with more digital work, which correlates with more AI exposure. Low-paid workers are "safe" because their work is physical.</p>
+        <p>By 2036, the gap narrows dramatically: below $35K averages ${bandStats[0].avg36}, above $100K averages ${bandStats[3].avg36}. The convergence happens because <b>physical AI catches up</b>. Low-paid physical workers (retail, food service, warehouse, agriculture) see their exposure scores double or triple as robots mature. High-paid knowledge workers see modest increases because their exposure was already high and is now offset by positive demand elasticity.</p>
+        <p>The treemap makes this visible in a way no table can: the largest rectangles are overwhelmingly green (low-paid service and production roles employing millions), while the smallest rectangles (high-paid specialists employing thousands) are red. This reflects the structural reality that <b>the American economy employs far more people at moderate wages than at high wages</b>. The total wage bill at risk &mdash; $3.02T in the 7+ composite zone by 2036 &mdash; is concentrated in the mid-salary band, not the high-salary band, simply because there are so many more workers there.</p>
+        <div class="callout"><b>What to notice:</b> The large green rectangles here are the occupations most vulnerable to the "delayed cliff" &mdash; large employment, low pay, and a composite score that triples between 2028 and 2036 as physical AI arrives. Toggle to Composite Impact and drag the slider to see them change colour in real time.</div>
       `;
     },
 
-    education: () => {
-      let noFormal = 0, bachelors = 0;
-      for (const d of data) {
-        if (d.jobs && ["No formal educational credential", "High school diploma or equivalent"].includes(d.education)) noFormal += d.jobs;
-        if (d.jobs && ["Bachelor's degree", "Master's degree", "Doctoral or professional degree"].includes(d.education)) bachelors += d.jobs;
-      }
-      return `
-        <h2>Entry-Level Education Requirements</h2>
-        <p>The typical education level needed to <b>enter</b> each occupation, as reported by the BLS. This does not reflect what workers actually have (many workers are overeducated for their role) but rather what employers typically require for entry-level positions.</p>
-        <p>The colour scale runs from green (no formal credential) to red (doctoral or professional degree). <b>${fmtJ(noFormal)} jobs</b> (${(noFormal / 143066500 * 100).toFixed(0)}% of total) require no degree or only a high school diploma. <b>${fmtJ(bachelors)} jobs</b> (${(bachelors / 143066500 * 100).toFixed(0)}%) require a bachelor's or higher.</p>
-        <div class="callout"><b>Cross-reference with AI exposure:</b> Toggle between Education and Composite Impact. A common assumption is that higher-educated workers are safer from AI &mdash; the data tells a more nuanced story. Bachelor's-level knowledge workers (accountants, financial analysts, paralegals) often score higher on digital AI exposure than workers with no degree (plumbers, electricians, landscapers) whose physical, variable work is harder to automate. Education level is a weak predictor of AI resilience.</div>
-      `;
-    },
+    education: () => `
+      <h2>Education doesn't protect you the way you think it does</h2>
+      <p>The conventional wisdom is that <b>more education = more safety from automation</b>. The data tells a more complicated story that depends entirely on <em>what kind</em> of education and <em>which time horizon</em> you're looking at.</p>
+      <p>In 2028, the conventional wisdom roughly holds: occupations requiring no degree or just a high school diploma average 2.8 composite, while bachelor's-level jobs average 4.5 and master's-level 4.1. Doctoral/professional degree jobs average 3.4. Higher education correlates with more digital work, which in 2028 is where the exposure is. But note that doctoral/professional occupations <b>already score lower than bachelor's</b> &mdash; that's the friction effect. Surgeons, dentists, lawyers, and physicians have high technical exposure but enormous regulatory and social barriers to AI adoption.</p>
+      <p>By 2036, the pattern shifts further. The no-degree occupations that were safely green in 2028 &mdash; construction labourers, food servers, warehouse workers, agricultural labourers &mdash; see their composites rise toward 5&ndash;7 as physical AI arrives. Bachelor's-level knowledge workers (accountants at 7.5, financial analysts at 7.3, paralegals at 8+) are deep in the restructuring zone. Meanwhile, doctoral/professional occupations &mdash; surgeons, psychologists, dentists &mdash; remain moderate (3&ndash;5) because their <b>extreme friction acts as a structural defence</b> regardless of how capable the technology becomes.</p>
+      <p>The most resilient occupations by education level are revealing: among no-degree workers, <b>childcare workers</b> (composite 0.7 at 2036), <b>fitness trainers</b> (2.3), and <b>barbers</b> (1.1) stay safe because human presence IS the product. Among bachelor's-level workers, almost nothing stays below 3 &mdash; the occupations that do are in social services (community health workers, substance abuse counsellors) where demand elasticity runs strongly positive. Among doctoral workers, <b>psychologists</b> (2.1), <b>chiropractors</b> (2.0), and <b>clergy</b> stay low because of extreme friction.</p>
+      <p>The real predictor of AI resilience isn't education level &mdash; it's the <b>combination of variable physical environments, human intimacy, and institutional barriers</b>. A plumber with no degree (composite 2.4 at 2036) is safer than a paralegal with a bachelor's (composite 8+). A massage therapist with a postsecondary certificate (composite 1.1) is safer than a financial analyst with a master's (composite 7+).</p>
+      <div class="callout"><b>What to notice:</b> Toggle between Education and Composite Impact. If education predicted AI safety, the colour patterns would correlate &mdash; green on education (low degree) would be red on composite (high risk), and vice versa. They don't. The patterns are largely independent, because <b>the nature of the work matters far more than the credential required to enter it</b>.</div>
+    `,
   };
 
   const generator = content[colorMode];
