@@ -219,6 +219,75 @@ body {
   margin-top: -4px;
 }
 
+/* Analysis panel */
+.analysis-panel {
+  margin: 16px 0 20px;
+  padding: 16px 20px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--fg2);
+}
+.analysis-panel h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--fg);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+.analysis-panel p {
+  margin-bottom: 10px;
+}
+.analysis-panel strong, .analysis-panel b { color: var(--fg); font-weight: 600; }
+.analysis-panel .insight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+.analysis-panel .insight-card {
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+.analysis-panel .insight-card .ic-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg2);
+  margin-bottom: 4px;
+}
+.analysis-panel .insight-card .ic-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--fg);
+  letter-spacing: -0.02em;
+}
+.analysis-panel .insight-card .ic-detail {
+  font-size: 11px;
+  color: var(--fg2);
+  margin-top: 2px;
+}
+.analysis-panel .callout {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: rgba(255,200,60,0.04);
+  border-left: 3px solid rgba(255,200,60,0.3);
+  border-radius: 0 4px 4px 0;
+  font-size: 13px;
+}
+.analysis-panel ul {
+  margin: 6px 0 6px 18px;
+  font-size: 13px;
+}
+.analysis-panel li {
+  margin-bottom: 4px;
+}
+
 canvas#canvas {
   display: block;
   cursor: default;
@@ -300,6 +369,8 @@ canvas#canvas {
     <div class="stat-section" id="block6"></div>
     <div class="stat-section" id="block7"></div>
   </div>
+
+  <div class="analysis-panel" id="analysisPanel"></div>
 </div>
 
 <canvas id="canvas"></canvas>
@@ -989,6 +1060,228 @@ canvas.addEventListener("click", (e) => { const hit = hitTest(e.clientX, e.clien
 canvas.addEventListener("mouseleave", () => { hovered = null; hideTooltip(); draw(); });
 function resize() { dpr = window.devicePixelRatio || 1; layout(); draw(); }
 
+// ── Analysis panel content ──────────────────────────────────────────────
+
+function updateAnalysis() {
+  const panel = document.getElementById("analysisPanel");
+  const yr = Math.round(currentYear);
+
+  // Compute live stats from data
+  function countAbove(key, threshold) {
+    let jobs = 0, count = 0;
+    for (const d of data) {
+      const v = key === "_interpolated" ? getMetricValue(d) : d[key];
+      if (v != null && v >= threshold) { count++; if (d.jobs) jobs += d.jobs; }
+    }
+    return { count, jobs };
+  }
+
+  function topN(key, n, asc) {
+    const scored = data.filter(d => d[key] != null);
+    scored.sort((a, b) => asc ? a[key] - b[key] : b[key] - a[key]);
+    return scored.slice(0, n);
+  }
+
+  function fmtJ(n) { return n >= 1e6 ? (n/1e6).toFixed(1) + "M" : Math.round(n/1e3) + "K"; }
+  function fmtP(n) { return n ? "$" + n.toLocaleString() : "?"; }
+
+  const h = nearestHorizon();
+
+  const content = {
+    composite: () => {
+      const high = countAbove("composite_" + h, 7);
+      const vhigh = countAbove("composite_" + h, 9);
+      const durable = data.filter(d => d.composite_2028 != null && d.composite_2028 < 3 && d.composite_2031 != null && d.composite_2031 < 3 && d.composite_2036 != null && d.composite_2036 < 3);
+      const delayed = data.filter(d => d.composite_2028 != null && d.composite_2028 < 3 && d.composite_2036 != null && d.composite_2036 > 7);
+      return `
+        <h2>Composite Employment Impact</h2>
+        <p>The composite score combines all four axes into a single measure of how much AI will reshape each occupation's employment landscape. It accounts for <b>digital AI exposure</b> (LLMs, coding agents), <b>physical AI exposure</b> (robots, autonomous vehicles), <b>adoption friction</b> (regulation, social trust, employer fragmentation), and <b>demand elasticity</b> (whether productivity gains expand or shrink headcount).</p>
+        <p>The formula takes the higher of digital/physical exposure, adds a compounding bonus when both are high, discounts by adoption friction, then adjusts for demand elasticity. A software developer with high digital exposure (+8) but strong latent demand (+3) has a lower composite than a data entry clerk with similar exposure but fixed demand (-5).</p>
+        <div class="insight-grid">
+          <div class="insight-card">
+            <div class="ic-label">Jobs scoring 7+ (${h})</div>
+            <div class="ic-value">${fmtJ(high.jobs)}</div>
+            <div class="ic-detail">${high.count} occupations, ${(high.jobs / 143066500 * 100).toFixed(0)}% of US workforce</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Genuinely durable</div>
+            <div class="ic-value">${durable.length}</div>
+            <div class="ic-detail">Occupations scoring &lt;3 across all horizons</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Delayed cliff</div>
+            <div class="ic-value">${delayed.length}</div>
+            <div class="ic-detail">Safe in 2028 (&lt;3) but exposed by 2036 (&gt;7)</div>
+          </div>
+        </div>
+        <div class="callout"><b>What to watch for:</b> Drag the slider from 2028 to 2036. Large green rectangles that turn red are occupations experiencing a "delayed cliff" &mdash; they look safe today but face a reckoning as physical AI matures. The durable occupations (childcare, therapy, barbering, firefighting) stay green throughout because their value comes from human presence, trust, and intimacy that no technology replaces.</div>
+      `;
+    },
+
+    digital: () => {
+      const high = countAbove("digital_" + h, 7);
+      const top3 = topN("digital_" + h, 3, false);
+      const bot3 = topN("digital_" + h, 3, true);
+      return `
+        <h2>Digital AI Exposure (${h})</h2>
+        <p>This axis measures how much <b>digital AI systems</b> &mdash; large language models, coding agents, analysis tools, image/video generators &mdash; can automate an occupation's core tasks. It captures exposure to software-based AI, not physical robots.</p>
+        <p>${h === "2028" ?
+          "At the 2028 horizon, AI is in <b>copilot mode</b>: human-directed, AI-assisted. Productivity gains of 2&ndash;4x are common in digital roles, but truly autonomous agents remain unreliable for complex work. Most organisations are in the \"do more with the same team\" phase." :
+          h === "2031" ?
+          "By 2031, the shift from <b>copilot to autonomous agent</b> is well underway. AI agents can autonomously manage projects, write and deploy code, produce publication-ready analysis. Productivity gains of 5&ndash;10x are documented. Major workforce restructuring has occurred in digital-heavy sectors." :
+          "By 2036, AI can autonomously execute <b>most digital knowledge work</b> end-to-end. The question is no longer \"can AI do this?\" but \"is there a regulatory, social, or strategic reason to keep a human in the loop?\" Remaining human roles are concentrated in genuinely novel strategy, legally mandated accountability, and work where human authorship IS the product."
+        }</p>
+        <div class="insight-grid">
+          <div class="insight-card">
+            <div class="ic-label">Jobs scoring 7+ (${h})</div>
+            <div class="ic-value">${fmtJ(high.jobs)}</div>
+            <div class="ic-detail">${high.count} occupations</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Most exposed</div>
+            <div class="ic-value">${top3.map(d => d["digital_" + h]).join(", ")}</div>
+            <div class="ic-detail">${top3.map(d => d.title.split(",")[0]).join("; ")}</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Least exposed</div>
+            <div class="ic-value">${bot3.map(d => d["digital_" + h]).join(", ")}</div>
+            <div class="ic-detail">${bot3.map(d => d.title.split(",")[0]).join("; ")}</div>
+          </div>
+        </div>
+        <div class="callout"><b>Key pattern:</b> The largest red rectangles are clerical and administrative roles (secretaries, general office clerks, customer service reps) that employ millions and are almost entirely screen-based. Notice how the red zone expands as you drag the slider forward &mdash; roles that score 6&ndash;7 in 2028 (accountants, lawyers, engineers) shift to 8&ndash;9 by 2036 as autonomous agents take over routine knowledge work.</div>
+      `;
+    },
+
+    physical: () => {
+      const high = countAbove("physical_" + h, 5);
+      return `
+        <h2>Physical / Embodied AI Exposure (${h})</h2>
+        <p>This axis measures exposure to <b>physical AI</b>: humanoid robots, autonomous vehicles, surgical robots, agricultural automation, and industrial robotics. This is the axis Karpathy's original analysis missed entirely &mdash; it treated all physical jobs as permanently insulated from AI.</p>
+        <p>${h === "2028" ?
+          "In 2028, humanoid robots are in <b>early commercial deployment</b>. Tens of thousands of units operate in Tesla factories and large warehouses. Unit cost is $30&ndash;50K. They reliably handle structured, repetitive tasks in controlled environments but cannot handle unstructured or novel physical settings. Autonomous vehicles operate in 15&ndash;20 US cities on mapped routes." :
+          h === "2031" ?
+          "By 2031, humanoid robots are a <b>mainstream commercial product</b>. Hundreds of thousands deployed at $15&ndash;30K per unit. Robots operate with moderate autonomy in warehouses, factories, retail stockrooms, commercial kitchens, and agriculture. Autonomous delivery is operational in urban centres. Small businesses are adopting via robotics-as-a-service models." :
+          "By 2036, general-purpose humanoid robots are a <b>mature mass-market product</b>. Millions deployed at $10&ndash;20K. They can handle most structured and semi-structured physical tasks, navigate moderately variable environments, and adapt to minor unexpected situations. Autonomous vehicles are ubiquitous. Home-care robots handle routine support tasks."
+        }</p>
+        <div class="insight-grid">
+          <div class="insight-card">
+            <div class="ic-label">Jobs with physical exposure 5+ (${h})</div>
+            <div class="ic-value">${fmtJ(high.jobs)}</div>
+            <div class="ic-detail">${high.count} occupations</div>
+          </div>
+        </div>
+        <div class="callout"><b>Key pattern:</b> Notice that most of the treemap is green (score 0) &mdash; pure knowledge workers have zero physical AI exposure. The red zones are concentrated in manufacturing, warehousing, agriculture, and transportation. Drag from 2028 to 2036 to watch the physical exposure frontier expand outward from factories and warehouses into retail, food service, construction, and commercial cleaning.</div>
+      `;
+    },
+
+    friction: () => {
+      const lowFriction = data.filter(d => d.adoption_friction != null && d.adoption_friction <= 2);
+      const highFriction = data.filter(d => d.adoption_friction != null && d.adoption_friction >= 8);
+      return `
+        <h2>Adoption Friction</h2>
+        <p>Even where AI technology is technically capable, <b>real-world barriers</b> slow actual adoption. This axis captures the structural friction: regulatory licensing, safety certification, liability frameworks, union agreements, social trust preferences, employer fragmentation, and institutional inertia. It is scored once (not per horizon) because these barriers are structural, not technological.</p>
+        <p>Crucially, <b>labour shortages reduce friction</b>. Sectors with acute shortages (warehousing, eldercare, agriculture, long-haul trucking) adopt faster because economic desperation overrides social and regulatory resistance.</p>
+        <div class="insight-grid">
+          <div class="insight-card">
+            <div class="ic-label">Near-zero friction (0&ndash;2)</div>
+            <div class="ic-value">${lowFriction.length}</div>
+            <div class="ic-detail">Large employers, clear ROI, minimal regulation</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Very high friction (8&ndash;10)</div>
+            <div class="ic-value">${highFriction.length}</div>
+            <div class="ic-detail">Heavy regulation, liability, social barriers</div>
+          </div>
+        </div>
+        <div class="callout"><b>What this means:</b> The green tiles (low friction) are where AI adoption will happen first &mdash; Amazon warehouses, Tesla factories, large tech companies, commercial cleaning operations. The red tiles (high friction) are where technology may be ready but adoption is blocked for years by regulation, liability, or deep social preference for human workers: surgery, psychotherapy, childcare, policing, clergy. Two occupations with identical technical exposure but different friction scores will have radically different composite trajectories.</div>
+        <ul>
+          <li><b>Green (0&ndash;2):</b> Software, warehousing, manufacturing, logistics &mdash; large employers, existing tech culture, acute labour shortages</li>
+          <li><b>Yellow (4&ndash;5):</b> Fast food chains, commercial construction, routine accounting &mdash; some regulation, mix of employer sizes</li>
+          <li><b>Red (8&ndash;10):</b> Surgery, psychotherapy, childcare, policing, judges, clergy &mdash; heavy regulation, high liability, strong social preference for humans</li>
+        </ul>
+      `;
+    },
+
+    elasticity: () => {
+      const expanding = data.filter(d => d.demand_elasticity != null && d.demand_elasticity >= 3);
+      const shrinking = data.filter(d => d.demand_elasticity != null && d.demand_elasticity <= -3);
+      return `
+        <h2>Demand Elasticity</h2>
+        <p>This is the most counterintuitive axis. When each worker becomes <b>5&ndash;10x more productive</b>, does the world want 5&ndash;10x more of that work (demand expands, headcount stable or grows), or is demand fixed (headcount shrinks proportionally)?</p>
+        <p>The colour scale runs from <b style="color:#dc3c3c;">red (-5)</b> to <b>white (0)</b> to <b style="color:#1eaa5a;">green (+5)</b>. Red tiles represent occupations where demand is fixed &mdash; a city needs X bank tellers regardless of speed, a company needs one annual audit regardless of how fast it is. Green tiles represent massive latent demand currently constrained by cost &mdash; if therapy, tutoring, or custom software were 80% cheaper, demand would explode.</p>
+        <div class="insight-grid">
+          <div class="insight-card">
+            <div class="ic-label">Strong demand expansion (+3 to +5)</div>
+            <div class="ic-value">${expanding.length}</div>
+            <div class="ic-detail">Tutoring, therapy, software dev, social work, graphic design</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Strong demand shrinkage (-3 to -5)</div>
+            <div class="ic-value">${shrinking.length}</div>
+            <div class="ic-detail">Data entry, tellers, bookkeeping, cashiers, transcription</div>
+          </div>
+        </div>
+        <div class="callout"><b>Why this matters:</b> Demand elasticity is the difference between "AI transforms the job" and "AI eliminates the job." Software developers score 8/10 on digital exposure, but their composite drops significantly because there is enormous latent demand for custom software (+3 elasticity). Every small business wants an app; every team wants better tools. Contrast with medical transcriptionists: same high digital exposure, but demand is fixed and shrinking (-5). When computers automated typesetting, publishing employment grew because latent demand for printed material exploded. When ATMs automated cash dispensing, bank teller employment shrank because nobody wanted more cash transactions.</div>
+      `;
+    },
+
+    outlook: () => {
+      const declining = data.filter(d => d.outlook != null && d.outlook < 0);
+      const fast = data.filter(d => d.outlook != null && d.outlook >= 10);
+      return `
+        <h2>BLS Employment Outlook (2024&ndash;2034)</h2>
+        <p>This is the <b>official Bureau of Labor Statistics projection</b> for employment change over the decade 2024&ndash;2034. Unlike our AI exposure scores, these are produced by the BLS using established economic modeling &mdash; they reflect broad economic trends, demographic shifts, and historical patterns, not just AI impact.</p>
+        <p>The BLS methodology tends to be conservative about technological disruption. Their projections primarily capture <b>demand-side factors</b> (aging population driving healthcare growth, infrastructure investment driving construction) and <b>historical trends</b> (declining manufacturing, growing services). They generally do not model the impact of AI systems that did not exist when the projections were made.</p>
+        <div class="insight-grid">
+          <div class="insight-card">
+            <div class="ic-label">Declining occupations</div>
+            <div class="ic-value">${declining.length}</div>
+            <div class="ic-detail">Negative BLS growth outlook</div>
+          </div>
+          <div class="insight-card">
+            <div class="ic-label">Fast-growing (10%+)</div>
+            <div class="ic-value">${fast.length}</div>
+            <div class="ic-detail">Much faster than average</div>
+          </div>
+        </div>
+        <div class="callout"><b>Compare with AI scores:</b> Toggle between BLS Outlook and Composite Impact to see where official projections and AI exposure analysis diverge. Many occupations the BLS projects as stable or growing (data analysts, financial advisors, paralegals) score high on digital AI exposure. Conversely, some occupations the BLS projects as declining (secretaries, production workers) are declining for reasons unrelated to AI. The most interesting cases are where BLS projects growth but AI exposure is high &mdash; these occupations may grow in output but not in headcount.</div>
+      `;
+    },
+
+    pay: () => {
+      let wS = 0, wC = 0;
+      for (const d of data) { if (d.pay && d.jobs) { wS += d.pay * d.jobs; wC += d.jobs; } }
+      const wAvg = wC > 0 ? wS / wC : 0;
+      return `
+        <h2>Median Annual Pay</h2>
+        <p>Median annual wages from the <b>Bureau of Labor Statistics (May 2024)</b>. The median is the wage at which half of workers earn more and half earn less. Rectangle area shows employment (number of jobs), so the treemap reveals the relationship between pay levels and the size of each occupation in the US economy.</p>
+        <p>The job-weighted average across all 342 occupations is <b>${fmtP(Math.round(wAvg))}</b>. The colour scale uses a logarithmic mapping from $25K (green) to $250K (red), which better distinguishes the crowded middle of the pay distribution.</p>
+        <div class="callout"><b>Key pattern:</b> The largest rectangles (retail, food service, healthcare support) tend to be green/yellow (lower pay), while the smallest rectangles (surgeons, airline pilots, executives) tend to be red (higher pay). This reflects the structural reality that the largest employment categories in the US economy are lower-paid service and production roles. Compare with the Composite Impact view to see whether AI is more likely to disrupt high-paying or low-paying work &mdash; the answer changes depending on the time horizon.</div>
+      `;
+    },
+
+    education: () => {
+      let noFormal = 0, bachelors = 0;
+      for (const d of data) {
+        if (d.jobs && ["No formal educational credential", "High school diploma or equivalent"].includes(d.education)) noFormal += d.jobs;
+        if (d.jobs && ["Bachelor's degree", "Master's degree", "Doctoral or professional degree"].includes(d.education)) bachelors += d.jobs;
+      }
+      return `
+        <h2>Entry-Level Education Requirements</h2>
+        <p>The typical education level needed to <b>enter</b> each occupation, as reported by the BLS. This does not reflect what workers actually have (many workers are overeducated for their role) but rather what employers typically require for entry-level positions.</p>
+        <p>The colour scale runs from green (no formal credential) to red (doctoral or professional degree). <b>${fmtJ(noFormal)} jobs</b> (${(noFormal / 143066500 * 100).toFixed(0)}% of total) require no degree or only a high school diploma. <b>${fmtJ(bachelors)} jobs</b> (${(bachelors / 143066500 * 100).toFixed(0)}%) require a bachelor's or higher.</p>
+        <div class="callout"><b>Cross-reference with AI exposure:</b> Toggle between Education and Composite Impact. A common assumption is that higher-educated workers are safer from AI &mdash; the data tells a more nuanced story. Bachelor's-level knowledge workers (accountants, financial analysts, paralegals) often score higher on digital AI exposure than workers with no degree (plumbers, electricians, landscapers) whose physical, variable work is harder to automate. Education level is a weak predictor of AI resilience.</div>
+      `;
+    },
+  };
+
+  const generator = content[colorMode];
+  if (generator) {
+    panel.innerHTML = generator();
+    panel.style.display = "block";
+  }
+}
+
 // Layer toggle
 document.getElementById("colorToggle").addEventListener("click", (e) => {
   const btn = e.target.closest("button");
@@ -1000,6 +1293,7 @@ document.getElementById("colorToggle").addEventListener("click", (e) => {
   const tc = document.getElementById("timelineContainer");
   tc.classList.toggle("disabled", !TIME_METRICS.includes(colorMode));
   updateStats();
+  updateAnalysis();
   drawGradientLegend();
   draw();
   requestAnimationFrame(resize);
@@ -1012,6 +1306,7 @@ slider.addEventListener("input", () => {
   currentYear = parseFloat(slider.value);
   yearLabel.textContent = Math.round(currentYear);
   updateStats();
+  updateAnalysis();
   draw();
 });
 
@@ -1022,6 +1317,7 @@ fetch("data.json")
   .then(d => {
     data = d;
     updateStats();
+    updateAnalysis();
     drawGradientLegend();
     resize();
   });
