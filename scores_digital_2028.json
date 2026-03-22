@@ -2,20 +2,20 @@
   {
     "slug": "accountants-and-auditors",
     "title": "Accountants and auditors",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly knowledge work involving financial records, tax preparation, auditing, and advisory \u2014 almost entirely digital. AI copilots by 2028 handle routine analysis, report drafting, and compliance checks, yielding 2-3x productivity gains. However, client advisory, fraud detection, and complex judgment calls still require experienced human professionals."
+    "digital_exposure_2028": 8,
+    "rationale": "46% of accountants use AI daily (Karbon 2025); 87% adoption at scale among leaders; month-end close reduced from 12 to 3 days; 95% have automated payroll/AP. By 2028, AI handles routine analysis, compliance checks, and report generation at scale. Client advisory and complex judgment retain human value, but routine accounting work faces active headcount pressure."
   },
   {
     "slug": "actors",
     "title": "Actors",
     "digital_exposure_2028": 4,
-    "rationale": "Core work is physical human performance \u2014 auditions, rehearsals, live and filmed acting \u2014 which AI cannot replicate for most contexts by 2028. However, AI-generated synthetic media is beginning to displace voiceover work, background extras, and some digital character work. BLS itself notes AI may replace actors in certain subfields."
+    "rationale": "Core work is physical human performance — auditions, rehearsals, live and filmed acting — which AI cannot replicate for most contexts by 2028. However, AI-generated synthetic media is beginning to displace voiceover work, background extras, and some digital character work. BLS itself notes AI may replace actors in certain subfields."
   },
   {
     "slug": "actuaries",
     "title": "Actuaries",
-    "digital_exposure_2028": 7,
-    "rationale": "Almost entirely digital work: statistical modeling, risk analysis, financial forecasting, and report writing. AI excels at data analysis and pattern recognition in structured datasets. By 2028, AI copilots significantly accelerate routine modeling and analysis, but deep domain expertise, certification requirements, and regulatory judgment provide meaningful insulation for experienced practitioners."
+    "digital_exposure_2028": 8,
+    "rationale": "Finance AI adoption at scale: 46% of accountants use AI daily, 87% at scale among leaders, 44% of finance teams deploying agentic AI by 2026. Actuarial work is entirely digital — modeling, risk analysis, forecasting — and AI copilots accelerate all core tasks by 2028. Deep domain expertise and certification provide some insulation at senior levels."
   },
   {
     "slug": "administrative-services-managers",
@@ -32,14 +32,14 @@
   {
     "slug": "advertising-sales-agents",
     "title": "Advertising sales agents",
-    "digital_exposure_2028": 7,
-    "rationale": "Work is predominantly digital: locating clients, making presentations, preparing sales literature, media kits, and processing correspondence. AI assists with prospect research, proposal generation, and ad performance analytics by 2028. However, relationship building and client negotiation remain human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of marketers use AI daily (CoSchedule 2025); 90% of content marketers use AI writing tools regularly. Prospect research, proposal generation, ad performance analytics, and content creation are all AI-augmented. By 2028, routine sales support tasks are heavily automated. Relationship building and negotiation retain human value."
   },
   {
     "slug": "advertising-promotions-and-marketing-managers",
     "title": "Advertising, promotions, and marketing managers",
-    "digital_exposure_2028": 7,
-    "rationale": "Core duties\u2014market research analysis, campaign planning, budget management, and creative direction\u2014are heavily digital. AI copilots by 2028 accelerate content creation, audience targeting, and performance analytics. Strategic decision-making, team leadership, and client relationships still require human judgment."
+    "digital_exposure_2028": 8,
+    "rationale": "90% of content marketers use AI writing tools regularly; 88% of marketers use AI daily. Market research, campaign planning, content creation, and performance analytics are all heavily AI-augmented by 2026. By 2028, AI copilots handle 50%+ of routine marketing management tasks. Strategic decisions and team leadership remain human."
   },
   {
     "slug": "aerospace-engineering-and-operations-technicians",
@@ -81,7 +81,7 @@
     "slug": "air-traffic-controllers",
     "title": "Air traffic controllers",
     "digital_exposure_2028": 4,
-    "rationale": "Work involves real-time monitoring of radar/computer systems and radio communication with pilots\u2014a mix of digital tools and high-stakes human judgment. AI aids with traffic flow optimization and weather integration, but safety-critical real-time decision-making and direct communication with pilots remain firmly human due to regulatory and safety constraints."
+    "rationale": "Work involves real-time monitoring of radar/computer systems and radio communication with pilots—a mix of digital tools and high-stakes human judgment. AI aids with traffic flow optimization and weather integration, but safety-critical real-time decision-making and direct communication with pilots remain firmly human due to regulatory and safety constraints."
   },
   {
     "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
@@ -129,7 +129,7 @@
     "slug": "architectural-and-engineering-managers",
     "title": "Architectural and engineering managers",
     "digital_exposure_2028": 6,
-    "rationale": "Management duties include project planning, budgeting, staff coordination, and technical oversight\u2014substantially digital. AI assists with project tracking, report generation, and resource planning. However, leadership, hiring decisions, cross-functional collaboration, and technical judgment remain human-driven."
+    "rationale": "Management duties include project planning, budgeting, staff coordination, and technical oversight—substantially digital. AI assists with project tracking, report generation, and resource planning. However, leadership, hiring decisions, cross-functional collaboration, and technical judgment remain human-driven."
   },
   {
     "slug": "curators-museum-technicians-and-conservators",
@@ -140,8 +140,8 @@
   {
     "slug": "art-directors",
     "title": "Art directors",
-    "digital_exposure_2028": 7,
-    "rationale": "Work is predominantly digital: developing visual styles, reviewing designs, coordinating creative teams, and presenting concepts to clients. AI image generation and design tools substantially assist production work by 2028. However, creative vision, team management, and client relationship skills remain essential human contributions."
+    "digital_exposure_2028": 8,
+    "rationale": "90% of content marketers use AI tools regularly; AI image generation is production-ready. Visual concept development, design review, and production work are heavily AI-augmented by 2026. By 2028, AI handles template design, asset generation, and routine production work. Creative vision and team management retain human value."
   },
   {
     "slug": "assemblers-and-fabricators",
@@ -153,7 +153,7 @@
     "slug": "athletes-and-sports-competitors",
     "title": "Athletes and sports competitors",
     "digital_exposure_2028": 1,
-    "rationale": "Core value is entirely physical: practicing, training, exercising, and competing in sporting events. While AI assists with performance analytics and video review, the fundamental work product\u2014athletic performance\u2014is entirely non-digital and cannot be automated."
+    "rationale": "Core value is entirely physical: practicing, training, exercising, and competing in sporting events. While AI assists with performance analytics and video review, the fundamental work product—athletic performance—is entirely non-digital and cannot be automated."
   },
   {
     "slug": "athletic-trainers",
@@ -164,8 +164,8 @@
   {
     "slug": "atmospheric-scientists-including-meteorologists",
     "title": "Atmospheric scientists, including meteorologists",
-    "digital_exposure_2028": 7,
-    "rationale": "Heavily digital work: analyzing atmospheric data, running computational weather models, preparing forecasts and reports, and using specialized software. AI significantly enhances weather prediction, data analysis, and forecast generation by 2028. Some fieldwork for instrument deployment remains physical."
+    "digital_exposure_2028": 8,
+    "rationale": "AI weather prediction models are production-ready and outperforming traditional methods. Data analysis, computational modeling, and forecast generation — the core of this role — are heavily AI-augmented. By 2028, routine forecasting and data analysis face strong automation pressure. Novel research and severe weather judgment retain human value."
   },
   {
     "slug": "audiologists",
@@ -206,8 +206,8 @@
   {
     "slug": "bill-and-account-collectors",
     "title": "Bill and account collectors",
-    "digital_exposure_2028": 8,
-    "rationale": "Work is almost entirely screen-based: using databases to find debtors, making phone calls, sending correspondence, negotiating repayment plans, and recording account information. AI chatbots and automated outreach systems can handle routine collection tasks by 2028, with active displacement of entry-level positions."
+    "digital_exposure_2028": 9,
+    "rationale": "AI customer service resolves 66-84% of queries autonomously (Intercom Fin, Ada); BPO ACV down 14% in 2025; cost per interaction down 68%. Routine collection outreach via phone, email, and chat is heavily automated by 2028. Active displacement in entry-level collection roles."
   },
   {
     "slug": "biochemists-and-biophysicists",
@@ -219,7 +219,7 @@
     "slug": "biomedical-engineers",
     "title": "Bioengineers and biomedical engineers",
     "digital_exposure_2028": 6,
-    "rationale": "Core duties include designing medical devices using CAD, developing software for medical systems, and writing technical reports\u2014substantially digital. AI assists with design optimization, simulation, and documentation. Physical prototyping, clinical testing, and regulatory navigation require human expertise."
+    "rationale": "Core duties include designing medical devices using CAD, developing software for medical systems, and writing technical reports—substantially digital. AI assists with design optimization, simulation, and documentation. Physical prototyping, clinical testing, and regulatory navigation require human expertise."
   },
   {
     "slug": "biological-technicians",
@@ -350,8 +350,8 @@
   {
     "slug": "claims-adjusters-appraisers-examiners-and-investigators",
     "title": "Claims adjusters, appraisers, examiners, and investigators",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital work: reviewing claims documentation, analyzing policy coverage, calculating settlements, and preparing reports. AI significantly accelerates claims processing, fraud detection, and damage estimation by 2028. Physical site inspections for complex claims provide some insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "Insurance industry heavily adopting AI for risk assessment and claims processing. AI automates document review, damage estimation, fraud detection, and routine claims adjudication. 87% of finance/accounting leaders at scale with AI. By 2028, routine claims processing faces active headcount reduction. Complex and physical site inspections retain human value."
   },
   {
     "slug": "clinical-laboratory-technologists-and-technicians",
@@ -374,20 +374,20 @@
   {
     "slug": "compensation-and-benefits-managers",
     "title": "Compensation and benefits managers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital knowledge work: analyzing salary data, designing compensation structures, managing benefits programs, and ensuring regulatory compliance using HRIS systems. AI assists with market benchmarking, plan modeling, and compliance monitoring by 2028. Staff supervision and strategic decision-making remain human."
+    "digital_exposure_2028": 8,
+    "rationale": "IBM cut ~8,000 HR roles citing AI replacement. 88% of enterprises use AI in at least one function. Salary benchmarking, plan modeling, compliance monitoring, and benefits analysis are all heavily AI-augmented by 2026. By 2028, routine compensation management tasks face strong automation pressure. Strategic decisions retain human value."
   },
   {
     "slug": "compensation-benefits-and-job-analysis-specialists",
     "title": "Compensation, benefits, and job analysis specialists",
-    "digital_exposure_2028": 7,
-    "rationale": "Almost entirely screen-based: analyzing wage data, evaluating job descriptions, administering benefits programs, and preparing reports. AI significantly assists with salary benchmarking, job classification, and benefits analysis by 2028. Routine analytical tasks face meaningful automation pressure."
+    "digital_exposure_2028": 8,
+    "rationale": "IBM cut ~8,000 HR roles citing AI. Enterprise AI adoption at 88%. Salary data analysis, job classification, benefits administration, and reporting are almost entirely digital and heavily automatable. By 2028, routine analytical HR tasks face active headcount pressure."
   },
   {
     "slug": "compliance-officers",
     "title": "Compliance officers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital knowledge work: reviewing regulations, conducting audits, analyzing organizational practices, and preparing compliance reports. AI excels at monitoring regulatory changes, scanning documents for compliance issues, and generating reports by 2028. However, judgment in ambiguous situations and organizational advisory remain human."
+    "digital_exposure_2028": 8,
+    "rationale": "92% of legal professionals use at least one AI tool daily; corporate legal AI adoption doubled (23%→52%). Regulatory monitoring, document scanning, compliance reporting, and audit preparation are all heavily AI-augmented. By 2028, routine compliance monitoring faces strong automation. Judgment in ambiguous situations retains human value."
   },
   {
     "slug": "computer-and-information-research-scientists",
@@ -398,8 +398,8 @@
   {
     "slug": "computer-and-information-systems-managers",
     "title": "Computer and information systems managers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: planning IT strategy, managing technology teams, overseeing system implementations, and coordinating budgets. AI assists with project tracking, capacity planning, and vendor evaluation by 2028. Leadership, cross-functional coordination, and strategic technology decisions remain human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI in at least one function; 23% scaling agentic AI systems. IT strategy, project tracking, capacity planning, and vendor evaluation are all AI-augmented. By 2028, routine IT management tasks are heavily automated. Strategic leadership and cross-functional coordination retain human value."
   },
   {
     "slug": "computer-hardware-engineers",
@@ -410,8 +410,8 @@
   {
     "slug": "computer-network-architects",
     "title": "Computer network architects",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: designing network topologies, evaluating hardware/software, analyzing data traffic, and planning implementations. AI assists with network optimization, security analysis, and capacity planning by 2028. However, strategic architecture decisions and cross-organizational coordination remain human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; Gartner projects 40% of enterprise apps will feature AI agents by 2026. Network design optimization, security analysis, capacity planning, and documentation are all AI-augmented. By 2028, routine network architecture tasks face strong automation. Strategic decisions retain human value."
   },
   {
     "slug": "computer-programmers",
@@ -422,8 +422,8 @@
   {
     "slug": "computer-support-specialists",
     "title": "Computer support specialists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: troubleshooting software/hardware issues, maintaining networks, training users, and managing IT tickets. AI chatbots and diagnostic tools handle routine support queries by 2028. Some physical hardware maintenance provides insulation, but Tier 1 support faces significant automation."
+    "digital_exposure_2028": 8,
+    "rationale": "AI customer service resolves 66-84% of queries autonomously; cost per interaction down 68%. Tier 1 IT support (routine troubleshooting, password resets, software installs) is heavily automated by AI chatbots and diagnostic tools by 2028. Active headcount reduction in basic support roles. Complex hardware and escalation issues retain human value."
   },
   {
     "slug": "computer-systems-analysts",
@@ -482,8 +482,8 @@
   {
     "slug": "cost-estimators",
     "title": "Cost estimators",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital work: analyzing data, calculating material/labor/time costs, using estimation software, and preparing detailed reports. AI significantly enhances cost modeling, historical data analysis, and proposal generation by 2028. Some site visits for complex projects provide partial insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; AI significantly enhances cost modeling, historical data analysis, and proposal generation. 95% of accountants have automated processes like payroll/AP, indicating broad financial automation. By 2028, routine estimation work faces strong automation pressure. Complex site-specific judgment retains human value."
   },
   {
     "slug": "court-reporters",
@@ -506,8 +506,8 @@
   {
     "slug": "customer-service-representatives",
     "title": "Customer service representatives",
-    "digital_exposure_2028": 8,
-    "rationale": "Predominantly screen-based: handling phone/chat/email inquiries, processing orders, resolving complaints, and updating account records. AI chatbots and virtual agents handle 50-70% of routine customer interactions by 2028. Active headcount reduction in basic customer service roles is underway."
+    "digital_exposure_2028": 9,
+    "rationale": "AI resolves 66-84% of customer queries autonomously (Intercom Fin at 66%, Ada at 84%); cost per interaction down 68% ($4.60→$1.45); BPO ACV down 14% in 2025, financial services BPO down 25%. Only 20% have reduced headcount YET, but by 2028, AI handles 70%+ of routine interactions. Active displacement underway in basic customer service roles."
   },
   {
     "slug": "dancers-and-choreographers",
@@ -639,7 +639,7 @@
     "slug": "electro-mechanical-technicians",
     "title": "Electro-mechanical and mechatronics technologists and technicians",
     "digital_exposure_2028": 3,
-    "rationale": "Core work involves operating, testing, and maintaining automated and robotic equipment\u2014a blend of physical hands-on work and digital monitoring. AI assists with diagnostics and programming, but physical equipment maintenance and troubleshooting remain central."
+    "rationale": "Core work involves operating, testing, and maintaining automated and robotic equipment—a blend of physical hands-on work and digital monitoring. AI assists with diagnostics and programming, but physical equipment maintenance and troubleshooting remain central."
   },
   {
     "slug": "elementary-middle-and-high-school-principals",
@@ -698,8 +698,8 @@
   {
     "slug": "epidemiologists",
     "title": "Epidemiologists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: analyzing disease data, conducting statistical studies, writing research reports, and developing public health policies. AI significantly accelerates data analysis, pattern detection, and literature review by 2028. Community education and fieldwork investigations provide some non-digital balance."
+    "digital_exposure_2028": 8,
+    "rationale": "Data analysis, statistical studies, and report writing — core epidemiological tasks — are heavily AI-augmented. 88% of enterprises use AI; AI excels at pattern detection in health data. By 2028, routine epidemiological analysis faces strong automation. Novel research design and public health leadership retain human value."
   },
   {
     "slug": "exercise-physiologists",
@@ -740,14 +740,14 @@
   {
     "slug": "financial-examiners",
     "title": "Financial examiners",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: reviewing financial records, evaluating compliance, assessing risk levels, and writing examination reports. AI assists with automated compliance checking, risk scoring, and report generation by 2028. Complex regulatory judgment and on-site examinations provide some insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "46% of accountants use AI daily; 87% adoption at scale; 44% of finance teams deploying agentic AI by 2026. Automated compliance checking, risk scoring, and report generation handle much of routine examination work. By 2028, standard financial examinations face strong automation. Complex regulatory judgment retains human value."
   },
   {
     "slug": "financial-managers",
     "title": "Financial managers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital knowledge work: creating financial reports, directing investments, analyzing market trends, and developing strategic plans. AI copilots significantly assist with financial modeling and reporting by 2028. Strategic decision-making, stakeholder management, and organizational leadership remain human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "44% of finance teams will deploy agentic AI in 2026 (up from 6%); 46% of accountants use AI daily; month-end close reduced from 12 to 3 days. Financial modeling, reporting, and analysis are heavily AI-augmented. By 2028, routine financial management tasks face active automation. Strategic decisions and stakeholder management retain human value."
   },
   {
     "slug": "fire-inspectors-and-investigators",
@@ -830,8 +830,8 @@
   {
     "slug": "fundraisers",
     "title": "Fundraisers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: researching donors, writing grant proposals, designing promotional materials, managing donor databases, and coordinating campaigns. AI significantly assists with prospect research, proposal drafting, and campaign analytics by 2028. In-person relationship building provides some insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "90% of content marketers use AI writing tools regularly; AI drafting, prospect research, and campaign analytics are production-ready. Grant proposal drafting, donor research, and campaign analytics are all heavily AI-augmented by 2026. By 2028, routine fundraising tasks face strong automation. In-person relationship building retains value."
   },
   {
     "slug": "funeral-service-occupations",
@@ -866,8 +866,8 @@
   {
     "slug": "geographers",
     "title": "Geographers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: using GIS tools, analyzing spatial data, writing research reports, and creating maps and visualizations. AI significantly assists with geospatial data analysis and pattern detection by 2028. Some fieldwork provides non-digital balance, but the role is heavily screen-based."
+    "digital_exposure_2028": 8,
+    "rationale": "GIS-based analysis and spatial data processing are heavily AI-augmented. 88% of enterprises use AI. Geospatial data analysis, pattern detection, map generation, and report writing are all automatable. By 2028, routine geographic analysis faces strong automation pressure. Novel research and fieldwork retain human value."
   },
   {
     "slug": "geological-and-petroleum-technicians",
@@ -956,8 +956,8 @@
   {
     "slug": "historians",
     "title": "Historians",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital knowledge work: researching archives, analyzing historical documents, writing reports and publications, and presenting findings. AI significantly assists with document analysis, literature review, and drafting by 2028. Some physical archival research remains, but the work is heavily text-based."
+    "digital_exposure_2028": 8,
+    "rationale": "AI research and analysis tools are ubiquitous in knowledge work. Document analysis, literature review, and report drafting — core historian tasks — are all heavily AI-augmented by 2026. By 2028, routine historical analysis and writing face strong automation. Original interpretive scholarship retains human value."
   },
   {
     "slug": "home-health-aides-and-personal-care-aides",
@@ -968,8 +968,8 @@
   {
     "slug": "human-resources-managers",
     "title": "Human resources managers",
-    "digital_exposure_2028": 6,
-    "rationale": "Predominantly digital knowledge work: overseeing recruitment, managing HRIS systems, developing policies, and analyzing workforce data. AI assists with resume screening, benefits analysis, and compliance monitoring by 2028. Strategic leadership, employee relations, and organizational development remain human-driven."
+    "digital_exposure_2028": 7,
+    "rationale": "IBM cut ~8,000 HR roles citing AI replacement. 88% of enterprises use AI. Resume screening, benefits analysis, compliance monitoring, and workforce analytics are all AI-augmented. By 2028, AI copilots handle 30-50% of routine HR management tasks. Strategic leadership, employee relations, and organizational development remain human-driven."
   },
   {
     "slug": "human-resources-specialists",
@@ -998,8 +998,8 @@
   {
     "slug": "industrial-engineers",
     "title": "Industrial engineers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: designing production systems, analyzing workflows using simulation software, conducting statistical studies, and writing efficiency reports. AI copilots significantly assist with process optimization and data analysis by 2028. Factory floor observation provides some physical component."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI in at least one function; process optimization, simulation, and statistical analysis are core AI capabilities. By 2028, routine process analysis and optimization face strong automation. Factory floor observation and cross-functional leadership retain human value."
   },
   {
     "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
@@ -1016,14 +1016,14 @@
   {
     "slug": "information-clerks",
     "title": "Information clerks",
-    "digital_exposure_2028": 8,
-    "rationale": "Predominantly screen-based: maintaining records, collecting data, processing forms, and providing information to customers via phone/email. AI chatbots and automation handle most routine information requests and data processing by 2028. Active displacement in basic information clerk roles."
+    "digital_exposure_2028": 9,
+    "rationale": "AI chatbots resolve 66-84% of queries autonomously; cost per interaction down 68%; BPO ACV down 14%. Routine information requests, data processing, and form handling are heavily automated by 2028. Active displacement in basic information clerk positions."
   },
   {
     "slug": "information-security-analysts",
     "title": "Information security analysts",
-    "digital_exposure_2028": 7,
-    "rationale": "Almost entirely digital: monitoring networks, analyzing security threats, implementing protective measures, and writing incident reports. AI significantly enhances threat detection and automated response by 2028. However, novel threat analysis, strategic security architecture, and incident response coordination require experienced human judgment."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; Gartner projects 40% of enterprise apps will feature AI agents by 2026. AI-driven threat detection, automated response, and security monitoring are production-ready. By 2028, routine security monitoring and incident detection are heavily automated. Novel threat analysis and strategic architecture retain human value."
   },
   {
     "slug": "instructional-coordinators",
@@ -1040,8 +1040,8 @@
   {
     "slug": "insurance-sales-agents",
     "title": "Insurance sales agents",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: researching policies, generating quotes, processing applications, managing client databases, and preparing presentations. AI significantly assists with policy comparison, lead generation, and administrative processing by 2028. Client relationship building provides some interpersonal insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "Insurance industry heavily adopting AI; 87% of finance leaders at scale with AI. Policy comparison, quote generation, lead scoring, and administrative processing are all heavily AI-augmented. By 2028, routine insurance sales support faces strong automation. Client relationship building retains human value."
   },
   {
     "slug": "insurance-underwriters",
@@ -1077,7 +1077,7 @@
     "slug": "jewelers-and-precious-stone-and-metal-workers",
     "title": "Jewelers and precious stone and metal workers",
     "digital_exposure_2028": 2,
-    "rationale": "Predominantly hands-on craft work: designing, constructing, and repairing jewelry using specialized tools and materials. CAD is increasingly used for design, but the manual craftsmanship\u2014cutting, soldering, setting stones\u2014dominates. AI assists with design concepts but cannot perform physical jewelry work."
+    "rationale": "Predominantly hands-on craft work: designing, constructing, and repairing jewelry using specialized tools and materials. CAD is increasingly used for design, but the manual craftsmanship—cutting, soldering, setting stones—dominates. AI assists with design concepts but cannot perform physical jewelry work."
   },
   {
     "slug": "judges-and-hearing-officers",
@@ -1106,8 +1106,8 @@
   {
     "slug": "lawyers",
     "title": "Lawyers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital knowledge work: legal research, document drafting, contract review, and case analysis. AI significantly accelerates research, document review, and drafting by 2028. However, courtroom advocacy, client counseling, strategic judgment, and complex negotiations remain firmly human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "92% of legal professionals use at least one AI tool daily (Wolters Kluwer 2026); corporate legal AI adoption doubled (23%→52%); AI delivers 94% accuracy in contract review; Harvey AI expanded to 60+ countries. By 2028, legal research, contract review, and document drafting are heavily automated. Courtroom advocacy, client counseling, and strategic judgment remain human."
   },
   {
     "slug": "librarians",
@@ -1130,8 +1130,8 @@
   {
     "slug": "loan-officers",
     "title": "Loan officers",
-    "digital_exposure_2028": 8,
-    "rationale": "Almost entirely screen-based: evaluating loan applications, analyzing financial data, calculating risk, and processing documentation. AI significantly automates credit assessment, document verification, and routine loan processing by 2028. Active headcount pressure in standard loan processing roles."
+    "digital_exposure_2028": 9,
+    "rationale": "87% of finance leaders at scale with AI; 44% of finance teams deploying agentic AI by 2026; financial services BPO ACV down 25%. Automated credit assessment, document verification, and routine loan processing are production-ready. By 2028, standard loan processing faces active displacement. Complex underwriting and relationship lending retain human value."
   },
   {
     "slug": "lodging-managers",
@@ -1148,8 +1148,8 @@
   {
     "slug": "logisticians",
     "title": "Logisticians",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: analyzing supply chain data, coordinating logistics using software systems, negotiating with suppliers, and optimizing distribution. AI significantly enhances supply chain optimization, demand forecasting, and route planning by 2028. Some warehouse visits and supplier meetings provide physical balance."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; supply chain optimization is a leading AI use case. Demand forecasting, route optimization, and logistics coordination are all heavily AI-augmented. By 2028, routine logistics analysis faces strong automation. Strategic supply chain decisions and supplier relationships retain human value."
   },
   {
     "slug": "machinists-and-tool-and-die-makers",
@@ -1208,8 +1208,8 @@
   {
     "slug": "material-recording-clerks",
     "title": "Material recording clerks",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: tracking shipments in databases, managing inventory records, preparing shipping documents, and scheduling deliveries using software systems. AI automates much of routine inventory tracking and order processing by 2028. Physical warehouse verification provides some balance."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; routine digital processing is heavily automated. Inventory tracking, order processing, and shipping document preparation are core AI automation targets. By 2028, routine material recording faces active headcount pressure. Physical warehouse verification retains some human value."
   },
   {
     "slug": "materials-engineers",
@@ -1250,8 +1250,8 @@
   {
     "slug": "medical-dosimetrists",
     "title": "Medical dosimetrists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: using specialized software to calculate radiation doses, design treatment plans, and analyze imaging data. AI significantly enhances automated treatment planning and dose calculation by 2028. Collaboration with physicians and patient-specific clinical judgment provide some insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "AI treatment planning and dose calculation are heavily automated; healthcare AI adoption at 79% of organizations. By 2028, routine treatment planning faces strong automation. Collaboration with physicians and complex patient-specific adjustments retain human value."
   },
   {
     "slug": "medical-equipment-repairers",
@@ -1340,14 +1340,14 @@
   {
     "slug": "network-and-computer-systems-administrators",
     "title": "Network and computer systems administrators",
-    "digital_exposure_2028": 7,
-    "rationale": "Almost entirely digital: installing and configuring network hardware/software, monitoring system performance, ensuring security, and troubleshooting issues. AI significantly automates routine monitoring, patch management, and incident detection by 2028. Complex architecture and incident response retain human value."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; Gartner projects 40% of enterprise apps will feature AI agents by 2026. Routine monitoring, patch management, incident detection, and system configuration are heavily automated. By 2028, basic sysadmin tasks face strong automation. Complex architecture and incident response retain human value."
   },
   {
     "slug": "reporters-correspondents-and-broadcast-news-analysts",
     "title": "News analysts, reporters, and journalists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: researching stories, writing articles, conducting interviews, and publishing content. AI assists with drafting, fact-checking, and data journalism by 2028. In-person investigative reporting, source relationships, and editorial judgment provide meaningful human value. Calibration anchor area."
+    "digital_exposure_2028": 8,
+    "rationale": "90% of content marketers use AI writing tools regularly; AI drafting and research are ubiquitous in media. Story research, article drafting, fact-checking, and data journalism are all heavily AI-augmented. By 2028, routine news writing faces strong automation pressure. Investigative reporting, source relationships, and editorial judgment retain human value."
   },
   {
     "slug": "nuclear-engineers",
@@ -1598,8 +1598,8 @@
   {
     "slug": "project-management-specialists",
     "title": "Project management specialists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: managing schedules, budgets, and resources using project management software; writing status reports; and coordinating stakeholders. AI copilots significantly assist with scheduling optimization, risk analysis, and reporting by 2028. Cross-functional leadership provides some insulation. Calibration anchor occupation."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; 23% scaling agentic AI. Scheduling optimization, risk analysis, status reporting, and resource planning are all heavily AI-augmented. By 2028, routine project management tasks face strong automation pressure. Cross-functional leadership and stakeholder management retain human value."
   },
   {
     "slug": "appraisers-and-assessors-of-real-estate",
@@ -1628,14 +1628,14 @@
   {
     "slug": "public-relations-managers",
     "title": "Public relations and fundraising managers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: developing communication strategies, managing media relations, overseeing content creation, and analyzing public perception data. AI significantly assists with content drafting, media monitoring, and sentiment analysis by 2028. Strategic communication and relationship management remain human."
+    "digital_exposure_2028": 8,
+    "rationale": "90% of content marketers use AI tools regularly; 88% of marketers use AI daily. Content drafting, media monitoring, sentiment analysis, and campaign optimization are all heavily AI-augmented. By 2028, routine PR management tasks face strong automation. Strategic communication and crisis management retain human value."
   },
   {
     "slug": "public-relations-specialists",
     "title": "Public relations specialists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly screen-based: writing press releases, managing social media, monitoring media coverage, and creating promotional content. AI significantly accelerates content creation, media analysis, and campaign optimization by 2028. Client relationship and crisis communication remain human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "90% of content marketers use AI writing tools regularly; 88% of marketers use AI daily. Press release drafting, social media management, media monitoring, and content creation are all heavily AI-augmented by 2026. By 2028, routine PR tasks face active headcount pressure. Client relationships and crisis communication retain human value."
   },
   {
     "slug": "police-fire-and-ambulance-dispatchers",
@@ -1646,8 +1646,8 @@
   {
     "slug": "purchasing-managers-buyers-and-purchasing-agents",
     "title": "Purchasing managers, buyers, and purchasing agents",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: evaluating suppliers using databases, negotiating contracts, analyzing market data, and managing procurement systems. AI significantly enhances supplier evaluation, price analysis, and purchase order automation by 2028. Relationship negotiation provides some insulation."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; supplier evaluation, price analysis, and purchase order automation are core AI capabilities. By 2028, routine procurement tasks face strong automation pressure. Relationship negotiation and strategic sourcing retain human value."
   },
   {
     "slug": "quality-control-inspectors",
@@ -1682,8 +1682,8 @@
   {
     "slug": "receptionists",
     "title": "Receptionists",
-    "digital_exposure_2028": 6,
-    "rationale": "A blend of interpersonal service (greeting visitors, managing front desk) and digital tasks (answering phones, managing schedules, processing correspondence). AI chatbots and virtual receptionists handle many phone and scheduling tasks by 2028, but physical front desk presence remains needed in many settings."
+    "digital_exposure_2028": 8,
+    "rationale": "AI scheduling, phone handling, and email management tools are already deployed at scale. AI customer service resolves 66-84% of queries autonomously; virtual receptionist tools handle call routing, appointment booking, and information requests. By 2028, most digital receptionist tasks (scheduling, phone, email) are automatable. Physical front desk presence in some settings provides partial insulation."
   },
   {
     "slug": "recreation-workers",
@@ -1725,19 +1725,19 @@
     "slug": "roofers",
     "title": "Roofers",
     "digital_exposure_2028": 0,
-    "rationale": "Entirely physical outdoor work: inspecting roofs, installing shingles, applying coatings, and working at heights. This is a calibration anchor for minimal digital exposure\u2014pure manual construction trade with no meaningful AI impact."
+    "rationale": "Entirely physical outdoor work: inspecting roofs, installing shingles, applying coatings, and working at heights. This is a calibration anchor for minimal digital exposure—pure manual construction trade with no meaningful AI impact."
   },
   {
     "slug": "sales-engineers",
     "title": "Sales engineers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: preparing technical presentations, analyzing client needs, writing proposals, and demonstrating complex products. AI assists with proposal generation, product configuration, and client research by 2028. Client relationship management and technical consulting remain human-driven."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; proposal generation, product configuration, and client research are all AI-augmented. Technical presentations and documentation are heavily automated. By 2028, routine sales engineering tasks face strong automation. Client relationship management and complex technical consulting retain human value."
   },
   {
     "slug": "sales-managers",
     "title": "Sales managers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital: analyzing sales data, developing strategies, managing CRM systems, and preparing reports. AI significantly assists with forecasting, pipeline analysis, and performance tracking by 2028. Team leadership, client relationship building, and strategic decisions remain human."
+    "digital_exposure_2028": 8,
+    "rationale": "88% of enterprises use AI; CRM-integrated AI handles forecasting, pipeline analysis, and performance tracking. By 2028, routine sales management analytics and reporting face strong automation. Team leadership, client relationship building, and strategic decisions remain human-driven."
   },
   {
     "slug": "school-and-career-counselors",
@@ -1814,8 +1814,8 @@
   {
     "slug": "sociologists",
     "title": "Sociologists",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly digital knowledge work: designing research studies, analyzing survey data, building statistical models, and writing papers. AI significantly assists with data analysis, literature review, and report generation by 2028. Fieldwork interviews and community observation provide some non-digital balance."
+    "digital_exposure_2028": 8,
+    "rationale": "AI research and data analysis tools are ubiquitous in social science. Survey data analysis, statistical modeling, literature review, and report writing are all heavily AI-augmented. By 2028, routine sociological analysis faces strong automation. Novel research design and community fieldwork retain human value."
   },
   {
     "slug": "software-developers",
@@ -1916,8 +1916,8 @@
   {
     "slug": "tellers",
     "title": "Tellers",
-    "digital_exposure_2028": 7,
-    "rationale": "Predominantly screen-based transaction processing: cashing checks, depositing money, and managing account inquiries using banking software. ATMs and digital banking reduce demand, and AI chatbots handle routine queries. However, in-person customer service and complex transactions provide some continued need."
+    "digital_exposure_2028": 8,
+    "rationale": "Financial services BPO ACV down 25%; 46% of accountants use AI daily; banking automation accelerating. Transaction processing, account inquiries, and routine banking services are heavily automated by AI and digital banking. By 2028, active headcount reduction in teller positions as digital banking and AI chatbots handle most routine transactions."
   },
   {
     "slug": "top-executives",
@@ -1952,8 +1952,8 @@
   {
     "slug": "travel-agents",
     "title": "Travel agents",
-    "digital_exposure_2028": 8,
-    "rationale": "Almost entirely screen-based: researching travel options, booking reservations, preparing itineraries, and managing client accounts using online platforms. AI significantly automates trip planning, price comparison, and booking by 2028. Active displacement as AI tools handle routine travel arrangements."
+    "digital_exposure_2028": 9,
+    "rationale": "AI trip planning, price comparison, and booking are fully capable; 88% of enterprises use AI. By 2028, routine travel arrangement is almost entirely automatable. Active displacement as AI tools handle standard bookings. Complex/luxury travel planning and corporate travel management provide some residual human value."
   },
   {
     "slug": "tutors",
@@ -2013,7 +2013,7 @@
     "slug": "web-developers",
     "title": "Web developers and digital designers",
     "digital_exposure_2028": 9,
-    "rationale": "Almost entirely screen-based: designing and coding websites, implementing user interfaces, and managing digital content. AI coding and design tools by 2028 handle much of routine web development\u2014generating layouts, writing standard code, and testing. Active headcount reduction in basic web development roles."
+    "rationale": "Almost entirely screen-based: designing and coding websites, implementing user interfaces, and managing digital content. AI coding and design tools by 2028 handle much of routine web development—generating layouts, writing standard code, and testing. Active headcount reduction in basic web development roles."
   },
   {
     "slug": "welders-cutters-solderers-and-brazers",

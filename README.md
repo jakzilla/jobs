@@ -1,90 +1,71 @@
 # US Job Market Visualizer — Multi-Axis AI Exposure
 
-> Fork of [karpathy/jobs](https://github.com/karpathy/jobs) with multi-axis, multi-horizon AI exposure scoring.
+> Fork of [karpathy/jobs](https://github.com/karpathy/jobs) extending Karpathy's single-axis model into a multi-dimensional, time-varying analysis.
 
-## What's new in this fork
+**Live site:** [site-lp6a3lriq-just-for-fun.vercel.app](https://site-lp6a3lriq-just-for-fun.vercel.app)
 
-Karpathy's original analysis uses a single axis ("Digital AI Exposure") with no timeframe and treats physical jobs as permanently insulated. This fork introduces:
+## Why this fork exists
 
-- **4 scoring axes**: digital AI exposure, physical/embodied AI exposure, adoption friction, demand elasticity
-- **3 time horizons**: 2028, 2031, 2036
-- **A timeline slider** on the frontend so you can watch the treemap shift over time
-- **A composite "employment impact" score** at each horizon
+Karpathy's original project (published March 14, 2026) scores 342 US occupations on a single "AI exposure" axis. His model has an explicit design assumption: physical work is a barrier to AI. Roofers score 0, janitors score 1, construction laborers score 0. In his framework, these occupations are effectively safe.
+
+But the model doesn't score low for physical jobs because it assessed the physical AI threat and found it small — it scores low because **physical AI is entirely absent from the model**. There is no robotics axis. The only question asked is "how much of this work is digital?"
+
+This fork adds the robotics question, splits digital and physical exposure into separate axes, adds adoption friction and demand elasticity modifiers, and projects everything across three time horizons.
+
+## What changed
+
+| Feature | Karpathy original | This fork |
+|---------|-------------------|-----------|
+| Scoring axes | 1 (AI exposure) | 4 (digital AI, physical AI, adoption friction, demand elasticity) |
+| Time horizons | None (single snapshot) | 3 (2028, 2031, 2036) |
+| Physical AI | Absent (physical work = shield) | Separate axis with smartphone adoption curve calibration |
+| Demand effects | Not considered | Elasticity score (-5 to +5) |
+| Adoption barriers | Not considered | Friction score (0-10) |
+| Global impact | Not considered | Dedicated analysis page |
+| Total individual scores | 342 | 2,736 |
 
 ## Scoring axes
 
 | Axis | Scale | What it measures |
 |------|-------|-----------------|
-| Digital AI Exposure | 0–10 | How much digital AI (LLMs, coding agents, analysis tools) can automate the occupation's core tasks |
-| Physical AI Exposure | 0–10 | How much embodied AI (humanoid robots, autonomous vehicles, surgical robots) can automate physical tasks |
-| Adoption Friction | 0–10 | Real-world barriers that slow adoption even where technology is capable (regulation, liability, employer fragmentation, social trust) |
-| Demand Elasticity | -5 to +5 | Whether productivity gains increase demand (positive) or reduce headcount (negative) |
+| Digital AI Exposure | 0-10 | How much digital AI (LLMs, coding agents, analysis tools) can automate the occupation's core tasks |
+| Physical AI Exposure | 0-10 | How much embodied AI (humanoid robots, autonomous vehicles, automated systems) can automate physical tasks |
+| Adoption Friction | 0-10 | Real-world barriers that slow adoption: regulation, liability, employer fragmentation, social trust, unions |
+| Demand Elasticity | -5 to +5 | Whether AI-driven productivity gains expand demand (positive) or just reduce headcount (negative) |
 
-## Composite formula
+## Physical AI calibration
 
-Applied independently at each time horizon:
+The physical AI scores use the smartphone adoption curve as an analogy:
+- **2028** = iPhone 1 era: early adopters, structured environments, expensive units
+- **2031** = iPhone 4/5 era: growing but limited to specific use cases
+- **2036** = iPhone X era: millions of units at commodity pricing, deployed across many industries
 
-```python
-def composite_score(digital, physical, friction, elasticity):
-    combined_technical = max(digital, physical) + 0.3 * min(digital, physical)
-    adoption_adjusted = combined_technical * (1 - friction / 20)
-    employment_impact = adoption_adjusted - (elasticity * 0.3)
-    return round(min(10, max(0, employment_impact)), 1)
-```
+Tesla went from a person in a robot costume (2022) to converting Fremont production lines to manufacture Optimus (2026) in under four years. Embodied AI training happens increasingly in simulation (Google Genie, NVIDIA Isaac), meaning the intelligence scales exponentially even while manufacturing scales with production lines.
 
-**Worked examples:**
+## Key findings (March 2026)
 
-| Occupation | Digital | Physical | Friction | Elasticity | Composite | Why |
-|-----------|---------|----------|----------|-----------|-----------|-----|
-| Software developer (2031) | 8 | 0 | 2 | +3 | 6.3 | High digital exposure but strong latent demand softens impact |
-| Delivery truck driver (2036) | 2 | 8 | 4 | -2 | 7.5 | Physical automation + fixed demand = significant headcount impact |
-| Registered nurse (2031) | 4 | 3 | 7 | +1 | 2.9 | Moderate exposure but massive friction + slight demand growth = low impact |
+**Digital AI hits first and hardest.** By 2028, 27 occupations covering 18.5M jobs score composite 7+. These are almost exclusively clerical and administrative roles. By 2031, this expands to 46 occupations (35M jobs) as professional knowledge work enters the blast zone.
 
-## Key findings
+**Physical AI accelerates through the 2030s.** The physical AI average rises from 1.0 (2028) to 3.0 (2036). Warehouse workers, truck drivers, agricultural labourers, janitors, and cashiers all reach scores of 7-9 by 2036 as humanoid robots reach commodity pricing.
 
-**The "physical moat" dissolves over time.** Occupations scoring 0–2 in Karpathy's analysis (warehouse, manufacturing, trucking) show rising composite scores by 2036 as robotics matures.
+**Both waves converge by 2036.** The composite average rises from 3.7 (2028) to 5.7 (2036). By 2036, occupations face simultaneous disruption from digital AI (automating their knowledge work) and physical AI (automating their manual tasks).
 
-**Demand elasticity reshapes the story.** Software developers score high on technical exposure but their composite drops due to positive elasticity (+3). Data entry clerks score high on both exposure AND negative elasticity — worst of both worlds.
+**Demand elasticity is the single most important variable** separating "AI transforms the job" from "AI eliminates the job." Software development and tutoring have high elasticity (+3 to +5) — when the work gets cheaper, demand explodes. Data entry and insurance claims processing have negative elasticity — demand is fixed, so productivity gains directly reduce headcount.
 
-**Friction creates temporal bifurcation.** A warehouse worker (friction=1) and a surgical nurse (friction=8) with identical technical exposure show radically different composite curves.
+## How it was built
 
-**45 "genuinely durable" occupations** score < 3 composite across all horizons — concentrated in hands-on care, emergency response, and skilled trades in variable environments.
+The human behind this fork has zero coding experience. The entire project was built in a single Claude Code session through natural language direction. The human's contribution was direction, criticism, judgment, and taste. All implementation was done by AI agents:
 
-## How to run
-
-```bash
-# Clone
-git clone https://github.com/jakzilla/jobs.git
-cd jobs
-
-# Install dependencies
-pip install beautifulsoup4
-
-# Generate markdown from HTML (if pages/ doesn't exist)
-python process.py
-
-# View scoring status
-python score_multi.py --status
-
-# Merge scores and compute composites
-python score_multi.py --merge
-
-# Build site data
-python build_site_data.py
-
-# Generate analysis report
-python analyse.py
-
-# Serve locally
-cd site && python -m http.server 8000
-# Open http://localhost:8000
-```
+- 8 parallel scoring agents produced 2,736 individual scores
+- Research agents gathered adoption data from McKinsey, Gartner, Stack Overflow, and BPO industry sources
+- Frontend agents built the interactive treemap, stats dashboard, and analysis panels
+- Multiple rounds of rescoring when calibration issues were identified
 
 ## File structure
 
 ```
-prompts/                    # 8 scoring prompts (one per axis x horizon)
-scores_digital_2028.json    # Raw scores for each pass
+prompts/                         # 8 scoring prompts
+scores_digital_2028.json         # Raw scores per pass
 scores_digital_2031.json
 scores_digital_2036.json
 scores_physical_2028.json
@@ -92,20 +73,26 @@ scores_physical_2031.json
 scores_physical_2036.json
 scores_adoption_friction.json
 scores_demand_elasticity.json
-scores_composite.json       # Merged scores with computed composites
-score_multi.py              # Scoring workflow management
-build_site_data.py          # Merges scores + BLS data -> site/data.json
-analyse.py                  # Generates analysis_report.md
-analysis_report.md          # Comprehensive analysis output
-site/index.html             # Frontend with timeline slider
-site/data.json              # Compact data for the treemap
+site/
+  index.html                     # Context page
+  treemap.html                   # Interactive treemap with analysis
+  global.html                    # Global impact analysis
+  data.json                      # All scores merged for frontend
 ```
 
-## Methodology limitations
+## Run locally
 
-- Scoring is done by an LLM evaluating BLS job descriptions — pattern-matching, not labour economics
-- Time-horizon contexts are informed projections, not predictions
-- The composite formula weights are somewhat arbitrary
-- Demand elasticity is the hardest axis to score accurately
-- No geographic variation
+```bash
+cd site && python3 -m http.server 8000
+# Open http://localhost:8000
+```
+
+## Limitations
+
+- Scores are LLM-generated analytical estimates, not empirical measurements
+- The composite formula is one reasonable approach among many
+- Adoption timeline calibration uses real 2026 data but extrapolation to 2036 is inherently uncertain
+- The global impact page covers only the US-outsourcing channel
+- No geographic variation within the US
 - No consideration of new occupations that don't yet exist
+- Different analysts — human or AI — would make different judgment calls

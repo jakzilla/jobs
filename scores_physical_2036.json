@@ -3,2052 +3,2052 @@
     "slug": "accountants-and-auditors",
     "title": "Accountants and auditors",
     "physical_exposure_2036": 0,
-    "rationale": "Purely digital/office knowledge work with no physical component for robots to automate. Work involves examining financial records, computing taxes, and advising clients\u2014all cognitive tasks."
+    "rationale": "Purely digital/office knowledge work with no physical component for robots to automate."
   },
   {
     "slug": "actors",
     "title": "Actors",
     "physical_exposure_2036": 1,
-    "rationale": "Acting is fundamentally about human embodied performance, emotional expression, and creative interpretation. While CGI and digital doubles exist, the core value is human physical and emotional presence. Robots cannot replace the artistic craft."
+    "rationale": "Acting is fundamentally human embodied performance. Digital doubles exist but the core value is human presence and emotional expression."
   },
   {
     "slug": "actuaries",
     "title": "Actuaries",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and computational work involving mathematics, statistics, and financial modeling. No physical component whatsoever for robotic automation."
+    "rationale": "Entirely analytical and computational work. No physical component."
   },
   {
     "slug": "administrative-services-managers",
     "title": "Administrative services and facilities managers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily office-based management and coordination work. Minor physical component in facilities inspection, but core role is planning, directing, and decision-making\u2014cognitive tasks with negligible physical automation potential."
+    "physical_exposure_2036": 0,
+    "rationale": "Office-based management and coordination. No physical labor component."
   },
   {
     "slug": "adult-literacy-and-ged-teachers",
     "title": "Adult basic and secondary education and ESL teachers",
-    "physical_exposure_2036": 1,
-    "rationale": "Teaching involves in-person human interaction, emotional connection, and adaptive pedagogy. While some instruction can be digitized, the physical classroom presence and personal mentoring relationship is the core value. Minimal physical task content for robots."
+    "physical_exposure_2036": 0,
+    "rationale": "Teaching is interpersonal human interaction. No meaningful physical AI exposure."
   },
   {
     "slug": "advertising-sales-agents",
     "title": "Advertising sales agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely relationship-based sales work involving client meetings, presentations, and negotiations. No meaningful physical tasks for robotic automation."
+    "rationale": "Relationship-based sales work. No physical component."
   },
   {
     "slug": "advertising-promotions-and-marketing-managers",
     "title": "Advertising, promotions, and marketing managers",
     "physical_exposure_2036": 0,
-    "rationale": "Strategic management and creative direction work that is entirely cognitive. No physical labor component for robots to address."
+    "rationale": "Strategic management and creative direction. No physical labor."
   },
   {
     "slug": "aerospace-engineering-and-operations-technicians",
     "title": "Aerospace engineering and operations technologists and technicians",
-    "physical_exposure_2036": 6,
-    "rationale": "Significant hands-on work installing, testing, and maintaining aerospace equipment. By 2036, robots handle much of the routine installation and calibration, but the high-precision, safety-critical, and variable nature of aerospace work still requires human oversight and judgment for novel test configurations."
+    "physical_exposure_2036": 7,
+    "rationale": "Routine testing, calibration, and inspection increasingly automated in aerospace facilities. Robotic NDT and component testing standard. But safety-critical nature and novel issues still require human involvement."
   },
   {
     "slug": "aerospace-engineers",
     "title": "Aerospace engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design, analysis, and computational work. Physical prototyping and testing increasingly automated but the core engineering role is cognitive. Minor physical component in inspections."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and analysis work. Cognitive engineering role."
   },
   {
     "slug": "agricultural-and-food-science-technicians",
     "title": "Agricultural and food science technicians",
-    "physical_exposure_2036": 7,
-    "rationale": "Lab and field work involving sample collection, testing, and equipment operation. By 2036, much routine laboratory analysis and field sampling is automated. Humans remain for novel experimental setups and interpreting unexpected results."
+    "physical_exposure_2036": 6,
+    "rationale": "Lab automation for routine food safety testing and agricultural analysis. Field sampling assisted by autonomous equipment. But varied experimental work remains human."
   },
   {
     "slug": "agricultural-and-food-scientists",
     "title": "Agricultural and food scientists",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily research and analytical work with some fieldwork and laboratory components. The physical aspects (field sampling, lab experiments) are partially automatable, but the core scientific judgment and research design are cognitive."
+    "physical_exposure_2036": 3,
+    "rationale": "Lab automation for routine food testing and agricultural analysis. Robotic field equipment for sampling. But novel research remains human."
   },
   {
     "slug": "agricultural-engineers",
     "title": "Agricultural engineers",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily design and engineering work that is cognitive. Some site visits and field testing, but the core role is problem-solving and system design rather than physical labor."
+    "physical_exposure_2036": 1,
+    "rationale": "Design and engineering work. Cognitive role with negligible physical component."
   },
   {
     "slug": "agricultural-workers",
     "title": "Agricultural workers",
     "physical_exposure_2036": 9,
-    "rationale": "By 2036, commercial agriculture is heavily automated with robotic harvesting, planting, and tending for most crops. Remaining human roles are for genuinely novel situations, delicate specialty crops, and supervisory functions. The vast majority of routine field labor is robot-performed."
+    "rationale": "Robotic harvesting operational for virtually all crop types. Humanoid robots handle variable crops requiring dexterity. Humans for equipment maintenance and edge cases only."
   },
   {
     "slug": "air-traffic-controllers",
     "title": "Air traffic controllers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily a cognitive/digital monitoring and decision-making role. While physically located in towers, the work is screen-based coordination. Already heavily computerized; physical embodiment irrelevant."
+    "physical_exposure_2036": 0,
+    "rationale": "Cognitive monitoring at computer workstations. No physical labor."
   },
   {
     "slug": "aircraft-and-avionics-equipment-mechanics-and-technicians",
     "title": "Aircraft and avionics equipment mechanics and technicians",
-    "physical_exposure_2036": 5,
-    "rationale": "Hands-on maintenance and repair in complex, variable environments. By 2036, robots assist with routine inspections and standardized repairs, but aircraft maintenance involves highly variable configurations, tight spaces, and safety-critical judgment that still requires significant human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated inspection, robotic diagnostics, and some maintenance procedures automated. But safety-critical nature and varied aircraft configurations keep human mechanics essential."
   },
   {
     "slug": "airline-and-commercial-pilots",
     "title": "Airline and commercial pilots",
-    "physical_exposure_2036": 7,
-    "rationale": "Autonomous flight systems handle most routine operations by 2036. Regulatory and safety requirements still mandate human pilots, but their role is increasingly supervisory. Humans essential for genuinely novel emergencies and edge cases."
+    "physical_exposure_2036": 5,
+    "rationale": "Autonomous cargo flights operational on major routes. Single-pilot operations with AI co-pilot for some passenger flights. But regulatory requirements and public trust limit full autonomous passenger aviation."
   },
   {
     "slug": "animal-care-and-service-workers",
     "title": "Animal care and service workers",
     "physical_exposure_2036": 4,
-    "rationale": "Working with live animals in variable environments requires adaptability to unpredictable animal behavior. By 2036, robots handle routine feeding and cleaning in structured facilities, but grooming, training, and handling diverse animals still needs significant human involvement due to animal variability and emotional bonding."
+    "rationale": "Automated feeding, cleaning, and monitoring in kennels and shelters. Robotic grooming assistance. But animal handling and trust-based relationships keep much work human."
   },
   {
     "slug": "announcers",
     "title": "Announcers and DJs",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely voice/personality/communication work. No physical labor component. AI voice synthesis is a digital AI issue, not physical/embodied."
+    "rationale": "Voice/personality/communication work. No physical labor component."
   },
   {
     "slug": "anthropologists-and-archeologists",
     "title": "Anthropologists and archeologists",
-    "physical_exposure_2036": 2,
-    "rationale": "Fieldwork involves working in highly unstructured, novel environments (excavation sites, remote communities). The physical components of archeological digs occur in genuinely unpredictable terrain. Primarily cognitive research and analysis work."
+    "physical_exposure_2036": 1,
+    "rationale": "Primarily research work. Minor physical component in archaeological fieldwork."
   },
   {
     "slug": "arbitrators-mediators-and-conciliators",
     "title": "Arbitrators, mediators, and conciliators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal and cognitive work involving negotiation, judgment, and conflict resolution. No physical component for robotic automation."
+    "rationale": "Interpersonal and cognitive work. No physical component."
   },
   {
     "slug": "architects",
     "title": "Architects",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily creative design and planning work that is cognitive. Site visits involve observation rather than physical labor. CAD and modeling tools are digital, not robotic."
+    "physical_exposure_2036": 0,
+    "rationale": "Design work using CAD software. No physical labor."
   },
   {
     "slug": "architectural-and-engineering-managers",
     "title": "Architectural and engineering managers",
     "physical_exposure_2036": 0,
-    "rationale": "Management and coordination role that is entirely cognitive. Planning, directing teams, and making strategic decisions. No physical labor component."
+    "rationale": "Management role. No physical labor."
   },
   {
     "slug": "curators-museum-technicians-and-conservators",
     "title": "Archivists, curators, and museum workers",
-    "physical_exposure_2036": 3,
-    "rationale": "Conservation work involves delicate handling of unique, irreplaceable artifacts requiring fine motor skills and aesthetic judgment. Museum installation has some automatable components, but the variability and preciousness of objects limits robotic handling. Curatorial work is primarily cognitive."
+    "physical_exposure_2036": 2,
+    "rationale": "Conservation requires delicate hands-on work with unique objects. Some automated monitoring but physical curation remains human."
   },
   {
     "slug": "art-directors",
     "title": "Art directors",
     "physical_exposure_2036": 0,
-    "rationale": "Creative direction and visual design management is entirely cognitive work. Decision-making about visual aesthetics, managing creative teams. No physical labor."
+    "rationale": "Creative direction. No physical labor."
   },
   {
     "slug": "assemblers-and-fabricators",
     "title": "Assemblers and fabricators",
     "physical_exposure_2036": 9,
-    "rationale": "Repetitive assembly work in structured manufacturing environments is highly automatable by 2036. Robots handle the vast majority of assembly tasks. Remaining human roles are supervisory and for genuinely novel or very low-volume custom work."
+    "rationale": "Factory assembly most mature use case for humanoid robots. Virtually all repetitive assembly automated. Humans for novel custom only."
   },
   {
     "slug": "athletes-and-sports-competitors",
     "title": "Athletes and sports competitors",
     "physical_exposure_2036": 0,
-    "rationale": "Athletic competition is inherently about human physical performance. The entire value proposition is humans competing physically. Robots cannot substitute for human athletes in sports."
+    "rationale": "Human physical competition. Robots cannot substitute."
   },
   {
     "slug": "athletic-trainers",
     "title": "Athletic trainers",
-    "physical_exposure_2036": 3,
-    "rationale": "Hands-on physical assessment, rehabilitation exercises, and injury treatment involving direct human contact. The therapeutic relationship and adaptive physical manipulation based on patient response requires human presence, though diagnostic equipment is increasingly automated."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic rehabilitation equipment, automated recovery systems, and AI-guided therapy. But hands-on injury assessment and competition-day presence remain human."
   },
   {
     "slug": "atmospheric-scientists-including-meteorologists",
     "title": "Atmospheric scientists, including meteorologists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and computational work involving data analysis, modeling, and forecasting. No physical component for robotic automation."
+    "rationale": "Analytical and computational work. No physical component."
   },
   {
     "slug": "audiologists",
     "title": "Audiologists",
     "physical_exposure_2036": 3,
-    "rationale": "Clinical work involving patient interaction, physical examination of ears, fitting hearing devices. Requires human trust and communication. Some diagnostic testing is automatable, but the patient relationship and adaptive clinical judgment remain human-centered."
+    "rationale": "Automated hearing testing and some device fitting. But clinical assessment and therapeutic relationship remain human."
   },
   {
     "slug": "automotive-body-and-glass-repairers",
     "title": "Automotive body and glass repairers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, many standardized body repairs and glass replacements are robot-performed in structured shop environments. However, damage assessment and repair of complex, unique damage patterns still requires human judgment. Robots handle most routine panel and glass work."
+    "rationale": "Robotic paint, panel alignment, windshield replacement automated in chains. AI damage assessment standard. Common repairs automated. Complex collision work still human."
   },
   {
     "slug": "automotive-service-technicians-and-mechanics",
     "title": "Automotive service technicians and mechanics",
-    "physical_exposure_2036": 6,
-    "rationale": "Vehicle repair involves significant diagnostic work and physical manipulation in variable configurations. By 2036, robots handle many standardized maintenance tasks (oil changes, tire rotations, brake replacements), but diagnosing complex problems and working on varied vehicle models still requires significant human involvement."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic service bays handle oil changes, tires, brakes, fluids in chains. Automated diagnostics mature. Complex repair on older vehicles still human."
   },
   {
     "slug": "bakers",
     "title": "Bakers",
     "physical_exposure_2036": 8,
-    "rationale": "Commercial baking in production environments is highly automated by 2036. Robots handle mixing, shaping, baking, and packaging for standard products. Artisanal and custom baking retains some human craft, but the vast majority of commercial baking is robot-operated."
+    "rationale": "Commercial and industrial baking near-fully automated. Robotic mixing, shaping, baking, and packaging handle standard production. Even medium-scale bakeries automate at $15-25K robot prices. Artisan and custom baking remains human."
   },
   {
     "slug": "barbers-hairstylists-and-cosmetologists",
     "title": "Barbers, hairstylists, and cosmetologists",
-    "physical_exposure_2036": 2,
-    "rationale": "Haircutting and styling involves intimate personal contact where the human relationship IS the product for many clients. High variability in hair types, styles, and client preferences. By 2036, basic cuts might be robot-assisted, but the personal service, aesthetic judgment, and client relationship keep this predominantly human."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic haircutting kiosks work for standard cuts by 2036. Creative styling and personal relationship keep most salons human."
   },
   {
     "slug": "bartenders",
     "title": "Bartenders",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic bartending systems handle standard drink preparation efficiently. However, the social/entertainment aspect of bartending, customer interaction, and craft cocktail culture retain human value. High-volume venues largely automated; craft and hospitality-focused venues retain humans."
+    "rationale": "Automated bartending in chains, stadiums, airports, and high-volume venues. Standard drinks automated. Craft cocktails and social role keep humans in independent/upscale bars."
   },
   {
     "slug": "bill-and-account-collectors",
     "title": "Bill and account collectors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely communication-based work involving phone calls, negotiations, and record-keeping. No physical component for robotic automation."
+    "rationale": "Communication-based work. No physical component."
   },
   {
     "slug": "biochemists-and-biophysicists",
     "title": "Biochemists and biophysicists",
-    "physical_exposure_2036": 3,
-    "rationale": "Laboratory research involves physical manipulation of equipment and samples, but the core work is cognitive research and analysis. By 2036, lab automation handles much routine experimentation, but novel research setups and experimental design remain human-driven."
+    "physical_exposure_2036": 4,
+    "rationale": "Lab automation handles routine experiments and most standard assays by 2036. Robotic liquid handling, plate reading, and sample management standard. But novel research protocols and complex experimentation remain human."
   },
   {
     "slug": "biomedical-engineers",
     "title": "Bioengineers and biomedical engineers",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily design, analysis, and research work that is cognitive. Some prototype testing and lab work, but the core engineering role involves minimal physical labor that robots would address."
+    "physical_exposure_2036": 1,
+    "rationale": "Design and engineering of medical devices. Primarily cognitive work."
   },
   {
     "slug": "biological-technicians",
     "title": "Biological technicians",
     "physical_exposure_2036": 6,
-    "rationale": "Lab work involving sample preparation, equipment operation, and routine testing. By 2036, much laboratory processing is automated. Humans remain for novel experimental procedures and equipment troubleshooting in variable research contexts."
+    "rationale": "Lab automation for routine assays, sample handling, and plate handling widespread. Structured lab environments well-suited for robotic automation. Humans for novel experimental protocols."
   },
   {
     "slug": "boilermakers",
     "title": "Boilermakers",
-    "physical_exposure_2036": 6,
-    "rationale": "Heavy industrial work in variable environments (power plants, refineries). By 2036, robots handle much welding and assembly in accessible locations, but boilermaker work often involves confined spaces, variable site conditions, and safety-critical judgment. Significant but not complete automation."
+    "physical_exposure_2036": 7,
+    "rationale": "Factory fabrication highly automated. Robotic welding standard. Field installation assisted by humanoid robots for heavy lifting. But varied industrial environments still require human judgment."
   },
   {
     "slug": "bookkeeping-accounting-and-auditing-clerks",
     "title": "Bookkeeping, accounting, and auditing clerks",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital/office work involving financial record-keeping. No physical component for robotic automation."
+    "rationale": "Digital/office work. No physical component."
   },
   {
     "slug": "broadcast-and-sound-engineering-technicians",
     "title": "Broadcast, sound, and video technicians",
     "physical_exposure_2036": 4,
-    "rationale": "Equipment setup, operation, and maintenance involves physical work in variable environments (studios, live events). By 2036, some routine setup is automated, but live production environments are highly variable and require adaptive problem-solving with physical equipment."
+    "rationale": "Automated broadcast systems, robotic cameras, and AI-driven mixing. But live production and varied venue setups still require human technicians."
   },
   {
     "slug": "budget-analysts",
     "title": "Budget analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and computational work. No physical component whatsoever."
+    "rationale": "Analytical work. No physical component."
   },
   {
     "slug": "bus-drivers",
     "title": "Bus drivers",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, autonomous vehicles handle most fixed-route bus operations. Remaining human drivers are for genuinely challenging routes, extreme weather, and passenger safety/assistance needs. Urban and suburban fixed routes are largely autonomous."
+    "rationale": "Most urban routes autonomous by 2036, including BRT corridors and dedicated lanes. Autonomous shuttles widespread. Human drivers mainly for school buses and passenger assistance."
   },
   {
     "slug": "butchers-and-meat-cutters",
     "title": "Butchers",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, most commercial meat cutting and processing is robotic, with advanced vision systems and dexterous manipulation handling varied animal anatomy. Custom butchering for specialty markets retains some human craft, but volume operations are heavily automated."
+    "rationale": "Commercial meat processing near-fully automated. Robotic cutting, portioning, and packaging handle standard cuts. Specialty butchering and customer-facing artisan roles persist."
   },
   {
     "slug": "calibration-technologists-and-technicians",
     "title": "Calibration technologists and technicians",
     "physical_exposure_2036": 7,
-    "rationale": "Routine calibration of instruments and equipment is highly automatable in structured environments. By 2036, robots handle most standard calibration procedures. Humans remain for novel equipment, troubleshooting, and field calibration in variable environments."
+    "rationale": "Automated calibration systems handle most standard instruments. Novel equipment still requires human expertise."
   },
   {
     "slug": "cardiovascular-technologists-and-technicians",
     "title": "Cardiovascular technologists and technicians",
-    "physical_exposure_2036": 5,
-    "rationale": "Patient-facing diagnostic work involving equipment operation and patient positioning. By 2036, much imaging is automated, but patient interaction, positioning of varied body types, and adaptive testing still require human involvement. Regulatory requirements also mandate human presence."
+    "physical_exposure_2036": 4,
+    "rationale": "Automated cardiac monitoring and AI-assisted interpretation. But patient interaction and complex procedure support require human technicians."
   },
   {
     "slug": "career-and-technical-education-teachers",
     "title": "Career and technical education teachers",
-    "physical_exposure_2036": 2,
-    "rationale": "Teaching involves hands-on demonstration and student mentoring in workshop environments. The educational relationship and adaptive instruction are human-centered. Physical demonstration of trades skills and supervising student practice requires human presence and judgment."
+    "physical_exposure_2036": 1,
+    "rationale": "CTE teaching involves demonstrating hands-on skills but the teaching relationship remains human."
   },
   {
     "slug": "carpenters",
     "title": "Carpenters",
-    "physical_exposure_2036": 5,
-    "rationale": "Residential and commercial carpentry involves highly variable work environments, custom measurements, and adaptation to existing structures. By 2036, robots handle many standardized framing and installation tasks, but custom work, renovation, and site-specific adaptation still require significant human skill and judgment."
+    "physical_exposure_2036": 6,
+    "rationale": "Prefabricated assembly automated. Robotic framing deployed. But on-site variable conditions limit full automation."
   },
   {
     "slug": "cartographers-and-photogrammetrists",
     "title": "Cartographers and photogrammetrists",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily digital/analytical work involving GIS software, remote sensing data, and map creation. Minimal physical component\u2014some field surveying but mostly screen-based work."
+    "physical_exposure_2036": 0,
+    "rationale": "Digital mapping and analysis. Cognitive role."
   },
   {
     "slug": "cashiers",
     "title": "Cashiers",
     "physical_exposure_2036": 9,
-    "rationale": "Self-checkout and automated retail systems are ubiquitous by 2036. Most transaction processing is fully automated. Remaining human cashiers serve primarily social/customer-service functions in select retail environments."
+    "rationale": "Cashierless stores universal. Computer vision checkout eliminates most labor. Human cashiers only for specialty/customer service."
   },
   {
     "slug": "chefs-and-head-cooks",
     "title": "Chefs and head cooks",
-    "physical_exposure_2036": 4,
-    "rationale": "Head chefs are primarily creative and managerial. Menu design, recipe development, quality oversight, and kitchen management are cognitive tasks. By 2036, robots handle much routine food preparation, but creative culinary work, taste judgment, and kitchen leadership remain human-centered."
+    "physical_exposure_2036": 6,
+    "rationale": "Head chefs manage hybrid human-robot kitchens. Routine cooking automated by robotic systems handling prep, standard dishes, and plating. Creative menu development and quality control still human. Score reflects that most kitchen work is now robot-assisted."
   },
   {
     "slug": "chemical-engineers",
     "title": "Chemical engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design, analysis, and process optimization work that is cognitive. Site visits and plant inspections have minor physical components, but the core role is engineering problem-solving."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and process engineering. Cognitive role."
   },
   {
     "slug": "chemical-technicians",
     "title": "Chemical technicians",
     "physical_exposure_2036": 7,
-    "rationale": "Laboratory and plant work involving routine testing, sample preparation, and equipment operation. By 2036, much routine chemical analysis and process monitoring is automated. Humans remain for novel procedures and troubleshooting."
+    "rationale": "Automated analysis and robotic sample preparation for standard procedures. Humans for novel experiments."
   },
   {
     "slug": "chemists-and-materials-scientists",
     "title": "Chemists and materials scientists",
-    "physical_exposure_2036": 3,
-    "rationale": "Research work with significant lab components. By 2036, routine lab procedures are automated, but novel experimental design and research requiring creative physical manipulation of materials remains human-driven. Core work is cognitive analysis."
+    "physical_exposure_2036": 4,
+    "rationale": "Automated lab analysis and robotic synthesis handle most routine work. But novel materials research and complex experimentation remain human."
   },
   {
     "slug": "childcare-workers",
     "title": "Childcare workers",
     "physical_exposure_2036": 2,
-    "rationale": "Childcare is fundamentally about human emotional presence, safety, and nurturing relationships. Children require human warmth, adaptability, and emotional intelligence. By 2036, robots may assist with monitoring and routine tasks, but the core caregiving role demands human presence and intimacy."
+    "rationale": "Society resists robotic childcare. Some supervision tools and play assistance exist. But nurturing and safety require human presence."
   },
   {
     "slug": "chiropractors",
     "title": "Chiropractors",
     "physical_exposure_2036": 3,
-    "rationale": "Hands-on physical manipulation therapy where human touch and adaptive physical response to patient feedback IS the treatment. By 2036, some diagnostic imaging is automated, but the core spinal manipulation and patient relationship remains human-centered."
+    "rationale": "Robotic spinal manipulation devices advancing. But intimate physical nature and trust requirements keep much of this human."
   },
   {
     "slug": "civil-engineering-technicians",
     "title": "Civil engineering technologists and technicians",
-    "physical_exposure_2036": 4,
-    "rationale": "Field testing, site inspection, and laboratory work with physical components. By 2036, some routine testing and surveying is automated, but variable field conditions and site-specific judgment require human involvement. Mix of office analysis and fieldwork."
+    "physical_exposure_2036": 3,
+    "rationale": "Field testing with some automated equipment. Drone-based surveying and sensor data collection advancing. But variable field conditions still require human presence."
   },
   {
     "slug": "civil-engineers",
     "title": "Civil engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design, analysis, and project management work. Site visits involve observation and assessment rather than physical labor. Core work is cognitive engineering problem-solving."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and analysis. Cognitive engineering role."
   },
   {
     "slug": "claims-adjusters-appraisers-examiners-and-investigators",
     "title": "Claims adjusters, appraisers, examiners, and investigators",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily analytical work with some field inspection. By 2036, drone and robotic inspection assists with physical site assessment, but the investigative judgment and human interaction for claims assessment remain cognitive. Limited physical component."
+    "physical_exposure_2036": 3,
+    "rationale": "Drone-based damage assessment, AI photo analysis, and automated claims processing handle many routine inspections. But complex damage scenes and fraud investigation require human judgment."
   },
   {
     "slug": "clinical-laboratory-technologists-and-technicians",
     "title": "Clinical laboratory technologists and technicians",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, clinical laboratory analysis is highly automated with robotic sample handling, analysis, and reporting. Most routine blood work, urinalysis, and microbiological testing is fully automated. Humans remain for complex or unusual samples and quality oversight."
+    "rationale": "Lab automation handles vast majority of routine clinical testing. Robotic sample handling, automated analysis, and AI-assisted interpretation standard. Human technicians for specialized assays and quality oversight."
   },
   {
     "slug": "coaches-and-scouts",
     "title": "Coaches and scouts",
-    "physical_exposure_2036": 1,
-    "rationale": "Coaching is about human motivation, strategic thinking, and interpersonal leadership. Physical demonstration is a minor component. The core value is human relationship, inspiration, and tactical judgment. Scouting involves observation and evaluation."
+    "physical_exposure_2036": 0,
+    "rationale": "Cognitive and interpersonal. Physical demonstrations secondary."
   },
   {
     "slug": "community-health-workers",
     "title": "Community health workers",
-    "physical_exposure_2036": 1,
-    "rationale": "Work centers on community relationships, health education, and connecting people with services. Requires cultural competency, empathy, and trust-building. Minimal physical tasks; mostly interpersonal and cognitive."
+    "physical_exposure_2036": 0,
+    "rationale": "Interpersonal outreach and education. No physical component."
   },
   {
     "slug": "compensation-and-benefits-managers",
     "title": "Compensation and benefits managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely office-based management and analytical work. No physical component for robotic automation."
+    "rationale": "Office-based management. No physical component."
   },
   {
     "slug": "compensation-benefits-and-job-analysis-specialists",
     "title": "Compensation, benefits, and job analysis specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and administrative work. No physical component."
+    "rationale": "Analytical and administrative work. No physical component."
   },
   {
     "slug": "compliance-officers",
     "title": "Compliance officers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily analytical and investigative work reviewing records and procedures. Some facility inspections have minor physical components, but the core role is regulatory knowledge and judgment."
+    "physical_exposure_2036": 0,
+    "rationale": "Cognitive review and assessment. No physical component."
   },
   {
     "slug": "computer-and-information-research-scientists",
     "title": "Computer and information research scientists",
     "physical_exposure_2036": 0,
-    "rationale": "Purely cognitive research and computational work. No physical component whatsoever."
+    "rationale": "Purely cognitive research. No physical component."
   },
   {
     "slug": "computer-and-information-systems-managers",
     "title": "Computer and information systems managers",
     "physical_exposure_2036": 0,
-    "rationale": "Management and strategic planning role that is entirely cognitive. No physical labor component."
+    "rationale": "Management and strategic planning. No physical component."
   },
   {
     "slug": "computer-hardware-engineers",
     "title": "Computer hardware engineers",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily design work that is cognitive, with some physical prototyping and testing. By 2036, much hardware testing is automated, but novel prototype evaluation still has a human physical component. Core role is design and analysis."
+    "physical_exposure_2036": 1,
+    "rationale": "Primarily design work. Some lab prototyping but core role is cognitive."
   },
   {
     "slug": "computer-network-architects",
     "title": "Computer network architects",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely design and planning work for network systems. No physical labor component."
+    "rationale": "Design and planning. No physical component."
   },
   {
     "slug": "computer-programmers",
     "title": "Computer programmers",
     "physical_exposure_2036": 0,
-    "rationale": "Purely digital/cognitive work. No physical component whatsoever."
+    "rationale": "Purely digital work. No physical component."
   },
   {
     "slug": "computer-support-specialists",
     "title": "Computer support specialists",
-    "physical_exposure_2036": 2,
-    "rationale": "Mix of remote and on-site support. On-site hardware troubleshooting has physical components. By 2036, remote diagnostics handle most issues, and physical hardware work is increasingly standardized. Some hands-on work in variable office environments remains."
+    "physical_exposure_2036": 3,
+    "rationale": "Robotic hardware swap-out in data centers and automated device provisioning. But varied IT environments keep much support human."
   },
   {
     "slug": "computer-systems-analysts",
     "title": "Computer systems analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and consulting work. No physical component."
+    "rationale": "Analytical work. No physical component."
   },
   {
     "slug": "concierges",
     "title": "Concierges",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily interpersonal service providing recommendations and assistance. The human touch and personal relationship is central to the role. Minimal physical tasks; mostly communication and knowledge-based."
+    "physical_exposure_2036": 4,
+    "rationale": "AI recommendation systems, robotic delivery/luggage handling, humanoid assistants for routine requests. High-end personalized service remains human."
   },
   {
     "slug": "conservation-scientists",
     "title": "Conservation scientists and foresters",
-    "physical_exposure_2036": 3,
-    "rationale": "Fieldwork in natural environments involves physical data collection and site assessment. By 2036, drones and sensors automate much monitoring, but working in unstructured natural environments for conservation assessment still requires human judgment and physical presence in novel terrain."
+    "physical_exposure_2036": 4,
+    "rationale": "Automated monitoring, drone assessment, and robotic data collection widespread. But field conservation in varied environments requires human judgment."
   },
   {
     "slug": "construction-and-building-inspectors",
     "title": "Construction and building inspectors",
     "physical_exposure_2036": 4,
-    "rationale": "Site inspections involve navigating variable construction environments and making safety/compliance judgments. By 2036, drones and robotic sensors assist with data collection, but the interpretive judgment in highly variable building conditions still requires human expertise. Physical access to varied sites remains challenging for robots."
+    "rationale": "Drone imaging, sensor data, AI-assisted code analysis for routine inspections. But complex judgment and variable buildings still require humans."
   },
   {
     "slug": "construction-equipment-operators",
     "title": "Construction equipment operators",
-    "physical_exposure_2036": 8,
-    "rationale": "By 2036, autonomous construction equipment handles most grading, excavation, and material moving on well-mapped sites. Human operators remain for genuinely novel terrain, urban environments with complex obstacles, and oversight of autonomous operations."
+    "physical_exposure_2036": 7,
+    "rationale": "Autonomous excavators, graders, dozers, and pavers deployed on large sites. GPS-guided equipment handles routine grading, excavation, and earthmoving. Humans for complex operations and variable terrain."
   },
   {
     "slug": "construction-laborers-and-helpers",
     "title": "Construction laborers and helpers",
     "physical_exposure_2036": 7,
-    "rationale": "General construction labor involves varied physical tasks in changing environments. By 2036, robots handle much material moving, concrete work, and repetitive tasks. But the high variability of construction sites and need for adaptive physical work means significant human involvement remains for site-specific challenges."
+    "rationale": "Humanoid robots handle material transport, concrete pouring, demolition, bricklaying, site cleanup. They walk up stairs and across sites. Variability limits some tasks but most grunt work is robotic."
   },
   {
     "slug": "construction-managers",
     "title": "Construction managers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily management, planning, and coordination work. Site visits involve observation rather than physical labor. Core role is project management, budgeting, and team leadership\u2014cognitive tasks."
+    "physical_exposure_2036": 0,
+    "rationale": "Management and coordination. Not physically automatable."
   },
   {
     "slug": "cooks",
     "title": "Cooks",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic cooking systems handle most restaurant and institutional food preparation for standard menu items. Human cooks remain for creative dishes, quality oversight, and adaptation to ingredient variability. High-volume, standardized cooking environments are largely automated."
+    "rationale": "Fast-food and institutional cooking largely automated. Chain restaurants use robotic prep and cooking. Full-service and fine dining remain human. Score reflects volume split."
   },
   {
     "slug": "correctional-officers",
     "title": "Correctional officers and bailiffs",
-    "physical_exposure_2036": 4,
-    "rationale": "Security work requiring human judgment, authority, and physical presence for inmate management. By 2036, surveillance is heavily automated, but the human authority, de-escalation skills, and physical intervention capability remain necessary. Regulatory and ethical requirements mandate human presence."
+    "physical_exposure_2036": 6,
+    "rationale": "Humanoid security robots patrol facilities, conduct cell inspections, perform contraband searches, and provide constant surveillance. Robotic restraint and transport assistance. But human judgment for crisis intervention, interpersonal dynamics, and de-escalation remains essential."
   },
   {
     "slug": "cost-estimators",
     "title": "Cost estimators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical work involving calculations, project assessment, and financial modeling. No physical component."
+    "rationale": "Analytical work. No physical component."
   },
   {
     "slug": "court-reporters",
     "title": "Court reporters and simultaneous captioners",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely transcription and recording work. No physical component relevant to robotics."
+    "rationale": "Transcription work. No physical component."
   },
   {
     "slug": "craft-and-fine-artists",
     "title": "Craft and fine artists",
     "physical_exposure_2036": 1,
-    "rationale": "Artistic creation is fundamentally about human creative expression and aesthetic judgment with unique materials. The physical craft IS the art. By 2036, robotic tools may assist, but the creative vision and manual artistry remain inherently human."
+    "rationale": "Fine art is inherently about human creative expression. Robots may create art but the value is in human artistry."
   },
   {
     "slug": "credit-counselors",
     "title": "Credit counselors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal counseling and financial advisory work. No physical component."
+    "rationale": "Counseling and financial guidance. No physical component."
   },
   {
     "slug": "customer-service-representatives",
     "title": "Customer service representatives",
     "physical_exposure_2036": 0,
-    "rationale": "Primarily communication-based work via phone, chat, or in-person. Physical component is negligible. Digital AI handles most automation, not physical robots."
+    "rationale": "Communication-based work. No physical component."
   },
   {
     "slug": "dancers-and-choreographers",
     "title": "Dancers and choreographers",
     "physical_exposure_2036": 0,
-    "rationale": "Dance is fundamentally human physical artistic expression. The entire value is human bodily movement and creative expression. Robots cannot substitute for human dancers in artistic performance."
+    "rationale": "Human creative physical performance. The value IS human movement."
   },
   {
     "slug": "data-scientists",
     "title": "Data scientists",
     "physical_exposure_2036": 0,
-    "rationale": "Purely computational and analytical work. No physical component whatsoever."
+    "rationale": "Purely computational. No physical component."
   },
   {
     "slug": "database-administrators",
     "title": "Database administrators and architects",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital/technical work managing database systems. No physical component."
+    "rationale": "Digital systems work. No physical component."
   },
   {
     "slug": "delivery-truck-drivers-and-driver-sales-workers",
     "title": "Delivery truck drivers and driver/sales workers",
-    "physical_exposure_2036": 8,
-    "rationale": "By 2036, autonomous delivery vehicles handle most mapped-route deliveries. Last-mile delivery robots are widespread. Human drivers remain for unmapped areas, customer interaction for sales, and genuinely novel delivery scenarios. The vast majority of routine delivery is automated."
+    "physical_exposure_2036": 9,
+    "rationale": "Autonomous delivery vehicles + humanoid robots that walk to the door. They navigate steps, porches, apartment lobbies. Combined AV + humanoid delivery is the killer app of 2036 robotics. Humans only for rural edge cases."
   },
   {
     "slug": "dental-and-ophthalmic-laboratory-technicians-and-medical-appliance-technicians",
     "title": "Dental and ophthalmic laboratory technicians and medical appliance technicians",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, manufacturing of dental prosthetics, lenses, and medical appliances is highly automated with precision robotics and 3D printing. Custom fitting and adjustment work retains some human involvement, but production is largely robotic."
+    "rationale": "3D printing and CNC machining handle most dental prosthetics and optical lens fabrication. Automated polishing and quality control. Custom and complex work remains human."
   },
   {
     "slug": "dental-assistants",
     "title": "Dental assistants",
-    "physical_exposure_2036": 5,
-    "rationale": "Patient-facing clinical support involving handing instruments, suctioning, and patient comfort during procedures. By 2036, robotic assistance handles some routine tasks, but the patient interaction, adaptive support during variable procedures, and human comfort provision require continued human presence."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic instrument handling, suction, patient positioning, and sterilization automated. Humanoid dental assistants handle routine chairside tasks. But complex procedures and patient comfort still need humans."
   },
   {
     "slug": "dental-hygienists",
     "title": "Dental hygienists",
-    "physical_exposure_2036": 5,
-    "rationale": "Hands-on cleaning and examination inside patients' mouths requires dexterity and patient interaction. By 2036, robotic cleaning tools may assist, but the intimate oral care, patient communication, and adaptive clinical judgment in variable oral conditions keep significant human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic scaling, polishing, and cleaning systems deployed in dental chains by 2036. Automated X-ray and assessment. But varied oral conditions and patient comfort keep many practices human-staffed."
   },
   {
     "slug": "dentists",
     "title": "Dentists",
-    "physical_exposure_2036": 4,
-    "rationale": "Complex oral procedures requiring fine dexterity, patient relationship, and clinical judgment. By 2036, robotic systems assist with standardized procedures, but complex restorative work, diagnosis of novel conditions, and patient management remain human-centered. Regulatory requirements also mandate human oversight."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic drilling, filling, imaging, and cleaning assistance. Automated prosthodontics via 3D printing. But varied oral anatomy and complex procedures keep the role primarily human."
   },
   {
     "slug": "desktop-publishers",
     "title": "Desktop publishers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital design and layout work. No physical component."
+    "rationale": "Digital design work. No physical component."
   },
   {
     "slug": "diagnostic-medical-sonographers",
     "title": "Diagnostic medical sonographers",
     "physical_exposure_2036": 5,
-    "rationale": "Operating ultrasound equipment requires physical manipulation of the probe on patients with varied body types. By 2036, automated scanning assists, but adaptive probe positioning and real-time diagnostic interpretation during scanning still requires human skill and patient interaction."
+    "rationale": "Robotic ultrasound systems with automated image acquisition. AI-assisted interpretation. But patient positioning and complex exams remain human."
   },
   {
     "slug": "diesel-service-technicians-and-mechanics",
     "title": "Diesel service technicians and mechanics",
-    "physical_exposure_2036": 6,
-    "rationale": "Heavy vehicle repair involves physical work in variable conditions. By 2036, robots handle many standardized maintenance procedures, but diagnosing complex problems on diverse diesel equipment and working in field conditions still requires significant human involvement."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic service bays for standard maintenance. Automated diagnostics for engine systems. Complex repairs on diverse equipment still human."
   },
   {
     "slug": "dietitians-and-nutritionists",
     "title": "Dietitians and nutritionists",
     "physical_exposure_2036": 0,
-    "rationale": "Primarily counseling and analytical work involving meal planning and health education. No meaningful physical component for robotic automation."
+    "rationale": "Clinical counseling and planning. No physical component."
   },
   {
     "slug": "drafters",
     "title": "Drafters",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely CAD and digital design work. No physical component."
+    "rationale": "CAD-based technical drawing. No physical component."
   },
   {
     "slug": "drywall-and-ceiling-tile-installers-and-tapers",
     "title": "Drywall installers, ceiling tile installers, and tapers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic systems handle much standardized drywall installation in new construction with uniform layouts. However, renovation work, complex ceiling configurations, and finishing/taping in variable conditions still require human skill. Significant automation of routine installation."
+    "rationale": "Robotic drywall hanging and taping/mudding for new construction. Humanoid robots handle sheet transport. Renovation and custom finishing still human."
   },
   {
     "slug": "economists",
     "title": "Economists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and research work. No physical component whatsoever."
+    "rationale": "Analytical research. No physical component."
   },
   {
     "slug": "editors",
     "title": "Editors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive work involving reading, writing, and editorial judgment. No physical component."
+    "rationale": "Text-based cognitive work. No physical component."
   },
   {
     "slug": "electrical-and-electronics-engineering-technicians",
     "title": "Electrical and electronic engineering technologists and technicians",
     "physical_exposure_2036": 5,
-    "rationale": "Hands-on testing, building prototypes, and troubleshooting electronic equipment. By 2036, routine testing is automated, but working with novel prototypes and diagnosing complex faults in variable equipment still requires human dexterity and judgment."
+    "rationale": "Automated testing, calibration, and some assembly work. But varied equipment and troubleshooting remain human."
   },
   {
     "slug": "electrical-and-electronics-engineers",
     "title": "Electrical and electronics engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design and analysis work that is cognitive. Minor hands-on prototyping component. Core role is engineering problem-solving."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and engineering. Cognitive role."
   },
   {
     "slug": "electrical-and-electronics-installers-and-repairers",
     "title": "Electrical and electronics installers and repairers",
-    "physical_exposure_2036": 6,
-    "rationale": "Installation and repair work in variable environments. By 2036, robots handle standardized installations, but troubleshooting complex electrical systems in diverse settings (industrial, commercial) still requires human diagnostic skill and adaptive physical work."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic installation for standardized setups widespread. Automated testing and diagnostics. But complex troubleshooting in varied environments remains human."
   },
   {
     "slug": "line-installers-and-repairers",
     "title": "Electrical power-line installers and repairers",
-    "physical_exposure_2036": 5,
-    "rationale": "Working on power lines involves climbing poles, working at heights, and navigating outdoor environments in all conditions. By 2036, drones and climbing robots assist significantly, but the variability of outdoor conditions, emergency repair scenarios, and working on energized systems still requires substantial human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Drone-based line inspection standard. Robotic conductor stringing advancing. But working at height with live electrical still requires humans."
   },
   {
     "slug": "electricians",
     "title": "Electricians",
-    "physical_exposure_2036": 5,
-    "rationale": "Residential and commercial electrical work involves highly variable environments\u2014every building is different. By 2036, robots handle standardized new-construction wiring, but renovation work, troubleshooting in existing buildings, and adapting to unique configurations require significant human judgment and dexterity."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic wire pulling and conduit installation. But extreme variability limits full automation."
   },
   {
     "slug": "electro-mechanical-technicians",
     "title": "Electro-mechanical and mechatronics technologists and technicians",
-    "physical_exposure_2036": 6,
-    "rationale": "Testing and maintaining electro-mechanical equipment. By 2036, routine maintenance and testing procedures are automated, but troubleshooting complex integrated systems in variable industrial environments retains human involvement for novel fault diagnosis."
+    "physical_exposure_2036": 7,
+    "rationale": "Automated testing, calibration, and assembly of electromechanical systems. But complex troubleshooting still requires humans."
   },
   {
     "slug": "elementary-middle-and-high-school-principals",
     "title": "Elementary, middle, and high school principals",
     "physical_exposure_2036": 0,
-    "rationale": "Management and leadership role involving strategic planning, staff management, and community relations. Entirely cognitive and interpersonal. No physical labor component."
+    "rationale": "Administrative leadership. No physical component."
   },
   {
     "slug": "elevator-installers-and-repairers",
     "title": "Elevator and escalator installers and repairers",
-    "physical_exposure_2036": 5,
-    "rationale": "Specialized work in confined, vertical spaces with safety-critical requirements. By 2036, standardized installations benefit from robotic assistance, but the variability of building shafts, retrofitting older buildings, and safety-critical troubleshooting still require significant human skill."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic installation assistance and automated testing systems. But varied building configurations still require human adaptation."
   },
   {
     "slug": "emergency-management-directors",
     "title": "Emergency management directors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely planning, coordination, and management work. No physical labor component."
+    "rationale": "Planning and coordination. No physical labor."
   },
   {
     "slug": "emts-and-paramedics",
     "title": "EMTs and paramedics",
-    "physical_exposure_2036": 3,
-    "rationale": "Emergency medical response in highly unstructured, unpredictable environments. Every scene is different\u2014accident sites, homes, public spaces. By 2036, robotic medical equipment assists, but the chaotic, variable nature of emergency scenes and need for rapid human judgment and intimate patient contact keep this predominantly human."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic patient loading, automated vital monitoring, drone-delivered supplies, AI-assisted triage. Humanoid robots assist with patient movement. But emergency judgment in chaos remains human."
   },
   {
     "slug": "entertainment-and-recreation-managers",
     "title": "Entertainment and recreation managers",
     "physical_exposure_2036": 0,
-    "rationale": "Management and planning role that is entirely cognitive and interpersonal. No physical labor component."
+    "rationale": "Management role. No physical labor."
   },
   {
     "slug": "environmental-engineering-technicians",
     "title": "Environmental engineering technologists and technicians",
     "physical_exposure_2036": 5,
-    "rationale": "Field sampling, monitoring, and testing in varied environmental sites. By 2036, automated monitoring handles much routine data collection, but site-specific environmental assessment in novel locations still requires human judgment and physical presence."
+    "rationale": "Automated sampling, monitoring, and testing equipment widespread. Robotic field equipment deployed. But varied conditions require human technicians."
   },
   {
     "slug": "environmental-engineers",
     "title": "Environmental engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design and analytical engineering work. Some site visits but core role is cognitive problem-solving and regulatory compliance analysis."
+    "physical_exposure_2036": 0,
+    "rationale": "Engineering design. Cognitive role."
   },
   {
     "slug": "environmental-science-and-protection-technicians",
     "title": "Environmental science and protection technicians",
     "physical_exposure_2036": 5,
-    "rationale": "Field work collecting samples and monitoring conditions in varied natural and industrial environments. By 2036, automated monitoring handles routine sampling, but novel site assessment and working in unstructured environments still requires human presence."
+    "rationale": "Automated environmental monitoring, sampling robots, and AI-driven analysis. But varied field conditions require human presence."
   },
   {
     "slug": "environmental-scientists-and-specialists",
     "title": "Environmental scientists and specialists",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily analytical and research work with some fieldwork. The physical field components (sampling, site assessment) are partially automatable with drones and sensors, but the core scientific analysis and regulatory judgment are cognitive."
+    "physical_exposure_2036": 3,
+    "rationale": "Automated monitoring, drone sampling, and AI-driven analysis. But core research and field assessment remain human."
   },
   {
     "slug": "epidemiologists",
     "title": "Epidemiologists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and research work involving data analysis and disease investigation. No physical component for robotic automation."
+    "rationale": "Research and analysis. No physical component."
   },
   {
     "slug": "exercise-physiologists",
     "title": "Exercise physiologists",
     "physical_exposure_2036": 3,
-    "rationale": "Hands-on patient assessment and exercise program implementation. Requires physical demonstration, patient motivation, and adaptive response to individual patient conditions. By 2036, monitoring equipment is automated, but the personal guidance and physical interaction remain human-centered."
+    "rationale": "Robotic exercise equipment with AI guidance and automated monitoring. But individualized assessment remains human."
   },
   {
     "slug": "farmers-ranchers-and-other-agricultural-managers",
     "title": "Farmers, ranchers, and other agricultural managers",
-    "physical_exposure_2036": 4,
-    "rationale": "Management role with significant physical oversight component. By 2036, most farming operations are automated, but managers must still make judgment calls about variable conditions, animal welfare, and novel situations. Physical presence for inspection and decision-making in variable environments."
+    "physical_exposure_2036": 6,
+    "rationale": "Managing highly automated farms \u2014 robotic herding, feeding, milking, harvesting all standard. But strategic management decisions and emergency response still human."
   },
   {
     "slug": "fashion-designers",
     "title": "Fashion designers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily creative design work that is cognitive. Prototype creation and fitting have physical components, but the core value is aesthetic vision and trend interpretation."
+    "physical_exposure_2036": 0,
+    "rationale": "Creative design work. No physical labor."
   },
   {
     "slug": "film-and-video-editors-and-camera-operators",
     "title": "Film and video editors and camera operators",
-    "physical_exposure_2036": 2,
-    "rationale": "Editing is entirely digital. Camera operation involves physical manipulation of equipment in variable environments. By 2036, some automated camera systems exist, but creative cinematography requires human artistic judgment about movement, framing, and timing."
+    "physical_exposure_2036": 3,
+    "rationale": "Robotic camera systems in studios and sports. Drone cinematography standard. But creative camera work and varied location shooting remain human."
   },
   {
     "slug": "financial-analysts",
     "title": "Financial analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and computational work. No physical component."
+    "rationale": "Analytical work. No physical component."
   },
   {
     "slug": "financial-clerks",
     "title": "Financial clerks",
     "physical_exposure_2036": 0,
-    "rationale": "Office-based administrative work. No meaningful physical component for robotic automation."
+    "rationale": "Office-based clerical work. No physical component."
   },
   {
     "slug": "financial-examiners",
     "title": "Financial examiners",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and investigative work reviewing financial records. No physical component."
+    "rationale": "Review and assessment. No physical component."
   },
   {
     "slug": "financial-managers",
     "title": "Financial managers",
     "physical_exposure_2036": 0,
-    "rationale": "Management and strategic financial planning. Entirely cognitive work."
+    "rationale": "Management and financial planning. No physical component."
   },
   {
     "slug": "fire-inspectors-and-investigators",
     "title": "Fire inspectors",
-    "physical_exposure_2036": 3,
-    "rationale": "Site inspections in variable environments (burned buildings, construction sites). By 2036, drones and sensors assist with data collection, but investigating fire scenes in structurally compromised buildings requires human judgment in truly unstructured environments."
+    "physical_exposure_2036": 5,
+    "rationale": "Drone and sensor-based inspection widespread. AI-assisted origin analysis standard. Robotic evidence collection. But varied fire scenes require human investigation."
   },
   {
     "slug": "firefighters",
     "title": "Firefighters",
-    "physical_exposure_2036": 3,
-    "rationale": "Emergency response in highly unstructured, dangerous, and unpredictable environments. Every fire scene is novel. By 2036, robotic firefighting assists in some structured scenarios, but search and rescue in burning buildings, wildland fire, and complex emergency scenes remain predominantly human due to extreme environmental unpredictability."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic entry, drone recon, hazmat handling. Humanoid robots for initial entry in extreme conditions. But chaos requires human judgment."
   },
   {
     "slug": "fishers-and-related-fishing-workers",
     "title": "Fishing and hunting workers",
-    "physical_exposure_2036": 5,
-    "rationale": "Fishing involves highly variable natural environments\u2014weather, sea conditions, fish behavior. By 2036, commercial fishing vessels benefit from significant automation for net handling and processing, but the unpredictable ocean environment and real-time adaptation to conditions require human judgment."
+    "physical_exposure_2036": 6,
+    "rationale": "Autonomous fishing vessels operational. Robotic net handling and catch processing. But variable ocean conditions require human oversight."
   },
   {
     "slug": "fitness-trainers-and-instructors",
     "title": "Fitness trainers and instructors",
     "physical_exposure_2036": 2,
-    "rationale": "Personal training involves human motivation, relationship, physical demonstration, and adaptive coaching. The personal connection and motivational presence IS the product for many clients. By 2036, robotic exercise equipment exists, but the human trainer's role as motivator and form corrector remains valued."
+    "rationale": "AI-guided workout equipment and virtual training. But the motivational and interpersonal aspect IS the job."
   },
   {
     "slug": "flight-attendants",
     "title": "Flight attendants",
     "physical_exposure_2036": 5,
-    "rationale": "In-cabin service involves passenger interaction, safety management, and working in confined variable environments. By 2036, routine beverage/food service may be partially automated, but passenger safety, emergency response, and customer service in the variable cabin environment require human presence. Regulatory requirements also mandate humans."
+    "rationale": "Robotic service carts, automated cabin systems, and humanoid attendants for routine service in some airlines. But passenger safety, emergency response, and interpersonal service keep humans essential."
   },
   {
     "slug": "tile-and-marble-setters",
     "title": "Flooring installers and tile and stone setters",
-    "physical_exposure_2036": 5,
-    "rationale": "Flooring and tile work involves variable substrates, custom patterns, and adaptation to room geometry. By 2036, robots handle standardized large-area flooring installation, but custom tile work, complex patterns, and renovation in irregular spaces still require significant human skill."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic tile-setting for standard floor installations. Automated grout and mortar application. Custom work and bathrooms still human."
   },
   {
     "slug": "floral-designers",
     "title": "Floral designers",
-    "physical_exposure_2036": 3,
-    "rationale": "Creative arrangement of natural materials with high variability. Each flower is unique. By 2036, basic bouquet assembly may be automated, but creative custom design requiring aesthetic judgment with variable natural materials remains human-centered."
+    "physical_exposure_2036": 4,
+    "rationale": "Automated bouquet assembly for standard arrangements in supermarkets and chains. But creative design and custom work remain human."
   },
   {
     "slug": "food-and-beverage-serving-and-related-workers",
     "title": "Food and beverage serving and related workers",
-    "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic serving systems are common in many restaurant and institutional settings. Automated ordering, food delivery robots, and self-service are widespread. Human servers persist in fine dining and hospitality-focused venues where personal service is the product."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic food runners, automated drink dispensers, and self-service kiosks widespread. Humanoid robots handle tray clearing and table busing. But full-service hospitality and complex customer interaction remain human."
   },
   {
     "slug": "food-preparation-workers",
     "title": "Food preparation workers",
     "physical_exposure_2036": 8,
-    "rationale": "Routine food preparation\u2014chopping, portioning, basic cooking\u2014is highly automated by 2036. Robotic food prep systems handle standardized tasks in institutional and fast-food settings. Humans remain for creative preparation and quality oversight."
+    "rationale": "Robotic food prep handles washing, chopping, portioning in chains. Humanoid robots load dishwashers, clean prep areas. Structured, repetitive nature ideal for automation."
   },
   {
     "slug": "food-and-tobacco-processing-workers",
     "title": "Food processing equipment workers",
     "physical_exposure_2036": 9,
-    "rationale": "Food processing in factory environments is highly automated by 2036 with robotic handling, sorting, and processing equipment. Standardized production lines run with minimal human intervention. Humans remain primarily for oversight and maintenance."
+    "rationale": "Food processing lines near-fully automated. Humans for equipment maintenance only."
   },
   {
     "slug": "food-service-managers",
     "title": "Food service managers",
-    "physical_exposure_2036": 2,
-    "rationale": "Management role involving planning, staff supervision, and quality control. Physical inspection of food and facilities is a component, but the core role is cognitive management and decision-making. By 2036, automated monitoring assists, but managerial judgment remains human."
+    "physical_exposure_2036": 4,
+    "rationale": "Managing increasingly automated kitchens with robotic prep and cooking systems. Still primarily human management but physical oversight of automated systems is significant."
   },
   {
     "slug": "forensic-science-technicians",
     "title": "Forensic science technicians",
-    "physical_exposure_2036": 5,
-    "rationale": "Crime scene investigation involves working in highly variable, unstructured environments. By 2036, lab analysis is heavily automated, but crime scene evidence collection in novel, unpredictable settings still requires human judgment and careful physical work."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated evidence analysis, robotic sample handling, and AI-driven processing. But crime scene variability and evidence collection still require human judgment."
   },
   {
     "slug": "forest-and-conservation-workers",
     "title": "Forest and conservation workers",
-    "physical_exposure_2036": 5,
-    "rationale": "Outdoor work in unstructured natural environments\u2014every forest site is different. By 2036, automated equipment handles some routine operations, but the variable terrain, weather conditions, and ecological judgment required in conservation work keep significant human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic tree planting, automated trail maintenance, drone monitoring, and robotic brush clearing. But varied natural environments limit full automation."
   },
   {
     "slug": "fundraisers",
     "title": "Fundraisers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal and strategic work. No physical component for robotic automation."
+    "rationale": "Interpersonal and communication work. No physical component."
   },
   {
     "slug": "funeral-service-occupations",
     "title": "Funeral service workers",
     "physical_exposure_2036": 3,
-    "rationale": "Funeral services involve intimate human care, emotional sensitivity, and handling of deceased with dignity. By 2036, some preparation procedures may be partially automated, but the deeply personal and emotional nature of the work, along with the physical care requiring human sensitivity, keeps this predominantly human."
+    "rationale": "Automated embalming assistance, robotic casket handling, and logistical automation. But deeply personal service nature resists full automation."
   },
   {
     "slug": "gaming-services-occupations",
     "title": "Gambling services workers",
     "physical_exposure_2036": 6,
-    "rationale": "Casino and gaming operations involve equipment operation and customer interaction in structured environments. By 2036, many gaming floor operations are automated (slot machines, automated table games), but the customer service and entertainment aspects retain human presence."
+    "rationale": "Automated slot maintenance, robotic chip handling, AI surveillance. Robotic dealers for electronic table games. But customer interaction remains human."
   },
   {
     "slug": "general-maintenance-and-repair-workers",
     "title": "General maintenance and repair workers",
     "physical_exposure_2036": 6,
-    "rationale": "Wide variety of repair tasks in variable building environments. By 2036, robots handle many routine maintenance tasks (changing filters, basic plumbing, painting), but the extreme variability of maintenance requests across diverse buildings and systems requires human adaptability for novel problems."
+    "rationale": "Humanoid robots handle routine maintenance in commercial buildings. But enormous variability of tasks across diverse buildings keeps humans needed for complex work."
   },
   {
     "slug": "general-office-clerks",
     "title": "General office clerks",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely office-based administrative work. No physical component for robotic automation."
+    "rationale": "Office administration. No physical labor."
   },
   {
     "slug": "genetic-counselors",
     "title": "Genetic counselors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive and interpersonal counseling work. No physical component."
+    "rationale": "Clinical counseling. No physical component."
   },
   {
     "slug": "geographers",
     "title": "Geographers",
     "physical_exposure_2036": 0,
-    "rationale": "Primarily research and analytical work. Minimal physical fieldwork; mostly computational and GIS-based."
+    "rationale": "Research and analysis. No physical component."
   },
   {
     "slug": "geological-and-petroleum-technicians",
     "title": "Geological and hydrologic technicians",
     "physical_exposure_2036": 5,
-    "rationale": "Field sampling and testing in variable geological environments. By 2036, automated sampling equipment handles routine collection, but working in novel geological settings and interpreting site conditions still requires human judgment and physical presence."
+    "rationale": "Automated sample analysis, robotic drilling monitoring, and AI-driven interpretation. But varied field conditions require human presence."
   },
   {
     "slug": "geoscientists",
     "title": "Geoscientists",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily research and analytical work with some fieldwork. Physical field components are partially automatable, but the core scientific analysis is cognitive."
+    "physical_exposure_2036": 3,
+    "rationale": "Automated field monitoring, robotic sampling, and drone surveys. But research and analysis remain primarily cognitive."
   },
   {
     "slug": "glaziers",
     "title": "Glaziers",
-    "physical_exposure_2036": 6,
-    "rationale": "Glass installation involves working with heavy, fragile materials in variable building environments. By 2036, robots assist with large commercial installations, but residential work, renovation, and custom configurations still require human dexterity and judgment."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic glass installation for standard openings. Automated cutting, sealing, and handling. Custom and high-rise work still requires humans."
   },
   {
     "slug": "graphic-designers",
     "title": "Graphic designers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital creative work. No physical component for robotic automation."
+    "rationale": "Digital design work. No physical component."
   },
   {
     "slug": "grounds-maintenance-workers",
     "title": "Grounds maintenance workers",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, robotic mowing, trimming, and basic landscaping of uniform areas is widespread. Autonomous grounds maintenance equipment handles most routine tasks. Human workers remain for complex landscape design implementation and genuinely novel environments."
+    "rationale": "Autonomous mowing, robotic leaf removal, automated snow clearing, drone spraying all at scale. Humanoid robots handle trimming and edging. Standard maintenance near-fully automated."
   },
   {
     "slug": "hand-laborers-and-material-movers",
     "title": "Hand laborers and material movers",
     "physical_exposure_2036": 9,
-    "rationale": "By 2036, material handling in warehouses, factories, and loading docks is overwhelmingly automated. Robotic lifting, sorting, and moving equipment handles the vast majority of tasks. Human involvement is marginal\u2014supervisory and for genuinely unusual items or situations."
+    "rationale": "Warehouse automation near-complete. Humanoid robots pick, pack, stack, and move materials. Structured warehouse environments ideal for robotics."
   },
   {
     "slug": "hazardous-materials-removal-workers",
     "title": "Hazardous materials removal workers",
-    "physical_exposure_2036": 6,
-    "rationale": "Hazmat work involves variable and dangerous environments. By 2036, robotic systems handle many routine hazmat removal tasks (asbestos, lead paint in accessible areas), but complex contamination scenarios in unstructured environments still require human judgment. The danger actually accelerates robot adoption."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic hazmat removal in structured environments. But varied scenarios still require human judgment."
   },
   {
     "slug": "health-and-safety-engineers",
     "title": "Health and safety engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily analytical and design work focused on workplace safety systems. Site inspections have minor physical components, but core role is cognitive engineering and regulatory compliance."
+    "physical_exposure_2036": 0,
+    "rationale": "Engineering and assessment. No physical labor."
   },
   {
     "slug": "health-educators",
     "title": "Health education specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely educational and interpersonal work. No physical component for robotic automation."
+    "rationale": "Education and outreach. No physical component."
   },
   {
     "slug": "health-information-technologists-and-medical-registrars",
     "title": "Health information technologists and medical registrars",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital/data management work. No physical component."
+    "rationale": "Data management. No physical component."
   },
   {
     "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
     "title": "Heating, air conditioning, and refrigeration mechanics and installers",
-    "physical_exposure_2036": 5,
-    "rationale": "HVAC work involves variable building environments and diverse equipment configurations. By 2036, robots handle standardized new-construction installations, but diagnosing problems in existing systems and working in varied building spaces (attics, crawlspaces, rooftops) requires human judgment and adaptability."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated diagnostics and robotic installation for standard systems. Varied configurations still require humans."
   },
   {
     "slug": "heavy-and-tractor-trailer-truck-drivers",
     "title": "Heavy and tractor-trailer truck drivers",
-    "physical_exposure_2036": 8,
-    "rationale": "By 2036, autonomous long-haul trucking on mapped highways is the norm. Human drivers remain primarily for unmapped last-mile delivery, extreme weather, and genuinely novel route conditions. The vast majority of interstate freight moves autonomously."
+    "physical_exposure_2036": 9,
+    "rationale": "Fully autonomous highway driving mature by 2036. Robotic loading/unloading at depots. Platooning standard. Humans for unusual last-mile situations only."
   },
   {
     "slug": "heavy-vehicle-and-mobile-equipment-service-technicians",
     "title": "Heavy vehicle and mobile equipment service technicians",
-    "physical_exposure_2036": 6,
-    "rationale": "Maintaining heavy equipment involves physical work on large, variable machines in diverse environments. By 2036, diagnostic automation and robotic maintenance assist with routine service, but field repairs on diverse equipment in variable conditions require significant human involvement."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic service bays handle standard maintenance. Automated diagnostics for all major systems. Humanoid robots assist with parts replacement. Complex troubleshooting on diverse equipment still requires humans."
   },
   {
     "slug": "high-school-teachers",
     "title": "High school teachers",
-    "physical_exposure_2036": 1,
-    "rationale": "Teaching is fundamentally about human relationships, mentoring, and adaptive instruction. Physical classroom presence, managing student behavior, and providing emotional support are central. Minimal physical task content for robots; the human connection is the value."
+    "physical_exposure_2036": 0,
+    "rationale": "Teaching is interpersonal. No physical AI exposure."
   },
   {
     "slug": "historians",
     "title": "Historians",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely research and analytical work. No physical component."
+    "rationale": "Research and writing. No physical component."
   },
   {
     "slug": "home-health-aides-and-personal-care-aides",
     "title": "Home health and personal care aides",
-    "physical_exposure_2036": 6,
-    "rationale": "By 2036, home-care robots handle routine physical tasks\u2014mobility assistance, medication management, household chores. However, the emotional support, human dignity in intimate personal care (bathing, toileting), and adaptive response to varied home environments keep significant human involvement. Robot assistance reduces but doesn't eliminate the human role."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic lifting, transfer, medication reminders, fall detection, meal prep, basic housekeeping. Humanoid robots handle physical demands. But intimate care and emotional support remain human."
   },
   {
     "slug": "human-resources-managers",
     "title": "Human resources managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely management and interpersonal work. No physical component."
+    "rationale": "Management and HR work. No physical component."
   },
   {
     "slug": "human-resources-specialists",
     "title": "Human resources specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely administrative and interpersonal work. No physical component."
+    "rationale": "HR administration. No physical component."
   },
   {
     "slug": "hydrologists",
     "title": "Hydrologists",
-    "physical_exposure_2036": 2,
-    "rationale": "Research and analytical work with some fieldwork in natural water systems. By 2036, automated monitoring handles routine data collection, but the core work is cognitive analysis and modeling."
+    "physical_exposure_2036": 3,
+    "rationale": "Automated monitoring networks and robotic water sampling. But research and analysis remain primarily cognitive."
   },
   {
     "slug": "industrial-designers",
     "title": "Industrial designers",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily creative design work with some physical prototyping. By 2036, 3D printing and robotic prototyping assist, but the creative vision and ergonomic judgment are cognitive. Some hands-on material testing remains."
+    "physical_exposure_2036": 1,
+    "rationale": "Design work with some physical prototyping. Primarily cognitive."
   },
   {
     "slug": "industrial-engineering-technicians",
     "title": "Industrial engineering technologists and technicians",
-    "physical_exposure_2036": 5,
-    "rationale": "Work involves testing equipment, monitoring production, and hands-on process optimization in factory environments. By 2036, much monitoring and testing is automated, but troubleshooting production issues in variable manufacturing contexts still requires human judgment."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated workflow analysis, robotic process testing, and AI-driven optimization. But varied industrial environments require human technicians."
   },
   {
     "slug": "industrial-engineers",
     "title": "Industrial engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily analytical and design work focused on optimizing systems and processes. Site observation and analysis but minimal physical labor. Core work is cognitive."
+    "physical_exposure_2036": 0,
+    "rationale": "Process design and optimization. Cognitive role."
   },
   {
     "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
     "title": "Industrial machinery mechanics, machinery maintenance workers, and millwrights",
-    "physical_exposure_2036": 6,
-    "rationale": "Maintaining and repairing diverse industrial machinery in variable factory environments. By 2036, predictive maintenance and robotic repair handle routine issues, but diagnosing novel equipment failures and working on varied machinery configurations requires significant human expertise."
+    "physical_exposure_2036": 7,
+    "rationale": "Automated diagnostics and robotic assistance for standard repairs. Complex troubleshooting still requires humans."
   },
   {
     "slug": "industrial-production-managers",
     "title": "Industrial production managers",
-    "physical_exposure_2036": 1,
-    "rationale": "Management role focused on planning and overseeing production. Physical floor presence for oversight but the core role is decision-making and coordination. No significant physical labor."
+    "physical_exposure_2036": 0,
+    "rationale": "Management and oversight. No physical labor."
   },
   {
     "slug": "information-clerks",
     "title": "Information clerks",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily communication and customer service work. Minimal physical component\u2014mostly seated desk work providing information. Digital AI handles more automation than physical robots."
+    "physical_exposure_2036": 5,
+    "rationale": "AI-powered kiosks, robotic reception, and humanoid information assistants widespread in airports, hotels, and hospitals. Complex situations still need humans."
   },
   {
     "slug": "information-security-analysts",
     "title": "Information security analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital/analytical work. No physical component."
+    "rationale": "Digital security work. No physical component."
   },
   {
     "slug": "instructional-coordinators",
     "title": "Instructional coordinators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely planning and educational design work. No physical component."
+    "rationale": "Curriculum development. No physical component."
   },
   {
     "slug": "insulation-workers",
     "title": "Insulation workers",
     "physical_exposure_2036": 7,
-    "rationale": "Insulation installation in new construction is increasingly automated by 2036, especially spray-applied products. However, retrofit work in existing buildings with variable configurations and confined spaces retains human involvement. Standardized new construction is heavily automated."
+    "rationale": "Robotic spray insulation, automated batt installation in new construction. Humanoid robots handle material transport. Retrofit work still human."
   },
   {
     "slug": "insurance-sales-agents",
     "title": "Insurance sales agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely sales and relationship work. No physical component."
+    "rationale": "Sales and advisory. No physical component."
   },
   {
     "slug": "insurance-underwriters",
     "title": "Insurance underwriters",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and decision-making work. No physical component."
+    "rationale": "Risk assessment. No physical component."
   },
   {
     "slug": "interior-designers",
     "title": "Interior designers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily creative design and client consultation work. Some physical site measurement and installation oversight, but the core value is aesthetic vision and client relationship."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and planning. No physical labor."
   },
   {
     "slug": "interpreters-and-translators",
     "title": "Interpreters and translators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely language and communication work. No physical component for robotic automation."
+    "rationale": "Language work. No physical component."
   },
   {
     "slug": "structural-iron-and-steel-workers",
     "title": "Ironworkers",
-    "physical_exposure_2036": 6,
-    "rationale": "Ironwork involves heavy physical labor at heights in variable construction environments. By 2036, robotic systems assist with lifting and placement of structural steel, but the variable site conditions, heights, and need for real-time structural judgment keep significant human involvement."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic welding, automated crane operation, and robotic bolt tightening for steel erection. Working at height still requires humans."
   },
   {
     "slug": "janitors-and-building-cleaners",
     "title": "Janitors and building cleaners",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, commercial cleaning robots are deployed at scale for routine cleaning of floors, surfaces, and bathrooms. Standardized building environments are largely robot-cleaned. Human cleaners remain for complex cleaning situations and oversight."
+    "rationale": "Humanoid robots clean bathrooms, scrub surfaces, mop, vacuum, empty trash, restock supplies. Not just Roombas \u2014 they navigate stairs, open doors, clean toilets. Commercial cleaning near-fully automated."
   },
   {
     "slug": "jewelers-and-precious-stone-and-metal-workers",
     "title": "Jewelers and precious stone and metal workers",
-    "physical_exposure_2036": 3,
-    "rationale": "Fine craft work requiring artistic vision and extreme precision with unique, valuable materials. By 2036, some routine settings and casting are automated, but custom design, repair of unique pieces, and artistic judgment keep this predominantly human. The craft tradition and artisan value proposition persist."
+    "physical_exposure_2036": 5,
+    "rationale": "CNC machining and 3D printing handle standard jewelry production by 2036. Robotic polishing and setting for mass-market pieces. Custom and artisanal work remains human."
   },
   {
     "slug": "judges-and-hearing-officers",
     "title": "Judges and hearing officers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive and deliberative work. No physical component."
+    "rationale": "Judicial decision-making. No physical component."
   },
   {
     "slug": "kindergarten-and-elementary-school-teachers",
     "title": "Kindergarten and elementary school teachers",
-    "physical_exposure_2036": 1,
-    "rationale": "Teaching young children is fundamentally about human warmth, emotional presence, and nurturing relationships. Physical activities (arts, play, demonstrations) require human engagement. The emotional and developmental needs of young children demand human presence."
+    "physical_exposure_2036": 0,
+    "rationale": "Teaching is interpersonal. No physical AI exposure."
   },
   {
     "slug": "labor-relations-specialists",
     "title": "Labor relations specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal negotiation and analytical work. No physical component."
+    "rationale": "Negotiation and administration. No physical component."
   },
   {
     "slug": "landscape-architects",
     "title": "Landscape architects",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily creative design and planning work. Site visits involve observation rather than physical labor. Core work is cognitive design and project management."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and planning. No physical labor."
   },
   {
     "slug": "lawyers",
     "title": "Lawyers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive and analytical work\u2014legal research, argumentation, and client counseling. No physical component."
+    "rationale": "Legal analysis and advocacy. No physical component."
   },
   {
     "slug": "librarians",
     "title": "Librarians and library media specialists",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily knowledge management and patron assistance. Physical book handling is minor compared to research guidance, programming, and community engagement. By 2036, automated book sorting and shelving exist, but the core librarian role is cognitive and interpersonal."
+    "physical_exposure_2036": 0,
+    "rationale": "Information management and service. No physical labor."
   },
   {
     "slug": "library-technicians-and-assistants",
     "title": "Library technicians and assistants",
     "physical_exposure_2036": 6,
-    "rationale": "Shelving, organizing, and handling physical materials. By 2036, automated systems handle most book sorting, shelving, and circulation. Human role shifts to patron interaction and handling special materials. Routine physical tasks are largely automated."
+    "rationale": "Robotic shelving, automated sorting, self-checkout, humanoid retrieval systems. But patron assistance and specialized tasks remain human."
   },
   {
     "slug": "licensed-practical-and-licensed-vocational-nurses",
     "title": "Licensed practical and licensed vocational nurses",
-    "physical_exposure_2036": 5,
-    "rationale": "Patient care involving vital signs, medication administration, wound care, and patient comfort. By 2036, robotic systems assist with routine monitoring and medication delivery, but the intimate patient care, variable clinical situations, and human comfort provision require continued significant human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic medication administration, patient lifting, automated monitoring, and vital signs measurement. But bedside care and clinical judgment remain human."
   },
   {
     "slug": "loan-officers",
     "title": "Loan officers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and client-relationship work. No physical component."
+    "rationale": "Financial assessment. No physical component."
   },
   {
     "slug": "lodging-managers",
     "title": "Lodging managers",
-    "physical_exposure_2036": 1,
-    "rationale": "Management role focused on operations, staff, and guest relations. Physical facility inspection is minor. Core work is cognitive management and hospitality leadership."
+    "physical_exposure_2036": 0,
+    "rationale": "Hotel management. No physical labor."
   },
   {
     "slug": "logging-workers",
     "title": "Logging workers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, automated harvesting equipment handles most commercial logging operations. However, the extreme variability of forest environments, terrain, and tree conditions means human operators remain for complex situations. Significant but not complete automation."
+    "rationale": "Autonomous felling, robotic limbing, automated transport. Variable terrain still limits some operations."
   },
   {
     "slug": "logisticians",
     "title": "Logisticians",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and planning work optimizing supply chains. No physical component."
+    "rationale": "Supply chain planning. No physical labor."
   },
   {
     "slug": "machinists-and-tool-and-die-makers",
     "title": "Machinists and tool and die makers",
-    "physical_exposure_2036": 7,
-    "rationale": "By 2036, CNC machines and robotic manufacturing handle most precision machining. Humans remain for truly custom tooling, novel setups, and quality control of complex parts. The standardized, production-run work is heavily automated."
+    "physical_exposure_2036": 8,
+    "rationale": "CNC handles most standard work. Robotic tool changing, AI-optimized machining. Custom precision work still requires humans."
   },
   {
     "slug": "management-analysts",
     "title": "Management analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive consulting and analytical work. No physical component."
+    "rationale": "Consulting and analysis. No physical component."
   },
   {
     "slug": "manicurists-and-pedicurists",
     "title": "Manicurists and pedicurists",
     "physical_exposure_2036": 3,
-    "rationale": "Intimate personal care where human touch and relationship are central to the service experience. By 2036, some nail-application automation exists, but the personal pampering, artistic nail design, and customer relationship keep this predominantly human-delivered."
+    "rationale": "Some automated nail painting systems exist. But the personal service and varied client needs keep most work human."
   },
   {
     "slug": "marine-engineers-and-naval-architects",
     "title": "Marine engineers and naval architects",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design and engineering work that is cognitive. Some shipyard inspections but core role is analysis and design."
+    "physical_exposure_2036": 0,
+    "rationale": "Design engineering. Cognitive role."
   },
   {
     "slug": "market-research-analysts",
     "title": "Market research analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical work. No physical component."
+    "rationale": "Research and analysis. No physical component."
   },
   {
     "slug": "marriage-and-family-therapists",
     "title": "Marriage and family therapists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal counseling work. No physical component."
+    "rationale": "Counseling and therapy. No physical component."
   },
   {
     "slug": "brickmasons-blockmasons-and-stonemasons",
     "title": "Masonry workers",
-    "physical_exposure_2036": 6,
-    "rationale": "Masonry involves working with heavy materials in variable construction environments. By 2036, robotic bricklaying handles standardized wall construction, but complex patterns, restoration work, and variable site conditions still require human craftmanship."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic bricklaying on large commercial projects. Custom stone work and restoration still human."
   },
   {
     "slug": "massage-therapists",
     "title": "Massage therapists",
-    "physical_exposure_2036": 2,
-    "rationale": "Human touch IS the therapy. The physical intimacy, therapeutic relationship, and adaptive response to the individual body are central to massage. By 2036, massage chairs and robotic devices improve, but the human touch and emotional presence remain the core value proposition."
+    "physical_exposure_2036": 3,
+    "rationale": "Robotic massage devices exist and work. But many prefer human touch and therapeutic relationship."
   },
   {
     "slug": "material-moving-machine-operators",
     "title": "Material moving machine operators",
     "physical_exposure_2036": 9,
-    "rationale": "By 2036, autonomous forklifts, cranes, and material-moving equipment are standard in warehouses and distribution centers. The vast majority of material moving is automated. Human operators remain for unusual loads and genuinely novel situations."
+    "rationale": "Autonomous forklifts, AGVs, and robotic material handling at scale. Warehouse automation near-complete."
   },
   {
     "slug": "material-recording-clerks",
     "title": "Material recording clerks",
-    "physical_exposure_2036": 7,
-    "rationale": "Inventory tracking, receiving, and shipping documentation. By 2036, automated inventory systems with robotic counting and tracking handle most material recording. RFID, computer vision, and automated warehousing minimize human involvement."
+    "physical_exposure_2036": 8,
+    "rationale": "Automated inventory tracking, robotic counting, and RFID-based recording. Most material recording fully automated."
   },
   {
     "slug": "materials-engineers",
     "title": "Materials engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily research and analytical work. Some lab testing with physical components, but core role is cognitive materials science and engineering design."
+    "physical_exposure_2036": 0,
+    "rationale": "Engineering design. Cognitive role."
   },
   {
     "slug": "mathematicians-and-statisticians",
     "title": "Mathematicians and statisticians",
     "physical_exposure_2036": 0,
-    "rationale": "Purely computational and analytical work. No physical component whatsoever."
+    "rationale": "Analytical work. No physical component."
   },
   {
     "slug": "mechanical-engineering-technicians",
     "title": "Mechanical engineering technologists and technicians",
-    "physical_exposure_2036": 5,
-    "rationale": "Building, testing, and maintaining mechanical devices. By 2036, routine testing and assembly is automated, but working with novel prototypes and diagnosing complex mechanical issues in variable equipment requires human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated testing, prototyping, and quality analysis. But varied engineering tasks still require humans."
   },
   {
     "slug": "mechanical-engineers",
     "title": "Mechanical engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design and analytical work. Some prototyping and testing but core role is cognitive engineering."
+    "physical_exposure_2036": 0,
+    "rationale": "Design and engineering. Cognitive role."
   },
   {
     "slug": "medical-and-health-services-managers",
     "title": "Medical and health services managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely management and administrative work. No physical component."
+    "rationale": "Healthcare management. No physical labor."
   },
   {
     "slug": "medical-assistants",
     "title": "Medical assistants",
-    "physical_exposure_2036": 5,
-    "rationale": "Patient-facing clinical support\u2014taking vitals, preparing patients, basic procedures. By 2036, automated vitals monitoring and routine sample collection assist, but patient interaction, positioning, and adaptive clinical support in varied patient encounters require human presence."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic vital signs, automated patient intake, AI-assisted triage, and robotic specimen handling. But patient interaction and varied clinical tasks remain human."
   },
   {
     "slug": "medical-dosimetrists",
     "title": "Medical dosimetrists",
     "physical_exposure_2036": 1,
-    "rationale": "Primarily computational planning work for radiation therapy. Minimal physical component\u2014mostly analysis and treatment planning using software."
+    "rationale": "Radiation dose calculation. Primarily computational with minor equipment interaction."
   },
   {
     "slug": "medical-equipment-repairers",
     "title": "Medical equipment repairers",
     "physical_exposure_2036": 5,
-    "rationale": "Repairing diverse medical equipment in hospital environments. By 2036, diagnostics are automated and routine maintenance is robotic, but the variety of equipment and variable repair contexts require human troubleshooting skill."
+    "rationale": "Automated diagnostics and some standardized repairs. But varied equipment types and hospital environments require human technicians."
   },
   {
     "slug": "medical-records-and-health-information-technicians",
     "title": "Medical records specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital records management. No physical component."
+    "rationale": "Data management. No physical component."
   },
   {
     "slug": "medical-scientists",
     "title": "Medical scientists",
-    "physical_exposure_2036": 3,
-    "rationale": "Laboratory research with physical components. By 2036, routine lab procedures are automated, but novel experimental designs and research with unique biological materials require human judgment. Core work is cognitive research."
+    "physical_exposure_2036": 4,
+    "rationale": "Lab automation handles routine experiments. Robotic sample processing and analysis standard. But novel research protocols remain human."
   },
   {
     "slug": "medical-transcriptionists",
     "title": "Medical transcriptionists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital/audio processing work. No physical component."
+    "rationale": "Transcription work. No physical component."
   },
   {
     "slug": "meeting-convention-and-event-planners",
     "title": "Meeting, convention, and event planners",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily planning and coordination work. Some physical venue setup oversight, but core role is organizational and interpersonal."
+    "physical_exposure_2036": 0,
+    "rationale": "Planning and coordination. No physical labor."
   },
   {
     "slug": "metal-and-plastic-machine-workers",
     "title": "Metal and plastic machine workers",
     "physical_exposure_2036": 9,
-    "rationale": "Operating metal and plastic fabrication machines in factory settings. By 2036, CNC and robotic systems handle most routine machine operation autonomously. Human involvement is primarily supervisory and for setup of novel jobs."
+    "rationale": "Machine operation near-fully automated. Humans for setup and troubleshooting only."
   },
   {
     "slug": "microbiologists",
     "title": "Microbiologists",
-    "physical_exposure_2036": 3,
-    "rationale": "Laboratory research with physical sample handling. By 2036, much routine microbiology lab work is automated, but novel research and experimental design with living organisms require human judgment."
+    "physical_exposure_2036": 4,
+    "rationale": "Automated culture handling, colony counting, and standard microbiological analysis. But novel research and complex procedures remain human."
   },
   {
     "slug": "middle-school-teachers",
     "title": "Middle school teachers",
-    "physical_exposure_2036": 1,
-    "rationale": "Teaching adolescents requires human mentorship, behavioral management, and adaptive instruction. The educational relationship and developmental support are inherently human. Minimal physical task content for robots."
+    "physical_exposure_2036": 0,
+    "rationale": "Teaching is interpersonal. No physical AI exposure."
   },
   {
     "slug": "military-careers",
     "title": "Military careers",
-    "physical_exposure_2036": 4,
-    "rationale": "Extremely diverse roles spanning combat, logistics, maintenance, and administration. By 2036, autonomous systems handle much reconnaissance, logistics, and some combat support. However, the command judgment, rules of engagement, and diverse operational environments keep substantial human involvement across the military."
+    "physical_exposure_2036": 6,
+    "rationale": "Autonomous vehicles, robotic logistics, drone warfare, robotic EOD, and autonomous supply convoys. But combat decision-making and leadership require humans."
   },
   {
     "slug": "mining-and-geological-engineers",
     "title": "Mining and geological engineers",
-    "physical_exposure_2036": 2,
-    "rationale": "Primarily engineering design and planning. Some site visits in variable mining environments, but core role is cognitive problem-solving and mine design."
+    "physical_exposure_2036": 1,
+    "rationale": "Engineering design with some site work. Primarily cognitive."
   },
   {
     "slug": "models",
     "title": "Models",
     "physical_exposure_2036": 0,
-    "rationale": "Modeling is inherently about human physical appearance and presence. The value is the human form and persona. CGI alternatives exist but are a different product."
+    "rationale": "Human appearance and presence IS the product."
   },
   {
     "slug": "music-directors-and-composers",
     "title": "Music directors and composers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely creative and cognitive work. No physical component for robotic automation. Music direction involves human artistic leadership."
+    "rationale": "Creative and intellectual work. No physical labor."
   },
   {
     "slug": "musicians-and-singers",
     "title": "Musicians and singers",
     "physical_exposure_2036": 0,
-    "rationale": "Musical performance is fundamentally human artistic expression. The value is human creativity and emotional performance. While music can be AI-generated digitally, live performance is inherently human."
+    "rationale": "Human performance. The value IS human artistry."
   },
   {
     "slug": "natural-sciences-managers",
     "title": "Natural sciences managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely management and planning work. No physical component."
+    "rationale": "Research management. No physical labor."
   },
   {
     "slug": "network-and-computer-systems-administrators",
     "title": "Network and computer systems administrators",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily digital/remote system management. Some physical hardware work in data centers, but by 2036, much physical server work is automated. Core role is cognitive systems management."
+    "physical_exposure_2036": 0,
+    "rationale": "Systems administration. No physical component."
   },
   {
     "slug": "reporters-correspondents-and-broadcast-news-analysts",
     "title": "News analysts, reporters, and journalists",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily investigative and writing work. On-location reporting involves physical presence but the core value is journalism, analysis, and storytelling\u2014cognitive work."
+    "physical_exposure_2036": 0,
+    "rationale": "Journalism and communication. No physical labor."
   },
   {
     "slug": "nuclear-engineers",
     "title": "Nuclear engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily design and analytical engineering work. Site inspections in nuclear facilities have safety-critical physical components, but the core role is cognitive."
+    "physical_exposure_2036": 0,
+    "rationale": "Engineering design. Cognitive role."
   },
   {
     "slug": "nuclear-medicine-technologists",
     "title": "Nuclear medicine technologists",
-    "physical_exposure_2036": 5,
-    "rationale": "Operating imaging equipment, preparing radioactive materials, and positioning patients. By 2036, automated systems assist with routine procedures, but patient handling, variable anatomy, and safety-critical radioactive material management require human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic patient positioning, automated imaging, and sample handling. But safety-critical nature requires human oversight."
   },
   {
     "slug": "nuclear-technicians",
     "title": "Nuclear technicians",
-    "physical_exposure_2036": 6,
-    "rationale": "Operating and monitoring nuclear equipment in controlled but safety-critical environments. By 2036, routine monitoring and operations are automated, but the safety-critical nature and need for human judgment in unusual situations maintain significant human presence. Regulatory requirements also mandate human oversight."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic inspection and decontamination. But safety-critical nature requires human oversight."
   },
   {
     "slug": "nurse-anesthetists-nurse-midwives-and-nurse-practitioners",
     "title": "Nurse anesthetists, nurse midwives, and nurse practitioners",
-    "physical_exposure_2036": 3,
-    "rationale": "Advanced practice nursing combining clinical judgment with hands-on patient care. Midwifery involves intimate birth support; anesthesia requires real-time patient monitoring and intervention. By 2036, monitoring automation assists, but the clinical judgment, patient relationship, and hands-on care in variable situations remain human-centered."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic assistance for monitoring, medication administration, and some procedures. Automated anesthesia delivery systems. But clinical judgment and patient interaction remain essential."
   },
   {
     "slug": "nursing-assistants",
     "title": "Nursing assistants and orderlies",
-    "physical_exposure_2036": 6,
-    "rationale": "Direct patient care\u2014bathing, feeding, repositioning, mobility assistance. By 2036, robotic lifting equipment and basic care robots assist significantly, but intimate personal care, patient dignity, and emotional support keep substantial human involvement. Routine physical tasks are increasingly automated."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic lifting, transfer, repositioning, feeding assistance, mobility support. But intimate care and emotional support remain human."
   },
   {
     "slug": "occupational-health-and-safety-specialists-and-technicians",
     "title": "Occupational health and safety specialists and technicians",
-    "physical_exposure_2036": 2,
-    "rationale": "Site inspections and hazard assessments in variable workplaces. By 2036, automated monitoring handles routine hazard detection, but the cognitive analysis, regulatory judgment, and investigation of novel workplace situations remain human-centered."
+    "physical_exposure_2036": 3,
+    "rationale": "Automated monitoring, drone inspections, and AI-driven compliance checking. But site assessment and judgment remain human."
   },
   {
     "slug": "occupational-therapists",
     "title": "Occupational therapists",
-    "physical_exposure_2036": 3,
-    "rationale": "Hands-on therapeutic work helping patients develop daily living skills. Requires adaptive physical interaction, patient motivation, and clinical judgment about individual needs. By 2036, assistive technology is advanced, but the therapeutic relationship and adaptive guidance remain human-centered."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic rehabilitation devices and automated assessment tools significant. But individualized patient care and therapeutic relationship remain human."
   },
   {
     "slug": "occupational-therapy-assistants-and-aides",
     "title": "Occupational therapy assistants and aides",
-    "physical_exposure_2036": 5,
-    "rationale": "Implementing therapy programs with direct patient interaction. By 2036, robotic therapy equipment assists with exercises, but guiding patients through varied activities and adapting to individual needs requires human presence and judgment."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic exercise equipment and automated therapy tools. But hands-on patient assistance still requires human presence."
   },
   {
     "slug": "oil-and-gas-workers",
     "title": "Oil and gas workers",
-    "physical_exposure_2036": 6,
-    "rationale": "Drilling and extraction in variable field environments. By 2036, automated drilling and monitoring systems handle much routine operation, but field work in diverse geological and environmental conditions requires human adaptation and judgment for novel situations."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic drilling, autonomous pipeline inspection, automated wellhead maintenance. But hazardous field conditions require human oversight."
   },
   {
     "slug": "operations-research-analysts",
     "title": "Operations research analysts",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and computational work. No physical component."
+    "rationale": "Analytical optimization. No physical component."
   },
   {
     "slug": "opticians-dispensing",
     "title": "Opticians",
-    "physical_exposure_2036": 4,
-    "rationale": "Fitting eyeglasses requires interaction with patients' faces and individual anatomy. By 2036, automated measurement and lens-fitting systems assist significantly, but the personal fitting, adjustment, and customer relationship keep human involvement."
+    "physical_exposure_2036": 5,
+    "rationale": "Automated lens fitting, frame adjustment, and 3D-printed frames. But patient-specific aesthetics and preferences keep many fittings human."
   },
   {
     "slug": "optometrists",
     "title": "Optometrists",
-    "physical_exposure_2036": 3,
-    "rationale": "Eye examinations combining diagnostic equipment with patient interaction. By 2036, automated screening assists, but the clinical judgment, patient relationship, and hands-on examination of variable eye conditions require human expertise."
+    "physical_exposure_2036": 4,
+    "rationale": "Automated refraction, screening, and imaging. Robotic contact lens fitting. But clinical examination and patient interaction remain human."
   },
   {
     "slug": "orthotists-and-prosthetists",
     "title": "Orthotists and prosthetists",
-    "physical_exposure_2036": 4,
-    "rationale": "Custom fitting and fabrication of orthotic/prosthetic devices for individual patients. By 2036, 3D scanning and printing automate much fabrication, but custom fitting, patient interaction, and adjustment to individual anatomy and needs require human expertise."
+    "physical_exposure_2036": 6,
+    "rationale": "3D printing and CNC manufacturing automated. Robotic fitting assistance. But custom adjustment and patient assessment remain human."
   },
   {
     "slug": "painters-construction-and-maintenance",
     "title": "Painters, construction and maintenance",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic painting systems handle most large-area, standardized painting in commercial and new residential construction. Human painters remain for detail work, complex surfaces, decorative painting, and renovation in variable environments."
+    "rationale": "Robotic spray systems for large surfaces. Automated roller painting. Humanoid robots handle prep and masking. Trim and detailed work still human."
   },
   {
     "slug": "painting-and-coating-workers",
     "title": "Painting and coating workers",
     "physical_exposure_2036": 9,
-    "rationale": "Industrial painting and coating in factory environments is highly automated by 2036. Robotic spray systems handle most production coating. Human involvement is primarily supervisory and for custom/specialty work."
+    "rationale": "Industrial painting near-fully automated with better consistency than humans."
   },
   {
     "slug": "paralegals-and-legal-assistants",
     "title": "Paralegals and legal assistants",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely research, writing, and administrative work. No physical component."
+    "rationale": "Legal research and documentation. No physical component."
   },
   {
     "slug": "personal-financial-advisors",
     "title": "Personal financial advisors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely advisory and analytical work. No physical component."
+    "rationale": "Financial advisory. No physical component."
   },
   {
     "slug": "pest-control-workers",
     "title": "Pest control workers",
-    "physical_exposure_2036": 5,
-    "rationale": "Working in variable residential and commercial environments. By 2036, automated monitoring and some treatment systems exist, but the extreme variability of buildings, infestation types, and crawlspace/attic access keeps significant human involvement."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic inspection, automated treatment application, and drone-based monitoring. But varied building environments require human judgment."
   },
   {
     "slug": "petroleum-engineers",
     "title": "Petroleum engineers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily analytical and design engineering work. Some site visits but core role is cognitive."
+    "physical_exposure_2036": 0,
+    "rationale": "Engineering design. Cognitive role."
   },
   {
     "slug": "pharmacists",
     "title": "Pharmacists",
-    "physical_exposure_2036": 4,
-    "rationale": "By 2036, robotic dispensing handles most routine prescription filling. Pharmacists' remaining role is clinical counseling, drug interaction assessment, and patient education\u2014cognitive and interpersonal work. Physical dispensing is largely automated."
+    "physical_exposure_2036": 7,
+    "rationale": "Automated dispensing handles most prescriptions. Robotic packaging, verification, and inventory management. Patient counseling and complex compounding remain human."
   },
   {
     "slug": "pharmacy-technicians",
     "title": "Pharmacy technicians",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, robotic pharmacy systems handle most routine prescription counting, packaging, and dispensing. Human technicians remain for patient interaction, insurance resolution, and oversight. The majority of physical dispensing tasks are automated."
+    "rationale": "Automated dispensing handles most prescription filling. Robotic medication packaging and inventory management. Human technicians for patient interaction and complex situations."
   },
   {
     "slug": "phlebotomists",
     "title": "Phlebotomists",
-    "physical_exposure_2036": 6,
-    "rationale": "Blood drawing requires precise needle insertion in varied patient anatomy. By 2036, automated blood-drawing robots handle many routine venipunctures, but difficult veins, anxious patients, and varied anatomy still require human skill and patient comfort."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic blood draw with vein-finding technology handles most standard draws. Automated labeling and transport. Difficult draws still require humans."
   },
   {
     "slug": "photographers",
     "title": "Photographers",
-    "physical_exposure_2036": 2,
-    "rationale": "Creative photography requires artistic vision, composition judgment, and human interaction (for portraits). By 2036, automated cameras exist for routine documentation, but creative and portrait photography remain human-driven due to artistic judgment and interpersonal skills."
+    "physical_exposure_2036": 3,
+    "rationale": "Drone photography, robotic camera rigs, and AI-driven event photography. But creative photography remains human."
   },
   {
     "slug": "physical-therapist-assistants-and-aides",
     "title": "Physical therapist assistants and aides",
-    "physical_exposure_2036": 5,
-    "rationale": "Hands-on therapy implementation with direct patient physical interaction. By 2036, robotic therapy equipment assists with exercises, but guiding patients through varied movements and adapting to individual physical needs requires human presence."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic rehabilitation equipment handles many routine exercises. But hands-on physical assistance and patient-specific adaptation remain human."
   },
   {
     "slug": "physical-therapists",
     "title": "Physical therapists",
-    "physical_exposure_2036": 3,
-    "rationale": "Hands-on therapeutic assessment and treatment requiring adaptive physical interaction with patients. By 2036, robotic therapy equipment is advanced, but the diagnostic touch, treatment adaptation, and patient relationship keep this predominantly human. Each patient presents unique physical challenges."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic rehabilitation devices and AI-guided treatment protocols handle many exercises. But individualized assessment and hands-on treatment remain human."
   },
   {
     "slug": "physician-assistants",
     "title": "Physician assistants",
-    "physical_exposure_2036": 3,
-    "rationale": "Clinical practice combining cognitive diagnosis with physical examination and procedures. By 2036, diagnostic automation assists, but the patient relationship, physical exam of varied patients, and clinical procedures in variable settings require human presence and judgment."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic assistance for procedures, automated diagnostics. But clinical judgment and patient interaction remain essential."
   },
   {
     "slug": "physicians-and-surgeons",
     "title": "Physicians and surgeons",
-    "physical_exposure_2036": 4,
-    "rationale": "By 2036, robotic surgery handles most standardized procedures. Physicians' role shifts toward complex/novel cases, diagnosis of unusual conditions, and patient management. Physical examination increasingly augmented. The combination of clinical judgment, patient relationship, and procedural skill for complex cases keeps significant human involvement."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic surgery standard for many procedures. Automated diagnostics and imaging. But clinical judgment, patient interaction, and complex cases remain human. Score reflects significant physical component of surgery being robotic."
   },
   {
     "slug": "physicists-and-astronomers",
     "title": "Physicists and astronomers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily theoretical and computational research. Some experimental physics involves lab equipment, but the core work is cognitive. Observational astronomy is already highly automated."
+    "physical_exposure_2036": 0,
+    "rationale": "Research and analysis. No physical labor."
   },
   {
     "slug": "plumbers-pipefitters-and-steamfitters",
     "title": "Plumbers, pipefitters, and steamfitters",
-    "physical_exposure_2036": 5,
-    "rationale": "Plumbing involves highly variable environments\u2014every building's plumbing configuration is different. By 2036, robots handle standardized new-construction plumbing, but repair, renovation, and working in existing buildings with unknown configurations require significant human judgment and adaptability."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic pipe work tools deployed. But extreme variability of existing systems limits full automation."
   },
   {
     "slug": "podiatrists",
     "title": "Podiatrists",
-    "physical_exposure_2036": 3,
-    "rationale": "Foot and ankle care combining diagnosis with physical treatment. Requires patient interaction and hands-on treatment of varied conditions. By 2036, some routine procedures may be robot-assisted, but the clinical judgment, patient relationship, and variable conditions keep this human-centered."
+    "physical_exposure_2036": 4,
+    "rationale": "Robotic foot assessment and some automated procedures. But varied patient conditions keep most work human."
   },
   {
     "slug": "police-and-detectives",
     "title": "Police and detectives",
-    "physical_exposure_2036": 3,
-    "rationale": "Law enforcement involves unpredictable human interactions, variable environments, and judgment-intensive situations. By 2036, surveillance and data analysis are automated, but the human authority, de-escalation skills, investigative judgment, and community trust required keep this predominantly human. Regulatory and ethical requirements demand human officers."
+    "physical_exposure_2036": 4,
+    "rationale": "Surveillance automated. Autonomous patrol vehicles. Some robotic intervention. But investigation and community relations remain human."
   },
   {
     "slug": "political-scientists",
     "title": "Political scientists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely research and analytical work. No physical component."
+    "rationale": "Research and analysis. No physical component."
   },
   {
     "slug": "postal-service-workers",
     "title": "Postal service workers",
-    "physical_exposure_2036": 9,
-    "rationale": "By 2036, mail sorting is fully automated and delivery is predominantly autonomous. Postal counter services are largely replaced by automated systems. Human involvement is marginal\u2014primarily for unusual packages and remote delivery."
+    "physical_exposure_2036": 8,
+    "rationale": "Mail sorting fully automated. Humanoid robots deliver to door \u2014 navigate apartment buildings, handle packages. Humans for complex situations only."
   },
   {
     "slug": "postsecondary-education-administrators",
     "title": "Postsecondary education administrators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely administrative and management work. No physical component."
+    "rationale": "Educational administration. No physical labor."
   },
   {
     "slug": "postsecondary-teachers",
     "title": "Postsecondary teachers",
-    "physical_exposure_2036": 1,
-    "rationale": "Teaching at the college level involves lecture, discussion, and mentoring. Lab courses have physical components, but the core academic role is cognitive instruction and research. Physical presence for teaching is valued but not a physical labor task."
+    "physical_exposure_2036": 0,
+    "rationale": "Teaching and research. No physical AI exposure."
   },
   {
     "slug": "power-plant-operators-distributors-and-dispatchers",
     "title": "Power plant operators, distributors, and dispatchers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, power plant operations are highly automated with remote monitoring and control. Routine operations require minimal human presence. Humans remain for emergency response, unusual conditions, and regulatory oversight."
+    "rationale": "Automated monitoring and control. Robotic inspection and maintenance of equipment. But complex troubleshooting and emergency response require human operators."
   },
   {
     "slug": "preschool-and-childcare-center-directors",
     "title": "Preschool and childcare center directors",
     "physical_exposure_2036": 0,
-    "rationale": "Management role focused on program administration and staff supervision. No significant physical labor component."
+    "rationale": "Administrative leadership. No physical labor."
   },
   {
     "slug": "preschool-teachers",
     "title": "Preschool teachers",
-    "physical_exposure_2036": 2,
-    "rationale": "Teaching very young children requires enormous human warmth, patience, and physical engagement in play and learning activities. The emotional nurturing, safety oversight, and adaptive interaction with young children are inherently human needs."
+    "physical_exposure_2036": 1,
+    "rationale": "Teaching young children requires human nurturing. No physical AI exposure."
   },
   {
     "slug": "private-detectives-and-investigators",
     "title": "Private detectives and investigators",
-    "physical_exposure_2036": 2,
-    "rationale": "Investigative work in variable environments requiring surveillance, interviews, and analysis. By 2036, surveillance technology is advanced, but the unpredictable nature of investigations and need for human judgment in novel situations keeps this human-centered."
+    "physical_exposure_2036": 1,
+    "rationale": "Investigation is cognitive work. Some physical surveillance but primarily analytical."
   },
   {
     "slug": "probation-officers-and-correctional-treatment-specialists",
     "title": "Probation officers and correctional treatment specialists",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily cognitive and interpersonal work\u2014monitoring compliance, counseling, and making judicial recommendations. Minimal physical component."
+    "physical_exposure_2036": 0,
+    "rationale": "Counseling and supervision. Interpersonal work."
   },
   {
     "slug": "producers-and-directors",
     "title": "Producers and directors",
-    "physical_exposure_2036": 1,
-    "rationale": "Creative management and leadership roles. The physical component is overseeing production environments, but the core work is creative vision, decision-making, and team leadership."
+    "physical_exposure_2036": 0,
+    "rationale": "Creative direction and management. No physical labor."
   },
   {
     "slug": "project-management-specialists",
     "title": "Project management specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely planning, coordination, and management work. No physical component."
+    "rationale": "Project planning and coordination. No physical labor."
   },
   {
     "slug": "appraisers-and-assessors-of-real-estate",
     "title": "Property appraisers and assessors",
-    "physical_exposure_2036": 2,
-    "rationale": "Property inspection involves visiting and evaluating buildings. By 2036, drone and sensor technology assists with exterior/structural assessment, but interior evaluation and judgment about property condition still requires human presence in variable environments."
+    "physical_exposure_2036": 3,
+    "rationale": "Drone-based property imaging, AI-assisted valuation, and automated comparable analysis. But varied properties require human judgment."
   },
   {
     "slug": "property-real-estate-and-community-association-managers",
     "title": "Property, real estate, and community association managers",
-    "physical_exposure_2036": 1,
-    "rationale": "Primarily management and business operations work. Some property inspection, but core role is administrative and interpersonal."
+    "physical_exposure_2036": 0,
+    "rationale": "Management and administration. No physical labor."
   },
   {
     "slug": "psychiatric-technicians-and-aides",
     "title": "Psychiatric technicians and aides",
-    "physical_exposure_2036": 4,
-    "rationale": "Direct patient care in psychiatric facilities involving monitoring, assistance, and de-escalation. By 2036, automated monitoring assists, but the human presence for patient safety, therapeutic interaction, and managing unpredictable behavioral situations requires human judgment and emotional skills."
+    "physical_exposure_2036": 3,
+    "rationale": "Robotic monitoring, automated vital signs, and safety sensors in psychiatric facilities. But mental health care requires human empathy."
   },
   {
     "slug": "psychologists",
     "title": "Psychologists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive and interpersonal therapeutic/research work. No physical component for robotic automation."
+    "rationale": "Clinical assessment and therapy. No physical component."
   },
   {
     "slug": "public-relations-managers",
     "title": "Public relations and fundraising managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely communication and strategic management work. No physical component."
+    "rationale": "Communications management. No physical component."
   },
   {
     "slug": "public-relations-specialists",
     "title": "Public relations specialists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely communication and writing work. No physical component."
+    "rationale": "Communications work. No physical component."
   },
   {
     "slug": "police-fire-and-ambulance-dispatchers",
     "title": "Public safety telecommunicators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely communication and coordination work at dispatch consoles. No physical component for robotic automation."
+    "rationale": "Communication and coordination from workstation. No physical component."
   },
   {
     "slug": "purchasing-managers-buyers-and-purchasing-agents",
     "title": "Purchasing managers, buyers, and purchasing agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and negotiation work. No physical component."
+    "rationale": "Procurement and management. No physical labor."
   },
   {
     "slug": "quality-control-inspectors",
     "title": "Quality control inspectors",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, automated inspection systems using computer vision and sensors handle most routine quality checking in manufacturing. Human inspectors remain for novel products, complex assemblies, and final quality judgment. The vast majority of routine inspection is automated."
+    "rationale": "Automated visual inspection, sensor-based quality testing, and AI-driven defect detection handle most inspection. Human inspectors for complex judgment calls."
   },
   {
     "slug": "radiation-therapists",
     "title": "Radiation therapists",
-    "physical_exposure_2036": 5,
-    "rationale": "Operating radiation equipment and positioning patients for treatment. By 2036, robotic patient positioning and automated treatment delivery assist significantly, but patient interaction, positioning of varied body types, and safety-critical oversight require human presence."
+    "physical_exposure_2036": 6,
+    "rationale": "Robotic patient positioning and automated treatment delivery standard. But patient monitoring and complex cases still human."
   },
   {
     "slug": "radiologic-technologists",
     "title": "Radiologic and MRI technologists",
     "physical_exposure_2036": 6,
-    "rationale": "Operating imaging equipment and positioning patients. By 2036, automated imaging systems handle much routine positioning and image acquisition. Human technologists remain for complex imaging, patient with mobility challenges, and quality oversight."
+    "rationale": "Robotic patient positioning and automated imaging widespread. But complex imaging and patient handling still require humans."
   },
   {
     "slug": "railroad-occupations",
     "title": "Railroad workers",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, autonomous train operation on fixed rail infrastructure is highly advanced. Most freight and passenger rail runs autonomously. Human workers remain for yard operations with complex switching, maintenance, and emergency response."
+    "rationale": "Autonomous train operation on many routes. Robotic track inspection and maintenance. Human oversight for complex situations and regulatory requirements."
   },
   {
     "slug": "real-estate-brokers-and-sales-agents",
     "title": "Real estate brokers and sales agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal sales and advisory work. Property showings involve physical presence but no physical labor. Digital tools handle marketing; the core value is relationship and negotiation."
+    "rationale": "Sales and client relations. No physical labor."
   },
   {
     "slug": "receptionists",
     "title": "Receptionists",
-    "physical_exposure_2036": 5,
-    "rationale": "By 2036, automated reception kiosks and virtual receptionists handle routine visitor management. However, many organizations retain human receptionists for the personal touch, complex visitor needs, and physical mail/package handling. The role is split between digital and physical automation."
+    "physical_exposure_2036": 6,
+    "rationale": "AI-powered reception kiosks and humanoid receptionists deployed in offices, hotels, and hospitals. They handle check-in, wayfinding, deliveries, and basic inquiries. Complex interactions still need humans."
   },
   {
     "slug": "recreation-workers",
     "title": "Recreation workers",
-    "physical_exposure_2036": 2,
-    "rationale": "Organizing and leading recreational activities requires human engagement, enthusiasm, and adaptive interaction with participants. By 2036, some facility management is automated, but the interpersonal and physically active nature of leading recreation programs remains human."
+    "physical_exposure_2036": 1,
+    "rationale": "Recreation programming requires human interaction. Minimal physical AI exposure."
   },
   {
     "slug": "recreational-therapists",
     "title": "Recreational therapists",
-    "physical_exposure_2036": 3,
-    "rationale": "Therapeutic recreation requires adaptive human interaction, emotional support, and creative activity design. By 2036, some assistive technology aids therapy, but the human relationship and adaptive guidance are central to the therapeutic value."
+    "physical_exposure_2036": 2,
+    "rationale": "Therapeutic recreation requires human connection. Minimal physical automation."
   },
   {
     "slug": "registered-nurses",
     "title": "Registered nurses",
     "physical_exposure_2036": 4,
-    "rationale": "Nursing combines clinical judgment with hands-on patient care in variable settings. By 2036, automated monitoring, medication delivery, and routine assessments assist significantly, but complex patient care, emotional support, and clinical judgment in variable situations require human nurses."
+    "rationale": "Robotic medication dispensing, patient lifting, automated vital monitoring, AI-assisted care coordination. But clinical judgment and human presence remain essential."
   },
   {
     "slug": "rehabilitation-counselors",
     "title": "Rehabilitation counselors",
     "physical_exposure_2036": 0,
-    "rationale": "Primarily cognitive counseling and case management work. No physical component."
+    "rationale": "Counseling and guidance. No physical component."
   },
   {
     "slug": "respiratory-therapists",
     "title": "Respiratory therapists",
-    "physical_exposure_2036": 5,
-    "rationale": "Operating respiratory equipment and managing patients with breathing issues. By 2036, automated ventilator management and monitoring assist, but patient assessment, airway management, and emergency intervention in variable clinical situations require human skill."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated ventilator management, monitoring, and routine respiratory treatments. But patient assessment and emergency response remain human."
   },
   {
     "slug": "retail-sales-workers",
     "title": "Retail sales workers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, most retail stocking, inventory, and checkout are automated. Robotic restocking and autonomous checkout are standard. Human retail workers remain primarily for customer service, complex product consultation, and high-value sales interactions."
+    "rationale": "Automated checkout, robotic shelf stocking, inventory robots. Humanoid robots assist with basic questions. Consultative and high-touch sales remain human."
   },
   {
     "slug": "roofers",
     "title": "Roofers",
-    "physical_exposure_2036": 6,
-    "rationale": "Roofing involves working at heights in variable weather and building conditions. By 2036, robotic roofing systems handle standardized flat and simple-pitch roofs, but complex roof geometries, repairs, and variable building conditions still require human skills and risk judgment."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic shingle laying, automated flat-roof installation, drone inspection. Humanoid robots carry materials to roof. Steep-pitch and complex flashing still human."
   },
   {
     "slug": "sales-engineers",
     "title": "Sales engineers",
     "physical_exposure_2036": 0,
-    "rationale": "Primarily technical sales and relationship work. No physical component for robotic automation."
+    "rationale": "Technical sales. No physical labor."
   },
   {
     "slug": "sales-managers",
     "title": "Sales managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely management and strategic work. No physical component."
+    "rationale": "Sales management. No physical labor."
   },
   {
     "slug": "school-and-career-counselors",
     "title": "School and career counselors and advisors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal counseling work. No physical component."
+    "rationale": "Counseling work. No physical component."
   },
   {
     "slug": "secretaries-and-administrative-assistants",
     "title": "Secretaries and administrative assistants",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely office-based administrative work. No physical component for robotic automation."
+    "rationale": "Office administration. No physical labor."
   },
   {
     "slug": "securities-commodities-and-financial-services-sales-agents",
     "title": "Securities, commodities, and financial services sales agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely financial sales and advisory work. No physical component."
+    "rationale": "Financial sales. No physical component."
   },
   {
     "slug": "security-guards",
     "title": "Security guards and gambling surveillance officers",
-    "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic security systems and automated surveillance handle most routine security monitoring and patrol. Human guards remain for situations requiring authority, judgment, and physical intervention capability. Regulatory and insurance requirements maintain some human presence."
+    "physical_exposure_2036": 8,
+    "rationale": "Robotic patrol for perimeters and routine building patrol. Humanoid security at entrances. Autonomous surveillance vehicles. Humans only for complex situations and armed response."
   },
   {
     "slug": "semiconductor-processing-technicians",
     "title": "Semiconductor processing technicians",
-    "physical_exposure_2036": 9,
-    "rationale": "Semiconductor fabrication is one of the most automated manufacturing environments. By 2036, cleanroom automation is near-total. Human involvement is primarily for equipment maintenance and process engineering oversight."
+    "physical_exposure_2036": 10,
+    "rationale": "Semiconductor fabrication is the most automated manufacturing environment. Cleanroom robotics handle virtually all wafer processing. Human presence minimal."
   },
   {
     "slug": "set-and-exhibit-designers",
     "title": "Set and exhibit designers",
-    "physical_exposure_2036": 2,
-    "rationale": "Creative design with physical construction components. By 2036, some standardized set construction is automated, but the creative vision, custom fabrication, and site-specific installation of unique designs keep this human-centered."
+    "physical_exposure_2036": 3,
+    "rationale": "Robotic installation assistance and automated fabrication. But creative design work remains human."
   },
   {
     "slug": "sheet-metal-workers",
     "title": "Sheet metal workers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, automated sheet metal fabrication (cutting, bending, forming) is standard in shops. Field installation in variable environments retains human involvement, but much fabrication work is robotic. Custom and on-site adaptation work remains human."
+    "rationale": "Robotic cutting, bending, and assembly. Custom fabrication and field installation still human."
   },
   {
     "slug": "skincare-specialists",
     "title": "Skincare specialists",
-    "physical_exposure_2036": 3,
-    "rationale": "Personal skincare treatment where human touch and consultation are central. By 2036, some automated facial and skin analysis tools exist, but the intimate personal care, client relationship, and adaptive treatment remain human-centered."
+    "physical_exposure_2036": 5,
+    "rationale": "Robotic facial treatments, laser systems, and automated skincare analysis widespread. Standard procedures automated. Personalized assessments still human."
   },
   {
     "slug": "small-engine-mechanics",
     "title": "Small engine mechanics",
-    "physical_exposure_2036": 5,
-    "rationale": "Repairing diverse small engines (lawn mowers, generators, boats) in variable conditions. By 2036, diagnostic automation assists, but the variety of equipment and repair scenarios requires human adaptability and judgment."
+    "physical_exposure_2036": 6,
+    "rationale": "Automated diagnostics and robotic service for standardized small engine maintenance. But varied equipment types still require human mechanics."
   },
   {
     "slug": "social-and-community-service-managers",
     "title": "Social and community service managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely management and interpersonal work. No physical component."
+    "rationale": "Management and coordination. No physical labor."
   },
   {
     "slug": "social-and-human-service-assistants",
     "title": "Social and human service assistants",
     "physical_exposure_2036": 0,
-    "rationale": "Primarily interpersonal case management and support work. No physical component for robotic automation."
+    "rationale": "Social services work. No physical labor."
   },
   {
     "slug": "social-workers",
     "title": "Social workers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal counseling, assessment, and advocacy work. No physical component."
+    "rationale": "Counseling and case management. No physical component."
   },
   {
     "slug": "sociologists",
     "title": "Sociologists",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely research and analytical work. No physical component."
+    "rationale": "Research and analysis. No physical component."
   },
   {
     "slug": "software-developers",
     "title": "Software developers, quality assurance analysts, and testers",
     "physical_exposure_2036": 0,
-    "rationale": "Purely digital/cognitive work. No physical component whatsoever."
+    "rationale": "Purely digital work. No physical component."
   },
   {
     "slug": "solar-photovoltaic-installers",
     "title": "Solar photovoltaic installers",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, robotic systems handle much standardized solar panel installation on uniform roof surfaces. However, varied roof configurations, electrical integration, and site-specific challenges retain human involvement. Standardized commercial installations are heavily automated."
+    "rationale": "Robotic panel placement and automated mounting. Varied roof conditions and electrical connections still human."
   },
   {
     "slug": "special-education-teachers",
     "title": "Special education teachers",
-    "physical_exposure_2036": 2,
-    "rationale": "Teaching students with disabilities requires extraordinary human patience, emotional attunement, and adaptive physical interaction. Each student's needs are unique. The human relationship and individualized support are central to effective special education."
+    "physical_exposure_2036": 1,
+    "rationale": "Special education requires individualized human attention. No physical AI exposure."
   },
   {
     "slug": "multimedia-artists-and-animators",
     "title": "Special effects artists and animators",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely digital creative work. No physical component for robotic automation."
+    "rationale": "Digital creative work. No physical component."
   },
   {
     "slug": "speech-language-pathologists",
     "title": "Speech-language pathologists",
-    "physical_exposure_2036": 2,
-    "rationale": "Therapeutic work requiring close human interaction, observation of subtle physical cues, and adaptive communication exercises. By 2036, some automated speech therapy tools exist, but the human therapeutic relationship and adaptive treatment are central."
+    "physical_exposure_2036": 1,
+    "rationale": "Therapy requires human interaction and individualized communication techniques. Minimal physical component."
   },
   {
     "slug": "stationary-engineers-and-boiler-operators",
     "title": "Stationary engineers and boiler operators",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, building mechanical systems are heavily automated with remote monitoring and control. Routine operations are automated. Humans remain for emergency response, maintenance, and unusual conditions."
+    "rationale": "Automated monitoring, control, and robotic inspection handle most routine operations. Humans for complex troubleshooting and emergencies."
   },
   {
     "slug": "substance-abuse-behavioral-disorder-and-mental-health-counselors",
     "title": "Substance abuse, behavioral disorder, and mental health counselors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely interpersonal therapeutic work. No physical component for robotic automation."
+    "rationale": "Counseling and therapy. No physical component."
   },
   {
     "slug": "surgical-technologists",
     "title": "Surgical assistants and technologists",
     "physical_exposure_2036": 6,
-    "rationale": "Assisting in surgical procedures\u2014preparing instruments, maintaining sterile field, assisting surgeons. By 2036, robotic surgical systems handle many routine tasks, but assisting human surgeons in complex procedures and managing variable surgical situations requires human presence."
+    "rationale": "Robotic surgical assistance is standard for many procedures. Automated instrument handling and sterilization. But varied surgical scenarios still require human technicians."
   },
   {
     "slug": "survey-researchers",
     "title": "Survey researchers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and design work. No physical component."
+    "rationale": "Research methodology. No physical component."
   },
   {
     "slug": "surveying-and-mapping-technicians",
     "title": "Surveying and mapping technicians",
     "physical_exposure_2036": 6,
-    "rationale": "Field work with surveying equipment. By 2036, automated drones and GPS systems handle much routine surveying, but complex site conditions and urban environments still require human operators for some work."
+    "rationale": "Drone and lidar-based surveying handles most mapping tasks. Automated data processing. But complex projects still require human presence."
   },
   {
     "slug": "surveyors",
     "title": "Surveyors",
-    "physical_exposure_2036": 5,
-    "rationale": "Field surveying in variable environments. By 2036, drone and automated surveying handle most routine work, but complex boundary disputes, difficult terrain, and legal precision requirements keep human surveyors involved."
+    "physical_exposure_2036": 6,
+    "rationale": "Drone and GPS-based surveying widespread. But legal requirements and complex projects keep human surveyors involved."
   },
   {
     "slug": "tax-examiners-and-collectors-and-revenue-agents",
     "title": "Tax examiners and collectors, and revenue agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical and administrative work. No physical component."
+    "rationale": "Financial review. No physical component."
   },
   {
     "slug": "taxi-drivers-and-chauffeurs",
     "title": "Taxi drivers, shuttle drivers, and chauffeurs",
-    "physical_exposure_2036": 8,
-    "rationale": "By 2036, autonomous ride-hailing vehicles are ubiquitous on mapped urban routes. Human drivers remain for unmapped areas, extreme conditions, and premium chauffeur services where personal service is valued. The vast majority of rides are autonomous."
+    "physical_exposure_2036": 9,
+    "rationale": "Robotaxis operational in most cities. Autonomous ride-hailing is the default. Human drivers for specialty/accessibility needs only."
   },
   {
     "slug": "teacher-assistants",
     "title": "Teacher assistants",
-    "physical_exposure_2036": 3,
-    "rationale": "Supporting students with hands-on help, supervision, and physical classroom management. Requires human patience, adaptability, and interpersonal skills with children. By 2036, some educational technology assists, but the human support role for diverse student needs remains."
+    "physical_exposure_2036": 1,
+    "rationale": "Classroom assistance requires human interaction. Minimal physical AI exposure."
   },
   {
     "slug": "technical-writers",
     "title": "Technical writers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely writing and documentation work. No physical component."
+    "rationale": "Writing and documentation. No physical component."
   },
   {
     "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
     "title": "Telecommunications technicians",
     "physical_exposure_2036": 6,
-    "rationale": "Installing and repairing telecom equipment in variable building environments. By 2036, standardized installations are automated, but troubleshooting complex systems in diverse environments requires human diagnostic skill and adaptability."
+    "rationale": "Automated testing, diagnostics, and robotic installation for standard setups. But varied customer premises require human technicians."
   },
   {
     "slug": "tellers",
     "title": "Tellers",
     "physical_exposure_2036": 8,
-    "rationale": "By 2036, ATMs, mobile banking, and automated branch services handle the vast majority of banking transactions. Human tellers remain primarily for complex transactions and customer relationship purposes. Most routine transactions are fully automated."
+    "rationale": "ATMs and digital banking have already eliminated most teller functions. Remaining branch functions increasingly handled by automated kiosks. Human tellers for complex transactions only."
   },
   {
     "slug": "top-executives",
     "title": "Top executives",
     "physical_exposure_2036": 0,
-    "rationale": "Strategic leadership, decision-making, and organizational management. Entirely cognitive and interpersonal. No physical component."
+    "rationale": "Leadership and strategy. No physical labor."
   },
   {
     "slug": "tour-and-travel-guides",
     "title": "Tour and travel guides",
-    "physical_exposure_2036": 2,
-    "rationale": "Tour guiding requires human personality, storytelling, cultural knowledge, and adaptive interaction with groups. Physical aspects include navigating varied environments. By 2036, some automated audio guides and robotic information kiosks exist, but the human experience and cultural interpretation remain central."
+    "physical_exposure_2036": 1,
+    "rationale": "Guiding requires human personality and local knowledge. Some AI audio guides but human presence is valued."
   },
   {
     "slug": "training-and-development-managers",
     "title": "Training and development managers",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely management and educational design work. No physical component."
+    "rationale": "Training management. No physical labor."
   },
   {
     "slug": "training-and-development-specialists",
     "title": "Training and development specialists",
-    "physical_exposure_2036": 1,
-    "rationale": "Delivering training involves some physical demonstration but is primarily cognitive instruction and interpersonal facilitation. Minimal physical task content for robots."
+    "physical_exposure_2036": 0,
+    "rationale": "Training delivery. No physical labor."
   },
   {
     "slug": "transportation-storage-and-distribution-managers",
     "title": "Transportation, storage, and distribution managers",
-    "physical_exposure_2036": 1,
-    "rationale": "Management and logistics planning role. Physical oversight of facilities but core work is cognitive planning and coordination."
+    "physical_exposure_2036": 0,
+    "rationale": "Logistics management. No physical labor."
   },
   {
     "slug": "travel-agents",
     "title": "Travel agents",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely service and advisory work. No physical component."
+    "rationale": "Service and booking. No physical component."
   },
   {
     "slug": "tutors",
     "title": "Tutors",
-    "physical_exposure_2036": 1,
-    "rationale": "One-on-one educational support is fundamentally about the human learning relationship. Minimal physical component\u2014the value is cognitive instruction and interpersonal mentoring."
+    "physical_exposure_2036": 0,
+    "rationale": "Teaching and mentoring. No physical AI exposure."
   },
   {
     "slug": "umpires-referees-and-other-sports-officials",
     "title": "Umpires, referees, and other sports officials",
-    "physical_exposure_2036": 2,
-    "rationale": "Officiating requires real-time judgment in dynamic physical environments. By 2036, automated officiating technology (video review, sensor-based calls) assists significantly, but the human authority and real-time judgment in complex, ambiguous situations preserve the human role. Cultural preference for human officials also persists."
+    "physical_exposure_2036": 1,
+    "rationale": "Automated line-calling and sensor-based officiating assist. But human authority and real-time judgment remain essential."
   },
   {
     "slug": "urban-and-regional-planners",
     "title": "Urban and regional planners",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely analytical, design, and policy work. No physical component."
+    "rationale": "Planning and policy. No physical component."
   },
   {
     "slug": "veterinarians",
     "title": "Veterinarians",
     "physical_exposure_2036": 4,
-    "rationale": "Treating diverse animal species with highly variable anatomy and behavior. By 2036, diagnostic equipment and surgical assistance are advanced, but the extreme variability of animal patients, physical examination requiring adaptive handling, and client relationships keep significant human involvement."
+    "rationale": "Robotic surgical assistance, automated diagnostics, and imaging. But varied species and unpredictable patients keep most work human."
   },
   {
     "slug": "veterinary-assistants-and-laboratory-animal-caretakers",
     "title": "Veterinary assistants and laboratory animal caretakers",
     "physical_exposure_2036": 6,
-    "rationale": "Animal care involving feeding, cleaning, restraining, and assisting with procedures. By 2036, routine feeding and cleaning in structured facilities is automated, but handling diverse animals and assisting with clinical procedures requires human adaptability."
+    "rationale": "Automated cage cleaning, feeding, monitoring, and lab animal handling. But animal variability keeps some work human."
   },
   {
     "slug": "veterinary-technologists-and-technicians",
     "title": "Veterinary technologists and technicians",
     "physical_exposure_2036": 5,
-    "rationale": "Clinical work with diverse animals\u2014restraining, sample collection, anesthesia monitoring. By 2036, automated monitoring and some sample collection assist, but the variability of animal patients and need for adaptive physical handling keeps significant human involvement."
+    "rationale": "Automated diagnostics, robotic restraint, lab automation, and robotic surgical assistance. But animal handling variability limits full automation."
   },
   {
     "slug": "waiters-and-waitresses",
     "title": "Waiters and waitresses",
     "physical_exposure_2036": 6,
-    "rationale": "By 2036, robotic serving is common in many restaurants\u2014automated ordering, food delivery robots, and self-service. However, fine dining and hospitality-focused venues retain human servers for the personal service experience. Mid-range restaurants are significantly automated."
+    "rationale": "Robotic food runners, automated ordering, humanoid servers in chains. Fine dining retains human servers."
   },
   {
     "slug": "water-and-wastewater-treatment-plant-and-system-operators",
     "title": "Water and wastewater treatment plant and system operators",
     "physical_exposure_2036": 7,
-    "rationale": "By 2036, treatment plant operations are heavily automated with remote monitoring and control. Routine operations require minimal human presence. Humans remain for maintenance, emergency response, and system optimization."
+    "rationale": "Automated monitoring, dosing, process control, and robotic inspection handle most routine operations. Humans for complex troubleshooting and emergency response."
   },
   {
     "slug": "water-transportation-occupations",
     "title": "Water transportation workers",
-    "physical_exposure_2036": 6,
-    "rationale": "Vessel operation involves variable water conditions. By 2036, autonomous navigation handles many commercial routes, but variable weather, port operations, and emergency situations require human judgment. Regulatory requirements also mandate human crew."
+    "physical_exposure_2036": 7,
+    "rationale": "Autonomous cargo vessels on major routes. Robotic loading/unloading standard. But complex maritime operations and variable waterway conditions require human crew."
   },
   {
     "slug": "web-developers",
     "title": "Web developers and digital designers",
     "physical_exposure_2036": 0,
-    "rationale": "Purely digital work. No physical component whatsoever."
+    "rationale": "Digital development. No physical component."
   },
   {
     "slug": "welders-cutters-solderers-and-brazers",
     "title": "Welders, cutters, solderers, and brazers",
-    "physical_exposure_2036": 8,
-    "rationale": "By 2036, robotic welding handles most production and structural welding. Automated systems manage standardized joints with high quality. Human welders remain for field repairs, complex custom work, and genuinely novel configurations. Volume welding is heavily automated."
+    "physical_exposure_2036": 9,
+    "rationale": "Robotic welding handles most production welding. Automated cutting systems standard. Humans for complex field and custom work."
   },
   {
     "slug": "wholesale-and-manufacturing-sales-representatives",
     "title": "Wholesale and manufacturing sales representatives",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely sales and relationship work. No physical component for robotic automation."
+    "rationale": "Sales work. No physical component."
   },
   {
     "slug": "wind-turbine-technicians",
     "title": "Wind turbine technicians",
-    "physical_exposure_2036": 5,
-    "rationale": "Working at extreme heights on variable equipment in outdoor conditions. By 2036, drone inspection and some robotic maintenance assist, but the variable conditions, heights, and complex turbine systems still require significant human skill and judgment."
+    "physical_exposure_2036": 7,
+    "rationale": "Robotic blade inspection, repair drones, automated nacelle diagnostics. But working at height in variable conditions requires humans."
   },
   {
     "slug": "woodworkers",
     "title": "Woodworkers",
-    "physical_exposure_2036": 7,
-    "rationale": "By 2036, CNC and robotic woodworking handle most production furniture and cabinet making. Custom, artistic, and restoration woodworking retains human craftsmanship, but volume production is heavily automated."
+    "physical_exposure_2036": 8,
+    "rationale": "CNC routing, robotic assembly, and automated finishing handle most production woodworking. Custom and artisanal work remains human."
   },
   {
     "slug": "writers-and-authors",
     "title": "Writers and authors",
     "physical_exposure_2036": 0,
-    "rationale": "Entirely cognitive and creative work. No physical component."
+    "rationale": "Writing. No physical component."
   },
   {
     "slug": "zoologists-and-wildlife-biologists",
     "title": "Zoologists and wildlife biologists",
-    "physical_exposure_2036": 2,
-    "rationale": "Fieldwork in natural environments with unpredictable wildlife. By 2036, remote monitoring (drones, cameras) automates much data collection, but field research in unstructured environments with wild animals requires human judgment and physical presence."
+    "physical_exposure_2036": 3,
+    "rationale": "Automated wildlife monitoring via cameras, drones, and sensors widespread. But field research remains primarily cognitive."
   }
 ]

@@ -2,44 +2,44 @@
   {
     "slug": "accountants-and-auditors",
     "title": "Accountants and auditors",
-    "digital_exposure_2031": 7,
-    "rationale": "Core duties\u2014examining financial statements, computing taxes, analyzing records\u2014are heavily digital and largely automatable by 2031 AI agents. Human role shifts to advisory, client relationships, and complex judgment on risk; team sizes shrink significantly."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle routine auditing, tax preparation, bookkeeping reconciliation, compliance checks, and financial reporting end-to-end. With 46% daily AI usage in 2026 and 87% adoption at scale among leaders, the diffusion trajectory puts accounting at near-full automation of routine tasks by 2031. Remaining human accountants focus purely on advisory, complex judgment, and client relationships."
   },
   {
     "slug": "actors",
     "title": "Actors",
-    "digital_exposure_2031": 2,
-    "rationale": "Acting is fundamentally a physical, embodied performance art requiring human presence, emotion, and creativity. AI may assist with script analysis or generate synthetic voiceovers, but live and filmed human performances remain the core product."
+    "digital_exposure_2031": 4,
+    "rationale": "AI-generated synthetic media increasingly handles voiceover, background extras, and digital character work. Core live and filmed acting performance remains human, but AI displaces peripheral acting work."
   },
   {
     "slug": "actuaries",
     "title": "Actuaries",
-    "digital_exposure_2031": 8,
-    "rationale": "Statistical modeling, risk probability calculation, and report generation are highly digital tasks that AI agents can largely automate by 2031. Senior actuaries remain for novel product design and strategic judgment, but routine actuarial work is heavily displaced."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle statistical modeling, risk calculation, report generation, and routine actuarial analysis. With financial services as the fastest AI adopter (19.6% of market) and 87% adoption at scale among accounting/finance leaders in 2026, the diffusion trajectory reaches near-full automation of routine actuarial work by 2031. Senior actuaries remain for novel product design and regulatory strategy."
   },
   {
     "slug": "administrative-services-managers",
     "title": "Administrative services and facilities managers",
-    "digital_exposure_2031": 6,
-    "rationale": "Administrative coordination, recordkeeping, and supply management are significantly automatable. However, facilities oversight requires physical presence and human judgment on maintenance, safety, and staff supervision, moderating overall exposure."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI agents autonomously handle administrative coordination, recordkeeping, procurement, reporting, scheduling, and vendor management. With enterprise AI at 88% adoption and admin automation among the earliest use cases, the diffusion trajectory reaches near-full automation of administrative management functions by 2031. Facilities oversight still requires physical presence."
   },
   {
     "slug": "adult-literacy-and-ged-teachers",
     "title": "Adult basic and secondary education and ESL teachers",
-    "digital_exposure_2031": 5,
-    "rationale": "AI tutoring systems handle much of content delivery and basic skills instruction by 2031. However, these teachers work with vulnerable adult populations requiring strong interpersonal support, motivation, and assessment of learning disabilities."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI tutoring systems handle content delivery, basic skills instruction, and personalized practice for adult learners. With 92% of students using AI and AI tutoring showing 2x learning gains, the diffusion trajectory makes AI-integrated adult education standard by 2031. Teachers focus on interpersonal support, motivation, and assessment of learning disabilities \u2014 but instructional models are significantly restructured."
   },
   {
     "slug": "advertising-sales-agents",
     "title": "Advertising sales agents",
-    "digital_exposure_2031": 8,
-    "rationale": "Client prospecting, proposal preparation, media kit creation, and contract processing are highly digital and automatable. AI agents can match advertisers to inventory and generate personalized pitches; remaining human roles focus on high-value relationship selling."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents handle client prospecting, proposal preparation, media kit creation, ad inventory matching, and contract processing autonomously. With 90% of marketers using AI daily in 2026, the diffusion trajectory reaches near-full automation of routine advertising sales operations by 2031. Remaining human agents focus exclusively on high-value relationship selling."
   },
   {
     "slug": "advertising-promotions-and-marketing-managers",
     "title": "Advertising, promotions, and marketing managers",
-    "digital_exposure_2031": 7,
-    "rationale": "AI agents autonomously handle campaign analytics, market research synthesis, content generation, and media buying optimization. Managers shift to strategic vision, brand stewardship, and client relationships, but teams are significantly smaller."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle campaign analytics, market research, content generation, media buying, A/B testing, and performance optimization. With 90% of content marketers using AI tools daily in 2026 and 88% of marketers using AI, the diffusion trajectory puts routine marketing operations at near-full automation by 2031. Managers focus purely on strategic brand vision with dramatically smaller teams."
   },
   {
     "slug": "aerospace-engineering-and-operations-technicians",
@@ -50,8 +50,8 @@
   {
     "slug": "aerospace-engineers",
     "title": "Aerospace engineers",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates and optimizes designs, runs simulations, and produces engineering analyses autonomously by 2031. Engineers shift to validating AI-generated designs, handling novel problems, and managing safety-critical decisions, but productivity per engineer increases dramatically."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates and optimizes designs, runs simulations, produces engineering analyses, and handles documentation autonomously. With engineering AI tools advancing rapidly, the diffusion trajectory reaches near-full automation of routine aerospace engineering work by 2031. Engineers validate AI-generated designs and handle novel safety-critical problems."
   },
   {
     "slug": "agricultural-and-food-science-technicians",
@@ -62,14 +62,14 @@
   {
     "slug": "agricultural-and-food-scientists",
     "title": "Agricultural and food scientists",
-    "digital_exposure_2031": 5,
-    "rationale": "Research design, data analysis, and literature synthesis are significantly aided by AI agents. However, laboratory experiments, fieldwork, and the creative aspects of developing new food products or farming methods require human judgment and physical presence."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles data analysis, literature review, experimental optimization, and regulatory documentation autonomously. With enterprise AI at 88% adoption and precision agriculture advancing, the diffusion trajectory automates most analytical agricultural science work by 2031. Scientists focus on laboratory/field work and novel research."
   },
   {
     "slug": "agricultural-engineers",
     "title": "Agricultural engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Design and analysis work is heavily digital\u2014AI generates equipment designs and optimizes systems. However, field testing, site-specific problem solving, and integration with physical agricultural operations moderate the exposure compared to pure software roles."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles design, simulation, system optimization, and documentation autonomously. With precision agriculture AI advancing and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine agricultural engineering work by 2031. Engineers focus on field testing and site-specific challenges."
   },
   {
     "slug": "agricultural-workers",
@@ -93,7 +93,7 @@
     "slug": "airline-and-commercial-pilots",
     "title": "Airline and commercial pilots",
     "digital_exposure_2031": 3,
-    "rationale": "While autopilot and AI systems handle much routine flight, pilots remain essential for safety-critical decision-making, regulatory compliance, and emergency response. Digital tasks like flight planning benefit from AI, but the physical cockpit role persists."
+    "rationale": "Digital AI assists with flight planning, navigation, and systems monitoring. Physical cockpit presence, safety-critical decision-making, and regulatory requirements keep pilots firmly in the loop."
   },
   {
     "slug": "animal-care-and-service-workers",
@@ -104,44 +104,44 @@
   {
     "slug": "announcers",
     "title": "Announcers and DJs",
-    "digital_exposure_2031": 7,
-    "rationale": "AI can generate playlists, produce scripted announcements, and even create synthetic voices for routine broadcasting. Live event hosting and personality-driven content retain human value, but many routine announcing roles are displaced."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates scripts, produces synthetic voices, automates routine broadcasting, and manages playlists autonomously. With AI voice synthesis nearly indistinguishable from human voices by 2026, the diffusion trajectory reaches near-full automation of pre-recorded and routine broadcast content by 2031. Human announcers remain primarily for live events and personality-driven shows."
   },
   {
     "slug": "anthropologists-and-archeologists",
     "title": "Anthropologists and archeologists",
-    "digital_exposure_2031": 5,
-    "rationale": "Research synthesis, data analysis, and report writing benefit substantially from AI agents. However, fieldwork, excavation, cultural interpretation, and ethnographic research requiring deep contextual human understanding limit full automation."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles data analysis, literature synthesis, report generation, artifact classification, and pattern recognition autonomously. With AI research tools mature, the diffusion trajectory automates most analytical anthropological work by 2031. Anthropologists focus on fieldwork, cultural immersion, and novel interpretive analysis."
   },
   {
     "slug": "arbitrators-mediators-and-conciliators",
     "title": "Arbitrators, mediators, and conciliators",
-    "digital_exposure_2031": 5,
-    "rationale": "AI handles case research, document analysis, and precedent review efficiently. However, the core function\u2014facilitating human negotiation, reading interpersonal dynamics, and rendering judgment in disputes\u2014requires deep human skills."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles case research, precedent analysis, document preparation, and settlement modeling autonomously. With 92% of legal professionals using AI in 2026 and legal AI advancing rapidly, the diffusion trajectory automates most analytical arbitration work by 2031. Mediation and arbitration still require human judgment, empathy, and interpersonal skill."
   },
   {
     "slug": "architects",
     "title": "Architects",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates design options, produces construction documents, performs code compliance checks, and creates renderings autonomously. Architects focus on client relationships, creative vision, and complex site-specific judgment, but team sizes shrink notably."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate design options, produce construction documents, handle code compliance checks, create renderings, and optimize building performance. With AI design tools already production-ready in 2026, the diffusion trajectory reaches near-full automation of architectural production work by 2031. Architects retain creative vision, client relationships, and complex site-specific judgment, but team sizes shrink 50-70%."
   },
   {
     "slug": "architectural-and-engineering-managers",
     "title": "Architectural and engineering managers",
-    "digital_exposure_2031": 6,
-    "rationale": "Project coordination, scheduling, budgeting, and reporting are highly automatable. Managers retain value in strategic decision-making, client relationships, and team leadership, but AI agents handle most routine management information processing."
+    "digital_exposure_2031": 7,
+    "rationale": "AI handles much of the project tracking, resource allocation, technical documentation, and reporting. Managers focus on strategic decisions, client relationships, and cross-functional coordination, but with much smaller teams."
   },
   {
     "slug": "curators-museum-technicians-and-conservators",
     "title": "Archivists, curators, and museum workers",
-    "digital_exposure_2031": 5,
-    "rationale": "Cataloging, research, and digital collection management are significantly aided by AI. However, physical conservation, exhibition design, and contextual interpretation of cultural artifacts require human expertise and presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles cataloging, research, digital collection management, and metadata generation significantly. With enterprise AI at 88% adoption and cultural institution digitization advancing, the diffusion trajectory automates most information management work by 2031. Physical conservation, exhibition design, and contextual interpretation remain human."
   },
   {
     "slug": "art-directors",
     "title": "Art directors",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates visual concepts, layouts, and design variations at scale by 2031. Art directors shift to creative vision, brand coherence, and client communication, but the production workforce under them shrinks dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI generates visual concepts, layouts, design variations, and production assets at scale. With 90% of content marketers using AI tools in 2026 and AI image generation production-ready, the diffusion trajectory reaches near-full automation of visual production work by 2031. Art directors retain creative vision, brand stewardship, and client relationships, but creative teams shrink 60-80%."
   },
   {
     "slug": "assemblers-and-fabricators",
@@ -164,8 +164,8 @@
   {
     "slug": "atmospheric-scientists-including-meteorologists",
     "title": "Atmospheric scientists, including meteorologists",
-    "digital_exposure_2031": 7,
-    "rationale": "Weather modeling, data analysis, and forecast generation are heavily digital tasks where AI agents excel. Remaining human roles focus on interpreting novel weather patterns, communicating forecasts, and research into climate phenomena."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle weather modeling, data analysis, forecast generation, report writing, and climate pattern analysis. With AI weather models already outperforming traditional numerical weather prediction in 2026, the diffusion trajectory reaches near-full automation of routine meteorological work by 2031. Human meteorologists focus on severe weather judgment calls and public communication."
   },
   {
     "slug": "audiologists",
@@ -176,8 +176,8 @@
   {
     "slug": "automotive-body-and-glass-repairers",
     "title": "Automotive body and glass repairers",
-    "digital_exposure_2031": 1,
-    "rationale": "This is hands-on physical repair work\u2014straightening frames, replacing glass, painting vehicles. AI has negligible impact on these manual skilled trade tasks."
+    "digital_exposure_2031": 2,
+    "rationale": "Physical repair and painting work. AI assists with damage estimation and parts ordering but cannot replace hands-on bodywork."
   },
   {
     "slug": "automotive-service-technicians-and-mechanics",
@@ -207,19 +207,19 @@
     "slug": "bill-and-account-collectors",
     "title": "Bill and account collectors",
     "digital_exposure_2031": 9,
-    "rationale": "Account tracking, payment reminder generation, debtor communication scripting, and collections workflow management are heavily digital and highly automatable. AI agents can handle most outreach autonomously; only complex negotiation cases require humans."
+    "rationale": "AI agents handle outbound collection calls, payment negotiation scripts, account tracking, and compliance monitoring autonomously. Remaining human roles handle complex disputes and escalations."
   },
   {
     "slug": "biochemists-and-biophysicists",
     "title": "Biochemists and biophysicists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI accelerates literature review, data analysis, molecular modeling, and experiment design. However, wet-lab work, novel hypothesis generation, and interpreting unexpected results in biological systems require human scientists."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles data analysis, molecular modeling, protein structure prediction, literature synthesis, and experiment design optimization. With AI computational biology tools already transforming research in 2026, the diffusion trajectory automates most analytical biochemistry work by 2031. Scientists focus on physical lab work and novel research directions."
   },
   {
     "slug": "biomedical-engineers",
     "title": "Bioengineers and biomedical engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Design simulation, data analysis, and regulatory documentation are heavily aided by AI. However, hands-on device prototyping, clinical testing, and navigating complex medical-regulatory environments require human expertise."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles design optimization, simulation, regulatory documentation, data analysis, and literature review autonomously. With healthcare AI at 79% adoption and medical device AI among advancing fields, the diffusion trajectory reaches near-full automation of routine biomedical engineering analytical work by 2031. Engineers focus on novel device development, clinical testing, and physical prototyping."
   },
   {
     "slug": "biological-technicians",
@@ -242,14 +242,14 @@
   {
     "slug": "broadcast-and-sound-engineering-technicians",
     "title": "Broadcast, sound, and video technicians",
-    "digital_exposure_2031": 5,
-    "rationale": "AI automates much of video editing, sound mixing, and broadcast switching. However, live production, physical equipment setup, and troubleshooting hardware in real-time performance settings retain significant human involvement."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI automates much of video editing, sound mixing, and broadcast switching for pre-recorded content. With AI media tools advancing rapidly and content creators at 90% AI usage, the diffusion trajectory automates most post-production technical work by 2031. Live production, physical equipment setup, and real-time troubleshooting retain significant human involvement."
   },
   {
     "slug": "budget-analysts",
     "title": "Budget analysts",
-    "digital_exposure_2031": 8,
-    "rationale": "Budget preparation, variance analysis, forecasting, and report generation are highly digital tasks that AI agents handle autonomously. Human budget analysts shift to strategic recommendations and stakeholder communication, but routine analysis is automated."
+    "digital_exposure_2031": 9,
+    "rationale": "Budget preparation, variance analysis, spending forecasts, and compliance reporting are almost entirely automatable by AI agents. Remaining human role is strategic budget advisory and political judgment on resource allocation."
   },
   {
     "slug": "bus-drivers",
@@ -272,8 +272,8 @@
   {
     "slug": "cardiovascular-technologists-and-technicians",
     "title": "Cardiovascular technologists and technicians",
-    "digital_exposure_2031": 4,
-    "rationale": "Operating cardiac monitoring equipment involves physical patient interaction and device manipulation. AI significantly aids image interpretation and report generation, but hands-on patient procedures and equipment operation remain human tasks."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly aids cardiac image interpretation, report generation, and monitoring analysis. With healthcare AI at 79% adoption and clinical decision support among top use cases, the diffusion trajectory automates much analytical cardiac technology work by 2031. Operating equipment and hands-on patient procedures remain human."
   },
   {
     "slug": "career-and-technical-education-teachers",
@@ -290,14 +290,14 @@
   {
     "slug": "cartographers-and-photogrammetrists",
     "title": "Cartographers and photogrammetrists",
-    "digital_exposure_2031": 8,
-    "rationale": "Map production, spatial data processing, aerial image analysis, and GIS operations are heavily digital tasks that AI agents can largely automate. Human cartographers focus on novel analysis, quality validation, and complex spatial interpretation."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle GIS analysis, map production, spatial data processing, feature extraction, and remote sensing interpretation. With GIS/AI integration already mature in 2026, the diffusion trajectory reaches near-full automation of routine cartographic work by 2031. Humans handle novel data integration and quality assurance for high-stakes projects."
   },
   {
     "slug": "cashiers",
     "title": "Cashiers",
-    "digital_exposure_2031": 4,
-    "rationale": "Self-checkout and automated payment systems reduce cashier demand, but the role is primarily physical (handling goods, assisting customers in person). Digital AI exposure is moderate\u2014it displaces through automation of the transaction process rather than digital workflow."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, self-checkout, automated payment systems, and AI-managed inventory significantly reduce cashier demand. With retail automation accelerating and enterprise AI at 88% adoption, the diffusion trajectory puts increasing automation pressure on checkout roles by 2031. Remaining cashiers handle customer interaction and physical store functions."
   },
   {
     "slug": "chefs-and-head-cooks",
@@ -308,8 +308,8 @@
   {
     "slug": "chemical-engineers",
     "title": "Chemical engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Process simulation, data analysis, and documentation are significantly aided by AI. However, plant operations, hands-on process troubleshooting, and safety-critical decision-making in physical chemical environments moderate overall exposure."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles process simulation, optimization, documentation, and safety analysis autonomously. With engineering AI tools advancing rapidly, the diffusion trajectory reaches near-full automation of routine chemical engineering work by 2031. Engineers focus on physical plant operations, safety-critical decisions, and novel process development."
   },
   {
     "slug": "chemical-technicians",
@@ -320,8 +320,8 @@
   {
     "slug": "chemists-and-materials-scientists",
     "title": "Chemists and materials scientists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI accelerates molecular modeling, literature review, data analysis, and experiment design. However, wet-lab experimentation, synthesizing novel compounds, and interpreting unexpected physical results require human scientists."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI accelerates molecular modeling, literature review, data analysis, and experiment design significantly. With computational chemistry AI advancing rapidly by 2026, the diffusion trajectory automates much of the analytical chemistry workflow by 2031. Wet-lab experimentation and novel compound synthesis still require human scientists."
   },
   {
     "slug": "childcare-workers",
@@ -338,20 +338,20 @@
   {
     "slug": "civil-engineering-technicians",
     "title": "Civil engineering technologists and technicians",
-    "digital_exposure_2031": 5,
-    "rationale": "Drafting, CAD work, and calculations are increasingly automated by AI. However, site inspections, material testing, and physical survey work keep a significant portion of duties grounded in the physical world."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI automates drafting, CAD work, calculations, and report generation significantly. With engineering AI tools advancing, the diffusion trajectory automates most office-based civil engineering technician work by 2031. Site inspections, material testing, and physical survey work retain significant human involvement."
   },
   {
     "slug": "civil-engineers",
     "title": "Civil engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI generates structural designs, performs analysis, and produces documentation. Engineers shift to site-specific judgment, stakeholder management, and overseeing safety-critical infrastructure decisions, but design productivity increases dramatically."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates structural analyses, designs, documentation, and code compliance checks autonomously. With engineering AI tools advancing rapidly and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine civil engineering design and analysis by 2031. Engineers focus on site-specific judgment, safety-critical decisions, and physical construction oversight."
   },
   {
     "slug": "claims-adjusters-appraisers-examiners-and-investigators",
     "title": "Claims adjusters, appraisers, examiners, and investigators",
-    "digital_exposure_2031": 8,
-    "rationale": "Document review, damage assessment from photos, policy analysis, and claims processing are heavily digital tasks AI agents handle autonomously. Complex fraud investigations and disputed claims still need human judgment, but routine claims work is largely automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents process routine claims end-to-end, assess damage from photos/documents, cross-reference policies, flag fraud patterns, and generate settlement offers autonomously. With financial services BPO down 25% already in 2025, the diffusion trajectory reaches near-full automation of standard claims processing by 2031. Human adjusters handle only complex, disputed, or high-value claims."
   },
   {
     "slug": "clinical-laboratory-technologists-and-technicians",
@@ -374,74 +374,74 @@
   {
     "slug": "compensation-and-benefits-managers",
     "title": "Compensation and benefits managers",
-    "digital_exposure_2031": 7,
-    "rationale": "Compensation analysis, benefits benchmarking, compliance tracking, and report generation are heavily digital and automatable. Managers retain strategic decision-making and employee relations roles, but analytical workload shrinks dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle salary benchmarking, benefits analysis, compliance reporting, workforce analytics, and compensation modeling. With HR among the earliest enterprise AI targets and 88% adoption in 2026, the diffusion trajectory reaches near-full automation of routine compensation management by 2031. Managers focus on strategic compensation design and executive negotiations."
   },
   {
     "slug": "compensation-benefits-and-job-analysis-specialists",
     "title": "Compensation, benefits, and job analysis specialists",
-    "digital_exposure_2031": 8,
-    "rationale": "Job analysis, salary surveys, benefits administration, and classification work are routine digital tasks AI agents handle autonomously. Remaining human roles focus on complex policy interpretation and employee counseling."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle job analysis, salary surveys, benefits administration, classification work, and compliance reporting. With HR automation among the earliest enterprise AI use cases, the diffusion trajectory reaches near-full automation of routine compensation analysis by 2031. Remaining humans handle complex policy interpretation and strategic advisory."
   },
   {
     "slug": "compliance-officers",
     "title": "Compliance officers",
-    "digital_exposure_2031": 7,
-    "rationale": "Regulatory monitoring, document review, audit preparation, and compliance reporting are heavily digital. AI agents track regulations and flag issues autonomously. Human compliance officers focus on judgment calls, investigations, and organizational culture."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously monitor regulatory changes, scan transactions for violations, generate compliance reports, conduct routine audits, and flag exceptions. With enterprise AI adoption at 88% in 2026 and regulatory technology among the fastest-growing AI categories, the diffusion trajectory reaches near-full automation of routine compliance monitoring by 2031. Human officers focus on complex judgment calls and novel regulatory situations."
   },
   {
     "slug": "computer-and-information-research-scientists",
     "title": "Computer and information research scientists",
-    "digital_exposure_2031": 7,
-    "rationale": "AI agents assist with literature review, code generation, and experiment execution. However, novel research directions, theoretical breakthroughs, and creative problem formulation remain human. Productivity per researcher increases enormously."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI accelerates research dramatically \u2014 generating hypotheses, running experiments, analyzing results, producing papers, and conducting literature reviews autonomously. With technology as a first-mover sector and AI research tools among the most mature, the diffusion trajectory reaches near-full automation of routine research tasks by 2031. Human researchers focus on novel problem formulation and breakthrough insights."
   },
   {
     "slug": "computer-and-information-systems-managers",
     "title": "Computer and information systems managers",
-    "digital_exposure_2031": 7,
-    "rationale": "Project planning, system monitoring, vendor management documentation, and reporting are heavily aided by AI. Managers shift to strategic technology decisions, stakeholder management, and organizational change leadership."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle infrastructure monitoring, capacity planning, incident response triage, vendor evaluation, and operational reporting. With technology firms as first-movers and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine IT management operations by 2031. IT managers focus on strategic technology direction and organizational transformation."
   },
   {
     "slug": "computer-hardware-engineers",
     "title": "Computer hardware engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Circuit design, simulation, and testing documentation benefit from AI automation. However, physical prototyping, lab testing, and novel hardware architecture decisions require human expertise and hands-on work."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles circuit design, simulation, documentation, and verification autonomously. With technology as a first-mover sector and EDA tools incorporating AI, the diffusion trajectory reaches near-full automation of routine hardware design work by 2031. Engineers focus on physical prototyping, testing, and novel architecture design."
   },
   {
     "slug": "computer-network-architects",
     "title": "Computer network architects",
-    "digital_exposure_2031": 8,
-    "rationale": "Network design, capacity planning, protocol configuration, and documentation are highly digital tasks AI agents handle effectively. Human architects focus on novel architectures, security strategy, and complex integration decisions."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle network design, configuration, optimization, documentation, and security analysis. With technology as an inherent first-mover and network automation tools already standard, the diffusion trajectory reaches near-full automation of routine network architecture by 2031. Architects focus on novel architecture decisions for emerging technologies."
   },
   {
     "slug": "computer-programmers",
     "title": "Computer programmers",
     "digital_exposure_2031": 9,
-    "rationale": "By 2031, AI agents write, test, and debug well-specified code autonomously. Junior programming roles are largely automated. Remaining human programmers handle complex system integration, legacy codebases, and novel algorithmic challenges."
+    "rationale": "By 2031, AI agents generate 80%+ of routine code, handle testing, debugging, documentation, and deployment. With SWE-bench performance doubling every 18 months (49% to 88% from Oct 2024 to Feb 2026), the diffusion trajectory reaches near-autonomous code generation for standard tasks by 2031. The pure 'programmer' role without architectural responsibility is largely eliminated."
   },
   {
     "slug": "computer-support-specialists",
     "title": "Computer support specialists",
-    "digital_exposure_2031": 8,
-    "rationale": "Troubleshooting, ticket resolution, system configuration, and documentation are heavily digital tasks AI agents handle autonomously. Complex escalations and physical hardware issues still need humans, but routine IT support is largely automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents resolve 90%+ of IT support tickets autonomously \u2014 password resets, software installation, troubleshooting, network issues, and routine maintenance. With customer service AI resolution rates reaching 90%+ and enterprise AI at 88% adoption in 2026, the diffusion trajectory reaches near-full automation of Tier 1-2 IT support by 2031. Remaining humans handle complex hardware issues and novel problems."
   },
   {
     "slug": "computer-systems-analysts",
     "title": "Computer systems analysts",
-    "digital_exposure_2031": 8,
-    "rationale": "Requirements gathering documentation, system evaluation, workflow analysis, and implementation planning are highly digital and automatable. Human analysts focus on complex organizational needs assessment and stakeholder management."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents analyze system requirements, generate technical specifications, evaluate software options, and produce implementation plans. The analytical and documentation work that defined this role is heavily automated."
   },
   {
     "slug": "concierges",
     "title": "Concierges",
-    "digital_exposure_2031": 6,
-    "rationale": "Information lookup, reservation making, and recommendation generation are tasks AI handles well. However, in-person hospitality, reading guest needs, and handling complex or unusual requests retain human value, especially in luxury settings."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI chatbots and virtual assistants handle the vast majority of guest queries, restaurant reservations, travel recommendations, and service coordination autonomously. With enterprise AI at 88% adoption and customer service AI resolution rates exceeding 90% by 2031, the diffusion trajectory automates most concierge functions. In-person concierges persist only at ultra-luxury properties as a premium differentiator."
   },
   {
     "slug": "conservation-scientists",
     "title": "Conservation scientists and foresters",
-    "digital_exposure_2031": 4,
-    "rationale": "Fieldwork\u2014assessing forests, managing land, and monitoring ecosystems\u2014is physical. AI assists with data analysis, GIS mapping, and report generation, but outdoor site work and stakeholder engagement require human presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles forest inventory analysis, mapping, resource modeling, and regulatory documentation autonomously. With environmental AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory automates most analytical conservation work by 2031. Scientists focus on field work, stakeholder engagement, and policy judgment."
   },
   {
     "slug": "construction-and-building-inspectors",
@@ -464,8 +464,8 @@
   {
     "slug": "construction-managers",
     "title": "Construction managers",
-    "digital_exposure_2031": 5,
-    "rationale": "Scheduling, budgeting, and documentation are aided by AI. However, on-site supervision, subcontractor coordination, safety management, and real-time problem solving on physical job sites require substantial human presence and judgment."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles scheduling, cost tracking, permit documentation, progress reporting, safety compliance monitoring, and resource optimization autonomously. With enterprise AI at 88% adoption and construction technology advancing, the diffusion trajectory automates most administrative construction management by 2031. Managers focus on site supervision, safety oversight, and contractor coordination."
   },
   {
     "slug": "cooks",
@@ -482,14 +482,14 @@
   {
     "slug": "cost-estimators",
     "title": "Cost estimators",
-    "digital_exposure_2031": 8,
-    "rationale": "Analyzing blueprints, calculating material/labor costs, and preparing bid documents are heavily digital tasks AI agents can automate. Human estimators handle complex project-specific variables and client negotiations, but routine estimation is largely automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate cost estimates from blueprints and specifications, cross-reference material databases, factor labor rates, and produce detailed reports. With enterprise AI at 88% adoption and construction technology advancing rapidly, the diffusion trajectory reaches near-full automation of routine cost estimation by 2031. Human estimators validate complex or novel projects."
   },
   {
     "slug": "court-reporters",
     "title": "Court reporters and simultaneous captioners",
-    "digital_exposure_2031": 9,
-    "rationale": "Real-time transcription and captioning are tasks where AI speech-to-text systems reach near-human accuracy by 2031. Court reporters remain for high-stakes legal proceedings requiring certified accuracy, but demand shrinks dramatically."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI speech-to-text systems achieve near-perfect real-time transcription accuracy across accents, legal terminology, and multi-speaker environments. With AI transcription already exceeding human accuracy for most contexts in 2026, the diffusion trajectory reaches complete automation of transcription and captioning by 2031. Court reporters remain only for regulatory compliance in specific jurisdictions."
   },
   {
     "slug": "craft-and-fine-artists",
@@ -500,14 +500,14 @@
   {
     "slug": "credit-counselors",
     "title": "Credit counselors",
-    "digital_exposure_2031": 7,
-    "rationale": "Financial analysis, debt management planning, and resource referrals are digital tasks AI handles well. However, counseling clients through financial distress requires empathy, motivational interviewing, and interpersonal trust that retain human value."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously analyze financial situations, generate repayment plans, negotiate with creditors programmatically, and handle routine financial counseling. With financial services as the fastest AI adopter and customer service AI at 90%+ resolution, the diffusion trajectory reaches near-full automation of routine credit counseling by 2031. Human counselors handle only complex cases requiring deep empathy."
   },
   {
     "slug": "customer-service-representatives",
     "title": "Customer service representatives",
-    "digital_exposure_2031": 9,
-    "rationale": "Routine inquiries, account lookups, complaint processing, and information provision are overwhelmingly digital and automated by AI agents by 2031. Only complex escalations and emotionally sensitive situations require human representatives."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents handle 90%+ of customer inquiries autonomously across all channels with near-human quality. With resolution rates already at 66-84% in 2026 and improving ~1%/month, the diffusion trajectory reaches 90%+ autonomous resolution by 2031. BPO ACV already down 14% in 2025; by 2031 the shift to AI-first customer service is complete. Remaining human agents exist only for complex escalations in legacy organizations."
   },
   {
     "slug": "dancers-and-choreographers",
@@ -518,14 +518,14 @@
   {
     "slug": "data-scientists",
     "title": "Data scientists",
-    "digital_exposure_2031": 8,
-    "rationale": "Data cleaning, feature engineering, model training, and report generation are heavily automated by AI agents. Senior data scientists focus on problem framing, novel methodology, and translating insights to business strategy, but junior analytical roles are largely displaced."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously clean data, run analyses, build models, generate visualizations, produce reports, and iterate on findings. With AI already handling routine data science tasks in 2026 and coding agents doubling in capability every 18 months, the diffusion trajectory puts most analytical work at autonomous AI capability by 2031. Senior data scientists focus on strategic problem formulation and organizational interpretation."
   },
   {
     "slug": "database-administrators",
     "title": "Database administrators and architects",
-    "digital_exposure_2031": 8,
-    "rationale": "Database monitoring, query optimization, backup management, and routine administration are highly automatable by AI agents. Human DBAs focus on complex architecture decisions, security strategy, and migration planning."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents handle routine database maintenance, performance tuning, backup management, query optimization, and monitoring autonomously. DBAs focus on complex architecture decisions and disaster recovery planning."
   },
   {
     "slug": "delivery-truck-drivers-and-driver-sales-workers",
@@ -549,7 +549,7 @@
     "slug": "dental-hygienists",
     "title": "Dental hygienists",
     "digital_exposure_2031": 2,
-    "rationale": "Cleaning teeth, taking X-rays, and providing oral health education are hands-on clinical duties. AI assists with patient records and diagnostic imaging interpretation, but the physical clinical work limits digital exposure."
+    "rationale": "Physical dental cleaning, X-rays, and patient education dominate. AI assists with charting and documentation but cannot replace hands-on clinical work."
   },
   {
     "slug": "dentists",
@@ -560,14 +560,14 @@
   {
     "slug": "desktop-publishers",
     "title": "Desktop publishers",
-    "digital_exposure_2031": 9,
-    "rationale": "Layout design, formatting, and document production are entirely digital tasks that AI handles with high quality by 2031. Remaining human roles focus on creative direction and complex brand-specific formatting requirements."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents handle layout design, formatting, typography, and document production with production quality from specifications. The diffusion trajectory from mature AI design tools in 2026 reaches complete automation of desktop publishing by 2031. This role is functionally obsolete; remaining positions exist only in legacy organizations."
   },
   {
     "slug": "diagnostic-medical-sonographers",
     "title": "Diagnostic medical sonographers",
-    "digital_exposure_2031": 4,
-    "rationale": "Operating ultrasound equipment requires physical patient interaction and transducer manipulation. AI significantly aids image interpretation and reporting, but the hands-on scanning process and patient communication remain human tasks."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly aids ultrasound image interpretation, measurement, and reporting. With healthcare AI at 79% adoption and medical imaging AI advancing, the diffusion trajectory automates much analytical sonography work by 2031. Physical patient interaction and transducer manipulation remain human."
   },
   {
     "slug": "diesel-service-technicians-and-mechanics",
@@ -578,14 +578,14 @@
   {
     "slug": "dietitians-and-nutritionists",
     "title": "Dietitians and nutritionists",
-    "digital_exposure_2031": 5,
-    "rationale": "Meal planning, nutritional analysis, and dietary recommendations are tasks AI handles well. However, patient counseling, motivational interviewing, and adapting plans to complex medical conditions require human judgment and interpersonal skills."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI generates meal plans, analyzes nutritional data, produces patient education materials, and manages dietary compliance monitoring autonomously. With healthcare AI at 79% adoption and wellness AI tools widespread, the diffusion trajectory automates most analytical and content-generation tasks by 2031. Dietitians focus on counseling, complex medical nutrition therapy, and patient relationships."
   },
   {
     "slug": "drafters",
     "title": "Drafters",
-    "digital_exposure_2031": 8,
-    "rationale": "Technical drawing, CAD operations, and specification documentation are heavily digital tasks AI agents automate by 2031. AI generates construction drawings from design parameters; human drafters handle complex revisions and quality review."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI generates technical drawings and construction documents from specifications, 3D models, and design parameters with high accuracy and full standards compliance. The diffusion trajectory from AI-assisted CAD tools in 2026 reaches complete automation of routine drafting by 2031. This role is effectively automated; remaining humans handle only non-standard edge cases."
   },
   {
     "slug": "drywall-and-ceiling-tile-installers-and-tapers",
@@ -596,14 +596,14 @@
   {
     "slug": "economists",
     "title": "Economists",
-    "digital_exposure_2031": 7,
-    "rationale": "Data analysis, econometric modeling, literature synthesis, and report writing are heavily digital and aided by AI agents. Economists retain value in novel theoretical frameworks, policy interpretation, and strategic advisory, but research productivity increases dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously conduct econometric analyses, build forecasting models, synthesize research literature, and generate policy briefs. With AI research tools fully mature by 2026 and financial AI leading adoption, the diffusion trajectory reaches near-full automation of routine economic analysis by 2031. Human economists focus on novel theoretical work, strategic policy advisory, and judgment under genuine uncertainty."
   },
   {
     "slug": "editors",
     "title": "Editors",
-    "digital_exposure_2031": 8,
-    "rationale": "Reviewing, revising, and planning content are entirely digital tasks. AI agents produce polished drafts, perform copyediting, and check facts autonomously by 2031. Senior editors retain creative vision and editorial judgment roles, but team sizes shrink dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle copy editing, fact-checking, style consistency, content formatting, and routine content editing. With 90% of content marketers using AI tools in 2026, the diffusion trajectory reaches near-full automation of production editing by 2031. Human editors focus on creative direction, complex narrative judgment, and author relationships, but editorial team sizes shrink 60-80%."
   },
   {
     "slug": "electrical-and-electronics-engineering-technicians",
@@ -614,8 +614,8 @@
   {
     "slug": "electrical-and-electronics-engineers",
     "title": "Electrical and electronics engineers",
-    "digital_exposure_2031": 7,
-    "rationale": "Circuit design, simulation, analysis, and documentation are heavily digital tasks where AI generates designs and optimizes parameters. Engineers focus on novel architectures, safety-critical validation, and physical prototyping oversight."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate circuit designs, run simulations, produce documentation, optimize power systems, and handle routine engineering analysis. With technology as an inherent first-mover in AI adoption and coding/design agents doubling in capability every 18 months, the diffusion trajectory reaches near-full automation of routine EE work by 2031. Engineers focus on novel design challenges and safety-critical validation."
   },
   {
     "slug": "electrical-and-electronics-installers-and-repairers",
@@ -644,8 +644,8 @@
   {
     "slug": "elementary-middle-and-high-school-principals",
     "title": "Elementary, middle, and high school principals",
-    "digital_exposure_2031": 6,
-    "rationale": "Administrative tasks\u2014scheduling, budgeting, compliance reporting, data analysis\u2014are heavily automated by AI. Principals retain essential roles in school culture, community relations, staff leadership, and complex disciplinary decisions."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles scheduling, budgeting, reporting, data analysis, compliance documentation, and communication management autonomously. With 83% of K-12 teachers using AI and enterprise AI at 88% adoption, the diffusion trajectory automates most administrative school leadership tasks by 2031. Principals focus on instructional leadership, community relations, and managing people."
   },
   {
     "slug": "elevator-installers-and-repairers",
@@ -656,8 +656,8 @@
   {
     "slug": "emergency-management-directors",
     "title": "Emergency management directors",
-    "digital_exposure_2031": 5,
-    "rationale": "AI assists with risk modeling, communication coordination, and resource planning. However, real-time crisis leadership, inter-agency coordination, and high-stakes judgment during emergencies require human decision-making and presence."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles emergency planning analytics, resource allocation modeling, communication systems, and scenario simulations autonomously. With enterprise AI at 88% adoption and AI crisis management tools advancing, the diffusion trajectory automates most planning and analytical work by 2031. Directors focus on real-time crisis judgment and interagency coordination."
   },
   {
     "slug": "emts-and-paramedics",
@@ -668,8 +668,8 @@
   {
     "slug": "entertainment-and-recreation-managers",
     "title": "Entertainment and recreation managers",
-    "digital_exposure_2031": 5,
-    "rationale": "Scheduling, budgeting, marketing, and reporting benefit from AI automation. However, managing staff, creating guest experiences, and handling on-site operations require physical presence and interpersonal leadership."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles scheduling, budgeting, marketing, ticket management, and operational analytics autonomously. With enterprise AI at 88% adoption and content/marketing AI at 90% usage, the diffusion trajectory automates most administrative entertainment management by 2031. Managers focus on creative programming, staff leadership, and facility oversight."
   },
   {
     "slug": "environmental-engineering-technicians",
@@ -680,26 +680,26 @@
   {
     "slug": "environmental-engineers",
     "title": "Environmental engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Modeling, analysis, report writing, and regulatory documentation are digital tasks increasingly handled by AI. Field assessment, stakeholder engagement, and novel remediation design require human expertise."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles environmental modeling, compliance analysis, report generation, and remediation design autonomously. With engineering AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine environmental engineering analytical work by 2031. Engineers focus on site assessment, remediation oversight, and regulatory negotiations."
   },
   {
     "slug": "environmental-science-and-protection-technicians",
     "title": "Environmental science and protection technicians",
-    "digital_exposure_2031": 3,
-    "rationale": "Field sampling, laboratory testing, and site inspections are predominantly physical. AI helps with data analysis and compliance documentation, but fieldwork remains the core duty."
+    "digital_exposure_2031": 4,
+    "rationale": "Field sampling and monitoring are physical, but data analysis and report writing benefit from AI. The digital portion of the work is moderately automated."
   },
   {
     "slug": "environmental-scientists-and-specialists",
     "title": "Environmental scientists and specialists",
-    "digital_exposure_2031": 6,
-    "rationale": "Data analysis, modeling, literature review, and report production are digital tasks AI handles well. Fieldwork, regulatory negotiation, and complex site-specific environmental judgment retain strong human involvement."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles data analysis, environmental modeling, report generation, and regulatory compliance documentation autonomously. With environmental AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory automates most analytical environmental science work by 2031. Scientists focus on field work, regulatory interpretation, and stakeholder engagement."
   },
   {
     "slug": "epidemiologists",
     "title": "Epidemiologists",
-    "digital_exposure_2031": 7,
-    "rationale": "Statistical analysis, disease surveillance data processing, literature synthesis, and report generation are heavily digital tasks AI agents automate. Human epidemiologists focus on novel outbreak investigation, study design, and public health policy interpretation."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously conduct surveillance data analysis, model disease spread, generate reports, synthesize research literature, and produce public health recommendations. With healthcare AI at 79% adoption in 2026 and AI demonstrating 100% on USMLE, the diffusion trajectory reaches near-full automation of routine epidemiological analysis by 2031. Human epidemiologists focus on novel outbreak investigation and strategic public health policy."
   },
   {
     "slug": "exercise-physiologists",
@@ -710,44 +710,44 @@
   {
     "slug": "farmers-ranchers-and-other-agricultural-managers",
     "title": "Farmers, ranchers, and other agricultural managers",
-    "digital_exposure_2031": 3,
-    "rationale": "Farm management involves significant physical oversight of land, livestock, and equipment. AI aids with crop planning, market analysis, and precision agriculture data, but hands-on management of agricultural operations limits digital exposure."
+    "digital_exposure_2031": 4,
+    "rationale": "By 2031, AI aids significantly with crop planning, market analysis, precision agriculture data, financial management, and compliance documentation. With precision agriculture AI advancing and enterprise AI at 88% adoption, the diffusion trajectory automates more farm management decision support by 2031. Physical oversight of land, livestock, and equipment still dominates."
   },
   {
     "slug": "fashion-designers",
     "title": "Fashion designers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI generates design variations, creates technical drawings, and handles trend analysis. However, creative vision, fabric selection, fitting garments on bodies, and understanding cultural aesthetics retain strong human components."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates design concepts, creates technical specifications, produces patterns, handles trend analysis, and generates marketing materials autonomously. With 90% of content/marketing professionals using AI in 2026 and AI design tools mature, the diffusion trajectory reaches near-full automation of fashion design production by 2031. Designers focus on creative vision, brand identity, and physical material selection."
   },
   {
     "slug": "film-and-video-editors-and-camera-operators",
     "title": "Film and video editors and camera operators",
-    "digital_exposure_2031": 7,
-    "rationale": "AI automates rough cuts, color grading, sound mixing, and effects compositing. Camera operation remains physical, but editing workflows are heavily digitized. Senior editors retain creative storytelling roles, but production teams shrink."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI automates rough cuts, color correction, sound mixing, visual effects, and routine editing autonomously. With AI video generation advancing rapidly and 90% of content creators using AI in 2026, the diffusion trajectory reaches near-full automation of production editing by 2031. Camera operation remains physical, but editorial teams shrink dramatically as AI handles most post-production."
   },
   {
     "slug": "financial-analysts",
     "title": "Financial analysts",
-    "digital_exposure_2031": 8,
-    "rationale": "Financial modeling, data analysis, report generation, and market research are heavily digital tasks AI agents handle autonomously. Human analysts focus on client relationships, novel strategic insights, and complex deal evaluation."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously build financial models, analyze market data, generate investment reports, conduct due diligence, and produce portfolio recommendations. With financial services as the fastest AI adopter (19.6% of AI market) and 44% of finance teams deploying agentic AI in 2026, the diffusion trajectory puts routine financial analysis at near-full automation by 2031. Senior analysts remain for strategic recommendations and client relationships."
   },
   {
     "slug": "financial-clerks",
     "title": "Financial clerks",
-    "digital_exposure_2031": 9,
-    "rationale": "Processing financial transactions, maintaining records, and handling routine financial paperwork are digital tasks AI automates almost entirely. Only exception handling and complex reconciliations require human intervention."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents automate routine financial transaction processing, record-keeping, reconciliation, and reporting almost entirely. With 95% of accountants already using automation for payroll and AP in 2026, the diffusion trajectory reaches complete automation of clerical financial tasks by 2031. Remaining humans handle rare exceptions and regulatory audit support."
   },
   {
     "slug": "financial-examiners",
     "title": "Financial examiners",
-    "digital_exposure_2031": 8,
-    "rationale": "Reviewing financial records, analyzing compliance, and assessing risk are heavily digital tasks AI agents handle efficiently. Human examiners focus on complex investigations, regulatory judgment calls, and enforcement decisions."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously analyze financial records, identify compliance issues, conduct routine examinations, and generate reports. With financial services as the fastest AI adopter and regulatory technology among the top AI categories, the diffusion trajectory reaches near-full automation of standard financial examination by 2031. Human examiners handle complex judgment calls and enforcement decisions."
   },
   {
     "slug": "financial-managers",
     "title": "Financial managers",
-    "digital_exposure_2031": 7,
-    "rationale": "Financial reporting, forecasting, and analysis are heavily automated. Managers retain strategic planning, stakeholder communication, risk governance, and organizational leadership roles, but analytical teams shrink significantly."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle financial reporting, budgeting, forecasting, routine analysis, and regulatory compliance. With 44% of finance teams deploying agentic AI in 2026 and financial services as the fastest adopter, the diffusion trajectory reaches near-full automation of routine financial management by 2031. Financial managers focus on strategic capital allocation and stakeholder relationships with dramatically leaner teams."
   },
   {
     "slug": "fire-inspectors-and-investigators",
@@ -812,14 +812,14 @@
   {
     "slug": "food-service-managers",
     "title": "Food service managers",
-    "digital_exposure_2031": 4,
-    "rationale": "Inventory management, scheduling, and financial reporting benefit from AI. However, on-site staff supervision, customer interaction, food quality oversight, and managing the physical restaurant environment require human presence."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI handles scheduling, inventory management, ordering, menu optimization, and operational analytics. With enterprise AI at 88% adoption and restaurant technology advancing, the diffusion trajectory automates most administrative functions by 2031. Physical kitchen oversight, staff management, and customer service still require human presence."
   },
   {
     "slug": "forensic-science-technicians",
     "title": "Forensic science technicians",
-    "digital_exposure_2031": 4,
-    "rationale": "Crime scene evidence collection is physical work. However, laboratory analysis, database searches, and report writing are digital tasks aided by AI. The blend of field and lab work creates moderate overall exposure."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly aids laboratory analysis, database searches, DNA pattern matching, report writing, and evidence analysis. With law enforcement AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory automates much of the analytical forensic work by 2031. Physical crime scene evidence collection remains firmly hands-on."
   },
   {
     "slug": "forest-and-conservation-workers",
@@ -830,8 +830,8 @@
   {
     "slug": "fundraisers",
     "title": "Fundraisers",
-    "digital_exposure_2031": 7,
-    "rationale": "Donor research, campaign analytics, communication drafting, and database management are digital tasks AI handles well. Human fundraisers focus on major donor relationships, event hosting, and strategic campaign direction, but routine outreach is automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle donor research, prospect identification, campaign analytics, grant writing drafts, routine communications, and donation processing. With enterprise AI at 88% adoption and content generation fully mature by 2026, the diffusion trajectory reaches near-full automation of routine fundraising operations by 2031. Human fundraisers focus exclusively on major donor relationships and strategic campaign vision."
   },
   {
     "slug": "funeral-service-occupations",
@@ -854,20 +854,20 @@
   {
     "slug": "general-office-clerks",
     "title": "General office clerks",
-    "digital_exposure_2031": 9,
-    "rationale": "Filing, data entry, correspondence, scheduling, and record-keeping are routine digital tasks that AI agents automate almost entirely by 2031. Only tasks requiring physical office presence or complex judgment remain."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents automate filing, data entry, mail processing, scheduling, correspondence, and routine office administration almost entirely. With enterprise AI at 88% adoption in 2026 and office automation among the earliest use cases, the diffusion trajectory eliminates most general office clerk positions by 2031. Remaining roles handle physical tasks and rare exceptions only."
   },
   {
     "slug": "genetic-counselors",
     "title": "Genetic counselors",
-    "digital_exposure_2031": 5,
-    "rationale": "AI assists with genetic data interpretation and risk calculation. However, counseling patients about genetic conditions, emotional support during difficult diagnoses, and helping families make complex decisions require deep human empathy and communication."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles genetic data analysis, variant interpretation, report generation, and risk assessment with high accuracy. With healthcare AI at 79% adoption and genomic AI among the fastest-advancing fields, the diffusion trajectory automates most analytical work by 2031. Counselors focus on patient communication, emotional support, and complex risk counseling \u2014 but with dramatically higher throughput per counselor."
   },
   {
     "slug": "geographers",
     "title": "Geographers",
-    "digital_exposure_2031": 7,
-    "rationale": "GIS analysis, spatial data processing, map production, and research synthesis are heavily digital tasks AI agents handle well. Fieldwork and complex place-based analysis retain human value, but analytical productivity increases dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously conduct spatial analysis, generate reports, process geographic data, produce maps, and model spatial patterns. With GIS and AI tools fully integrated by 2026, the diffusion trajectory reaches near-full automation of routine geographic analysis by 2031. Human geographers focus on novel research questions and policy interpretation."
   },
   {
     "slug": "geological-and-petroleum-technicians",
@@ -878,8 +878,8 @@
   {
     "slug": "geoscientists",
     "title": "Geoscientists",
-    "digital_exposure_2031": 6,
-    "rationale": "Data analysis, modeling, literature review, and report writing are digital tasks increasingly automated. Fieldwork, site-specific geological interpretation, and stakeholder consultation retain human value."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles geological modeling, data analysis, mapping, and report generation autonomously. With engineering AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory automates most analytical geoscience work by 2031. Scientists focus on field work, sample collection, and complex geological interpretation."
   },
   {
     "slug": "glaziers",
@@ -890,8 +890,8 @@
   {
     "slug": "graphic-designers",
     "title": "Graphic designers",
-    "digital_exposure_2031": 8,
-    "rationale": "AI generates logos, layouts, illustrations, and brand materials at high quality by 2031. Senior designers retain creative direction and brand strategy roles, but production design work is largely automated, dramatically reducing team sizes."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI generates layouts, illustrations, brand assets, marketing materials, and design variations from prompts with high quality. With 90% of content marketers using AI tools in 2026 and AI image generation already production-ready, the diffusion trajectory eliminates most production design work by 2031. Human designers focus on creative direction and brand strategy."
   },
   {
     "slug": "grounds-maintenance-workers",
@@ -914,20 +914,20 @@
   {
     "slug": "health-and-safety-engineers",
     "title": "Health and safety engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Risk analysis, compliance documentation, and safety system design are digital tasks AI handles well. However, physical site inspections, accident investigations, and implementing safety measures in real environments require human presence."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles risk analysis, compliance monitoring, report generation, incident investigation analysis, and safety system design autonomously. With enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine safety engineering analytical work by 2031. Engineers focus on physical inspections, incident investigation on-site, and safety culture leadership."
   },
   {
     "slug": "health-educators",
     "title": "Health education specialists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI generates health education content, analyzes community health data, and personalizes outreach materials. However, community engagement, workshop facilitation, and culturally sensitive health communication require human presence and interpersonal skills."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI generates health education content, analyzes community health data, personalizes outreach materials, and manages program analytics autonomously. With healthcare AI at 79% adoption and content generation fully mature, the diffusion trajectory automates most analytical and content work by 2031. Community engagement, workshop facilitation, and culturally sensitive communication remain human."
   },
   {
     "slug": "health-information-technologists-and-medical-registrars",
     "title": "Health information technologists and medical registrars",
-    "digital_exposure_2031": 9,
-    "rationale": "Coding medical records, managing health databases, ensuring data quality, and processing registrations are routine digital tasks AI agents automate almost entirely. Only complex coding disputes and system implementation require human oversight."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents fully automate medical coding, health data analytics, EHR management, and compliance reporting. With health IT among the earliest enterprise AI adoption targets and 100% of health systems using AI in 2026, the diffusion trajectory reaches complete automation by 2031. Remaining humans handle only complex system governance and regulatory oversight."
   },
   {
     "slug": "heating-air-conditioning-and-refrigeration-mechanics-and-installers",
@@ -950,14 +950,14 @@
   {
     "slug": "high-school-teachers",
     "title": "High school teachers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI tutoring systems handle content delivery, grading, and personalized learning paths. Teachers shift to mentoring, social-emotional development, classroom management, and facilitating higher-order discussions\u2014roles that remain deeply human."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI tutoring systems handle most content delivery, practice, assessment, and personalized learning paths. With 92% of students using AI in 2026 and Harvard showing 2x learning gains, the diffusion trajectory makes AI tutoring standard by 2031. Teachers shift to mentoring, social-emotional development, classroom facilitation, and managing AI-augmented learning \u2014 roles requiring human presence but with dramatically changed team compositions."
   },
   {
     "slug": "historians",
     "title": "Historians",
-    "digital_exposure_2031": 7,
-    "rationale": "Archival research, source analysis, literature synthesis, and writing are heavily digital tasks AI assists with substantially. Historians retain value in interpretive frameworks, original arguments, and contextualizing complex historical narratives."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously synthesize primary sources, conduct literature reviews, generate analytical drafts, process archival materials, and produce research summaries. With AI text analysis capabilities fully mature by 2026, the diffusion trajectory reaches near-full automation of routine historical research tasks by 2031. Human historians focus on novel interpretive frameworks, public engagement, and original scholarship."
   },
   {
     "slug": "home-health-aides-and-personal-care-aides",
@@ -968,26 +968,26 @@
   {
     "slug": "human-resources-managers",
     "title": "Human resources managers",
-    "digital_exposure_2031": 7,
-    "rationale": "Recruitment screening, benefits administration, compliance tracking, and workforce analytics are heavily automated. HR managers retain strategic workforce planning, employee relations, organizational culture, and complex conflict resolution roles."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle recruitment pipelines, benefits administration, compliance monitoring, performance analytics, workforce planning models, and routine employee queries. With HR among the earliest enterprise AI adoption targets (IBM cut ~8,000 roles), the diffusion trajectory reaches near-full automation of HR operations by 2031. HR managers focus purely on strategic workforce transformation and complex organizational dynamics."
   },
   {
     "slug": "human-resources-specialists",
     "title": "Human resources specialists",
-    "digital_exposure_2031": 8,
-    "rationale": "Resume screening, onboarding documentation, benefits processing, and policy administration are routine digital tasks AI agents handle autonomously. Human specialists focus on complex employee relations, investigations, and strategic talent initiatives."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle recruitment screening, candidate matching, onboarding workflows, benefits administration, compliance documentation, and routine employee queries. With IBM cutting ~8,000 HR roles and 88% enterprise AI usage in 2026, the diffusion trajectory puts routine HR work at near-full automation by 2031. Human specialists handle only complex employee relations, strategic talent decisions, and sensitive negotiations."
   },
   {
     "slug": "hydrologists",
     "title": "Hydrologists",
-    "digital_exposure_2031": 6,
-    "rationale": "Water resource modeling, data analysis, and report writing are digital tasks AI handles well. Fieldwork, site-specific assessment, and stakeholder consultation on water management retain human value."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles water system modeling, data analysis, report generation, and regulatory compliance documentation autonomously. With engineering AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine hydrological analysis by 2031. Hydrologists focus on field work, stakeholder engagement, and complex environmental judgment."
   },
   {
     "slug": "industrial-designers",
     "title": "Industrial designers",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates product design concepts, 3D models, and renderings rapidly. Designers shift to user research, creative vision, physical prototyping, and brand-specific design judgment, but design production teams shrink significantly."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate product design concepts, 3D models, technical specifications, and manufacturing documentation from requirements. With AI design tools advancing rapidly and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine industrial design production by 2031. Designers focus on creative vision, user research, and physical prototyping judgment."
   },
   {
     "slug": "industrial-engineering-technicians",
@@ -998,8 +998,8 @@
   {
     "slug": "industrial-engineers",
     "title": "Industrial engineers",
-    "digital_exposure_2031": 7,
-    "rationale": "Process optimization, workflow analysis, simulation modeling, and efficiency reporting are heavily digital tasks AI agents handle autonomously. Engineers shift to implementing changes on physical production floors and managing complex organizational transitions."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously optimize production processes, analyze workflow data, generate efficiency reports, design facility layouts, and conduct time/motion studies. With enterprise AI at 88% adoption in 2026 and manufacturing optimization among the earliest industrial AI use cases, the diffusion trajectory reaches near-full automation of routine industrial engineering work by 2031."
   },
   {
     "slug": "industrial-machinery-mechanics-and-maintenance-workers-and-millwrights",
@@ -1010,26 +1010,26 @@
   {
     "slug": "industrial-production-managers",
     "title": "Industrial production managers",
-    "digital_exposure_2031": 5,
-    "rationale": "Production scheduling, quality data analysis, and reporting benefit from AI. However, managing factory floor operations, supervising workers, and making real-time production decisions require physical presence and human leadership."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles production scheduling, quality analytics, resource optimization, and performance reporting autonomously. With enterprise AI at 88% adoption and manufacturing AI among the earliest industrial use cases, the diffusion trajectory automates most analytical production management by 2031. Managers focus on physical plant oversight, safety, and workforce management."
   },
   {
     "slug": "information-clerks",
     "title": "Information clerks",
-    "digital_exposure_2031": 9,
-    "rationale": "Answering inquiries, maintaining records, processing forms, and providing information are routine digital tasks AI chatbots and agents handle autonomously. Only in-person reception duties and complex problem resolution retain human value."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents handle routine information provision, appointment scheduling, record management, and customer inquiries autonomously across phone, chat, and email. The diffusion trajectory from 88% enterprise AI usage in 2026 reaches complete automation of routine information clerk duties by 2031."
   },
   {
     "slug": "information-security-analysts",
     "title": "Information security analysts",
-    "digital_exposure_2031": 7,
-    "rationale": "AI agents handle threat detection, vulnerability scanning, log analysis, and incident response automation. Human analysts focus on novel attack investigation, security architecture decisions, and organizational risk strategy."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle threat monitoring, vulnerability scanning, incident triage, compliance reporting, and routine security operations. With cybersecurity AI among the fastest-growing enterprise AI categories and technology as a first-mover sector, the diffusion trajectory reaches near-full automation of routine security operations by 2031. Human analysts focus on novel threat investigation and strategic security architecture."
   },
   {
     "slug": "instructional-coordinators",
     "title": "Instructional coordinators",
-    "digital_exposure_2031": 7,
-    "rationale": "Curriculum development, standards alignment, assessment design, and training material creation are digital tasks AI handles well. Coordinators retain value in teacher coaching, institutional change management, and adapting programs to local contexts."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles curriculum analysis, assessment data processing, instructional material development, and learning analytics autonomously. With 92% of students using AI and AI tutoring showing 2x learning gains, the diffusion trajectory reaches near-full automation of routine curriculum development by 2031. Coordinators focus on teacher coaching, stakeholder relationships, and educational strategy."
   },
   {
     "slug": "insulation-workers",
@@ -1040,26 +1040,26 @@
   {
     "slug": "insurance-sales-agents",
     "title": "Insurance sales agents",
-    "digital_exposure_2031": 7,
-    "rationale": "Quote generation, policy comparison, application processing, and client communication are digital tasks AI handles efficiently. Agents retain value for complex policy advisory, relationship management, and high-value client acquisition."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate quotes, match customers to policies, process applications, handle routine policy questions, and manage renewals. With financial services as the fastest AI adopter and customer service AI at 90%+ resolution, the diffusion trajectory reaches near-full automation of routine insurance sales by 2031. Human agents focus on complex coverage advisory and high-value client relationships."
   },
   {
     "slug": "insurance-underwriters",
     "title": "Insurance underwriters",
     "digital_exposure_2031": 9,
-    "rationale": "Risk evaluation, policy pricing, application review, and documentation are routine digital tasks AI agents automate with high accuracy. Human underwriters handle only complex, novel, or high-value cases requiring judgment beyond standard risk models."
+    "rationale": "By 2031, AI agents autonomously assess risk, analyze applications, set premiums, and process routine underwriting decisions. With financial services as the fastest AI adopter (19.6% of market share) and algorithmic underwriting already standard for routine policies in 2026, the diffusion trajectory puts standard underwriting at near-full automation by 2031. Human underwriters handle only complex, novel, or high-value cases requiring specialized judgment."
   },
   {
     "slug": "interior-designers",
     "title": "Interior designers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI generates design concepts, space layouts, and material selections. However, client relationships, understanding lived experiences in spaces, hands-on material selection, and site visits retain strong human components."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates space plans, 3D renderings, material specifications, cost estimates, and shopping lists autonomously. With AI design tools mature and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of interior design production by 2031. Designers focus on client relationships, creative vision, and physical site-specific judgment."
   },
   {
     "slug": "interpreters-and-translators",
     "title": "Interpreters and translators",
-    "digital_exposure_2031": 9,
-    "rationale": "Machine translation reaches near-professional quality for most language pairs by 2031. AI handles routine document translation and basic interpretation autonomously. Human translators remain for literary, legal, and culturally nuanced work."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, real-time AI translation is near-perfect for all major language pairs and most specialized contexts. With machine translation already handling routine document translation in 2026 and real-time interpretation tools advancing rapidly, the diffusion trajectory reaches complete automation of standard translation work by 2031. Human interpreters remain only for high-stakes diplomatic, legal, and medical situations requiring deep cultural nuance."
   },
   {
     "slug": "structural-iron-and-steel-workers",
@@ -1082,62 +1082,62 @@
   {
     "slug": "judges-and-hearing-officers",
     "title": "Judges and hearing officers",
-    "digital_exposure_2031": 5,
-    "rationale": "AI assists with legal research, case precedent analysis, and document review. However, judicial decision-making, courtroom management, sentencing, and interpreting law in complex human situations require human authority and judgment."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles legal research, case analysis, document review, sentencing guideline analysis, and opinion drafting support autonomously. With 92% of legal professionals using AI daily in 2026 and legal AI expanding to 60+ jurisdictions, the diffusion trajectory automates most judicial research and analytical work by 2031. Judicial judgment, courtroom management, and constitutional authority remain human."
   },
   {
     "slug": "kindergarten-and-elementary-school-teachers",
     "title": "Kindergarten and elementary school teachers",
-    "digital_exposure_2031": 5,
-    "rationale": "AI handles some content delivery and assessment, but young children require extensive in-person care, social-emotional guidance, and developmental support. The interpersonal and caregiving aspects of elementary teaching strongly limit digital exposure."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI tutoring assists with content delivery, differentiated instruction, and assessment for elementary students. With 83% of K-12 teachers using AI by 2026 and AI tutoring demonstrating effectiveness, the diffusion trajectory makes AI-integrated elementary instruction standard by 2031. Teachers focus on social-emotional development, classroom management, and nurturing \u2014 but instructional models are reorganized."
   },
   {
     "slug": "labor-relations-specialists",
     "title": "Labor relations specialists",
-    "digital_exposure_2031": 6,
-    "rationale": "Contract analysis, compliance tracking, and grievance documentation are digital tasks AI handles well. However, negotiation, mediation, and managing sensitive labor-management relationships require human interpersonal skills and political judgment."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles contract analysis, grievance tracking, labor law research, compliance monitoring, and documentation autonomously. With enterprise AI at 88% adoption and legal AI advancing, the diffusion trajectory reaches near-full automation of routine labor relations analytical work by 2031. Specialists focus on negotiations, relationship management, and complex dispute resolution."
   },
   {
     "slug": "landscape-architects",
     "title": "Landscape architects",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates site designs, produces construction documents, and performs environmental analysis. Architects retain client relationships, creative vision, site visits, and complex regulatory navigation, but design production accelerates dramatically."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates site designs, produces construction documents, performs environmental analysis, and creates renderings autonomously. With AI design tools mature and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of landscape design production by 2031. Architects retain creative vision, client relationships, site visits, and regulatory navigation."
   },
   {
     "slug": "lawyers",
     "title": "Lawyers",
-    "digital_exposure_2031": 7,
-    "rationale": "AI handles legal research, document drafting, contract review, and case analysis autonomously. Lawyers shift to courtroom advocacy, complex negotiation, client counseling, and strategic judgment. Junior associate work is heavily displaced, but regulatory and trust requirements maintain senior roles."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle legal research, contract drafting and review, document discovery, case brief preparation, regulatory analysis, and compliance monitoring. With 92% of legal professionals using AI daily in 2026 and tools like Harvey expanding to 60+ jurisdictions, the diffusion trajectory puts routine legal work at near-full automation by 2031. Human lawyers focus on courtroom advocacy, complex negotiations, and strategic client counseling."
   },
   {
     "slug": "librarians",
     "title": "Librarians and library media specialists",
-    "digital_exposure_2031": 6,
-    "rationale": "Cataloging, reference queries, and collection management are heavily automated by AI. Librarians retain community programming, information literacy instruction, and serving as trusted community resource navigators."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles cataloging, reference queries, research assistance, collection analysis, and digital curation autonomously. With enterprise AI at 88% adoption and information management among the earliest AI use cases, the diffusion trajectory reaches near-full automation of traditional library information services by 2031. Librarians focus on community programming, digital literacy instruction, and serving as trusted information navigators."
   },
   {
     "slug": "library-technicians-and-assistants",
     "title": "Library technicians and assistants",
-    "digital_exposure_2031": 7,
-    "rationale": "Shelving, cataloging, circulation management, and basic reference are increasingly automated. Human assistants handle physical materials management and patron interaction, but much routine work is AI-handled."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles cataloging, circulation management, basic reference queries, and collection analysis autonomously. With enterprise AI at 88% adoption and information management among the earliest AI use cases, the diffusion trajectory reaches near-full automation of routine library operations by 2031. Human assistants handle physical materials management and complex patron interactions."
   },
   {
     "slug": "licensed-practical-and-licensed-vocational-nurses",
     "title": "Licensed practical and licensed vocational nurses",
-    "digital_exposure_2031": 3,
-    "rationale": "Taking vital signs, administering medications, wound care, and direct patient care are hands-on clinical tasks. AI assists with documentation and care coordination, but bedside nursing remains physical and interpersonal."
+    "digital_exposure_2031": 4,
+    "rationale": "By 2031, AI automates documentation, care coordination, medication management, and clinical decision support. With 100% of health systems using AI scribes and healthcare AI at 79% adoption, the diffusion trajectory automates significant information-processing work in nursing by 2031. Taking vital signs, administering medications, wound care, and direct patient care remain hands-on."
   },
   {
     "slug": "loan-officers",
     "title": "Loan officers",
-    "digital_exposure_2031": 8,
-    "rationale": "Application processing, credit analysis, risk assessment, and documentation are digital tasks AI agents handle autonomously. Human loan officers focus on complex cases, client relationships, and regulatory compliance decisions."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents evaluate loan applications, assess creditworthiness, verify documentation, and generate approval recommendations autonomously. With financial services as the fastest AI adopter and 44% of finance teams deploying agentic AI in 2026, the diffusion trajectory reaches near-full automation of standard lending decisions by 2031. Human loan officers handle only complex cases and relationship-dependent commercial lending."
   },
   {
     "slug": "lodging-managers",
     "title": "Lodging managers",
-    "digital_exposure_2031": 5,
-    "rationale": "Revenue management, booking optimization, and administrative reporting are automated by AI. However, guest relations, staff management, property maintenance oversight, and handling on-site issues require human presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles reservations, revenue management, guest communications, pricing optimization, and operational analytics autonomously. With enterprise AI at 88% adoption and hospitality AI advancing, the diffusion trajectory automates most administrative hotel management by 2031. Physical property oversight, staff management, and premium guest relations require human presence."
   },
   {
     "slug": "logging-workers",
@@ -1148,8 +1148,8 @@
   {
     "slug": "logisticians",
     "title": "Logisticians",
-    "digital_exposure_2031": 8,
-    "rationale": "Supply chain optimization, inventory management, route planning, and logistics analysis are heavily digital tasks AI agents handle autonomously. Human logisticians focus on strategic supplier relationships, crisis management, and complex multi-party coordination."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle supply chain optimization, inventory management, shipping coordination, demand forecasting, and logistics analysis. With enterprise AI at 88% adoption in 2026 and supply chain optimization among the earliest industrial AI use cases, the diffusion trajectory reaches near-full automation of routine logistics by 2031. Human logisticians focus on exception handling and strategic supply chain design."
   },
   {
     "slug": "machinists-and-tool-and-die-makers",
@@ -1160,8 +1160,8 @@
   {
     "slug": "management-analysts",
     "title": "Management analysts",
-    "digital_exposure_2031": 8,
-    "rationale": "Data analysis, process mapping, benchmarking, report production, and recommendations are heavily digital tasks AI agents handle autonomously. Human consultants focus on client relationships, organizational politics, and implementing complex change."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents conduct organizational analyses, generate recommendations, produce reports, and synthesize best practices. Senior consultants focus on client relationships and strategic advisory, but the analytical and research work is largely automated."
   },
   {
     "slug": "manicurists-and-pedicurists",
@@ -1172,14 +1172,14 @@
   {
     "slug": "marine-engineers-and-naval-architects",
     "title": "Marine engineers and naval architects",
-    "digital_exposure_2031": 6,
-    "rationale": "Ship design, structural analysis, and engineering documentation are digital tasks AI aids substantially. However, vessel inspections, sea trials, and marine-specific engineering judgment in physical environments limit full automation."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles design optimization, simulation, documentation, and performance analysis autonomously. With engineering AI tools advancing rapidly, the diffusion trajectory reaches near-full automation of routine naval architecture by 2031. Engineers focus on physical testing, safety-critical decisions, and ship inspection."
   },
   {
     "slug": "market-research-analysts",
     "title": "Market research analysts",
-    "digital_exposure_2031": 8,
-    "rationale": "Survey design, data collection, statistical analysis, trend identification, and report generation are heavily digital tasks AI agents handle autonomously. Human analysts focus on strategic interpretation, client presentation, and novel research design."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents design surveys, analyze data, generate market reports, and produce competitive intelligence autonomously. Human analysts focus on strategic interpretation and client presentation, but the research grunt work is eliminated."
   },
   {
     "slug": "marriage-and-family-therapists",
@@ -1208,38 +1208,38 @@
   {
     "slug": "material-recording-clerks",
     "title": "Material recording clerks",
-    "digital_exposure_2031": 9,
-    "rationale": "Tracking shipments, recording inventory, and processing receiving documents are routine digital tasks AI agents automate almost entirely. Only physical warehouse verification and exception handling retain human involvement."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents and integrated systems fully automate inventory tracking, order processing, shipping documentation, and record-keeping. The diffusion trajectory from enterprise supply chain automation in 2026 reaches complete automation of material recording by 2031."
   },
   {
     "slug": "materials-engineers",
     "title": "Materials engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Materials simulation, property analysis, and documentation are digital tasks AI handles well. However, laboratory testing, physical material characterization, and developing novel materials for specific applications require human expertise."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles materials analysis, testing data interpretation, simulation, and documentation autonomously. With computational materials science advancing rapidly, the diffusion trajectory reaches near-full automation of routine materials engineering work by 2031. Engineers focus on novel material development and physical laboratory work."
   },
   {
     "slug": "mathematicians-and-statisticians",
     "title": "Mathematicians and statisticians",
-    "digital_exposure_2031": 8,
-    "rationale": "Statistical analysis, model building, data processing, and report generation are heavily automated by AI agents. Human mathematicians focus on novel theoretical problems, research direction, and complex model interpretation."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents handle statistical analyses, model building, and data processing autonomously. Human mathematicians focus on novel theoretical problems and strategic interpretation of results."
   },
   {
     "slug": "mechanical-engineering-technicians",
     "title": "Mechanical engineering technologists and technicians",
-    "digital_exposure_2031": 4,
-    "rationale": "Building prototypes, testing mechanical devices, and operating lab equipment are physical tasks. AI aids with CAD work and data analysis, but hands-on fabrication and testing remain human-driven."
+    "digital_exposure_2031": 5,
+    "rationale": "A mix of physical testing and digital analysis work. AI handles CAD drafting and data analysis, but physical equipment testing and calibration remain human."
   },
   {
     "slug": "mechanical-engineers",
     "title": "Mechanical engineers",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates mechanical designs, runs simulations, and produces engineering analyses autonomously. Engineers shift to validating designs, physical prototyping, testing, and handling novel engineering challenges. Productivity per engineer increases dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate mechanical designs, run FEA/CFD simulations, produce documentation, and optimize systems. With engineering firms among early AI adopters and design agents advancing rapidly, the diffusion trajectory reaches near-full automation of routine mechanical engineering analysis and design by 2031. Engineers focus on novel challenges, physical testing, and safety-critical validation."
   },
   {
     "slug": "medical-and-health-services-managers",
     "title": "Medical and health services managers",
-    "digital_exposure_2031": 6,
-    "rationale": "Scheduling, budgeting, compliance tracking, and data analysis are heavily automated. Managers retain staff leadership, patient experience oversight, regulatory navigation, and strategic facility planning roles."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles scheduling, billing, compliance reporting, operational analytics, and patient flow optimization autonomously. With healthcare AI at 79% adoption and 100% of health systems using AI scribes, the diffusion trajectory reaches near-full automation of routine healthcare administration by 2031. Managers focus on staff leadership, patient experience, and complex regulatory navigation."
   },
   {
     "slug": "medical-assistants",
@@ -1250,8 +1250,8 @@
   {
     "slug": "medical-dosimetrists",
     "title": "Medical dosimetrists",
-    "digital_exposure_2031": 7,
-    "rationale": "Radiation treatment planning, dose calculations, and treatment simulations are heavily digital tasks AI handles well. Human dosimetrists validate plans and handle complex cases, but routine treatment planning is largely automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate radiation treatment plans and dose calculations with high accuracy across standard protocols. With healthcare AI at 79% adoption in 2026 and clinical decision support among the top use cases, the diffusion trajectory reaches near-full automation of routine dosimetry by 2031. Human dosimetrists validate plans and handle complex cases requiring clinical judgment."
   },
   {
     "slug": "medical-equipment-repairers",
@@ -1262,14 +1262,14 @@
   {
     "slug": "medical-records-and-health-information-technicians",
     "title": "Medical records specialists",
-    "digital_exposure_2031": 9,
-    "rationale": "Coding diagnoses, maintaining electronic health records, and processing health information are routine digital tasks AI agents automate almost entirely. Only complex coding disputes and system audits require human oversight."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents fully automate medical coding, record management, health information processing, and data quality verification. With 100% of health systems using AI documentation tools in 2026 and NLP-based coding already at high accuracy, the diffusion trajectory reaches complete automation of medical records work by 2031. Remaining humans handle only complex coding disputes and regulatory audits."
   },
   {
     "slug": "medical-scientists",
     "title": "Medical scientists",
-    "digital_exposure_2031": 6,
-    "rationale": "AI accelerates literature review, data analysis, and experiment design. However, clinical research, laboratory experimentation, patient interactions in trials, and novel hypothesis generation require human scientists."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI accelerates literature review, data analysis, experimental design, grant writing, and manuscript preparation dramatically. With healthcare AI at 79% adoption and AI demonstrating 100% on USMLE, the diffusion trajectory reaches near-full automation of routine research analytical work by 2031. Scientists focus on novel hypothesis generation, physical lab work, and clinical trial oversight."
   },
   {
     "slug": "medical-transcriptionists",
@@ -1280,26 +1280,26 @@
   {
     "slug": "meeting-convention-and-event-planners",
     "title": "Meeting, convention, and event planners",
-    "digital_exposure_2031": 6,
-    "rationale": "Vendor research, budget tracking, logistics coordination, and communication are digital tasks AI aids substantially. However, on-site event management, vendor relationship building, and creative event design require human presence and judgment."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI agents handle vendor research, logistics coordination, budget tracking, attendee management, and communications autonomously. With enterprise AI at 88% adoption and customer service AI at 90%+ resolution, the diffusion trajectory reaches near-full automation of routine event planning operations by 2031. Planners focus on creative event design and on-site execution."
   },
   {
     "slug": "metal-and-plastic-machine-workers",
     "title": "Metal and plastic machine workers",
-    "digital_exposure_2031": 2,
-    "rationale": "Operating metal-cutting and plastic-forming machines, loading materials, and inspecting finished parts are physical production tasks. AI-driven CNC programming helps, but manual machine operation remains human."
+    "digital_exposure_2031": 3,
+    "rationale": "By 2031, AI-driven CNC programming and production optimization become standard. With manufacturing AI advancing and enterprise AI at 88% adoption, the diffusion trajectory automates more programming and quality monitoring by 2031. Physical machine operation, material loading, and inspection remain human."
   },
   {
     "slug": "microbiologists",
     "title": "Microbiologists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI assists with genomic analysis, literature review, and experiment design. However, wet-lab work\u2014culturing organisms, preparing slides, conducting experiments\u2014requires physical human presence and scientific creativity."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles data analysis, literature synthesis, experimental design optimization, and genomic interpretation autonomously. With healthcare AI at 79% adoption and genomic AI advancing rapidly, the diffusion trajectory automates most analytical microbiology work by 2031. Microbiologists focus on physical lab work and novel research interpretation."
   },
   {
     "slug": "middle-school-teachers",
     "title": "Middle school teachers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI tutoring handles content delivery, grading, and personalized learning. Teachers shift to adolescent mentoring, social-emotional development, classroom management, and facilitating collaborative learning\u2014deeply human roles."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI tutoring handles content delivery and adaptive practice for most subjects. With 83% of K-12 teachers using AI by 2026, the diffusion trajectory makes AI-integrated instruction standard by 2031. Teachers focus on adolescent development, behavioral management, and mentoring \u2014 but class structures are significantly reorganized around AI-augmented learning."
   },
   {
     "slug": "military-careers",
@@ -1310,20 +1310,20 @@
   {
     "slug": "mining-and-geological-engineers",
     "title": "Mining and geological engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Mine design, resource estimation, and safety analysis are digital tasks AI handles well. However, underground inspections, site-specific geological assessment, and managing physical mining operations require human presence."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles geological modeling, mine planning optimization, safety analysis, and regulatory documentation autonomously. With engineering AI tools advancing rapidly, the diffusion trajectory reaches near-full automation of routine mining engineering analytical work by 2031. Engineers focus on physical site operations and safety-critical decisions."
   },
   {
     "slug": "models",
     "title": "Models",
-    "digital_exposure_2031": 4,
-    "rationale": "AI-generated imagery increasingly substitutes for human models in digital advertising and e-commerce. However, live fashion shows, physical product fitting, and brand ambassador roles requiring human presence persist."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI-generated imagery increasingly substitutes for human models in digital advertising, e-commerce, and social media. With AI image generation production-ready and 90% of content marketers using AI, the diffusion trajectory puts significant displacement pressure on modeling by 2031. Live fashion shows, physical product fitting, and brand ambassadorship retain human presence."
   },
   {
     "slug": "music-directors-and-composers",
     "title": "Music directors and composers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI generates compositions, arrangements, and production-ready music. However, artistic vision, live performance direction, and creating emotionally resonant original works retain human value. Production music work is heavily displaced."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI generates compositions, arrangements, orchestrations, and commercial background music autonomously. With AI music generation advancing rapidly and content creation at 90% AI usage, the diffusion trajectory automates most commercial composition by 2031. Human musicians focus on live performance direction, creative interpretation, and artistic expression."
   },
   {
     "slug": "musicians-and-singers",
@@ -1334,32 +1334,32 @@
   {
     "slug": "natural-sciences-managers",
     "title": "Natural sciences managers",
-    "digital_exposure_2031": 6,
-    "rationale": "Grant management, research coordination, budgeting, and reporting are aided by AI. Managers retain strategic research direction, team leadership, stakeholder relationships, and scientific judgment roles."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles research data analysis, literature synthesis, grant writing drafts, project tracking, and budget management autonomously. With healthcare AI at 79% adoption and research AI tools mature, the diffusion trajectory reaches near-full automation of routine research management by 2031. Managers focus on research strategy, team leadership, and scientific judgment."
   },
   {
     "slug": "network-and-computer-systems-administrators",
     "title": "Network and computer systems administrators",
-    "digital_exposure_2031": 8,
-    "rationale": "System monitoring, configuration management, backup operations, and routine troubleshooting are highly automatable by AI agents. Human admins handle complex infrastructure decisions, security incidents, and novel system integration."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle system monitoring, patching, configuration management, incident response, backup management, and routine troubleshooting. With technology as an inherent first-mover and AI ops tools already standard in 2026, the diffusion trajectory reaches near-full automation of routine sysadmin work by 2031. Admins focus on complex infrastructure architecture and disaster recovery."
   },
   {
     "slug": "reporters-correspondents-and-broadcast-news-analysts",
     "title": "News analysts, reporters, and journalists",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates routine news stories, summarizes data, and produces reports. Human journalists focus on investigative reporting, source cultivation, editorial judgment, and on-the-ground coverage\u2014but newsroom staffing shrinks significantly."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously produce routine news stories, analyze data for investigations, transcribe interviews, generate initial drafts, and monitor news feeds. With 90% of content marketers using AI in 2026 and automated journalism already common for sports/financial reporting, the diffusion trajectory reaches near-full automation of routine news production by 2031. Human journalists focus on investigative reporting, source relationships, and editorial judgment."
   },
   {
     "slug": "nuclear-engineers",
     "title": "Nuclear engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Reactor design simulation, safety analysis, and documentation are digital tasks AI handles well. However, physical plant operations, safety-critical oversight, and regulatory compliance in nuclear environments require human expertise and authority."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles design calculations, safety analyses, regulatory documentation, simulation, and compliance reporting autonomously. With engineering AI tools advancing rapidly, the diffusion trajectory reaches near-full automation of routine nuclear engineering analytical work by 2031. Engineers focus on safety-critical judgment and physical plant operations."
   },
   {
     "slug": "nuclear-medicine-technologists",
     "title": "Nuclear medicine technologists",
-    "digital_exposure_2031": 4,
-    "rationale": "Preparing and administering radioactive materials, operating imaging equipment, and positioning patients are physical tasks. AI aids with image interpretation and dosimetry, but hands-on patient care remains human."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly aids with image interpretation, dosimetry calculations, and reporting. With healthcare AI at 79% adoption and medical imaging AI among the top use cases, the diffusion trajectory automates much of the analytical nuclear medicine workflow by 2031. Preparing/administering radioactive materials and patient positioning remain physical."
   },
   {
     "slug": "nuclear-technicians",
@@ -1382,8 +1382,8 @@
   {
     "slug": "occupational-health-and-safety-specialists-and-technicians",
     "title": "Occupational health and safety specialists and technicians",
-    "digital_exposure_2031": 5,
-    "rationale": "Compliance documentation, data analysis, and training material creation benefit from AI. However, physical workplace inspections, incident investigations on-site, and worker safety monitoring require human presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles compliance documentation, data analysis, training material creation, and incident pattern analysis autonomously. With enterprise AI at 88% adoption, the diffusion trajectory automates most analytical safety work by 2031. Physical workplace inspections, incident investigations, and worker safety monitoring require human presence."
   },
   {
     "slug": "occupational-therapists",
@@ -1406,8 +1406,8 @@
   {
     "slug": "operations-research-analysts",
     "title": "Operations research analysts",
-    "digital_exposure_2031": 8,
-    "rationale": "Mathematical modeling, optimization, simulation, and data analysis are heavily digital tasks AI agents handle autonomously. Human analysts focus on problem framing, interpreting results for stakeholders, and novel methodological approaches."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents build optimization models, run simulations, analyze data, and generate recommendations autonomously. Human analysts focus on problem formulation and strategic interpretation of results."
   },
   {
     "slug": "opticians-dispensing",
@@ -1419,7 +1419,7 @@
     "slug": "optometrists",
     "title": "Optometrists",
     "digital_exposure_2031": 4,
-    "rationale": "Eye examinations using specialized equipment, prescribing corrective lenses, and diagnosing conditions involve physical patient interaction. AI aids with diagnostic imaging interpretation and records, but clinical practice is hands-on."
+    "rationale": "AI assists with diagnostic imaging analysis and prescription calculation. Physical eye examination, patient interaction, and clinical judgment dominate."
   },
   {
     "slug": "orthotists-and-prosthetists",
@@ -1443,13 +1443,13 @@
     "slug": "paralegals-and-legal-assistants",
     "title": "Paralegals and legal assistants",
     "digital_exposure_2031": 9,
-    "rationale": "Legal research, document drafting, contract review, case file management, and discovery processing are heavily digital tasks AI agents handle autonomously by 2031. Human paralegals focus on complex litigation support and client interaction."
+    "rationale": "By 2031, AI agents handle legal research, document review, contract analysis, case file organization, e-discovery, and filing preparation autonomously. With 92% of legal professionals using AI daily in 2026 and Harvey/CoCounsel deploying multi-step autonomous workflows, the diffusion trajectory puts routine paralegal work at near-full automation by 2031. Remaining human paralegals handle complex case management and attorney support."
   },
   {
     "slug": "personal-financial-advisors",
     "title": "Personal financial advisors",
-    "digital_exposure_2031": 7,
-    "rationale": "Portfolio analysis, financial planning, tax optimization, and report generation are automated by AI. Advisors retain value in client relationships, life-stage guidance, behavioral coaching, and navigating complex financial situations."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate comprehensive financial plans, portfolio recommendations, tax optimization strategies, and retirement projections. With financial services as the fastest AI adopter and robo-advisory already mainstream in 2026, the diffusion trajectory reaches near-full automation of financial planning analytics by 2031. Advisors focus purely on client behavioral coaching and complex life-event planning."
   },
   {
     "slug": "pest-control-workers",
@@ -1460,20 +1460,20 @@
   {
     "slug": "petroleum-engineers",
     "title": "Petroleum engineers",
-    "digital_exposure_2031": 6,
-    "rationale": "Reservoir simulation, production optimization, and engineering analysis are digital tasks AI handles well. However, field operations, well site decisions, and managing physical extraction processes require human presence and judgment."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles reservoir modeling, production optimization, technical documentation, and drilling parameter analysis autonomously. With engineering AI tools advancing rapidly, the diffusion trajectory reaches near-full automation of routine petroleum engineering work by 2031. Engineers focus on field operations and complex geological judgment."
   },
   {
     "slug": "pharmacists",
     "title": "Pharmacists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI handles drug interaction checking, prescription processing, and inventory management. Pharmacists retain patient counseling, complex medication management, clinical decision-making, and regulatory compliance roles."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles drug interaction checking, dosage calculations, routine dispensing verification, patient education materials, and insurance processing autonomously. With healthcare AI at 79% adoption and clinical decision support among top use cases, the diffusion trajectory automates most routine pharmacy operations by 2031. Pharmacists focus on clinical consultation, complex medication therapy management, and patient counseling."
   },
   {
     "slug": "pharmacy-technicians",
     "title": "Pharmacy technicians",
-    "digital_exposure_2031": 5,
-    "rationale": "Automated dispensing systems handle much routine medication counting and labeling. Technicians retain roles in compounding, patient interaction, insurance processing, and managing physical pharmacy operations."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, automated dispensing and AI handle routine prescription processing, inventory management, and insurance verification. With healthcare AI at 79% adoption and pharmacy automation advancing, the diffusion trajectory automates most routine pharmacy technician tasks by 2031. Techs focus on physical inventory management, customer interaction, and supporting pharmacist clinical work."
   },
   {
     "slug": "phlebotomists",
@@ -1484,8 +1484,8 @@
   {
     "slug": "photographers",
     "title": "Photographers",
-    "digital_exposure_2031": 5,
-    "rationale": "AI generates synthetic images and automates post-processing. However, event photography, portrait sessions, and creative commercial shoots requiring human presence, composition judgment, and real-world scene capture persist."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI generates and edits images, handles post-processing, color correction, and routine commercial photography autonomously. With AI image generation production-ready and 90% of content marketers using AI in 2026, the diffusion trajectory automates most post-production and stock photography by 2031. Professional photographers remain for events, portraits, and commercial shoots requiring physical presence and creative vision."
   },
   {
     "slug": "physical-therapist-assistants-and-aides",
@@ -1502,26 +1502,26 @@
   {
     "slug": "physician-assistants",
     "title": "Physician assistants",
-    "digital_exposure_2031": 4,
-    "rationale": "Clinical examination, procedures, and patient counseling are hands-on duties. AI significantly aids with diagnostic decision support, ordering, and documentation, but direct patient care and clinical judgment remain human."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly aids diagnostic decision support, ordering, documentation, and care coordination. With healthcare AI at 79% adoption and AI scribes universal, the diffusion trajectory automates much of the information-processing burden by 2031. Clinical examination, procedures, and patient counseling remain hands-on."
   },
   {
     "slug": "physicians-and-surgeons",
     "title": "Physicians and surgeons",
-    "digital_exposure_2031": 4,
-    "rationale": "Physical examinations, surgeries, and patient interactions are hands-on clinical work. AI transforms diagnostics, treatment planning, and documentation, but the practice of medicine\u2014especially surgery\u2014requires human skill, judgment, and patient trust."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly supports diagnosis, treatment planning, documentation, literature review, and administrative tasks. With AI achieving 100% on USMLE, AI scribes universal, and healthcare AI at 79% adoption, the diffusion trajectory automates substantial information-processing work by 2031. Clinical judgment, physical examination, surgical skill, and patient relationships remain fundamentally human."
   },
   {
     "slug": "physicists-and-astronomers",
     "title": "Physicists and astronomers",
-    "digital_exposure_2031": 6,
-    "rationale": "Data analysis, simulation, and literature review are digital tasks AI accelerates substantially. However, designing novel experiments, theoretical breakthroughs, and operating physical instruments require human researchers."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI accelerates data analysis, simulation, literature synthesis, and computational modeling dramatically. With AI research tools mature and computational physics being inherently digital, the diffusion trajectory reaches near-full automation of routine computational physics by 2031. Human physicists focus on theoretical innovation and experimental design."
   },
   {
     "slug": "plumbers-pipefitters-and-steamfitters",
     "title": "Plumbers, pipefitters, and steamfitters",
-    "digital_exposure_2031": 1,
-    "rationale": "Installing and repairing pipes, fixtures, and plumbing systems is hands-on skilled trade work. AI has minimal impact on these physical construction tasks."
+    "digital_exposure_2031": 2,
+    "rationale": "Plumbing is hands-on physical work. AI may assist with diagnostics or code lookup, but installation and repair require physical skill."
   },
   {
     "slug": "podiatrists",
@@ -1538,8 +1538,8 @@
   {
     "slug": "political-scientists",
     "title": "Political scientists",
-    "digital_exposure_2031": 7,
-    "rationale": "Data analysis, policy research, literature synthesis, and report writing are heavily digital tasks AI agents handle well. Political scientists retain value in interpretive analysis, institutional knowledge, and advisory roles requiring political judgment."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously conduct survey analysis, literature reviews, policy modeling, report generation, and data-driven political analysis. With AI research tools fully mature by 2026, the diffusion trajectory reaches near-full automation of routine political research by 2031. Human political scientists focus on novel theoretical frameworks and strategic policy advisory."
   },
   {
     "slug": "postal-service-workers",
@@ -1550,14 +1550,14 @@
   {
     "slug": "postsecondary-education-administrators",
     "title": "Postsecondary education administrators",
-    "digital_exposure_2031": 6,
-    "rationale": "Enrollment management, financial aid processing, compliance reporting, and data analysis are digital tasks heavily automated by AI. Administrators retain strategic planning, stakeholder relations, and institutional leadership roles."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI agents handle enrollment processing, financial aid analysis, scheduling, reporting, and student communications autonomously. With 92% of students using AI and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine higher education administration by 2031. Administrators focus on strategic planning, stakeholder relations, and complex policy judgment."
   },
   {
     "slug": "postsecondary-teachers",
     "title": "Postsecondary teachers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI tutoring systems handle content delivery, grading, and research assistance. Professors retain value in mentoring, original research, seminar facilitation, and advancing knowledge at the frontier, but course delivery is transformed."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles grading, content delivery, research synthesis, course material development, and student assessment autonomously. With 92% of students using AI in 2026 and AI tutoring showing 2x learning gains, the diffusion trajectory fundamentally restructures higher education by 2031. Professors focus on mentoring, research leadership, and advanced seminar instruction, but faculty-to-student ratios change dramatically."
   },
   {
     "slug": "power-plant-operators-distributors-and-dispatchers",
@@ -1568,8 +1568,8 @@
   {
     "slug": "preschool-and-childcare-center-directors",
     "title": "Preschool and childcare center directors",
-    "digital_exposure_2031": 4,
-    "rationale": "Administrative tasks like budgeting and enrollment are aided by AI. However, managing staff caring for young children, ensuring safety, parent relationships, and regulatory compliance require significant human presence and judgment."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles licensing compliance, scheduling, parent communications, budgeting, and enrollment management autonomously. With enterprise AI at 88% adoption, the diffusion trajectory automates most administrative childcare management by 2031. Directors focus on child safety, staff management, and family relationships."
   },
   {
     "slug": "preschool-teachers",
@@ -1580,38 +1580,38 @@
   {
     "slug": "private-detectives-and-investigators",
     "title": "Private detectives and investigators",
-    "digital_exposure_2031": 6,
-    "rationale": "Background checks, digital surveillance, and records research are digital tasks AI handles well. However, physical surveillance, witness interviews, and undercover investigations require human presence and judgment."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles background checks, surveillance analysis, database research, social media monitoring, and report generation autonomously. With enterprise AI at 88% adoption and data analysis tools mature, the diffusion trajectory automates most desk-based investigative work by 2031. Physical surveillance, witness interviews, and undercover work remain human."
   },
   {
     "slug": "probation-officers-and-correctional-treatment-specialists",
     "title": "Probation officers and correctional treatment specialists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI assists with risk assessment, case documentation, and compliance monitoring. However, face-to-face supervision, counseling offenders, and making judgment calls about community safety require human interpersonal skills and authority."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles risk assessment, case documentation, caseload management, compliance monitoring, and report generation. With enterprise AI at 88% adoption and criminal justice AI tools advancing, the diffusion trajectory automates most administrative probation work by 2031. Officers focus on in-person supervision, counseling, and court testimony."
   },
   {
     "slug": "producers-and-directors",
     "title": "Producers and directors",
-    "digital_exposure_2031": 6,
-    "rationale": "AI handles script analysis, scheduling, budgeting, and some post-production tasks. However, creative vision, on-set direction of performers, and managing the complex human dynamics of production retain strong human value."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI assists with script analysis, budgeting, scheduling, post-production editing, and content optimization. With 90% of content creators using AI in 2026 and AI video generation advancing rapidly, the diffusion trajectory automates significant production support work by 2031. Creative vision, talent management, and live direction remain human, but production teams shrink."
   },
   {
     "slug": "project-management-specialists",
     "title": "Project management specialists",
-    "digital_exposure_2031": 7,
-    "rationale": "Scheduling, tracking, reporting, risk analysis, and documentation are heavily automated by AI agents. Project managers retain stakeholder management, team leadership, complex problem resolution, and strategic decision-making roles."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle project tracking, scheduling, resource allocation, status reporting, risk monitoring, and stakeholder communications. With enterprise AI at 88% adoption in 2026 and Gartner predicting 40% of enterprise apps featuring AI agents by 2026, the diffusion trajectory reaches near-full automation of routine PM work by 2031. Project managers focus on strategic stakeholder relationships and complex organizational change."
   },
   {
     "slug": "appraisers-and-assessors-of-real-estate",
     "title": "Property appraisers and assessors",
-    "digital_exposure_2031": 7,
-    "rationale": "Comparable sales analysis, valuation modeling, and report generation are digital tasks AI handles efficiently. Human appraisers retain physical property inspections and complex valuation judgment, but routine appraisals are largely automated."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates comparative market analyses, property valuations, and assessment reports from data with high accuracy. With financial services and real estate technology advancing rapidly, the diffusion trajectory reaches near-full automation of routine property valuation by 2031. Appraisers focus on physical property inspection and judgment on unique or complex properties."
   },
   {
     "slug": "property-real-estate-and-community-association-managers",
     "title": "Property, real estate, and community association managers",
-    "digital_exposure_2031": 5,
-    "rationale": "Financial reporting, tenant communication, and maintenance scheduling are automated by AI. However, physical property inspections, tenant relations, vendor management, and on-site problem resolution require human presence."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles lease management, tenant communications, financial reporting, maintenance scheduling, and compliance monitoring autonomously. With enterprise AI at 88% adoption and real estate technology advancing, the diffusion trajectory automates most administrative property management by 2031. Managers focus on property inspections, complex tenant relations, and negotiations."
   },
   {
     "slug": "psychiatric-technicians-and-aides",
@@ -1622,32 +1622,32 @@
   {
     "slug": "psychologists",
     "title": "Psychologists",
-    "digital_exposure_2031": 4,
-    "rationale": "AI assists with assessment scoring, research analysis, and treatment documentation. However, therapy sessions, psychological assessment, and clinical judgment about human mental health require deep interpersonal skills and human presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles assessment scoring, research analysis, report generation, treatment planning suggestions, and literature review autonomously. With healthcare AI at 79% adoption and clinical decision support advancing, the diffusion trajectory automates most analytical psychology work by 2031. Clinical psychology's therapeutic relationship, complex diagnostic judgment, and in-person treatment remain inherently human."
   },
   {
     "slug": "public-relations-managers",
     "title": "Public relations and fundraising managers",
-    "digital_exposure_2031": 7,
-    "rationale": "Media monitoring, content creation, analytics, and communications drafting are heavily automated by AI. Managers retain strategic messaging, crisis management, relationship building, and organizational reputation stewardship."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle media monitoring, press release drafting, social media management, crisis communication analysis, and campaign performance reporting. With 90% of content marketers using AI in 2026, the diffusion trajectory reaches near-full automation of routine PR operations by 2031. PR managers focus on strategic counsel, crisis leadership, and key stakeholder relationships."
   },
   {
     "slug": "public-relations-specialists",
     "title": "Public relations specialists",
-    "digital_exposure_2031": 8,
-    "rationale": "Press release writing, media monitoring, content creation, and campaign analytics are digital tasks AI agents handle autonomously. Human PR specialists focus on media relationships, crisis communication, and strategic messaging."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously draft communications, monitor media, analyze sentiment, manage routine outreach, and produce campaign analytics. With 90% of content marketers using AI daily in 2026 and content generation among the most mature AI capabilities, the diffusion trajectory reaches near-full automation of routine PR operations by 2031. Specialists focus on strategic relationship building and crisis communication."
   },
   {
     "slug": "police-fire-and-ambulance-dispatchers",
     "title": "Public safety telecommunicators",
-    "digital_exposure_2031": 6,
-    "rationale": "AI handles call routing, location identification, and resource allocation increasingly well. However, managing emergency callers under stress, making split-second priority decisions, and coordinating multi-agency responses retain critical human roles."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI agents handle call routing, resource allocation, priority assessment, and routine dispatch coordination autonomously. With customer service AI at 90%+ resolution rates and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of routine dispatch operations by 2031. Human dispatchers manage complex multi-agency emergencies and provide critical real-time guidance."
   },
   {
     "slug": "purchasing-managers-buyers-and-purchasing-agents",
     "title": "Purchasing managers, buyers, and purchasing agents",
-    "digital_exposure_2031": 7,
-    "rationale": "Supplier research, bid analysis, contract processing, and inventory management are digital tasks AI handles autonomously. Human buyers focus on strategic supplier relationships, complex negotiations, and novel procurement decisions."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle vendor evaluation, price comparison, order processing, contract management, and procurement optimization. With enterprise AI at 88% adoption and supply chain AI among the top use cases, the diffusion trajectory reaches near-full automation of routine procurement by 2031. Buyers focus on strategic sourcing and complex supplier negotiations."
   },
   {
     "slug": "quality-control-inspectors",
@@ -1664,8 +1664,8 @@
   {
     "slug": "radiologic-technologists",
     "title": "Radiologic and MRI technologists",
-    "digital_exposure_2031": 4,
-    "rationale": "Positioning patients and operating imaging equipment are physical tasks. AI significantly aids image interpretation and quality assessment, but the hands-on operation of radiologic equipment and patient interaction remain human."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI significantly aids image interpretation, quality assessment, and reporting for radiology and MRI. With healthcare AI at 79% adoption and medical imaging AI among the most mature clinical AI applications, the diffusion trajectory automates much analytical radiology work by 2031. Patient positioning and equipment operation remain physical."
   },
   {
     "slug": "railroad-occupations",
@@ -1676,14 +1676,14 @@
   {
     "slug": "real-estate-brokers-and-sales-agents",
     "title": "Real estate brokers and sales agents",
-    "digital_exposure_2031": 6,
-    "rationale": "Property search, market analysis, listing preparation, and contract drafting are digital tasks AI handles well. Agents retain value in showing properties, negotiating deals, and guiding clients through complex transactions."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles market analysis, property matching, document preparation, marketing, virtual staging, and lead qualification autonomously. With enterprise AI at 88% adoption and real estate technology advancing, the diffusion trajectory reaches near-full automation of routine real estate operations by 2031. Agents focus on property showings, negotiation, and client relationships."
   },
   {
     "slug": "receptionists",
     "title": "Receptionists",
-    "digital_exposure_2031": 7,
-    "rationale": "Call routing, scheduling, visitor management, and information provision are digital tasks AI handles efficiently. However, physical front-desk presence and in-person greeting remain valued in many settings, moderating full automation."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents handle phone answering, appointment scheduling, visitor management, information provision, and routine inquiries across all channels autonomously. With virtual receptionist technology already mature in 2026 and enterprise AI adoption at 88%, the diffusion trajectory eliminates most receptionist positions by 2031. Remaining roles exist only at premium organizations valuing human presence as a luxury differentiator."
   },
   {
     "slug": "recreation-workers",
@@ -1700,14 +1700,14 @@
   {
     "slug": "registered-nurses",
     "title": "Registered nurses",
-    "digital_exposure_2031": 4,
-    "rationale": "Bedside care, medication administration, patient assessment, and clinical procedures are hands-on duties. AI automates charting, care coordination, and clinical decision support, but physical nursing care and patient relationships remain firmly human."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI automates charting, clinical documentation, medication management, care coordination, and clinical decision support. With 100% of health systems using AI scribes in 2026 and 69.5% admin time reduction documented, the diffusion trajectory makes AI documentation standard across all nursing workflows by 2031. Clinical judgment, physical patient care, and emotional support remain firmly human, but nurses' information processing burden is dramatically reduced."
   },
   {
     "slug": "rehabilitation-counselors",
     "title": "Rehabilitation counselors",
-    "digital_exposure_2031": 4,
-    "rationale": "AI assists with assessment tools, resource databases, and documentation. However, counseling individuals with disabilities, developing rehabilitation plans through personal interaction, and advocacy require deep human empathy and judgment."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles assessment tools, treatment planning, resource matching, progress tracking, and documentation autonomously. With enterprise AI at 88% adoption and healthcare AI at 79%, the diffusion trajectory automates most administrative rehabilitation counseling work by 2031. Counselors focus on client relationships, motivation, and complex service coordination."
   },
   {
     "slug": "respiratory-therapists",
@@ -1719,7 +1719,7 @@
     "slug": "retail-sales-workers",
     "title": "Retail sales workers",
     "digital_exposure_2031": 3,
-    "rationale": "Assisting customers, stocking shelves, and operating registers are physical and interpersonal tasks. E-commerce and AI reduce some retail positions, but in-store sales requiring product demonstration and customer service persist."
+    "rationale": "Physical store presence, customer interaction, stocking, and merchandising dominate. AI assists with product knowledge and inventory queries."
   },
   {
     "slug": "roofers",
@@ -1730,32 +1730,32 @@
   {
     "slug": "sales-engineers",
     "title": "Sales engineers",
-    "digital_exposure_2031": 7,
-    "rationale": "Technical presentations, proposal development, and product configuration are digital tasks AI handles well. However, client relationships, understanding complex technical needs, and on-site demonstrations retain strong human value."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate technical proposals, product configurations, ROI analyses, presentation materials, and solution architectures. With technology firms as first-movers in AI adoption and enterprise AI at 88%, the diffusion trajectory reaches near-full automation of routine technical sales support by 2031. Sales engineers focus on complex client consultations requiring deep domain expertise."
   },
   {
     "slug": "sales-managers",
     "title": "Sales managers",
-    "digital_exposure_2031": 7,
-    "rationale": "Sales analytics, forecasting, territory planning, and CRM management are heavily automated. Managers retain team leadership, strategic account development, complex negotiations, and motivating sales teams."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously handle pipeline analysis, forecasting, performance reporting, lead scoring, and territory optimization. With CRM platforms embedding AI agents by 2026 and enterprise AI at 88% adoption, the diffusion trajectory reaches near-full automation of sales operations by 2031. Managers focus on strategic planning, team coaching, and key account relationships with leaner teams."
   },
   {
     "slug": "school-and-career-counselors",
     "title": "School and career counselors and advisors",
-    "digital_exposure_2031": 5,
-    "rationale": "AI provides career assessments, college matching, and information resources. However, counseling students through personal challenges, crisis intervention, and building trusting relationships with families require human empathy and presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles college research, career matching, administrative tasks, scheduling, and data analytics autonomously. With 92% of students using AI and enterprise AI at 88% adoption, the diffusion trajectory automates most administrative counseling tasks by 2031. Counselors focus on student mental health, crisis intervention, and relationship-based guidance."
   },
   {
     "slug": "secretaries-and-administrative-assistants",
     "title": "Secretaries and administrative assistants",
-    "digital_exposure_2031": 9,
-    "rationale": "Scheduling, correspondence, document preparation, filing, and data entry are routine digital tasks AI agents handle autonomously by 2031. Only executive assistants managing complex interpersonal logistics for senior leaders retain significant roles."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents autonomously handle scheduling, email management, document preparation, travel booking, correspondence, and meeting coordination. With 88% enterprise AI adoption in 2026 and IBM cutting ~8,000 HR/admin roles, the diffusion trajectory eliminates most administrative assistant positions by 2031. Remaining roles exist in legacy organizations or for C-suite executives requiring human judgment and discretion."
   },
   {
     "slug": "securities-commodities-and-financial-services-sales-agents",
     "title": "Securities, commodities, and financial services sales agents",
-    "digital_exposure_2031": 7,
-    "rationale": "Market analysis, portfolio construction, and trade execution are heavily automated. Agents retain value in client relationships, complex financial planning, and trust-based advisory, but routine sales and trading roles shrink."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate trade recommendations, portfolio analyses, market reports, and client communications. With financial services leading AI adoption at 19.6% market share and AI agents already operating in prediction markets, the diffusion trajectory reaches near-full automation of routine securities analysis and trading by 2031. Agents focus on high-net-worth client relationships."
   },
   {
     "slug": "security-guards",
@@ -1772,8 +1772,8 @@
   {
     "slug": "set-and-exhibit-designers",
     "title": "Set and exhibit designers",
-    "digital_exposure_2031": 6,
-    "rationale": "AI generates 3D renderings, design concepts, and technical drawings. However, physical construction oversight, spatial understanding from being on-site, and creative vision for experiential spaces retain human value."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates design concepts, 3D renderings, technical specifications, and construction drawings autonomously. With AI design tools mature and content creation at 90% AI usage in 2026, the diffusion trajectory reaches near-full automation of design production by 2031. Designers focus on creative vision and physical construction oversight."
   },
   {
     "slug": "sheet-metal-workers",
@@ -1796,32 +1796,32 @@
   {
     "slug": "social-and-community-service-managers",
     "title": "Social and community service managers",
-    "digital_exposure_2031": 5,
-    "rationale": "Grant writing, program evaluation, reporting, and budgeting are aided by AI. However, community relationships, staff supervision, crisis management, and navigating complex social service systems require human leadership and judgment."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles grant reporting, program analytics, case management systems, outcome measurement, and resource allocation autonomously. With enterprise AI at 88% adoption, the diffusion trajectory automates most administrative social service management by 2031. Managers focus on community relationships, staff leadership, and strategic service design."
   },
   {
     "slug": "social-and-human-service-assistants",
     "title": "Social and human service assistants",
-    "digital_exposure_2031": 4,
-    "rationale": "AI assists with client intake, resource databases, and case documentation. However, direct client support, home visits, and connecting vulnerable populations with services require human empathy and physical presence."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles intake documentation, resource databases, case tracking, and referral coordination. With enterprise AI at 88% adoption and social service technology advancing, the diffusion trajectory automates most administrative casework by 2031. Assistants focus on in-person client support and community outreach."
   },
   {
     "slug": "social-workers",
     "title": "Social workers",
-    "digital_exposure_2031": 4,
-    "rationale": "AI aids with case documentation, risk assessment tools, and resource matching. However, crisis intervention, home visits, therapeutic relationships, and navigating complex family dynamics require deep human judgment and interpersonal skills."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI handles case documentation, resource matching, assessment tools, compliance reporting, and referral coordination autonomously. With enterprise AI at 88% adoption, the diffusion trajectory automates most administrative social work by 2031. Direct client relationships, crisis intervention, home visits, and therapeutic rapport remain firmly human."
   },
   {
     "slug": "sociologists",
     "title": "Sociologists",
-    "digital_exposure_2031": 7,
-    "rationale": "Data analysis, survey processing, literature synthesis, and report writing are heavily digital tasks AI agents handle well. Sociologists retain value in research design, theoretical interpretation, and understanding complex social phenomena."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously conduct data analysis, literature reviews, survey design, statistical modeling, and report generation. With AI research tools fully mature by 2026, the diffusion trajectory reaches near-full automation of routine sociological research tasks by 2031. Human sociologists focus on novel research questions, fieldwork, and original theoretical interpretation."
   },
   {
     "slug": "software-developers",
     "title": "Software developers, quality assurance analysts, and testers",
-    "digital_exposure_2031": 8,
-    "rationale": "AI agents write, test, and deploy code for well-understood domains autonomously by 2031. Senior architects and developers handling novel system design, complex debugging, and strategic technical decisions remain, but junior coding roles are largely automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents write 80%+ of production code, handle testing, debugging, CI/CD pipelines, and documentation autonomously. With 84% of developers using AI tools by 2026 and SWE-bench performance doubling every 18 months, the diffusion trajectory reaches near-full autonomous code generation for well-understood domains by 2031. Senior architects remain for system design and novel problem-solving, but junior developer roles are largely eliminated."
   },
   {
     "slug": "solar-photovoltaic-installers",
@@ -1832,14 +1832,14 @@
   {
     "slug": "special-education-teachers",
     "title": "Special education teachers",
-    "digital_exposure_2031": 4,
-    "rationale": "AI assists with IEP documentation and personalized learning content. However, working with students with disabilities requires intensive hands-on support, behavioral management, and deep interpersonal care that remains firmly human."
+    "digital_exposure_2031": 6,
+    "rationale": "By 2031, AI assists with IEP documentation, progress monitoring, differentiated content, and adaptive learning for students with disabilities. With AI tutoring showing 2x learning gains and teacher AI usage at 83%, the diffusion trajectory makes AI-integrated special education standard by 2031. Teachers focus on individualized behavioral and social support \u2014 but administrative burden is dramatically reduced."
   },
   {
     "slug": "multimedia-artists-and-animators",
     "title": "Special effects artists and animators",
-    "digital_exposure_2031": 8,
-    "rationale": "AI generates animations, visual effects, and 3D models at high quality by 2031. Senior artists retain creative direction and novel artistic vision, but production animation and effects work is heavily automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI generates animations, visual effects, 3D models, and motion graphics from prompts with increasing quality. With AI image/video generation advancing rapidly and 90% of content creators using AI tools in 2026, the diffusion trajectory reaches near-full automation of production VFX work by 2031. Human artists focus on creative direction and high-end artistic vision."
   },
   {
     "slug": "speech-language-pathologists",
@@ -1868,14 +1868,14 @@
   {
     "slug": "survey-researchers",
     "title": "Survey researchers",
-    "digital_exposure_2031": 8,
-    "rationale": "Survey design, data collection, statistical analysis, and report generation are heavily digital tasks AI agents handle autonomously. Human researchers focus on novel methodology, complex interpretation, and stakeholder communication."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents design surveys, analyze responses, generate reports, and produce statistical analyses autonomously. Human researchers focus on complex methodology decisions and strategic interpretation."
   },
   {
     "slug": "surveying-and-mapping-technicians",
     "title": "Surveying and mapping technicians",
-    "digital_exposure_2031": 5,
-    "rationale": "Field measurements and equipment operation are physical tasks. However, data processing, map production, and GIS analysis are digital tasks increasingly automated by AI, creating a balanced exposure profile."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles data processing, map generation, calculations, and GIS analysis autonomously. With AI spatial analysis tools mature by 2026, the diffusion trajectory automates most office-based surveying and mapping work by 2031. Technicians focus on physical field surveying and equipment operation."
   },
   {
     "slug": "surveyors",
@@ -1886,8 +1886,8 @@
   {
     "slug": "tax-examiners-and-collectors-and-revenue-agents",
     "title": "Tax examiners and collectors, and revenue agents",
-    "digital_exposure_2031": 8,
-    "rationale": "Tax return review, compliance checking, and assessment calculations are heavily digital tasks AI automates. Human agents focus on complex audits, fraud investigations, and taxpayer disputes requiring judgment."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI agents fully automate tax return analysis, discrepancy identification, assessment calculation, and routine correspondence. With 95% of accountants using automation for payroll/AP in 2026 and tax preparation among the earliest AI use cases, the diffusion trajectory reaches complete automation of standard tax examination by 2031. Human examiners handle only complex audits and enforcement actions."
   },
   {
     "slug": "taxi-drivers-and-chauffeurs",
@@ -1898,14 +1898,14 @@
   {
     "slug": "teacher-assistants",
     "title": "Teacher assistants",
-    "digital_exposure_2031": 4,
-    "rationale": "AI handles some tutoring, grading, and instructional support. However, teacher assistants provide physical supervision, hands-on student support, and behavioral management that require human presence, especially with younger students."
+    "digital_exposure_2031": 5,
+    "rationale": "By 2031, AI handles some tutoring, grading, instructional support, and administrative tasks for classrooms. With 92% of students using AI and AI tutoring showing 2x gains, the diffusion trajectory automates many support functions by 2031. Teacher assistants retain physical supervision, hands-on student support, and behavioral management, especially with younger students."
   },
   {
     "slug": "technical-writers",
     "title": "Technical writers",
     "digital_exposure_2031": 9,
-    "rationale": "Documentation production, user guides, API references, and technical manuals are heavily digital tasks AI agents produce autonomously by 2031. Human technical writers focus on complex system documentation, editorial oversight, and information architecture."
+    "rationale": "AI generates technical documentation, user guides, API references, and release notes from source material. Human technical writers focus on complex information architecture and editorial judgment."
   },
   {
     "slug": "telecommunications-equipment-installers-and-repairers-except-line-installers",
@@ -1916,14 +1916,14 @@
   {
     "slug": "tellers",
     "title": "Tellers",
-    "digital_exposure_2031": 8,
-    "rationale": "Processing deposits, withdrawals, and account inquiries are routine transactions increasingly handled by ATMs and digital banking. Remaining tellers handle complex transactions and in-person customer service, but the role shrinks dramatically."
+    "digital_exposure_2031": 10,
+    "rationale": "By 2031, AI and digital banking automate the vast majority of routine transactions, account inquiries, and customer service. With bank branch consolidation accelerating since 2020 and AI chatbots handling most customer interactions, the diffusion trajectory eliminates most teller positions by 2031. Remaining tellers exist only in legacy branch formats."
   },
   {
     "slug": "top-executives",
     "title": "Top executives",
-    "digital_exposure_2031": 5,
-    "rationale": "AI provides comprehensive analytics, report generation, and decision support. However, organizational leadership, stakeholder management, strategic vision, board relations, and navigating complex human dynamics are deeply human executive functions."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI provides comprehensive business intelligence, scenario modeling, decision support, competitive analysis, and strategic recommendations. With enterprise AI at 88% adoption and 92% of companies increasing AI investment, the diffusion trajectory gives executives dramatically more AI-powered analytical capability by 2031. Strategic vision, stakeholder relationships, and organizational leadership remain human, but executives manage with much leaner analytical support teams."
   },
   {
     "slug": "tour-and-travel-guides",
@@ -1934,32 +1934,32 @@
   {
     "slug": "training-and-development-managers",
     "title": "Training and development managers",
-    "digital_exposure_2031": 7,
-    "rationale": "AI generates training content, conducts needs assessments, and tracks learning outcomes. Managers retain strategic workforce development planning, organizational change facilitation, and leadership development roles."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI generates training content, tracks learning analytics, personalizes development programs, and measures program effectiveness autonomously. With enterprise AI at 88% adoption and AI tutoring showing 2x learning gains, the diffusion trajectory reaches near-full automation of routine training management by 2031. Managers focus on strategic workforce development and organizational change leadership."
   },
   {
     "slug": "training-and-development-specialists",
     "title": "Training and development specialists",
-    "digital_exposure_2031": 7,
-    "rationale": "AI creates training materials, e-learning modules, and assessments autonomously. Human specialists focus on facilitation, executive coaching, and designing programs for complex organizational change."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously generate training materials, deliver personalized instruction, assess competency, and track development analytics. With enterprise AI at 88% adoption and AI tutoring showing 2x learning gains in 2025 Harvard studies, the diffusion trajectory reaches near-full automation of routine training delivery by 2031. Specialists focus on facilitation of complex organizational programs."
   },
   {
     "slug": "transportation-storage-and-distribution-managers",
     "title": "Transportation, storage, and distribution managers",
-    "digital_exposure_2031": 6,
-    "rationale": "Route optimization, inventory management, and logistics analytics are heavily automated by AI. Managers retain strategic planning, vendor relationships, and managing physical warehouse and transportation operations."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI handles route optimization, fleet scheduling, inventory tracking, logistics analytics, and demand forecasting autonomously. With enterprise AI at 88% adoption and supply chain AI among the top use cases, the diffusion trajectory reaches near-full automation of routine transportation management by 2031. Managers focus on strategic decisions and exception handling."
   },
   {
     "slug": "travel-agents",
     "title": "Travel agents",
-    "digital_exposure_2031": 8,
-    "rationale": "Itinerary planning, booking, price comparison, and travel documentation are digital tasks AI handles autonomously. Human agents retain value for complex multi-destination trips, luxury travel consulting, and handling disruptions, but routine bookings are automated."
+    "digital_exposure_2031": 9,
+    "rationale": "AI agents handle itinerary planning, booking, pricing optimization, and routine customer queries autonomously. Remaining human agents focus on complex luxury or group travel requiring personal expertise."
   },
   {
     "slug": "tutors",
     "title": "Tutors",
-    "digital_exposure_2031": 7,
-    "rationale": "AI tutoring systems deliver personalized instruction, practice problems, and explanations effectively by 2031. Human tutors retain value for motivational coaching, complex conceptual breakthroughs, and test preparation for high-stakes exams."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI tutoring systems handle most content delivery, practice, and adaptive personalization with demonstrated effectiveness. With Harvard 2025 studies showing 2x learning gains from AI tutors and 92% of students using AI by 2026, the diffusion trajectory makes AI tutoring the default mode by 2031. Human tutors focus on motivation, complex conceptual coaching, and learning disability support."
   },
   {
     "slug": "umpires-referees-and-other-sports-officials",
@@ -1970,8 +1970,8 @@
   {
     "slug": "urban-and-regional-planners",
     "title": "Urban and regional planners",
-    "digital_exposure_2031": 7,
-    "rationale": "Data analysis, GIS mapping, zoning review, and report writing are digital tasks AI handles well. Planners retain community engagement, public hearing facilitation, and complex policy balancing roles, but analytical productivity increases dramatically."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI agents autonomously conduct demographic analyses, generate zoning recommendations, model traffic patterns, produce planning reports, and analyze environmental impacts. With GIS/AI tools fully integrated by 2026, the diffusion trajectory reaches near-full automation of routine planning analysis by 2031. Human planners focus on community engagement, political negotiation, and complex policy judgment."
   },
   {
     "slug": "veterinarians",
@@ -1988,8 +1988,8 @@
   {
     "slug": "veterinary-technologists-and-technicians",
     "title": "Veterinary technologists and technicians",
-    "digital_exposure_2031": 2,
-    "rationale": "Assisting with animal procedures, collecting samples, administering medications, and providing animal care are hands-on clinical tasks. AI assists with records and lab analysis, but physical work dominates."
+    "digital_exposure_2031": 3,
+    "rationale": "Most work involves physical animal handling, specimen collection, and assisting in procedures. AI helps with record-keeping and lab result interpretation, but hands-on clinical work dominates."
   },
   {
     "slug": "waiters-and-waitresses",
@@ -2013,7 +2013,7 @@
     "slug": "web-developers",
     "title": "Web developers and digital designers",
     "digital_exposure_2031": 9,
-    "rationale": "AI agents build, deploy, and maintain standard websites and web applications autonomously by 2031. Human developers focus on complex interactive applications, novel UX challenges, and system architecture, but routine web development is largely automated."
+    "rationale": "By 2031, AI generates websites, web applications, and digital designs from specifications with production quality. With AI coding tools at 84% developer adoption in 2026 and multi-agent systems shipping features end-to-end, the diffusion trajectory reaches near-full automation of routine web development by 2031. Human developers focus on complex custom applications and UX innovation."
   },
   {
     "slug": "welders-cutters-solderers-and-brazers",
@@ -2024,31 +2024,31 @@
   {
     "slug": "wholesale-and-manufacturing-sales-representatives",
     "title": "Wholesale and manufacturing sales representatives",
-    "digital_exposure_2031": 7,
-    "rationale": "Product information, pricing analysis, order processing, and client communication are digital tasks AI handles efficiently. Human reps retain value in relationship-driven B2B sales, complex negotiations, and key account management."
+    "digital_exposure_2031": 8,
+    "rationale": "By 2031, AI agents handle product research, pricing analysis, proposal generation, order processing, and CRM management autonomously. With enterprise AI at 88% adoption and sales AI tools mature, the diffusion trajectory reaches near-full automation of routine sales support by 2031. Reps focus on relationship selling and complex negotiations."
   },
   {
     "slug": "wind-turbine-technicians",
     "title": "Wind turbine technicians",
-    "digital_exposure_2031": 1,
-    "rationale": "Climbing turbines, inspecting components, and performing repairs at height are physical, hazardous tasks. AI aids with predictive maintenance scheduling, but hands-on repair remains entirely human."
+    "digital_exposure_2031": 2,
+    "rationale": "Physical installation and repair of wind turbines at height. AI assists with diagnostics and maintenance scheduling but cannot replace the physical climbing and repair work."
   },
   {
     "slug": "woodworkers",
     "title": "Woodworkers",
-    "digital_exposure_2031": 1,
-    "rationale": "Cutting, shaping, and assembling wood products using hand and power tools is physical skilled work. CNC programming aids some production, but manual woodworking remains human."
+    "digital_exposure_2031": 2,
+    "rationale": "Physical craftsmanship dominates. AI may assist with design and CNC programming, but hands-on woodworking requires physical skill."
   },
   {
     "slug": "writers-and-authors",
     "title": "Writers and authors",
-    "digital_exposure_2031": 8,
-    "rationale": "AI generates articles, marketing copy, reports, and even creative fiction by 2031. Human writers retain value for literary voice, investigative journalism, and deeply personal creative work, but commercial content production is heavily automated."
+    "digital_exposure_2031": 9,
+    "rationale": "By 2031, AI generates first drafts, marketing copy, technical content, social media, and routine business writing autonomously. With 34% of Americans already using AI writing tools in 2026 (58% under-30), the diffusion trajectory puts routine content production at near-full AI capability by 2031. Human writers focus on creative voice, complex narrative, and distinctive perspective \u2014 but the volume of human-written content shrinks dramatically."
   },
   {
     "slug": "zoologists-and-wildlife-biologists",
     "title": "Zoologists and wildlife biologists",
-    "digital_exposure_2031": 5,
-    "rationale": "AI assists with data analysis, species identification, and literature review. However, fieldwork\u2014observing wildlife, collecting specimens, and conducting ecological surveys in natural habitats\u2014requires physical human presence."
+    "digital_exposure_2031": 7,
+    "rationale": "By 2031, AI handles population modeling, data analysis, report generation, species identification from imagery, and literature synthesis autonomously. With environmental AI tools advancing and enterprise AI at 88% adoption, the diffusion trajectory automates most analytical biology work by 2031. Biologists focus on fieldwork, conservation strategy, and novel research interpretation."
   }
 ]

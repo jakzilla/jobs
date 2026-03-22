@@ -4,66 +4,93 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Global AI Impact — Extrapolated from US Data</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --bg: #0a0a0f;
-  --bg2: #12121a;
-  --fg: #e0e0e8;
-  --fg2: #888894;
-  --border: rgba(255,255,255,0.1);
-  --border-subtle: rgba(255,255,255,0.06);
-  --surface: rgba(255,255,255,0.04);
-  --surface-active: rgba(255,255,255,0.08);
-  --surface-active-border: rgba(255,255,255,0.2);
-  --panel-bg: rgba(255,255,255,0.02);
-  --panel-border: rgba(255,255,255,0.06);
-  --card-bg: rgba(0,0,0,0.25);
-  --card-border: rgba(255,255,255,0.05);
-  --callout-bg: rgba(255,200,60,0.04);
-  --callout-border: rgba(255,200,60,0.3);
+  --bg: #131318;
+  --bg2: #1b1b20;
+  --fg: #e4e1e9;
+  --fg2: #938f99;
+  --border: rgba(64,74,59,0.15);
+  --border-subtle: rgba(64,74,59,0.08);
+  --surface: #1f1f25;
+  --surface-active: #35343a;
+  --surface-active-border: rgba(126,220,110,0.3);
+  --panel-bg: rgba(31,31,37,0.6);
+  --panel-border: rgba(64,74,59,0.1);
+  --card-bg: #0e0e13;
+  --card-border: transparent;
+  --callout-bg: rgba(255,186,67,0.06);
+  --callout-border: rgba(255,186,67,0.2);
   --danger-bg: rgba(255,60,60,0.06);
   --danger-border: rgba(255,60,60,0.3);
   --ok-bg: rgba(60,200,120,0.06);
   --ok-border: rgba(60,200,120,0.3);
 }
 :root.light {
-  --bg: #f5f5f7;
+  --bg: #f4f3f7;
   --bg2: #ffffff;
-  --fg: #1d1d1f;
-  --fg2: #6e6e73;
-  --border: rgba(0,0,0,0.12);
-  --border-subtle: rgba(0,0,0,0.06);
-  --surface: rgba(0,0,0,0.03);
-  --surface-active: rgba(0,0,0,0.06);
-  --surface-active-border: rgba(0,0,0,0.2);
-  --panel-bg: rgba(0,0,0,0.02);
-  --panel-border: rgba(0,0,0,0.08);
-  --card-bg: rgba(0,0,0,0.03);
-  --card-border: rgba(0,0,0,0.06);
-  --callout-bg: rgba(255,180,0,0.06);
-  --callout-border: rgba(200,150,0,0.4);
+  --fg: #1b1b20;
+  --fg2: #5e5c66;
+  --border: rgba(27,27,32,0.08);
+  --border-subtle: rgba(27,27,32,0.04);
+  --surface: #eae8ef;
+  --surface-active: #d5d3dc;
+  --surface-active-border: rgba(6,110,10,0.3);
+  --panel-bg: rgba(240,238,245,0.7);
+  --panel-border: rgba(27,27,32,0.06);
+  --card-bg: #d5d3dc;
+  --card-border: transparent;
+  --callout-bg: rgba(218,150,0,0.08);
+  --callout-border: rgba(218,150,0,0.3);
   --danger-bg: rgba(255,60,60,0.04);
   --danger-border: rgba(220,50,50,0.3);
   --ok-bg: rgba(40,180,100,0.05);
   --ok-border: rgba(40,180,100,0.3);
 }
 
-body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+body { background: var(--bg); color: var(--fg); font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
 
-#wrapper { max-width: 960px; width: 100%; margin: 0 auto; padding: 20px 28px 120px; }
+#wrapper { max-width: 1400px; width: 100%; margin: 0 auto; padding-bottom: 120px; }
+#header { padding: 24px 28px 16px; }
+#content { max-width: 960px; padding: 0 28px; margin: 0 auto; }
 
-nav { display: flex; gap: 4px; margin-bottom: 24px; }
-nav a {
+nav { display: flex; gap: 6px; margin-bottom: 16px; }
+.nav-link {
   padding: 8px 18px; font-size: 13px; font-weight: 500; text-decoration: none;
-  border: 1px solid var(--border); border-radius: 4px; color: var(--fg2); transition: all 0.15s;
+  border: none; border-radius: 12px; color: var(--fg2); transition: all 0.2s ease;
 }
-nav a:hover { background: var(--surface); }
-nav a.active { background: var(--surface-active); color: var(--fg); border-color: var(--surface-active-border); }
+.nav-link.active { background: var(--surface-active); color: var(--fg); font-weight: 600; }
+.nav-link:not(.active):hover { background: var(--surface); color: var(--fg); }
 
-h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-h1 button { font-size: 16px; background: none; border: 1px solid var(--border); border-radius: 4px; padding: 4px 10px; cursor: pointer; color: var(--fg2); line-height: 1; }
+.top-bar {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;
+}
+.top-bar-right {
+  display: flex; align-items: center; gap: 12px;
+}
+.github-link {
+  font-size: 13px; font-weight: 500; color: var(--fg2); text-decoration: none;
+  padding: 8px 16px; border-radius: 12px; background: var(--surface); transition: all 0.2s ease;
+}
+.github-link:hover { background: var(--surface-active); color: var(--fg); }
+
+/* Toggle switch */
+.theme-switch { position: relative; display: inline-block; width: 52px; height: 28px; cursor: pointer; }
+.theme-switch input { opacity: 0; width: 0; height: 0; }
+.theme-slider { position: absolute; inset: 0; background: #35343a; border-radius: 28px; transition: background 0.3s; display: flex; align-items: center; justify-content: space-between; padding: 0 6px; }
+.theme-slider::after { content: ''; position: absolute; left: 3px; top: 3px; width: 22px; height: 22px; border-radius: 50%; background: #e4e1e9; transition: transform 0.3s, background 0.3s; z-index: 2; }
+.theme-switch input:checked + .theme-slider { background: #c8c4d0; }
+.theme-switch input:checked + .theme-slider::after { transform: translateX(24px); background: #1b1b20; }
+.theme-icon { font-size: 13px; z-index: 1; line-height: 1; }
+.theme-icon.sun { color: #ffba43; }
+.theme-icon.moon { color: #bfcab7; }
+.theme-switch input:checked + .theme-slider .sun { color: #1b1b20; }
+.theme-switch input:checked + .theme-slider .moon { color: #6e6e73; }
+
+h1 { font-size: 42px; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 12px; line-height: 1.05; }
 
 .subtitle { font-size: 15px; line-height: 1.6; color: var(--fg2); margin-bottom: 24px; }
 .subtitle b, .subtitle strong { color: var(--fg); font-weight: 600; }
@@ -119,17 +146,34 @@ td.ok { color: #3cb878; font-weight: 600; }
 <body>
 
 <div id="wrapper">
+<div id="header">
+<div class="top-bar">
+  <nav style="display:flex;gap:6px;">
+    <a href="index.html" class="nav-link">Context</a>
+    <a href="treemap.html" class="nav-link">US Treemap</a>
+    <a href="global.html" class="nav-link active">Global Impact</a>
+  </nav>
+  <div class="top-bar-right">
+    <a href="https://github.com/jakzilla/jobs" class="github-link">GitHub</a>
+    <label class="theme-switch" title="Toggle light/dark mode">
+      <input type="checkbox" id="themeCheckbox" onchange="toggleTheme()">
+      <span class="theme-slider">
+        <span class="theme-icon sun">&#9728;</span>
+        <span class="theme-icon moon">&#9789;</span>
+      </span>
+    </label>
+  </div>
+</div>
 
-<nav>
-  <a href="index.html">US Treemap</a>
-  <a href="global.html" class="active">Global Impact</a>
-</nav>
+</div>
+<div id="content">
+<h1>Global AI Impact</h1>
+<div class="callout callout-warn" style="margin-bottom:20px;"><b>Scope:</b> This page analyses only the <b>international fallout from changes at US companies</b> &mdash; the jobs outside America that are affected when American firms automate, restructure, or cancel outsourcing contracts. It does <em>not</em> attempt to score or quantify the impact of AI on these countries' domestic economies, local technology adoption, or non-US-linked employment. The actual total impact on each country will be significantly larger than what is described here.</div>
 
-<h1>Global AI Impact <button id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9789;</button></h1>
-<p class="subtitle">The US data scores 342 occupations for AI exposure across four axes and three time horizons. But the consequences extend far beyond American borders. Many of the occupations most exposed to AI &mdash; customer service, data entry, software development, content moderation, manufacturing assembly &mdash; are <b>disproportionately outsourced to developing economies</b> where they represent a much larger share of GDP, employment, and export revenue than they do in the US. This page extrapolates from the US scoring data to assess which countries face the most severe consequences.</p>
+<p class="subtitle">The US data scores 342 occupations for AI exposure across four axes and three time horizons. Many of the occupations most exposed &mdash; customer service, data entry, software development, content moderation, manufacturing assembly &mdash; are <b>disproportionately outsourced to developing economies</b> where they represent a much larger share of GDP, employment, and export revenue than they do in the US. When US companies adopt AI and reduce headcount in these roles, the job losses fall not on American workers but on the offshore workforces that perform these tasks under contract. This page extrapolates from the US scoring data to assess which countries face the most severe consequences from that dynamic alone.</p>
 
 <h2>The core asymmetry</h2>
-<p>When a US company automates its customer service operation, the American impact is one line item in a $28 trillion economy. When that same automation eliminates the outsourced contract, the impact falls on the Philippines, where BPO represents <b>8&ndash;10% of GDP</b> and employs <b>1.82 million people</b>. The technology is American; the job losses are Filipino. This pattern repeats across every outsourcing relationship.</p>
+<p>When a US company automates its customer service operation, the American impact is one line item in a $28 trillion economy. When that same automation eliminates the outsourced contract, the impact falls on the Philippines, where the entire BPO sector represents <b>8&ndash;10% of GDP</b> ($38.7B in revenue) and employs <b>1.82 million people</b>. Not all of that services US companies&mdash;an estimated <b>60&ndash;70% of Philippine BPO revenue comes from US clients</b>, with the remainder from Australia, Europe, and Asia&mdash;but the US-exposed share alone represents roughly 5&ndash;7% of Philippine GDP. The technology is American; the job losses are Filipino. This pattern repeats across every outsourcing relationship.</p>
 <p>The outsourcing economy was built on a simple arbitrage: tasks that are routine and digital can be performed anywhere, so move them to where labour is cheapest. But "routine and digital" is precisely the profile that scores highest on our digital AI exposure axis. <b>The very characteristics that made work offshorable are the same characteristics that make it automatable.</b> The countries that benefited most from the first wave of globalisation are the most exposed to AI precisely because they specialised in the work AI is best at replacing.</p>
 
 <h2>Mapping US scores to outsourced work</h2>
@@ -140,20 +184,20 @@ td.ok { color: #3cb878; font-weight: 600; }
 <tr><th>Outsourced work category</th><th>US composite 2028</th><th>US composite 2031</th><th>US composite 2036</th><th>Primary destinations</th></tr>
 </thead>
 <tbody>
-<tr><td>Call centres / customer service</td><td class="danger">8.1&ndash;8.4</td><td class="danger">9.0&ndash;10</td><td class="danger">9.9&ndash;10</td><td>Philippines, India, South Africa, Pakistan, Egypt</td></tr>
-<tr><td>Data entry / records processing</td><td class="danger">8.3&ndash;10</td><td class="danger">9.0&ndash;10</td><td class="danger">9.9&ndash;10</td><td>India, Philippines, Kenya, Pakistan</td></tr>
+<tr><td>Call centres / customer service</td><td class="danger">8.1</td><td class="danger">9.0</td><td class="danger">9.9</td><td>Philippines, India, South Africa, Pakistan, Egypt</td></tr>
+<tr><td>Data entry / records processing</td><td class="danger">9.0&ndash;10</td><td class="danger">9.0&ndash;10</td><td class="danger">9.9&ndash;10</td><td>India, Philippines, Kenya, Pakistan</td></tr>
 <tr><td>Medical transcription</td><td class="danger">10</td><td class="danger">10</td><td class="danger">10</td><td>India, Philippines</td></tr>
-<tr><td>Content moderation / data labelling</td><td class="danger">8.0&ndash;9.0</td><td class="danger">8.8&ndash;9.3</td><td class="danger">9.5&ndash;10</td><td>Kenya, Philippines, India, Sub-Saharan Africa</td></tr>
-<tr><td>Back-office finance &amp; accounting</td><td class="warn">5.9&ndash;8.8</td><td class="warn">5.9&ndash;8.8</td><td class="danger">7.5&ndash;9.7</td><td>India, Philippines, Poland, Costa Rica</td></tr>
-<tr><td>Translation / localisation</td><td class="danger">7.8</td><td class="danger">7.8</td><td class="danger">7.8</td><td>India, Philippines, Eastern Europe, East Asia</td></tr>
-<tr><td>Legal process outsourcing</td><td class="warn">6.7</td><td class="danger">7.5</td><td class="danger">7.5</td><td>India, South Africa, Philippines</td></tr>
-<tr><td>Software development / IT services</td><td class="warn">6.3&ndash;7.5</td><td class="warn">6.3&ndash;7.5</td><td class="danger">7.2&ndash;8.4</td><td>India, Ukraine, Poland, Romania, Philippines</td></tr>
-<tr><td>Garment manufacturing</td><td class="warn">6.1&ndash;7.8</td><td class="danger">6.9&ndash;8.8</td><td class="danger">8.2&ndash;9.7</td><td>Bangladesh, Vietnam, Cambodia, Myanmar, Ethiopia</td></tr>
-<tr><td>Electronics / general assembly</td><td class="danger">7.8</td><td class="danger">8.8</td><td class="danger">9.7</td><td>China, Vietnam, Mexico, Thailand, Indonesia</td></tr>
+<tr><td>Content moderation / data labelling</td><td class="warn">6.2</td><td class="danger">7.1</td><td class="danger">7.9</td><td>Kenya, Philippines, India, Sub-Saharan Africa</td></tr>
+<tr><td>Back-office finance &amp; accounting</td><td class="warn">5.9&ndash;9.3</td><td class="warn">6.7&ndash;9.3</td><td class="danger">7.5&ndash;10</td><td>India, Philippines, Poland, Costa Rica</td></tr>
+<tr><td>Translation / localisation</td><td class="danger">7.8</td><td class="danger">7.8</td><td class="danger">8.6</td><td>India, Philippines, Eastern Europe, East Asia</td></tr>
+<tr><td>Legal process outsourcing</td><td class="warn">6.7</td><td class="danger">7.5</td><td class="danger">8.3</td><td>India, South Africa, Philippines</td></tr>
+<tr><td>Software development / IT services</td><td class="warn">6.3&ndash;7.2</td><td class="danger">7.2&ndash;8.1</td><td class="danger">7.2&ndash;8.1</td><td>India, Ukraine, Poland, Romania, Philippines</td></tr>
+<tr><td>Garment manufacturing</td><td class="warn">6.1&ndash;7.5</td><td class="warn">6.1&ndash;7.5</td><td class="danger">7.5&ndash;8.5</td><td>Bangladesh, Vietnam, Cambodia, Myanmar, Ethiopia</td></tr>
+<tr><td>Electronics / general assembly</td><td class="danger">7.5</td><td class="danger">7.5</td><td class="danger">8.5</td><td>China, Vietnam, Mexico, Thailand, Indonesia</td></tr>
 </tbody>
 </table>
 
-<div class="callout callout-danger"><b>Almost every major outsourcing category scores 7+ by 2031.</b> The exceptions are software development (moderated by strong demand elasticity of +3) and some back-office finance work (where advisory roles survive). By 2036, there are no exceptions &mdash; every outsourced work category hits the high-impact zone.</div>
+<div class="callout callout-danger"><b>Most outsourced work categories score 7+ by 2031.</b> The exceptions are some advisory-level back-office finance roles (accountants at 6.7) and lower-end garment manufacturing (where physical automation is slower). By 2036, even these gaps close &mdash; every outsourced work category hits the high-impact zone.</div>
 
 <h2>Country-by-country analysis</h2>
 
@@ -161,11 +205,11 @@ td.ok { color: #3cb878; font-weight: 600; }
 <h3>Philippines <span class="score-pill pill-critical">Critical exposure</span></h3>
 <div class="country-meta">
 <span><b>BPO revenue:</b> $38.7B (2024)</span>
-<span><b>GDP share:</b> 8&ndash;10%</span>
-<span><b>BPO workers:</b> 1.82M</span>
+<span><b>GDP share:</b> 8&ndash;10% (total BPO); ~5&ndash;7% US-exposed</span>
+<span><b>BPO workers:</b> 1.82M (est. 1.1&ndash;1.3M US-facing)</span>
 </div>
-<p>The Philippines is the country most exposed to AI disruption anywhere in the world. Its economy has been reshaped around a single bet: that voice-based customer service for American companies would remain human-delivered indefinitely. That bet is failing. Customer service scores <b>8.1 composite in 2028, rising to 9.9 by 2036</b>. The call centre is the occupation equivalent of a buggy whip factory.</p>
-<p>The numbers are staggering. BPO contributes nearly a tenth of Philippine GDP and employs 1.82 million people directly, with millions more in support roles (housing, food, transport for BPO workers). The government's IT-BPM roadmap targets $59 billion in revenue and 2.5 million workers by 2028 &mdash; projections made before AI customer service agents became commercially viable. Those targets now look like an economic plan premised on a world that no longer exists.</p>
+<p>The Philippines is the country most exposed to AI disruption from US companies anywhere in the world. Its economy has been reshaped around a single bet: that voice-based customer service for American companies would remain human-delivered indefinitely. That bet is failing. Customer service scores <b>8.1 composite in 2028, rising to 9.0 by 2031 and 9.9 by 2036</b>. An estimated 60&ndash;70% of Philippine BPO revenue comes from US clients, meaning roughly 1.1&ndash;1.3 million workers are directly exposed to US automation decisions.</p>
+<p>Even this US-only slice is staggering. It represents 5&ndash;7% of Philippine GDP and employs more people than most Philippine industries. The government's IT-BPM roadmap targets $59 billion in revenue and 2.5 million workers by 2028 &mdash; projections made before AI customer service agents became commercially viable. Those targets now look like an economic plan premised on a world that no longer exists. And this analysis excludes the additional disruption that would come from non-US clients (Australian, European, Asian firms) making similar automation decisions independently.</p>
 <p>The Philippines also handles significant volumes of <b>medical transcription</b> (composite: 10 at all horizons), <b>financial and accounting back-office work</b> (composite: 5.9&ndash;9.7), and <b>content moderation</b> (composite: 8+). Each of these faces the same trajectory. The country's entire outsourcing stack is in the AI blast zone.</p>
 <div class="callout callout-danger"><b>Why this matters beyond jobs:</b> The Philippines is the world's 4th-largest recipient of remittances ($38B/year), but BPO has become a larger economic engine than overseas worker remittances. The BPO sector supports a growing middle class, real estate development in Metro Manila and regional hubs, and tertiary education enrolment. Its contraction would propagate through the entire Philippine economy in ways that pure employment numbers understate.</div>
 </div>
@@ -173,11 +217,11 @@ td.ok { color: #3cb878; font-weight: 600; }
 <div class="country-card">
 <h3>India <span class="score-pill pill-critical">Critical exposure</span></h3>
 <div class="country-meta">
-<span><b>IT-BPM revenue:</b> $254B (FY24)</span>
-<span><b>GDP share:</b> 7.5%</span>
-<span><b>IT-BPM workers:</b> 5.4M</span>
+<span><b>IT-BPM revenue:</b> $254B (FY24; est. ~60% US-client-exposed)</span>
+<span><b>GDP share:</b> 7.5% (total IT-BPM); ~4&ndash;5% US-exposed</span>
+<span><b>IT-BPM workers:</b> 5.4M (est. 3&ndash;3.5M US-facing)</span>
 </div>
-<p>India's exposure is enormous in absolute terms but more diversified than the Philippines. The IT-BPM sector employs 5.4 million people and generates $254 billion in revenue, but India's $3.7 trillion economy has more absorptive capacity. The critical question is <b>which segments of India's IT-BPM industry are exposed, and which are not</b>.</p>
+<p>India's exposure from US firms alone is enormous in absolute terms but more diversified than the Philippines. The IT-BPM sector employs 5.4 million people and generates $254 billion in revenue. An estimated 60% of revenue comes from US clients (North America is the dominant market for Indian IT services), meaning roughly 3&ndash;3.5 million workers are directly exposed to US automation decisions. India's $3.7 trillion economy has more absorptive capacity, but the concentration in specific cities makes the local impact severe. The critical question is <b>which segments of India's US-facing IT-BPM industry are exposed, and which are not</b>.</p>
 <p>The most vulnerable segment is <b>traditional BPO</b> (call centres, data entry, back-office processing) &mdash; approximately 4 million workers handling tasks that score 8&ndash;10 on composite by 2031. India commands over 30% of the global outsourced BPM market. This work is disappearing.</p>
 <p>The IT services segment (software development, systems integration, consulting) is more complex. Software development scores <b>6.3 composite in 2028 rising to 7.2 by 2036</b>, but this is moderated by demand elasticity of +3. The total volume of software work may grow even as AI replaces junior coding roles. India's 5.5 million IT professionals and 1.5 million annual engineering graduates are well-positioned to <b>adapt</b> rather than be displaced &mdash; if they retool toward AI-augmented development, oversight, and system architecture. The Indian IT firms that successfully pivot to AI-native service delivery will survive; those that continue selling labour hours for routine coding will not.</p>
 <p>India also dominates <b>legal process outsourcing</b> (61% of global LPO, composite rising from 6.7 to 7.5) and handles a significant share of global <b>F&amp;A outsourcing</b> (194,400 FAO employees, composite 5.9&ndash;9.7 depending on role). India's medical transcription workforce processes hundreds of millions of files annually for US hospitals &mdash; that work scores 10/10 at every horizon.</p>
@@ -290,9 +334,23 @@ td.ok { color: #3cb878; font-weight: 600; }
 <p><b>3. The beneficiaries and the displaced are in different countries.</b> When American factories automated in the 1960s&ndash;80s, the productivity gains and the job losses were in the same economy. The tax revenue from higher productivity could fund transition support. When AI automates outsourced work, the productivity gains accrue to US companies and their shareholders while the job losses fall on countries that have no claim on those gains and no seat at the policy table.</p>
 <div class="callout callout-danger"><b>The structural challenge:</b> There is no international institution equipped to manage a transition of this scale and speed. The WTO, ILO, and World Bank were designed for a world where trade created winners and losers within a broadly positive-sum game. AI-driven automation of outsourced work is not positive-sum for the outsourcing destinations &mdash; it is a transfer of economic activity from human labour in developing countries to AI capital in wealthy countries. The policy frameworks to address this do not yet exist.</div>
 
+<h2>What this page does not cover</h2>
+<p>Everything above describes only the ripple effects of <b>US companies changing their employment patterns</b>. The full picture is considerably larger, and harder to quantify.</p>
+
+<p><b>Domestic AI adoption within these countries.</b> India, China, and increasingly the Philippines, Vietnam, and Nigeria are developing their own AI industries. As local companies adopt AI tools &mdash; whether built domestically or imported &mdash; they will automate domestic-facing work too: local banking, local customer service, local government administration. These effects are entirely separate from the US outsourcing channel and will compound on top of it. A Filipino bank automating its own call centre has nothing to do with American firms, but the displaced worker faces the same outcome.</p>
+
+<p><b>Second-order economic effects.</b> BPO and manufacturing hubs don't exist in isolation. Around every call centre in Manila or garment factory in Dhaka there is an ecosystem: the lunch vendors, the transport operators, the landlords, the tutors, the retail workers serving BPO salaries. When the primary employment contracts, these secondary economies contract too. The 1.82 million BPO workers in the Philippines support millions more in adjacent services. These multiplier effects are real but essentially impossible to score from US occupation data.</p>
+
+<p><b>Education pipeline mismatches.</b> Countries like India produce 1.5 million engineering graduates per year, many of them trained specifically for IT outsourcing roles. The Philippines' education system increasingly feeds into BPO. If these employment destinations shrink faster than education systems can redirect, the result is structural youth unemployment at scale &mdash; a problem with social and political consequences well beyond the economic.</p>
+
+<p><b>Geopolitical and migration effects.</b> Large-scale employment disruption in developing economies historically drives migration pressure, political instability, and shifts in trade relationships. If Bangladesh's garment sector contracts before alternatives emerge, or if the Philippines' BPO sector halves within a decade, the downstream effects on regional stability, migration flows, and international development trajectories are substantial &mdash; but far outside the scope of an occupation-level AI exposure model.</p>
+
+<div class="callout callout-warn"><b>The honest summary:</b> This page captures the most direct and quantifiable channel &mdash; US firms automating outsourced work &mdash; and even that channel alone is severe enough to warrant serious policy attention. The full impact of AI on these economies, including domestic adoption, multiplier effects, education mismatches, and geopolitical consequences, will be materially larger. We do not attempt to quantify it because the uncertainty compounds too quickly, but the direction is unambiguous.</div>
+
 <p style="margin-top: 32px; font-size: 12px; color: var(--fg2);">Data sources: BLS Occupational Outlook Handbook (US scores), IBPAP/Everest Group (Philippines BPO), NASSCOM (India IT-BPM), ILO/Brookings (Africa digital labour), World Bank/IMF (country economic data), Grand View Research (global outsourcing market). All US composite scores are from this project's multi-axis scoring of 342 occupations. Country-level statistics are from industry reports and government sources as of 2024&ndash;2025. See the <a href="https://github.com/jakzilla/jobs" style="color:var(--fg2);">GitHub repository</a> for methodology and scoring details.</p>
 
-</div>
+</div><!-- /content -->
+</div><!-- /wrapper -->
 
 <script>
 function isLight() { return document.documentElement.classList.contains("light"); }
@@ -300,11 +358,11 @@ function toggleTheme() {
   document.documentElement.classList.toggle("light");
   const light = isLight();
   localStorage.setItem("theme", light ? "light" : "dark");
-  document.getElementById("themeToggle").textContent = light ? "\u2600" : "\u263D";
+  document.getElementById("themeCheckbox").checked = light;
 }
 if (localStorage.getItem("theme") === "light") {
   document.documentElement.classList.add("light");
-  document.getElementById("themeToggle").textContent = "\u2600";
+  document.getElementById("themeCheckbox").checked = true;
 }
 </script>
 </body>

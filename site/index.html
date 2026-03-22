@@ -3,1318 +3,480 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>US Job Market Visualizer — Multi-Axis AI Exposure</title>
+<title>US Job Market Visualizer — Context</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --bg: #0a0a0f;
-  --bg2: #12121a;
-  --fg: #e0e0e8;
-  --fg2: #888894;
-  --border: rgba(255,255,255,0.1);
-  --border-subtle: rgba(255,255,255,0.06);
-  --surface: rgba(255,255,255,0.04);
-  --surface-hover: rgba(255,255,255,0.08);
-  --surface-active: rgba(255,255,255,0.08);
-  --surface-active-border: rgba(255,255,255,0.2);
-  --slider-track: rgba(255,255,255,0.1);
-  --tooltip-bg: #12121a;
-  --tooltip-border: rgba(255,255,255,0.12);
-  --tooltip-shadow: rgba(0,0,0,0.6);
-  --panel-bg: rgba(255,255,255,0.02);
-  --panel-border: rgba(255,255,255,0.06);
-  --card-bg: rgba(0,0,0,0.25);
-  --card-border: rgba(255,255,255,0.05);
-  --callout-bg: rgba(255,200,60,0.04);
-  --callout-border: rgba(255,200,60,0.3);
-  --tile-text: rgba(255,255,255,0.85);
-  --tile-text-hover: #fff;
-  --tile-sub: rgba(255,255,255,0.5);
-  --bar-bg: rgba(255,255,255,0.08);
-  --hbar-track: rgba(255,255,255,0.04);
-  --stroke-hover: #fff;
-  --canvas-bg: #0a0a0f;
+  --bg: #131318;
+  --bg2: #1b1b20;
+  --fg: #e4e1e9;
+  --fg2: #938f99;
+  --border: rgba(64,74,59,0.15);
+  --border-subtle: rgba(64,74,59,0.08);
+  --surface: #1f1f25;
+  --surface-hover: #2a292f;
+  --surface-active: #35343a;
+  --surface-active-border: rgba(126,220,110,0.3);
+  --slider-track: rgba(228,225,233,0.1);
+  --tooltip-bg: rgba(31,31,37,0.6);
+  --tooltip-border: rgba(64,74,59,0.1);
+  --tooltip-shadow: rgba(0,0,0,0.4);
+  --panel-bg: rgba(31,31,37,0.6);
+  --panel-border: rgba(64,74,59,0.1);
+  --card-bg: #0e0e13;
+  --card-border: transparent;
+  --callout-bg: rgba(255,186,67,0.06);
+  --callout-border: rgba(255,186,67,0.2);
+  --tile-text: rgba(228,225,233,0.85);
+  --tile-text-hover: #e4e1e9;
+  --tile-sub: rgba(228,225,233,0.5);
+  --bar-bg: #35343a;
+  --hbar-track: #1f1f25;
+  --stroke-hover: #e4e1e9;
+  --canvas-bg: #131318;
+  --accent: #7edc6e;
+  --accent-dim: #48a43e;
+  --accent-secondary: #ffba43;
+  --accent-tertiary: #ffb59e;
 }
 :root.light {
-  --bg: #f5f5f7;
+  --bg: #f4f3f7;
   --bg2: #ffffff;
-  --fg: #1d1d1f;
-  --fg2: #6e6e73;
-  --border: rgba(0,0,0,0.12);
-  --border-subtle: rgba(0,0,0,0.06);
-  --surface: rgba(0,0,0,0.03);
-  --surface-hover: rgba(0,0,0,0.05);
-  --surface-active: rgba(0,0,0,0.06);
-  --surface-active-border: rgba(0,0,0,0.2);
-  --slider-track: rgba(0,0,0,0.12);
-  --tooltip-bg: #ffffff;
-  --tooltip-border: rgba(0,0,0,0.12);
-  --tooltip-shadow: rgba(0,0,0,0.15);
-  --panel-bg: rgba(0,0,0,0.02);
-  --panel-border: rgba(0,0,0,0.08);
-  --card-bg: rgba(0,0,0,0.03);
-  --card-border: rgba(0,0,0,0.06);
-  --callout-bg: rgba(255,180,0,0.06);
-  --callout-border: rgba(200,150,0,0.4);
-  --tile-text: rgba(0,0,0,0.8);
-  --tile-text-hover: #000;
-  --tile-sub: rgba(0,0,0,0.5);
-  --bar-bg: rgba(0,0,0,0.08);
-  --hbar-track: rgba(0,0,0,0.05);
-  --stroke-hover: #000;
-  --canvas-bg: #f5f5f7;
+  --fg: #1b1b20;
+  --fg2: #5e5c66;
+  --border: rgba(27,27,32,0.08);
+  --border-subtle: rgba(27,27,32,0.04);
+  --surface: #eae8ef;
+  --surface-hover: #dfdde6;
+  --surface-active: #d5d3dc;
+  --surface-active-border: rgba(6,110,10,0.3);
+  --slider-track: rgba(27,27,32,0.12);
+  --tooltip-bg: rgba(255,255,255,0.7);
+  --tooltip-border: rgba(27,27,32,0.08);
+  --tooltip-shadow: rgba(0,0,0,0.1);
+  --panel-bg: rgba(240,238,245,0.7);
+  --panel-border: rgba(27,27,32,0.06);
+  --card-bg: #d5d3dc;
+  --card-border: transparent;
+  --callout-bg: rgba(218,150,0,0.08);
+  --callout-border: rgba(218,150,0,0.3);
+  --tile-text: rgba(27,27,32,0.85);
+  --tile-text-hover: #1b1b20;
+  --tile-sub: rgba(27,27,32,0.5);
+  --bar-bg: rgba(27,27,32,0.08);
+  --hbar-track: rgba(27,27,32,0.05);
+  --stroke-hover: #1b1b20;
+  --canvas-bg: #f4f3f7;
+  --accent: #056e0a;
+  --accent-dim: #034d06;
+  --accent-secondary: #7a5900;
+  --accent-tertiary: #842500;
 }
 
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::selection {
+  background: rgba(126,220,110,0.3);
 }
 
 #wrapper {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 250px;
+  padding-bottom: 120px;
 }
 
 #header {
-  padding: 20px 28px 16px;
-  flex-shrink: 0;
+  padding: 24px 28px 16px;
 }
 
-.intro {
-  margin-bottom: 18px;
+#content {
+  max-width: 960px;
+  padding: 0 28px;
+  margin: 0 auto;
 }
-.intro h1 {
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 12px;
+
+.top-bar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
+  margin-bottom: 24px;
 }
-.intro h1 a {
-  font-size: 13px;
-  font-weight: 400;
-  color: var(--fg2);
-  text-decoration: none;
-}
-.intro h1 a:hover { text-decoration: underline; }
-.intro p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: var(--fg2);
-  margin-bottom: 8px;
-}
-.intro a { color: var(--fg2); }
-.intro strong, .intro b { color: var(--fg); font-weight: 600; }
-
-.stats-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px 28px;
-  align-items: flex-start;
-  margin-bottom: 12px;
-}
-
-.stat-section {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-.stat-section h3 {
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--fg2);
-}
-.stat-big {
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1;
-}
-.stat-label {
-  font-size: 11px;
-  color: var(--fg2);
-}
-
-.tier-bar { display: flex; flex-direction: column; gap: 3px; }
-.tier-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
-.tier-color { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-.tier-name { flex: 1; color: var(--fg2); white-space: nowrap; }
-.tier-jobs { text-align: right; white-space: nowrap; }
-.tier-pct { text-align: right; width: 30px; color: var(--fg2); font-size: 11px; }
-
-.histogram { display: flex; align-items: flex-end; gap: 2px; height: 54px; }
-.histogram .bar { flex: 1; border-radius: 1px 1px 0 0; min-height: 1px; }
-.hist-labels { display: flex; justify-content: space-between; font-size: 10px; color: var(--fg2); margin-top: 2px; }
-
-.hbar-chart { display: flex; flex-direction: column; gap: 3px; }
-.hbar-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
-.hbar-label { width: 72px; flex-shrink: 0; color: var(--fg2); font-size: 11px; text-align: right; }
-.hbar-track { flex: 1; height: 12px; background: var(--hbar-track); border-radius: 2px; overflow: hidden; min-width: 36px; }
-.hbar-fill { height: 100%; border-radius: 2px; }
-.hbar-val { width: 30px; flex-shrink: 0; font-size: 11px; color: var(--fg); text-align: right; }
-
-.controls-row {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin-bottom: 14px;
-}
-
-.color-toggle {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-.color-toggle button {
-  padding: 6px 14px;
-  font-size: 12px;
-  font-weight: 500;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  background: transparent;
-  color: var(--fg2);
-  cursor: pointer;
-  transition: all 0.15s;
-}
-.color-toggle button.active {
-  background: var(--surface-active);
-  color: var(--fg);
-  border-color: var(--surface-active-border);
-}
-.color-toggle button:hover:not(.active) {
-  background: var(--surface);
-}
-
-.gradient-legend {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 11px;
-  color: var(--fg2);
-}
-.gradient-legend canvas { border-radius: 2px; }
-
-/* Timeline year tabs */
-.timeline-container {
+.top-bar-right {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 14px;
 }
-.timeline-container.disabled {
-  opacity: 0.3;
-  pointer-events: none;
-}
-.timeline-label {
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+.github-link {
+  font-size: 13px;
+  font-weight: 500;
   color: var(--fg2);
-  white-space: nowrap;
-}
-.year-tabs {
-  display: flex;
-  gap: 0;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1px solid var(--border);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 12px;
   background: var(--surface);
+  transition: all 0.2s ease;
 }
-.year-tab {
-  padding: 10px 28px;
-  font-size: 16px;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -0.01em;
-  color: var(--fg2);
-  cursor: pointer;
-  border: none;
-  background: transparent;
-  transition: all 0.15s;
-  position: relative;
-  font-family: inherit;
-}
-.year-tab:not(:last-child) {
-  border-right: 1px solid var(--border);
-}
-.year-tab:hover {
+.github-link:hover {
   background: var(--surface-hover);
   color: var(--fg);
 }
-.year-tab.active {
-  background: #5a9cf5;
-  color: #fff;
-  font-weight: 800;
+
+/* Toggle switch */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+  cursor: pointer;
 }
-:root.light .year-tab.active {
-  background: #2563eb;
-  color: #fff;
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.theme-slider {
+  position: absolute;
+  inset: 0;
+  background: #35343a;
+  border-radius: 28px;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+}
+.theme-slider::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #e4e1e9;
+  transition: transform 0.3s, background 0.3s;
+  z-index: 2;
+}
+.theme-switch input:checked + .theme-slider {
+  background: #c8c4d0;
+}
+.theme-switch input:checked + .theme-slider::after {
+  transform: translateX(24px);
+  background: #1b1b20;
+}
+.theme-icon {
+  font-size: 13px;
+  z-index: 1;
+  line-height: 1;
+}
+.theme-icon.sun { color: #ffba43; }
+.theme-icon.moon { color: #bfcab7; }
+.theme-switch input:checked + .theme-slider .sun { color: #1b1b20; }
+.theme-switch input:checked + .theme-slider .moon { color: #6e6e73; }
+
+/* Nav */
+.nav-link {
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+.nav-link.active {
+  color: var(--fg);
+  background: var(--surface);
+  font-weight: 600;
+}
+.nav-link:not(.active) {
+  color: var(--fg2);
+}
+.nav-link:not(.active):hover {
+  background: var(--surface);
+  color: var(--fg);
 }
 
-/* Analysis panel */
-.analysis-panel {
-  margin: 16px 0 20px;
-  padding: 16px 20px;
-  background: var(--panel-bg);
-  border: 1px solid var(--panel-border);
-  border-radius: 8px;
+/* Page title */
+.page-title {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin-bottom: 12px;
+  color: var(--fg);
+}
+.page-subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--fg2);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+/* Sections */
+.section {
+  margin-top: 56px;
+}
+.section h2 {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--fg);
+}
+.section p {
   font-size: 14px;
+  line-height: 1.7;
+  color: var(--fg2);
+  margin-bottom: 16px;
+}
+.section p:last-child {
+  margin-bottom: 0;
+}
+.section strong, .section b {
+  color: var(--fg);
+  font-weight: 600;
+}
+.section a {
+  color: var(--fg2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.section a:hover {
+  color: var(--fg);
+}
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+.section ul li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--fg2);
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+}
+.section ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-secondary);
+  opacity: 0.6;
+}
+.section ul li strong {
+  color: var(--fg);
+}
+
+/* Callout */
+.callout {
+  border-left: 3px solid var(--callout-border);
+  background: var(--callout-bg);
+  padding: 16px 20px;
+  margin: 24px 0;
+  border-radius: 0 8px 8px 0;
+}
+.callout p {
+  font-size: 13px;
   line-height: 1.65;
   color: var(--fg2);
+  margin-bottom: 0;
 }
-.analysis-panel h2 {
-  font-size: 16px;
-  font-weight: 600;
+.callout strong {
   color: var(--fg);
-  margin-bottom: 10px;
-  letter-spacing: -0.01em;
-}
-.analysis-panel p {
-  margin-bottom: 10px;
-}
-.analysis-panel strong, .analysis-panel b { color: var(--fg); font-weight: 600; }
-.analysis-panel .insight-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 12px;
-  margin-top: 12px;
-}
-.analysis-panel .insight-card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 6px;
-  padding: 12px 14px;
-}
-.analysis-panel .insight-card .ic-label {
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--fg2);
-  margin-bottom: 4px;
-}
-.analysis-panel .insight-card .ic-value {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--fg);
-  letter-spacing: -0.02em;
-}
-.analysis-panel .insight-card .ic-detail {
-  font-size: 11px;
-  color: var(--fg2);
-  margin-top: 2px;
-}
-.analysis-panel .callout {
-  margin-top: 10px;
-  padding: 10px 14px;
-  background: var(--callout-bg);
-  border-left: 3px solid var(--callout-border);
-  border-radius: 0 4px 4px 0;
-  font-size: 13px;
-}
-.analysis-panel ul {
-  margin: 6px 0 6px 18px;
-  font-size: 13px;
-}
-.analysis-panel li {
-  margin-bottom: 4px;
 }
 
-canvas#canvas {
-  display: block;
-  cursor: default;
+/* CTA */
+.cta {
+  margin-top: 64px;
+  text-align: center;
+}
+.cta a {
+  display: inline-block;
+  padding: 14px 36px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bg);
+  background: var(--accent);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.cta a:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
 }
 
-#tooltip {
-  position: fixed;
-  pointer-events: none;
-  background: var(--tooltip-bg);
-  border: 1px solid var(--tooltip-border);
-  border-radius: 8px;
-  padding: 12px 16px;
-  font-size: 13px;
-  line-height: 1.5;
-  max-width: 400px;
-  opacity: 0;
-  transition: opacity 0.12s;
-  z-index: 20;
-  box-shadow: 0 8px 32px var(--tooltip-shadow);
+/* Divider */
+.section-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 56px 0 0;
+  border: none;
 }
-#tooltip.visible { opacity: 1; }
-#tooltip .tt-title { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: var(--fg); }
-#tooltip .tt-exposure { font-size: 12px; margin-bottom: 8px; }
-#tooltip .tt-stats { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
-#tooltip .tt-stats .label { color: var(--fg2); }
-#tooltip .tt-stats .value { color: var(--fg); text-align: right; }
-#tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid var(--border-subtle); padding-top: 8px; }
-#tooltip .tt-scores { font-size: 11px; margin-top: 6px; }
-#tooltip .tt-scores .score-row { display: flex; justify-content: space-between; gap: 8px; padding: 1px 0; }
-#tooltip .tt-scores .score-label { color: var(--fg2); }
-#tooltip .tt-scores .score-val { color: var(--fg); font-weight: 500; }
+
+@media (max-width: 600px) {
+  #wrapper { padding: 0 18px 80px; }
+  .page-title { font-size: 30px; }
+  .section h2 { font-size: 22px; }
+  .section { margin-top: 40px; }
+}
 </style>
 </head>
 <body>
 
 <div id="wrapper">
 <div id="header">
-  <nav style="display:flex;gap:4px;margin-bottom:16px;">
-    <a href="index.html" style="padding:8px 18px;font-size:13px;font-weight:500;text-decoration:none;border:1px solid var(--surface-active-border);border-radius:4px;color:var(--fg);background:var(--surface-active);">US Treemap</a>
-    <a href="global.html" style="padding:8px 18px;font-size:13px;font-weight:500;text-decoration:none;border:1px solid var(--border);border-radius:4px;color:var(--fg2);transition:all 0.15s;" onmouseover="this.style.background='var(--surface)'" onmouseout="this.style.background='transparent'">Global Impact</a>
-  </nav>
-  <div class="intro">
-    <h1>US Job Market Visualizer <a href="https://github.com/karpathy/jobs">GitHub</a> <button id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode" style="font-size:16px;background:none;border:1px solid var(--border);border-radius:4px;padding:4px 10px;cursor:pointer;color:var(--fg2);line-height:1;">&#9789;</button></h1>
-    <p>This is a research tool visualizing <b>342 occupations</b> from the <a href="https://www.bls.gov/ooh/">Bureau of Labor Statistics</a>, covering <b>143M jobs</b>. Each rectangle's <b>area</b> = total employment. <b>Color</b> = selected metric. This fork adds <b>4 scoring axes</b> (digital AI exposure, physical/robotics exposure, adoption friction, demand elasticity) across <b>3 time horizons</b> (2028, 2031, 2036), with a composite employment impact score. Drag the timeline slider to watch the treemap shift over time.</p>
-  </div>
-
-  <div class="controls-row">
-    <div class="stat-section">
-      <h3>Metric</h3>
-      <div class="color-toggle" id="colorToggle">
-        <button data-mode="composite" class="active">Composite Impact</button>
-        <button data-mode="digital">Digital AI</button>
-        <button data-mode="physical">Physical AI</button>
-        <button data-mode="friction">Adoption Friction</button>
-        <button data-mode="elasticity">Demand Elasticity</button>
-        <button data-mode="outlook">BLS Outlook</button>
-        <button data-mode="pay">Median Pay</button>
-        <button data-mode="education">Education</button>
-      </div>
-    </div>
-    <div class="gradient-legend">
-      <span id="legendLow">Low</span>
-      <canvas id="gradientLegend" width="80" height="8"></canvas>
-      <span id="legendHigh">High</span>
+  <div class="top-bar">
+    <nav style="display:flex;gap:6px;">
+      <a href="index.html" class="nav-link active">Context</a>
+      <a href="treemap.html" class="nav-link">US Treemap</a>
+      <a href="global.html" class="nav-link">Global Impact</a>
+    </nav>
+    <div class="top-bar-right">
+      <a href="https://github.com/jakzilla/jobs" class="github-link">GitHub</a>
+      <label class="theme-switch" title="Toggle light/dark mode">
+        <input type="checkbox" id="themeCheckbox" onchange="toggleTheme()">
+        <span class="theme-slider">
+          <span class="theme-icon sun">&#9728;</span>
+          <span class="theme-icon moon">&#9789;</span>
+        </span>
+      </label>
     </div>
   </div>
-
-  <div class="timeline-container" id="timelineContainer">
-    <span class="timeline-label">Horizon</span>
-    <div class="year-tabs" id="yearTabs">
-      <button class="year-tab active" data-year="2028">2028</button>
-      <button class="year-tab" data-year="2031">2031</button>
-      <button class="year-tab" data-year="2036">2036</button>
-    </div>
-  </div>
-
-  <div class="stats-row">
-    <div class="stat-section">
-      <h3>Total jobs</h3>
-      <div class="stat-big" id="statTotalJobs">&mdash;</div>
-    </div>
-    <div class="stat-section" id="block2"></div>
-    <div class="stat-section" id="block3"></div>
-    <div class="stat-section" id="block4"></div>
-    <div class="stat-section" id="block5"></div>
-    <div class="stat-section" id="block6"></div>
-    <div class="stat-section" id="block7"></div>
-  </div>
-
-  <div class="analysis-panel" id="analysisPanel"></div>
 </div>
 
-<canvas id="canvas"></canvas>
+<div id="content">
+  <h1 class="page-title">US Job Market Visualizer</h1>
+  <p class="page-subtitle">A research experiment in AI-assisted analysis</p>
+<!-- Section 1: The Original -->
+<div class="section">
+  <h2>The Original</h2>
+  <p>Andrej Karpathy&mdash;former head of AI at Tesla, founding member of OpenAI&mdash;published an open-source project analysing AI's impact on <strong>342 US occupations</strong> from the Bureau of Labor Statistics. He used Claude as a research assistant to score each occupation's exposure to AI on a single 0&ndash;10 axis, creating an interactive treemap where rectangle size represents employment and colour represents AI exposure.</p>
+  <p>The entire project was built with AI assistance. Karpathy created a single <strong>prompt.md</strong> file containing all BLS data and had Claude analyse it. It was a snapshot: one score per occupation, one moment in time, one axis of analysis.</p>
+  <p><a href="https://github.com/karpathy/jobs">View Karpathy's original project</a></p>
 </div>
 
-<div id="tooltip">
-  <div class="tt-title"></div>
-  <div class="tt-exposure"></div>
-  <div class="tt-stats"></div>
-  <div class="tt-scores"></div>
-  <div class="tt-rationale"></div>
+<!-- Section 2: This Fork -->
+<div class="section">
+  <h2>This Fork</h2>
+  <p>This fork extends Karpathy's single-axis model into a <strong>multi-dimensional, time-varying analysis</strong>. Where the original asked "which jobs are exposed to AI?", this fork asks "which jobs will actually be disrupted, when, and what are the downstream consequences?"</p>
+
+  <h3>Why the original model needed extending</h3>
+  <p>Karpathy's model has an explicit design assumption: <em>"if the job can be done entirely from a home office on a computer, AI exposure is inherently high. Conversely, jobs requiring physical presence, manual skill, or real-time human interaction have a natural barrier."</em> Physical work is treated as a <strong>shield</strong> against AI. Roofers score 0, janitors score 1, construction laborers score 0. In Karpathy's framework, these occupations are effectively safe. But the model doesn't score low for physical jobs because it assessed the physical AI threat and found it small&mdash;it scores low because <strong>physical AI is entirely absent from the model</strong>. There is no robotics axis. The only question asked is "how much of this work is digital?"</p>
+  <p>Karpathy published his project on March 14, 2026. Even in the week since, the case for a separate physical AI axis has only strengthened. Tesla went from a person in a robot costume (2022) to converting Fremont production lines to manufacture Optimus humanoid robots (2026) in under four years. They intend to produce millions of units per year. Boston Dynamics, Figure, Agility, and others are on similar trajectories. The moment you ask <em>"what about robots?"</em>, those tens of millions of low-scoring physical jobs face a completely separate threat vector that Karpathy's model has nothing to say about. Warehouse workers, truck drivers, agricultural labourers, factory assemblers, janitors, delivery drivers, cleaners&mdash;they score near zero on digital AI exposure, but they represent <strong>30+ million jobs</strong> that face a distinct disruption.</p>
+  <p>The physical AI timeline in this model uses the <strong>smartphone adoption curve as an analogy</strong>. If 2026 is the iPhone 1 moment for humanoid robots, then by 2036 we reach the iPhone X equivalent. By 2017, smartphones had created entirely new industries (ride-hailing, food delivery, mobile payments), destroyed others (point-and-shoot cameras, paper maps, DVD rental), reached over 2 billion units worldwide, and dropped from luxury pricing to $200&ndash;300 for a capable device. Apply the same trajectory: by 2036, producers like Tesla will be manufacturing millions of humanoid robots per year at commodity pricing ($15&ndash;25K), deployed across warehousing, agriculture, food service, cleaning, delivery, security, and manufacturing.</p>
+  <p>A common mistake&mdash;one this model's own earlier iterations made&mdash;is to assume physical AI develops linearly. It doesn't. The <em>manufacturing</em> scales with production lines, but the <em>intelligence</em> behind the robots scales exponentially, because embodied AI training is increasingly done in simulation. Platforms like Google's Genie, NVIDIA Isaac, and similar tools allow robots to practise tasks millions of times in virtual environments before ever touching the physical world&mdash;effectively giving them an imagination. This means embodied AI can leverage the same exponential compute scaling as digital AI for learning, while physical deployment scales with manufacturing capacity. The result is that each generation of robot is dramatically more capable than the last, not incrementally better.</p>
+  <p>By splitting the score into digital and physical axes, this fork tracks both waves independently. Digital AI moves first and faster. Physical AI follows on a trajectory that is slower to start but accelerating rapidly. The two waves converge by the mid-2030s, creating a period where <em>both</em> knowledge work and physical work face simultaneous disruption.</p>
+  <p>The second limitation is temporal. A single snapshot treats the 2026 job market as a fixed state. But the most important policy question isn't <em>which</em> jobs are exposed&mdash;it's <em>when</em>. An occupation with high exposure but massive regulatory friction (e.g. physicians) has a fundamentally different trajectory from one with high exposure and zero barriers (e.g. data entry clerks). And two occupations with identical automation potential can have opposite employment outcomes depending on whether demand is elastic&mdash;cheaper legal services might mean vastly more legal work&mdash;or fixed&mdash;there are only so many insurance claims to process.</p>
+  <p>These distinctions matter because they change the policy response. A problem arriving in 2028 for clerical workers requires different interventions than one arriving in 2036 for construction trades.</p>
+
+  <h3>What changed</h3>
+  <ul>
+    <li><strong>4 scoring axes</strong> instead of 1: digital AI exposure (screen-based, automatable work), physical/embodied AI exposure (susceptibility to robotics), adoption friction (regulatory, social, and institutional barriers), and demand elasticity (does cheaper work create more demand, or is demand fixed?)</li>
+    <li><strong>3 time horizons</strong> (2028, 2031, 2036) instead of a single snapshot, allowing viewers to see how disruption evolves over time</li>
+    <li><strong>Composite impact score</strong> that weighs all four axes to estimate net employment impact</li>
+    <li><strong>Narrative analysis</strong> for every metric and horizon, grounded in specific data points from the dataset</li>
+    <li><strong>Global impact page</strong> analysing how US company automation decisions cascade into economies that depend on American outsourcing&mdash;Philippines BPO, Indian IT services, Bangladeshi garments, and more</li>
+    <li><strong>Diffusion-calibrated scoring</strong> using actual AI adoption data from March 2026 (McKinsey enterprise surveys, GitHub Copilot adoption statistics, BPO industry revenue data), rather than assuming a simple technology lag</li>
+  </ul>
 </div>
+
+<!-- Section 3: How This Was Built -->
+<div class="section">
+  <h2>How This Was Built</h2>
+  <p>The human behind this fork has <strong>zero coding experience</strong>&mdash;no programming background, no data science training, no web development skills. The entire project was built in a single extended Claude Code session through natural language direction.</p>
+
+  <p><strong>The human's role</strong> was setting direction, asking questions, challenging assumptions, and requesting recalibration. All the judgment calls&mdash;such as "your physical AI scores are too high for 2031" and "you're carving out artificial human niches that humanoid robots would handle"&mdash;came from the human. None of the implementation did.</p>
+
+  <p><strong>The AI agents' role</strong> was execution. Claude Code orchestrated multiple parallel sub-agents to handle different workstreams simultaneously:</p>
+  <ul>
+    <li><strong>8 scoring agents</strong> ran in parallel, each scoring all 342 occupations against a different prompt (digital exposure across 3 horizons, physical exposure across 3 horizons, adoption friction, demand elasticity)&mdash;producing <strong>2,736 individual scores</strong></li>
+    <li><strong>Research agents</strong> gathered real-world data: current AI adoption rates from McKinsey, Gartner, and Stack Overflow surveys; BPO industry statistics; country-level outsourcing dependency data; technology diffusion models</li>
+    <li><strong>Frontend agents</strong> built the interactive treemap, stats dashboard, analysis panels, and design system</li>
+    <li><strong>Analysis agents</strong> wrote narrative commentary grounded in actual computed statistics from the dataset</li>
+  </ul>
+  <p>Multiple rounds of <strong>rescoring</strong> were done when the human identified calibration issues&mdash;overestimating physical AI timelines, underestimating digital AI adoption speed, incorrectly assuming high salaries provide insulation from automation.</p>
+
+  <div class="callout">
+    <p>No code was written by the human at any point. The human's contribution was entirely editorial: <strong>direction, criticism, judgment, and taste</strong>.</p>
+  </div>
+</div>
+
+<!-- Section 4: What This Would Have Required -->
+<div class="section">
+  <h2>What This Would Have Required Without AI</h2>
+  <p>An honest estimate of the traditional resources needed to produce this project:</p>
+  <ul>
+    <li><strong>Research &amp; Data Analysis</strong> &mdash; Scoring 342 occupations across 8 dimensions requires reading each occupation's BLS description, understanding its task composition, and making a calibrated judgment. At roughly 15 minutes per score, 2,736 scores equals approximately 680 hours of analyst time. A team of 2&ndash;3 research analysts working full-time for <strong>4&ndash;6 weeks</strong>.</li>
+    <li><strong>Web Development</strong> &mdash; Building an interactive treemap with canvas rendering, responsive design, multiple metric views, tooltips, and three-page navigation. An experienced frontend developer: <strong>1&ndash;2 weeks</strong>.</li>
+    <li><strong>Data Journalism</strong> &mdash; Writing narrative analysis for each metric and horizon combination (24+ distinct analytical sections), grounded in specific data points. A skilled data journalist: <strong>1&ndash;2 weeks</strong>.</li>
+    <li><strong>Global Impact Research</strong> &mdash; Researching outsourcing dependencies for 15+ countries, gathering BPO statistics, garment industry data, and IT services figures. A research analyst: <strong>1 week</strong>.</li>
+    <li><strong>Design</strong> &mdash; UI/UX design for the dashboard, colour system, and responsive layout. A designer: <strong>3&ndash;5 days</strong>.</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Total traditional estimate:</strong> A team of 5&ndash;6 specialists working for 3&ndash;6 weeks, at a cost of $50,000&ndash;$150,000 in professional services.</p>
+  </div>
+
+  <p>This was done by one person with no technical skills in a single working session, using AI tools that cost less than $100.</p>
+
+  <p>This is not a commentary on the quality comparison&mdash;a human team might produce more nuanced scoring, better-tested code, and more carefully researched analysis. It is a demonstration of what the <strong>leverage ratio</strong> looks like when AI handles execution and humans handle judgment.</p>
+</div>
+
+<!-- Section 5: Methodology & Limitations -->
+<div class="section">
+  <h2>Methodology &amp; Limitations</h2>
+  <p>Transparency about what this is and what it is not:</p>
+  <ul>
+    <li>Scores are generated by an LLM (Claude) analysing BLS occupation descriptions against structured scoring prompts. They are <strong>analytical estimates</strong>, not empirical measurements.</li>
+    <li>The composite formula&mdash;max of digital/physical exposure, modulated by friction and elasticity&mdash;is one reasonable approach among many. Different weightings would produce different rankings.</li>
+    <li>Adoption timeline calibration uses real data (McKinsey surveys, GitHub Copilot statistics, BPO industry figures) but extrapolation from 2026 to 2036 is inherently uncertain.</li>
+    <li>The analysis represents one AI system's interpretation of the data. Different analysts&mdash;human or AI&mdash;would make different judgment calls.</li>
+    <li>The global impact page covers only the US-outsourcing channel. Domestic AI adoption effects in other countries are acknowledged but not quantified.</li>
+  </ul>
+
+  <div class="callout">
+    <p>This is a <strong>research tool for exploring scenarios</strong>, not a prediction engine.</p>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+  <a href="treemap.html">Explore the data &rarr;</a>
+</div>
+
+</div><!-- /content -->
+</div><!-- /wrapper -->
 
 <script>
-
-// ── State ──────────────────────────────────────────────────────────────
-
-let colorMode = "composite";
-let currentYear = 2028;
-let data = [];
-let rects = [];
-let hovered = null;
-
 function isLight() { return document.documentElement.classList.contains("light"); }
 function toggleTheme() {
   document.documentElement.classList.toggle("light");
   const light = isLight();
   localStorage.setItem("theme", light ? "light" : "dark");
-  document.getElementById("themeToggle").textContent = light ? "\u2600" : "\u263D";
-  draw();
+  document.getElementById("themeCheckbox").checked = light;
 }
 // Restore saved theme
 if (localStorage.getItem("theme") === "light") {
   document.documentElement.classList.add("light");
-  document.getElementById("themeToggle").textContent = "\u2600";
+  document.getElementById("themeCheckbox").checked = true;
 }
-
-const TIME_METRICS = ["composite", "digital", "physical"];
-const HORIZONS = [2028, 2031, 2036];
-
-// ── Color scales ────────────────────────────────────────────────────────
-
-function boostContrast(t) {
-  const c = (t - 0.5) * 2;
-  const b = Math.sign(c) * Math.pow(Math.abs(c), 0.55);
-  return b / 2 + 0.5;
-}
-
-function greenRedCSS(t, alpha) {
-  t = boostContrast(Math.max(0, Math.min(1, t)));
-  let r, g, b;
-  if (t < 0.5) {
-    const s = t / 0.5;
-    r = Math.round(30 + s * 200);
-    g = Math.round(180 - s * 20);
-    b = Math.round(40 - s * 20);
-  } else {
-    const s = (t - 0.5) / 0.5;
-    r = Math.round(230 + s * 25);
-    g = Math.round(160 - s * 130);
-    b = Math.round(20 - s * 5);
-  }
-  return `rgba(${r},${g},${b},${alpha})`;
-}
-
-// Red → White → Green for demand elasticity (-5 to +5)
-function elasticityCSS(v, alpha) {
-  if (v == null) return `rgba(128,128,128,${alpha})`;
-  const t = (v + 5) / 10; // 0 = -5 (red), 0.5 = 0 (white), 1 = +5 (green)
-  let r, g, b;
-  if (t < 0.5) {
-    const s = t / 0.5;
-    r = Math.round(220 - s * 20);
-    g = Math.round(60 + s * 195);
-    b = Math.round(60 + s * 195);
-  } else {
-    const s = (t - 0.5) / 0.5;
-    r = Math.round(200 - s * 170);
-    g = Math.round(255 - s * 75);
-    b = Math.round(255 - s * 215);
-  }
-  return `rgba(${r},${g},${b},${alpha})`;
-}
-
-const EDU_LEVELS = [
-  "No formal educational credential",
-  "High school diploma or equivalent",
-  "Postsecondary nondegree award",
-  "Some college, no degree",
-  "Associate's degree",
-  "Bachelor's degree",
-  "Master's degree",
-  "Doctoral or professional degree",
-];
-
-// Get score for the selected horizon year
-function interpolateScore(d, prefix) {
-  return d[prefix + "_" + currentYear] ?? null;
-}
-
-function getMetricValue(d) {
-  if (colorMode === "composite") return interpolateScore(d, "composite");
-  if (colorMode === "digital") return interpolateScore(d, "digital");
-  if (colorMode === "physical") return interpolateScore(d, "physical");
-  if (colorMode === "friction") return d.adoption_friction;
-  if (colorMode === "elasticity") return d.demand_elasticity;
-  if (colorMode === "outlook") return d.outlook;
-  if (colorMode === "pay") return d.pay;
-  if (colorMode === "education") return EDU_LEVELS.indexOf(d.education);
-  return null;
-}
-
-function outlookColor(v, a) {
-  if (v == null) return `rgba(128,128,128,${a})`;
-  return greenRedCSS(1 - Math.max(0, Math.min(1, (v + 12) / 24)), a);
-}
-function payColor(v, a) {
-  if (v == null) return `rgba(128,128,128,${a})`;
-  const t = 1 - (Math.log(Math.max(25000, Math.min(250000, v))) - Math.log(25000)) / (Math.log(250000) - Math.log(25000));
-  return greenRedCSS(t, a);
-}
-function eduColor(idx, a) {
-  if (idx < 0) return `rgba(128,128,128,${a})`;
-  return greenRedCSS(1 - idx / (EDU_LEVELS.length - 1), a);
-}
-function exposureColor(v, a) {
-  if (v == null) return `rgba(128,128,128,${a})`;
-  return greenRedCSS(v / 10, a);
-}
-
-function tileColorCSS(d, alpha) {
-  if (colorMode === "composite" || colorMode === "digital" || colorMode === "physical" || colorMode === "friction") {
-    const v = getMetricValue(d);
-    return exposureColor(v, alpha);
-  }
-  if (colorMode === "elasticity") return elasticityCSS(d.demand_elasticity, alpha);
-  if (colorMode === "outlook") return outlookColor(d.outlook, alpha);
-  if (colorMode === "pay") return payColor(d.pay, alpha);
-  if (colorMode === "education") return eduColor(EDU_LEVELS.indexOf(d.education), alpha);
-  return `rgba(128,128,128,${alpha})`;
-}
-
-function tileSubInfo(r) {
-  const v = getMetricValue(r);
-  const fmtV = v != null ? (colorMode === "elasticity" ? (v > 0 ? "+" : "") + v.toFixed(1) : v.toFixed(1) + "/10") : "";
-  if (colorMode === "outlook") {
-    const o = r.outlook != null ? (r.outlook > 0 ? "+" : "") + r.outlook + "%" : "";
-    return o + (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
-  }
-  if (colorMode === "pay") {
-    return (r.pay != null ? formatPay(r.pay) : "") + (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
-  }
-  if (colorMode === "education") {
-    const short = {
-      "No formal educational credential": "No formal",
-      "High school diploma or equivalent": "HS diploma",
-      "Postsecondary nondegree award": "Postsecondary",
-      "Some college, no degree": "Some college",
-      "Associate's degree": "Associate's",
-      "Bachelor's degree": "Bachelor's",
-      "Master's degree": "Master's",
-      "Doctoral or professional degree": "Doctoral/Prof",
-    }[r.education] || "";
-    return short + (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
-  }
-  return fmtV + (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
-}
-
-// ── Squarified treemap layout ──────────────────────────────────────────
-
-function squarify(items, x, y, w, h) {
-  if (items.length === 0) return [];
-  if (items.length === 1) return [{ ...items[0], rx: x, ry: y, rw: w, rh: h }];
-  const total = items.reduce((s, d) => s + d.value, 0);
-  if (total === 0) return [];
-  const results = [];
-  let remaining = [...items], cx = x, cy = y, cw = w, ch = h;
-  while (remaining.length > 0) {
-    const remTotal = remaining.reduce((s, d) => s + d.value, 0);
-    const vertical = cw >= ch;
-    const side = vertical ? ch : cw;
-    let row = [remaining[0]], rowSum = remaining[0].value;
-    for (let i = 1; i < remaining.length; i++) {
-      const candidate = [...row, remaining[i]];
-      const candidateSum = rowSum + remaining[i].value;
-      if (worstAspect(candidate, candidateSum, side, remTotal, vertical ? cw : ch) <
-          worstAspect(row, rowSum, side, remTotal, vertical ? cw : ch)) {
-        row = candidate; rowSum = candidateSum;
-      } else break;
-    }
-    const rowFraction = rowSum / remTotal;
-    const rowThickness = vertical ? cw * rowFraction : ch * rowFraction;
-    let offset = 0;
-    for (const item of row) {
-      const itemFraction = item.value / rowSum;
-      const itemLength = side * itemFraction;
-      if (vertical) results.push({ ...item, rx: cx, ry: cy + offset, rw: rowThickness, rh: itemLength });
-      else results.push({ ...item, rx: cx + offset, ry: cy, rw: itemLength, rh: rowThickness });
-      offset += itemLength;
-    }
-    if (vertical) { cx += rowThickness; cw -= rowThickness; }
-    else { cy += rowThickness; ch -= rowThickness; }
-    remaining = remaining.slice(row.length);
-  }
-  return results;
-}
-
-function worstAspect(row, rowSum, side, totalArea, availableExtent) {
-  const rowExtent = availableExtent * (rowSum / totalArea);
-  if (rowExtent === 0) return Infinity;
-  let worst = 0;
-  for (const item of row) {
-    const itemLen = side * (item.value / rowSum);
-    if (itemLen === 0) continue;
-    const aspect = Math.max(rowExtent / itemLen, itemLen / rowExtent);
-    if (aspect > worst) worst = aspect;
-  }
-  return worst;
-}
-
-// ── Rendering ──────────────────────────────────────────────────────────
-
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
-let dpr = window.devicePixelRatio || 1;
-const MARGIN = 12, GAP = 1.5;
-
-function layout() {
-  const wrapper = document.getElementById("wrapper");
-  const w = wrapper.clientWidth;
-  const h = Math.round(w * 3 / 4);
-  canvas.width = w * dpr; canvas.height = h * dpr;
-  canvas.style.width = w + "px"; canvas.style.height = h + "px";
-  const tx = MARGIN, ty = MARGIN, tw = w - MARGIN * 2, th = h - MARGIN * 2;
-  const byCategory = {};
-  for (const d of data) { if (!byCategory[d.category]) byCategory[d.category] = []; byCategory[d.category].push(d); }
-  const categories = Object.keys(byCategory).map(cat => ({
-    cat, items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
-    value: byCategory[cat].reduce((s, d) => s + (d.jobs || 1), 0),
-  })).sort((a, b) => b.value - a.value);
-  const catRects = squarify(categories, tx, ty, tw, th);
-  rects = [];
-  for (const cr of catRects) {
-    const items = cr.items.map(d => ({ ...d, value: d.jobs || 1 }));
-    const innerRects = squarify(items, cr.rx + GAP, cr.ry + GAP, cr.rw - GAP * 2, cr.rh - GAP * 2);
-    for (const ir of innerRects) rects.push(ir);
-  }
-}
-
-function draw() {
-  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  const cs = getComputedStyle(document.documentElement);
-  ctx.fillStyle = cs.getPropertyValue("--canvas-bg").trim();
-  ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
-  for (const r of rects) {
-    const isHovered = r === hovered;
-    const g = GAP / 2, rx = r.rx + g, ry = r.ry + g, rw = r.rw - g * 2, rh = r.rh - g * 2;
-    if (rw <= 0 || rh <= 0) continue;
-    ctx.fillStyle = tileColorCSS(r, isHovered ? 0.8 : 0.5);
-    ctx.fillRect(rx, ry, rw, rh);
-    if (isHovered) { ctx.strokeStyle = cs.getPropertyValue("--stroke-hover").trim(); ctx.lineWidth = 2; ctx.strokeRect(rx, ry, rw, rh); }
-    if (rw > 50 && rh > 18) {
-      ctx.save(); ctx.beginPath(); ctx.rect(rx + 4, ry + 2, rw - 8, rh - 4); ctx.clip();
-      const fontSize = Math.min(13, Math.max(9, Math.min(rw / 10, rh / 3)));
-      ctx.font = `500 ${fontSize}px -apple-system, system-ui, sans-serif`;
-      ctx.fillStyle = cs.getPropertyValue(isHovered ? "--tile-text-hover" : "--tile-text").trim();
-      ctx.textBaseline = "top";
-      ctx.fillText(r.title, rx + 5, ry + 4);
-      if (rh > 34 && rw > 60) {
-        ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
-        ctx.fillStyle = cs.getPropertyValue("--tile-sub").trim();
-        ctx.fillText(tileSubInfo(r), rx + 5, ry + 4 + fontSize + 2);
-      }
-      ctx.restore();
-    }
-  }
-}
-
-function hitTest(mx, my) {
-  const rect = canvas.getBoundingClientRect();
-  const cx = mx - rect.left, cy = my - rect.top;
-  for (let i = rects.length - 1; i >= 0; i--) {
-    const r = rects[i];
-    if (cx >= r.rx && cx < r.rx + r.rw && cy >= r.ry && cy < r.ry + r.rh) return r;
-  }
-  return null;
-}
-
-function formatNumber(n) {
-  if (n == null) return "\u2014";
-  if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
-  if (n >= 1e3) return Math.round(n / 1e3) + "K";
-  return n.toLocaleString();
-}
-function formatPay(n) { return n == null ? "\u2014" : "$" + n.toLocaleString(); }
-
-// ── Tooltip ────────────────────────────────────────────────────────────
-
-function nearestHorizon() {
-  if (currentYear <= 2029.5) return "2028";
-  if (currentYear <= 2033.5) return "2031";
-  return "2036";
-}
-
-function showTooltip(d, mx, my) {
-  const tt = document.getElementById("tooltip");
-  tt.querySelector(".tt-title").textContent = d.title;
-
-  // Metric highlight
-  const v = getMetricValue(d);
-  let highlightHTML = "";
-  const metricNames = {
-    composite: "Composite Impact", digital: "Digital AI Exposure", physical: "Physical AI Exposure",
-    friction: "Adoption Friction", elasticity: "Demand Elasticity", outlook: "BLS Outlook",
-    pay: "Median Pay", education: "Education"
-  };
-  if (colorMode === "elasticity") {
-    const color = elasticityCSS(v, 1);
-    highlightHTML = `<span style="color:${color};font-weight:600;">Demand Elasticity: ${v != null ? (v > 0 ? "+" : "") + v.toFixed(1) : "\u2014"}</span>`;
-  } else if (colorMode === "pay") {
-    const color = payColor(v, 1);
-    highlightHTML = `<span style="color:${color};font-weight:600;">Median Pay: ${formatPay(d.pay)}</span>`;
-  } else if (colorMode === "education") {
-    highlightHTML = `<span style="font-weight:600;">Education: ${d.education || "\u2014"}</span>`;
-  } else if (colorMode === "outlook") {
-    const color = outlookColor(v, 1);
-    highlightHTML = `<span style="color:${color};font-weight:600;">Outlook: ${v != null ? (v > 0 ? "+" : "") + v + "%" : "\u2014"}</span>`;
-  } else {
-    const color = exposureColor(v, 1);
-    const yr = TIME_METRICS.includes(colorMode) ? " (" + currentYear + ")" : "";
-    highlightHTML = `<span style="color:${color};font-weight:600;">${metricNames[colorMode]}${yr}: ${v != null ? v.toFixed(1) + "/10" : "\u2014"}</span>` +
-      (v != null ? `<div style="margin-top:3px;height:4px;background:var(--bar-bg);border-radius:2px;"><div style="height:100%;width:${v * 10}%;background:${color};border-radius:2px;"></div></div>` : "");
-  }
-  tt.querySelector(".tt-exposure").innerHTML = highlightHTML;
-
-  tt.querySelector(".tt-stats").innerHTML = `
-    <span class="label">Median pay</span><span class="value">${formatPay(d.pay)}</span>
-    <span class="label">Jobs (2024)</span><span class="value">${formatNumber(d.jobs)}</span>
-    <span class="label">Outlook</span><span class="value">${d.outlook != null ? d.outlook + '%' : '\u2014'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
-    <span class="label">Education</span><span class="value">${d.education || '\u2014'}</span>`;
-
-  // Show all scores for the nearest horizon
-  const h = nearestHorizon();
-  const scores = [];
-  if (d["digital_" + h] != null) scores.push(["Digital AI " + h, d["digital_" + h].toFixed(1)]);
-  if (d["physical_" + h] != null) scores.push(["Physical AI " + h, d["physical_" + h].toFixed(1)]);
-  if (d.adoption_friction != null) scores.push(["Adoption Friction", d.adoption_friction.toFixed(1)]);
-  if (d.demand_elasticity != null) scores.push(["Demand Elasticity", (d.demand_elasticity > 0 ? "+" : "") + d.demand_elasticity.toFixed(1)]);
-  if (d["composite_" + h] != null) scores.push(["Composite " + h, d["composite_" + h].toFixed(1)]);
-
-  tt.querySelector(".tt-scores").innerHTML = scores.length > 0 ?
-    scores.map(([l, v]) => `<div class="score-row"><span class="score-label">${l}</span><span class="score-val">${v}</span></div>`).join("") : "";
-
-  // Rationale
-  let rationale = "";
-  if (TIME_METRICS.includes(colorMode)) {
-    const prefix = colorMode === "composite" ? "digital" : colorMode;
-    rationale = d[prefix + "_" + h + "_rationale"] || "";
-  } else if (colorMode === "friction") {
-    rationale = d.friction_rationale || "";
-  } else if (colorMode === "elasticity") {
-    rationale = d.elasticity_rationale || "";
-  } else if (colorMode === "exposure") {
-    rationale = d.exposure_rationale || "";
-  }
-  tt.querySelector(".tt-rationale").textContent = rationale;
-
-  let tx = mx + 16, ty = my - 16;
-  if (tx + 400 > window.innerWidth) tx = mx - 416;
-  if (ty < 10) ty = my + 16;
-  if (ty + 250 > window.innerHeight) ty = my - 250;
-  tt.style.left = tx + "px"; tt.style.top = ty + "px";
-  tt.classList.add("visible");
-}
-function hideTooltip() { document.getElementById("tooltip").classList.remove("visible"); }
-
-// ── Stats ──────────────────────────────────────────────────────────────
-
-const PAY_BANDS = [
-  { label: "<$35K", min: 0, max: 35000 },
-  { label: "$35\u201350K", min: 35000, max: 50000 },
-  { label: "$50\u201375K", min: 50000, max: 75000 },
-  { label: "$75\u2013100K", min: 75000, max: 100000 },
-  { label: "$100K+", min: 100000, max: Infinity },
-];
-
-const EDU_GROUPS = [
-  { label: "No degree/HS", match: ["No formal educational credential", "High school diploma or equivalent"] },
-  { label: "Postsec/Assoc", match: ["Postsecondary nondegree award", "Some college, no degree", "Associate's degree"] },
-  { label: "Bachelor's", match: ["Bachelor's degree"] },
-  { label: "Master's", match: ["Master's degree"] },
-  { label: "Doctoral/Prof", match: ["Doctoral or professional degree"] },
-];
-
-function renderTiers(tiers, totalJobs) {
-  return tiers.map(t => `<div class="tier-row">
-    <div class="tier-color" style="background:${t.color}"></div>
-    <span class="tier-name">${t.label}</span>
-    <span class="tier-jobs">${formatNumber(t.jobs)}</span>
-    <span class="tier-pct">${totalJobs > 0 ? (t.jobs / totalJobs * 100).toFixed(0) : 0}%</span>
-  </div>`).join("");
-}
-
-function renderHbars(items) {
-  return items.map(it => `<div class="hbar-row">
-    <span class="hbar-label">${it.label}</span>
-    <div class="hbar-track"><div class="hbar-fill" style="width:${it.pct}%;background:${it.color}"></div></div>
-    <span class="hbar-val">${it.val}</span>
-  </div>`).join("");
-}
-
-function weightedAvgByGroups(groups, filterFn, metricFn) {
-  return groups.map(g => {
-    let wS = 0, wC = 0;
-    for (const d of data) {
-      const v = metricFn(d);
-      if (v != null && d.jobs && filterFn(d, g)) { wS += v * d.jobs; wC += d.jobs; }
-    }
-    return { ...g, avg: wC > 0 ? wS / wC : 0, jobs: wC };
-  });
-}
-
-function updateStats() {
-  const totalJobs = data.reduce((s, d) => s + (d.jobs || 0), 0);
-  document.getElementById("statTotalJobs").textContent = (totalJobs / 1e6).toFixed(0) + "M";
-
-  if (colorMode === "outlook") updateOutlookStats(totalJobs);
-  else if (colorMode === "pay") updatePayStats(totalJobs);
-  else if (colorMode === "education") updateEducationStats(totalJobs);
-  else updateGenericExposureStats(totalJobs);
-}
-
-function updateGenericExposureStats(totalJobs) {
-  const metricFn = d => getMetricValue(d);
-  let wS = 0, wC = 0;
-  for (const d of data) { const v = metricFn(d); if (v != null && d.jobs) { wS += v * d.jobs; wC += d.jobs; } }
-  const avg = wC > 0 ? wS / wC : 0;
-
-  const names = { composite: "Composite", digital: "Digital AI", physical: "Physical AI", friction: "Friction", elasticity: "Elasticity" };
-  const name = names[colorMode] || colorMode;
-  const isElasticity = colorMode === "elasticity";
-
-  const colorFn = isElasticity ? (v, a) => elasticityCSS(v, a) : (v, a) => exposureColor(v, a);
-  const fmtVal = v => isElasticity ? (v > 0 ? "+" : "") + v.toFixed(1) : v.toFixed(1);
-  const maxVal = isElasticity ? 5 : 10;
-
-  document.getElementById("block2").innerHTML = `<h3>Avg. ${name}</h3>
-    <div class="stat-big"><span style="color:${colorFn(avg, 1)}">${fmtVal(avg)}</span></div>
-    <div class="stat-label">job-weighted${TIME_METRICS.includes(colorMode) ? " (" + currentYear + ")" : ""}</div>`;
-
-  // Histogram
-  const numBuckets = isElasticity ? 11 : 11;
-  const histogram = new Array(numBuckets).fill(0);
-  for (const d of data) {
-    const v = metricFn(d);
-    if (v != null && d.jobs) {
-      const idx = isElasticity ? Math.round(v + 5) : Math.round(v);
-      if (idx >= 0 && idx < numBuckets) histogram[idx] += d.jobs;
-    }
-  }
-  const maxH = Math.max(...histogram);
-  const lo = isElasticity ? "-5" : "0";
-  const mid = isElasticity ? "0" : "5";
-  const hi = isElasticity ? "+5" : "10";
-  document.getElementById("block3").innerHTML = `<h3>Jobs by ${name.toLowerCase()}</h3>
-    <div class="histogram">${histogram.map((c, i) => {
-      const bv = isElasticity ? i - 5 : i;
-      return `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${colorFn(bv, 0.7)}"></div>`;
-    }).join("")}</div>
-    <div class="hist-labels"><span>${lo}</span><span>${mid}</span><span>${hi}</span></div>`;
-
-  // Tier breakdown
-  const tierDefs = isElasticity ? [
-    { label: "Strong shrink (-5 to -3)", lo: -5, hi: -3, mid: -4 },
-    { label: "Moderate shrink (-2 to -1)", lo: -2, hi: -1, mid: -1.5 },
-    { label: "Neutral (0)", lo: -0.5, hi: 0.5, mid: 0 },
-    { label: "Moderate growth (+1 to +2)", lo: 1, hi: 2, mid: 1.5 },
-    { label: "Strong growth (+3 to +5)", lo: 3, hi: 5, mid: 4 },
-  ] : [
-    { label: "Minimal (0\u20131)", lo: 0, hi: 1.5, mid: 0.5 },
-    { label: "Low (2\u20133)", lo: 1.5, hi: 3.5, mid: 2.5 },
-    { label: "Moderate (4\u20135)", lo: 3.5, hi: 5.5, mid: 4.5 },
-    { label: "High (6\u20137)", lo: 5.5, hi: 7.5, mid: 6.5 },
-    { label: "Very high (8\u201310)", lo: 7.5, hi: 10, mid: 9 },
-  ];
-  const tiers = tierDefs.map(t => {
-    let jobs = 0;
-    for (const d of data) { const v = metricFn(d); if (v != null && d.jobs && v >= t.lo && v <= t.hi) jobs += d.jobs; }
-    return { ...t, jobs, color: colorFn(t.mid, 1) };
-  });
-  document.getElementById("block4").innerHTML = `<h3>${name} tiers</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
-
-  // Cross: by pay
-  const byPay = weightedAvgByGroups(PAY_BANDS, (d, g) => d.pay != null && d.pay >= g.min && d.pay < g.max, metricFn);
-  document.getElementById("block5").innerHTML = `<h3>${name} by pay</h3><div class="hbar-chart">${renderHbars(byPay.map(g => ({
-    label: g.label, val: fmtVal(g.avg), pct: isElasticity ? (g.avg + 5) / 10 * 100 : g.avg / 10 * 100, color: colorFn(g.avg, 0.8)
-  })))}</div>`;
-
-  // Cross: by education
-  const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), metricFn);
-  document.getElementById("block6").innerHTML = `<h3>${name} by education</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
-    label: g.label, val: fmtVal(g.avg), pct: isElasticity ? (g.avg + 5) / 10 * 100 : g.avg / 10 * 100, color: colorFn(g.avg, 0.8)
-  })))}</div>`;
-
-  // Impact: jobs in high tier
-  if (!isElasticity) {
-    let highJobs = 0, highWages = 0;
-    for (const d of data) { const v = metricFn(d); if (v != null && v >= 7 && d.jobs) { highJobs += d.jobs; if (d.pay) highWages += d.jobs * d.pay; } }
-    document.getElementById("block7").innerHTML = `<h3>Jobs scoring 7+</h3>
-      <div class="stat-big" style="color:${colorFn(8, 1)}">${formatNumber(highJobs)}</div>
-      <div class="stat-label">$${(highWages / 1e12).toFixed(1)}T in wages</div>`;
-  } else {
-    document.getElementById("block7").innerHTML = "";
-  }
-}
-
-function updateOutlookStats(totalJobs) {
-  let wS = 0, wC = 0;
-  for (const d of data) { if (d.outlook != null && d.jobs) { wS += d.outlook * d.jobs; wC += d.jobs; } }
-  const avg = wC > 0 ? wS / wC : 0;
-  document.getElementById("block2").innerHTML = `<h3>Avg. outlook</h3>
-    <div class="stat-big"><span style="color:${outlookColor(avg, 1)}">${avg > 0 ? "+" : ""}${avg.toFixed(1)}%</span></div>
-    <div class="stat-label">job-weighted</div>`;
-
-  const buckets = [
-    { lo: -Infinity, hi: -1, mid: -5 }, { lo: 0, hi: 2, mid: 1 }, { lo: 3, hi: 5, mid: 4 },
-    { lo: 6, hi: 8, mid: 7 }, { lo: 9, hi: 14, mid: 11 }, { lo: 15, hi: Infinity, mid: 20 },
-  ];
-  const histJobs = buckets.map(() => 0);
-  for (const d of data) { if (d.outlook != null && d.jobs) { const i = buckets.findIndex(b => d.outlook >= b.lo && d.outlook <= b.hi); if (i >= 0) histJobs[i] += d.jobs; } }
-  const maxH = Math.max(...histJobs);
-  document.getElementById("block3").innerHTML = `<h3>Jobs by outlook</h3>
-    <div class="histogram">${histJobs.map((c, i) => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${outlookColor(buckets[i].mid, 0.7)}"></div>`).join("")}</div>
-    <div class="hist-labels"><span>&lt;0%</span><span>5%</span><span>15%+</span></div>`;
-
-  const OUTLOOK_TIERS = [
-    { label: "Declining (<0%)", min: -Infinity, max: -1 },
-    { label: "Slow (0\u20133%)", min: 0, max: 3 },
-    { label: "Average (4\u20137%)", min: 4, max: 7 },
-    { label: "Fast (8\u201314%)", min: 8, max: 14 },
-    { label: "Much faster (15%+)", min: 15, max: Infinity },
-  ];
-  const tiers = OUTLOOK_TIERS.map(t => {
-    let jobs = 0;
-    for (const d of data) { if (d.outlook != null && d.jobs && d.outlook >= t.min && d.outlook <= t.max) jobs += d.jobs; }
-    return { ...t, jobs, color: outlookColor((t.min === -Infinity ? -8 : t.max === Infinity ? 20 : (t.min + t.max) / 2), 1) };
-  });
-  document.getElementById("block4").innerHTML = `<h3>Outlook tiers</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
-
-  const byPay = weightedAvgByGroups(PAY_BANDS, (d, g) => d.pay != null && d.pay >= g.min && d.pay < g.max, d => d.outlook);
-  document.getElementById("block5").innerHTML = `<h3>Outlook by pay</h3><div class="hbar-chart">${renderHbars(byPay.map(g => ({
-    label: g.label, val: (g.avg > 0 ? "+" : "") + g.avg.toFixed(1) + "%",
-    pct: Math.max(0, Math.min(100, (g.avg + 10) / 30 * 100)), color: outlookColor(g.avg, 0.8)
-  })))}</div>`;
-
-  const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.outlook);
-  document.getElementById("block6").innerHTML = `<h3>Outlook by education</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
-    label: g.label, val: (g.avg > 0 ? "+" : "") + g.avg.toFixed(1) + "%",
-    pct: Math.max(0, Math.min(100, (g.avg + 10) / 30 * 100)), color: outlookColor(g.avg, 0.8)
-  })))}</div>`;
-
-  let declining = 0;
-  for (const d of data) { if (d.outlook != null && d.outlook < 0 && d.jobs) declining += d.jobs; }
-  document.getElementById("block7").innerHTML = `<h3>Declining jobs</h3>
-    <div class="stat-big" style="color:${outlookColor(-5, 1)}">${(declining / 1e6).toFixed(1)}M</div>
-    <div class="stat-label">negative outlook</div>`;
-}
-
-function updatePayStats(totalJobs) {
-  let wS = 0, wC = 0;
-  for (const d of data) { if (d.pay != null && d.jobs) { wS += d.pay * d.jobs; wC += d.jobs; } }
-  const avg = wC > 0 ? wS / wC : 0;
-  document.getElementById("block2").innerHTML = `<h3>Avg. pay</h3>
-    <div class="stat-big"><span style="color:${payColor(avg, 1)}">$${Math.round(avg / 1000)}K</span></div>
-    <div class="stat-label">job-weighted</div>`;
-
-  const buckets = [
-    { lo: 0, hi: 30000, mid: 25000 }, { lo: 30000, hi: 40000, mid: 35000 }, { lo: 40000, hi: 55000, mid: 47000 },
-    { lo: 55000, hi: 75000, mid: 65000 }, { lo: 75000, hi: 100000, mid: 87000 }, { lo: 100000, hi: Infinity, mid: 130000 },
-  ];
-  const histJobs = buckets.map(() => 0);
-  for (const d of data) { if (d.pay != null && d.jobs) { const i = buckets.findIndex(b => d.pay >= b.lo && d.pay < b.hi); if (i >= 0) histJobs[i] += d.jobs; } }
-  const maxH = Math.max(...histJobs);
-  document.getElementById("block3").innerHTML = `<h3>Jobs by pay</h3>
-    <div class="histogram">${histJobs.map((c, i) => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${payColor(buckets[i].mid, 0.7)}"></div>`).join("")}</div>
-    <div class="hist-labels"><span>$30K</span><span>$65K</span><span>$100K+</span></div>`;
-
-  const tiers = PAY_BANDS.map(t => {
-    let jobs = 0;
-    for (const d of data) { if (d.pay != null && d.jobs && d.pay >= t.min && d.pay < t.max) jobs += d.jobs; }
-    return { ...t, jobs, color: payColor(t.max === Infinity ? 130000 : (t.min + t.max) / 2, 1) };
-  });
-  document.getElementById("block4").innerHTML = `<h3>Pay tiers</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
-
-  const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
-  document.getElementById("block5").innerHTML = `<h3>Pay by education</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
-    label: g.label, val: "$" + Math.round(g.avg / 1000) + "K",
-    pct: Math.max(0, Math.min(100, (Math.log(Math.max(25000, g.avg)) - Math.log(25000)) / (Math.log(250000) - Math.log(25000)) * 100)),
-    color: payColor(g.avg, 0.8)
-  })))}</div>`;
-
-  let totalWages = 0;
-  for (const d of data) { if (d.pay != null && d.jobs) totalWages += d.pay * d.jobs; }
-  document.getElementById("block6").innerHTML = `<h3>Total wages</h3>
-    <div class="stat-big">$${(totalWages / 1e12).toFixed(1)}T</div>
-    <div class="stat-label">annual</div>`;
-  document.getElementById("block7").innerHTML = "";
-}
-
-function updateEducationStats(totalJobs) {
-  let bsJobs = 0;
-  for (const d of data) {
-    if (d.jobs && ["Bachelor's degree", "Master's degree", "Doctoral or professional degree"].includes(d.education)) bsJobs += d.jobs;
-  }
-  document.getElementById("block2").innerHTML = `<h3>Bachelor's+</h3>
-    <div class="stat-big"><span style="color:${eduColor(5, 1)}">${(bsJobs / totalJobs * 100).toFixed(0)}%</span></div>
-    <div class="stat-label">of all jobs</div>`;
-
-  const groups = EDU_GROUPS.map((g, i) => {
-    let jobs = 0;
-    for (const d of data) { if (d.jobs && g.match.includes(d.education)) jobs += d.jobs; }
-    return { ...g, jobs, idx: i };
-  });
-  const maxH = Math.max(...groups.map(g => g.jobs));
-  document.getElementById("block3").innerHTML = `<h3>Jobs by education</h3>
-    <div class="histogram">${groups.map(g => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? g.jobs / maxH * 100 : 0)}%;background:${eduColor(g.idx * 2, 0.7)}"></div>`).join("")}</div>
-    <div class="hist-labels"><span>HS</span><span>BS</span><span>PhD</span></div>`;
-
-  const tiers = groups.map((g, i) => ({ label: g.label, jobs: g.jobs, color: eduColor(i * 2, 1) }));
-  document.getElementById("block4").innerHTML = `<h3>Education tiers</h3><div class="tier-bar">${renderTiers(tiers, totalJobs)}</div>`;
-
-  const payByEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
-  document.getElementById("block5").innerHTML = `<h3>Avg pay by education</h3><div class="hbar-chart">${renderHbars(payByEdu.map(g => ({
-    label: g.label, val: "$" + Math.round(g.avg / 1000) + "K",
-    pct: Math.max(0, Math.min(100, (Math.log(Math.max(25000, g.avg)) - Math.log(25000)) / (Math.log(250000) - Math.log(25000)) * 100)),
-    color: payColor(g.avg, 0.8)
-  })))}</div>`;
-
-  let noDeg = 0;
-  for (const d of data) {
-    if (d.jobs && ["No formal educational credential", "High school diploma or equivalent"].includes(d.education)) noDeg += d.jobs;
-  }
-  document.getElementById("block6").innerHTML = `<h3>No degree / HS</h3>
-    <div class="stat-big">${(noDeg / 1e6).toFixed(1)}M</div>
-    <div class="stat-label">jobs, no degree required</div>`;
-  document.getElementById("block7").innerHTML = "";
-}
-
-// ── Legend gradient ────────────────────────────────────────────────────
-
-const LEGEND_CONFIG = {
-  composite:  { low: "Low impact", high: "High impact" },
-  digital:    { low: "Low", high: "High" },
-  physical:   { low: "Low", high: "High" },
-  friction:   { low: "Fast adoption", high: "Slow adoption" },
-  elasticity: { low: "Shrinking (-5)", high: "Expanding (+5)" },
-  outlook:    { low: "Declining", high: "Growing" },
-  pay:        { low: "$25K", high: "$250K" },
-  education:  { low: "No degree", high: "Doctoral" },
-};
-
-function drawGradientLegend() {
-  const c = document.getElementById("gradientLegend");
-  const gctx = c.getContext("2d");
-  for (let x = 0; x < 80; x++) {
-    const t = x / 79;
-    if (colorMode === "elasticity") {
-      gctx.fillStyle = elasticityCSS(-5 + t * 10, 1);
-    } else if (colorMode === "outlook" || colorMode === "pay" || colorMode === "education") {
-      gctx.fillStyle = greenRedCSS(1 - t, 1);
-    } else {
-      gctx.fillStyle = greenRedCSS(t, 1);
-    }
-    gctx.fillRect(x, 0, 1, 8);
-  }
-  const cfg = LEGEND_CONFIG[colorMode];
-  document.getElementById("legendLow").textContent = cfg.low;
-  document.getElementById("legendHigh").textContent = cfg.high;
-}
-
-// ── Events ─────────────────────────────────────────────────────────────
-
-canvas.addEventListener("mousemove", (e) => {
-  const hit = hitTest(e.clientX, e.clientY);
-  if (hit !== hovered) { hovered = hit; draw(); }
-  if (hovered) { showTooltip(hovered, e.clientX, e.clientY); canvas.style.cursor = "pointer"; }
-  else { hideTooltip(); canvas.style.cursor = "default"; }
-});
-canvas.addEventListener("click", (e) => { const hit = hitTest(e.clientX, e.clientY); if (hit && hit.url) window.open(hit.url, "_blank"); });
-canvas.addEventListener("mouseleave", () => { hovered = null; hideTooltip(); draw(); });
-function resize() { dpr = window.devicePixelRatio || 1; layout(); draw(); }
-
-// ── Analysis panel content ──────────────────────────────────────────────
-
-function updateAnalysis() {
-  const panel = document.getElementById("analysisPanel");
-  const h = nearestHorizon();
-
-  function fmtJ(n) { return n >= 1e6 ? (n/1e6).toFixed(1) + "M" : Math.round(n/1e3) + "K"; }
-
-  const content = {
-    composite: () => {
-      if (h === "2028") return `
-        <h2>2028: The clerical reckoning is underway, but most of the economy feels safe</h2>
-        <p>In 2028, AI disruption is concentrated in a narrow band of the economy: <b>routine digital clerical work</b>. The 30 occupations scoring 7+ are almost exclusively back-office roles &mdash; medical transcriptionists, financial clerks, general office clerks, bookkeeping clerks, customer service representatives. Together they represent 19.8M jobs and $950B in annual wages, but they are not what most people picture when they think about their own career.</p>
-        <p>The pattern is stark: every single occupation in the top-10 most impacted list is a <b>mid-salary ($37K&ndash;$68K), screen-based, routine information processing</b> role. Not one requires a physical presence. Not one involves significant judgment or client relationships. These are the jobs where AI doesn't need to be perfect &mdash; it just needs to be good enough to handle the volume while a smaller human team oversees edge cases.</p>
-        <p>Meanwhile, <b>149 occupations (58.8M jobs) score below 3</b> &mdash; effectively untouched. This includes the obvious physical trades (roofers, plumbers, electricians) but also the entire care economy: childcare workers, home health aides, therapists, firefighters. Their protection comes not from being low-tech but from the <b>combination of high adoption friction and positive demand elasticity</b>. A childcare worker scores just 1/10 on digital exposure and 0 on physical, but even if those scores were higher, friction of 9 and demand elasticity of +2 would keep the composite near zero.</p>
-        <p>The salary pattern is telling: <b>no occupation earning over $100K scores 7+ in 2028</b>. High-salary knowledge workers are experiencing productivity gains (2&ndash;4x), but their employers are still in "do more with the same team" mode, not cutting headcount. The human cost is concentrated in the $35K&ndash;$75K band, where 24 out of 192 occupations already score 7+.</p>
-        <div class="callout"><b>The story in 2028:</b> If you work on a screen doing routine information processing for a mid-range salary, you're in the blast radius. If you work with your hands, with people, or on genuinely novel problems, you're not. This will change.</div>
-      `;
-      if (h === "2031") return `
-        <h2>2031: Physical AI arrives, and the disruption zone doubles</h2>
-        <p>Between 2028 and 2031, something fundamental shifts: <b>physical AI goes mainstream</b>. Humanoid robots drop below $30K, autonomous vehicles cover most routes, and robotics-as-a-service makes adoption possible for mid-size employers. The result is that the 7+ composite zone expands from 30 occupations (19.8M jobs) to <b>43 occupations (35.3M jobs) &mdash; nearly a quarter of the US workforce</b>.</p>
-        <p>The new entrants to the high-impact zone tell the story. <b>Material recording clerks</b> (1.3M jobs) jump from 8.3 to 10.0 as warehouse automation matures. <b>Tellers</b> (347K) hit 10.0 as branch automation completes. <b>Assemblers and fabricators</b> (1.9M) enter at 8.8 &mdash; these are not knowledge workers; they're factory floor workers being displaced by physical robots, not software.</p>
-        <p>The biggest movers between 2028 and 2031 are revealing: <b>construction laborers</b> jump +3.2 points (1.6 to 4.8), <b>construction equipment operators</b> +2.6 (2.8 to 5.4), and <b>grounds maintenance workers</b> +2.6 (2.5 to 5.1). These are the first wave of physical-labour occupations entering the danger zone, driven by structured outdoor tasks that robots can now handle.</p>
-        <p>The wage tier story shifts too: the $35&ndash;75K band now has 32 occupations scoring 7+ (up from 24), but <b>still only 1 occupation above $100K hits 7+</b>. High earners remain insulated &mdash; not because the technology can't reach them, but because adoption friction in professional services is high and demand elasticity often runs positive.</p>
-        <div class="callout"><b>The story in 2031:</b> The "physical moat" that protected warehouse workers, factory assemblers, and truck drivers is eroding. AI disruption is no longer just a knowledge-work phenomenon. The clerical workers hit in 2028 are now in deep restructuring; the physical workers newly exposed in 2031 are where the clerical workers were three years ago &mdash; beginning to feel pressure but not yet fully reorganised.</div>
-      `;
-      return `
-        <h2>2036: 59M jobs in the blast zone, and the salary ceiling breaks</h2>
-        <p>By 2036, the number of occupations scoring 7+ has grown to <b>71, covering 59.2M jobs &mdash; 41% of the entire US workforce</b> and $3.02T in annual wages. The disruption is no longer concentrated in any one sector or salary band. It has become pervasive.</p>
-        <p>The new occupations hitting maximum composite scores (10/10) reveal how far both digital and physical AI have reached: <b>cashiers</b> (3.2M jobs) are displaced by autonomous checkout and robotic retail; <b>receptionists</b> (1M) by AI scheduling and visitor management; <b>information clerks</b> (1.3M) by AI-powered customer interaction. These are roles that combine moderate digital work with physical presence in semi-structured environments &mdash; exactly the capability frontier that robots cross between 2031 and 2036.</p>
-        <p>The salary ceiling finally breaks: <b>6 occupations above $100K now score 7+</b>, up from just 1 in 2031. More significantly, the average composite across all salary tiers converges &mdash; <$35K averages 4.9, $35&ndash;75K averages 5.2, $75&ndash;100K averages 5.3, and $100K+ averages 5.3. <b>Salary no longer predicts safety</b>. By 2036, a low-paid warehouse worker and a well-paid financial analyst face comparable composite exposure.</p>
-        <p>The biggest risers from 2028 to 2036 are the "delayed cliff" occupations: <b>retail sales workers</b> (4.2M jobs, +4.5 points), <b>grounds maintenance</b> (1.3M, +4.6), <b>agricultural workers</b> (813K, +4.5), and <b>construction equipment operators</b> (540K, +4.3). These occupations felt entirely safe in 2028 &mdash; their workers would have had no reason to worry. By 2036, they're deep in the restructuring zone.</p>
-        <p>And yet <b>45 occupations remain below 3.0 across all three horizons</b> &mdash; childcare workers, therapists, barbers, firefighters, athletes, preschool teachers, massage therapists, actors, coaches. What unites them is not low technology exposure per se, but the combination of <b>high friction (society demands humans in these roles) and positive demand elasticity (we want more of this work, not less)</b>. A childcare worker's composite rises from 0.0 to just 0.7 across the entire decade. The technology may be capable; the world simply does not want robots raising its children.</p>
-        <div class="callout"><b>The story in 2036:</b> The question is no longer which jobs AI can do &mdash; it's which jobs society insists humans keep doing. The genuinely durable occupations are united not by technological limitations but by a human judgment that these roles require human presence, human intimacy, or human accountability. That judgment may itself evolve, but it is the last line of defence, and it is far sturdier than any technological moat.</div>
-      `;
-    },
-
-    digital: () => {
-      if (h === "2028") return `
-        <h2>2028: The copilot era &mdash; everyone gets an assistant, few lose their job</h2>
-        <p>In 2028, digital AI operates overwhelmingly in <b>copilot mode</b>: human-directed, AI-assisted. The 2&ndash;4x productivity gains are real and widely documented, but most organisations are using them to do more with the same team rather than cutting headcount. The average digital exposure across all 342 occupations is 4.3/10 &mdash; the midpoint of "AI helps but doesn't replace."</p>
-        <p>The occupations scoring 8&ndash;10 are telling: <b>medical transcriptionists</b> (10), <b>bookkeeping clerks</b> (9), <b>general office clerks</b> (9), <b>customer service reps</b> (8), <b>secretaries</b> (8). These are roles where the entire work product is digital text, the tasks are well-structured, and the judgment required is routine. AI doesn't need to match a senior partner's strategic insight &mdash; it needs to process invoices, answer FAQs, and file records.</p>
-        <p>At the other end, <b>16 occupations score 0</b> &mdash; roofers, janitors, construction labourers, painters, glaziers. Their work is entirely non-digital. Between them sit the occupations that define the AI frontier in 2028: <b>registered nurses</b> (4), <b>K&ndash;12 teachers</b> (4&ndash;5), <b>police detectives</b> (4). These roles have significant information-processing components that AI can assist with (charting, lesson planning, report writing), but the core value is judgment, presence, and interpersonal trust.</p>
-        <div class="callout"><b>What to notice:</b> The treemap's red zone is concentrated in the <b>office-and-administrative-support</b> and <b>business-and-financial</b> categories. These are the digital-native sectors where AI tools are already standard. The green zones &mdash; construction, installation/maintenance, healthcare support &mdash; are untouched. Hover over individual tiles to see the rationale for each score.</div>
-      `;
-      if (h === "2031") return `
-        <h2>2031: From copilot to autonomous agent &mdash; the knowledge-work restructuring</h2>
-        <p>By 2031, the digital AI story shifts from "AI helps workers" to "AI replaces routine workflows." The average score rises to 4.5, but the real action is at the top: occupations that scored 6&ndash;7 in 2028 are now scoring 7&ndash;8, and the 8&ndash;9 tier is hitting 9&ndash;10. The shift from copilot to autonomous agent means <b>AI doesn't just draft the document &mdash; it researches, writes, reviews, and files it</b>.</p>
-        <p>Only one occupation hits 10 (medical transcription, effectively automated), but 18 occupations score 9 &mdash; including <b>customer service reps</b>, <b>secretaries</b>, <b>web developers</b>, and <b>technical writers</b>. These roles haven't disappeared, but team sizes have shrunk dramatically. A customer service operation that employed 50 people in 2026 might employ 10 in 2031, with AI handling routine inquiries end-to-end.</p>
-        <p>The mid-range (6&ndash;7) is where the most interesting restructuring is happening: <b>accountants</b> (7), <b>lawyers</b> (7), <b>high school teachers</b> (6), <b>mechanical engineers</b> (7). In these occupations, the routine work is automated but the job has been redefined around judgment, client relationships, and exception handling. An accountant in 2031 is fundamentally an advisor, not a preparer.</p>
-        <div class="callout"><b>What to notice:</b> Compare with the 2028 view by switching the horizon tab. The occupations that were yellow (5&ndash;6) have shifted to orange (6&ndash;7). The ones that were orange are now red. The green base (physical occupations, 0&ndash;2) hasn't moved at all &mdash; digital AI, no matter how capable, doesn't affect roofers. That's why the Physical AI axis exists.</div>
-      `;
-      return `
-        <h2>2036: Digital AI can do nearly everything &mdash; the question is whether it should</h2>
-        <p>By 2036, the average digital exposure has risen to 5.2, and <b>11 occupations score 10/10</b> &mdash; bookkeeping clerks, customer service reps, medical transcriptionists, secretaries, general office clerks, and others. Another 33 score 9. The bottom of the distribution has barely moved: roofers still score 0, janitors 1, electricians 2. Digital AI, even at its most capable, <b>cannot touch work that is not digital</b>.</p>
-        <p>The most dramatic jumps from 2028 to 2036 are in roles that straddle the digital/physical line: <b>receptionists</b> (6 to 9), <b>library technicians</b> (5 to 8), <b>air traffic controllers</b> (4 to 7). These roles were once considered "safe" because they involved some physical presence or specialised systems, but by 2036 the digital components have been fully automated and the remaining physical presence is handled by other systems.</p>
-        <p>The professional knowledge workers &mdash; physicians (6), lawyers (7), teachers (6&ndash;7), engineers (7&ndash;8) &mdash; score high but not maximum. This is because their roles, while heavily digital, have been <b>redefined around the non-automatable residue</b>: the physician's bedside manner and procedural judgment, the lawyer's courtroom advocacy, the teacher's mentoring relationship, the engineer's novel problem-solving. The digital work has been automated; the job has changed rather than disappeared.</p>
-        <div class="callout"><b>What to notice:</b> At 2036, the treemap is bifurcated. The top half (knowledge work categories) is almost entirely orange and red. The bottom half (construction, installation, food service, healthcare support) is still green to yellow. This is why <b>digital exposure alone doesn't tell the whole story</b> &mdash; switch to Physical AI or Composite Impact to see the full picture.</div>
-      `;
-    },
-
-    physical: () => {
-      if (h === "2028") return `
-        <h2>2028: Robots in the factory, nowhere else</h2>
-        <p>In 2028, physical AI is <b>overwhelmingly concentrated in controlled industrial environments</b>. The average physical exposure across all 342 occupations is just 1.0/10. Over half the occupations (180) score exactly 0 &mdash; these are pure knowledge workers for whom physical robots are simply irrelevant. Another 71 score 1.</p>
-        <p>The only occupations scoring above 5 are in structured, repetitive industrial settings: <b>assemblers and fabricators</b> (7), <b>welders</b> (7), <b>food processing workers</b> (7), <b>semiconductor technicians</b> (8), <b>material recording clerks</b> (4), and <b>warehouse material movers</b> (6). These are environments where the layout is controlled, the objects are standardised, and the tasks are repetitive &mdash; exactly where early humanoid robots and automated systems can operate.</p>
-        <p>The sharp boundary is between <b>controlled and uncontrolled environments</b>. A factory assembler (7) works in a space designed for robots. A residential plumber (1) works in a different house every day, crawling under sinks in configurations the robot has never seen. An Amazon warehouse picker (6) handles standardised totes on known shelves. A bartender (2) handles fragile glassware in a social environment where human interaction IS the product.</p>
-        <div class="callout"><b>What to notice:</b> The treemap is almost entirely green. The few orange/red tiles are in manufacturing and production categories. This is the view that Karpathy's original analysis implicitly assumed would persist forever. Switch to the 2036 tab to see why that assumption is wrong.</div>
-      `;
-      if (h === "2031") return `
-        <h2>2031: The robot workforce goes mainstream &mdash; warehouses, farms, highways</h2>
-        <p>Between 2028 and 2031, physical AI undergoes the same transition that digital AI went through years earlier: <b>from pilot deployment to mainstream adoption</b>. The average rises from 1.0 to 1.8, but this average masks dramatic movement in specific sectors. Occupations that scored 3&ndash;4 in 2028 now score 5&ndash;7.</p>
-        <p>The biggest movers tell the story of where robots expand next: <b>warehouse material movers</b> hold at 6&ndash;7 as automation deepens in logistics. <b>Agricultural workers</b> jump to 5 as large-scale harvesting robots handle more crop types. <b>Long-haul truck drivers</b> hit 6 as autonomous trucking covers most interstate corridors. <b>Construction labourers</b> rise to 3&ndash;4 as robots handle repetitive tasks on structured sites.</p>
-        <p>What's striking is the <b>economic desperation driving adoption</b>. Warehousing, agriculture, and long-haul trucking all face severe labour shortages. Employers aren't adopting robots because the technology is perfect &mdash; they're adopting because they can't hire enough humans at any price. This is why these sectors have low adoption friction despite involving physical work: the economic pull overcomes the technical limitations.</p>
-        <p>Meanwhile, <b>137 occupations still score 0</b> &mdash; every knowledge worker, from accountants to software developers to lawyers. Physical AI remains irrelevant to screen-based work. And skilled trades in variable environments &mdash; electricians (3), plumbers (3), barbers (2) &mdash; remain low because robots still can't handle novel physical configurations.</p>
-        <div class="callout"><b>What to notice:</b> The treemap is developing its first significant non-green patches in the production, transportation, and food-service categories. The big new rectangles turning yellow-orange are the ones to watch: 7M hand labourers, 1.5M delivery drivers, 1.3M material recording clerks. These are the physical-labour equivalents of what happened to clerical workers in 2028.</div>
-      `;
-      return `
-        <h2>2036: The physical moat dissolves &mdash; 67 occupations Karpathy missed</h2>
-        <p>By 2036, the average physical exposure has nearly tripled from 1.0 to 2.9. More importantly, <b>67 occupations that Karpathy's original analysis scored at 3 or below now show physical exposure of 5+</b>. These are the jobs his framework treated as permanently safe because they involve "hands-on work" &mdash; a category that is dissolving as robots mature.</p>
-        <p>The numbers are staggering. <b>Hand labourers and material movers</b> (7M jobs) score 9. <b>Food and beverage servers</b> (5M) score 7. <b>Retail sales workers</b> (4.2M) score 7. <b>Janitors</b> (2.4M) score 8. <b>Cooks</b> (2.8M) score 7. <b>Construction labourers</b> (1.6M) score 7. <b>Grounds maintenance</b> (1.3M) score 8. These are among the largest employment categories in the US economy, and they were invisible in any analysis that only looked at digital AI.</p>
-        <p>The remaining holdouts at 0&ndash;2 share specific characteristics: <b>genuinely unpredictable environments</b> (firefighters at 3, residential plumbers at 4&ndash;5), <b>human intimacy as the product</b> (massage therapists at 2, barbers at 2, midwives at 2), or <b>complex dexterous work in variable conditions</b> (residential electricians at 5, veterinarians at 4). The common thread is not "physical work" in general but work where <b>every task is different in ways the robot hasn't been trained for</b>.</p>
-        <div class="callout"><b>What to notice:</b> Compare this view with the 2028 physical view &mdash; the transformation is dramatic. Categories that were uniformly green (food service, retail, transportation, cleaning) are now orange and red. The occupations that remain green are characterised not by being "physical" but by being <b>unpredictably variable</b> &mdash; every house a plumber enters is different, every fire a firefighter fights is different, every animal a veterinarian examines is different. Predictability, not physicality, is the true moat.</div>
-      `;
-    },
-
-    friction: () => `
-      <h2>Why capable technology doesn't mean immediate disruption</h2>
-      <p>Adoption friction is the gap between "AI can do this" and "AI is actually doing this." It explains why two occupations with identical technical exposure can have radically different real-world outcomes, and why the composite scores for some high-exposure occupations are surprisingly low.</p>
-      <p>The pattern in the data reveals <b>three distinct friction regimes</b>:</p>
-      <p><b>The fast lane (friction 0&ndash;3, 69 occupations):</b> Large corporate employers with existing technology infrastructure, clear ROI, and often acute labour shortages. Software companies, Amazon-scale warehouses, large manufacturers, commercial logistics. These sectors don't wait for regulation to catch up &mdash; they deploy, iterate, and deal with policy later. When a warehouse operator can't fill $18/hour picker positions, a $30K robot with no complaints looks compelling regardless of what unions or regulators think.</p>
-      <p><b>The middle ground (friction 4&ndash;6, 168 occupations):</b> The largest group. These are occupations with moderate regulation, mixed employer sizes, and some social acceptance barriers. Accountants (4), commercial construction (5), fast food (4), routine legal work (5). Adoption happens but takes years of vendor maturation, regulatory adaptation, and employer education. The technology might be ready in 2028 but widespread deployment doesn't happen until 2032.</p>
-      <p><b>The walled garden (friction 7&ndash;10, 105 occupations):</b> Heavy professional licensing, high liability exposure, fragmented small employers, or deep social preference for human workers. Physicians (8), teachers (7), psychotherapists (9), childcare (9), firefighters (9), judges (10). Even where the technology is impressive, these sectors have <b>structural defences</b>: a surgeon can't be replaced until malpractice liability frameworks exist for AI surgery. A teacher can't be replaced until parents accept robot classrooms. A judge can't be replaced until the constitution allows it.</p>
-      <p>The most interesting occupations on this map are the ones where <b>friction is high but technology is advancing fast</b>. Airline pilots (friction 8, physical exposure reaching 7 by 2036), physicians (friction 8, digital reaching 6), postsecondary teachers (friction 7, digital reaching 7). The technology is ready or nearly ready, but institutional barriers will delay adoption by years or decades. These are the occupations where the <b>composite score looks deceptively low</b> &mdash; the technology is there, society just hasn't accepted it yet.</p>
-      <div class="callout"><b>What to notice:</b> Compare this view with the Composite Impact view. The reddest tiles here (highest friction) are the greenest on composite, even when their technical exposure is high. Judges score 6/10 on digital exposure by 2036, but their composite is just 3.0 because friction of 10 means no one is actually replacing judges with AI. The question is whether that friction holds. If it does, these occupations are safe. If social norms shift &mdash; as they have before &mdash; these are the occupations with the furthest to fall.</div>
-    `,
-
-    elasticity: () => `
-      <h2>The difference between "AI transforms the job" and "AI eliminates the job"</h2>
-      <p>Demand elasticity is the single most important variable that separates occupations with similar technical exposure into wildly different employment outcomes. It answers a question that most AI-impact analyses ignore: <b>when you make something cheaper and faster, do people want more of it?</b></p>
-      <p><b>The expanding-demand occupations (green tiles, +3 to +5):</b> There are 20 occupations with elasticity of +3 or higher. They represent some of the most important human services in the economy: <b>tutoring</b> (+5, because every child could benefit from a personal tutor but almost none can afford one), <b>mental health therapy</b> (+4, because there is an enormous treatment gap), <b>software development</b> (+3, because every organisation wants custom software), <b>graphic design</b> (+3, because every small business wants professional design), and <b>social work</b> (+3, because caseloads are crushing and unmet need is vast). In these occupations, AI-driven productivity gains don't shrink headcount &mdash; they <b>unlock demand that was always there but cost-constrained</b>. If therapy costs $200/session, most people who need it can't afford it. If AI assistance drops the effective cost to $50, demand might quadruple.</p>
-      <p><b>The fixed-demand occupations (red tiles, -3 to -5):</b> 19 occupations score -3 or below. The pattern is clear: these are roles where demand is <b>determined by the number of transactions, not by cost</b>. A city has X number of bank transactions regardless of how fast each one is. A hospital generates Y medical records regardless of transcription speed. A company needs Z payroll runs per month. Making each unit faster doesn't create more units &mdash; it just means you need fewer people. <b>Medical transcriptionists</b> (-5), <b>tellers</b> (-5), <b>cashiers</b> (-4), <b>bookkeeping clerks</b> (-4), and <b>bill collectors</b> (-4) are the most exposed.</p>
-      <p><b>The neutral middle (white tiles, -1 to +1):</b> 227 occupations sit in the middle, reflecting genuine uncertainty. <b>Registered nurses</b> (0) are the paradigmatic case: AI efficiency gains are offset by an aging population generating more demand, resulting in roughly neutral headcount impact. <b>Firefighters</b> (0), <b>electricians</b> (+1), and <b>police officers</b> (0) are similar &mdash; demand is tied to population and infrastructure, not to how fast each task is performed.</p>
-      <div class="callout"><b>What to notice:</b> Look at how elasticity reshapes the composite impact view. Software developers score 8/10 on digital exposure &mdash; higher than customer service reps (8/10). But software developers' composite (6.3 at 2031) is significantly lower than customer service reps' (9.0) because <b>the world wants vastly more software but doesn't want more customer service calls</b>. Toggle between Demand Elasticity and Composite Impact to see this dynamic directly: the green tiles here pull composite scores down; the red tiles here push them up.</div>
-    `,
-
-    outlook: () => `
-      <h2>What the government sees vs. what AI models predict</h2>
-      <p>The BLS Employment Outlook represents the US government's official projection of how each occupation will grow or shrink over 2024&ndash;2034. These projections are methodologically rigorous but structurally conservative: they model <b>demographic trends</b> (aging population driving healthcare demand), <b>macroeconomic shifts</b> (infrastructure investment, trade patterns), and <b>historical technology adoption rates</b>. They do not model discontinuous technological change from AI systems that barely existed when the projections were made.</p>
-      <p>The divergences between BLS projections and AI exposure scores reveal the most consequential blind spots:</p>
-      <p><b>BLS says growing, AI says at risk:</b> Data scientists (BLS: +36%, composite 2031: 6.3), financial managers (BLS: +17%, composite: 5.5), market research analysts (BLS: +8%, composite: 6.8). These occupations may indeed grow in total output &mdash; the world will want more data analysis, more financial management, more market research &mdash; but they may do so with <b>fewer human workers per unit of output</b>. The BLS models demand growth; it doesn't model the possibility that each worker becomes 5x more productive.</p>
-      <p><b>BLS says declining, reasons unrelated to AI:</b> Adult education teachers (BLS: -14%), print binding workers (BLS: -12%), switchboard operators (BLS: -15%). These occupations are declining due to <b>structural shifts in their industries</b> (declining adult education enrolment, print media contraction, telephony modernisation), not primarily because of AI. Their AI composite scores are moderate, not extreme.</p>
-      <p><b>BLS says stable, AI sees a delayed cliff:</b> Retail sales workers (BLS: +2%, composite 2028: 2.8, composite 2036: 7.3) are the most striking example. The BLS projects essentially flat employment over the decade, but the composite score triples as physical AI (autonomous checkout, robotic stocking) matures. This doesn't mean the BLS is wrong about 2024&ndash;2034 &mdash; it means the disruption may <b>hit after their projection window closes</b>.</p>
-      <div class="callout"><b>What to notice:</b> Toggle back and forth between BLS Outlook and Composite Impact. The colour patterns are almost uncorrelated &mdash; tiles that are green on one view are often red on the other. This is not because one analysis is right and the other wrong. It's because they're measuring different things: the BLS measures demand growth within current economic structures; the composite measures how AI might restructure those economic structures themselves.</div>
-    `,
-
-    pay: () => {
-      // Compute real stats
-      const bands = [
-        { name: "<$35K", lo: 0, hi: 35000 },
-        { name: "$35-75K", lo: 35000, hi: 75000 },
-        { name: "$75-100K", lo: 75000, hi: 100000 },
-        { name: "$100K+", lo: 100000, hi: Infinity },
-      ];
-      const bandStats = bands.map(b => {
-        const group = data.filter(d => d.pay && d.jobs && d.pay >= b.lo && d.pay < b.hi);
-        const c28 = group.filter(d => d.composite_2028 != null);
-        const c36 = group.filter(d => d.composite_2036 != null);
-        const avg28 = c28.length ? c28.reduce((s,d) => s + d.composite_2028, 0) / c28.length : 0;
-        const avg36 = c36.length ? c36.reduce((s,d) => s + d.composite_2036, 0) / c36.length : 0;
-        return { ...b, avg28: avg28.toFixed(1), avg36: avg36.toFixed(1), jobs: group.reduce((s,d) => s + d.jobs, 0) };
-      });
-      return `
-        <h2>Pay and AI exposure: the salary inversion that disappears</h2>
-        <p>One of the most commonly cited findings from Karpathy's original analysis was the <b>salary inversion</b>: higher-paid knowledge workers score higher on AI exposure than lower-paid manual workers. This is true in 2028. It is much less true by 2036, and the convergence tells an important story about how AI disruption evolves.</p>
-        <p>In 2028, the relationship between pay and composite exposure is steep: occupations below $35K average just ${bandStats[0].avg28} composite, while those above $100K average ${bandStats[3].avg28}. Higher pay correlates with more digital work, which correlates with more AI exposure. Low-paid workers are "safe" because their work is physical.</p>
-        <p>By 2036, the gap narrows dramatically: below $35K averages ${bandStats[0].avg36}, above $100K averages ${bandStats[3].avg36}. The convergence happens because <b>physical AI catches up</b>. Low-paid physical workers (retail, food service, warehouse, agriculture) see their exposure scores double or triple as robots mature. High-paid knowledge workers see modest increases because their exposure was already high and is now offset by positive demand elasticity.</p>
-        <p>The treemap makes this visible in a way no table can: the largest rectangles are overwhelmingly green (low-paid service and production roles employing millions), while the smallest rectangles (high-paid specialists employing thousands) are red. This reflects the structural reality that <b>the American economy employs far more people at moderate wages than at high wages</b>. The total wage bill at risk &mdash; $3.02T in the 7+ composite zone by 2036 &mdash; is concentrated in the mid-salary band, not the high-salary band, simply because there are so many more workers there.</p>
-        <div class="callout"><b>What to notice:</b> The large green rectangles here are the occupations most vulnerable to the "delayed cliff" &mdash; large employment, low pay, and a composite score that triples between 2028 and 2036 as physical AI arrives. Toggle to Composite Impact and switch between horizon years to see them change colour.</div>
-      `;
-    },
-
-    education: () => `
-      <h2>Education doesn't protect you the way you think it does</h2>
-      <p>The conventional wisdom is that <b>more education = more safety from automation</b>. The data tells a more complicated story that depends entirely on <em>what kind</em> of education and <em>which time horizon</em> you're looking at.</p>
-      <p>In 2028, the conventional wisdom roughly holds: occupations requiring no degree or just a high school diploma average 2.8 composite, while bachelor's-level jobs average 4.5 and master's-level 4.1. Doctoral/professional degree jobs average 3.4. Higher education correlates with more digital work, which in 2028 is where the exposure is. But note that doctoral/professional occupations <b>already score lower than bachelor's</b> &mdash; that's the friction effect. Surgeons, dentists, lawyers, and physicians have high technical exposure but enormous regulatory and social barriers to AI adoption.</p>
-      <p>By 2036, the pattern shifts further. The no-degree occupations that were safely green in 2028 &mdash; construction labourers, food servers, warehouse workers, agricultural labourers &mdash; see their composites rise toward 5&ndash;7 as physical AI arrives. Bachelor's-level knowledge workers (accountants at 7.5, financial analysts at 7.3, paralegals at 8+) are deep in the restructuring zone. Meanwhile, doctoral/professional occupations &mdash; surgeons, psychologists, dentists &mdash; remain moderate (3&ndash;5) because their <b>extreme friction acts as a structural defence</b> regardless of how capable the technology becomes.</p>
-      <p>The most resilient occupations by education level are revealing: among no-degree workers, <b>childcare workers</b> (composite 0.7 at 2036), <b>fitness trainers</b> (2.3), and <b>barbers</b> (1.1) stay safe because human presence IS the product. Among bachelor's-level workers, almost nothing stays below 3 &mdash; the occupations that do are in social services (community health workers, substance abuse counsellors) where demand elasticity runs strongly positive. Among doctoral workers, <b>psychologists</b> (2.1), <b>chiropractors</b> (2.0), and <b>clergy</b> stay low because of extreme friction.</p>
-      <p>The real predictor of AI resilience isn't education level &mdash; it's the <b>combination of variable physical environments, human intimacy, and institutional barriers</b>. A plumber with no degree (composite 2.4 at 2036) is safer than a paralegal with a bachelor's (composite 8+). A massage therapist with a postsecondary certificate (composite 1.1) is safer than a financial analyst with a master's (composite 7+).</p>
-      <div class="callout"><b>What to notice:</b> Toggle between Education and Composite Impact. If education predicted AI safety, the colour patterns would correlate &mdash; green on education (low degree) would be red on composite (high risk), and vice versa. They don't. The patterns are largely independent, because <b>the nature of the work matters far more than the credential required to enter it</b>.</div>
-    `,
-  };
-
-  const generator = content[colorMode];
-  if (generator) {
-    panel.innerHTML = generator();
-    panel.style.display = "block";
-  }
-}
-
-// Layer toggle
-document.getElementById("colorToggle").addEventListener("click", (e) => {
-  const btn = e.target.closest("button");
-  if (!btn || !btn.dataset.mode) return;
-  colorMode = btn.dataset.mode;
-  document.querySelectorAll("#colorToggle button").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
-  // Enable/disable timeline
-  const tc = document.getElementById("timelineContainer");
-  tc.classList.toggle("disabled", !TIME_METRICS.includes(colorMode));
-  updateStats();
-  updateAnalysis();
-  drawGradientLegend();
-  draw();
-  requestAnimationFrame(resize);
-});
-
-// Timeline year tabs
-document.getElementById("yearTabs").addEventListener("click", (e) => {
-  const btn = e.target.closest(".year-tab");
-  if (!btn) return;
-  currentYear = parseInt(btn.dataset.year);
-  document.querySelectorAll(".year-tab").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
-  updateStats();
-  updateAnalysis();
-  draw();
-});
-
-// ── Load ───────────────────────────────────────────────────────────────
-
-fetch("data.json")
-  .then(r => r.json())
-  .then(d => {
-    data = d;
-    updateStats();
-    updateAnalysis();
-    drawGradientLegend();
-    resize();
-  });
-
-window.addEventListener("resize", resize);
 </script>
 </body>
 </html>
