@@ -12,6 +12,58 @@
   --bg2: #12121a;
   --fg: #e0e0e8;
   --fg2: #888894;
+  --border: rgba(255,255,255,0.1);
+  --border-subtle: rgba(255,255,255,0.06);
+  --surface: rgba(255,255,255,0.04);
+  --surface-hover: rgba(255,255,255,0.08);
+  --surface-active: rgba(255,255,255,0.08);
+  --surface-active-border: rgba(255,255,255,0.2);
+  --slider-track: rgba(255,255,255,0.1);
+  --tooltip-bg: #12121a;
+  --tooltip-border: rgba(255,255,255,0.12);
+  --tooltip-shadow: rgba(0,0,0,0.6);
+  --panel-bg: rgba(255,255,255,0.02);
+  --panel-border: rgba(255,255,255,0.06);
+  --card-bg: rgba(0,0,0,0.25);
+  --card-border: rgba(255,255,255,0.05);
+  --callout-bg: rgba(255,200,60,0.04);
+  --callout-border: rgba(255,200,60,0.3);
+  --tile-text: rgba(255,255,255,0.85);
+  --tile-text-hover: #fff;
+  --tile-sub: rgba(255,255,255,0.5);
+  --bar-bg: rgba(255,255,255,0.08);
+  --hbar-track: rgba(255,255,255,0.04);
+  --stroke-hover: #fff;
+  --canvas-bg: #0a0a0f;
+}
+:root.light {
+  --bg: #f5f5f7;
+  --bg2: #ffffff;
+  --fg: #1d1d1f;
+  --fg2: #6e6e73;
+  --border: rgba(0,0,0,0.12);
+  --border-subtle: rgba(0,0,0,0.06);
+  --surface: rgba(0,0,0,0.03);
+  --surface-hover: rgba(0,0,0,0.05);
+  --surface-active: rgba(0,0,0,0.06);
+  --surface-active-border: rgba(0,0,0,0.2);
+  --slider-track: rgba(0,0,0,0.12);
+  --tooltip-bg: #ffffff;
+  --tooltip-border: rgba(0,0,0,0.12);
+  --tooltip-shadow: rgba(0,0,0,0.15);
+  --panel-bg: rgba(0,0,0,0.02);
+  --panel-border: rgba(0,0,0,0.08);
+  --card-bg: rgba(0,0,0,0.03);
+  --card-border: rgba(0,0,0,0.06);
+  --callout-bg: rgba(255,180,0,0.06);
+  --callout-border: rgba(200,150,0,0.4);
+  --tile-text: rgba(0,0,0,0.8);
+  --tile-text-hover: #000;
+  --tile-sub: rgba(0,0,0,0.5);
+  --bar-bg: rgba(0,0,0,0.08);
+  --hbar-track: rgba(0,0,0,0.05);
+  --stroke-hover: #000;
+  --canvas-bg: #f5f5f7;
 }
 
 body {
@@ -106,7 +158,7 @@ body {
 .hbar-chart { display: flex; flex-direction: column; gap: 3px; }
 .hbar-row { display: flex; align-items: center; gap: 6px; font-size: 12px; }
 .hbar-label { width: 72px; flex-shrink: 0; color: var(--fg2); font-size: 11px; text-align: right; }
-.hbar-track { flex: 1; height: 12px; background: rgba(255,255,255,0.04); border-radius: 2px; overflow: hidden; min-width: 36px; }
+.hbar-track { flex: 1; height: 12px; background: var(--hbar-track); border-radius: 2px; overflow: hidden; min-width: 36px; }
 .hbar-fill { height: 100%; border-radius: 2px; }
 .hbar-val { width: 30px; flex-shrink: 0; font-size: 11px; color: var(--fg); text-align: right; }
 
@@ -127,7 +179,7 @@ body {
   padding: 6px 14px;
   font-size: 12px;
   font-weight: 500;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid var(--border);
   border-radius: 4px;
   background: transparent;
   color: var(--fg2);
@@ -135,12 +187,12 @@ body {
   transition: all 0.15s;
 }
 .color-toggle button.active {
-  background: rgba(255,255,255,0.08);
+  background: var(--surface-active);
   color: var(--fg);
-  border-color: rgba(255,255,255,0.2);
+  border-color: var(--surface-active-border);
 }
 .color-toggle button:hover:not(.active) {
-  background: rgba(255,255,255,0.04);
+  background: var(--surface);
 }
 
 .gradient-legend {
@@ -187,7 +239,7 @@ body {
   appearance: none;
   height: 6px;
   border-radius: 3px;
-  background: rgba(255,255,255,0.1);
+  background: var(--slider-track);
   outline: none;
 }
 .timeline-slider::-webkit-slider-thumb {
@@ -199,7 +251,7 @@ body {
   background: var(--fg);
   cursor: pointer;
   border: 2px solid var(--bg);
-  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  box-shadow: 0 0 6px var(--tooltip-shadow);
 }
 .timeline-slider::-moz-range-thumb {
   width: 18px;
@@ -223,8 +275,8 @@ body {
 .analysis-panel {
   margin: 16px 0 20px;
   padding: 16px 20px;
-  background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
   border-radius: 8px;
   font-size: 14px;
   line-height: 1.65;
@@ -248,8 +300,8 @@ body {
   margin-top: 12px;
 }
 .analysis-panel .insight-card {
-  background: rgba(0,0,0,0.25);
-  border: 1px solid rgba(255,255,255,0.05);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 6px;
   padding: 12px 14px;
 }
@@ -275,8 +327,8 @@ body {
 .analysis-panel .callout {
   margin-top: 10px;
   padding: 10px 14px;
-  background: rgba(255,200,60,0.04);
-  border-left: 3px solid rgba(255,200,60,0.3);
+  background: var(--callout-bg);
+  border-left: 3px solid var(--callout-border);
   border-radius: 0 4px 4px 0;
   font-size: 13px;
 }
@@ -296,8 +348,8 @@ canvas#canvas {
 #tooltip {
   position: fixed;
   pointer-events: none;
-  background: var(--bg2);
-  border: 1px solid rgba(255,255,255,0.12);
+  background: var(--tooltip-bg);
+  border: 1px solid var(--tooltip-border);
   border-radius: 8px;
   padding: 12px 16px;
   font-size: 13px;
@@ -306,15 +358,15 @@ canvas#canvas {
   opacity: 0;
   transition: opacity 0.12s;
   z-index: 20;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  box-shadow: 0 8px 32px var(--tooltip-shadow);
 }
 #tooltip.visible { opacity: 1; }
-#tooltip .tt-title { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #fff; }
+#tooltip .tt-title { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: var(--fg); }
 #tooltip .tt-exposure { font-size: 12px; margin-bottom: 8px; }
 #tooltip .tt-stats { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
 #tooltip .tt-stats .label { color: var(--fg2); }
 #tooltip .tt-stats .value { color: var(--fg); text-align: right; }
-#tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; }
+#tooltip .tt-rationale { font-size: 11px; color: var(--fg2); margin-top: 8px; line-height: 1.4; border-top: 1px solid var(--border-subtle); padding-top: 8px; }
 #tooltip .tt-scores { font-size: 11px; margin-top: 6px; }
 #tooltip .tt-scores .score-row { display: flex; justify-content: space-between; gap: 8px; padding: 1px 0; }
 #tooltip .tt-scores .score-label { color: var(--fg2); }
@@ -326,7 +378,7 @@ canvas#canvas {
 <div id="wrapper">
 <div id="header">
   <div class="intro">
-    <h1>US Job Market Visualizer <a href="https://github.com/karpathy/jobs">GitHub</a></h1>
+    <h1>US Job Market Visualizer <a href="https://github.com/karpathy/jobs">GitHub</a> <button id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode" style="font-size:16px;background:none;border:1px solid var(--border);border-radius:4px;padding:4px 10px;cursor:pointer;color:var(--fg2);line-height:1;">&#9789;</button></h1>
     <p>This is a research tool visualizing <b>342 occupations</b> from the <a href="https://www.bls.gov/ooh/">Bureau of Labor Statistics</a>, covering <b>143M jobs</b>. Each rectangle's <b>area</b> = total employment. <b>Color</b> = selected metric. This fork adds <b>4 scoring axes</b> (digital AI exposure, physical/robotics exposure, adoption friction, demand elasticity) across <b>3 time horizons</b> (2028, 2031, 2036), with a composite employment impact score. Drag the timeline slider to watch the treemap shift over time.</p>
   </div>
 
@@ -393,6 +445,20 @@ let currentYear = 2031;
 let data = [];
 let rects = [];
 let hovered = null;
+
+function isLight() { return document.documentElement.classList.contains("light"); }
+function toggleTheme() {
+  document.documentElement.classList.toggle("light");
+  const light = isLight();
+  localStorage.setItem("theme", light ? "light" : "dark");
+  document.getElementById("themeToggle").textContent = light ? "\u2600" : "\u263D";
+  draw();
+}
+// Restore saved theme
+if (localStorage.getItem("theme") === "light") {
+  document.documentElement.classList.add("light");
+  document.getElementById("themeToggle").textContent = "\u2600";
+}
 
 const TIME_METRICS = ["composite", "digital", "physical"];
 const HORIZONS = [2028, 2031, 2036];
@@ -620,7 +686,8 @@ function layout() {
 
 function draw() {
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  ctx.fillStyle = "#0a0a0f";
+  const cs = getComputedStyle(document.documentElement);
+  ctx.fillStyle = cs.getPropertyValue("--canvas-bg").trim();
   ctx.fillRect(0, 0, canvas.width / dpr, canvas.height / dpr);
   for (const r of rects) {
     const isHovered = r === hovered;
@@ -628,17 +695,17 @@ function draw() {
     if (rw <= 0 || rh <= 0) continue;
     ctx.fillStyle = tileColorCSS(r, isHovered ? 0.8 : 0.5);
     ctx.fillRect(rx, ry, rw, rh);
-    if (isHovered) { ctx.strokeStyle = "#fff"; ctx.lineWidth = 2; ctx.strokeRect(rx, ry, rw, rh); }
+    if (isHovered) { ctx.strokeStyle = cs.getPropertyValue("--stroke-hover").trim(); ctx.lineWidth = 2; ctx.strokeRect(rx, ry, rw, rh); }
     if (rw > 50 && rh > 18) {
       ctx.save(); ctx.beginPath(); ctx.rect(rx + 4, ry + 2, rw - 8, rh - 4); ctx.clip();
       const fontSize = Math.min(13, Math.max(9, Math.min(rw / 10, rh / 3)));
       ctx.font = `500 ${fontSize}px -apple-system, system-ui, sans-serif`;
-      ctx.fillStyle = isHovered ? "#fff" : "rgba(255,255,255,0.85)";
+      ctx.fillStyle = cs.getPropertyValue(isHovered ? "--tile-text-hover" : "--tile-text").trim();
       ctx.textBaseline = "top";
       ctx.fillText(r.title, rx + 5, ry + 4);
       if (rh > 34 && rw > 60) {
         ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
-        ctx.fillStyle = "rgba(255,255,255,0.5)";
+        ctx.fillStyle = cs.getPropertyValue("--tile-sub").trim();
         ctx.fillText(tileSubInfo(r), rx + 5, ry + 4 + fontSize + 2);
       }
       ctx.restore();
@@ -699,7 +766,7 @@ function showTooltip(d, mx, my) {
     const color = exposureColor(v, 1);
     const yr = TIME_METRICS.includes(colorMode) ? " (" + Math.round(currentYear) + ")" : "";
     highlightHTML = `<span style="color:${color};font-weight:600;">${metricNames[colorMode]}${yr}: ${v != null ? v.toFixed(1) + "/10" : "\u2014"}</span>` +
-      (v != null ? `<div style="margin-top:3px;height:4px;background:rgba(255,255,255,0.08);border-radius:2px;"><div style="height:100%;width:${v * 10}%;background:${color};border-radius:2px;"></div></div>` : "");
+      (v != null ? `<div style="margin-top:3px;height:4px;background:var(--bar-bg);border-radius:2px;"><div style="height:100%;width:${v * 10}%;background:${color};border-radius:2px;"></div></div>` : "");
   }
   tt.querySelector(".tt-exposure").innerHTML = highlightHTML;
 
