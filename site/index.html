@@ -204,17 +204,12 @@ body {
 }
 .gradient-legend canvas { border-radius: 2px; }
 
-/* Timeline slider */
+/* Timeline year tabs */
 .timeline-container {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   margin-top: 14px;
-  padding: 14px 20px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  position: relative;
 }
 .timeline-container.disabled {
   opacity: 0.3;
@@ -228,70 +223,43 @@ body {
   color: var(--fg2);
   white-space: nowrap;
 }
-.timeline-year {
-  font-size: 32px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--fg);
-  min-width: 64px;
-  text-align: center;
+.year-tabs {
+  display: flex;
+  gap: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+.year-tab {
+  padding: 10px 28px;
+  font-size: 16px;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
-}
-.timeline-slider-wrap {
-  flex: 1;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.timeline-slider {
-  width: 100%;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 8px;
-  border-radius: 4px;
-  background: var(--slider-track);
-  outline: none;
-  cursor: pointer;
-}
-.timeline-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #5a9cf5;
-  cursor: pointer;
-  border: 3px solid var(--bg);
-  box-shadow: 0 0 0 2px rgba(90,156,245,0.3), 0 2px 8px var(--tooltip-shadow);
-  transition: box-shadow 0.15s;
-}
-.timeline-slider::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 0 4px rgba(90,156,245,0.4), 0 2px 12px var(--tooltip-shadow);
-}
-.timeline-slider::-moz-range-thumb {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #5a9cf5;
-  cursor: pointer;
-  border: 3px solid var(--bg);
-  box-shadow: 0 0 0 2px rgba(90,156,245,0.3);
-}
-.timeline-marks {
-  display: flex;
-  justify-content: space-between;
-  font-size: 11px;
-  font-weight: 600;
+  letter-spacing: -0.01em;
   color: var(--fg2);
-  padding: 0 2px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: all 0.15s;
+  position: relative;
+  font-family: inherit;
 }
-.timeline-hint {
-  font-size: 11px;
-  color: var(--fg2);
-  margin-left: auto;
-  opacity: 0.7;
-  white-space: nowrap;
+.year-tab:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+.year-tab:hover {
+  background: var(--surface-hover);
+  color: var(--fg);
+}
+.year-tab.active {
+  background: #5a9cf5;
+  color: #fff;
+  font-weight: 800;
+}
+:root.light .year-tab.active {
+  background: #2563eb;
+  color: #fff;
 }
 
 /* Analysis panel */
@@ -432,12 +400,11 @@ canvas#canvas {
 
   <div class="timeline-container" id="timelineContainer">
     <span class="timeline-label">Horizon</span>
-    <span class="timeline-year" id="timelineYear">2028</span>
-    <div class="timeline-slider-wrap">
-      <input type="range" class="timeline-slider" id="timelineSlider" min="2028" max="2036" step="0.1" value="2028">
-      <div class="timeline-marks"><span>2028</span><span>2031</span><span>2036</span></div>
+    <div class="year-tabs" id="yearTabs">
+      <button class="year-tab active" data-year="2028">2028</button>
+      <button class="year-tab" data-year="2031">2031</button>
+      <button class="year-tab" data-year="2036">2036</button>
     </div>
-    <span class="timeline-hint">Drag to see how exposure changes over time &rarr;</span>
   </div>
 
   <div class="stats-row">
@@ -549,21 +516,9 @@ const EDU_LEVELS = [
   "Doctoral or professional degree",
 ];
 
-// Interpolate a time-varying score at a given year
+// Get score for the selected horizon year
 function interpolateScore(d, prefix) {
-  const vals = HORIZONS.map(y => d[prefix + "_" + y]);
-  if (vals.every(v => v == null)) return null;
-  if (currentYear <= 2028) return vals[0];
-  if (currentYear >= 2036) return vals[2];
-  // Interpolate
-  let loIdx, hiIdx;
-  if (currentYear <= 2031) { loIdx = 0; hiIdx = 1; }
-  else { loIdx = 1; hiIdx = 2; }
-  const lo = vals[loIdx], hi = vals[hiIdx];
-  if (lo == null || hi == null) return lo ?? hi;
-  const span = HORIZONS[hiIdx] - HORIZONS[loIdx];
-  const t = (currentYear - HORIZONS[loIdx]) / span;
-  return lo + (hi - lo) * t;
+  return d[prefix + "_" + currentYear] ?? null;
 }
 
 function getMetricValue(d) {
@@ -795,7 +750,7 @@ function showTooltip(d, mx, my) {
     highlightHTML = `<span style="color:${color};font-weight:600;">Outlook: ${v != null ? (v > 0 ? "+" : "") + v + "%" : "\u2014"}</span>`;
   } else {
     const color = exposureColor(v, 1);
-    const yr = TIME_METRICS.includes(colorMode) ? " (" + Math.round(currentYear) + ")" : "";
+    const yr = TIME_METRICS.includes(colorMode) ? " (" + currentYear + ")" : "";
     highlightHTML = `<span style="color:${color};font-weight:600;">${metricNames[colorMode]}${yr}: ${v != null ? v.toFixed(1) + "/10" : "\u2014"}</span>` +
       (v != null ? `<div style="margin-top:3px;height:4px;background:var(--bar-bg);border-radius:2px;"><div style="height:100%;width:${v * 10}%;background:${color};border-radius:2px;"></div></div>` : "");
   }
@@ -914,7 +869,7 @@ function updateGenericExposureStats(totalJobs) {
 
   document.getElementById("block2").innerHTML = `<h3>Avg. ${name}</h3>
     <div class="stat-big"><span style="color:${colorFn(avg, 1)}">${fmtVal(avg)}</span></div>
-    <div class="stat-label">job-weighted${TIME_METRICS.includes(colorMode) ? " (" + Math.round(currentYear) + ")" : ""}</div>`;
+    <div class="stat-label">job-weighted${TIME_METRICS.includes(colorMode) ? " (" + currentYear + ")" : ""}</div>`;
 
   // Histogram
   const numBuckets = isElasticity ? 11 : 11;
@@ -1208,7 +1163,7 @@ function updateAnalysis() {
         <p>By 2031, the digital AI story shifts from "AI helps workers" to "AI replaces routine workflows." The average score rises to 4.5, but the real action is at the top: occupations that scored 6&ndash;7 in 2028 are now scoring 7&ndash;8, and the 8&ndash;9 tier is hitting 9&ndash;10. The shift from copilot to autonomous agent means <b>AI doesn't just draft the document &mdash; it researches, writes, reviews, and files it</b>.</p>
         <p>Only one occupation hits 10 (medical transcription, effectively automated), but 18 occupations score 9 &mdash; including <b>customer service reps</b>, <b>secretaries</b>, <b>web developers</b>, and <b>technical writers</b>. These roles haven't disappeared, but team sizes have shrunk dramatically. A customer service operation that employed 50 people in 2026 might employ 10 in 2031, with AI handling routine inquiries end-to-end.</p>
         <p>The mid-range (6&ndash;7) is where the most interesting restructuring is happening: <b>accountants</b> (7), <b>lawyers</b> (7), <b>high school teachers</b> (6), <b>mechanical engineers</b> (7). In these occupations, the routine work is automated but the job has been redefined around judgment, client relationships, and exception handling. An accountant in 2031 is fundamentally an advisor, not a preparer.</p>
-        <div class="callout"><b>What to notice:</b> Compare with the 2028 view by toggling the slider. The occupations that were yellow (5&ndash;6) have shifted to orange (6&ndash;7). The ones that were orange are now red. The green base (physical occupations, 0&ndash;2) hasn't moved at all &mdash; digital AI, no matter how capable, doesn't affect roofers. That's why the Physical AI axis exists.</div>
+        <div class="callout"><b>What to notice:</b> Compare with the 2028 view by switching the horizon tab. The occupations that were yellow (5&ndash;6) have shifted to orange (6&ndash;7). The ones that were orange are now red. The green base (physical occupations, 0&ndash;2) hasn't moved at all &mdash; digital AI, no matter how capable, doesn't affect roofers. That's why the Physical AI axis exists.</div>
       `;
       return `
         <h2>2036: Digital AI can do nearly everything &mdash; the question is whether it should</h2>
@@ -1225,7 +1180,7 @@ function updateAnalysis() {
         <p>In 2028, physical AI is <b>overwhelmingly concentrated in controlled industrial environments</b>. The average physical exposure across all 342 occupations is just 1.0/10. Over half the occupations (180) score exactly 0 &mdash; these are pure knowledge workers for whom physical robots are simply irrelevant. Another 71 score 1.</p>
         <p>The only occupations scoring above 5 are in structured, repetitive industrial settings: <b>assemblers and fabricators</b> (7), <b>welders</b> (7), <b>food processing workers</b> (7), <b>semiconductor technicians</b> (8), <b>material recording clerks</b> (4), and <b>warehouse material movers</b> (6). These are environments where the layout is controlled, the objects are standardised, and the tasks are repetitive &mdash; exactly where early humanoid robots and automated systems can operate.</p>
         <p>The sharp boundary is between <b>controlled and uncontrolled environments</b>. A factory assembler (7) works in a space designed for robots. A residential plumber (1) works in a different house every day, crawling under sinks in configurations the robot has never seen. An Amazon warehouse picker (6) handles standardised totes on known shelves. A bartender (2) handles fragile glassware in a social environment where human interaction IS the product.</p>
-        <div class="callout"><b>What to notice:</b> The treemap is almost entirely green. The few orange/red tiles are in manufacturing and production categories. This is the view that Karpathy's original analysis implicitly assumed would persist forever. Drag the slider to 2036 to see why that assumption is wrong.</div>
+        <div class="callout"><b>What to notice:</b> The treemap is almost entirely green. The few orange/red tiles are in manufacturing and production categories. This is the view that Karpathy's original analysis implicitly assumed would persist forever. Switch to the 2036 tab to see why that assumption is wrong.</div>
       `;
       if (h === "2031") return `
         <h2>2031: The robot workforce goes mainstream &mdash; warehouses, farms, highways</h2>
@@ -1296,7 +1251,7 @@ function updateAnalysis() {
         <p>In 2028, the relationship between pay and composite exposure is steep: occupations below $35K average just ${bandStats[0].avg28} composite, while those above $100K average ${bandStats[3].avg28}. Higher pay correlates with more digital work, which correlates with more AI exposure. Low-paid workers are "safe" because their work is physical.</p>
         <p>By 2036, the gap narrows dramatically: below $35K averages ${bandStats[0].avg36}, above $100K averages ${bandStats[3].avg36}. The convergence happens because <b>physical AI catches up</b>. Low-paid physical workers (retail, food service, warehouse, agriculture) see their exposure scores double or triple as robots mature. High-paid knowledge workers see modest increases because their exposure was already high and is now offset by positive demand elasticity.</p>
         <p>The treemap makes this visible in a way no table can: the largest rectangles are overwhelmingly green (low-paid service and production roles employing millions), while the smallest rectangles (high-paid specialists employing thousands) are red. This reflects the structural reality that <b>the American economy employs far more people at moderate wages than at high wages</b>. The total wage bill at risk &mdash; $3.02T in the 7+ composite zone by 2036 &mdash; is concentrated in the mid-salary band, not the high-salary band, simply because there are so many more workers there.</p>
-        <div class="callout"><b>What to notice:</b> The large green rectangles here are the occupations most vulnerable to the "delayed cliff" &mdash; large employment, low pay, and a composite score that triples between 2028 and 2036 as physical AI arrives. Toggle to Composite Impact and drag the slider to see them change colour in real time.</div>
+        <div class="callout"><b>What to notice:</b> The large green rectangles here are the occupations most vulnerable to the "delayed cliff" &mdash; large employment, low pay, and a composite score that triples between 2028 and 2036 as physical AI arrives. Toggle to Composite Impact and switch between horizon years to see them change colour.</div>
       `;
     },
 
@@ -1335,12 +1290,13 @@ document.getElementById("colorToggle").addEventListener("click", (e) => {
   requestAnimationFrame(resize);
 });
 
-// Timeline slider
-const slider = document.getElementById("timelineSlider");
-const yearLabel = document.getElementById("timelineYear");
-slider.addEventListener("input", () => {
-  currentYear = parseFloat(slider.value);
-  yearLabel.textContent = Math.round(currentYear);
+// Timeline year tabs
+document.getElementById("yearTabs").addEventListener("click", (e) => {
+  const btn = e.target.closest(".year-tab");
+  if (!btn) return;
+  currentYear = parseInt(btn.dataset.year);
+  document.querySelectorAll(".year-tab").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
   updateStats();
   updateAnalysis();
   draw();
