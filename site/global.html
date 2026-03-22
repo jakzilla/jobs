@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global AI Impact — Extrapolated from US Data</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0a0f;
+  --bg2: #12121a;
+  --fg: #e0e0e8;
+  --fg2: #888894;
+  --border: rgba(255,255,255,0.1);
+  --border-subtle: rgba(255,255,255,0.06);
+  --surface: rgba(255,255,255,0.04);
+  --surface-active: rgba(255,255,255,0.08);
+  --surface-active-border: rgba(255,255,255,0.2);
+  --panel-bg: rgba(255,255,255,0.02);
+  --panel-border: rgba(255,255,255,0.06);
+  --card-bg: rgba(0,0,0,0.25);
+  --card-border: rgba(255,255,255,0.05);
+  --callout-bg: rgba(255,200,60,0.04);
+  --callout-border: rgba(255,200,60,0.3);
+  --danger-bg: rgba(255,60,60,0.06);
+  --danger-border: rgba(255,60,60,0.3);
+  --ok-bg: rgba(60,200,120,0.06);
+  --ok-border: rgba(60,200,120,0.3);
+}
+:root.light {
+  --bg: #f5f5f7;
+  --bg2: #ffffff;
+  --fg: #1d1d1f;
+  --fg2: #6e6e73;
+  --border: rgba(0,0,0,0.12);
+  --border-subtle: rgba(0,0,0,0.06);
+  --surface: rgba(0,0,0,0.03);
+  --surface-active: rgba(0,0,0,0.06);
+  --surface-active-border: rgba(0,0,0,0.2);
+  --panel-bg: rgba(0,0,0,0.02);
+  --panel-border: rgba(0,0,0,0.08);
+  --card-bg: rgba(0,0,0,0.03);
+  --card-border: rgba(0,0,0,0.06);
+  --callout-bg: rgba(255,180,0,0.06);
+  --callout-border: rgba(200,150,0,0.4);
+  --danger-bg: rgba(255,60,60,0.04);
+  --danger-border: rgba(220,50,50,0.3);
+  --ok-bg: rgba(40,180,100,0.05);
+  --ok-border: rgba(40,180,100,0.3);
+}
+
+body { background: var(--bg); color: var(--fg); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; }
+
+#wrapper { max-width: 960px; width: 100%; margin: 0 auto; padding: 20px 28px 120px; }
+
+nav { display: flex; gap: 4px; margin-bottom: 24px; }
+nav a {
+  padding: 8px 18px; font-size: 13px; font-weight: 500; text-decoration: none;
+  border: 1px solid var(--border); border-radius: 4px; color: var(--fg2); transition: all 0.15s;
+}
+nav a:hover { background: var(--surface); }
+nav a.active { background: var(--surface-active); color: var(--fg); border-color: var(--surface-active-border); }
+
+h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+h1 button { font-size: 16px; background: none; border: 1px solid var(--border); border-radius: 4px; padding: 4px 10px; cursor: pointer; color: var(--fg2); line-height: 1; }
+
+.subtitle { font-size: 15px; line-height: 1.6; color: var(--fg2); margin-bottom: 24px; }
+.subtitle b, .subtitle strong { color: var(--fg); font-weight: 600; }
+
+h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; margin: 36px 0 14px; border-top: 1px solid var(--border-subtle); padding-top: 24px; }
+h2:first-of-type { border-top: none; padding-top: 0; margin-top: 12px; }
+h3 { font-size: 16px; font-weight: 600; margin: 20px 0 10px; }
+
+p { font-size: 14px; line-height: 1.7; color: var(--fg2); margin-bottom: 12px; }
+p b, p strong { color: var(--fg); font-weight: 600; }
+
+.country-card {
+  background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 8px;
+  padding: 18px 22px; margin-bottom: 16px;
+}
+.country-card h3 { margin: 0 0 6px; font-size: 17px; }
+.country-card .country-meta { font-size: 12px; color: var(--fg2); margin-bottom: 10px; }
+.country-card .country-meta span { display: inline-block; margin-right: 16px; }
+
+.exposure-bar {
+  display: flex; align-items: center; gap: 8px; margin: 6px 0; font-size: 12px;
+}
+.exposure-bar .bar-label { width: 140px; color: var(--fg2); flex-shrink: 0; }
+.exposure-bar .bar-track { flex: 1; height: 10px; background: var(--surface); border-radius: 5px; overflow: hidden; }
+.exposure-bar .bar-fill { height: 100%; border-radius: 5px; }
+.exposure-bar .bar-val { width: 60px; text-align: right; color: var(--fg); font-weight: 500; }
+
+.callout { margin: 14px 0; padding: 12px 16px; border-radius: 0 4px 4px 0; font-size: 13px; line-height: 1.6; color: var(--fg2); }
+.callout b, .callout strong { color: var(--fg); }
+.callout-warn { background: var(--callout-bg); border-left: 3px solid var(--callout-border); }
+.callout-danger { background: var(--danger-bg); border-left: 3px solid var(--danger-border); }
+.callout-ok { background: var(--ok-bg); border-left: 3px solid var(--ok-border); }
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0 16px; }
+th { text-align: left; font-weight: 600; color: var(--fg2); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; padding: 6px 10px; border-bottom: 1px solid var(--border); }
+td { padding: 8px 10px; border-bottom: 1px solid var(--border-subtle); color: var(--fg2); }
+td:first-child { color: var(--fg); font-weight: 500; }
+td.danger { color: #e85555; font-weight: 600; }
+td.warn { color: #d4a830; font-weight: 600; }
+td.ok { color: #3cb878; font-weight: 600; }
+
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 700px) { .grid-2 { grid-template-columns: 1fr; } }
+
+.score-pill {
+  display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600;
+}
+.pill-critical { background: rgba(232,85,85,0.15); color: #e85555; }
+.pill-high { background: rgba(212,168,48,0.15); color: #d4a830; }
+.pill-moderate { background: rgba(60,184,120,0.15); color: #3cb878; }
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+
+<nav>
+  <a href="index.html">US Treemap</a>
+  <a href="global.html" class="active">Global Impact</a>
+</nav>
+
+<h1>Global AI Impact <button id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9789;</button></h1>
+<p class="subtitle">The US data scores 342 occupations for AI exposure across four axes and three time horizons. But the consequences extend far beyond American borders. Many of the occupations most exposed to AI &mdash; customer service, data entry, software development, content moderation, manufacturing assembly &mdash; are <b>disproportionately outsourced to developing economies</b> where they represent a much larger share of GDP, employment, and export revenue than they do in the US. This page extrapolates from the US scoring data to assess which countries face the most severe consequences.</p>
+
+<h2>The core asymmetry</h2>
+<p>When a US company automates its customer service operation, the American impact is one line item in a $28 trillion economy. When that same automation eliminates the outsourced contract, the impact falls on the Philippines, where BPO represents <b>8&ndash;10% of GDP</b> and employs <b>1.82 million people</b>. The technology is American; the job losses are Filipino. This pattern repeats across every outsourcing relationship.</p>
+<p>The outsourcing economy was built on a simple arbitrage: tasks that are routine and digital can be performed anywhere, so move them to where labour is cheapest. But "routine and digital" is precisely the profile that scores highest on our digital AI exposure axis. <b>The very characteristics that made work offshorable are the same characteristics that make it automatable.</b> The countries that benefited most from the first wave of globalisation are the most exposed to AI precisely because they specialised in the work AI is best at replacing.</p>
+
+<h2>Mapping US scores to outsourced work</h2>
+<p>The table below maps the major categories of outsourced work to their US composite scores. The scores apply to the <em>task</em>, not the country &mdash; a customer service representative in Manila faces the same technological exposure as one in Omaha. But the economic consequences are vastly different.</p>
+
+<table>
+<thead>
+<tr><th>Outsourced work category</th><th>US composite 2028</th><th>US composite 2031</th><th>US composite 2036</th><th>Primary destinations</th></tr>
+</thead>
+<tbody>
+<tr><td>Call centres / customer service</td><td class="danger">8.1&ndash;8.4</td><td class="danger">9.0&ndash;10</td><td class="danger">9.9&ndash;10</td><td>Philippines, India, South Africa, Pakistan, Egypt</td></tr>
+<tr><td>Data entry / records processing</td><td class="danger">8.3&ndash;10</td><td class="danger">9.0&ndash;10</td><td class="danger">9.9&ndash;10</td><td>India, Philippines, Kenya, Pakistan</td></tr>
+<tr><td>Medical transcription</td><td class="danger">10</td><td class="danger">10</td><td class="danger">10</td><td>India, Philippines</td></tr>
+<tr><td>Content moderation / data labelling</td><td class="danger">8.0&ndash;9.0</td><td class="danger">8.8&ndash;9.3</td><td class="danger">9.5&ndash;10</td><td>Kenya, Philippines, India, Sub-Saharan Africa</td></tr>
+<tr><td>Back-office finance &amp; accounting</td><td class="warn">5.9&ndash;8.8</td><td class="warn">5.9&ndash;8.8</td><td class="danger">7.5&ndash;9.7</td><td>India, Philippines, Poland, Costa Rica</td></tr>
+<tr><td>Translation / localisation</td><td class="danger">7.8</td><td class="danger">7.8</td><td class="danger">7.8</td><td>India, Philippines, Eastern Europe, East Asia</td></tr>
+<tr><td>Legal process outsourcing</td><td class="warn">6.7</td><td class="danger">7.5</td><td class="danger">7.5</td><td>India, South Africa, Philippines</td></tr>
+<tr><td>Software development / IT services</td><td class="warn">6.3&ndash;7.5</td><td class="warn">6.3&ndash;7.5</td><td class="danger">7.2&ndash;8.4</td><td>India, Ukraine, Poland, Romania, Philippines</td></tr>
+<tr><td>Garment manufacturing</td><td class="warn">6.1&ndash;7.8</td><td class="danger">6.9&ndash;8.8</td><td class="danger">8.2&ndash;9.7</td><td>Bangladesh, Vietnam, Cambodia, Myanmar, Ethiopia</td></tr>
+<tr><td>Electronics / general assembly</td><td class="danger">7.8</td><td class="danger">8.8</td><td class="danger">9.7</td><td>China, Vietnam, Mexico, Thailand, Indonesia</td></tr>
+</tbody>
+</table>
+
+<div class="callout callout-danger"><b>Almost every major outsourcing category scores 7+ by 2031.</b> The exceptions are software development (moderated by strong demand elasticity of +3) and some back-office finance work (where advisory roles survive). By 2036, there are no exceptions &mdash; every outsourced work category hits the high-impact zone.</div>
+
+<h2>Country-by-country analysis</h2>
+
+<div class="country-card">
+<h3>Philippines <span class="score-pill pill-critical">Critical exposure</span></h3>
+<div class="country-meta">
+<span><b>BPO revenue:</b> $38.7B (2024)</span>
+<span><b>GDP share:</b> 8&ndash;10%</span>
+<span><b>BPO workers:</b> 1.82M</span>
+</div>
+<p>The Philippines is the country most exposed to AI disruption anywhere in the world. Its economy has been reshaped around a single bet: that voice-based customer service for American companies would remain human-delivered indefinitely. That bet is failing. Customer service scores <b>8.1 composite in 2028, rising to 9.9 by 2036</b>. The call centre is the occupation equivalent of a buggy whip factory.</p>
+<p>The numbers are staggering. BPO contributes nearly a tenth of Philippine GDP and employs 1.82 million people directly, with millions more in support roles (housing, food, transport for BPO workers). The government's IT-BPM roadmap targets $59 billion in revenue and 2.5 million workers by 2028 &mdash; projections made before AI customer service agents became commercially viable. Those targets now look like an economic plan premised on a world that no longer exists.</p>
+<p>The Philippines also handles significant volumes of <b>medical transcription</b> (composite: 10 at all horizons), <b>financial and accounting back-office work</b> (composite: 5.9&ndash;9.7), and <b>content moderation</b> (composite: 8+). Each of these faces the same trajectory. The country's entire outsourcing stack is in the AI blast zone.</p>
+<div class="callout callout-danger"><b>Why this matters beyond jobs:</b> The Philippines is the world's 4th-largest recipient of remittances ($38B/year), but BPO has become a larger economic engine than overseas worker remittances. The BPO sector supports a growing middle class, real estate development in Metro Manila and regional hubs, and tertiary education enrolment. Its contraction would propagate through the entire Philippine economy in ways that pure employment numbers understate.</div>
+</div>
+
+<div class="country-card">
+<h3>India <span class="score-pill pill-critical">Critical exposure</span></h3>
+<div class="country-meta">
+<span><b>IT-BPM revenue:</b> $254B (FY24)</span>
+<span><b>GDP share:</b> 7.5%</span>
+<span><b>IT-BPM workers:</b> 5.4M</span>
+</div>
+<p>India's exposure is enormous in absolute terms but more diversified than the Philippines. The IT-BPM sector employs 5.4 million people and generates $254 billion in revenue, but India's $3.7 trillion economy has more absorptive capacity. The critical question is <b>which segments of India's IT-BPM industry are exposed, and which are not</b>.</p>
+<p>The most vulnerable segment is <b>traditional BPO</b> (call centres, data entry, back-office processing) &mdash; approximately 4 million workers handling tasks that score 8&ndash;10 on composite by 2031. India commands over 30% of the global outsourced BPM market. This work is disappearing.</p>
+<p>The IT services segment (software development, systems integration, consulting) is more complex. Software development scores <b>6.3 composite in 2028 rising to 7.2 by 2036</b>, but this is moderated by demand elasticity of +3. The total volume of software work may grow even as AI replaces junior coding roles. India's 5.5 million IT professionals and 1.5 million annual engineering graduates are well-positioned to <b>adapt</b> rather than be displaced &mdash; if they retool toward AI-augmented development, oversight, and system architecture. The Indian IT firms that successfully pivot to AI-native service delivery will survive; those that continue selling labour hours for routine coding will not.</p>
+<p>India also dominates <b>legal process outsourcing</b> (61% of global LPO, composite rising from 6.7 to 7.5) and handles a significant share of global <b>F&amp;A outsourcing</b> (194,400 FAO employees, composite 5.9&ndash;9.7 depending on role). India's medical transcription workforce processes hundreds of millions of files annually for US hospitals &mdash; that work scores 10/10 at every horizon.</p>
+<div class="callout callout-warn"><b>India's size is both a vulnerability and a buffer.</b> The country has enough economic diversification to absorb BPO contraction without systemic crisis, but 4+ million BPO workers losing their livelihoods would create a significant social and political shock, particularly in Bangalore, Hyderabad, Chennai, and Pune where IT-BPM is the dominant employer.</div>
+</div>
+
+<div class="country-card">
+<h3>Bangladesh <span class="score-pill pill-high">High exposure</span></h3>
+<div class="country-meta">
+<span><b>Garment exports:</b> $38.5B (2024)</span>
+<span><b>GDP share:</b> 10&ndash;11%</span>
+<span><b>Workers:</b> 4&ndash;5M (55% women)</span>
+</div>
+<p>Bangladesh's vulnerability is different from the Philippines' and India's: it's driven by <b>physical AI</b>, not digital. The country is the world's second-largest garment exporter, and the industry represents 82% of all exports and 10&ndash;11% of GDP. Garment assembly maps to our "assemblers and fabricators" score: <b>composite 7.8 in 2028, rising to 9.7 by 2036</b>.</p>
+<p>The saving grace &mdash; for now &mdash; is that garment automation remains technically challenging. Fabrics are deformable, stitching requires dexterity with varied materials, and Bangladesh's Industry 4.0 maturity is rated just 1.91 out of 5.0. But the trajectory is clear. As humanoid robots improve dexterity and fabric-handling capabilities between 2028 and 2036, the economics shift. A robot that costs $15K and operates 24/7 competes directly with a Bangladeshi garment worker earning $100&ndash;150/month.</p>
+<p>The social dimensions are acute. <b>55% of garment workers are women</b>, for whom the industry represents the primary pathway out of rural poverty. Contraction would not just create unemployment; it would reverse decades of progress on women's economic participation in one of the world's poorest countries.</p>
+<div class="callout callout-danger"><b>The timeline is the key variable.</b> If garment automation arrives gradually (2031&ndash;2040), Bangladesh may have time to diversify. If it arrives rapidly (as our physical AI scores project, with assembly hitting 8.8 by 2031), the country faces a crisis for which it has no economic Plan B. 82% export concentration in a single automatable sector is the definition of fragility.</div>
+</div>
+
+<div class="country-card">
+<h3>Kenya &amp; Sub-Saharan Africa <span class="score-pill pill-high">High exposure</span></h3>
+<div class="country-meta">
+<span><b>Data/AI workers (Kenya):</b> ~1.2M online gig workers</span>
+<span><b>Continent-wide:</b> 150,000+ content mod / data labelling workers</span>
+<span><b>Typical wage:</b> $1.50&ndash;$2.00/hour</span>
+</div>
+<p>Kenya and Sub-Saharan Africa present a cruel paradox: the region's newest economic opportunity &mdash; <b>data labelling and AI training</b> &mdash; is being built on work that AI itself will eventually automate. Kenyan workers currently label training data for OpenAI, Meta, and Scale AI at $1.50&ndash;$2.00/hour. The data labelling industry is valued at $3.77 billion in 2024 and projected to grow to $10 billion by 2030. But this growth projection assumes continuing demand for <b>human</b> labellers.</p>
+<p>As AI systems become capable of self-supervised learning, synthetic data generation, and automated quality assurance, the need for human labelling contracts. The work that Kenyan data labellers do &mdash; classifying images, annotating text, verifying AI outputs &mdash; maps directly to our data entry and quality assurance scores, which hit <b>8&ndash;10 composite by 2031</b>. The industry may grow through 2028 as AI training demand surges, then contract sharply as the AI systems themselves become good enough to generate and label their own training data.</p>
+<p>Content moderation tells a similar story. An estimated 150,000+ workers across Sub-Saharan Africa moderate content for US social media platforms. This work scores 8+ composite &mdash; AI moderation systems are already handling the majority of content flags, with human workers increasingly limited to edge cases. As edge-case handling improves, the human role shrinks.</p>
+<div class="callout callout-warn"><b>The bitter irony:</b> African workers are being paid poverty wages to build the AI systems that will eventually eliminate their own jobs. The industry may provide a temporary economic bridge &mdash; 5&ndash;8 years of employment and skill development &mdash; but it is not a foundation for long-term economic development. Countries building development strategies around AI training data work are building on quicksand.</div>
+</div>
+
+<div class="country-card">
+<h3>Eastern Europe (Poland, Romania, Ukraine) <span class="score-pill pill-moderate">Moderate exposure</span></h3>
+<div class="country-meta">
+<span><b>IT specialists:</b> Poland 600K, Romania 250K, Ukraine 200&ndash;300K</span>
+<span><b>Combined outsourcing share:</b> ~31% of global market</span>
+<span><b>IT as % GDP:</b> Poland 8%, Romania 6.7%</span>
+</div>
+<p>Eastern Europe's outsourcing sector is <b>positioned differently</b> from the Philippines' or India's traditional BPO. The region specialises in <b>higher-value IT services</b>: software development, systems architecture, DevOps, and specialised engineering. These roles score 6.3&ndash;7.5 composite in 2028 &mdash; exposed, but moderated by strong demand elasticity.</p>
+<p>The key difference is that Eastern European IT workers tend to operate <b>closer to the technology frontier</b>. A Polish senior developer working on distributed systems or a Romanian AI/ML engineer is performing the kind of work that scores lower on composite because (a) it involves genuine novel problem-solving, not routine coding, and (b) demand elasticity is positive &mdash; organisations want more of this work, not less.</p>
+<p>The vulnerable segment is the <b>routine coding and QA workforce</b> that built the region's outsourcing industry in the 2000s and 2010s. Junior developers whose primary value is converting specifications into code at lower cost than US developers &mdash; this is exactly the work AI coding agents handle by 2031. The senior architects, system designers, and AI specialists will likely see <b>demand increase</b>.</p>
+<p>Ukraine's situation is compounded by the war &mdash; its $6.4 billion IT export industry (45% of total exports) faces both AI disruption and geopolitical disruption simultaneously. But its IT workforce is highly adaptable, and many Ukrainian developers have already pivoted to AI-adjacent roles.</p>
+<div class="callout callout-ok"><b>Relative resilience:</b> Eastern Europe is better positioned than most outsourcing destinations because its workforce skews toward higher-value, harder-to-automate work, and the region's proximity to Western European clients creates relationship and timezone advantages that pure AI agents can't replicate. The countries that invest most aggressively in AI skills training will likely see their IT sectors grow even as routine development is automated.</div>
+</div>
+
+<div class="country-card">
+<h3>Manufacturing hubs: China, Vietnam, Mexico, Thailand, Indonesia <span class="score-pill pill-high">High exposure (2031&ndash;2036)</span></h3>
+<div class="country-meta">
+<span><b>Manufacturing workers:</b> China ~200M, Indonesia 19M, Thailand 6.3M, Mexico 1M+ (maquiladoras)</span>
+<span><b>Manufacturing as % GDP:</b> China 26%, Thailand 27%, Indonesia 20%, Mexico mfg output $313B</span>
+</div>
+<p>The manufacturing outsourcing hubs face a different timeline from the digital outsourcing economies. Physical AI scores low in 2028 (assembly at 7.8 is the exception, driven by already-deployed factory robots) but rises sharply through 2031 and 2036 as humanoid robots mature. By 2036, assembly and fabrication scores <b>9.7 composite</b> &mdash; near-total automation.</p>
+<p>The irony is that <b>China is both the most exposed and the most prepared</b>. China has 2 million+ industrial robots (nearly half the global stock), 470 robots per 10,000 manufacturing employees, and domestic manufacturers supply 60% of installed robots. China is automating its own factories faster than any country, which means its manufacturing employment will decline but its manufacturing output may not. Chinese robot exports to Vietnam, Mexico, and Thailand grew 60% year-on-year in H1 2025 &mdash; China is exporting the machines that will eventually replace workers in its competitors' factories too.</p>
+<p><b>Vietnam</b> and <b>Mexico</b> are the most interesting cases. Both have attracted massive manufacturing investment through nearshoring (companies moving production closer to end markets). Vietnam's manufacturing is driving 8.4% industrial production growth; Mexico's maquiladoras account for 58% of manufacturing GDP. But these investments are predicated on <b>labour cost advantages</b> that robots eliminate. A factory built in Vietnam in 2025 to take advantage of $350/month manufacturing wages may be automated by robots costing $15K each by 2032.</p>
+<p><b>Indonesia</b> (19 million manufacturing workers, 20% of GDP) and <b>Thailand</b> (6.3 million workers, 27% of GDP) face similar trajectories. Both have large manufacturing workforces in sectors &mdash; automotive, electronics, food processing &mdash; that score 7&ndash;9 on physical exposure by 2036.</p>
+<div class="callout callout-warn"><b>The nearshoring trap:</b> The current wave of nearshoring investment (moving factories from China to Vietnam, Mexico, India) is partly driven by geopolitics and partly by labour costs. But if robots can perform the same work anywhere for the same cost, the labour-cost rationale for nearshoring disappears. Factories may move back to the markets they serve (the US, Europe) where logistics costs are lower, eliminating the manufacturing employment that developing countries are counting on for economic development.</div>
+</div>
+
+<div class="country-card">
+<h3>South Africa &amp; Colombia <span class="score-pill pill-high">High exposure</span></h3>
+<div class="country-meta">
+<span><b>South Africa BPO:</b> 270K workers, $2B revenue, targeting 500K jobs by 2030</span>
+<span><b>Colombia BPO:</b> 790K workers, $2.9B exports, 3.3% of GDP</span>
+</div>
+<p>Both countries have invested heavily in BPO as an employment strategy for young, urban populations with high unemployment. South Africa ranks as the 3rd most attractive offshoring destination globally and has set a government target of 500,000 BPO jobs by 2030. Colombia's BPO workforce has grown to 790,000 with $2.9 billion in service exports.</p>
+<p>The challenge is identical to the Philippines': the work these countries are recruiting is overwhelmingly in the <b>call centre, data entry, and back-office processing</b> categories that score 8&ndash;10 composite by 2031. South Africa has 65,000 workers specifically serving international clients; Colombia is positioning itself as a nearshore alternative to India for US companies. Both strategies depend on the continued demand for human agents in roles that AI is automating.</p>
+<p>South Africa's situation is particularly consequential given the country's 32%+ unemployment rate. BPO has been positioned as one of the few scalable employment solutions for a young population with limited industrial alternatives. If that sector contracts before alternative employment pathways develop, the social and political consequences could be severe.</p>
+</div>
+
+<div class="country-card">
+<h3>Costa Rica <span class="score-pill pill-moderate">Moderate exposure</span></h3>
+<div class="country-meta">
+<span><b>Service exports:</b> $16B (17% of GDP)</span>
+<span><b>Knowledge-based services:</b> $9.1B</span>
+<span><b>Free trade zone workers:</b> 109K</span>
+</div>
+<p>Costa Rica is an outlier among outsourcing destinations: it has deliberately moved <b>upmarket</b>, specialising in knowledge-based services rather than routine BPO. The country's $9.1 billion in knowledge-based services exports (4th largest in Latin America) include engineering services, financial analysis, and specialised IT &mdash; work that scores lower on composite due to higher judgment requirements and positive demand elasticity.</p>
+<p>The routine BPO segment (IT outsourcing at ~$215 million) is exposed, but it's a small fraction of the country's service economy. Costa Rica's strategy of investing in education, attracting multinational R&amp;D centres, and positioning as a high-value nearshore destination has created a workforce that is <b>more likely to be augmented by AI than replaced by it</b>.</p>
+<div class="callout callout-ok"><b>A model for adaptation:</b> Costa Rica demonstrates that outsourcing economies can position themselves above the AI automation line by investing in education and deliberately targeting higher-value work. The question is whether other countries can replicate this strategy at larger scale and in shorter timeframes.</div>
+</div>
+
+<h2>The compound crisis: when digital and physical converge</h2>
+<p>The most dangerous scenario is not digital AI or physical AI in isolation &mdash; it's their convergence. Countries like the <b>Philippines</b> face digital AI eliminating BPO jobs while simultaneously facing slower-moving physical AI disrupting agricultural and manufacturing employment. <b>Bangladesh</b> faces garment automation (physical) while its nascent digital outsourcing sector is simultaneously automated. <b>India</b> faces BPO automation (digital) alongside manufacturing automation in sectors like automotive and electronics.</p>
+<p>In the US, workers displaced from one sector can theoretically move to another. A laid-off call centre worker can retrain as a healthcare aide (composite 0.0&ndash;2.1 across all horizons). In developing economies, the <b>absorptive capacity is far lower</b>. There are fewer alternative sectors, less social safety net, weaker retraining infrastructure, and the displaced workers often have education profiles that limit mobility.</p>
+
+<h2>Timeline summary</h2>
+<table>
+<thead>
+<tr><th>Country / Region</th><th>2028</th><th>2031</th><th>2036</th><th>Primary risk</th></tr>
+</thead>
+<tbody>
+<tr><td>Philippines</td><td class="danger">Acute</td><td class="danger">Severe</td><td class="danger">Critical</td><td>Voice BPO collapse</td></tr>
+<tr><td>India (BPO segment)</td><td class="danger">Acute</td><td class="danger">Severe</td><td class="danger">Critical</td><td>Routine BPO + medical transcription</td></tr>
+<tr><td>India (IT services)</td><td class="warn">Moderate</td><td class="warn">Moderate</td><td class="warn">High</td><td>Junior dev roles automated</td></tr>
+<tr><td>Bangladesh</td><td class="warn">Moderate</td><td class="warn">High</td><td class="danger">Critical</td><td>Garment assembly automation</td></tr>
+<tr><td>Kenya / Sub-Saharan Africa</td><td class="ok">Growing</td><td class="warn">Peaking</td><td class="danger">Contracting</td><td>Data labelling / content mod obsolescence</td></tr>
+<tr><td>Eastern Europe</td><td class="ok">Low</td><td class="warn">Moderate</td><td class="warn">Moderate</td><td>Routine coding displaced</td></tr>
+<tr><td>China (manufacturing)</td><td class="ok">Low</td><td class="warn">Moderate</td><td class="warn">Moderate</td><td>Labour displacement offset by robot production</td></tr>
+<tr><td>Vietnam / Mexico / Thailand</td><td class="ok">Low</td><td class="warn">Moderate</td><td class="danger">High</td><td>Nearshoring rationale erodes</td></tr>
+<tr><td>South Africa / Colombia</td><td class="warn">Moderate</td><td class="danger">Severe</td><td class="danger">Critical</td><td>BPO employment strategy collapses</td></tr>
+<tr><td>Costa Rica</td><td class="ok">Low</td><td class="ok">Low</td><td class="warn">Moderate</td><td>Higher-value positioning provides buffer</td></tr>
+</tbody>
+</table>
+
+<h2>What makes this different from previous waves of automation</h2>
+<p>Previous technology transitions (mechanised agriculture, industrial manufacturing, computerised offices) displaced workers in <b>specific sectors within wealthy countries</b> that had the institutional capacity to manage the transition: unemployment insurance, retraining programmes, geographic mobility, diversified economies. The AI transition is different in three ways:</p>
+<p><b>1. It hits developing countries harder than wealthy ones.</b> The occupations most exposed (routine digital work, structured physical labour) are disproportionately concentrated in countries with the weakest social safety nets and the fewest alternative employment pathways. The Philippines doesn't have Germany's apprenticeship system or Denmark's flexicurity model.</p>
+<p><b>2. It hits multiple sectors simultaneously.</b> The garment worker in Dhaka, the call centre agent in Manila, the data labeller in Nairobi, and the factory assembler in Hanoi are all exposed within the same decade. Previous automation waves were sequential &mdash; agriculture mechanised over a century, then manufacturing over decades. AI compresses the timeline.</p>
+<p><b>3. The beneficiaries and the displaced are in different countries.</b> When American factories automated in the 1960s&ndash;80s, the productivity gains and the job losses were in the same economy. The tax revenue from higher productivity could fund transition support. When AI automates outsourced work, the productivity gains accrue to US companies and their shareholders while the job losses fall on countries that have no claim on those gains and no seat at the policy table.</p>
+<div class="callout callout-danger"><b>The structural challenge:</b> There is no international institution equipped to manage a transition of this scale and speed. The WTO, ILO, and World Bank were designed for a world where trade created winners and losers within a broadly positive-sum game. AI-driven automation of outsourced work is not positive-sum for the outsourcing destinations &mdash; it is a transfer of economic activity from human labour in developing countries to AI capital in wealthy countries. The policy frameworks to address this do not yet exist.</div>
+
+<p style="margin-top: 32px; font-size: 12px; color: var(--fg2);">Data sources: BLS Occupational Outlook Handbook (US scores), IBPAP/Everest Group (Philippines BPO), NASSCOM (India IT-BPM), ILO/Brookings (Africa digital labour), World Bank/IMF (country economic data), Grand View Research (global outsourcing market). All US composite scores are from this project's multi-axis scoring of 342 occupations. Country-level statistics are from industry reports and government sources as of 2024&ndash;2025. See the <a href="https://github.com/jakzilla/jobs" style="color:var(--fg2);">GitHub repository</a> for methodology and scoring details.</p>
+
+</div>
+
+<script>
+function isLight() { return document.documentElement.classList.contains("light"); }
+function toggleTheme() {
+  document.documentElement.classList.toggle("light");
+  const light = isLight();
+  localStorage.setItem("theme", light ? "light" : "dark");
+  document.getElementById("themeToggle").textContent = light ? "\u2600" : "\u263D";
+}
+if (localStorage.getItem("theme") === "light") {
+  document.documentElement.classList.add("light");
+  document.getElementById("themeToggle").textContent = "\u2600";
+}
+</script>
+</body>
+</html>

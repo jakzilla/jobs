@@ -377,6 +377,10 @@ canvas#canvas {
 
 <div id="wrapper">
 <div id="header">
+  <nav style="display:flex;gap:4px;margin-bottom:16px;">
+    <a href="index.html" style="padding:8px 18px;font-size:13px;font-weight:500;text-decoration:none;border:1px solid var(--surface-active-border);border-radius:4px;color:var(--fg);background:var(--surface-active);">US Treemap</a>
+    <a href="global.html" style="padding:8px 18px;font-size:13px;font-weight:500;text-decoration:none;border:1px solid var(--border);border-radius:4px;color:var(--fg2);transition:all 0.15s;" onmouseover="this.style.background='var(--surface)'" onmouseout="this.style.background='transparent'">Global Impact</a>
+  </nav>
   <div class="intro">
     <h1>US Job Market Visualizer <a href="https://github.com/karpathy/jobs">GitHub</a> <button id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode" style="font-size:16px;background:none;border:1px solid var(--border);border-radius:4px;padding:4px 10px;cursor:pointer;color:var(--fg2);line-height:1;">&#9789;</button></h1>
     <p>This is a research tool visualizing <b>342 occupations</b> from the <a href="https://www.bls.gov/ooh/">Bureau of Labor Statistics</a>, covering <b>143M jobs</b>. Each rectangle's <b>area</b> = total employment. <b>Color</b> = selected metric. This fork adds <b>4 scoring axes</b> (digital AI exposure, physical/robotics exposure, adoption friction, demand elasticity) across <b>3 time horizons</b> (2028, 2031, 2036), with a composite employment impact score. Drag the timeline slider to watch the treemap shift over time.</p>
